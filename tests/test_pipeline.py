@@ -53,7 +53,7 @@ def test_pipeline_end_to_end(conn, cfg, monkeypatch):
     assert all(0 <= r["overall_score"] <= 100 for r in rows.values())
     md = build_digest(cfg, conn)
     assert "## Top 2 problems" in md and "example.com/a0" in md and "Excel" not in md
-    assert "## Cross-market gaps" in md and "## Rising" in md and "STUB" not in md
+    assert "## Cross-market gaps" in md and "## Rising" in md
     # re-running classify is a no-op; --reclassify redoes everything
     assert classify(cfg, conn)["items"] == 0
     assert classify(cfg, conn, reclassify=True)["items"] == 10

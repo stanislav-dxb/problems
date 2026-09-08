@@ -20,7 +20,7 @@ def setup_logging(verbose: bool = False) -> None:
     logging.basicConfig(level=level, format="%(asctime)s %(levelname)s %(name)s: %(message)s",
                         datefmt="%H:%M:%S")
     for noisy in ("httpx", "httpcore", "urllib3", "sentence_transformers", "transformers",
-                  "huggingface_hub", "anthropic"):
+                  "huggingface_hub"):
         logging.getLogger(noisy).setLevel(logging.WARNING)
 
 
