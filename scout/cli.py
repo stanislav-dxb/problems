@@ -11,9 +11,8 @@ from . import __version__
 from .config import load_config
 from .util import setup_logging
 
-app = typer.Typer(help="Problem Scout: collect → classify → cluster → evaluate → digest.",
+app = typer.Typer(help="Problem Scout: collect → classify → cluster → score → digest. No LLM, runs locally.",
                   no_args_is_help=True, add_completion=False)
-
 _state: dict = {"cfg": None}
 
 
@@ -26,17 +25,6 @@ def _cfg() -> dict:
 def _conn() -> sqlite3.Connection:
     from . import db as dbm
     return dbm.connect()
-
-
-def _llm(conn: sqlite3.Connection):
-    from .llm import LLMUnavailable, get_llm
-    try:
-        return get_llm(_cfg(), conn)
-    except LLMUnavailable as e:
-        typer.secho(f"Claude unavailable: {e}", fg=typer.colors.RED, err=True)
-        typer.secho("Add ANTHROPIC_API_KEY to .env (see .env.example), or set SCOUT_LLM=stub for an offline smoke run.",
-                    err=True)
-        raise typer.Exit(code=2)
 
 
 @app.callback()
@@ -74,34 +62,30 @@ def collect(source: Optional[str] = typer.Option(None, "--source", help="Only th
 
 @app.command()
 def classify(limit: Optional[int] = typer.Option(None, "--limit", help="Max items to classify this run"),
-             retry_failed: bool = typer.Option(False, "--retry-failed", help="Also retry items that failed before")):
-    """Classify unclassified items with Claude (batches of 20)."""
+             reclassify: bool = typer.Option(False, "--reclassify", help="Drop existing classifications and redo all (after changing rules/threshold)")):
+    """Flag items that describe a problem using multilingual phrase rules (no model calls)."""
     from .classify import classify as run_classify
     with _conn() as conn:
-        llm = _llm(conn)
-        stats = run_classify(_cfg(), conn, llm, limit=limit, retry_failed=retry_failed)
+        stats = run_classify(_cfg(), conn, limit=limit, reclassify=reclassify)
     typer.echo(f"classify: {stats}")
 
 
 @app.command()
-def cluster(no_labels: bool = typer.Option(False, "--no-labels", help="Skip Claude labelling (use member summaries)")):
-    """Re-cluster all classified problems from scratch (local embeddings + Claude labels)."""
+def cluster():
+    """Re-cluster all flagged problems from scratch with local multilingual embeddings."""
     from .cluster import run_clustering
     with _conn() as conn:
-        llm = None if no_labels else _llm(conn)
-        stats = run_clustering(_cfg(), conn, llm)
+        stats = run_clustering(_cfg(), conn)
     typer.echo(f"cluster: {stats}")
 
 
 @app.command()
-def evaluate(force: bool = typer.Option(False, "--force", help="Re-evaluate clusters that already have an evaluation"),
-             limit: Optional[int] = typer.Option(None, "--limit", help="Max clusters to evaluate this run")):
-    """Evaluate every cluster with enough items against the founder's criteria."""
-    from .evaluate import evaluate as run_evaluate
+def score():
+    """Compute the evidence score for every cluster with enough items."""
+    from .score import score as run_score
     with _conn() as conn:
-        llm = _llm(conn)
-        stats = run_evaluate(_cfg(), conn, llm, force=force, limit=limit)
-    typer.echo(f"evaluate: {stats}")
+        stats = run_score(_cfg(), conn)
+    typer.echo(f"score: {stats}")
 
 
 @app.command()
@@ -118,8 +102,8 @@ def digest(top: Optional[int] = typer.Option(None, "--top", help="Number of clus
 def run(since: Optional[int] = typer.Option(None, "--since", help="Look-back window in days for collection"),
         top: Optional[int] = typer.Option(None, "--top", help="Clusters in the digest"),
         out: Optional[str] = typer.Option(None, "--out", help="Digest output path"),
-        dry_run: bool = typer.Option(False, "--dry-run", help="Describe every stage without fetching or calling Claude")):
-    """Full pipeline: collect → classify → cluster → evaluate → digest."""
+        dry_run: bool = typer.Option(False, "--dry-run", help="Describe every stage without fetching")):
+    """Full pipeline: collect → classify → cluster → score → digest."""
     from . import db as dbm
     from .collect import collect as run_collect, dry_run_plan
     cfg = _cfg()
@@ -131,45 +115,37 @@ def run(since: Optional[int] = typer.Option(None, "--since", help="Look-back win
         with _conn() as conn:
             pending = len(dbm.unclassified_items(conn))
             problems = conn.execute("SELECT COUNT(*) FROM problems WHERE is_problem = 1").fetchone()[0]
-            min_size = int(cfg.get("evaluation", {}).get("min_cluster_size", 5))
-            to_eval = len(dbm.clusters_to_evaluate(conn, min_size))
-        bs = int(cfg.get("classify_batch_size", 20))
         typer.echo("== classify (dry run) ==")
-        typer.echo(f"  {pending} unclassified items -> {-(-pending // bs)} Claude calls of up to {bs} items "
-                   f"(model {cfg.get('model')})")
+        typer.echo(f"  {pending} unclassified items would be scored against the phrase rules (threshold "
+                   f"{cfg.get('classify', {}).get('threshold')})")
         typer.echo("== cluster (dry run) ==")
         typer.echo(f"  {problems} problem summaries would be embedded with {cfg['clustering'].get('embedding_model')} "
-                   f"and clustered at cosine distance {cfg['clustering'].get('distance_threshold')}; "
-                   f"one Claude label call per cluster with >= {cfg['clustering'].get('label_min_size', 2)} items")
-        typer.echo("== evaluate (dry run) ==")
-        typer.echo(f"  {to_eval} clusters with >= {min_size} items currently lack an evaluation -> {to_eval} Claude calls "
-                   "(re-clustering may change this)")
-        typer.echo("== digest (dry run) ==")
-        typer.echo(f"  would write digests/YYYY-MM-DD.md with top {top or cfg['digest'].get('top_n')} clusters")
+                   f"and clustered at cosine distance {cfg['clustering'].get('distance_threshold')}")
+        typer.echo("== score / digest (dry run) ==")
+        typer.echo(f"  clusters with >= {cfg['scoring'].get('min_cluster_size')} items would be scored; "
+                   f"digest with top {top or cfg['digest'].get('top_n')} written to digests/YYYY-MM-DD.md")
         return
     from .classify import classify as run_classify
     from .cluster import run_clustering
     from .digest import write_digest
-    from .evaluate import evaluate as run_evaluate
+    from .score import score as run_score
     with _conn() as conn:
         typer.echo("== collect ==")
         for name, r in run_collect(cfg, conn, days).items():
             typer.echo(f"  {name}: {r}")
-        llm = _llm(conn)
         typer.echo("== classify ==")
-        typer.echo(f"  {run_classify(cfg, conn, llm)}")
+        typer.echo(f"  {run_classify(cfg, conn)}")
         typer.echo("== cluster ==")
-        typer.echo(f"  {run_clustering(cfg, conn, llm)}")
-        typer.echo("== evaluate ==")
-        typer.echo(f"  {run_evaluate(cfg, conn, llm)}")
+        typer.echo(f"  {run_clustering(cfg, conn)}")
+        typer.echo("== score ==")
+        typer.echo(f"  {run_score(cfg, conn)}")
         typer.echo("== digest ==")
-        path = write_digest(cfg, conn, top_n=top, out=out)
-        typer.echo(f"  wrote {path}")
+        typer.echo(f"  wrote {write_digest(cfg, conn, top_n=top, out=out)}")
 
 
 @app.command()
 def stats():
-    """Counts per source, domain and week, plus API token usage and estimated daily cost."""
+    """Counts per source, language, domain and week, plus pipeline state."""
     from .stats import gather, render
     with _conn() as conn:
         typer.echo(render(gather(conn)))

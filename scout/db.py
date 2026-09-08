@@ -42,6 +42,7 @@ CREATE TABLE IF NOT EXISTS problems (
     existing_solutions_named TEXT,    -- JSON list
     language                 TEXT,
     classification_failed    INTEGER NOT NULL DEFAULT 0,
+    signal_score             INTEGER,
     cluster_id               INTEGER,
     classified_at            TEXT NOT NULL
 );
@@ -62,41 +63,17 @@ CREATE TABLE IF NOT EXISTS clusters (
     created_at        TEXT NOT NULL
 );
 
-CREATE TABLE IF NOT EXISTS evaluations (
-    id                     INTEGER PRIMARY KEY AUTOINCREMENT,
-    cluster_id             INTEGER NOT NULL,          -- not a FK: history survives re-clustering
-    member_hash            TEXT,
-    market_size_estimate   TEXT,
-    market_size_reasoning  TEXT,
-    monopoly_potential     INTEGER,
-    location_independent   INTEGER,
-    capital_light          INTEGER,
-    measurable_90d         INTEGER,
-    path_to_1b             TEXT,
-    path_to_1b_score       INTEGER,
-    what_would_kill_it     TEXT,
-    quickest_test          TEXT,
-    cross_market_advantage TEXT,
-    overall_score          REAL,
-    raw_json               TEXT,
-    evaluated_at           TEXT NOT NULL
+CREATE TABLE IF NOT EXISTS scores (
+    id                 INTEGER PRIMARY KEY AUTOINCREMENT,
+    cluster_id         INTEGER NOT NULL REFERENCES clusters(id) ON DELETE CASCADE,
+    volume             REAL, growth REAL, sources REAL, languages REAL,
+    pain               REAL, money REAL, demand REAL, workaround REAL,
+    competition        INTEGER,        -- distinct existing solutions named by members
+    existing_solutions TEXT,           -- JSON [[name, count], ...]
+    overall_score      REAL,
+    scored_at          TEXT NOT NULL
 );
-CREATE INDEX IF NOT EXISTS idx_eval_cluster ON evaluations (cluster_id);
-
-CREATE TABLE IF NOT EXISTS api_calls (
-    id            INTEGER PRIMARY KEY AUTOINCREMENT,
-    called_at     TEXT NOT NULL,
-    purpose       TEXT NOT NULL,
-    model         TEXT NOT NULL,
-    input_tokens  INTEGER NOT NULL DEFAULT 0,
-    output_tokens INTEGER NOT NULL DEFAULT 0,
-    cache_read_tokens  INTEGER NOT NULL DEFAULT 0,
-    cache_write_tokens INTEGER NOT NULL DEFAULT 0,
-    cost_usd      REAL NOT NULL DEFAULT 0,
-    duration_ms   INTEGER,
-    ok            INTEGER NOT NULL DEFAULT 1,
-    error         TEXT
-);
+CREATE INDEX IF NOT EXISTS idx_scores_cluster ON scores (cluster_id);
 
 CREATE TABLE IF NOT EXISTS runs (
     id          INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -117,7 +94,18 @@ def connect(path: str | None = None) -> sqlite3.Connection:
     conn.execute("PRAGMA journal_mode=WAL")
     conn.execute("PRAGMA foreign_keys=ON")
     conn.executescript(SCHEMA)
+    _migrate(conn)
     return conn
+
+
+def _migrate(conn: sqlite3.Connection) -> None:
+    """Bring databases created by earlier versions up to the current schema."""
+    cols = {r["name"] for r in conn.execute("PRAGMA table_info(problems)")}
+    if "signal_score" not in cols:
+        conn.execute("ALTER TABLE problems ADD COLUMN signal_score INTEGER")
+    for legacy in ("evaluations", "api_calls"):
+        conn.execute(f"DROP TABLE IF EXISTS {legacy}")
+    conn.commit()
 
 
 @contextmanager
@@ -182,20 +170,22 @@ def upsert_problem(conn: sqlite3.Connection, row: dict[str, Any]) -> None:
     row.setdefault("classified_at", iso(now_utc()))
     row.setdefault("classification_failed", 0)
     for k in ("domain", "who_has_it", "problem_summary", "pain_score", "money_mentioned",
-              "workaround_described", "solution_requested", "existing_solutions_named", "language"):
+              "workaround_described", "solution_requested", "existing_solutions_named", "language",
+              "signal_score"):
         row.setdefault(k, None)
     conn.execute(
         "INSERT INTO problems (item_id, is_problem, domain, who_has_it, problem_summary, pain_score, "
         "money_mentioned, workaround_described, solution_requested, existing_solutions_named, "
-        "language, classification_failed, classified_at) VALUES (:item_id, :is_problem, :domain, "
+        "language, classification_failed, signal_score, classified_at) VALUES (:item_id, :is_problem, :domain, "
         ":who_has_it, :problem_summary, :pain_score, :money_mentioned, :workaround_described, "
-        ":solution_requested, :existing_solutions_named, :language, :classification_failed, "
+        ":solution_requested, :existing_solutions_named, :language, :classification_failed, :signal_score, "
         ":classified_at) ON CONFLICT(item_id) DO UPDATE SET is_problem=excluded.is_problem, "
         "domain=excluded.domain, who_has_it=excluded.who_has_it, problem_summary=excluded.problem_summary, "
         "pain_score=excluded.pain_score, money_mentioned=excluded.money_mentioned, "
         "workaround_described=excluded.workaround_described, solution_requested=excluded.solution_requested, "
         "existing_solutions_named=excluded.existing_solutions_named, language=excluded.language, "
-        "classification_failed=excluded.classification_failed, classified_at=excluded.classified_at",
+        "classification_failed=excluded.classification_failed, signal_score=excluded.signal_score, "
+        "classified_at=excluded.classified_at",
         row,
     )
 
@@ -210,6 +200,7 @@ def problems_for_clustering(conn: sqlite3.Connection) -> list[sqlite3.Row]:
 
 
 def reset_clusters(conn: sqlite3.Connection) -> None:
+    conn.execute("DELETE FROM scores")
     conn.execute("DELETE FROM clusters")
     conn.execute("UPDATE problems SET cluster_id = NULL")
 
@@ -234,14 +225,6 @@ def assign_cluster(conn: sqlite3.Connection, cluster_id: int, problem_ids: list[
                      [(cluster_id, pid) for pid in problem_ids])
 
 
-def clusters_to_evaluate(conn: sqlite3.Connection, min_size: int) -> list[sqlite3.Row]:
-    return list(conn.execute(
-        "SELECT c.* FROM clusters c WHERE c.item_count >= ? AND NOT EXISTS "
-        "(SELECT 1 FROM evaluations e WHERE e.cluster_id = c.id) ORDER BY c.item_count DESC",
-        (min_size,),
-    ))
-
-
 def cluster_members(conn: sqlite3.Connection, cluster_id: int, limit: int | None = None) -> list[sqlite3.Row]:
     sql = (
         "SELECT p.*, i.source, i.url, i.title, i.body, i.created_at AS item_created_at, "
@@ -253,61 +236,26 @@ def cluster_members(conn: sqlite3.Connection, cluster_id: int, limit: int | None
     return list(conn.execute(sql, (cluster_id,)))
 
 
-def insert_evaluation(conn: sqlite3.Connection, row: dict[str, Any]) -> int:
+def insert_score(conn: sqlite3.Connection, row: dict[str, Any]) -> int:
     row = dict(row)
-    if isinstance(row.get("raw_json"), (dict, list)):
-        row["raw_json"] = json.dumps(row["raw_json"], ensure_ascii=False)
-    row.setdefault("evaluated_at", iso(now_utc()))
-    for k in ("market_size_estimate", "market_size_reasoning", "monopoly_potential",
-              "location_independent", "capital_light", "measurable_90d", "path_to_1b",
-              "path_to_1b_score", "what_would_kill_it", "quickest_test",
-              "cross_market_advantage", "overall_score", "raw_json", "member_hash"):
+    if isinstance(row.get("existing_solutions"), (list, dict)):
+        row["existing_solutions"] = json.dumps(row["existing_solutions"], ensure_ascii=False)
+    row.setdefault("scored_at", iso(now_utc()))
+    for k in ("volume", "growth", "sources", "languages", "pain", "money", "demand", "workaround",
+              "competition", "existing_solutions", "overall_score"):
         row.setdefault(k, None)
     cur = conn.execute(
-        "INSERT INTO evaluations (cluster_id, member_hash, market_size_estimate, market_size_reasoning, "
-        "monopoly_potential, location_independent, capital_light, measurable_90d, path_to_1b, "
-        "path_to_1b_score, what_would_kill_it, quickest_test, cross_market_advantage, overall_score, "
-        "raw_json, evaluated_at) VALUES (:cluster_id, :member_hash, :market_size_estimate, "
-        ":market_size_reasoning, :monopoly_potential, :location_independent, :capital_light, "
-        ":measurable_90d, :path_to_1b, :path_to_1b_score, :what_would_kill_it, :quickest_test, "
-        ":cross_market_advantage, :overall_score, :raw_json, :evaluated_at)",
+        "INSERT INTO scores (cluster_id, volume, growth, sources, languages, pain, money, demand, workaround, "
+        "competition, existing_solutions, overall_score, scored_at) VALUES (:cluster_id, :volume, :growth, "
+        ":sources, :languages, :pain, :money, :demand, :workaround, :competition, :existing_solutions, "
+        ":overall_score, :scored_at)",
         row,
     )
     return int(cur.lastrowid)
 
 
-def latest_evaluations(conn: sqlite3.Connection) -> dict[int, sqlite3.Row]:
-    """Most recent evaluation per *current* cluster, keyed by cluster_id."""
-    rows = conn.execute(
-        "SELECT e.* FROM evaluations e JOIN (SELECT cluster_id, MAX(id) AS mid FROM evaluations "
-        "GROUP BY cluster_id) m ON m.mid = e.id JOIN clusters c ON c.id = e.cluster_id"
-    )
-    return {int(r["cluster_id"]): r for r in rows}
-
-
-def evaluation_by_member_hash(conn: sqlite3.Connection, member_hash: str) -> sqlite3.Row | None:
-    """Latest evaluation of a cluster with identical membership (from any earlier clustering run)."""
-    if not member_hash:
-        return None
-    return conn.execute(
-        "SELECT * FROM evaluations WHERE member_hash = ? ORDER BY id DESC LIMIT 1", (member_hash,)
-    ).fetchone()
-
-
-def log_api_call(conn: sqlite3.Connection, **kw: Any) -> None:
-    kw.setdefault("called_at", iso(now_utc()))
-    for k in ("input_tokens", "output_tokens", "cache_read_tokens", "cache_write_tokens", "cost_usd"):
-        kw.setdefault(k, 0)
-    kw.setdefault("duration_ms", None)
-    kw.setdefault("ok", 1)
-    kw.setdefault("error", None)
-    conn.execute(
-        "INSERT INTO api_calls (called_at, purpose, model, input_tokens, output_tokens, "
-        "cache_read_tokens, cache_write_tokens, cost_usd, duration_ms, ok, error) VALUES "
-        "(:called_at, :purpose, :model, :input_tokens, :output_tokens, :cache_read_tokens, "
-        ":cache_write_tokens, :cost_usd, :duration_ms, :ok, :error)",
-        kw,
-    )
+def scores_by_cluster(conn: sqlite3.Connection) -> dict[int, sqlite3.Row]:
+    return {int(r["cluster_id"]): r for r in conn.execute("SELECT * FROM scores")}
 
 
 def start_run(conn: sqlite3.Connection, stage: str) -> int:

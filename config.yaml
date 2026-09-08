@@ -1,20 +1,10 @@
 # Problem Scout configuration. Every value here has a default in scout/config.py;
 # anything you omit falls back to that default.
 
-model: claude-opus-5              # Claude model used for classification, labels, evaluation
-classify_batch_size: 20           # items per classification call
 default_since_days: 7             # default look-back for `scout collect`
 
-llm:
-  # Thinking stays on (adaptive). Effort is the cost/latency lever, per call type:
-  # low | medium | high | xhigh | max. Opus 5 is strong at low/medium on routine work.
-  effort:
-    classify: low
-    cluster_label: low
-    evaluate: high
-  # "default" re-runs a request that Claude's safety classifiers decline on Anthropic's
-  # recommended fallback model, server-side. Set to "none" to disable.
-  fallbacks: default
+classify:
+  threshold: 4                    # signal points needed to flag an item as a problem (see scout/classify.py)
 
 # Query terms per language. Sources that support search (HN, Reddit, Adzuna)
 # run one query per term. Other sources are filtered client-side against them.
@@ -165,20 +155,24 @@ sources:
     min_body_chars: 80
 
 clustering:
-  distance_threshold: 0.35        # cosine distance; lower = tighter clusters
-  embedding_model: sentence-transformers/all-MiniLM-L6-v2
-  label_sample_size: 10           # member summaries shown to Claude for labelling
+  distance_threshold: 0.55        # cosine distance; lower = tighter clusters (0.45-0.65 useful)
+  # Multilingual model so RU/AR/HI posts cluster with EN ones (~470 MB, downloaded once).
+  # Faster English-only alternative: sentence-transformers/all-MiniLM-L6-v2
+  embedding_model: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
   min_growth_denominator: 3
 
-evaluation:
-  min_cluster_size: 5
-  weights:
-    path_to_1b: 0.35
-    monopoly_potential: 0.25
-    location_independent: 0.15
-    capital_light: 0.10
-    measurable_90d: 0.05
-    growth_30d: 0.10
+scoring:
+  min_cluster_size: 3             # clusters smaller than this are not scored or ranked
+  volume_cap: 50                  # item count at which the volume component saturates
+  weights:                        # each component is 0..1; weights are normalised to sum to 1
+    volume: 0.25
+    growth: 0.15
+    sources: 0.10
+    languages: 0.10
+    pain: 0.15
+    money: 0.10
+    demand: 0.10
+    workaround: 0.05
 
 digest:
   top_n: 10

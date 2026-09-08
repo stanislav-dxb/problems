@@ -1,8 +1,7 @@
-"""Cluster stage: embed problem summaries locally, agglomerative clustering, Claude labels, growth."""
+"""Cluster stage: embed problem summaries locally, agglomerative clustering, medoid labels, growth."""
 from __future__ import annotations
 
 import hashlib
-import json
 import logging
 import sqlite3
 from collections import Counter
@@ -12,17 +11,9 @@ from typing import Any
 import numpy as np
 
 from . import db as dbm
-from .llm import BaseLLM, LLMError
-from .util import iso, now_utc, parse_dt
+from .util import iso, now_utc, parse_dt, truncate_words
 
 log = logging.getLogger("scout.cluster")
-
-LABEL_SYSTEM = """You name clusters of similar problem statements for Problem Scout.
-Given a list of one-sentence problem summaries that were grouped together, reply with ONLY a JSON object:
-{"label": "<one line, max 12 words, names the shared problem, no company names>",
- "canonical_summary": "<one or two sentences in English describing the common problem, who has it, and why it hurts>",
- "domain": "<short industry/function label>"}
-No prose, no markdown fences. Never include personal names."""
 
 
 def embed(texts: list[str], model_name: str) -> np.ndarray:
@@ -76,24 +67,21 @@ def member_hash(item_ids: list[int]) -> str:
     return hashlib.sha1(",".join(str(i) for i in sorted(item_ids)).encode()).hexdigest()
 
 
-def label_cluster(llm: BaseLLM, summaries: list[str], domain: str | None) -> dict[str, str]:
-    user = json.dumps({"domain": domain, "summaries": summaries}, ensure_ascii=False)
-    data = llm.complete_json(LABEL_SYSTEM, user, purpose="cluster_label", max_tokens=4000, retries=1)
-    if not isinstance(data, dict):
-        raise LLMError("label response is not an object")
-    return {"label": str(data.get("label") or summaries[0])[:200],
-            "canonical_summary": str(data.get("canonical_summary") or summaries[0])[:1000],
-            "domain": str(data.get("domain") or domain or "general")[:100]}
+def medoid_index(vecs: np.ndarray, idxs: list[int]) -> int:
+    """Index (into vecs) of the member closest to the cluster centroid."""
+    if len(idxs) == 1:
+        return idxs[0]
+    sub = vecs[idxs]
+    centroid = sub.mean(axis=0)
+    return idxs[int(np.argmax(sub @ centroid))]
 
 
-def run_clustering(cfg: dict, conn: sqlite3.Connection, llm: BaseLLM | None) -> dict[str, Any]:
+def run_clustering(cfg: dict, conn: sqlite3.Connection) -> dict[str, Any]:
     ccfg = cfg.get("clustering", {})
     threshold = float(ccfg.get("distance_threshold", 0.35))
-    sample_n = int(ccfg.get("label_sample_size", 10))
-    label_min = int(ccfg.get("label_min_size", 2))
     min_denom = int(ccfg.get("min_growth_denominator", 3))
     rows = dbm.problems_for_clustering(conn)
-    stats: dict[str, Any] = {"problems": len(rows), "clusters": 0, "labelled": 0, "label_failures": 0}
+    stats: dict[str, Any] = {"problems": len(rows), "clusters": 0}
     if not rows:
         log.info("cluster: no classified problems yet")
         return stats
@@ -114,18 +102,10 @@ def run_clustering(cfg: dict, conn: sqlite3.Connection, llm: BaseLLM | None) -> 
         domain = Counter(m["domain"] for m in members if m["domain"]).most_common(1)
         domain = domain[0][0] if domain else None
         sources = dict(Counter(m["source"] for m in members))
-        # sample: highest pain first, then most recent
-        sample = sorted(members, key=lambda m: (-(m["pain_score"] or 0), m["created_at"] or ""), reverse=False)
-        summaries = [m["problem_summary"] for m in sample[:sample_n]]
-        label, canonical = summaries[0], summaries[0]
-        if llm is not None and len(members) >= label_min:
-            try:
-                info = label_cluster(llm, summaries, domain)
-                label, canonical, domain = info["label"], info["canonical_summary"], info["domain"]
-                stats["labelled"] += 1
-            except LLMError as e:
-                stats["label_failures"] += 1
-                log.warning("cluster: labelling failed (%s); using member summary", e)
+        # label = the most central member's summary (medoid); short form for headings
+        med = rows[medoid_index(vecs, groups[lab])]
+        canonical = med["problem_summary"]
+        label = truncate_words(med["title"] or canonical, 14) if med["source"] != "hn" else truncate_words(canonical, 14)
         cid = dbm.insert_cluster(conn, {
             "label": label, "canonical_summary": canonical, "domain": domain, "item_count": len(members),
             "first_seen": iso(parsed[0]) if parsed else None, "last_seen": iso(parsed[-1]) if parsed else None,

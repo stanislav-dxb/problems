@@ -1,33 +1,31 @@
 import pytest
 
 from scout.config import DEFAULTS
-from scout.evaluate import compute_overall_score, normalise_growth
+from scout.score import COMPONENTS, compute_overall_score, normalise_growth
 
-W = DEFAULTS["evaluation"]["weights"]
+W = DEFAULTS["scoring"]["weights"]
 
 
-def test_weights_sum_to_one():
+def test_weights_cover_all_components_and_sum_to_one():
+    assert set(W) == set(COMPONENTS)
     assert sum(W.values()) == pytest.approx(1.0)
 
 
 def test_max_and_min_scores():
-    top = {"path_to_1b_score": 5, "monopoly_potential": 5, "location_independent": 5, "capital_light": 5,
-           "measurable_90d": 5}
-    assert compute_overall_score(top, 4.0, W) == 100.0
-    bottom = {k: 1 for k in top}
-    assert compute_overall_score(bottom, 0.25, W) == 0.0
+    assert compute_overall_score({k: 1.0 for k in COMPONENTS}, W) == 100.0
+    assert compute_overall_score({k: 0.0 for k in COMPONENTS}, W) == 0.0
+    assert compute_overall_score({}, W) == 0.0
 
 
 def test_hand_computed_case():
-    s = {"path_to_1b_score": 5, "monopoly_potential": 3, "location_independent": 5, "capital_light": 1,
-         "measurable_90d": 3}
-    # 0.35*1 + 0.25*0.5 + 0.15*1 + 0.10*0 + 0.05*0.5 + 0.10*0.5(flat growth) = 0.70
-    assert compute_overall_score(s, 1.0, W) == 70.0
+    comps = {"volume": 1.0, "growth": 0.5, "sources": 0.0, "languages": 0.0, "pain": 0.5,
+             "money": 1.0, "demand": 0.0, "workaround": 1.0}
+    # 0.25*1 + 0.15*0.5 + 0.15*0.5 + 0.10*1 + 0.05*1 = 0.55
+    assert compute_overall_score(comps, W) == 55.0
 
 
-def test_missing_scores_count_as_zero_and_growth_none_is_zero():
-    assert compute_overall_score({}, None, W) == 0.0
-    assert compute_overall_score({"path_to_1b_score": "5"}, None, W) == 35.0
+def test_components_are_clipped_and_weights_normalised():
+    assert compute_overall_score({"volume": 5.0}, {"volume": 2.0, "growth": 2.0}) == 50.0
 
 
 def test_growth_normalisation():

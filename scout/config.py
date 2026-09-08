@@ -10,11 +10,8 @@ import yaml
 from dotenv import load_dotenv
 
 DEFAULTS: dict[str, Any] = {
-    "model": "claude-opus-5",
-    "llm": {"effort": {"classify": "low", "cluster_label": "low", "evaluate": "high"},
-            "fallbacks": "default"},
-    "classify_batch_size": 20,
     "default_since_days": 7,
+    "classify": {"threshold": 4},
     "query_terms": {
         "en": [
             "is there a tool", "why is there no", "I wish", "how do you handle",
@@ -44,17 +41,15 @@ DEFAULTS: dict[str, Any] = {
                    "results_per_query": 50, "min_body_chars": 80},
     },
     "clustering": {
-        "distance_threshold": 0.35,
-        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
-        "label_sample_size": 10,
+        "distance_threshold": 0.55,
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
         "min_growth_denominator": 3,
     },
-    "evaluation": {
-        "min_cluster_size": 5,
-        "weights": {
-            "path_to_1b": 0.35, "monopoly_potential": 0.25, "location_independent": 0.15,
-            "capital_light": 0.10, "measurable_90d": 0.05, "growth_30d": 0.10,
-        },
+    "scoring": {
+        "min_cluster_size": 3,
+        "volume_cap": 50,
+        "weights": {"volume": 0.25, "growth": 0.15, "sources": 0.10, "languages": 0.10, "pain": 0.15,
+                    "money": 0.10, "demand": 0.10, "workaround": 0.05},
     },
     "digest": {"top_n": 10, "quotes_per_cluster": 3, "quote_max_words": 25,
                "rising_growth_threshold": 2.0, "output_dir": "digests"},
