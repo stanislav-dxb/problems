@@ -50,6 +50,16 @@ class LLMError(RuntimeError):
     pass
 
 
+def _has_credentials() -> bool:
+    """True if the SDK has some credential source: env key/token, or an `ant auth login` profile."""
+    if os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN"):
+        return True
+    if os.environ.get("ANTHROPIC_PROFILE"):
+        return True
+    from pathlib import Path
+    return (Path.home() / ".config" / "anthropic").exists()
+
+
 class LLMUnavailable(LLMError):
     """No credentials or SDK available."""
 
@@ -125,8 +135,8 @@ class ClaudeLLM(BaseLLM):
             import anthropic  # noqa: F401
         except ImportError as e:  # pragma: no cover
             raise LLMUnavailable("anthropic SDK not installed (pip install anthropic)") from e
-        if not (os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN")):
-            raise LLMUnavailable("ANTHROPIC_API_KEY is not set (put it in .env)")
+        if not _has_credentials():
+            raise LLMUnavailable("ANTHROPIC_API_KEY is not set (put it in .env, or run `ant auth login`)")
         import anthropic
         self._anthropic = anthropic
         self.client = anthropic.Anthropic(max_retries=3)
@@ -159,6 +169,12 @@ class ClaudeLLM(BaseLLM):
         except a.APIConnectionError as e:
             self._log(purpose, t0, ok=0, error=f"connection: {e}")
             raise LLMError(f"connection error: {e}") from e
+        except TypeError as e:
+            # The SDK raises TypeError when no credential source (env, profile) resolves.
+            if "authentication" not in str(e).lower():
+                raise
+            self._log(purpose, t0, ok=0, error="auth")
+            raise LLMUnavailable(f"authentication failed: {e}") from e
 
         usage = resp.usage
         self._log(purpose, t0, ok=1, error=None,
