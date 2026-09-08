@@ -1,0 +1,177 @@
+# Problem Scout configuration. Every value here has a default in scout/config.py;
+# anything you omit falls back to that default.
+
+model: claude-sonnet-4-6          # Claude model used for classification, labels, evaluation
+classify_batch_size: 20           # items per classification call
+default_since_days: 7             # default look-back for `scout collect`
+
+# Query terms per language. Sources that support search (HN, Reddit, Adzuna)
+# run one query per term. Other sources are filtered client-side against them.
+query_terms:
+  en:
+    - "is there a tool"
+    - "why is there no"
+    - "I wish"
+    - "how do you handle"
+    - "anyone else struggle"
+    - "spreadsheet"
+    - "manually"
+    - "pain in the"
+    - "looking for a solution"
+    - "how do I find"
+    - "workaround"
+  ru:
+    - "есть ли сервис"
+    - "почему нет"
+    - "как вы решаете"
+    - "вручную"
+    - "таблица"
+    - "ищу решение"
+    - "костыль"
+  ar:
+    - "هل يوجد"
+    - "كيف تتعاملون مع"
+    - "يدويا"
+    - "ابحث عن حل"
+  hi:
+    - "koi tool hai"
+    - "manually"
+    - "kaise karte ho"
+
+sources:
+  hn:
+    enabled: true
+    languages: [en]               # HN is English; only these term lists are used
+    tags: [comment, story]        # Algolia tag filters to query
+    max_pages_per_query: 3        # 100 hits per page
+    min_body_chars: 80
+
+  reddit:
+    enabled: true                 # skipped automatically if credentials are missing
+    subreddits:
+      - smallbusiness
+      - Entrepreneur
+      - startups
+      - SaaS
+      - sysadmin
+      - Construction
+      - Contractor
+      - logistics
+      - supplychain
+      - freelance
+      - Upwork
+      - ecommerce
+      - dubai
+      - UAE
+      - saudiarabia
+      - india
+      - Pikabu
+    posts_per_subreddit: 100      # newest posts to scan per subreddit
+    comments_per_post: 20         # top-level comments fetched per matching post
+    max_posts_with_comments: 25   # cap on comment fetches per subreddit (rate limits)
+    require_query_match: true     # keep only posts/comments containing a query term
+    min_body_chars: 60
+
+  producthunt:
+    enabled: true                 # skipped automatically if PRODUCTHUNT_TOKEN is missing
+    posts_per_run: 60
+    comments_per_post: 20
+    min_body_chars: 40
+
+  appstore:
+    enabled: true
+    countries: [us, gb, ae, in, sa]
+    max_rating: 2                 # keep reviews with rating <= this
+    pages: 2                      # RSS pages per app/country (50 reviews per page)
+    min_body_chars: 40
+    apps:                         # category -> list of {id, name}
+      small_business_ops:
+        - {id: 584606479, name: "QuickBooks"}
+        - {id: 441880705, name: "Xero"}
+        - {id: 710446064, name: "Zoho Books"}
+        - {id: 371294472, name: "Shopify"}
+        - {id: 1023050786, name: "Square Appointments"}
+        - {id: 1478804271, name: "Gusto"}
+      field_service_construction:
+        - {id: 1014146758, name: "Jobber"}
+        - {id: 692833651, name: "Housecall Pro"}
+        - {id: 374930542, name: "Procore"}
+        - {id: 504370616, name: "Buildertrend"}
+        - {id: 1037989976, name: "ServiceTitan"}
+      freelance_hr_payroll:
+        - {id: 1446736499, name: "Upwork"}
+        - {id: 346080608, name: "Fiverr"}
+        - {id: 6478083155, name: "Deel"}
+        - {id: 1057593226, name: "Bayzat"}
+      ecommerce_logistics:
+        - {id: 794141485, name: "Amazon Seller"}
+        - {id: 1097721446, name: "Flipkart Seller Hub"}
+        - {id: 1534619962, name: "Etsy Seller"}
+        - {id: 972151811, name: "ShipStation"}
+        - {id: 1561306896, name: "Freightos"}
+      payments_cross_border:
+        - {id: 612261027, name: "Wise"}
+        - {id: 663338402, name: "Payoneer"}
+      india_sme:
+        - {id: 668561641, name: "IndiaMART"}
+        - {id: 6478382307, name: "Vyapar"}
+        - {id: 1457958492, name: "Meesho"}
+      gulf_consumer_platforms:
+        - {id: 592978487, name: "Careem"}
+        - {id: 451001072, name: "talabat"}
+        - {id: 1269038866, name: "noon"}
+        - {id: 892172848, name: "dubizzle"}
+      beauty_booking:
+        - {id: 1297230801, name: "Fresha"}
+        - {id: 723961236, name: "Booksy"}
+
+  youtube:
+    enabled: true                 # skipped automatically if YOUTUBE_API_KEY is missing
+    videos_per_channel: 5
+    comments_per_video: 100
+    require_query_match: true
+    min_body_chars: 60
+    channels:                     # industry -> list of {id, name}. Channel IDs start with "UC".
+      example_industry: []        # e.g. - {id: "UCxxxxxxxxxxxxxxxxxxxxxx", name: "Channel name"}
+
+  telegram:
+    enabled: false                # requires TELEGRAM_API_ID/HASH and `pip install telethon`
+    channels: []                  # public channel usernames, e.g. "@some_business_channel"
+    messages_per_channel: 200
+    require_query_match: true
+    min_body_chars: 60
+
+  adzuna:
+    enabled: false                # requires ADZUNA_APP_ID/KEY
+    countries: [gb, us, in, ae]   # Adzuna country codes
+    queries:                      # job titles that signal manual work companies pay for
+      - "data entry"
+      - "manual reconciliation"
+      - "spreadsheet"
+      - "coordinator"
+      - "back office"
+    results_per_query: 50
+    min_body_chars: 80
+
+clustering:
+  distance_threshold: 0.35        # cosine distance; lower = tighter clusters
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  label_sample_size: 10           # member summaries shown to Claude for labelling
+  min_growth_denominator: 3
+
+evaluation:
+  min_cluster_size: 5
+  weights:
+    path_to_1b: 0.35
+    monopoly_potential: 0.25
+    location_independent: 0.15
+    capital_light: 0.10
+    measurable_90d: 0.05
+    growth_30d: 0.10
+
+digest:
+  top_n: 10
+  quotes_per_cluster: 3
+  quote_max_words: 25
+  rising_growth_threshold: 2.0
+  output_dir: digests

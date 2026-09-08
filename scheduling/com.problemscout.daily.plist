@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Sample launchd agent: runs `scout run` every day at 06:00 and writes the digest to
+  ~/scout/digests/YYYY-MM-DD.md. `make install-launchd` fills in __PROJECT_DIR__ and __HOME__
+  and loads it. Logs go to ~/scout/logs/.
+-->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.problemscout.daily</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/sh</string>
+        <string>-lc</string>
+        <string>cd "__PROJECT_DIR__" &amp;&amp; mkdir -p "__HOME__/scout/digests" &amp;&amp; "__PROJECT_DIR__/.venv/bin/scout" run --out "__HOME__/scout/digests/$(date +%Y-%m-%d).md"</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>__PROJECT_DIR__</string>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>6</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <!-- Run at next opportunity if the Mac was asleep at 06:00 -->
+    <key>RunAtLoad</key>
+    <false/>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin</string>
+        <key>HOME</key>
+        <string>__HOME__</string>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>__HOME__/scout/logs/scout.log</string>
+    <key>StandardErrorPath</key>
+    <string>__HOME__/scout/logs/scout.err.log</string>
+
+    <key>Nice</key>
+    <integer>10</integer>
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+scout.db
+scout.db-journal
+scout.db-wal
+scout.db-shm
+*.session
+*.session-journal
+digests/*.md
+!digests/.gitkeep
+!digests/first-digest-*.md
+.cache/
