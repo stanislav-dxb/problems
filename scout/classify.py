@@ -108,7 +108,7 @@ def classify_batch(llm: BaseLLM, rows: list[sqlite3.Row]) -> dict[int, dict[str,
     idxs = list(range(len(rows)))
     payload = [_fields_for_item(r, i) for i, r in zip(idxs, rows)]
     user = "Classify these items:\n\n" + json.dumps(payload, ensure_ascii=False)
-    parsed = llm.complete_json(SYSTEM_PROMPT, user, purpose="classify", max_tokens=8192, retries=1)
+    parsed = llm.complete_json(SYSTEM_PROMPT, user, purpose="classify", max_tokens=16000, retries=1)
     normalised = parse_classification(parsed, idxs)
     return {rows[i]["id"]: v for i, v in normalised.items()}
 

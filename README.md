@@ -30,6 +30,20 @@ No headless browsers, no HTML scraping. If a source cannot be accessed legitimat
 the reason is logged. Author handles are salted-hashed before storage; author/name fields are stripped
 from stored raw payloads; personal names never appear in the digest.
 
+## Why an Anthropic key
+
+Classification, cluster labelling and evaluation call the Claude API directly through the
+official Python SDK (model `claude-opus-5`). API usage is billed per token to an Anthropic Console
+organisation, separately from a claude.ai or Claude Code subscription, so the tool needs its own
+credential. Two options:
+
+- `ANTHROPIC_API_KEY` in `.env` — create one at https://console.anthropic.com.
+- `ant auth login` (the Anthropic CLI) — an OAuth profile under `~/.config/anthropic/`, no static
+  key to manage; the SDK picks it up automatically when no key is exported.
+
+Collection (`scout collect`) never needs it. Every call is logged with token counts in `api_calls`;
+`scout stats` shows the running cost.
+
 ## Setup
 
 Requirements: Python 3.11+, ~1 GB disk for PyTorch + the embedding model (CPU is fine).
@@ -47,7 +61,7 @@ Put your keys in `.env` (never committed):
 
 | Variable | Needed for | Where to get it |
 |---|---|---|
-| `ANTHROPIC_API_KEY` | classify, cluster labels, evaluate | https://console.anthropic.com |
+| `ANTHROPIC_API_KEY` | classify, cluster labels, evaluate | https://console.anthropic.com (or `ant auth login`) |
 | `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET`, `REDDIT_USERNAME`, `REDDIT_PASSWORD`, `REDDIT_USER_AGENT` | Reddit | https://www.reddit.com/prefs/apps → create a **script** app |
 | `PRODUCTHUNT_TOKEN` | Product Hunt | https://www.producthunt.com/v2/oauth/applications → developer token |
 | `YOUTUBE_API_KEY` | YouTube | Google Cloud console → enable *YouTube Data API v3* → API key |
@@ -111,12 +125,22 @@ capital_light 0.10 + measurable_90d 0.05 + growth 0.10, where 1–5 scores map t
 normalised as `log2(growth)/4 + 0.5` clipped to 0–1 (flat = 0.5, 4× = 1). Weights live in
 `config.yaml → evaluation.weights`.
 
-### Cost
+### Model, effort and cost
+
+The model is `claude-opus-5` (`config.yaml → model`). Thinking stays on (adaptive, the Opus 5
+default); cost and latency are controlled per call type with `output_config.effort`
+(`config.yaml → llm.effort`): `low` for classification and cluster labels, `high` for evaluation.
+`llm.fallbacks: default` re-runs any request that the model's safety classifiers decline on
+Anthropic's recommended fallback model, server-side, so a batch is not lost to a spurious refusal;
+set it to `none` to disable. The system prompts are cache breakpoints, so repeated batches reuse
+the cached prefix.
 
 Every Claude call is logged in the `api_calls` table with token counts and an estimated cost;
-`scout stats` prints totals, today's spend and an estimated daily cost. Rough guide with
-`claude-sonnet-4-6`: classification ≈ $0.02–0.04 per batch of 20 items, one label ≈ $0.003, one
-evaluation ≈ $0.05–0.10. A daily run over ~700 new items is on the order of $1–2.
+`scout stats` prints totals, today's spend and an estimated daily cost. Rough guide at Opus 5
+pricing ($5 / $25 per million input / output tokens): classification ≈ $0.05–0.10 per batch of 20
+items at `low` effort, one label ≈ $0.01, one evaluation ≈ $0.15–0.40 at `high` effort. A daily
+run over ~700 new items with ~20 clusters to evaluate is on the order of $5–10; unchanged clusters
+are not re-evaluated.
 
 ### Offline smoke mode
 

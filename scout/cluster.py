@@ -78,7 +78,7 @@ def member_hash(item_ids: list[int]) -> str:
 
 def label_cluster(llm: BaseLLM, summaries: list[str], domain: str | None) -> dict[str, str]:
     user = json.dumps({"domain": domain, "summaries": summaries}, ensure_ascii=False)
-    data = llm.complete_json(LABEL_SYSTEM, user, purpose="cluster_label", max_tokens=600, retries=1)
+    data = llm.complete_json(LABEL_SYSTEM, user, purpose="cluster_label", max_tokens=4000, retries=1)
     if not isinstance(data, dict):
         raise LLMError("label response is not an object")
     return {"label": str(data.get("label") or summaries[0])[:200],

@@ -10,7 +10,9 @@ import yaml
 from dotenv import load_dotenv
 
 DEFAULTS: dict[str, Any] = {
-    "model": "claude-sonnet-4-6",
+    "model": "claude-opus-5",
+    "llm": {"effort": {"classify": "low", "cluster_label": "low", "evaluate": "high"},
+            "fallbacks": "default"},
     "classify_batch_size": 20,
     "default_since_days": 7,
     "query_terms": {

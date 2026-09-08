@@ -111,7 +111,7 @@ def build_user_message(cluster: sqlite3.Row, members: list[sqlite3.Row], max_sum
 
 def evaluate_cluster(llm: BaseLLM, cluster: sqlite3.Row, members: list[sqlite3.Row], weights: dict) -> dict[str, Any]:
     data = llm.complete_json(SYSTEM_PROMPT, build_user_message(cluster, members), purpose="evaluate",
-                             max_tokens=16000, thinking=True, retries=1)
+                             max_tokens=16000, retries=1)
     if not isinstance(data, dict):
         raise LLMError("evaluation is not a JSON object")
     row = {

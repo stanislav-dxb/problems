@@ -63,7 +63,7 @@ def test_complete_json_retries_once_then_fails():
     class Flaky(StubLLM):
         calls = 0
 
-        def complete(self, system, user, purpose, max_tokens=8000, thinking=False):
+        def complete(self, system, user, purpose, max_tokens=16000):
             Flaky.calls += 1
             return "not json"
 
