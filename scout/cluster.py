@@ -105,7 +105,10 @@ def run_clustering(cfg: dict, conn: sqlite3.Connection) -> dict[str, Any]:
         # label = the most central member's summary (medoid); short form for headings
         med = rows[medoid_index(vecs, groups[lab])]
         canonical = med["problem_summary"]
-        label = truncate_words(med["title"] or canonical, 14) if med["source"] != "hn" else truncate_words(canonical, 14)
+        # Model summaries are English one-liners, so use them as labels; rule-based summaries are raw
+        # sentences, so titled sources (reviews, posts) read better by title.
+        use_title = med["classified_by"] == "rules" and med["source"] != "hn" and bool(med["title"])
+        label = truncate_words(med["title"] if use_title else canonical, 16)
         cid = dbm.insert_cluster(conn, {
             "label": label, "canonical_summary": canonical, "domain": domain, "item_count": len(members),
             "first_seen": iso(parsed[0]) if parsed else None, "last_seen": iso(parsed[-1]) if parsed else None,

@@ -336,7 +336,7 @@ def upsert_problem(conn: sqlite3.Connection, row: dict[str, Any]) -> None:
 
 def problems_for_clustering(conn: sqlite3.Connection) -> list[sqlite3.Row]:
     return list(conn.execute(
-        "SELECT p.id, p.item_id, p.problem_summary, p.domain, p.language, p.pain_score, "
+        "SELECT p.id, p.item_id, p.problem_summary, p.domain, p.language, p.pain_score, p.classified_by, "
         "i.source, i.created_at, i.url, i.title, i.body FROM problems p JOIN items i ON i.id = p.item_id "
         "WHERE p.is_problem = 1 AND p.classification_failed = 0 AND p.problem_summary IS NOT NULL "
         "AND length(p.problem_summary) > 0 ORDER BY p.id"
