@@ -61,23 +61,35 @@ def ask_whom(text: str) -> str:
 
 
 _JUNK = ("journal of", "et al", "abbreviations", "table of contents", "note:", "source:", "figure ", "annex",
-         "appendix", "references", "isbn", "doi:", "http")
+         "appendix", "references", "isbn", "doi:", "http", "public disclosure authorized", "hint :", "hint:",
+         "box 1", "box 2", "box 3", "acknowledg", "this report was", "the findings, interpretations")
 
 
-def looks_like_prose(summary: str) -> bool:
-    """Reject table rows, references and boilerplate: needs enough words and a low share of numeric tokens."""
+def looks_like_prose(summary: str, languages: tuple[str, ...] | list[str] = ("en", "ru", "ar", "hi")) -> bool:
+    """Reject table rows, headers, survey questions, references and boilerplate, and text outside the
+    configured languages. Needs enough words, few numeric tokens and mostly lower-case letters."""
     words = summary.split()
-    if len(words) < 8:
+    if len(words) < 8 or summary.rstrip("…").rstrip().endswith("?"):
         return False
     numeric = sum(1 for w in words if any(ch.isdigit() for ch in w))
     if numeric / len(words) > 0.3:
         return False
+    letters = [ch for ch in summary if ch.isalpha()]
+    if letters and sum(1 for ch in letters if ch.isupper()) / len(letters) > 0.3:
+        return False
     low = summary.lower()
-    return not any(j in low for j in _JUNK)
+    if any(j in low for j in _JUNK):
+        return False
+    if languages:
+        from .util import detect_language
+        lang = detect_language(summary)
+        if lang != "und" and lang not in languages:
+            return False
+    return True
 
 
 def classify_chunk(text: str, heading: str | None, prefilter: list[str], confidence: int,
-                   domain_hint: str | None = None) -> dict[str, Any] | None:
+                   domain_hint: str | None = None, languages: tuple[str, ...] | list[str] = ("en", "ru", "ar", "hi")) -> dict[str, Any] | None:
     """Rule-based claim extraction. Returns None when the chunk fails the prefilter, has no claim signal,
     or yields no prose-like claim sentence."""
     if not keyword_prefilter(text, prefilter):
@@ -92,7 +104,7 @@ def classify_chunk(text: str, heading: str | None, prefilter: list[str], confide
     else:
         ctype = max(scores, key=lambda k: (scores[k], k))
     summary = sentence_with(text, CLAIM_TAXONOMY[ctype]) or sentence_with(text, prefilter) or ""
-    if not looks_like_prose(summary):
+    if not looks_like_prose(summary, languages):
         return None
     return {
         "heading": heading,
@@ -111,10 +123,11 @@ def process_report(conn: sqlite3.Connection, report_id: int, text: str, cfg: dic
                    domain_hint: str | None = None) -> tuple[int, int]:
     rcfg = cfg.get("reports", {})
     prefilter = rcfg.get("prefilter_keywords", []) or []
+    languages = tuple(rcfg.get("languages") or ("en", "ru", "ar", "hi"))
     chunks = chunk_text(text, int(rcfg.get("chunk_chars", 8000)))
     kept = 0
     for ch in chunks:
-        row = classify_chunk(ch["text"], ch.get("heading"), prefilter, confidence, domain_hint)
+        row = classify_chunk(ch["text"], ch.get("heading"), prefilter, confidence, domain_hint, languages)
         if row is None:
             continue
         row.update({"report_id": report_id, "source_chunk_id": ch["chunk_id"]})

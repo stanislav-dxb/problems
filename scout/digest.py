@@ -196,10 +196,13 @@ def build_digest(cfg: dict, conn: sqlite3.Connection, top_n: int | None = None, 
     if corridor:
         hyps = [h for h in hyps if is_corridor(_geos(h))]
     per_source: dict[str, int] = {}
+    seen_h: set[str] = set()
     kept_h = []
     for h in hyps:  # at most two lines per report or article so one long PDF cannot fill the section
+        key = " ".join((h["summary"] or "").lower().split())[:80]
         per_source[h["source_url"]] = per_source.get(h["source_url"], 0) + 1
-        if per_source[h["source_url"]] <= 2:
+        if per_source[h["source_url"]] <= 2 and key not in seen_h:
+            seen_h.add(key)
             kept_h.append(h)
     hyps = kept_h
     if not hyps:

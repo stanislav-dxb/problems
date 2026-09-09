@@ -66,6 +66,7 @@ DEFAULTS: dict[str, Any] = {
         "chunk_chars": 8000,
         "fetch_html": False,
         "max_per_publisher": 30,
+        "languages": ["en", "ru", "ar", "hi"],
         "prefilter_keywords": ["gap", "underserved", "fragmented", "manual", "inefficien", "shortage", "opportunity",
                                "lack of", "no standard"],
         "worldbank": {"enabled": True, "queries": [], "rows": 20, "confidence": 4},
