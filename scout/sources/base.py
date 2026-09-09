@@ -62,6 +62,11 @@ def http_client(timeout: float = 30.0, headers: dict | None = None) -> httpx.Cli
     return httpx.Client(timeout=timeout, headers=h, follow_redirects=True)
 
 
+def feed_client(timeout: float = 30.0) -> httpx.Client:
+    """Client for RSS/Atom feeds: some publishers reject Accept: application/json with 406."""
+    return http_client(timeout=timeout, headers={"Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*;q=0.8"})
+
+
 def request_json(client: httpx.Client, method: str, url: str, retries: int = 3, sleep: float = 0.0,
                  **kw: Any) -> Any:
     """HTTP request with polite retry on 429/5xx. Returns parsed JSON. Raises httpx.HTTPStatusError

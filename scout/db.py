@@ -68,12 +68,105 @@ CREATE TABLE IF NOT EXISTS scores (
     cluster_id         INTEGER NOT NULL REFERENCES clusters(id) ON DELETE CASCADE,
     volume             REAL, growth REAL, sources REAL, languages REAL,
     pain               REAL, money REAL, demand REAL, workaround REAL,
+    triangulation      REAL,
     competition        INTEGER,        -- distinct existing solutions named by members
     existing_solutions TEXT,           -- JSON [[name, count], ...]
     overall_score      REAL,
     scored_at          TEXT NOT NULL
 );
 CREATE INDEX IF NOT EXISTS idx_scores_cluster ON scores (cluster_id);
+
+CREATE TABLE IF NOT EXISTS reports (
+    id            INTEGER PRIMARY KEY AUTOINCREMENT,
+    source        TEXT NOT NULL,        -- worldbank | publisher_rss | arxiv
+    publisher     TEXT NOT NULL,
+    title         TEXT,
+    url           TEXT NOT NULL UNIQUE,
+    pdf_url       TEXT,
+    published_at  TEXT,
+    summary_text  TEXT,
+    local_path    TEXT,
+    language      TEXT,
+    confidence    INTEGER,              -- 1-5 trust in the publisher (config)
+    chunks_total  INTEGER DEFAULT 0,
+    chunks_kept   INTEGER DEFAULT 0,    -- chunks that passed the keyword prefilter
+    fetched_at    TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS report_claims (
+    id                   INTEGER PRIMARY KEY AUTOINCREMENT,
+    report_id            INTEGER NOT NULL REFERENCES reports(id) ON DELETE CASCADE,
+    source_chunk_id      TEXT NOT NULL,
+    heading              TEXT,
+    is_relevant          INTEGER NOT NULL DEFAULT 1,
+    domain               TEXT,
+    claim_type           TEXT,
+    claim_summary        TEXT,
+    numbers              TEXT,          -- JSON list
+    geography            TEXT,          -- JSON list
+    confidence_in_source INTEGER,
+    chunk_excerpt        TEXT,
+    created_at           TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_claims_report ON report_claims (report_id);
+
+CREATE TABLE IF NOT EXISTS news_articles (
+    id            INTEGER PRIMARY KEY AUTOINCREMENT,
+    feed          TEXT NOT NULL,
+    kind          TEXT NOT NULL,        -- press | regulatory | funding | google_news | gdelt
+    title         TEXT,
+    url           TEXT NOT NULL UNIQUE,
+    published_at  TEXT,
+    summary_text  TEXT,
+    language      TEXT,
+    domain_hint   TEXT,
+    fetched_at    TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_news_published ON news_articles (published_at);
+
+CREATE TABLE IF NOT EXISTS news_catalysts (
+    id                INTEGER PRIMARY KEY AUTOINCREMENT,
+    article_id        INTEGER NOT NULL UNIQUE REFERENCES news_articles(id) ON DELETE CASCADE,
+    is_catalyst       INTEGER NOT NULL DEFAULT 0,
+    catalyst_type     TEXT,
+    domain            TEXT,
+    geography         TEXT,             -- JSON list
+    summary           TEXT,
+    affected_parties  TEXT,
+    time_horizon      TEXT,
+    catalyst_strength INTEGER,
+    numbers           TEXT,             -- JSON list
+    evidence_terms    TEXT,             -- JSON list of matched phrases
+    created_at        TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS triangulations (
+    id                  INTEGER PRIMARY KEY AUTOINCREMENT,
+    cluster_id          INTEGER NOT NULL UNIQUE REFERENCES clusters(id) ON DELETE CASCADE,
+    pain_evidence       REAL, market_evidence REAL, timing_evidence REAL,
+    triangulation_score REAL,
+    best_claim_id       INTEGER,
+    claim_ids           TEXT,           -- JSON list
+    catalyst_ids        TEXT,           -- JSON list
+    market_size_source  TEXT,
+    why_now             TEXT,
+    evidence_gaps       TEXT,
+    geography           TEXT,           -- JSON list (union of matched claims/catalysts)
+    created_at          TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS hypotheses (
+    id          INTEGER PRIMARY KEY AUTOINCREMENT,
+    kind        TEXT NOT NULL,          -- report | news
+    ref_id      INTEGER NOT NULL,       -- report_claims.id or news_catalysts.id
+    summary     TEXT,
+    domain      TEXT,
+    geography   TEXT,                   -- JSON list
+    strength    INTEGER,
+    ask_whom    TEXT,
+    source_url  TEXT,
+    created_at  TEXT NOT NULL
+);
 
 CREATE TABLE IF NOT EXISTS runs (
     id          INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -103,6 +196,9 @@ def _migrate(conn: sqlite3.Connection) -> None:
     cols = {r["name"] for r in conn.execute("PRAGMA table_info(problems)")}
     if "signal_score" not in cols:
         conn.execute("ALTER TABLE problems ADD COLUMN signal_score INTEGER")
+    scols = {r["name"] for r in conn.execute("PRAGMA table_info(scores)")}
+    if "triangulation" not in scols:
+        conn.execute("ALTER TABLE scores ADD COLUMN triangulation REAL")
     for legacy in ("evaluations", "api_calls"):
         conn.execute(f"DROP TABLE IF EXISTS {legacy}")
     conn.commit()
@@ -201,6 +297,7 @@ def problems_for_clustering(conn: sqlite3.Connection) -> list[sqlite3.Row]:
 
 def reset_clusters(conn: sqlite3.Connection) -> None:
     conn.execute("DELETE FROM scores")
+    conn.execute("DELETE FROM triangulations")
     conn.execute("DELETE FROM clusters")
     conn.execute("UPDATE problems SET cluster_id = NULL")
 
@@ -241,14 +338,14 @@ def insert_score(conn: sqlite3.Connection, row: dict[str, Any]) -> int:
     if isinstance(row.get("existing_solutions"), (list, dict)):
         row["existing_solutions"] = json.dumps(row["existing_solutions"], ensure_ascii=False)
     row.setdefault("scored_at", iso(now_utc()))
-    for k in ("volume", "growth", "sources", "languages", "pain", "money", "demand", "workaround",
+    for k in ("volume", "growth", "sources", "languages", "pain", "money", "demand", "workaround", "triangulation",
               "competition", "existing_solutions", "overall_score"):
         row.setdefault(k, None)
     cur = conn.execute(
         "INSERT INTO scores (cluster_id, volume, growth, sources, languages, pain, money, demand, workaround, "
-        "competition, existing_solutions, overall_score, scored_at) VALUES (:cluster_id, :volume, :growth, "
-        ":sources, :languages, :pain, :money, :demand, :workaround, :competition, :existing_solutions, "
-        ":overall_score, :scored_at)",
+        "triangulation, competition, existing_solutions, overall_score, scored_at) VALUES (:cluster_id, :volume, "
+        ":growth, :sources, :languages, :pain, :money, :demand, :workaround, :triangulation, :competition, "
+        ":existing_solutions, :overall_score, :scored_at)",
         row,
     )
     return int(cur.lastrowid)
@@ -256,6 +353,127 @@ def insert_score(conn: sqlite3.Connection, row: dict[str, Any]) -> int:
 
 def scores_by_cluster(conn: sqlite3.Connection) -> dict[int, sqlite3.Row]:
     return {int(r["cluster_id"]): r for r in conn.execute("SELECT * FROM scores")}
+
+
+# ---------------------------------------------------------------- reports / news / triangulation
+
+def _json(v: Any) -> Any:
+    return json.dumps(v, ensure_ascii=False) if isinstance(v, (list, dict)) else v
+
+
+def insert_report(conn: sqlite3.Connection, row: dict[str, Any]) -> int | None:
+    """Insert a report; returns its id, or None if the URL is already stored."""
+    row = dict(row)
+    row.setdefault("fetched_at", iso(now_utc()))
+    for k in ("pdf_url", "published_at", "summary_text", "local_path", "language", "confidence"):
+        row.setdefault(k, None)
+    cur = conn.execute(
+        "INSERT OR IGNORE INTO reports (source, publisher, title, url, pdf_url, published_at, summary_text, "
+        "local_path, language, confidence, fetched_at) VALUES (:source, :publisher, :title, :url, :pdf_url, "
+        ":published_at, :summary_text, :local_path, :language, :confidence, :fetched_at)", row)
+    return int(cur.lastrowid) if cur.rowcount == 1 else None
+
+
+def report_url_known(conn: sqlite3.Connection, url: str) -> bool:
+    return conn.execute("SELECT 1 FROM reports WHERE url = ?", (url,)).fetchone() is not None
+
+
+def update_report(conn: sqlite3.Connection, report_id: int, **fields: Any) -> None:
+    if not fields:
+        return
+    sets = ", ".join(f"{k} = :{k}" for k in fields)
+    conn.execute(f"UPDATE reports SET {sets} WHERE id = :id", {**fields, "id": report_id})
+
+
+def insert_claim(conn: sqlite3.Connection, row: dict[str, Any]) -> int:
+    row = dict(row)
+    row["numbers"] = _json(row.get("numbers") or [])
+    row["geography"] = _json(row.get("geography") or [])
+    row.setdefault("created_at", iso(now_utc()))
+    for k in ("heading", "domain", "claim_type", "claim_summary", "confidence_in_source", "chunk_excerpt"):
+        row.setdefault(k, None)
+    row.setdefault("is_relevant", 1)
+    cur = conn.execute(
+        "INSERT INTO report_claims (report_id, source_chunk_id, heading, is_relevant, domain, claim_type, "
+        "claim_summary, numbers, geography, confidence_in_source, chunk_excerpt, created_at) VALUES (:report_id, "
+        ":source_chunk_id, :heading, :is_relevant, :domain, :claim_type, :claim_summary, :numbers, :geography, "
+        ":confidence_in_source, :chunk_excerpt, :created_at)", row)
+    return int(cur.lastrowid)
+
+
+def insert_article(conn: sqlite3.Connection, row: dict[str, Any]) -> int | None:
+    row = dict(row)
+    row.setdefault("fetched_at", iso(now_utc()))
+    for k in ("title", "published_at", "summary_text", "language", "domain_hint"):
+        row.setdefault(k, None)
+    cur = conn.execute(
+        "INSERT OR IGNORE INTO news_articles (feed, kind, title, url, published_at, summary_text, language, "
+        "domain_hint, fetched_at) VALUES (:feed, :kind, :title, :url, :published_at, :summary_text, :language, "
+        ":domain_hint, :fetched_at)", row)
+    return int(cur.lastrowid) if cur.rowcount == 1 else None
+
+
+def insert_catalyst(conn: sqlite3.Connection, row: dict[str, Any]) -> int:
+    row = dict(row)
+    for k in ("geography", "numbers", "evidence_terms"):
+        row[k] = _json(row.get(k) or [])
+    row.setdefault("created_at", iso(now_utc()))
+    for k in ("catalyst_type", "domain", "summary", "affected_parties", "time_horizon", "catalyst_strength"):
+        row.setdefault(k, None)
+    cur = conn.execute(
+        "INSERT OR REPLACE INTO news_catalysts (article_id, is_catalyst, catalyst_type, domain, geography, summary, "
+        "affected_parties, time_horizon, catalyst_strength, numbers, evidence_terms, created_at) VALUES "
+        "(:article_id, :is_catalyst, :catalyst_type, :domain, :geography, :summary, :affected_parties, "
+        ":time_horizon, :catalyst_strength, :numbers, :evidence_terms, :created_at)", row)
+    return int(cur.lastrowid)
+
+
+def relevant_claims(conn: sqlite3.Connection) -> list[sqlite3.Row]:
+    return list(conn.execute(
+        "SELECT c.*, r.publisher, r.url AS report_url, r.title AS report_title, r.published_at "
+        "FROM report_claims c JOIN reports r ON r.id = c.report_id WHERE c.is_relevant = 1 ORDER BY c.id"))
+
+
+def catalysts(conn: sqlite3.Connection, since: str | None = None) -> list[sqlite3.Row]:
+    sql = ("SELECT n.*, a.title, a.url, a.published_at, a.feed, a.kind, a.language FROM news_catalysts n "
+           "JOIN news_articles a ON a.id = n.article_id WHERE n.is_catalyst = 1")
+    args: tuple = ()
+    if since:
+        sql += " AND a.published_at >= ?"
+        args = (since,)
+    return list(conn.execute(sql + " ORDER BY n.catalyst_strength DESC, a.published_at DESC", args))
+
+
+def insert_triangulation(conn: sqlite3.Connection, row: dict[str, Any]) -> int:
+    row = dict(row)
+    for k in ("claim_ids", "catalyst_ids", "geography"):
+        row[k] = _json(row.get(k) or [])
+    row.setdefault("created_at", iso(now_utc()))
+    for k in ("best_claim_id", "market_size_source", "why_now", "evidence_gaps"):
+        row.setdefault(k, None)
+    cur = conn.execute(
+        "INSERT OR REPLACE INTO triangulations (cluster_id, pain_evidence, market_evidence, timing_evidence, "
+        "triangulation_score, best_claim_id, claim_ids, catalyst_ids, market_size_source, why_now, evidence_gaps, "
+        "geography, created_at) VALUES (:cluster_id, :pain_evidence, :market_evidence, :timing_evidence, "
+        ":triangulation_score, :best_claim_id, :claim_ids, :catalyst_ids, :market_size_source, :why_now, "
+        ":evidence_gaps, :geography, :created_at)", row)
+    return int(cur.lastrowid)
+
+
+def insert_hypothesis(conn: sqlite3.Connection, row: dict[str, Any]) -> int:
+    row = dict(row)
+    row["geography"] = _json(row.get("geography") or [])
+    row.setdefault("created_at", iso(now_utc()))
+    for k in ("summary", "domain", "strength", "ask_whom", "source_url"):
+        row.setdefault(k, None)
+    cur = conn.execute(
+        "INSERT INTO hypotheses (kind, ref_id, summary, domain, geography, strength, ask_whom, source_url, created_at) "
+        "VALUES (:kind, :ref_id, :summary, :domain, :geography, :strength, :ask_whom, :source_url, :created_at)", row)
+    return int(cur.lastrowid)
+
+
+def triangulations_by_cluster(conn: sqlite3.Connection) -> dict[int, sqlite3.Row]:
+    return {int(r["cluster_id"]): r for r in conn.execute("SELECT * FROM triangulations")}
 
 
 def start_run(conn: sqlite3.Connection, stage: str) -> int:

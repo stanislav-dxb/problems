@@ -11,7 +11,8 @@ from . import __version__
 from .config import load_config
 from .util import setup_logging
 
-app = typer.Typer(help="Problem Scout: collect → classify → cluster → score → digest. No LLM, runs locally.",
+app = typer.Typer(help="Problem Scout: collect → classify → cluster → news → reports → triangulate → score → digest. "
+                       "No LLM, runs locally.",
                   no_args_is_help=True, add_completion=False)
 _state: dict = {"cfg": None}
 
@@ -80,6 +81,35 @@ def cluster():
 
 
 @app.command()
+def news(since: Optional[int] = typer.Option(None, "--since", help="Look-back window in days")):
+    """Fetch news (Google News, trade press, regulators, GDELT) and flag catalysts with keyword rules."""
+    from .catalysts import run_news
+    cfg = _cfg()
+    with _conn() as conn:
+        stats = run_news(cfg, conn, since or int(cfg.get("default_since_days", 7)))
+    typer.echo(f"news: {stats}")
+
+
+@app.command()
+def reports(since: Optional[int] = typer.Option(None, "--since", help="Look-back window in days")):
+    """Fetch reports (World Bank, publisher feeds, arXiv), extract PDF text, store typed claims."""
+    from .claims import run_reports
+    cfg = _cfg()
+    with _conn() as conn:
+        stats = run_reports(cfg, conn, since or int(cfg.get("reports", {}).get("since_days", 30)))
+    typer.echo(f"reports: {stats}")
+
+
+@app.command()
+def triangulate():
+    """Join pain clusters with report claims and news catalysts; write triangulations and hypotheses."""
+    from .triangulate import triangulate as run_tri
+    with _conn() as conn:
+        stats = run_tri(_cfg(), conn)
+    typer.echo(f"triangulate: {stats}")
+
+
+@app.command()
 def score():
     """Compute the evidence score for every cluster with enough items."""
     from .score import score as run_score
@@ -90,11 +120,12 @@ def score():
 
 @app.command()
 def digest(top: Optional[int] = typer.Option(None, "--top", help="Number of clusters to include"),
-           out: Optional[str] = typer.Option(None, "--out", help="Output path (default digests/YYYY-MM-DD.md)")):
+           out: Optional[str] = typer.Option(None, "--out", help="Output path (default digests/YYYY-MM-DD.md)"),
+           corridor: bool = typer.Option(False, "--corridor", help="Only report/news signals touching 2+ of Gulf, Russian-speaking, India, China, EU")):
     """Write the ranked Markdown digest."""
     from .digest import write_digest
     with _conn() as conn:
-        path = write_digest(_cfg(), conn, top_n=top, out=out)
+        path = write_digest(_cfg(), conn, top_n=top, out=out, corridor=corridor)
     typer.echo(f"digest: wrote {path}")
 
 
@@ -102,8 +133,9 @@ def digest(top: Optional[int] = typer.Option(None, "--top", help="Number of clus
 def run(since: Optional[int] = typer.Option(None, "--since", help="Look-back window in days for collection"),
         top: Optional[int] = typer.Option(None, "--top", help="Clusters in the digest"),
         out: Optional[str] = typer.Option(None, "--out", help="Digest output path"),
+        corridor: bool = typer.Option(False, "--corridor", help="Corridor-filtered digest"),
         dry_run: bool = typer.Option(False, "--dry-run", help="Describe every stage without fetching")):
-    """Full pipeline: collect → classify → cluster → score → digest."""
+    """Full pipeline: collect → classify → cluster → news → reports → triangulate → score → digest."""
     from . import db as dbm
     from .collect import collect as run_collect, dry_run_plan
     cfg = _cfg()
@@ -121,14 +153,26 @@ def run(since: Optional[int] = typer.Option(None, "--since", help="Look-back win
         typer.echo("== cluster (dry run) ==")
         typer.echo(f"  {problems} problem summaries would be embedded with {cfg['clustering'].get('embedding_model')} "
                    f"and clustered at cosine distance {cfg['clustering'].get('distance_threshold')}")
-        typer.echo("== score / digest (dry run) ==")
-        typer.echo(f"  clusters with >= {cfg['scoring'].get('min_cluster_size')} items would be scored; "
-                   f"digest with top {top or cfg['digest'].get('top_n')} written to digests/YYYY-MM-DD.md")
+        from .catalysts import describe as news_describe
+        from .claims import describe as reports_describe
+        typer.echo("== news (dry run) ==")
+        for line in news_describe(days, cfg):
+            typer.echo("  " + line)
+        typer.echo("== reports (dry run) ==")
+        for line in reports_describe(int(cfg.get("reports", {}).get("since_days", 30)), cfg):
+            typer.echo("  " + line)
+        typer.echo("== triangulate / score / digest (dry run) ==")
+        typer.echo(f"  clusters with >= {cfg['scoring'].get('min_cluster_size')} items would be matched to claims and "
+                   f"catalysts at distance {cfg['triangulation'].get('distance_threshold')}, scored, and written to "
+                   f"digests/YYYY-MM-DD.md (top {top or cfg['digest'].get('top_n')})")
         return
+    from .catalysts import run_news
+    from .claims import run_reports
     from .classify import classify as run_classify
     from .cluster import run_clustering
     from .digest import write_digest
     from .score import score as run_score
+    from .triangulate import triangulate as run_tri
     with _conn() as conn:
         typer.echo("== collect ==")
         for name, r in run_collect(cfg, conn, days).items():
@@ -137,10 +181,16 @@ def run(since: Optional[int] = typer.Option(None, "--since", help="Look-back win
         typer.echo(f"  {run_classify(cfg, conn)}")
         typer.echo("== cluster ==")
         typer.echo(f"  {run_clustering(cfg, conn)}")
+        typer.echo("== news ==")
+        typer.echo(f"  {run_news(cfg, conn, days)}")
+        typer.echo("== reports ==")
+        typer.echo(f"  {run_reports(cfg, conn, int(cfg.get('reports', {}).get('since_days', 30)))}")
+        typer.echo("== triangulate ==")
+        typer.echo(f"  {run_tri(cfg, conn)}")
         typer.echo("== score ==")
         typer.echo(f"  {run_score(cfg, conn)}")
         typer.echo("== digest ==")
-        typer.echo(f"  wrote {write_digest(cfg, conn, top_n=top, out=out)}")
+        typer.echo(f"  wrote {write_digest(cfg, conn, top_n=top, out=out, corridor=corridor)}")
 
 
 @app.command()

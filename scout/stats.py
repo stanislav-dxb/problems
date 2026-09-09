@@ -25,9 +25,24 @@ def gather(conn: sqlite3.Connection) -> dict[str, Any]:
         "scored": q("SELECT COUNT(*) FROM scores").fetchone()[0],
     }
     runs = q("SELECT stage, started_at, finished_at, notes FROM runs ORDER BY id DESC LIMIT 8").fetchall()
+    ct = q("SELECT COALESCE(SUM(chunks_total),0), COALESCE(SUM(chunks_kept),0) FROM reports").fetchone()
+    families = {
+        "reports": q("SELECT COUNT(*) FROM reports").fetchone()[0],
+        "report_claims": q("SELECT COUNT(*) FROM report_claims").fetchone()[0],
+        "report_chunks": ct[0], "chunks_kept": ct[1],
+        "prefilter_skip_rate": round(1 - ct[1] / ct[0], 2) if ct[0] else None,
+        "news_articles": q("SELECT COUNT(*) FROM news_articles").fetchone()[0],
+        "news_catalysts": q("SELECT COUNT(*) FROM news_catalysts WHERE is_catalyst = 1").fetchone()[0],
+        "triangulations": q("SELECT COUNT(*) FROM triangulations").fetchone()[0],
+        "with_all_legs": q("SELECT COUNT(*) FROM triangulations WHERE triangulation_score > 0").fetchone()[0],
+        "hypotheses": q("SELECT COUNT(*) FROM hypotheses").fetchone()[0],
+    }
+    per_family = q("SELECT 'news' AS family, feed AS name, COUNT(*) AS n FROM news_articles GROUP BY feed UNION ALL "
+                   "SELECT 'reports', publisher, COUNT(*) FROM reports GROUP BY publisher ORDER BY family, n DESC").fetchall()
     return {"per_source": [dict(r) for r in per_source], "per_domain": [dict(r) for r in per_domain],
             "per_week": [dict(r) for r in per_week], "per_lang": [dict(r) for r in per_lang],
-            "pipeline": pipeline, "runs": [dict(r) for r in runs]}
+            "pipeline": pipeline, "runs": [dict(r) for r in runs], "families": families,
+            "per_family": [dict(r) for r in per_family]}
 
 
 def _table(rows: list[dict], cols: list[tuple[str, str]]) -> str:
@@ -55,7 +70,10 @@ def render(s: dict[str, Any]) -> str:
         "", "Pipeline:",
         f"  items={p['items']} classified={p['classified']} problems={p['problems']} "
         f"clusters={p['clusters']} (>=3 items: {p['clusters_3plus']}) scored={p['scored']}",
+        "", "Reports & news layer:",
+        _table(s["per_family"], [("family", "family"), ("name", "feed / publisher"), ("n", "items")]),
+        "  " + " ".join(f"{k}={v}" for k, v in s["families"].items()),
         "", "Recent runs:",
         _table(s["runs"], [("stage", "stage"), ("started_at", "started"), ("finished_at", "finished"), ("notes", "notes")]),
-        "", "Cost: $0.00 — no external model calls; everything runs locally.",
+        "", "Token spend per source family: pain=0 reports=0 news=0 — no external model calls; everything runs locally.",
     ])

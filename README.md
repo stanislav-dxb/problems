@@ -10,12 +10,14 @@ multilingual sentence-embedding model for clustering, and an evidence score for 
 credentials involved are the free ones for the sources themselves, and HN plus App Store need none.
 
 ```
-collect  →  classify  →  cluster  →  score  →  digest
-(source     (phrase       (local        (evidence   (Markdown)
- APIs)       rules)        embeddings)   score)
+collect  →  classify  →  cluster  →  news  →  reports  →  triangulate  →  score  →  digest
+(source     (phrase       (local       (why     (category    (pain × market    (evidence   (Markdown)
+ APIs)       rules)        embeddings)  now)     size)        × timing)         score)
 ```
 
 ## Sources
+
+Pain sources (individual people describing a problem):
 
 | Source | Access | Key needed | Default |
 |---|---|---|---|
@@ -26,6 +28,13 @@ collect  →  classify  →  cluster  →  score  →  digest
 | YouTube comments | Data API v3 | `YOUTUBE_API_KEY` + channel IDs in config | on, skipped without key |
 | Telegram public channels | Telethon (user account) | `TELEGRAM_API_ID/HASH` + `pip install telethon` | off |
 | Adzuna job ads | Adzuna API | `ADZUNA_APP_ID/KEY` | off |
+
+Reports and news (category size and timing, see *Reports & news layer* below):
+
+| Family | Sources | Key needed |
+|---|---|---|
+| Reports | World Bank Documents API, publisher RSS feeds (McKinsey Insights by default), arXiv econ/finance abstracts | none |
+| News | Google News RSS per query and locale (EN/RU/AR/HI, Gulf/India/US/Russia), trade press and regulator RSS (Economic Times, Mint, Kommersant, Vedomosti, RBC, TechCrunch, Sifted, Tech in Asia, RBI, SEC, EU Commission), GDELT 2.0 | none |
 
 No headless browsers, no HTML scraping. If a source cannot be accessed legitimately it is skipped and
 the reason is logged. Author handles are salted-hashed before storage, name-like fields are stripped
@@ -64,9 +73,12 @@ Hugging Face cache. Switch to `all-MiniLM-L6-v2` in `config.yaml` for a smaller,
 scout collect [--source NAME] [--since DAYS] [--dry-run]
 scout classify [--limit N] [--reclassify]
 scout cluster
+scout news [--since DAYS]          # articles -> catalysts
+scout reports [--since DAYS]       # reports -> claims (default window 730 days)
+scout triangulate                  # clusters x claims x catalysts -> triangulations, hypotheses
 scout score
-scout digest [--top N] [--out digest.md]
-scout run [--since DAYS] [--top N] [--out PATH] [--dry-run]   # whole pipeline
+scout digest [--top N] [--out digest.md] [--corridor]
+scout run [--since DAYS] [--top N] [--out PATH] [--corridor] [--dry-run]   # whole pipeline
 scout stats
 ```
 
@@ -101,6 +113,39 @@ waiting politely on the source APIs.
   tools already in use and three verbatim quotes (≤ 25 words, linked to the source), a
   *Cross-market gaps* section (clusters heavy in English but thin in RU/AR/HI, or the reverse) and
   a *Rising* section (`growth_30d > 2` regardless of score).
+
+### Reports & news layer
+
+Forum posts and reviews capture one person's pain. Two more families add what they cannot:
+
+- **Reports** (`scout reports`) tell you which pain sits inside a large category. Each report's text
+  (PDF via pymupdf, or article HTML) is chunked into ~2,000-token sections with headings kept, passed
+  through a cheap keyword prefilter (`reports.prefilter_keywords`, skip rate logged), and each surviving
+  chunk becomes one `report_claims` row typed by multilingual keyword rules: `market_size`,
+  `growth_rate`, `structural_gap`, `regulatory_change`, `technology_shift`, `incumbent_weakness` or
+  `demand_shift`, with extracted figures (currency, percent, year), geographies and a per-publisher
+  `confidence_in_source` (World Bank 4, consultancies 3).
+- **News** (`scout news`) tells you *why now*. Each article's headline and summary is typed as a
+  catalyst (`regulation`, `new_mandate`, `cost_collapse`, `shortage`, `incumbent_exit`,
+  `incumbent_failure`, `funding_signal`, `demographic`, `geopolitical`) with a strength of 1–5, a time
+  horizon (from future years in the text, else a per-type default) and geographies. Full article text
+  is off by default (`news.fetch_full_text`); when on, trafilatura fetches it and robots.txt is honoured.
+- **Triangulate** (`scout triangulate`) embeds cluster summaries, claims and catalysts with the same
+  local multilingual model and matches them within `triangulation.distance_threshold`. Three legs are
+  scored 0–1: pain (volume, mean pain, growth), market (best matched claim: confidence × claim-type
+  weight × similarity) and timing (best matched catalyst: strength × recency × similarity). The
+  triangulation score is their geometric mean, so a missing leg gives zero on purpose. Every cluster
+  also records its weakest leg and what would fill it. Strong claims or catalysts that match no
+  cluster become **hypotheses** with a suggested person-type to ask.
+
+The digest gains three sections: *Triangulated* (all three legs, with the market figure and source,
+the catalysts with dates), *Hypotheses* (clearly labelled unverified) and *Catalyst watch* (top
+catalysts this week with horizon). `--corridor` keeps only report/news signals touching two or more
+of Gulf, Russian-speaking, India, China and the EU. The evidence score gets a `triangulation`
+component (weight 0.20 by default).
+
+Because everything is rule-based, `affected_parties` is left empty and claim domains fall back to the
+chunk heading; treat both claims and catalysts as leads to read, not conclusions.
 
 The tool ranks evidence; the judgement about market size, defensibility and whether a problem can
 carry a large company stays with you. The digest is built to make that judgement fast: read the
@@ -155,7 +200,10 @@ Every key has a default in `scout/config.py`; omit what you do not need.
 - `problems` — one row per classified item (`is_problem`, signals, `signal_score`), with
   `cluster_id` set by the cluster stage.
 - `clusters` — rebuilt each run: label, canonical summary, domain, counts, sources, `growth_30d`.
-- `scores` — one row per scored cluster: the eight components, competition count, `overall_score`.
+- `scores` — one row per scored cluster: the nine components, competition count, `overall_score`.
+- `reports`, `report_claims` — fetched reports (PDFs under `data/reports/`) and their typed claims.
+- `news_articles`, `news_catalysts` — fetched articles and their typed catalysts.
+- `triangulations`, `hypotheses` — per-cluster legs and score; unmatched strong signals.
 - `runs` — stage timings.
 
 ## Tests
@@ -165,7 +213,9 @@ make test        # or: .venv/bin/python -m pytest -q
 ```
 
 Covers deduplication and handle hashing, the phrase-rule classifier in four languages, clustering
-determinism on a fixture, score arithmetic, and an end-to-end run with a fake embedder.
+determinism on a fixture, score arithmetic, an end-to-end run with a fake embedder, the extractors
+(geography, figures, horizons), Google News and GDELT URL builders per language, a generated PDF
+through chunking and claim storage, and triangulation with reverse hypotheses on a fixture set.
 
 ## First digest
 

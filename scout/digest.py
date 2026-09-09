@@ -9,6 +9,7 @@ from datetime import timedelta
 from pathlib import Path
 
 from . import db as dbm
+from .extract import is_corridor
 from .util import all_query_terms, iso, now_utc, truncate_words
 
 log = logging.getLogger("scout.digest")
@@ -53,11 +54,19 @@ def _lang_split(members: list[sqlite3.Row]) -> tuple[int, int]:
 
 
 def _score_line(s: sqlite3.Row) -> str:
-    parts = [f"{k} {s[k]:.2f}" for k in ("volume", "growth", "sources", "languages", "pain", "money", "demand", "workaround")]
+    parts = [f"{k} {s[k]:.2f}" for k in ("volume", "growth", "sources", "languages", "pain", "money", "demand",
+                                          "workaround", "triangulation")]
     return " · ".join(parts)
 
 
-def build_digest(cfg: dict, conn: sqlite3.Connection, top_n: int | None = None) -> str:
+def _geos(row: sqlite3.Row) -> list[str]:
+    try:
+        return json.loads(row["geography"] or "[]")
+    except (ValueError, TypeError):
+        return []
+
+
+def build_digest(cfg: dict, conn: sqlite3.Connection, top_n: int | None = None, corridor: bool = False) -> str:
     dcfg = cfg.get("digest", {})
     top_n = top_n or int(dcfg.get("top_n", 10))
     quotes_n = int(dcfg.get("quotes_per_cluster", 3))
@@ -79,7 +88,12 @@ def build_digest(cfg: dict, conn: sqlite3.Connection, top_n: int | None = None) 
     fastest = sorted((c for c in clusters if c["item_count"] >= 3 and c["growth_30d"] is not None),
                      key=lambda c: -c["growth_30d"])[:3]
 
+    tri = dbm.triangulations_by_cluster(conn)
     out: list[str] = [f"# Problem Scout digest — {now.date().isoformat()}", ""]
+    if corridor:
+        out.append("_Corridor view: report/news signals limited to items touching two or more of Gulf, "
+                   "Russian-speaking, India, China, EU._")
+        out.append("")
     out.append(f"- Run date: {iso(now)}")
     out.append(f"- Items collected this week: {items_week} (total stored: {items_total}; flagged as problems: {problems_total})")
     out.append(f"- Clusters: {len(clusters)} total, {len(new_clusters)} first seen this week, "
@@ -129,6 +143,80 @@ def build_digest(cfg: dict, conn: sqlite3.Connection, top_n: int | None = None) 
                 break
         out.append("")
 
+    # ---- Triangulated: pain + market + timing ----
+    out.append("## Triangulated — pain, market and timing all present")
+    out.append("")
+    out.append("_Geometric mean of the three legs; a missing leg gives 0 by design. Market figures come from "
+               "reports, catalysts from news; both are matched by embedding similarity, so read the sources._")
+    out.append("")
+    tri_rows = [(t, next((c for c in clusters if c["id"] == cid), None)) for cid, t in tri.items()]
+    tri_rows = [(t, c) for t, c in tri_rows if c is not None and (t["triangulation_score"] or 0) > 0]
+    if corridor:
+        tri_rows = [(t, c) for t, c in tri_rows if is_corridor(_geos(t))]
+    tri_rows.sort(key=lambda tc: -(tc[0]["triangulation_score"] or 0))
+    if not tri_rows:
+        out.append("_No cluster has all three legs yet. Run `scout news`, `scout reports`, `scout triangulate`; "
+                   "see each cluster's evidence gap below._")
+    for t, c in tri_rows[:top_n]:
+        members = dbm.cluster_members(conn, c["id"])
+        out.append(f"### {c['label']} — triangulation {t['triangulation_score']:.0f}/100 "
+                   f"(pain {t['pain_evidence']:.2f} · market {t['market_evidence']:.2f} · timing {t['timing_evidence']:.2f})")
+        out.append("")
+        quoted = 0
+        for m in members:
+            q = pick_quote(m["body"], terms, quote_words)
+            if q:
+                out.append(f"> \"{q}\" — [{m['source']}]({m['url']})")
+                quoted += 1
+            if quoted >= 2:
+                break
+        out.append("")
+        out.append(f"**Market figure.** {t['market_size_source'] or 'none matched'}")
+        out.append("")
+        out.append(f"**Catalysts.** {t['why_now'] or 'none matched'}")
+        out.append("")
+        if _geos(t):
+            out.append(f"**Geographies in evidence.** {', '.join(_geos(t))}")
+            out.append("")
+    # evidence gaps for the top pain clusters
+    gaps_lines = [f"- **{c['label']}** — {tri[c['id']]['evidence_gaps']}" for c in ranked[:5] if c["id"] in tri]
+    if gaps_lines:
+        out.append("**Evidence gaps for the top pain clusters.**")
+        out.append("")
+        out.extend(gaps_lines)
+        out.append("")
+
+    # ---- Hypotheses ----
+    out.append("## Hypotheses — reports or news say it is broken, nobody is complaining publicly yet")
+    out.append("")
+    out.append("_UNVERIFIED. Each line is a single report claim or news catalyst with no matching pain cluster. "
+               "Talk to the suggested person before believing it._")
+    out.append("")
+    hyps = list(conn.execute("SELECT * FROM hypotheses ORDER BY strength DESC, id"))
+    if corridor:
+        hyps = [h for h in hyps if is_corridor(_geos(h))]
+    if not hyps:
+        out.append("_None yet._")
+    for h in hyps[:15]:
+        geo = f" [{', '.join(_geos(h))}]" if _geos(h) else ""
+        out.append(f"- ({h['kind']}, strength {h['strength']}){geo} {h['summary']} — ask **{h['ask_whom']}**. "
+                   f"[source]({h['source_url']})")
+    out.append("")
+
+    # ---- Catalyst watch ----
+    out.append("## Catalyst watch — strongest news catalysts this week")
+    out.append("")
+    cats = dbm.catalysts(conn, since=week_ago)
+    if corridor:
+        cats = [k for k in cats if is_corridor(_geos(k))]
+    if not cats:
+        out.append("_No catalysts this week. Run `scout news`._")
+    for k in cats[:10]:
+        geo = f" [{', '.join(_geos(k))}]" if _geos(k) else ""
+        out.append(f"- **{k['catalyst_type']}** (strength {k['catalyst_strength']}, {k['time_horizon']}){geo} "
+                   f"{k['summary']} — {k['feed']}, {(k['published_at'] or '')[:10]}. [link]({k['url']})")
+    out.append("")
+
     out.append("## Cross-market gaps")
     out.append("")
     out.append("_Clusters heavy in English-language posts but thin in Russian/Arabic/Hindi ones, or the reverse._")
@@ -173,8 +261,9 @@ def build_digest(cfg: dict, conn: sqlite3.Connection, top_n: int | None = None) 
     return "\n".join(out)
 
 
-def write_digest(cfg: dict, conn: sqlite3.Connection, top_n: int | None = None, out: str | None = None) -> Path:
-    text = build_digest(cfg, conn, top_n)
+def write_digest(cfg: dict, conn: sqlite3.Connection, top_n: int | None = None, out: str | None = None,
+                 corridor: bool = False) -> Path:
+    text = build_digest(cfg, conn, top_n, corridor)
     path = Path(out) if out else Path(cfg.get("digest", {}).get("output_dir", "digests")) / f"{now_utc().date().isoformat()}.md"
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")

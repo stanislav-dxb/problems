@@ -9,6 +9,7 @@ Each component is normalised to 0..1 and combined with the weights in config.yam
   money       share of members that mention money
   demand      share of members that explicitly ask for a solution
   workaround  share of members describing a manual workaround
+  triangulation  `scout triangulate` score (pain x market x timing), 0 until it has run
 """
 from __future__ import annotations
 
@@ -23,7 +24,7 @@ from . import db as dbm
 
 log = logging.getLogger("scout.score")
 
-COMPONENTS = ("volume", "growth", "sources", "languages", "pain", "money", "demand", "workaround")
+COMPONENTS = ("volume", "growth", "sources", "languages", "pain", "money", "demand", "workaround", "triangulation")
 
 
 def normalise_growth(growth: float | None) -> float:
@@ -33,7 +34,8 @@ def normalise_growth(growth: float | None) -> float:
     return max(0.0, min(1.0, math.log2(max(growth, 0.25)) / 4 + 0.5))
 
 
-def components_for(cluster: sqlite3.Row, members: list[sqlite3.Row], volume_cap: int = 50) -> dict[str, float]:
+def components_for(cluster: sqlite3.Row, members: list[sqlite3.Row], volume_cap: int = 50,
+                   triangulation: float | None = None) -> dict[str, float]:
     n = max(1, len(members))
     langs = {(m["item_language"] or "und") for m in members} & {"en", "ru", "ar", "hi"}
     try:
@@ -50,6 +52,7 @@ def components_for(cluster: sqlite3.Row, members: list[sqlite3.Row], volume_cap:
         "money": sum(1 for m in members if m["money_mentioned"]) / n,
         "demand": sum(1 for m in members if m["solution_requested"]) / n,
         "workaround": sum(1 for m in members if m["workaround_described"]) / n,
+        "triangulation": max(0.0, min(1.0, (triangulation or 0.0) / 100)),
     }
 
 
@@ -79,9 +82,12 @@ def score(cfg: dict, conn: sqlite3.Connection) -> dict[str, Any]:
     stats = {"clusters": len(clusters), "scored": 0}
     run_id = dbm.start_run(conn, "score")
     conn.execute("DELETE FROM scores")
+    tri = dbm.triangulations_by_cluster(conn)
     for c in clusters:
         members = dbm.cluster_members(conn, c["id"])
-        comps = components_for(c, members, int(scfg.get("volume_cap", 50)))
+        t = tri.get(c["id"])
+        comps = components_for(c, members, int(scfg.get("volume_cap", 50)),
+                               t["triangulation_score"] if t is not None else None)
         sols = named_solutions(members)
         row = {"cluster_id": c["id"], **comps, "overall_score": compute_overall_score(comps, weights),
                "existing_solutions": sols, "competition": len(sols)}

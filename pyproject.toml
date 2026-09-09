@@ -17,6 +17,8 @@ dependencies = [
     "langdetect>=1.0.9",
     "pyyaml>=6.0",
     "python-dotenv>=1.0",
+    "pymupdf>=1.24",
+    "trafilatura>=1.9",
 ]
 
 [project.optional-dependencies]

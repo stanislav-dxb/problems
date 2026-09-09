@@ -20,8 +20,8 @@ def test_max_and_min_scores():
 def test_hand_computed_case():
     comps = {"volume": 1.0, "growth": 0.5, "sources": 0.0, "languages": 0.0, "pain": 0.5,
              "money": 1.0, "demand": 0.0, "workaround": 1.0}
-    # 0.25*1 + 0.15*0.5 + 0.15*0.5 + 0.10*1 + 0.05*1 = 0.55
-    assert compute_overall_score(comps, W) == 55.0
+    # 0.20*1 + 0.12*0.5 + 0.12*0.5 + 0.08*1 + 0.04*1 = 0.44 (triangulation absent = 0)
+    assert compute_overall_score(comps, W) == 44.0
 
 
 def test_components_are_clipped_and_weights_normalised():

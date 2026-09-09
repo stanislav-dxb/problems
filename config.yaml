@@ -165,14 +165,124 @@ scoring:
   min_cluster_size: 3             # clusters smaller than this are not scored or ranked
   volume_cap: 50                  # item count at which the volume component saturates
   weights:                        # each component is 0..1; weights are normalised to sum to 1
-    volume: 0.25
-    growth: 0.15
-    sources: 0.10
-    languages: 0.10
-    pain: 0.15
-    money: 0.10
-    demand: 0.10
-    workaround: 0.05
+    volume: 0.20
+    growth: 0.12
+    sources: 0.08
+    languages: 0.08
+    pain: 0.12
+    money: 0.08
+    demand: 0.08
+    workaround: 0.04
+    triangulation: 0.20           # from `scout triangulate` (0 until it has run)
+
+# ---------------------------------------------------------------- news layer (why now)
+news:
+  max_per_feed: 50                # cap per feed per run
+  catalyst_threshold: 2           # taxonomy points needed to count as a catalyst (scout/catalysts.py)
+  fetch_full_text: false          # true = fetch article bodies with trafilatura (robots.txt honoured); slower
+  google_news:
+    enabled: true
+    locales:                      # each query below runs once per locale of its language
+      - {lang: en, gl: AE, ceid: "AE:en"}
+      - {lang: en, gl: IN, ceid: "IN:en"}
+      - {lang: en, gl: US, ceid: "US:en"}
+      - {lang: ru, gl: RU, ceid: "RU:ru"}
+      - {lang: ar, gl: AE, ceid: "AE:ar"}
+      - {lang: ar, gl: SA, ceid: "SA:ar"}
+      - {lang: hi, gl: IN, ceid: "IN:hi"}
+    queries:
+      en:
+        - {q: "e-invoicing mandate", domain: "small business accounting"}
+        - {q: "new regulation SMEs", domain: "small business"}
+        - {q: "labour shortage construction", domain: "construction"}
+        - {q: "shuts down operations", domain: "general"}
+        - {q: "raises Series A logistics", domain: "logistics"}
+        - {q: "mandatory compliance deadline", domain: "compliance"}
+        - {q: "customs delays shortage", domain: "logistics"}
+        - {q: "clinic licensing rules", domain: "clinic operations"}
+      ru:
+        - {q: "новые правила для бизнеса", domain: "small business"}
+        - {q: "дефицит кадров", domain: "hiring"}
+        - {q: "уходит с рынка", domain: "general"}
+        - {q: "привлек инвестиции стартап", domain: "startups"}
+        - {q: "обязательная маркировка", domain: "compliance"}
+      ar:
+        - {q: "قانون جديد الشركات الصغيرة", domain: "small business"}
+        - {q: "نقص العمالة", domain: "hiring"}
+        - {q: "الفوترة الإلكترونية", domain: "small business accounting"}
+        - {q: "جولة تمويل", domain: "startups"}
+      hi:
+        - {q: "छोटे व्यापार नया नियम", domain: "small business"}
+        - {q: "कमी मजदूर", domain: "hiring"}
+        - {q: "फंडिंग स्टार्टअप", domain: "startups"}
+  gdelt:
+    enabled: true                 # free API, one request per language, spaced out; skipped when throttled
+    max_records: 50
+    spacing_seconds: 8
+    phrases:
+      en: ["e-invoicing mandate", "labour shortage", "exits the market", "new regulation for SMEs"]
+      ru: ["дефицит кадров", "уходит с рынка", "новые требования для бизнеса"]
+      ar: ["نقص العمالة", "الفوترة الإلكترونية", "قانون جديد"]
+      hi: ["नया नियम व्यापार", "कमी"]
+  feeds:                          # kind: press | regulatory | funding. Feeds verified live on 2026-09-09.
+    - {name: "Economic Times SME", url: "https://economictimes.indiatimes.com/small-biz/rssfeeds/5575607.cms", kind: press, language: en, region: india, domain: "small business"}
+    - {name: "Economic Times Top", url: "https://economictimes.indiatimes.com/rssfeedstopstories.cms", kind: press, language: en, region: india}
+    - {name: "Mint Industry", url: "https://www.livemint.com/rss/industry", kind: press, language: en, region: india}
+    - {name: "Mint Companies", url: "https://www.livemint.com/rss/companies", kind: press, language: en, region: india}
+    - {name: "Kommersant", url: "https://www.kommersant.ru/RSS/news.xml", kind: press, language: ru, region: russian}
+    - {name: "Vedomosti", url: "https://www.vedomosti.ru/rss/news", kind: press, language: ru, region: russian}
+    - {name: "RBC", url: "https://rssexport.rbc.ru/rbcnews/news/30/full.rss", kind: press, language: ru, region: russian}
+    - {name: "TechCrunch", url: "https://techcrunch.com/feed/", kind: funding, language: en, region: us, domain: "startups"}
+    - {name: "Sifted", url: "https://sifted.eu/feed", kind: funding, language: en, region: eu, domain: "startups"}
+    - {name: "Tech in Asia", url: "https://www.techinasia.com/feed", kind: funding, language: en, region: asia, domain: "startups"}
+    - {name: "RBI press releases", url: "https://www.rbi.org.in/pressreleases_rss.xml", kind: regulatory, language: en, region: india, domain: "banking"}
+    - {name: "SEC press releases", url: "https://www.sec.gov/news/pressreleases.rss", kind: regulatory, language: en, region: us, domain: "capital markets"}
+    - {name: "EU Commission press", url: "https://ec.europa.eu/commission/presscorner/api/rss?language=en", kind: regulatory, language: en, region: eu}
+    # Blocked or without RSS when checked (403/404): Construction Week ME, Arabian Business, Gulf News, Zawya,
+    # The National, The Information. Gulf coverage comes from the AE/SA Google News locales above.
+    # UAE Federal Gazette, SAMA and CMA publish no RSS; add a Google News query for them if needed.
+
+# ---------------------------------------------------------------- reports layer (category size, structural trends)
+reports:
+  since_days: 730                 # reports age slowly and the World Bank index lags by months; 2 years is sane
+  data_dir: data/reports          # downloaded PDFs (git-ignored)
+  max_pdf_mb: 25
+  chunk_chars: 8000               # ~2,000 tokens per chunk
+  fetch_html: true                # fetch full article text for publisher feeds (robots.txt honoured)
+  max_per_publisher: 30
+  prefilter_keywords:             # a chunk must contain one of these to be classified; skip rate is logged
+    ["gap", "underserved", "fragmented", "manual", "inefficien", "shortage", "opportunity", "lack of", "no standard",
+     "informal", "unmet", "пробел", "фрагмент", "вручную", "неэффективн", "дефицит", "возможност", "отсутств",
+     "فجوة", "مجزأ", "يدوي", "غير فعال", "نقص", "فرصة", "कमी", "अकुशल", "अवसर", "खंडित"]
+  worldbank:
+    enabled: true
+    rows: 20                      # newest documents per query
+    confidence: 4
+    queries:
+      - "small and medium enterprises digital"
+      - "logistics trade facilitation"
+      - "construction sector productivity"
+      - "informal economy"
+      - "labor market Gulf"
+      - "financial inclusion India"
+      - "health services private sector"
+      - "Uzbekistan Kazakhstan private sector"
+  publishers:                     # insight feeds; confidence 1-5 (audited data 5 ... marketing 2)
+    - {name: "McKinsey Insights", url: "https://www.mckinsey.com/insights/rss", confidence: 3, language: en, region: global}
+    # No public RSS or blocked when checked: BCG, Bain, Deloitte Insights, PwC, EY, Kearney, Oliver Wyman,
+    # Roland Berger, IMF, OECD, WEF, HSE, IBEF, KAPSARC, NITI Aayog, Redseer, Strategy& ME. Add any feed URL you
+    # find as {name, url, confidence, language, region}; PDF enclosures are downloaded and chunked automatically.
+  arxiv:
+    enabled: true
+    categories: [econ.GN, q-fin.GN]
+    max_results: 50
+    confidence: 3
+
+triangulation:
+  distance_threshold: 0.45        # cosine distance between a cluster summary and a claim/catalyst
+  min_claim_confidence_for_hypothesis: 3
+  min_catalyst_strength_for_hypothesis: 4
+
 
 digest:
   top_n: 10
