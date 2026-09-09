@@ -11,8 +11,6 @@ scout.db-wal
 scout.db-shm
 *.session
 *.session-journal
-digests/*.md
-!digests/.gitkeep
-!digests/first-digest-*.md
+# digests are tracked: they are the product
 .cache/
 data/reports/
