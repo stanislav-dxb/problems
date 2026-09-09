@@ -37,12 +37,17 @@ def gather(conn: sqlite3.Connection) -> dict[str, Any]:
         "with_all_legs": q("SELECT COUNT(*) FROM triangulations WHERE triangulation_score > 0").fetchone()[0],
         "hypotheses": q("SELECT COUNT(*) FROM hypotheses").fetchone()[0],
     }
+    calls = q("SELECT substr(called_at, 1, 10) AS day, stage, backend, model, COUNT(*) AS calls, "
+              "SUM(CASE WHEN ok = 0 THEN 1 ELSE 0 END) AS failed, COALESCE(SUM(items), 0) AS items, "
+              "ROUND(AVG(duration_ms) / 1000.0, 1) AS avg_s FROM llm_calls GROUP BY day, stage, backend, model "
+              "ORDER BY day DESC, stage LIMIT 40").fetchall()
+    evals = q("SELECT COUNT(*) FROM evaluations e JOIN clusters c ON c.id = e.cluster_id").fetchone()[0]
     per_family = q("SELECT 'news' AS family, feed AS name, COUNT(*) AS n FROM news_articles GROUP BY feed UNION ALL "
                    "SELECT 'reports', publisher, COUNT(*) FROM reports GROUP BY publisher ORDER BY family, n DESC").fetchall()
     return {"per_source": [dict(r) for r in per_source], "per_domain": [dict(r) for r in per_domain],
             "per_week": [dict(r) for r in per_week], "per_lang": [dict(r) for r in per_lang],
             "pipeline": pipeline, "runs": [dict(r) for r in runs], "families": families,
-            "per_family": [dict(r) for r in per_family]}
+            "per_family": [dict(r) for r in per_family], "calls": [dict(r) for r in calls], "evaluations": evals}
 
 
 def _table(rows: list[dict], cols: list[tuple[str, str]]) -> str:
@@ -75,5 +80,9 @@ def render(s: dict[str, Any]) -> str:
         "  " + " ".join(f"{k}={v}" for k, v in s["families"].items()),
         "", "Recent runs:",
         _table(s["runs"], [("stage", "stage"), ("started_at", "started"), ("finished_at", "finished"), ("notes", "notes")]),
-        "", "Token spend per source family: pain=0 reports=0 news=0 — no external model calls; everything runs locally.",
+        "", f"Model calls per stage per day (evaluated clusters: {s['evaluations']}):",
+        _table(s["calls"], [("day", "day"), ("stage", "stage"), ("backend", "backend"), ("model", "model"), ("calls", "calls"),
+                            ("failed", "failed"), ("items", "items"), ("avg_s", "avg_s")]),
+        "  claude_code calls draw on the Claude subscription quota (no per-token bill); item counts are logged because "
+        "the CLI does not expose token counts. Reports and news never call a model.",
     ])

@@ -5,15 +5,48 @@
 flags the ones that describe a real difficulty, clusters recurring problems, ranks the clusters by
 measurable evidence, and writes a weekly Markdown digest.
 
-**No LLM, no API spend.** Everything runs on your machine: phrase rules for classification, a
-multilingual sentence-embedding model for clustering, and an evidence score for ranking. The only
-credentials involved are the free ones for the sources themselves, and HN plus App Store need none.
+**No API key, no per-token bill.** Model calls go through the Claude Code CLI in headless mode on
+your logged-in Claude subscription (see *Model backend*). Clustering runs on a local embedding model;
+collection uses the sources' own free APIs, and HN plus App Store need no credentials at all.
 
 ```
-collect  →  classify  →  cluster  →  news  →  reports  →  triangulate  →  score  →  digest
-(source     (phrase       (local       (why     (category    (pain × market    (evidence   (Markdown)
- APIs)       rules)        embeddings)  now)     size)        × timing)         score)
+collect → classify → cluster → news → reports → triangulate → evaluate → score → digest
+(source    (model or    (local      (why    (category   (pain × market   (model,       (evidence  (Markdown)
+ APIs)      rules)       embeddings) now)    size)       × timing)        criteria)     score)
 ```
+
+## Model backend
+
+`config.yaml → llm.backend` selects how the classify and evaluate stages call a model:
+
+| backend | how it works | credentials | cost |
+|---|---|---|---|
+| `claude_code` (default) | shells out to `claude -p <prompt> --system-prompt <system> --output-format json --model <model> --tools ""` and parses the JSON envelope | the Claude Code CLI, logged in once (`claude`) | draws on your Claude subscription's usage quota; no API key, no per-token bill |
+| `anthropic_api` | the Anthropic Python SDK (adaptive thinking, server-side safety fallbacks) | `ANTHROPIC_API_KEY` or an `ant auth login` profile; `pip install anthropic` | billed per token to a Console organisation |
+| `rules` | multilingual keyword classifier, no model at all | none | free; `scout evaluate` is skipped with a logged reason |
+
+`llm.model` is the classify model (`sonnet` / `opus` / `haiku` CLI aliases); `llm.evaluate_model`
+(default `opus`) is used for `scout evaluate`. `llm.max_parallel` caps concurrent CLI processes during
+classification; `llm.timeout_s` bounds each call. With `claude_code`, startup runs `claude --version`
+and one tiny probe call, and stops with a clear message if the CLI is missing or not logged in. The
+tool never falls back to another backend silently. Headless runs consume subscription usage exactly
+like typing into Claude Code; `scout plan` shows how many calls the next run will make.
+
+Classification sends batches of `classify.batch_size` (15) items with a strict-JSON contract
+(`is_problem`, English `problem_summary`, `who_has_it`, `domain`, `pain_score` 1–5, `money_mentioned`,
+`workaround_described`, `solution_requested`, `existing_solutions_named`). A call that exits non-zero
+or times out is retried once, then the batch is marked failed (`--retry-failed` re-runs those). A
+prompt over 60k characters halves the batch. Markdown fences and a leading "json" label are stripped
+before parsing. Token counts are not exposed by the CLI, so `scout stats` logs calls and item counts
+per stage per day instead.
+
+Evaluation makes one call per cluster with `item_count >= evaluate.min_cluster_size` (3), sequential,
+passing the cluster's quotes plus its matched report claims and news catalysts. Output: market size
+with source, the five criteria scores, `runs_without_founder`, path to $1B, why now, what would kill
+it, quickest test, evidence gaps, corridor advantage. Unchanged clusters reuse their evaluation; a
+cluster is re-evaluated when it grew by `evaluate.reevaluate_on_growth` (20%) or more. `overall_score`
+weights: path_to_1b 0.30, monopoly_potential 0.20, triangulation_score 0.20, location_independent
+0.12, capital_light 0.08, measurable_90d 0.05, growth_30d 0.05.
 
 ## Sources
 
@@ -71,14 +104,16 @@ Hugging Face cache. Switch to `all-MiniLM-L6-v2` in `config.yaml` for a smaller,
 
 ```bash
 scout collect [--source NAME] [--since DAYS] [--dry-run]
-scout classify [--limit N] [--reclassify]
+scout plan                          # backend, models, number of model calls the next run will make
+scout classify [--limit N] [--reclassify] [--retry-failed]
 scout cluster
 scout news [--since DAYS]          # articles -> catalysts
 scout reports [--since DAYS] [--reprocess]   # reports -> claims (default window 730 days; --reprocess re-runs rules on stored reports)
 scout triangulate                  # clusters x claims x catalysts -> triangulations, hypotheses
+scout evaluate [--force] [--limit N]   # one model call per cluster against the founder's criteria
 scout score
 scout digest [--top N] [--out digest.md] [--corridor]
-scout run [--since DAYS] [--top N] [--out PATH] [--corridor] [--dry-run]   # whole pipeline
+scout run [--since DAYS] [--top N] [--out PATH] [--corridor] [--reclassify] [--dry-run]   # whole pipeline
 scout stats
 ```
 
@@ -90,14 +125,12 @@ waiting politely on the source APIs.
 
 - **collect** — runs every enabled source, filters posts against the multilingual query terms in
   `config.yaml`, detects language, hashes handles, deduplicates on `(source, source_id)`.
-- **classify** — rule-based. Each item gets signal points from problem phrases in English, Russian,
-  Arabic and Hindi ("is there a tool", "вручную", "هل يوجد", "koi tool hai", …), first-person
-  markers and source metadata (a 1–2 star review counts), minus promotional markers ("Show HN",
-  "we just launched"). Items at or above `classify.threshold` become problems. Also recorded:
-  `pain_score` (1–5 from signal strength), `money_mentioned`, `workaround_described`,
-  `solution_requested`, and `existing_solutions_named` (a list of ~90 common tools matched by name).
-  The `problem_summary` is the first sentence carrying a signal, kept in its original language.
-  The rules live at the top of `scout/classify.py`; edit them and run `scout classify --reclassify`.
+- **classify** — with a model backend, batches go to the model (see *Model backend*) and come back
+  with English summaries, who has the problem and a domain. With `rules`, each item gets signal
+  points from problem phrases in English, Russian, Arabic and Hindi ("is there a tool", "вручную",
+  "هل يوجد", "koi tool hai", …), first-person markers and source metadata, minus promotional
+  markers; items at or above `classify.threshold` become problems and the summary is the first
+  signal-bearing sentence in its original language. `scout classify --reclassify` redoes everything.
 - **cluster** — embeds summaries with a local multilingual MiniLM model, so a Russian and an
   English post about the same pain land together, then agglomerative clustering on cosine distance
   (`clustering.distance_threshold`, default 0.55), rebuilt from scratch every run. Each cluster's

@@ -3,8 +3,30 @@
 
 default_since_days: 7             # default look-back for `scout collect`
 
+# ---------------------------------------------------------------- model backend
+llm:
+  backend: claude_code            # claude_code | anthropic_api | rules
+  model: sonnet                   # claude_code: sonnet | opus | haiku (CLI aliases); anthropic_api: alias or model id
+  evaluate_model: opus            # model for `scout evaluate` (default: opus); falls back to `model` if unset
+  timeout_s: 120                  # per CLI call
+  max_parallel: 2                 # concurrent CLI processes during classify
+  probe_on_start: true            # claude_code: one tiny test call at startup to confirm the CLI is logged in
+
 classify:
-  threshold: 4                    # signal points needed to flag an item as a problem (see scout/classify.py)
+  batch_size: 15                  # items per model call (halved automatically if a prompt exceeds 60k chars)
+  threshold: 4                    # rules backend only: signal points needed to flag a problem (scout/classify.py)
+
+evaluate:
+  min_cluster_size: 3             # clusters with fewer items are not evaluated
+  reevaluate_on_growth: 0.20      # re-run the model when a cluster grew by 20%+ since its last evaluation
+  weights:                        # overall_score; 1-5 scores map to 0..1, triangulation and growth are normalised
+    path_to_1b: 0.30
+    monopoly_potential: 0.20
+    triangulation_score: 0.20
+    location_independent: 0.12
+    capital_light: 0.08
+    measurable_90d: 0.05
+    growth_30d: 0.05
 
 # Query terms per language. Sources that support search (HN, Reddit, Adzuna)
 # run one query per term. Other sources are filtered client-side against them.

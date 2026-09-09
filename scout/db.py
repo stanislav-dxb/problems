@@ -43,6 +43,7 @@ CREATE TABLE IF NOT EXISTS problems (
     language                 TEXT,
     classification_failed    INTEGER NOT NULL DEFAULT 0,
     signal_score             INTEGER,
+    classified_by            TEXT,
     cluster_id               INTEGER,
     classified_at            TEXT NOT NULL
 );
@@ -168,6 +169,48 @@ CREATE TABLE IF NOT EXISTS hypotheses (
     created_at  TEXT NOT NULL
 );
 
+CREATE TABLE IF NOT EXISTS evaluations (
+    id                     INTEGER PRIMARY KEY AUTOINCREMENT,
+    cluster_id             INTEGER NOT NULL,       -- not a FK: history survives re-clustering
+    member_hash            TEXT,
+    member_item_ids        TEXT,                   -- JSON list, for overlap-based reuse
+    item_count             INTEGER,
+    market_size_estimate   TEXT,
+    market_size_reasoning  TEXT,
+    market_size_source     TEXT,
+    monopoly_potential     INTEGER,
+    location_independent   INTEGER,
+    runs_without_founder   INTEGER,
+    capital_light          INTEGER,
+    measurable_90d         INTEGER,
+    path_to_1b             TEXT,
+    path_to_1b_score       INTEGER,
+    what_would_kill_it     TEXT,
+    quickest_test          TEXT,
+    why_now                TEXT,
+    evidence_gaps          TEXT,
+    corridor_advantage     TEXT,
+    overall_score          REAL,
+    model                  TEXT,
+    reused_from            INTEGER,                -- evaluations.id this row was copied from
+    raw_json               TEXT,
+    evaluated_at           TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_eval_cluster ON evaluations (cluster_id);
+
+CREATE TABLE IF NOT EXISTS llm_calls (
+    id           INTEGER PRIMARY KEY AUTOINCREMENT,
+    called_at    TEXT NOT NULL,
+    stage        TEXT NOT NULL,
+    backend      TEXT NOT NULL,
+    model        TEXT,
+    items        INTEGER,
+    prompt_chars INTEGER,
+    ok           INTEGER NOT NULL DEFAULT 1,
+    duration_ms  INTEGER,
+    error        TEXT
+);
+
 CREATE TABLE IF NOT EXISTS runs (
     id          INTEGER PRIMARY KEY AUTOINCREMENT,
     stage       TEXT NOT NULL,
@@ -182,7 +225,7 @@ def connect(path: str | None = None) -> sqlite3.Connection:
     p = path or db_path()
     if p != ":memory:":
         Path(p).parent.mkdir(parents=True, exist_ok=True)
-    conn = sqlite3.connect(p)
+    conn = sqlite3.connect(p, check_same_thread=False, timeout=30)  # worker threads only log through a lock
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA journal_mode=WAL")
     conn.execute("PRAGMA foreign_keys=ON")
@@ -196,11 +239,16 @@ def _migrate(conn: sqlite3.Connection) -> None:
     cols = {r["name"] for r in conn.execute("PRAGMA table_info(problems)")}
     if "signal_score" not in cols:
         conn.execute("ALTER TABLE problems ADD COLUMN signal_score INTEGER")
+    if "classified_by" not in cols:
+        conn.execute("ALTER TABLE problems ADD COLUMN classified_by TEXT")
     scols = {r["name"] for r in conn.execute("PRAGMA table_info(scores)")}
     if "triangulation" not in scols:
         conn.execute("ALTER TABLE scores ADD COLUMN triangulation REAL")
-    for legacy in ("evaluations", "api_calls"):
-        conn.execute(f"DROP TABLE IF EXISTS {legacy}")
+    ecols = {r["name"] for r in conn.execute("PRAGMA table_info(evaluations)")}
+    if ecols and "corridor_advantage" not in ecols:  # pre-addendum evaluations table: recreate
+        conn.execute("DROP TABLE evaluations")
+        conn.executescript(SCHEMA)
+    conn.execute("DROP TABLE IF EXISTS api_calls")
     conn.commit()
 
 
@@ -267,21 +315,21 @@ def upsert_problem(conn: sqlite3.Connection, row: dict[str, Any]) -> None:
     row.setdefault("classification_failed", 0)
     for k in ("domain", "who_has_it", "problem_summary", "pain_score", "money_mentioned",
               "workaround_described", "solution_requested", "existing_solutions_named", "language",
-              "signal_score"):
+              "signal_score", "classified_by"):
         row.setdefault(k, None)
     conn.execute(
         "INSERT INTO problems (item_id, is_problem, domain, who_has_it, problem_summary, pain_score, "
         "money_mentioned, workaround_described, solution_requested, existing_solutions_named, "
-        "language, classification_failed, signal_score, classified_at) VALUES (:item_id, :is_problem, :domain, "
-        ":who_has_it, :problem_summary, :pain_score, :money_mentioned, :workaround_described, "
+        "language, classification_failed, signal_score, classified_by, classified_at) VALUES (:item_id, :is_problem, "
+        ":domain, :who_has_it, :problem_summary, :pain_score, :money_mentioned, :workaround_described, "
         ":solution_requested, :existing_solutions_named, :language, :classification_failed, :signal_score, "
-        ":classified_at) ON CONFLICT(item_id) DO UPDATE SET is_problem=excluded.is_problem, "
+        ":classified_by, :classified_at) ON CONFLICT(item_id) DO UPDATE SET is_problem=excluded.is_problem, "
         "domain=excluded.domain, who_has_it=excluded.who_has_it, problem_summary=excluded.problem_summary, "
         "pain_score=excluded.pain_score, money_mentioned=excluded.money_mentioned, "
         "workaround_described=excluded.workaround_described, solution_requested=excluded.solution_requested, "
         "existing_solutions_named=excluded.existing_solutions_named, language=excluded.language, "
         "classification_failed=excluded.classification_failed, signal_score=excluded.signal_score, "
-        "classified_at=excluded.classified_at",
+        "classified_by=excluded.classified_by, classified_at=excluded.classified_at",
         row,
     )
 
@@ -307,7 +355,8 @@ def insert_cluster(conn: sqlite3.Connection, row: dict[str, Any]) -> int:
     if isinstance(row.get("sources"), (dict, list)):
         row["sources"] = json.dumps(row["sources"], ensure_ascii=False)
     row.setdefault("created_at", iso(now_utc()))
-    row.setdefault("member_hash", None)
+    for k in ("member_hash", "first_seen", "last_seen", "domain", "growth_30d", "sources"):
+        row.setdefault(k, None)
     cur = conn.execute(
         "INSERT INTO clusters (label, canonical_summary, domain, item_count, first_seen, last_seen, "
         "sources, growth_30d, member_hash, created_at) VALUES (:label, :canonical_summary, :domain, "
@@ -470,6 +519,49 @@ def insert_hypothesis(conn: sqlite3.Connection, row: dict[str, Any]) -> int:
         "INSERT INTO hypotheses (kind, ref_id, summary, domain, geography, strength, ask_whom, source_url, created_at) "
         "VALUES (:kind, :ref_id, :summary, :domain, :geography, :strength, :ask_whom, :source_url, :created_at)", row)
     return int(cur.lastrowid)
+
+
+EVAL_FIELDS = ("member_hash", "member_item_ids", "item_count", "market_size_estimate", "market_size_reasoning",
+               "market_size_source", "monopoly_potential", "location_independent", "runs_without_founder",
+               "capital_light", "measurable_90d", "path_to_1b", "path_to_1b_score", "what_would_kill_it",
+               "quickest_test", "why_now", "evidence_gaps", "corridor_advantage", "overall_score", "model",
+               "reused_from", "raw_json")
+
+
+def insert_evaluation(conn: sqlite3.Connection, row: dict[str, Any]) -> int:
+    row = dict(row)
+    for k in ("member_item_ids", "raw_json"):
+        row[k] = _json(row.get(k))
+    row.setdefault("evaluated_at", iso(now_utc()))
+    for k in EVAL_FIELDS:
+        row.setdefault(k, None)
+    cols = ("cluster_id",) + EVAL_FIELDS + ("evaluated_at",)
+    cur = conn.execute(f"INSERT INTO evaluations ({', '.join(cols)}) VALUES ({', '.join(':' + c for c in cols)})", row)
+    return int(cur.lastrowid)
+
+
+def latest_evaluations(conn: sqlite3.Connection) -> dict[int, sqlite3.Row]:
+    """Most recent evaluation per *current* cluster, keyed by cluster_id."""
+    rows = conn.execute(
+        "SELECT e.* FROM evaluations e JOIN (SELECT cluster_id, MAX(id) AS mid FROM evaluations GROUP BY cluster_id) m "
+        "ON m.mid = e.id JOIN clusters c ON c.id = e.cluster_id")
+    return {int(r["cluster_id"]): r for r in rows}
+
+
+def prior_evaluations(conn: sqlite3.Connection, limit: int = 500) -> list[sqlite3.Row]:
+    """Latest evaluations of any earlier cluster (for exact or overlap-based reuse)."""
+    return list(conn.execute(
+        "SELECT e.* FROM evaluations e JOIN (SELECT member_hash, MAX(id) AS mid FROM evaluations "
+        "WHERE reused_from IS NULL GROUP BY member_hash) m ON m.mid = e.id ORDER BY e.id DESC LIMIT ?", (limit,)))
+
+
+def log_llm_call(conn: sqlite3.Connection, **kw: Any) -> None:
+    kw.setdefault("called_at", iso(now_utc()))
+    for k in ("model", "items", "prompt_chars", "duration_ms", "error"):
+        kw.setdefault(k, None)
+    kw.setdefault("ok", 1)
+    conn.execute("INSERT INTO llm_calls (called_at, stage, backend, model, items, prompt_chars, ok, duration_ms, error) "
+                 "VALUES (:called_at, :stage, :backend, :model, :items, :prompt_chars, :ok, :duration_ms, :error)", kw)
 
 
 def triangulations_by_cluster(conn: sqlite3.Connection) -> dict[int, sqlite3.Row]:

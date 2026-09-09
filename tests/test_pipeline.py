@@ -40,7 +40,7 @@ def test_pipeline_end_to_end(conn, cfg, monkeypatch):
                            "w", 1_757_000_000, {}))
     assert dbm.insert_items(conn, items) == (10, 0)
     st = classify(cfg, conn)
-    assert st == {"items": 10, "problems": 9, "non_problems": 1}
+    assert (st["items"], st["problems"], st["non_problems"], st["backend"]) == (10, 9, 1, "rules")
     cs = run_clustering(cfg, conn)
     assert cs == {"problems": 9, "clusters": 2}
     sizes = sorted(r[0] for r in conn.execute("SELECT item_count FROM clusters"))

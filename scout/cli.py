@@ -11,8 +11,7 @@ from . import __version__
 from .config import load_config
 from .util import setup_logging
 
-app = typer.Typer(help="Problem Scout: collect → classify → cluster → news → reports → triangulate → score → digest. "
-                       "No LLM, runs locally.",
+app = typer.Typer(help="Problem Scout: collect → classify → cluster → news → reports → triangulate → evaluate → score → digest.",
                   no_args_is_help=True, add_completion=False)
 _state: dict = {"cfg": None}
 
@@ -26,6 +25,19 @@ def _cfg() -> dict:
 def _conn() -> sqlite3.Connection:
     from . import db as dbm
     return dbm.connect()
+
+
+def _llm_ready(conn: sqlite3.Connection, probe: bool = True) -> None:
+    """Configure the model backend and fail early with a clear message if it cannot be used."""
+    from . import llm
+    cfg = _cfg()
+    try:
+        llm.configure(cfg, conn)
+        info = llm.check_backend(probe=probe and bool(cfg.get("llm", {}).get("probe_on_start", True)))
+    except llm.LLMUnavailable as e:
+        typer.secho(f"Model backend unavailable: {e}", fg=typer.colors.RED, err=True)
+        raise typer.Exit(code=2)
+    typer.echo(f"backend: {info}")
 
 
 @app.callback()
@@ -63,12 +75,55 @@ def collect(source: Optional[str] = typer.Option(None, "--source", help="Only th
 
 @app.command()
 def classify(limit: Optional[int] = typer.Option(None, "--limit", help="Max items to classify this run"),
-             reclassify: bool = typer.Option(False, "--reclassify", help="Drop existing classifications and redo all (after changing rules/threshold)")):
-    """Flag items that describe a problem using multilingual phrase rules (no model calls)."""
+             reclassify: bool = typer.Option(False, "--reclassify", help="Drop existing classifications and redo all"),
+             retry_failed: bool = typer.Option(False, "--retry-failed", help="Also retry batches that failed before")):
+    """Classify items: model backend (claude_code / anthropic_api) in batches, or keyword rules."""
     from .classify import classify as run_classify
     with _conn() as conn:
-        stats = run_classify(_cfg(), conn, limit=limit, reclassify=reclassify)
+        _llm_ready(conn)
+        stats = run_classify(_cfg(), conn, limit=limit, reclassify=reclassify, retry_failed=retry_failed)
     typer.echo(f"classify: {stats}")
+
+
+@app.command()
+def evaluate(force: bool = typer.Option(False, "--force", help="Re-evaluate clusters that already have an evaluation"),
+             limit: Optional[int] = typer.Option(None, "--limit", help="Max clusters to evaluate this run")):
+    """Evaluate each cluster with enough items against the founder's criteria (one model call per cluster)."""
+    from .evaluate import evaluate as run_evaluate
+    with _conn() as conn:
+        _llm_ready(conn)
+        stats = run_evaluate(_cfg(), conn, force=force, limit=limit)
+    typer.echo(f"evaluate: {stats}")
+
+
+@app.command()
+def plan():
+    """Show the model backend, model per stage and how many model calls the next run would make."""
+    from . import db as dbm
+    from . import llm
+    cfg = _cfg()
+    with _conn() as conn:
+        _llm_ready(conn, probe=False)
+        st = llm.settings()
+        pending = len(dbm.unclassified_items(conn))
+        bs = int(cfg.get("classify", {}).get("batch_size", 15))
+        min_size = int(cfg.get("evaluate", {}).get("min_cluster_size", 3))
+        evaluated = dbm.latest_evaluations(conn)
+        to_eval = [c for c in conn.execute("SELECT id FROM clusters WHERE item_count >= ?", (min_size,)) if c["id"] not in evaluated]
+    calls_classify = 0 if st["backend"] == "rules" else -(-pending // bs)
+    calls_eval = 0 if st["backend"] == "rules" else len(to_eval)
+    typer.echo(f"backend:        {st['backend']}")
+    typer.echo(f"classify model: {st['model']}   ({pending} unclassified items ÷ {bs} per batch = {calls_classify} calls, "
+               f"{st['max_parallel']} in parallel)")
+    typer.echo(f"evaluate model: {st['evaluate_model']}   ({len(to_eval)} clusters with ≥{min_size} items not yet evaluated = {calls_eval} calls, sequential)")
+    typer.echo(f"total model calls next run: {calls_classify + calls_eval}")
+    if st["backend"] == "claude_code":
+        typer.echo("These calls run through the Claude Code CLI and draw on your Claude subscription's usage quota; "
+                   "there is no per-token bill and no API key.")
+    elif st["backend"] == "anthropic_api":
+        typer.echo("These calls are billed per token to your Anthropic Console organisation.")
+    else:
+        typer.echo("rules backend: no model calls; classification uses keyword rules and evaluate is skipped.")
 
 
 @app.command()
@@ -138,8 +193,9 @@ def run(since: Optional[int] = typer.Option(None, "--since", help="Look-back win
         top: Optional[int] = typer.Option(None, "--top", help="Clusters in the digest"),
         out: Optional[str] = typer.Option(None, "--out", help="Digest output path"),
         corridor: bool = typer.Option(False, "--corridor", help="Corridor-filtered digest"),
+        reclassify: bool = typer.Option(False, "--reclassify", help="Drop existing classifications and redo all items"),
         dry_run: bool = typer.Option(False, "--dry-run", help="Describe every stage without fetching")):
-    """Full pipeline: collect → classify → cluster → news → reports → triangulate → score → digest."""
+    """Full pipeline: collect → classify → cluster → news → reports → triangulate → evaluate → score → digest."""
     from . import db as dbm
     from .collect import collect as run_collect, dry_run_plan
     cfg = _cfg()
@@ -152,8 +208,14 @@ def run(since: Optional[int] = typer.Option(None, "--since", help="Look-back win
             pending = len(dbm.unclassified_items(conn))
             problems = conn.execute("SELECT COUNT(*) FROM problems WHERE is_problem = 1").fetchone()[0]
         typer.echo("== classify (dry run) ==")
-        typer.echo(f"  {pending} unclassified items would be scored against the phrase rules (threshold "
-                   f"{cfg.get('classify', {}).get('threshold')})")
+        lcfg = cfg.get("llm", {})
+        if lcfg.get("backend") == "rules":
+            typer.echo(f"  {pending} unclassified items would be scored against the phrase rules (threshold "
+                       f"{cfg.get('classify', {}).get('threshold')})")
+        else:
+            bs = int(cfg.get("classify", {}).get("batch_size", 15))
+            typer.echo(f"  {pending} unclassified items -> {-(-pending // bs)} {lcfg.get('backend')} calls of up to {bs} items "
+                       f"(model {lcfg.get('model')}); see `scout plan`")
         typer.echo("== cluster (dry run) ==")
         typer.echo(f"  {problems} problem summaries would be embedded with {cfg['clustering'].get('embedding_model')} "
                    f"and clustered at cosine distance {cfg['clustering'].get('distance_threshold')}")
@@ -175,14 +237,16 @@ def run(since: Optional[int] = typer.Option(None, "--since", help="Look-back win
     from .classify import classify as run_classify
     from .cluster import run_clustering
     from .digest import write_digest
+    from .evaluate import evaluate as run_evaluate
     from .score import score as run_score
     from .triangulate import triangulate as run_tri
     with _conn() as conn:
+        _llm_ready(conn)
         typer.echo("== collect ==")
         for name, r in run_collect(cfg, conn, days).items():
             typer.echo(f"  {name}: {r}")
         typer.echo("== classify ==")
-        typer.echo(f"  {run_classify(cfg, conn)}")
+        typer.echo(f"  {run_classify(cfg, conn, reclassify=reclassify)}")
         typer.echo("== cluster ==")
         typer.echo(f"  {run_clustering(cfg, conn)}")
         typer.echo("== news ==")
@@ -191,6 +255,8 @@ def run(since: Optional[int] = typer.Option(None, "--since", help="Look-back win
         typer.echo(f"  {run_reports(cfg, conn, int(cfg.get('reports', {}).get('since_days', 30)))}")
         typer.echo("== triangulate ==")
         typer.echo(f"  {run_tri(cfg, conn)}")
+        typer.echo("== evaluate ==")
+        typer.echo(f"  {run_evaluate(cfg, conn)}")
         typer.echo("== score ==")
         typer.echo(f"  {run_score(cfg, conn)}")
         typer.echo("== digest ==")

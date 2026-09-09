@@ -83,8 +83,11 @@ def build_digest(cfg: dict, conn: sqlite3.Connection, top_n: int | None = None, 
     clusters = list(conn.execute("SELECT * FROM clusters ORDER BY item_count DESC, id"))
     new_clusters = [c for c in clusters if (c["first_seen"] or "") >= week_ago]
     scores = dbm.scores_by_cluster(conn)
-    ranked = sorted((c for c in clusters if c["id"] in scores),
-                    key=lambda c: (-(scores[c["id"]]["overall_score"] or 0), -c["item_count"]))
+    evals = dbm.latest_evaluations(conn)
+    # rank by the model evaluation when one exists, else by the evidence score
+    ranked = sorted((c for c in clusters if c["id"] in scores or c["id"] in evals),
+                    key=lambda c: (-(evals[c["id"]]["overall_score"] or 0) if c["id"] in evals else -1,
+                                   -(scores[c["id"]]["overall_score"] or 0) if c["id"] in scores else 0, -c["item_count"]))
     fastest = sorted((c for c in clusters if c["item_count"] >= 3 and c["growth_30d"] is not None),
                      key=lambda c: -c["growth_30d"])[:3]
 
@@ -103,27 +106,63 @@ def build_digest(cfg: dict, conn: sqlite3.Connection, top_n: int | None = None, 
             f"{c['label']} ({_fmt_growth(c['growth_30d'])}, {c['item_count']} items)" for c in fastest))
     out.append("")
 
-    out.append(f"## Top {min(top_n, len(ranked))} problems by evidence score")
+    out.append(f"## Top {min(top_n, len(ranked))} problems" + (" by evaluation score" if evals else " by evidence score"))
     out.append("")
-    out.append("_Score 0–100 from volume, growth, source spread, language spread, pain, money, demand and "
-               "workaround signals (weights in config.yaml). No model judgement is involved; read the quotes._")
+    if evals:
+        out.append("_Ranked by the model evaluation (criteria scores, triangulation, growth; weights in config.yaml → "
+                   "evaluate.weights). The evidence score and signals are shown for each cluster too._")
+    else:
+        out.append("_Score 0–100 from volume, growth, source spread, language spread, pain, money, demand and "
+                   "workaround signals (weights in config.yaml). No model judgement is involved; read the quotes._")
     out.append("")
     if not ranked:
         out.append(f"_No scored clusters yet. Run `scout classify`, `scout cluster`, `scout score` (clusters need ≥{min_size} items)._")
         out.append("")
     for rank, c in enumerate(ranked[:top_n], 1):
-        s = scores[c["id"]]
+        s = scores.get(c["id"])
+        e = evals.get(c["id"])
         members = dbm.cluster_members(conn, c["id"])
-        out.append(f"### {rank}. {c['label']} — score {s['overall_score']:.0f}/100")
+        head = f"evaluation {e['overall_score']:.0f}/100" if e else f"score {s['overall_score']:.0f}/100"
+        out.append(f"### {rank}. {c['label']} — {head}")
         out.append("")
         out.append(f"**Representative post.** {c['canonical_summary']}")
         out.append("")
         out.append(f"**Evidence.** {c['item_count']} items ({_sources_str(c['sources'])}); domain: {c['domain'] or 'n/a'}; "
                    f"growth 30d: {_fmt_growth(c['growth_30d'])}; seen {str(c['first_seen'] or '')[:10]} → {str(c['last_seen'] or '')[:10]}.")
         out.append("")
-        out.append(f"**Signals.** {_score_line(s)}")
+        if s is not None:
+            out.append(f"**Signals.** evidence score {s['overall_score']:.0f}/100 · {_score_line(s)}")
+        if e is not None:
+            out.append("")
+            out.append(f"**Evaluation ({e['model'] or 'model'}).** Market size: {e['market_size_estimate'] or 'n/a'}. "
+                       f"Source: {e['market_size_source'] or 'n/a'}")
+            out.append("")
+            out.append("| Criterion | Score |")
+            out.append("|---|---|")
+            out.append(f"| Path to $1B credibility | {e['path_to_1b_score'] or '-'} / 5 |")
+            out.append(f"| Monopoly potential | {e['monopoly_potential'] or '-'} / 5 |")
+            out.append(f"| Location-independent | {e['location_independent'] or '-'} / 5 |")
+            out.append(f"| Runs without the founder | {e['runs_without_founder'] or '-'} / 5 |")
+            out.append(f"| Capital-light | {e['capital_light'] or '-'} / 5 |")
+            out.append(f"| Measurable in 90 days | {e['measurable_90d'] or '-'} / 5 |")
+            out.append("")
+            if e["market_size_reasoning"]:
+                out.append(f"**Market arithmetic.** {e['market_size_reasoning']}")
+                out.append("")
+            out.append(f"**Path to $1B.** {e['path_to_1b'] or 'n/a'}")
+            out.append("")
+            out.append(f"**Why now.** {e['why_now'] or 'n/a'}")
+            out.append("")
+            out.append(f"**What would kill it.** {e['what_would_kill_it'] or 'n/a'}")
+            out.append("")
+            out.append(f"**Quickest test.** {e['quickest_test'] or 'n/a'}")
+            out.append("")
+            out.append(f"**Evidence gaps.** {e['evidence_gaps'] or 'n/a'}")
+            if e["corridor_advantage"]:
+                out.append("")
+                out.append(f"**Corridor advantage.** {e['corridor_advantage']}")
         try:
-            sols = json.loads(s["existing_solutions"] or "[]")
+            sols = json.loads(s["existing_solutions"] or "[]") if s is not None else []
         except ValueError:
             sols = []
         if sols:

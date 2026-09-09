@@ -11,7 +11,15 @@ from dotenv import load_dotenv
 
 DEFAULTS: dict[str, Any] = {
     "default_since_days": 7,
-    "classify": {"threshold": 4},
+    "llm": {"backend": "claude_code", "model": "sonnet", "evaluate_model": "opus", "timeout_s": 120,
+            "max_parallel": 2, "probe_on_start": True},
+    "classify": {"threshold": 4, "batch_size": 15},
+    "evaluate": {
+        "min_cluster_size": 3,
+        "reevaluate_on_growth": 0.20,
+        "weights": {"path_to_1b": 0.30, "monopoly_potential": 0.20, "triangulation_score": 0.20,
+                    "location_independent": 0.12, "capital_light": 0.08, "measurable_90d": 0.05, "growth_30d": 0.05},
+    },
     "query_terms": {
         "en": [
             "is there a tool", "why is there no", "I wish", "how do you handle",

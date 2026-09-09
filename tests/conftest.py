@@ -19,4 +19,7 @@ def conn():
 @pytest.fixture()
 def cfg():
     from scout.config import DEFAULTS, _deep_merge
-    return _deep_merge(DEFAULTS, {})
+    from scout import llm
+    c = _deep_merge(DEFAULTS, {"llm": {"backend": "rules"}})
+    llm.configure(c)  # tests never shell out unless they configure claude_code themselves
+    return c
