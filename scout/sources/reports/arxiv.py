@@ -5,8 +5,8 @@ import logging
 
 import feedparser
 
-from ...util import clean_text, parse_dt, since_dt
-from ..base import feed_client
+from ...util import clean_text, since_dt
+from ..base import entry_date, feed_client
 
 log = logging.getLogger("scout.reports.arxiv")
 NAME = "arxiv"
@@ -33,7 +33,7 @@ def fetch(since_days: int, cfg: dict) -> list[dict]:
             log.warning("arxiv: %s", e)
             return out
         for e in feedparser.parse(r.content).entries:
-            dt = parse_dt(e.get("published"))
+            dt = entry_date(e)
             if dt and dt < since:
                 continue
             out.append({"source": NAME, "publisher": "arXiv", "title": clean_text(e.get("title")), "url": e.get("link"),

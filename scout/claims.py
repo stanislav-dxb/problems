@@ -60,9 +60,26 @@ def ask_whom(text: str) -> str:
     return "a distributor or operations manager in this sector"
 
 
+_JUNK = ("journal of", "et al", "abbreviations", "table of contents", "note:", "source:", "figure ", "annex",
+         "appendix", "references", "isbn", "doi:", "http")
+
+
+def looks_like_prose(summary: str) -> bool:
+    """Reject table rows, references and boilerplate: needs enough words and a low share of numeric tokens."""
+    words = summary.split()
+    if len(words) < 8:
+        return False
+    numeric = sum(1 for w in words if any(ch.isdigit() for ch in w))
+    if numeric / len(words) > 0.3:
+        return False
+    low = summary.lower()
+    return not any(j in low for j in _JUNK)
+
+
 def classify_chunk(text: str, heading: str | None, prefilter: list[str], confidence: int,
                    domain_hint: str | None = None) -> dict[str, Any] | None:
-    """Rule-based claim extraction. Returns None when the chunk fails the prefilter or has no claim signal."""
+    """Rule-based claim extraction. Returns None when the chunk fails the prefilter, has no claim signal,
+    or yields no prose-like claim sentence."""
     if not keyword_prefilter(text, prefilter):
         return None
     scores = match_taxonomy(text, CLAIM_TAXONOMY)
@@ -74,7 +91,9 @@ def classify_chunk(text: str, heading: str | None, prefilter: list[str], confide
         ctype = "market_size"
     else:
         ctype = max(scores, key=lambda k: (scores[k], k))
-    summary = sentence_with(text, CLAIM_TAXONOMY[ctype]) or sentence_with(text, prefilter) or text[:240]
+    summary = sentence_with(text, CLAIM_TAXONOMY[ctype]) or sentence_with(text, prefilter) or ""
+    if not looks_like_prose(summary):
+        return None
     return {
         "heading": heading,
         "is_relevant": 1,
@@ -152,6 +171,34 @@ def run_reports(cfg: dict, conn: sqlite3.Connection, since_days: int) -> dict[st
     dbm.finish_run(conn, run_id, notes=str(stats))
     conn.commit()
     log.info("reports: %s", stats)
+    return stats
+
+
+def reprocess_reports(cfg: dict, conn: sqlite3.Connection) -> dict[str, Any]:
+    """Re-chunk and re-classify every stored report from its local PDF or stored summary (no fetching).
+    Use after changing prefilter keywords or claim rules."""
+    from pathlib import Path
+    stats: dict[str, Any] = {"reports": 0, "chunks": 0, "claims": 0}
+    run_id = dbm.start_run(conn, "reports-reprocess")
+    conn.execute("DELETE FROM report_claims")
+    for rep in conn.execute("SELECT * FROM reports ORDER BY id").fetchall():
+        text = rep["summary_text"] or ""
+        if rep["local_path"] and Path(rep["local_path"]).exists():
+            try:
+                text = extract_text(rep["local_path"]) or text
+            except Exception as e:  # noqa: BLE001
+                log.info("pdf text failed for %s: %s", rep["url"], e)
+        total, kept = process_report(conn, rep["id"], f"{rep['title'] or ''}\n\n{text}", cfg,
+                                     int(rep["confidence"] or 3))
+        stats["reports"] += 1
+        stats["chunks"] += total
+        stats["claims"] += kept
+        conn.commit()
+    if stats["chunks"]:
+        stats["prefilter_skip_rate"] = round(1 - stats["claims"] / stats["chunks"], 2)
+    dbm.finish_run(conn, run_id, notes=str(stats))
+    conn.commit()
+    log.info("reports reprocess: %s", stats)
     return stats
 
 

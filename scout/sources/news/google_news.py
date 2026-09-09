@@ -6,8 +6,8 @@ from urllib.parse import quote
 
 import feedparser
 
-from ...util import parse_dt, since_dt
-from ..base import feed_client
+from ...util import since_dt
+from ..base import entry_date, feed_client
 
 log = logging.getLogger("scout.news.google")
 NAME = "google_news"
@@ -52,7 +52,7 @@ def fetch(since_days: int, cfg: dict) -> list[dict]:
             parsed = feedparser.parse(r.content)
             n = 0
             for e in parsed.entries:
-                published = parse_dt(e.get("published") or e.get("updated"))
+                published = entry_date(e)
                 if published and published < since:
                     continue
                 link = e.get("link")

@@ -74,7 +74,7 @@ scout collect [--source NAME] [--since DAYS] [--dry-run]
 scout classify [--limit N] [--reclassify]
 scout cluster
 scout news [--since DAYS]          # articles -> catalysts
-scout reports [--since DAYS]       # reports -> claims (default window 730 days)
+scout reports [--since DAYS] [--reprocess]   # reports -> claims (default window 730 days; --reprocess re-runs rules on stored reports)
 scout triangulate                  # clusters x claims x catalysts -> triangulations, hypotheses
 scout score
 scout digest [--top N] [--out digest.md] [--corridor]
@@ -124,7 +124,9 @@ Forum posts and reviews capture one person's pain. Two more families add what th
   chunk becomes one `report_claims` row typed by multilingual keyword rules: `market_size`,
   `growth_rate`, `structural_gap`, `regulatory_change`, `technology_shift`, `incumbent_weakness` or
   `demand_shift`, with extracted figures (currency, percent, year), geographies and a per-publisher
-  `confidence_in_source` (World Bank 4, consultancies 3).
+  `confidence_in_source` (World Bank 4, consultancies 3). Claim sentences that look like table rows,
+  references or boilerplate are dropped. After editing the rules, `scout reports --reprocess` re-chunks
+  the stored reports without fetching.
 - **News** (`scout news`) tells you *why now*. Each article's headline and summary is typed as a
   catalyst (`regulation`, `new_mandate`, `cost_collapse`, `shortage`, `incumbent_exit`,
   `incumbent_failure`, `funding_signal`, `demographic`, `geopolitical`) with a strength of 1–5, a time

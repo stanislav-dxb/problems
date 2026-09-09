@@ -36,7 +36,7 @@ def article_text(url: str, max_chars: int = 6000) -> str | None:
         return None
     try:
         # Fetch with our own client (proxy/CA aware, shared User-Agent); trafilatura only parses.
-        with http_client(timeout=30, headers={"Accept": "text/html,application/xhtml+xml,*/*;q=0.8"}) as client:
+        with http_client(timeout=10, headers={"Accept": "text/html,application/xhtml+xml,*/*;q=0.8"}) as client:
             r = client.get(url)
             if r.status_code != 200 or "html" not in (r.headers.get("content-type") or ""):
                 return None

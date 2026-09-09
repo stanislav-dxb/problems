@@ -62,6 +62,21 @@ def http_client(timeout: float = 30.0, headers: dict | None = None) -> httpx.Cli
     return httpx.Client(timeout=timeout, headers=h, follow_redirects=True)
 
 
+def entry_date(entry: Any):
+    """UTC datetime for a feedparser entry: parsed struct_time first, then any date string."""
+    import calendar
+    from datetime import datetime, timezone
+    for key in ("published_parsed", "updated_parsed", "created_parsed"):
+        st = entry.get(key)
+        if st:
+            return datetime.fromtimestamp(calendar.timegm(st), tz=timezone.utc)
+    for key in ("published", "updated", "created", "dc_date"):
+        dt = parse_dt(entry.get(key))
+        if dt:
+            return dt
+    return None
+
+
 def feed_client(timeout: float = 30.0) -> httpx.Client:
     """Client for RSS/Atom feeds: some publishers reject Accept: application/json with 406."""
     return http_client(timeout=timeout, headers={"Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*;q=0.8"})

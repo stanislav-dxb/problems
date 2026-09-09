@@ -5,8 +5,8 @@ import logging
 
 import feedparser
 
-from ...util import clean_text, parse_dt, since_dt
-from ..base import feed_client
+from ...util import clean_text, since_dt
+from ..base import entry_date, feed_client
 
 log = logging.getLogger("scout.reports.rss")
 NAME = "rss"
@@ -35,7 +35,7 @@ def fetch(since_days: int, cfg: dict) -> list[dict]:
                 log.info("publisher %s: no entries (blocked or empty)", p.get("name"))
             n = 0
             for e in parsed.entries:
-                dt = parse_dt(e.get("published") or e.get("updated"))
+                dt = entry_date(e)
                 if dt and dt < since:
                     continue
                 link = e.get("link")

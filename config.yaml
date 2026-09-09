@@ -248,7 +248,7 @@ reports:
   data_dir: data/reports          # downloaded PDFs (git-ignored)
   max_pdf_mb: 25
   chunk_chars: 8000               # ~2,000 tokens per chunk
-  fetch_html: true                # fetch full article text for publisher feeds (robots.txt honoured)
+  fetch_html: false               # true = fetch full article text for publisher feeds (robots.txt honoured; slow on some sites)
   max_per_publisher: 30
   prefilter_keywords:             # a chunk must contain one of these to be classified; skip rate is logged
     ["gap", "underserved", "fragmented", "manual", "inefficien", "shortage", "opportunity", "lack of", "no standard",

@@ -91,12 +91,16 @@ def news(since: Optional[int] = typer.Option(None, "--since", help="Look-back wi
 
 
 @app.command()
-def reports(since: Optional[int] = typer.Option(None, "--since", help="Look-back window in days")):
+def reports(since: Optional[int] = typer.Option(None, "--since", help="Look-back window in days"),
+            reprocess: bool = typer.Option(False, "--reprocess", help="Re-chunk and re-classify stored reports without fetching (after rule changes)")):
     """Fetch reports (World Bank, publisher feeds, arXiv), extract PDF text, store typed claims."""
-    from .claims import run_reports
+    from .claims import reprocess_reports, run_reports
     cfg = _cfg()
     with _conn() as conn:
-        stats = run_reports(cfg, conn, since or int(cfg.get("reports", {}).get("since_days", 30)))
+        if reprocess:
+            stats = reprocess_reports(cfg, conn)
+        else:
+            stats = run_reports(cfg, conn, since or int(cfg.get("reports", {}).get("since_days", 30)))
     typer.echo(f"reports: {stats}")
 
 

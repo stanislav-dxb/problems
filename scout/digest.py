@@ -195,6 +195,13 @@ def build_digest(cfg: dict, conn: sqlite3.Connection, top_n: int | None = None, 
     hyps = list(conn.execute("SELECT * FROM hypotheses ORDER BY strength DESC, id"))
     if corridor:
         hyps = [h for h in hyps if is_corridor(_geos(h))]
+    per_source: dict[str, int] = {}
+    kept_h = []
+    for h in hyps:  # at most two lines per report or article so one long PDF cannot fill the section
+        per_source[h["source_url"]] = per_source.get(h["source_url"], 0) + 1
+        if per_source[h["source_url"]] <= 2:
+            kept_h.append(h)
+    hyps = kept_h
     if not hyps:
         out.append("_None yet._")
     for h in hyps[:15]:
@@ -206,9 +213,18 @@ def build_digest(cfg: dict, conn: sqlite3.Connection, top_n: int | None = None, 
     # ---- Catalyst watch ----
     out.append("## Catalyst watch — strongest news catalysts this week")
     out.append("")
-    cats = dbm.catalysts(conn, since=week_ago)
+    cats = [k for k in dbm.catalysts(conn, since=week_ago) if (k["catalyst_strength"] or 0) >= 2]
     if corridor:
         cats = [k for k in cats if is_corridor(_geos(k))]
+    seen_titles: set[str] = set()
+    uniq = []
+    for k in cats:  # syndicated stories repeat across outlets; keep the first
+        key = " ".join((k["summary"] or "").lower().split())[:60]
+        if key in seen_titles:
+            continue
+        seen_titles.add(key)
+        uniq.append(k)
+    cats = uniq
     if not cats:
         out.append("_No catalysts this week. Run `scout news`._")
     for k in cats[:10]:

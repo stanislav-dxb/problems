@@ -64,7 +64,7 @@ DEFAULTS: dict[str, Any] = {
         "data_dir": "data/reports",
         "max_pdf_mb": 25,
         "chunk_chars": 8000,
-        "fetch_html": True,
+        "fetch_html": False,
         "max_per_publisher": 30,
         "prefilter_keywords": ["gap", "underserved", "fragmented", "manual", "inefficien", "shortage", "opportunity",
                                "lack of", "no standard"],

@@ -10,16 +10,16 @@ GEO: dict[str, list[str]] = {
              "doha", "kuwait", "bahrain", "oman", "muscat", "gcc", "gulf", "оаэ", "дубай", "дубае", "саудовск",
              "катар", "кувейт", "бахрейн", "оман", "الإمارات", "الامارات", "دبي", "أبوظبي", "ابوظبي", "السعودية",
              "الرياض", "جدة", "قطر", "الكويت", "البحرين", "عمان", "الخليج", "दुबई", "सऊदी", "यूएई"],
-    "russian": ["russia", "moscow", "kazakhstan", "uzbekistan", "belarus", "kyrgyz", "cis", "россия", "россии",
+    "russian": ["russia", "moscow", "kazakhstan", "uzbekistan", "belarus", "kyrgyz", "россия", "россии",
                 "москв", "казахстан", "узбекистан", "беларус", "снг", "روسيا", "रूस"],
     "india": ["india", "mumbai", "delhi", "bengaluru", "bangalore", "chennai", "hyderabad", "pune", "kolkata",
               "индия", "индии", "الهند", "भारत", "मुंबई", "दिल्ली", "बेंगलुरु"],
     "china": ["china", "chinese", "beijing", "shanghai", "shenzhen", "hong kong", "guangzhou", "китай", "китая",
               "пекин", "الصين", "चीन"],
-    "eu": ["germany", "german", "berlin", "munich", "frankfurt", "european union", "eu ", "brussels", "france",
-           "netherlands", "italy", "spain", "poland", "германи", "евросоюз", "ес ", "брюссел", "франци",
+    "eu": ["germany", "german", "berlin", "munich", "frankfurt", "european union", "eu", "brussels", "france",
+           "netherlands", "italy", "spain", "poland", "германи", "евросоюз", "брюссел", "франци",
            "ألمانيا", "الاتحاد الأوروبي", "जर्मनी", "यूरोप"],
-    "us": ["united states", "u.s.", "usa", "america", "washington", "new york", "california", "сша", "أمريكا",
+    "us": ["united states", "u.s.", "usa", "american", "washington", "new york", "california", "сша", "أمريكا",
            "الولايات المتحدة", "अमेरिका"],
     "uk": ["united kingdom", "britain", "british", "london", "великобритани", "بريطانيا", "ब्रिटेन"],
 }
@@ -43,9 +43,22 @@ def clean(text: str | None) -> str:
     return " ".join(_URL_RE.sub(" ", text or "").split())
 
 
+def _geo_regex(terms: list[str]) -> re.Pattern:
+    parts = []
+    for t in terms:
+        esc = re.escape(t)
+        # Latin terms need word boundaries ("us" must not match "thus"); non-Latin scripts and
+        # prefix stems (Cyrillic "москв", "саудовск") match as substrings.
+        parts.append(rf"\b{esc}\b" if re.fullmatch(r"[a-z0-9 .'-]+", t) else esc)
+    return re.compile("|".join(parts), re.I)
+
+
+_GEO_RE = {k: _geo_regex(v) for k, v in GEO.items()}
+
+
 def detect_geographies(text: str) -> list[str]:
-    low = f" {(text or '').lower()} "
-    return sorted(k for k, terms in GEO.items() if any(t in low for t in terms))
+    low = (text or "").lower()
+    return sorted(k for k, rx in _GEO_RE.items() if rx.search(low))
 
 
 def is_corridor(geos: Iterable[str], min_regions: int = 2) -> bool:
