@@ -32,8 +32,9 @@ scored as low.
 
 ## What happens every week
 
-1. **Find candidates.** The program searches the internet through Tavily for startups: funding
-   news, "top startups" lists, accelerator batches, launch sites, and local startup news sites.
+1. **Find candidates.** The program reads the free news feeds of startup news sites, local ones
+   included, and searches the internet for startups: funding news, "top startups" lists, accelerator
+   batches, launch sites.
 2. **Learn about each promising one.** It searches again for the company, reads the company
    website and news about it.
 3. **Judge.** Claude writes, for each startup: the idea in one sentence, the twist (what is special),
@@ -62,14 +63,41 @@ The program keeps everything it has learned in its own database. It never search
 twice, and it re-checks growth for known startups only once a month. The list gets better week by
 week.
 
-## Cost
+## Search and cost: the free setup
 
-- Tavily is the only extra cost. Claude runs on the reader's existing subscription.
-- A hard weekly search limit is built in, so the program can never overspend.
-- Start on Tavily's free plan (1,000 searches a month, about 250 a week) to see it working.
-  Switch to the $30 a month plan (4,000 searches) once the results look good. Switching is one setting.
-- Tavily prices as of 13 September 2026: basic search 1 credit, reading a web page 1/5 credit,
-  pay as you go $0.008 per credit.
+No paid search service. Three free ways of finding things, in this order:
+
+1. **News feeds.** Most startup news sites, local ones included, publish a free feed of their latest
+   articles. Reading feeds needs no key and costs nothing. This finds most candidates.
+2. **Claude's built-in web search**, from the cloud session where the program runs. No key, no extra
+   cost; it runs on the reader's Claude subscription. Tested on 13 September 2026 in Portuguese and
+   Japanese: works, and returns local news.
+3. **Reading company websites directly.** Free.
+
+A paid search service (Tavily or Brave Search) can be plugged in later if more volume is ever wanted.
+The design keeps a slot for it. Checked on 13 September 2026: Tavily's free plan is 1,000 searches a
+month; Brave gives $5 of free credit a month, about 1,000 searches; Google's search service is closed
+to new customers.
+
+## Hard limits, set by the reader
+
+The reader sets three numbers in the settings file, in plain words:
+
+| Setting | Meaning | Starting value | First run |
+|---|---|---|---|
+| searches per week | internet searches a run may do | 250 | 60 |
+| pages per week | web pages a run may read | 200 | 40 |
+| startups judged per week | startups Claude may write up and score | 60 | 20 |
+
+- The program enforces the limits, not Claude's good behaviour. It hands out search tickets one at a
+  time and counts each one; when they are gone, no more searches happen. Same for pages and write-ups.
+- A run also stops itself after a set time (90 minutes to start with), whatever it is doing.
+- Every run writes its exact counts at the bottom of the page, for example:
+  "This week's run: 212 searches of 250, 180 pages of 200, 48 startups judged of 60, 41 minutes."
+- A pause switch stops the weekly runs entirely.
+- The program cannot read the reader's subscription usage. So the first run uses the small "first run"
+  limits above; afterwards the reader checks the usage page on claude.ai, and the weekly numbers are
+  set together from real figures.
 
 ## The page
 
@@ -94,5 +122,4 @@ The folder `hot_startups` in this repository. Fully separate from scout; no shar
 
 ## What the reader must provide
 
-A Tavily account and its key. The key is never pasted in chat; it goes into the environment's
-secret settings.
+Nothing. No keys, no accounts. The reader only decides the weekly limits.
