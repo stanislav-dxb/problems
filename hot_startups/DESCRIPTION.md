@@ -48,8 +48,10 @@ scored as low.
 
 Websites that are themselves lists of startups, such as launch sites, accelerator company lists and
 startup directories. They live in a simple file, one site per line, that the reader can add to at any
-time. Every weekly run reads them before any searching. Sites that block automated reading or need a
-login are reported on the page, never skipped quietly. The reader's own finds go in from the start.
+time (`hot_startups/list_sites.txt`). Every weekly run reads them before any searching. Pages are read
+directly first; when a site blocks plain automated reading (VivaTech does), Claude's own page reader
+is used instead, which gets through. Sites that cannot be read either way or need a login are reported
+on the page, never skipped quietly. The reader's own finds go in from the start.
 
 ## International, not American only
 

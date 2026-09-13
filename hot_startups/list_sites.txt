@@ -1,0 +1,4 @@
+# Startup list sites. One site per line: the web address, then a short note.
+# Lines starting with # are notes. Every weekly run reads these before any searching.
+
+https://vivatech.com/news/top-100-rising-startups-of-2026   VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.
