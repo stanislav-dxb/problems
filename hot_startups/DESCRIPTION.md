@@ -32,9 +32,9 @@ scored as low.
 
 ## What happens every week
 
-1. **Find candidates.** The program reads the free news feeds of startup news sites, local ones
-   included, and searches the internet for startups: funding news, "top startups" lists, accelerator
-   batches, launch sites.
+1. **Find candidates.** The program first reads a fixed set of startup list sites (see below), then
+   the free news feeds of startup news sites, local ones included, then searches the internet for
+   startups: funding news, "top startups" lists, accelerator batches, launch sites.
 2. **Learn about each promising one.** It searches again for the company, reads the company
    website and news about it.
 3. **Judge.** Claude writes, for each startup: the idea in one sentence, the twist (what is special),
@@ -43,6 +43,13 @@ scored as low.
 4. **Find trends.** Startups chasing the same idea are grouped and the pattern is named in one
    sentence.
 5. **Update the page.** Newcomers are marked "New" so the reader only needs to read the fresh part.
+
+## Startup list sites
+
+Websites that are themselves lists of startups, such as launch sites, accelerator company lists and
+startup directories. They live in a simple file, one site per line, that the reader can add to at any
+time. Every weekly run reads them before any searching. Sites that block automated reading or need a
+login are reported on the page, never skipped quietly. The reader's own finds go in from the start.
 
 ## International, not American only
 
