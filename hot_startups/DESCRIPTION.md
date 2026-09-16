@@ -6,8 +6,13 @@ Nothing in here is code yet.
 ## What it is
 
 A weekly web page that shows the 50 startups worldwide with the highest potential, explained
-simply, so the reader can see what ideas young, bright minds are chasing right now. The purpose is
-inspiration for the reader's own ideas, so the idea behind each startup is the star of every entry.
+simply, so the reader can see what ideas young, bright minds are chasing right now.
+
+The goal is not to learn exact market sizes. The goal is to see which ideas work better and which
+work worse, and to spark the reader's own ideas. Everything on the page serves that: the idea behind
+each startup is the star of every entry, every entry carries a reusable lesson, struggling ideas are
+shown next to winning ones, and each week the page points at gaps nobody is filling yet. The scores
+are only a rough sorting tool.
 
 ## What counts as a startup
 
@@ -38,11 +43,16 @@ scored as low.
 2. **Learn about each promising one.** It searches again for the company, reads the company
    website and news about it.
 3. **Judge.** Claude writes, for each startup: the idea in one sentence, the twist (what is special),
-   why now, who pays, the facts (founded, based in, team size, money raised, growth signal), the
-   three scores with reasons, and the list of sources.
+   why now, who pays, the lesson (one sentence on the reusable pattern behind the idea, meant to
+   travel into the reader's own thinking), the facts (founded, based in, team size, money raised,
+   growth signal), the three scores with reasons, and the list of sources.
 4. **Find trends.** Startups chasing the same idea are grouped and the pattern is named in one
    sentence.
-5. **Update the page.** Newcomers are marked "New" so the reader only needs to read the fresh part.
+5. **Find what is struggling.** A few searches a week for shutdowns, pivots, down rounds and stalls
+   among startups on the list and in its trends. Each gets one line on what went wrong.
+6. **Point at gaps.** Claude writes three to five sentences on holes in the list: combinations,
+   regions or professions nobody on the list serves yet. Clearly marked as suggestions, not facts.
+7. **Update the page.** Newcomers are marked "New" so the reader only needs to read the fresh part.
 
 ## Startup list sites
 
@@ -115,9 +125,11 @@ Fully online, opened from any laptop, following the approved sketch:
 1. **This week in one minute.** Three sentences and three numbers: startups on the list, new this
    week, trends.
 2. **Ideas that keep coming up.** The trends, each with one sentence and the startups behind it.
-3. **The list.** One line per startup: rank, name, industry, country, the idea in one sentence, the
-   score. Click to open the twist, why now, who pays, facts and sources.
-4. **Controls.** Show all or new this week; filter by industry; sort by potential, growth or newest.
+3. **Ideas that are struggling.** Shutdowns, pivots and stalls, each with one line on why.
+4. **Gaps we noticed.** Three to five idea sparks for the week, marked as suggestions.
+5. **The list.** One line per startup: rank, name, industry, country, the idea in one sentence, the
+   score. Click to open the twist, why now, who pays, the lesson, facts and sources.
+6. **Controls.** Show all or new this week; filter by industry; sort by potential, growth or newest.
 
 Scores stay numbers out of 10 for now.
 
