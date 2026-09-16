@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Israel",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "loora",
+  "industry": "Language learning AI",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-16",
+      "run": "2026-09-16-r1",
+      "snippet": "AI app that teaches English by conversation instead of a human tutor; $22M Series B.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.geektime.co.il/loora-raises-22m-series-b/"
+    }
+  ],
+  "name": "Loora",
+  "name_key": "loora",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:50:11+00:00",
+  "website": null
+}

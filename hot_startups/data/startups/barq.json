@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Saudi Arabia",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "barq",
+  "industry": "Fintech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-15",
+      "run": "2026-09-16-r1",
+      "snippet": "Licensed digital financial services; founded 2023; $329.5M Series A at a $1.85B valuation.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "http://wamda.com/2026/09/saudi-fintech-barq-closes-329-5-million-series-a"
+    }
+  ],
+  "name": "barq",
+  "name_key": "barq",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:50:11+00:00",
+  "website": null
+}

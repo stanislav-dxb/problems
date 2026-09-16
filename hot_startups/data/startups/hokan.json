@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Japan",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "hokan",
+  "industry": "Insurance software",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Software that digitises insurance agencies.",
+      "source": "注目 スタートアップ 2026",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://en-ambi.com/featured/1720/"
+    }
+  ],
+  "name": "hokan",
+  "name_key": "hokan",
+  "region": "asia",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:53:29+00:00",
+  "website": null
+}

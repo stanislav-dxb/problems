@@ -1,0 +1,215 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United Kingdom",
+  "domain": "artificial.io",
+  "drop_reason": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.crunchbase.com/organization/artificial-labs",
+          "https://startupintros.com/orgs/artificial-labs"
+        ],
+        "value": "London, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://startupintros.com/orgs/artificial-labs"
+        ],
+        "value": "2013"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://startupintros.com/orgs/artificial-labs",
+          "https://vivatech.com/news/top-100-rising-startups-of-2026"
+        ],
+        "value": "Series B raised for US expansion; on VivaTech's list, which requires €5M+ yearly revenue and 40% growth for three years"
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.crunchbase.com/organization/artificial-labs",
+          "https://startupintros.com/orgs/artificial-labs"
+        ],
+        "value": "$67M over three rounds, including a $45M Series B in February 2026"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://www.crunchbase.com/organization/artificial-labs"
+        ],
+        "value": "50 to 100"
+      }
+    },
+    "idea": "Software that reads the piles of documents brokers send to specialty insurers, sorts the risks and lets underwriters price and bind them in a fraction of the time.",
+    "industry": "InsurTech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r1",
+    "lesson": "Pick the corner of a giant industry that still runs on email, and build the boring plumbing the incumbents will never build themselves.",
+    "name": "Artificial",
+    "not_startup_reason": null,
+    "overall": 6.3,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: curated list criteria and funding round",
+        "reason": "Qualified for a list requiring 40% yearly growth, but no numbers of its own published.",
+        "score": 6,
+        "source": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      "market": {
+        "reason": "Specialty and commercial insurance moves hundreds of billions a year, but the buyers are a limited set of insurers and brokers.",
+        "score": 7,
+        "source": "https://www.crunchbase.com/organization/artificial-labs"
+      },
+      "tech": {
+        "reason": "Deep domain software built over a decade with insurers; not novel science, but slow for a newcomer to match.",
+        "score": 6,
+        "source": "https://artificial.io/company/blog/how-artificial-is-building-smart-consortia-for-the-lloyds-market/"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Artificial Labs on Crunchbase",
+        "url": "https://www.crunchbase.com/organization/artificial-labs"
+      },
+      {
+        "date": null,
+        "title": "Artificial Labs: Funding, Team & Investors (Startup Intros)",
+        "url": "https://startupintros.com/orgs/artificial-labs"
+      },
+      {
+        "date": null,
+        "title": "How Artificial is building Smart Consortia for the Lloyd's market",
+        "url": "https://artificial.io/company/blog/how-artificial-is-building-smart-consortia-for-the-lloyds-market/"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising European Startups 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It targets the Lloyd's of London market, where huge, unusual risks are still placed by email and PDF, and lets several insurers underwrite together through one algorithm.",
+    "website": "https://artificial.io",
+    "who_pays": "Insurers and brokers such as Apollo, Aon, Convex and Chaucer pay for the platform.",
+    "why_now": "Language models can finally read messy broker submissions, and specialty insurers are under pressure to cut costs."
+  },
+  "first_judged_run": "2026-09-16-r1",
+  "first_seen": "2026-09-16",
+  "id": "artificial-io",
+  "industry": "InsurTech",
+  "last_checked": "2026-09-16",
+  "mentions": [
+    {
+      "date": "2026-03-17",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "London; algorithmic underwriting and data extraction software for commercial and specialty insurance; 50-100 employees; $45M Series B in 2025 for US expansion; $67M total over 3 rounds",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Artificial Labs - Crunchbase Company Profile & Funding",
+      "url": "https://www.crunchbase.com/organization/artificial-labs"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Artificial raises £4.2 million seed funding",
+      "url": "https://artificial.io/company/blog/artificial-raises-gbp4-2-million-seed-funding-to-enable-further-growth-and/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "co-founders Johnny Bridges and David King, co-CEOs",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "About us - Artificial.io",
+      "url": "https://artificial.io/about/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "The foundations of modern specialty (re)insurance",
+      "url": "https://artificial.io/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Founded 2013 by David King and Johnny Bridges; digital broking and underwriting technology for specialty and commercial insurance; $45M Series B in February 2026; $67M total; investors CommerzVentures, Move Capital, Augmentum Fintech; clients Apollo, Aon, Convex, Chaucer, Lloyd's syndicates",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Artificial Labs: Funding, Team & Investors",
+      "url": "https://startupintros.com/orgs/artificial-labs"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "How Artificial is building Smart Consortia for the Lloyd's market",
+      "url": "https://artificial.io/company/blog/how-artificial-is-building-smart-consortia-for-the-lloyds-market/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Lloyd's insurers introduce protection against financial losses from AI",
+      "url": "https://www.techmonitor.ai/ai-and-automation/lloyds-insurers-introduce-protection-financial-losses-ai/"
+    }
+  ],
+  "name": "Artificial",
+  "name_key": "artificial",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-artificial-io.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-09-16-r1",
+    "pages": 2,
+    "queries_done": [
+      "\"Artificial\" startup United Kingdom",
+      "\"Artificial\" founders funding customers"
+    ],
+    "refresh": false,
+    "searches": 2,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-artificial-io.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 6.0,
+      "market": 7.0,
+      "overall": 6.3,
+      "run": "2026-09-16-r1",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T15:02:28+00:00",
+  "website": "https://artificial.io"
+}

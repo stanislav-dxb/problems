@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "China",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "x",
+  "industry": "Brain-computer interface",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Whole-brain interface company; tens of millions of yuan seed round led by Yuanhe Puhua in August 2026.",
+      "source": "初创公司 完成 种子轮 融资 2026年9月",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://www.parkworld.net/Post/8df013482d95352"
+    }
+  ],
+  "name": "脑器时代",
+  "name_key": "脑器时代",
+  "region": "asia",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:52:23+00:00",
+  "website": null
+}

@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "bedrock-robotics",
+  "industry": "Robotics",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-15",
+      "run": "2026-09-16-r1",
+      "snippet": "Autonomy for construction equipment.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://techcrunch.com/2026/09/15/discover-how-to-take-your-startup-from-prototype-to-production-at-techcrunch-disrupt-2026/"
+    }
+  ],
+  "name": "Bedrock Robotics",
+  "name_key": "bedrockrobotics",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:47:15+00:00",
+  "website": null
+}

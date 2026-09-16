@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Netherlands",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "boxd",
+  "industry": "AI infrastructure",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-16",
+      "run": "2026-09-16-r1",
+      "snippet": "Cloud computing infrastructure built for developers and AI coding agents; $2M pre-seed.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://tech.eu/2026/09/16/boxd-raises-2m-to-build-cloud-infrastructure-for-ai-coding-agents/"
+    }
+  ],
+  "name": "Boxd",
+  "name_key": "boxd",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:48:18+00:00",
+  "website": null
+}

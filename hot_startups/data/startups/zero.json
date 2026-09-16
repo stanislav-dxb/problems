@@ -1,0 +1,176 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Finland",
+  "domain": "zero.inc",
+  "drop_reason": null,
+  "entry": {
+    "country": "Finland",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://arcticstartup.com/zero-raises-10-3-million-seed/",
+          "https://www.eu-startups.com/2026/09/helsinkis-zero-raises-e8-93-million-with-backing-from-lovable-and-supercell-founders-to-make-crm-history/"
+        ],
+        "value": "Helsinki, Finland"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://arcticstartup.com/zero-raises-10-3-million-seed/",
+          "https://techfundingnews.com/zero-crm-raises-10-3m-primary-venture-partners-smartly-io-founders/"
+        ],
+        "value": "Seed round about four times the pre-seed within a short time; public launch with a free trial; founders of Lovable, Supercell and Langdock invested"
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://arcticstartup.com/zero-raises-10-3-million-seed/",
+          "https://sifted.eu/articles/exclusive-zero-10-3m-seed-round/"
+        ],
+        "value": "$10.3M seed in September 2026 led by Primary Venture Partners, after a $2.7M pre-seed"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Replaces the sales team's CRM with AI agents that find likely buyers, write to them, update the records and watch which customers are about to leave.",
+    "industry": "AI sales tools",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r1",
+    "lesson": "Do not bolt AI onto the old tool; make the data entry disappear and sell the outcome, which is customers found, won and kept.",
+    "name": "Zero",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last",
+        "reason": "No customer numbers yet; the company only just launched publicly.",
+        "score": null,
+        "source": "https://arcticstartup.com/zero-raises-10-3-million-seed/"
+      },
+      "market": {
+        "reason": "Every company with a sales team pays for a CRM; it is one of the largest software categories in the world.",
+        "score": 8,
+        "source": "https://arcticstartup.com/zero-raises-10-3-million-seed/"
+      },
+      "tech": {
+        "reason": "Agents on top of rentable models, but the buying-signal engine and the founders' Smartly.io experience give a real head start.",
+        "score": 6,
+        "source": "https://zero.inc"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-15",
+        "title": "Finnish startup raises $10.3 million seed to replace the CRM with AI agents (ArcticStartup)",
+        "url": "https://arcticstartup.com/zero-raises-10-3-million-seed/"
+      },
+      {
+        "date": "2026-09-15",
+        "title": "Lovable, Supercell, Langdock founders back Zero (Sifted)",
+        "url": "https://sifted.eu/articles/exclusive-zero-10-3m-seed-round/"
+      },
+      {
+        "date": null,
+        "title": "Zero raises $2.7M pre-seed (ArcticStartup)",
+        "url": "https://arcticstartup.com/zero-raises-2-7m-pre-seed/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Instead of asking salespeople to fill in a database, it watches buying signals like job postings and does the record-keeping itself.",
+    "website": "https://zero.inc",
+    "who_pays": "Sales teams at growing software companies pay a subscription; there is a free trial and AI-assisted migration from the old CRM.",
+    "why_now": "AI agents can now read the open web for signals and hold outreach conversations, so the manual CRM looks like paperwork nobody wants."
+  },
+  "first_judged_run": "2026-09-16-r1",
+  "first_seen": "2026-09-16",
+  "id": "zero",
+  "industry": "AI sales tools",
+  "last_checked": "2026-09-16",
+  "mentions": [
+    {
+      "date": "2026-09-15",
+      "run": "2026-09-16-r1",
+      "snippet": "$10.3m seed backed by the founders of Lovable, Supercell and Langdock.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://sifted.eu/articles/exclusive-zero-10-3m-seed-round/"
+    },
+    {
+      "date": "2026-09-15",
+      "run": "2026-09-16-r1",
+      "snippet": "A go-to-market operating system meant to replace the traditional CRM with AI agents; $10.3M seed led by Primary Venture Partners.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://arcticstartup.com/zero-raises-10-3-million-seed/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Helsinki's Zero raises €8.93 million with backing from Lovable and Supercell founders",
+      "url": "https://www.eu-startups.com/2026/09/helsinkis-zero-raises-e8-93-million-with-backing-from-lovable-and-supercell-founders-to-make-crm-history/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Finnish startup secures $2.7M pre-seed funding to revolutionize CRM with a zero-click approach",
+      "url": "https://arcticstartup.com/zero-raises-2-7m-pre-seed/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Lovable and Supercell founders back Zero's $10.3M raise",
+      "url": "https://techfundingnews.com/zero-crm-raises-10-3m-primary-venture-partners-smartly-io-founders/"
+    }
+  ],
+  "name": "Zero",
+  "name_key": "zero",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "judged_run": "2026-09-16-r1",
+    "pages": 2,
+    "queries_done": [
+      "\"Zero\" startup Sweden"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-zero.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": null,
+      "market": 8.0,
+      "overall": 7.0,
+      "run": "2026-09-16-r1",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T15:01:36+00:00",
+  "website": "https://zero.inc"
+}

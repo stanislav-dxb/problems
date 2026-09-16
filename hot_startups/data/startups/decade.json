@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Brazil",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "decade",
+  "industry": "Wealth management",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Combines AI and human advisers to manage people's money in one place; $85M seed, the largest in Latin America, founded by ex-Nubank CTO Vitor Olivier.",
+      "source": "startup capta rodada seed setembro de 2026",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://www.bloomberglinea.com.br/startups/rodadas-da-semana-decade-levanta-us-85-mi-na-maior-captacao-seed-da-america-latina/"
+    }
+  ],
+  "name": "Decade",
+  "name_key": "decade",
+  "region": "latin_america",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:53:30+00:00",
+  "website": null
+}

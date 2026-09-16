@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Spain",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "011h-sustainable-construction",
+  "industry": "Construction",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-15",
+      "run": "2026-09-16-r1",
+      "snippet": "Industrialised, sustainable residential construction; up to €12M from AXIS.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://elreferente.es/inversiones/axis-invierte-hasta-12-millones-de-euros-en-la-empresa-espanola-011h-sustainable-construction-para-impulsar-la-construccion-industrializada-residencial-en-espana/"
+    }
+  ],
+  "name": "011H Sustainable Construction",
+  "name_key": "011hsustainableconstruction",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:48:18+00:00",
+  "website": null
+}

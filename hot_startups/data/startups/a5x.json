@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Brazil",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "a5x",
+  "industry": "Fintech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-15",
+      "run": "2026-09-16-r1",
+      "snippet": "Brazilian fintech; $70M Series D led by Morgan Stanley, Goldman Sachs and Kaszek.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://latamlist.com/a5x-raises-70m-series-d/"
+    }
+  ],
+  "name": "A5X",
+  "name_key": "a5x",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:50:11+00:00",
+  "website": null
+}

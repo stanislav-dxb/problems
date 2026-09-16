@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Venezuela",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "qash",
+  "industry": "Stablecoin banking",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-08-11",
+      "run": "2026-09-16-r1",
+      "snippet": "Correspondent banking infrastructure built on stablecoins for a regulated Venezuelan bank.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://contxto.com/en/fintech/qash-and-banco-r4-launch-the-first-stablecoin-infrastructure-for-a-regulated-bank-in-latin-america/"
+    }
+  ],
+  "name": "Qash",
+  "name_key": "qash",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:50:11+00:00",
+  "website": null
+}

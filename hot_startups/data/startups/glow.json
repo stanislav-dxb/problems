@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "glow",
+  "industry": "Cybersecurity",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Endpoint security for the AI era; emerged from stealth at a $1.2B valuation in July 2026.",
+      "source": "stealth startup emerges September 2026",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/"
+    }
+  ],
+  "name": "Glow",
+  "name_key": "glow",
+  "region": "north_america",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:51:22+00:00",
+  "website": null
+}

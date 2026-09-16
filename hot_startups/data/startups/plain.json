@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Brazil",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "plain",
+  "industry": "Software",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "R$1.7M pre-seed led by Urca Angels.",
+      "source": "startup capta rodada seed setembro de 2026",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://businessweek.com.br/2025/12/17/plain-capta-r-17-milhao-em-rodada-pre-seed-liderada-pela-urca-angels/"
+    }
+  ],
+  "name": "Plain",
+  "name_key": "plain",
+  "region": "latin_america",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:53:30+00:00",
+  "website": null
+}

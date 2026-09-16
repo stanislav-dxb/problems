@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "typesafe-ai",
+  "industry": "AI models",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Small, fast AI models that make decisions inside software instead of chatting; $40M seed led by DCVC, founded 2024 by an ex-OpenAI researcher.",
+      "source": "stealth startup emerges September 2026",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://techstartups.com/2026/09/16/typesafe-ai-an-ai-startup-founded-by-chatgpt-co-inventor-emerges-from-stealth-with-40m-to-build-ai-thats-100x-faster-and-cheaper/"
+    }
+  ],
+  "name": "TypeSafe AI",
+  "name_key": "typesafeai",
+  "region": "north_america",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:51:22+00:00",
+  "website": null
+}

@@ -1,0 +1,165 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Indonesia",
+  "domain": "bumame.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "Indonesia",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://500.co/content/bumame-raises-pre-series-a-to-bring-personalized-healthcare-early-detection-and-faster-diagnostics-to-everyone-in-indonesia-markup-1169"
+        ],
+        "value": "Jakarta, Indonesia"
+      },
+      "founded": {
+        "confirmed": true,
+        "sources": [
+          "https://500.co/content/bumame-raises-pre-series-a-to-bring-personalized-healthcare-early-detection-and-faster-diagnostics-to-everyone-in-indonesia-markup-1169",
+          "https://technode.global/2025/02/27/indonesias-bumame-secures-pre-series-a-funding-led-by-alpha-jwc-ventures-for-expansion/"
+        ],
+        "value": "2020"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://500.co/content/bumame-raises-pre-series-a-to-bring-personalized-healthcare-early-detection-and-faster-diagnostics-to-everyone-in-indonesia-markup-1169"
+        ],
+        "value": "Was the number one COVID testing provider in Indonesia; no current customer numbers published"
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://technode.global/2025/02/27/indonesias-bumame-secures-pre-series-a-funding-led-by-alpha-jwc-ventures-for-expansion/",
+          "https://dailysocial.id/p/akulaku-files-for-hk-ipo-bumame-lands"
+        ],
+        "value": "Undisclosed pre-Series A led by Alpha JWC Ventures with 500 Global and Kopital Ventures (2025), and new Japan-backed funding in September 2026"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Health check-ups, lab tests and personal health plans for Indonesians, booked online and often done at home, aimed at catching illness early.",
+    "industry": "Health services",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r1",
+    "lesson": "A one-off crisis business can leave behind a network worth more than the crisis; keep the network and change the product.",
+    "name": "Bumame",
+    "not_startup_reason": null,
+    "overall": 5.0,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "substitute: repeated funding rounds",
+        "reason": "No numbers since the COVID years; two funding rounds in two years are the only signal.",
+        "score": null,
+        "source": "https://dailysocial.id/p/akulaku-files-for-hk-ipo-bumame-lands"
+      },
+      "market": {
+        "reason": "Preventive health for one of the world's most populous countries, though mostly a domestic market.",
+        "score": 7,
+        "source": "https://500.co/content/bumame-raises-pre-series-a-to-bring-personalized-healthcare-early-detection-and-faster-diagnostics-to-everyone-in-indonesia-markup-1169"
+      },
+      "tech": {
+        "reason": "A service business with an app on top; the advantage is operations and brand, not technology.",
+        "score": 3,
+        "source": "https://bumame.com"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Bumame raises pre-Series A (500 Global)",
+        "url": "https://500.co/content/bumame-raises-pre-series-a-to-bring-personalized-healthcare-early-detection-and-faster-diagnostics-to-everyone-in-indonesia-markup-1169"
+      },
+      {
+        "date": "2025-02-27",
+        "title": "Bumame secures pre-Series A led by Alpha JWC (TechNode Global)",
+        "url": "https://technode.global/2025/02/27/indonesias-bumame-secures-pre-series-a-funding-led-by-alpha-jwc-ventures-for-expansion/"
+      },
+      {
+        "date": "2026-09-07",
+        "title": "Bumame lands Japan-backed funding (DailySocial)",
+        "url": "https://dailysocial.id/p/akulaku-files-for-hk-ipo-bumame-lands"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It became Indonesia's biggest COVID testing operation, then turned that logistics network and customer base into an everyday preventive-health business.",
+    "website": "https://bumame.com",
+    "who_pays": "Individuals and employers pay per test or for health plans.",
+    "why_now": "Indonesia's 280 million people have few doctors per head, and the middle class now pays for prevention rather than only emergencies."
+  },
+  "first_judged_run": "2026-09-16-r1",
+  "first_seen": "2026-09-16",
+  "id": "bumame",
+  "industry": "Health services",
+  "last_checked": "2026-09-16",
+  "mentions": [
+    {
+      "date": "2026-09-07",
+      "run": "2026-09-16-r1",
+      "snippet": "Indonesian health company that landed Japan-backed funding.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://dailysocial.id/p/akulaku-files-for-hk-ipo-bumame-lands"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Founded 2020; was the #1 COVID testing provider in Indonesia, pivoted to check-ups, diagnostics and personal health plans; pre-Series A led by Alpha JWC with 500 Global and Kopital Ventures; CEO James Wihardja",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Bumame raises pre-Series A to bring personalized healthcare, early detection, and faster diagnostics to everyone in Indonesia",
+      "url": "https://500.co/content/bumame-raises-pre-series-a-to-bring-personalized-healthcare-early-detection-and-faster-diagnostics-to-everyone-in-indonesia-markup-1169"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Indonesia's Bumame secures Pre-Series A funding led by Alpha JWC Ventures",
+      "url": "https://technode.global/2025/02/27/indonesias-bumame-secures-pre-series-a-funding-led-by-alpha-jwc-ventures-for-expansion/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Asia Digest: Indonesian healthcare firm Bumame, Indian fintech platform Lorien bag funding",
+      "url": "https://www.dealstreetasia.com/stories/asia-digest-bumame-lorien-finance-432332"
+    }
+  ],
+  "name": "Bumame",
+  "name_key": "bumame",
+  "region": "asia",
+  "research": {
+    "judged_run": "2026-09-16-r1",
+    "pages": 0,
+    "queries_done": [
+      "\"Bumame\" startup Indonesia"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": null,
+      "market": 7.0,
+      "overall": 5.0,
+      "run": "2026-09-16-r1",
+      "tech": 3.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T15:03:20+00:00",
+  "website": "https://bumame.com"
+}

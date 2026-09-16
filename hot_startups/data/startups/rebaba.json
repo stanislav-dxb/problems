@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Sweden",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "rebaba",
+  "industry": "Energy storage",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-15",
+      "run": "2026-09-16-r1",
+      "snippet": "Turns retired electric vehicle batteries into energy storage systems; $4.6M seed.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://arcticstartup.com/rebaba-closes-4-6-million-seed/"
+    }
+  ],
+  "name": "Rebaba",
+  "name_key": "rebaba",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:48:18+00:00",
+  "website": null
+}

@@ -1,0 +1,175 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Kenya",
+  "domain": "buupass.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "Kenya",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://techcabal.com/2025/07/07/buupass-receives-undisclosed-investment/",
+          "https://disruptafrica.com/2025/09/22/kenyas-buupass-onboards-13-new-transport-operators-strengthens-pan-african-mobility-network/"
+        ],
+        "value": "Nairobi, Kenya"
+      },
+      "founded": {
+        "confirmed": true,
+        "sources": [
+          "https://techcabal.com/2025/07/07/buupass-receives-undisclosed-investment/",
+          "https://www.renewcapital.com/newsroom/press-release-renew-capital-invests-in-buupass-a-kenyan-tech-transport-company"
+        ],
+        "value": "2017"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://techcabal.com/2025/07/07/buupass-receives-undisclosed-investment/",
+          "https://techcabal.com/2026/04/23/buupass-pushes-corporate-travel-gavanpass-launch/"
+        ],
+        "value": "Over $70M in bookings in 2024, more than 25 million tickets sold, 150+ operators in four countries; launched corporate travel in 2026"
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://techcabal.com/2025/07/07/buupass-receives-undisclosed-investment/"
+        ],
+        "value": "about $2.9M over four rounds, plus an undisclosed 2025 investment from Yango Ventures"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Sells bus, train and flight tickets across East Africa from a phone, even a basic one without internet, and gives the bus companies software to run their business.",
+    "industry": "Travel booking",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r1",
+    "lesson": "Digitise the suppliers first and the marketplace follows; the software for the bus companies is what makes the tickets stick.",
+    "name": "BuuPass",
+    "not_startup_reason": null,
+    "overall": 5.3,
+    "region": "mea",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Big cumulative numbers and steady new operators, but no recent growth rate published.",
+        "score": 6,
+        "source": "https://disruptafrica.com/2025/09/22/kenyas-buupass-onboards-13-new-transport-operators-strengthens-pan-african-mobility-network/"
+      },
+      "market": {
+        "reason": "Hundreds of millions of Africans travel by bus, but tickets are cheap and the business is regional for now.",
+        "score": 6,
+        "source": "https://techcabal.com/2025/07/07/buupass-receives-undisclosed-investment/"
+      },
+      "tech": {
+        "reason": "A booking marketplace plus operator software; the USSD access for basic phones is smart but easy to copy.",
+        "score": 4,
+        "source": "https://buupass.com"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-15",
+        "title": "BuuPass taps SafariBucks for cross-border travel payments (TechCabal)",
+        "url": "https://techcabal.com/2026/09/15/buupass-safaribucks-partnership/"
+      },
+      {
+        "date": "2025-07-07",
+        "title": "BuuPass secures investment from Yango Ventures (TechCabal)",
+        "url": "https://techcabal.com/2025/07/07/buupass-receives-undisclosed-investment/"
+      },
+      {
+        "date": "2026-04-23",
+        "title": "BuuPass pushes into corporate travel (TechCabal)",
+        "url": "https://techcabal.com/2026/04/23/buupass-pushes-corporate-travel-gavanpass-launch/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "The bus operators get free back-office software, so the ticket marketplace fills itself with inventory nobody else has digitised.",
+    "website": "https://buupass.com",
+    "who_pays": "Travellers pay a booking fee; operators pay for the software and premium tools; companies pay for the new corporate travel service.",
+    "why_now": "Africa's intercity travel still runs on cash and paper, while nearly everyone now carries a phone that can pay."
+  },
+  "first_judged_run": "2026-09-16-r1",
+  "first_seen": "2026-09-16",
+  "id": "buupass",
+  "industry": "Travel booking",
+  "last_checked": "2026-09-16",
+  "mentions": [
+    {
+      "date": "2026-09-15",
+      "run": "2026-09-16-r1",
+      "snippet": "Bus and travel booking across African markets, now with cross-border payments via SafariBucks.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://techcabal.com/2026/09/15/buupass-safaribucks-partnership/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Founded 2017 by Sonia Kabra and Wyclife Omondi; bus, train and flight tickets via web, app and USSD plus software for bus operators; $70M+ bookings in 2024; 25M+ tickets sold; 150+ operators in Kenya, Uganda, Tanzania, South Africa; $2.94M raised over four rounds",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Kenya's BuuPass secures undisclosed fresh investment from Yango Ventures",
+      "url": "https://techcabal.com/2025/07/07/buupass-receives-undisclosed-investment/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "BuuPass pushes into corporate travel with Gavanpass launch",
+      "url": "https://techcabal.com/2026/04/23/buupass-pushes-corporate-travel-gavanpass-launch/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Kenya's BuuPass onboards 13 new transport operators",
+      "url": "https://disruptafrica.com/2025/09/22/kenyas-buupass-onboards-13-new-transport-operators-strengthens-pan-african-mobility-network/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Press Release: Renew Capital Invests in BuuPass",
+      "url": "https://www.renewcapital.com/newsroom/press-release-renew-capital-invests-in-buupass-a-kenyan-tech-transport-company"
+    }
+  ],
+  "name": "BuuPass",
+  "name_key": "buupass",
+  "region": "mea",
+  "research": {
+    "judged_run": "2026-09-16-r1",
+    "pages": 0,
+    "queries_done": [
+      "\"BuuPass\" startup Kenya"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 6.0,
+      "market": 6.0,
+      "overall": 5.3,
+      "run": "2026-09-16-r1",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T15:01:36+00:00",
+  "website": "https://buupass.com"
+}

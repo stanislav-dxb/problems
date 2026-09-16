@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United Kingdom",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "igii",
+  "industry": "Advanced materials",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-16",
+      "run": "2026-09-16-r1",
+      "snippet": "A proprietary carbon nanomaterial (Gii) heading for industrial use; €26.5m raised.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.eu-startups.com/2026/09/stirling-based-igii-secures-e26-5-million-to-commercialise-its-proprietary-carbon-nanomaterial/"
+    }
+  ],
+  "name": "iGii",
+  "name_key": "igii",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:47:15+00:00",
+  "website": null
+}

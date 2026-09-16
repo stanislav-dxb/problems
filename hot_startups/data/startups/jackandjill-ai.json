@@ -1,0 +1,214 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United Kingdom",
+  "domain": "jackandjill.ai",
+  "drop_reason": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2026/09/london-based-jack-jill-raises-e34-68-million-series-a-to-scale-its-ai-agents-for-jobseekers-and-employers",
+          "https://tech.eu/2025/10/16/british-ai-recruitment-startup-jack-jill-raises-20-million-dollars-to-expand-to-the-us/"
+        ],
+        "value": "London, United Kingdom"
+      },
+      "founded": {
+        "confirmed": true,
+        "sources": [
+          "https://tech.eu/2025/10/16/british-ai-recruitment-startup-jack-jill-raises-20-million-dollars-to-expand-to-the-us/",
+          "https://www.onrec.com/news/news-archive/jack-jill-secures-20m-seed-investment-to-take-its-ai-recruiters-global"
+        ],
+        "value": "2025"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://jackandjill.ai/",
+          "https://tech.eu/2025/10/16/british-ai-recruitment-startup-jack-jill-raises-20-million-dollars-to-expand-to-the-us/"
+        ],
+        "value": "Its site counts 385,575 professionals using Jack and 5,357 companies using Jill; a year earlier it reported 49,000 candidates"
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://tech.eu/2025/10/16/british-ai-recruitment-startup-jack-jill-raises-20-million-dollars-to-expand-to-the-us/",
+          "https://www.eu-startups.com/2026/09/london-based-jack-jill-raises-e34-68-million-series-a-to-scale-its-ai-agents-for-jobseekers-and-employers"
+        ],
+        "value": "$60M: a $20M seed in October 2025 and a $40M Series A in September 2026"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Two AI agents run the job hunt: Jack talks to job seekers and finds them roles, Jill talks to companies and picks the right people, and the two introduce them directly.",
+    "industry": "HR Tech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r1",
+    "lesson": "Put an agent on both sides of a market and charge only when the match closes, so the free side grows the network for you.",
+    "name": "Jack & Jill",
+    "not_startup_reason": null,
+    "overall": 7.7,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "From 49,000 to over 385,000 professionals in about a year, and a Series A eleven months after the seed.",
+        "score": 9,
+        "source": "https://jackandjill.ai/"
+      },
+      "market": {
+        "reason": "Hiring is a huge cost for every company worldwide, and recruiters take large fees that software can undercut.",
+        "score": 8,
+        "source": "https://www.onrec.com/news/news-archive/jack-jill-secures-20m-seed-investment-to-take-its-ai-recruiters-global"
+      },
+      "tech": {
+        "reason": "The two-agent setup is clever, but it runs on AI models anyone can rent; the real moat is the growing network of people and companies.",
+        "score": 6,
+        "source": "https://jackandjill.ai/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2025-10-16",
+        "title": "British HRtech Jack & Jill raises $20M to expand to US (Tech.eu)",
+        "url": "https://tech.eu/2025/10/16/british-ai-recruitment-startup-jack-jill-raises-20-million-dollars-to-expand-to-the-us/"
+      },
+      {
+        "date": "2026-09-15",
+        "title": "Jack & Jill raises €34.68 million Series A (EU-Startups)",
+        "url": "https://www.eu-startups.com/2026/09/london-based-jack-jill-raises-e34-68-million-series-a-to-scale-its-ai-agents-for-jobseekers-and-employers"
+      },
+      {
+        "date": "2025-10-16",
+        "title": "Jack & Jill secures $20M seed (Onrec)",
+        "url": "https://www.onrec.com/news/news-archive/jack-jill-secures-20m-seed-investment-to-take-its-ai-recruiters-global"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising European Startups 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "There is an agent on each side of the table, so an introduction only happens when both sides fit, and candidates never fill in an application.",
+    "website": "https://jackandjill.ai",
+    "who_pays": "Companies pay when they hire; job seekers use Jack for free.",
+    "why_now": "AI can now hold a real conversation about someone's career, and companies are drowning in AI-written applications they cannot sort."
+  },
+  "first_judged_run": "2026-09-16-r1",
+  "first_seen": "2026-09-16",
+  "id": "jackandjill-ai",
+  "industry": "HR Tech",
+  "last_checked": "2026-09-16",
+  "mentions": [
+    {
+      "date": "2026-03-17",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "2026-09-15",
+      "run": "2026-09-16-r1",
+      "snippet": "An AI agent on each side of the hiring table; €34.68m Series A.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.eu-startups.com/2026/09/london-based-jack-jill-raises-e34-68-million-series-a-to-scale-its-ai-agents-for-jobseekers-and-employers/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Founded March 2025 by Matt Wilson and Saaras Mehan; two AI agents, Jack talks to job seekers, Jill learns hiring needs and matches from Jack's conversations; $20M seed led by Creandum with 75+ angels incl. Nico Rosberg and people from Lovable, Anthropic, ElevenLabs; 49,000 candidates talked to Jack in six months",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "British HRtech Jack & Jill raises $20M to expand to US",
+      "url": "https://tech.eu/2025/10/16/british-ai-recruitment-startup-jack-jill-raises-20-million-dollars-to-expand-to-the-us/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Series A led by Air Street Capital with Madrona and Antler, Sept 2026",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "London-based Jack & Jill raises €34.68 million Series A",
+      "url": "https://www.eu-startups.com/2026/09/london-based-jack-jill-raises-e34-68-million-series-a-to-scale-its-ai-agents-for-jobseekers-and-employers"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Anthropic and Lovable angels back AI recruitment startup Jack & Jill in $20m round",
+      "url": "https://sifted.eu/articles/jack-and-jill-funding-round-lovable-nico-rosberg"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Startup Of The Week: Jack and Jill",
+      "url": "https://techround.co.uk/startups/startup-of-the-week-jack-and-jill/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Founded 2025 by Matthew Wilson and Saaras Mehan; Jill integrated in hundreds of high-growth companies in London; Jack has helped over 230,000 people; customers report faster time-to-hire and up to 50% savings on recruiter fees",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Jack & Jill secures $20M Seed investment to take its AI recruiters global",
+      "url": "https://www.onrec.com/news/news-archive/jack-jill-secures-20m-seed-investment-to-take-its-ai-recruiters-global"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Jack & Jill AI - Crunchbase",
+      "url": "https://www.crunchbase.com/organization/jack-jill-ai"
+    }
+  ],
+  "name": "Jack & Jill",
+  "name_key": "jackjill",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-jackandjill-ai.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-09-16-r1",
+    "pages": 2,
+    "queries_done": [
+      "\"Jack&Jill\" startup United Kingdom",
+      "\"Jack&Jill\" founders funding customers"
+    ],
+    "refresh": false,
+    "searches": 2,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-jackandjill-ai.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 9.0,
+      "market": 8.0,
+      "overall": 7.7,
+      "run": "2026-09-16-r1",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T14:57:06+00:00",
+  "website": "https://jackandjill.ai/"
+}

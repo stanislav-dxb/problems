@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Austria",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "chatlyn",
+  "industry": "Hospitality AI",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "AI hub that centralises hotel guest communication across channels and translates into 35+ languages.",
+      "source": "vielversprechendste Startups 2026 Deutschland Österreich Schweiz",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://www.eu-startups.com/2026/01/10-austrian-startups-to-keep-an-eye-on-in-2026-and-beyond/"
+    }
+  ],
+  "name": "Chatlyn",
+  "name_key": "chatlyn",
+  "region": "europe",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:52:23+00:00",
+  "website": null
+}

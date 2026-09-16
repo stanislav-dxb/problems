@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "atg",
+  "industry": "Financial advice AI",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Autonomous AI financial advisors for everyone; $15M from the Paperspace founders' new company.",
+      "source": "stealth startup emerges September 2026",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://techstartups.com/2026/01/07/paperspace-founders-ai-startup-atg-emerges-from-stealth-with-15m-to-bring-autonomous-ai-financial-advisors-to-everyone/"
+    }
+  ],
+  "name": "ATG",
+  "name_key": "atg",
+  "region": "north_america",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:51:22+00:00",
+  "website": null
+}

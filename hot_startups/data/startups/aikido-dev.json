@@ -1,0 +1,223 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Belgium",
+  "domain": "aikido.dev",
+  "drop_reason": null,
+  "entry": {
+    "country": "Belgium",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://finance.yahoo.com/news/belgian-cybersecurity-startup-aikido-hits-120614192.html",
+          "https://finance.yahoo.com/news/aikido-security-raises-60-million-130000609.html"
+        ],
+        "value": "Ghent, Belgium"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://finance.yahoo.com/news/belgian-cybersecurity-startup-aikido-hits-120614192.html",
+          "https://finance.yahoo.com/news/aikido-security-raises-60-million-130000609.html"
+        ],
+        "value": "2022"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://finance.yahoo.com/news/belgian-cybersecurity-startup-aikido-hits-120614192.html",
+          "https://www.aikido.dev/"
+        ],
+        "value": "Revenue grew about fivefold in a year and customers nearly tripled; its site says 150,000+ organisations use it"
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://finance.yahoo.com/news/aikido-security-raises-60-million-130000609.html",
+          "https://www.aikido.dev/blog/aikido-funding-series-b"
+        ],
+        "value": "$94.7M in total, including a $60M Series B led by DST Global at a $1B valuation"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "One security tool that checks everything a software team writes and runs, and fixes most problems itself, so developers stop drowning in false alarms.",
+    "industry": "Cybersecurity",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r1",
+    "lesson": "Sell to the person who feels the pain daily, make the first taste free, and let usage pull the enterprise contract behind it.",
+    "name": "Aikido Security",
+    "not_startup_reason": null,
+    "overall": 7.7,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Fivefold revenue growth in a year and Europe's fastest cybersecurity unicorn, three years after founding.",
+        "score": 9,
+        "source": "https://finance.yahoo.com/news/belgian-cybersecurity-startup-aikido-hits-120614192.html"
+      },
+      "market": {
+        "reason": "Every company that writes software needs this, and AI-written code is multiplying the need.",
+        "score": 8,
+        "source": "https://www.newsbytesapp.com/news/business/belgian-startup-aikido-is-now-europes-fastest-cybersecurity-unicorn/tldr"
+      },
+      "tech": {
+        "reason": "Well-built and broad, but security scanning is a crowded field where large rivals can catch up.",
+        "score": 6,
+        "source": "https://www.aikido.dev/"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Belgian cybersecurity startup Aikido hits unicorn status (Reuters via Yahoo)",
+        "url": "https://finance.yahoo.com/news/belgian-cybersecurity-startup-aikido-hits-120614192.html"
+      },
+      {
+        "date": null,
+        "title": "Aikido Security raises $60M Series B at $1B valuation (press release)",
+        "url": "https://finance.yahoo.com/news/aikido-security-raises-60-million-130000609.html"
+      },
+      {
+        "date": null,
+        "title": "Aikido raises $60M at a $1B valuation (company blog)",
+        "url": "https://www.aikido.dev/blog/aikido-funding-series-b"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising European Startups 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It sells to the developers rather than the security department, is free to start, and claims 99% fewer false alarms than the fragmented tools it replaces.",
+    "website": "https://www.aikido.dev",
+    "who_pays": "Software companies pay per team once they outgrow the free tier; customers include Revolut, SoundCloud and Niantic.",
+    "why_now": "AI now writes a large share of code, and companies need guardrails that work at that speed without a security team reviewing every line."
+  },
+  "first_judged_run": "2026-09-16-r1",
+  "first_seen": "2026-09-16",
+  "id": "aikido-dev",
+  "industry": "Cybersecurity",
+  "last_checked": "2026-09-16",
+  "mentions": [
+    {
+      "date": "2026-03-17",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Founded 2022, Ghent; $60M led by DST Global at $1B valuation; revenue grew about fivefold in a year, customers nearly tripled; customers Niantic, Revolut, SoundCloud; half of revenue from the US",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Belgian cybersecurity startup Aikido hits unicorn status with new funding round",
+      "url": "https://finance.yahoo.com/news/belgian-cybersecurity-startup-aikido-hits-120614192.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Aikido Security",
+      "url": "https://en.wikipedia.org/wiki/Aikido_Security"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "guardrails for writing secure software, especially with AI",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Belgian startup Aikido is now Europe's fastest cybersecurity unicorn",
+      "url": "https://www.newsbytesapp.com/news/business/belgian-startup-aikido-is-now-europes-fastest-cybersecurity-unicorn/tldr"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Aikido Security's $60m Series B",
+      "url": "https://www.movetheneedle.news/technology/aikido-security-s--60m-series-b--how-a-belgian-cybersecurity-startup-reached-unicorn-status/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Incorporated 26 Oct 2022 in Ghent by Willem Delbare (CEO/CTO, exits Teamleader and Officient), Roeland Delrue, Felix Garriau, Madeline Lawrence; Series B led by DST Global with PSG Equity, Notion Capital, Singular; $94.7M total; trusted by over 100,000 teams incl. Premier League, Revolut, SoundCloud, Niantic",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Aikido Security Raises $60 Million Series B at $1 Billion Valuation",
+      "url": "https://finance.yahoo.com/news/aikido-security-raises-60-million-130000609.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Aikido Security Raises $60M at a $1B valuation",
+      "url": "https://www.aikido.dev/blog/aikido-funding-series-b"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "About | Aikido Security",
+      "url": "https://www.aikido.dev/company/about"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "How Aikido Security built a 'no BS' security platform for European business",
+      "url": "https://siliconcanals.com/aikido-security-developers-application-cloud-cybersecurity/"
+    }
+  ],
+  "name": "Aikido Security",
+  "name_key": "aikidosecurity",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-aikido-dev.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-09-16-r1",
+    "pages": 2,
+    "queries_done": [
+      "\"Aikido Security\" startup Belgium",
+      "\"Aikido Security\" founders funding customers"
+    ],
+    "refresh": false,
+    "searches": 2,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-aikido-dev.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 9.0,
+      "market": 8.0,
+      "overall": 7.7,
+      "run": "2026-09-16-r1",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T15:03:21+00:00",
+  "website": "https://www.aikido.dev/"
+}

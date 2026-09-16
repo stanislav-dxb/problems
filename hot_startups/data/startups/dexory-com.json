@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United Kingdom",
+  "domain": "dexory.com",
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "dexory-com",
+  "industry": "Physical AI & Robotics",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-03-17",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    }
+  ],
+  "name": "Dexory",
+  "name_key": "dexory",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:45:26+00:00",
+  "website": "https://www.dexory.com/fr"
+}

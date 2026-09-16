@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "France",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "opio",
+  "industry": "AI for audit",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-16",
+      "run": "2026-09-16-r1",
+      "snippet": "AI that does the grunt work of financial due diligence for auditors; €4M from Frst, Seedcamp and GFC.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://tech.eu/2026/09/16/opio-raises-eur4m-to-automate-the-grunt-work-of-financial-due-diligence/"
+    }
+  ],
+  "name": "Opio",
+  "name_key": "opio",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:48:18+00:00",
+  "website": null
+}

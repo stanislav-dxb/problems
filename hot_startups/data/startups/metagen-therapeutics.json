@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Japan",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "metagen-therapeutics",
+  "industry": "Biotech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Microbiome-based therapies; Series B extension, over ¥6.8B raised in total.",
+      "source": "スタートアップ 資金調達を実施 2026年9月",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://www.nikkei.com/article/DGXZQOUC046VQ0U6A900C2000000/"
+    }
+  ],
+  "name": "Metagen Therapeutics",
+  "name_key": "metagentherapeutics",
+  "region": "asia",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:52:24+00:00",
+  "website": null
+}

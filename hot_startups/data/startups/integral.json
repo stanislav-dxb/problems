@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Germany",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "integral",
+  "industry": "AI accounting",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-16",
+      "run": "2026-09-16-r1",
+      "snippet": "AI-run accounting, tax and payroll services for small businesses; €18m Series A less than two years after founding.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.eu-startups.com/2026/09/berlin-based-integral-raises-e18-million-to-deliver-ai-run-accounting-tax-and-payroll-services-to-smes/"
+    }
+  ],
+  "name": "Integral",
+  "name_key": "integral",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:47:15+00:00",
+  "website": null
+}

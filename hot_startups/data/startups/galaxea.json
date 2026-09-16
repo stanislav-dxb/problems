@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "China",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "galaxea",
+  "industry": "Robotics",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Embodied AI company with both top models and robot bodies; valuation over 20 billion yuan.",
+      "source": "最具潜力 创业公司 2026",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://news.qq.com/rain/a/20260707A08YUG00"
+    }
+  ],
+  "name": "星海图 Galaxea",
+  "name_key": "星海图galaxea",
+  "region": "asia",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:52:24+00:00",
+  "website": null
+}

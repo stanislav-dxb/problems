@@ -1,0 +1,183 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Colombia",
+  "domain": "getontop.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "Colombia",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://contxto.com/en/fintech/ontop-the-startup-thats-changing-how-companies-hire-and-pay-global-talent/",
+          "https://colombiaone.com/2025/04/09/colombia-ceo-ontop-fintech-julian-torres/"
+        ],
+        "value": "Bogotá, Colombia (CEO in Miami)"
+      },
+      "founded": {
+        "confirmed": true,
+        "sources": [
+          "https://contxto.com/en/fintech/ontop-the-startup-thats-changing-how-companies-hire-and-pay-global-talent/",
+          "https://ecosistemastartup.com/ontop-la-startup-colombiana-que-reordeno-el-payroll-global-con-ia/"
+        ],
+        "value": "2020"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://ecosistemastartup.com/ontop-la-startup-colombiana-que-reordeno-el-payroll-global-con-ia/",
+          "https://contxto.com/en/fintech/ontop-the-startup-thats-changing-how-companies-hire-and-pay-global-talent/"
+        ],
+        "value": "Passed $1B in processed payments in 2025; serves 1,300+ companies a month and about 17,000 workers in 120+ countries; revenue up 25% while costs fell 10%"
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://contxto.com/en/fintech/ontop-the-startup-thats-changing-how-companies-hire-and-pay-global-talent/",
+          "https://colombiaone.com/2025/04/09/colombia-ceo-ontop-fintech-julian-torres/"
+        ],
+        "value": "more than $31M, including a $20M Series A led by SoftBank and Tiger Global"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://contxto.com/en/fintech/ontop-the-startup-thats-changing-how-companies-hire-and-pay-global-talent/"
+        ],
+        "value": "about 270 across 25 countries"
+      }
+    },
+    "idea": "Lets a company hire and pay contractors in 150 countries in minutes, with contracts and tax rules handled, while the workers get a global account to receive and spend the money.",
+    "industry": "Global payroll",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r1",
+    "lesson": "When the giants sell the expensive full package, sell the lighter version the customer actually needs and price it like software.",
+    "name": "Ontop",
+    "not_startup_reason": null,
+    "overall": 6.3,
+    "region": "latin_america",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Solid but not explosive: revenue up 25% in a year, with the company now focused on margins rather than expansion.",
+        "score": 6,
+        "source": "https://ecosistemastartup.com/ontop-la-startup-colombiana-que-reordeno-el-payroll-global-con-ia/"
+      },
+      "market": {
+        "reason": "Paying remote workers across borders is a worldwide need for companies of every size, and the contractor share keeps growing.",
+        "score": 8,
+        "source": "https://contxto.com/en/fintech/ontop-the-startup-thats-changing-how-companies-hire-and-pay-global-talent/"
+      },
+      "tech": {
+        "reason": "Payments, contracts and compliance plumbing that a strong team can rebuild; rivals like Deel sell similar things.",
+        "score": 5,
+        "source": "https://www.getontop.com"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-10",
+        "title": "Ontop, the startup that's changing how companies hire and pay global talent (Contxto)",
+        "url": "https://contxto.com/en/fintech/ontop-the-startup-thats-changing-how-companies-hire-and-pay-global-talent/"
+      },
+      {
+        "date": null,
+        "title": "Ontop reordenó el payroll global con IA (El Ecosistema Startup)",
+        "url": "https://ecosistemastartup.com/ontop-la-startup-colombiana-que-reordeno-el-payroll-global-con-ia/"
+      },
+      {
+        "date": "2025-04-09",
+        "title": "From Bogota Bedroom to Global Fintech CEO in Miami (Colombia One)",
+        "url": "https://colombiaone.com/2025/04/09/colombia-ceo-ontop-fintech-julian-torres/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It skips the expensive employer-of-record model the big players sell and treats the worker as a contractor with their own financial account, from $49 a month.",
+    "website": "https://www.getontop.com",
+    "who_pays": "Companies pay a monthly fee per contractor; freelancers get a global account and card.",
+    "why_now": "The best talent increasingly works as contractors by choice, and companies want to hire across borders without opening a local entity."
+  },
+  "first_judged_run": "2026-09-16-r1",
+  "first_seen": "2026-09-16",
+  "id": "ontop",
+  "industry": "Global payroll",
+  "last_checked": "2026-09-16",
+  "mentions": [
+    {
+      "date": "2026-09-10",
+      "run": "2026-09-16-r1",
+      "snippet": "Lets companies hire and pay workers in other countries with contracts, payments and tax compliance handled.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://contxto.com/en/fintech/ontop-the-startup-thats-changing-how-companies-hire-and-pay-global-talent/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Founded Bogotá 2020; hire, onboard and pay talent across borders; Y Combinator; passed $1B in processed payments in 2025; 1,300+ companies a month, ~17,000 remote workers in 120+ countries; cofounder Santiago Aparicio left 2024, Julián Torres CEO; expenses cut 10% while revenue up 25% (Forbes Colombia)",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Ontop, la startup colombiana que reordenó el payroll global con IA",
+      "url": "https://ecosistemastartup.com/ontop-la-startup-colombiana-que-reordeno-el-payroll-global-con-ia/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Ontop, la startup colombiana que paga US$1.000M con IA",
+      "url": "https://ecosistemastartup.com/ontop-la-startup-colombiana-que-paga-us1-000m-con-ia/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Ontop, the startup that changed how companies hire and pay global talent",
+      "url": "https://contxto.com/en/fintech/ontop-the-startup-that-changed-how-companies-hire-and-pay-global-talent/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Series A of $20M",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Colombian Success Story: From Bogota Bedroom to Global Fintech CEO in Miami",
+      "url": "https://colombiaone.com/2025/04/09/colombia-ceo-ontop-fintech-julian-torres/"
+    }
+  ],
+  "name": "Ontop",
+  "name_key": "ontop",
+  "region": "latin_america",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-ontop.txt",
+    "article_url": "https://contxto.com/en/fintech/ontop-the-startup-thats-changing-how-companies-hire-and-pay-global-talent/",
+    "judged_run": "2026-09-16-r1",
+    "pages": 2,
+    "queries_done": [
+      "\"Ontop\" startup Colombia"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-ontop.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 6.0,
+      "market": 8.0,
+      "overall": 6.3,
+      "run": "2026-09-16-r1",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T14:59:41+00:00",
+  "website": "https://www.getontop.com"
+}

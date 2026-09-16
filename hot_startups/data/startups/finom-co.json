@@ -1,0 +1,172 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Netherlands",
+  "domain": "finom.co",
+  "drop_reason": null,
+  "entry": {
+    "country": "Netherlands",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.eu-startups.com/2025/05/dutch-fintech-startup-finom-raises-e92-3-million-to-develop-platform-for-smes/",
+          "https://www.eu-startups.com/2025/06/on-million-customers-by-the-end-of-2026-thats-the-goal-of-dutch-fintech-startup-finom-as-they-announce-e115-million-in-funding/"
+        ],
+        "value": "Amsterdam, Netherlands"
+      },
+      "founded": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2025/05/dutch-fintech-startup-finom-raises-e92-3-million-to-develop-platform-for-smes/",
+          "https://help.finom.co/en/articles/4747349-finom-who-we-are"
+        ],
+        "value": "2019"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.eu-startups.com/2025/05/dutch-fintech-startup-finom-raises-e92-3-million-to-develop-platform-for-smes/",
+          "https://www.eu-startups.com/2025/06/on-million-customers-by-the-end-of-2026-thats-the-goal-of-dutch-fintech-startup-finom-as-they-announce-e115-million-in-funding/"
+        ],
+        "value": "Over 125,000 business customers in five countries, targeting one million by the end of 2026"
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.eu-startups.com/2025/06/on-million-customers-by-the-end-of-2026-thats-the-goal-of-dutch-fintech-startup-finom-as-they-announce-e115-million-in-funding/",
+          "https://www.eu-startups.com/2025/05/dutch-fintech-startup-finom-raises-e92-3-million-to-develop-platform-for-smes/"
+        ],
+        "value": "over €300M in total, including €115M announced in 2025"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "A bank account for small businesses and freelancers across Europe that also does invoices, expenses and, increasingly, the bookkeeping itself.",
+    "industry": "Business banking",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r1",
+    "lesson": "Start with the account the customer must open anyway, then add the chores around it one by one until leaving would cost them their back office.",
+    "name": "Finom",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Rapid customer growth and very large funding, though the team may be near the size limit for this list.",
+        "score": 7,
+        "source": "https://www.eu-startups.com/2025/05/dutch-fintech-startup-finom-raises-e92-3-million-to-develop-platform-for-smes/"
+      },
+      "market": {
+        "reason": "Tens of millions of small businesses in Europe alone need an account and bookkeeping.",
+        "score": 8,
+        "source": "https://www.eu-startups.com/2025/06/on-million-customers-by-the-end-of-2026-thats-the-goal-of-dutch-fintech-startup-finom-as-they-announce-e115-million-in-funding/"
+      },
+      "tech": {
+        "reason": "Banking and accounting software plus a licence; strong execution, but Qonto and others sell the same package.",
+        "score": 5,
+        "source": "https://finom.co"
+      }
+    },
+    "sources": [
+      {
+        "date": "2025-05-01",
+        "title": "FINOM raises €92.3 million (EU-Startups)",
+        "url": "https://www.eu-startups.com/2025/05/dutch-fintech-startup-finom-raises-e92-3-million-to-develop-platform-for-smes/"
+      },
+      {
+        "date": "2025-06-01",
+        "title": "Finom announces €115 million in funding (EU-Startups)",
+        "url": "https://www.eu-startups.com/2025/06/on-million-customers-by-the-end-of-2026-thats-the-goal-of-dutch-fintech-startup-finom-as-they-announce-e115-million-in-funding/"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising European Startups 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "One licence and one app serve five countries with local account numbers, and the AI accounting turns a bank account into the company's back office.",
+    "website": "https://finom.co",
+    "who_pays": "Small businesses and freelancers pay monthly subscriptions plus card and lending fees; over 125,000 customers.",
+    "why_now": "Europe's small businesses are still served by slow banks, and AI can now do the bookkeeping that used to need an accountant."
+  },
+  "first_judged_run": "2026-09-16-r1",
+  "first_seen": "2026-09-16",
+  "id": "finom-co",
+  "industry": "Business banking",
+  "last_checked": "2026-09-16",
+  "mentions": [
+    {
+      "date": "2026-03-17",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Founded 2019, Amsterdam; business accounts with local IBANs, invoicing, expenses, AI accounting, lending; 125,000 customers in Germany, France, Italy, Spain, Netherlands; EMI licence",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Dutch FinTech startup FINOM raises €92.3 million to scale platform for SMEs",
+      "url": "https://www.eu-startups.com/2025/05/dutch-fintech-startup-finom-raises-e92-3-million-to-develop-platform-for-smes/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "over €300M raised in total",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "With €115 million in fresh funding, Finom sets sights on one million customers by 2026",
+      "url": "https://www.eu-startups.com/2025/06/on-million-customers-by-the-end-of-2026-thats-the-goal-of-dutch-fintech-startup-finom-as-they-announce-e115-million-in-funding/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Finom: who we are",
+      "url": "https://help.finom.co/en/articles/4747349-finom-who-we-are"
+    }
+  ],
+  "name": "Finom",
+  "name_key": "finom",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-finom-co.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-09-16-r1",
+    "pages": 2,
+    "queries_done": [
+      "\"Finom\" startup Netherlands"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-finom-co.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 7.0,
+      "market": 8.0,
+      "overall": 6.7,
+      "run": "2026-09-16-r1",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T15:05:51+00:00",
+  "website": "https://finom.co/"
+}

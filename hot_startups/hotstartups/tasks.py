@@ -364,12 +364,20 @@ def _plan_discovery(cfg: dict, sources: dict, store: Store, run: dict, batch: in
 
 # ---- research + judge ------------------------------------------------------
 def _priority(rec: dict, run_id: str) -> float:
-    kinds = {m.get("source_kind") for m in rec.get("mentions", [])}
-    p = len(rec.get("mentions", [])) * 1.0
-    p += 3.0 if "list" in kinds else 0
+    """Who gets researched first: several independent sources, fresh news, a curated list, a known website.
+    Ties are broken by a per-run pseudo-random value so a run never works through a list alphabetically."""
+    import hashlib
+    mentions = rec.get("mentions", [])
+    kinds = {m.get("source_kind") for m in mentions}
+    p = min(len(mentions), 6) * 1.0
+    p += 1.5 * max(0, len(kinds) - 1)
+    p += 1.0 if "list" in kinds else 0
     p += 1.0 if rec.get("website") else 0
-    p += 1.0 if any(m.get("run") == run_id for m in rec.get("mentions", [])) else 0
+    cutoff = (date.today() - timedelta(days=14)).isoformat()
+    if any((m.get("date") or "")[:10] >= cutoff and (m.get("date") or "")[:4].isdigit() for m in mentions):
+        p += 2.5  # fresh news beats a months-old list: the page is about what is happening now
     p += 4.0 if rec.get("research", {}).get("refresh") else 0
+    p += int(hashlib.md5(f"{rec['id']}:{run_id}".encode()).hexdigest()[:4], 16) / 65535.0
     return p
 
 
@@ -442,7 +450,7 @@ def _plan_research(cfg: dict, sources: dict, store: Store, run: dict, batch: int
     queue = _research_queue(cfg, store, run)
     active = queue[: remaining(run, "judged") + 2]
     tasks = []
-    judge_issued = False
+    judges = 0
     for rec in active:
         rs = rec["research"]
         queries = _research_queries(sources, rec)
@@ -494,9 +502,9 @@ def _plan_research(cfg: dict, sources: dict, store: Store, run: dict, batch: int
                 else:
                     fail(run, "article (direct)", art, text if not ok else "almost no text")
             store.save_startup(rec)
-        if not judge_issued and remaining(run, "judged") > 0:
+        if judges < 3 and remaining(run, "judged") > judges:
             tasks.append(_issue(store, run, _judge_task(cfg, store, run, rec), "judged"))
-            judge_issued = True
+            judges += 1
             if len(tasks) >= batch:
                 break
     if not tasks:

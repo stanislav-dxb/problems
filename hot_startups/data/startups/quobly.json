@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "France",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "quobly",
+  "industry": "Quantum computing",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Silicon-based quantum computing spun out of CEA-Leti; new entrant to the French Tech Next40.",
+      "source": "startups prometteuses 2026 France",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://www.blogdumoderateur.com/french-tech-les-120-startups-les-plus-performantes-en-2026/"
+    }
+  ],
+  "name": "Quobly",
+  "name_key": "quobly",
+  "region": "europe",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:52:23+00:00",
+  "website": null
+}

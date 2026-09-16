@@ -1,0 +1,177 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United Kingdom",
+  "domain": "stream.co",
+  "drop_reason": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.uktech.news/fintech/stream-67m-series-d-20260120",
+          "https://www.fintechfutures.com/venture-capital-funding/stream-lands-90m-series-d-to-drive-us-expansion-and-eyes-future-ipo"
+        ],
+        "value": "London, United Kingdom"
+      },
+      "founded": {
+        "confirmed": true,
+        "sources": [
+          "https://www.uktech.news/fintech/stream-67m-series-d-20260120",
+          "https://www.eu-startups.com/2026/01/british-workplace-finance-platform-stream-adds-e76-million-in-funding-bringing-total-raised-to-e194-million/"
+        ],
+        "value": "2018"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.uktech.news/fintech/stream-67m-series-d-20260120",
+          "https://www.fintechfutures.com/venture-capital-funding/stream-lands-90m-series-d-to-drive-us-expansion-and-eyes-future-ipo"
+        ],
+        "value": "About four million users across 2,000 employers in the UK, Europe and the US; expanding to the US and eyeing an IPO"
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2026/01/british-workplace-finance-platform-stream-adds-e76-million-in-funding-bringing-total-raised-to-e194-million/",
+          "https://www.uktech.news/fintech/stream-67m-series-d-20260120"
+        ],
+        "value": "€194M in total, including a €76M Series D led by Sofina in January 2026"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "An app that hourly workers get through their employer to draw part of their pay early, budget, save, claim benefits and now build a pension, without payday lenders.",
+    "industry": "Workplace finance",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r1",
+    "lesson": "Distribute through the institution that already has the trust and the payroll; one contract can bring a hundred thousand users.",
+    "name": "Stream",
+    "not_startup_reason": null,
+    "overall": 6.3,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Four million users and 2,000 employers eight years in, with a Series D and an IPO in view, but the yearly growth rate is not published.",
+        "score": 7,
+        "source": "https://www.uktech.news/fintech/stream-67m-series-d-20260120"
+      },
+      "market": {
+        "reason": "Hundreds of millions of hourly workers in rich countries live paycheck to paycheck; the US expansion opens the largest of them.",
+        "score": 8,
+        "source": "https://www.fintechfutures.com/venture-capital-funding/stream-lands-90m-series-d-to-drive-us-expansion-and-eyes-future-ipo"
+      },
+      "tech": {
+        "reason": "A well-made payroll-connected app; the technology is ordinary and rivals offer early wage access too.",
+        "score": 4,
+        "source": "https://stream.co/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-01-20",
+        "title": "Workplace finance platform Stream closes £67m Series D round (UKTN)",
+        "url": "https://www.uktech.news/fintech/stream-67m-series-d-20260120"
+      },
+      {
+        "date": "2026-01-20",
+        "title": "Stream adds €76 million in funding (EU-Startups)",
+        "url": "https://www.eu-startups.com/2026/01/british-workplace-finance-platform-stream-adds-e76-million-in-funding-bringing-total-raised-to-e194-million/"
+      },
+      {
+        "date": null,
+        "title": "Stream lands $90m Series D (FinTech Futures)",
+        "url": "https://www.fintechfutures.com/venture-capital-funding/stream-lands-90m-series-d-to-drive-us-expansion-and-eyes-future-ipo"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising European Startups 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It sells only through employers, so it reaches millions of low-income workers at once and the employer vouches for it; formerly known as Wagestream.",
+    "website": "https://stream.co",
+    "who_pays": "Employers pay for the platform as a staff benefit; workers pay small fees for some features.",
+    "why_now": "Wages are paid monthly while bills arrive daily, and employers such as Hilton and Burger King now compete on financial wellbeing to keep staff."
+  },
+  "first_judged_run": "2026-09-16-r1",
+  "first_seen": "2026-09-16",
+  "id": "stream-co",
+  "industry": "Workplace finance",
+  "last_checked": "2026-09-16",
+  "mentions": [
+    {
+      "date": "2026-03-17",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Formerly Wagestream; founded 2018; about four million users across 2,000 employers in UK, Europe, US; earned-wage access up to 50% of pay before payday, budgeting, benefits help; Series D led by Sofina Jan 2026; €194M total",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Workplace finance platform Stream closes £67m Series D round",
+      "url": "https://www.uktech.news/fintech/stream-67m-series-d-20260120"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "partners incl. Hilton, Bupa, Burger King; pensions via Zippen acquisition 2025",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "British workplace finance platform Stream adds €76 million",
+      "url": "https://www.eu-startups.com/2026/01/british-workplace-finance-platform-stream-adds-e76-million-in-funding-bringing-total-raised-to-e194-million/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Stream lands $90m Series D for US expansion",
+      "url": "https://www.fintechfutures.com/venture-capital-funding/stream-lands-90m-series-d-to-drive-us-expansion-and-eyes-future-ipo"
+    }
+  ],
+  "name": "Stream",
+  "name_key": "stream",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-stream-co.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-09-16-r1",
+    "pages": 2,
+    "queries_done": [
+      "\"Stream\" startup United Kingdom"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-stream-co.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 7.0,
+      "market": 8.0,
+      "overall": 6.3,
+      "run": "2026-09-16-r1",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T15:05:11+00:00",
+  "website": "https://stream.co/en"
+}

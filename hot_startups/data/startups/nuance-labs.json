@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "nuance-labs",
+  "industry": "AI avatars",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-15",
+      "run": "2026-09-16-r1",
+      "snippet": "Low-latency AI avatars you can talk to face to face; $50M Series A led by Lightspeed.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://thebridge.jp/2026/09/nuance-labs-series-a-low-latency-ai-avatar-lightspeed"
+    }
+  ],
+  "name": "Nuance Labs",
+  "name_key": "nuancelabs",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:48:18+00:00",
+  "website": null
+}

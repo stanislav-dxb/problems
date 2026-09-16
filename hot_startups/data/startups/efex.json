@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Mexico",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "efex",
+  "industry": "Treasury software",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-03-19",
+      "run": "2026-09-16-r1",
+      "snippet": "Global treasury platform for mid-sized companies in Mexico and the US; $8M seed co-led by PayPal Ventures.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://contxto.com/en/funding/efex-raises-8-million-to-strengthen-its-treasury-platform/"
+    }
+  ],
+  "name": "EFEX",
+  "name_key": "efex",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:50:11+00:00",
+  "website": null
+}

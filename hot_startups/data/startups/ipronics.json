@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Spain",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "ipronics",
+  "industry": "Photonics",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Programmable photonic chips for AI data centres, from Valencia; $125M round.",
+      "source": "startup cierra ronda de inversión septiembre 2026 España",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://forbes.es/economia/1012767/rondas-financiacion-semana-ipronics-pldspace/"
+    }
+  ],
+  "name": "iPronics",
+  "name_key": "ipronics",
+  "region": "europe",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:52:23+00:00",
+  "website": null
+}

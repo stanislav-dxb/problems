@@ -1,0 +1,176 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Bahrain",
+  "domain": "tarabut.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "Bahrain",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.tradingview.com/news/reuters.com,2026-09-15:newsml_Zaw4DWZdr:0-bahrain-fintech-tarabut-secures-50mln-from-saudi-banks-investors/",
+          "http://wamda.com/2026/09/tarabut-secures-50-million-deepen-saudi-embedded-finance-push"
+        ],
+        "value": "Manama, Bahrain, with operations in Saudi Arabia and the UAE"
+      },
+      "founded": {
+        "confirmed": true,
+        "sources": [
+          "https://www.tradingview.com/news/reuters.com,2026-09-15:newsml_Zaw4DWZdr:0-bahrain-fintech-tarabut-secures-50mln-from-saudi-banks-investors/",
+          "https://startupbahrain.com/blog/tarabut-from-a-bahrain-sandbox-to-gcc-wide-open-finance"
+        ],
+        "value": "2017"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.tradingview.com/news/reuters.com,2026-09-15:newsml_Zaw4DWZdr:0-bahrain-fintech-tarabut-secures-50mln-from-saudi-banks-investors/",
+          "https://www.tarabut.com/blogs/post/tarabut-acquires-bahrain-founded-ai-platform-servable"
+        ],
+        "value": "Live and regulated in three countries; Saudi banks are now investing in it and it acquired an AI company, Servable"
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "http://wamda.com/2026/09/tarabut-secures-50-million-deepen-saudi-embedded-finance-push",
+          "https://www.tradingview.com/news/reuters.com,2026-09-15:newsml_Zaw4DWZdr:0-bahrain-fintech-tarabut-secures-50mln-from-saudi-banks-investors/"
+        ],
+        "value": "$50M strategic financing in September 2026 from Riyad Bank, SAB Invest's X-Tech Fund, GIB and others, after a $13M seed years earlier"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Runs the regulated pipes that let apps and banks in the Gulf read a customer's bank data and move money with their consent, the way open banking works in Europe.",
+    "industry": "Open banking",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r1",
+    "lesson": "Be the first to go through a new regulation with the regulator; the rulebook you help write becomes your moat.",
+    "name": "Tarabut",
+    "not_startup_reason": null,
+    "overall": 6.5,
+    "region": "mea",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last, acquisition",
+        "reason": "No customer or volume numbers published; the signal is banks putting $50M in and a fresh acquisition.",
+        "score": null,
+        "source": "http://wamda.com/2026/09/tarabut-secures-50-million-deepen-saudi-embedded-finance-push"
+      },
+      "market": {
+        "reason": "Every bank and fintech in the Gulf will need these pipes, but the region is a few rich countries rather than the whole world.",
+        "score": 7,
+        "source": "http://wamda.com/2026/09/tarabut-secures-50-million-deepen-saudi-embedded-finance-push"
+      },
+      "tech": {
+        "reason": "The software is standard open-banking plumbing; the licences in three countries are what is hard to copy.",
+        "score": 6,
+        "source": "https://startupbahrain.com/blog/tarabut-from-a-bahrain-sandbox-to-gcc-wide-open-finance"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-15",
+        "title": "Tarabut secures $50 million to deepen Saudi embedded finance push (Wamda)",
+        "url": "http://wamda.com/2026/09/tarabut-secures-50-million-deepen-saudi-embedded-finance-push"
+      },
+      {
+        "date": "2026-09-15",
+        "title": "Bahrain fintech Tarabut secures $50mln (Reuters)",
+        "url": "https://www.tradingview.com/news/reuters.com,2026-09-15:newsml_Zaw4DWZdr:0-bahrain-fintech-tarabut-secures-50mln-from-saudi-banks-investors/"
+      },
+      {
+        "date": null,
+        "title": "Tarabut: From a Bahrain Sandbox to GCC-wide Open Finance (StartUp Bahrain)",
+        "url": "https://startupbahrain.com/blog/tarabut-from-a-bahrain-sandbox-to-gcc-wide-open-finance"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It was the first company through Bahrain's regulatory sandbox in 2018, so it wrote the template regulators in Saudi Arabia and the UAE later followed.",
+    "website": "https://www.tarabut.com",
+    "who_pays": "Banks, fintechs and large companies pay to connect through the platform.",
+    "why_now": "Gulf regulators are mandating open banking and Saudi banks want embedded finance without building it themselves."
+  },
+  "first_judged_run": "2026-09-16-r1",
+  "first_seen": "2026-09-16",
+  "id": "tarabut",
+  "industry": "Open banking",
+  "last_checked": "2026-09-16",
+  "mentions": [
+    {
+      "date": "2026-09-15",
+      "run": "2026-09-16-r1",
+      "snippet": "Open banking and embedded finance infrastructure; $50M strategic financing for Saudi push.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "http://wamda.com/2026/09/tarabut-secures-50-million-deepen-saudi-embedded-finance-push"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Founded 2017 by Abdullah Almoayed; MENA's first and largest regulated open banking platform, live in Bahrain, Saudi Arabia, UAE; $50M from Riyad Bank and others, Sept 2026",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Bahrain fintech Tarabut secures $50mln from Saudi banks, investors",
+      "url": "https://www.tradingview.com/news/reuters.com,2026-09-15:newsml_Zaw4DWZdr:0-bahrain-fintech-tarabut-secures-50mln-from-saudi-banks-investors/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "first graduate of the CBB regulatory sandbox in 2018",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Tarabut: From a Bahrain Sandbox to GCC-wide Open Finance",
+      "url": "https://startupbahrain.com/blog/tarabut-from-a-bahrain-sandbox-to-gcc-wide-open-finance"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Tarabut Acquires Bahrain-Founded AI Platform Servable",
+      "url": "https://www.tarabut.com/blogs/post/tarabut-acquires-bahrain-founded-ai-platform-servable"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Open Banking platform Tarabut Gateway raises $13 million in MENA's largest seed round",
+      "url": "https://www.menabytes.com/tarabut-gateway-seed/"
+    }
+  ],
+  "name": "Tarabut",
+  "name_key": "tarabut",
+  "region": "mea",
+  "research": {
+    "judged_run": "2026-09-16-r1",
+    "pages": 0,
+    "queries_done": [
+      "\"Tarabut\" startup Bahrain"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": null,
+      "market": 7.0,
+      "overall": 6.5,
+      "run": "2026-09-16-r1",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T15:00:32+00:00",
+  "website": "https://www.tarabut.com"
+}

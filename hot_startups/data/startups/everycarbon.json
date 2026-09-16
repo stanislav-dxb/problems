@@ -1,0 +1,156 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Germany",
+  "domain": "everycarbon.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "Germany",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.tuhh.de/tuhh/en/research-and-transfer/research-news/2025-10-23-tuhh-startup-everycarbon-erhaelt-25-millionen-euro-foerderung-von-sprind",
+          "https://www.sprind.org/en/actions/challenges/biomanufacturing/everycarbon"
+        ],
+        "value": "Hamburg, Germany"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://tech.eu/2026/09/15/everycarbon-wins-flair-subcontract-to-scale-fossil-independent-materials-production/"
+        ],
+        "value": "Won a FLAIR subcontract in September 2026 to scale production"
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.tuhh.de/tuhh/en/research-and-transfer/research-news/2025-10-23-tuhh-startup-everycarbon-erhaelt-25-millionen-euro-foerderung-von-sprind",
+          "https://www.sprind.org/en/actions/challenges/biomanufacturing/everycarbon"
+        ],
+        "value": "€2.5M from SPRIND's Circular Biomanufacturing Challenge (October 2025)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://www.tuhh.de/tuhh/en/research-and-transfer/research-news/2025-10-23-tuhh-startup-everycarbon-erhaelt-25-millionen-euro-foerderung-von-sprind"
+        ],
+        "value": "6"
+      }
+    },
+    "idea": "Uses microbes to turn organic waste into the building block for high-performance plastics, so tough industrial materials no longer need oil.",
+    "industry": "Materials",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r1",
+    "lesson": "Replace one ingredient in an existing industrial recipe instead of the whole recipe; adoption is far easier.",
+    "name": "EveryCarbon",
+    "not_startup_reason": null,
+    "overall": 7.5,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: grant and programme wins",
+        "reason": "No customers yet; a six-person team moving from lab to pilot production.",
+        "score": null,
+        "source": "https://tech.eu/2026/09/15/everycarbon-wins-flair-subcontract-to-scale-fossil-independent-materials-production/"
+      },
+      "market": {
+        "reason": "Plastics and polymers are a global industry worth hundreds of billions, but this targets one class of high-performance materials first.",
+        "score": 7,
+        "source": "https://tech.eu/2026/09/15/everycarbon-wins-flair-subcontract-to-scale-fossil-independent-materials-production/"
+      },
+      "tech": {
+        "reason": "University spin-off with its own microbial process; new science that takes years to copy.",
+        "score": 8,
+        "source": "https://www.tuhh.de/tuhh/en/research-and-transfer/research-news/2025-10-23-tuhh-startup-everycarbon-erhaelt-25-millionen-euro-foerderung-von-sprind"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-15",
+        "title": "EveryCarbon wins FLAIR subcontract (Tech.eu)",
+        "url": "https://tech.eu/2026/09/15/everycarbon-wins-flair-subcontract-to-scale-fossil-independent-materials-production/"
+      },
+      {
+        "date": "2025-10-23",
+        "title": "TUHH start-up EveryCarbon receives €2.5 million from SPRIND",
+        "url": "https://www.tuhh.de/tuhh/en/research-and-transfer/research-news/2025-10-23-tuhh-startup-everycarbon-erhaelt-25-millionen-euro-foerderung-von-sprind"
+      },
+      {
+        "date": null,
+        "title": "SPRIND Circular Biomanufacturing Challenge: EveryCarbon",
+        "url": "https://www.sprind.org/en/actions/challenges/biomanufacturing/everycarbon"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Rather than replacing plastic, it replaces the oil-based ingredient inside it, so factories can keep their existing polymer processes.",
+    "website": "https://everycarbon.com",
+    "who_pays": "So far grants and a materials programme subcontract; later, plastics and materials makers would buy the chemical.",
+    "why_now": "Europe is pushing industry off fossil inputs, and Germany's SPRIND agency is paying for exactly this kind of moonshot."
+  },
+  "first_judged_run": "2026-09-16-r1",
+  "first_seen": "2026-09-16",
+  "id": "everycarbon",
+  "industry": "Materials",
+  "last_checked": "2026-09-16",
+  "mentions": [
+    {
+      "date": "2026-09-15",
+      "run": "2026-09-16-r1",
+      "snippet": "Fossil-independent engineered polyester shielding materials for industry and construction.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://tech.eu/2026/09/15/everycarbon-wins-flair-subcontract-to-scale-fossil-independent-materials-production/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Hamburg, Germany, spin-off of Hamburg University of Technology; microbes turn organic waste into a platform chemical for high-performance polymers; founded by Sebastian Beblawy; six employees; €2.5M from SPRIND's Circular Biomanufacturing Challenge, Oct 2025",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "TUHH start-up EveryCarbon receives €2.5 million in funding from SPRIND",
+      "url": "https://www.tuhh.de/tuhh/en/research-and-transfer/research-news/2025-10-23-tuhh-startup-everycarbon-erhaelt-25-millionen-euro-foerderung-von-sprind"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "SPRIND | Circular Biomanufacturing Challenge",
+      "url": "https://www.sprind.org/en/actions/challenges/biomanufacturing/everycarbon"
+    }
+  ],
+  "name": "EveryCarbon",
+  "name_key": "everycarbon",
+  "region": "europe",
+  "research": {
+    "judged_run": "2026-09-16-r1",
+    "pages": 0,
+    "queries_done": [
+      "\"EveryCarbon\" startup United Kingdom"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": null,
+      "market": 7.0,
+      "overall": 7.5,
+      "run": "2026-09-16-r1",
+      "tech": 8.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T15:04:46+00:00",
+  "website": "https://everycarbon.com"
+}

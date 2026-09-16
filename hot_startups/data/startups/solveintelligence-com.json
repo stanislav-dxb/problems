@@ -1,0 +1,188 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United Kingdom",
+  "domain": "solveintelligence.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.siliconrepublic.com/start-ups/solve-intelligence-patent-ai-software-funding",
+          "https://www.crunchbase.com/organization/solve-intelligence"
+        ],
+        "value": "London, United Kingdom, and San Francisco"
+      },
+      "founded": {
+        "confirmed": true,
+        "sources": [
+          "https://www.siliconrepublic.com/start-ups/solve-intelligence-patent-ai-software-funding",
+          "https://www.crunchbase.com/organization/solve-intelligence"
+        ],
+        "value": "2023"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.siliconrepublic.com/start-ups/solve-intelligence-patent-ai-software-funding",
+          "https://vivatech.com/news/top-100-rising-startups-of-2026"
+        ],
+        "value": "Series A to Series B within about a year; on VivaTech's list requiring 40% growth for three years"
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.siliconrepublic.com/start-ups/solve-intelligence-patent-ai-software-funding",
+          "https://techcrunch.com/2025/04/09/microsoft-backs-solve-intelligence-in-12m-series-a-funding/"
+        ],
+        "value": "$55M in total, including a $40M Series B led by Visionaries and a $12M Series A backed by Microsoft"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://www.crunchbase.com/organization/solve-intelligence"
+        ],
+        "value": "11 to 50"
+      }
+    },
+    "idea": "An AI writing tool for patent attorneys that drafts applications, answers patent office objections and searches prior patents, inside a document editor they already know.",
+    "industry": "Legal tech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r1",
+    "lesson": "In a big profession, take the narrowest, most expensive document type first; a niche with high fees beats a broad tool with none.",
+    "name": "Solve Intelligence",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last, curated list criteria",
+        "reason": "Fast funding steps and a 40%-plus growth requirement met, but no revenue figure published.",
+        "score": 7,
+        "source": "https://www.siliconrepublic.com/start-ups/solve-intelligence-patent-ai-software-funding"
+      },
+      "market": {
+        "reason": "Patent work is a multi-billion global profession, but it is one specialty rather than all of law.",
+        "score": 7,
+        "source": "https://www.solveintelligence.com"
+      },
+      "tech": {
+        "reason": "Deep patent-specific workflows and data partnerships, built on rentable models; a strong team could follow in a year or two.",
+        "score": 6,
+        "source": "https://www.solveintelligence.com"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Solve Intelligence raises $40m for AI patent platform (Silicon Republic)",
+        "url": "https://www.siliconrepublic.com/start-ups/solve-intelligence-patent-ai-software-funding"
+      },
+      {
+        "date": "2025-04-09",
+        "title": "Solve Intelligence raises $12M Series A (TechCrunch)",
+        "url": "https://techcrunch.com/2025/04/09/microsoft-backs-solve-intelligence-in-12m-series-a-funding/"
+      },
+      {
+        "date": null,
+        "title": "Solve Intelligence on Y Combinator",
+        "url": "https://www.ycombinator.com/companies/solve-intelligence"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising European Startups 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It picked patents, the most technical and repetitive corner of law, where a good draft has a clear structure that AI can learn and the fees per document are high.",
+    "website": "https://www.solveintelligence.com",
+    "who_pays": "Law firms and corporate patent teams pay per seat; thousands of professionals use it.",
+    "why_now": "Language models can now read technical documents and legal precedent at once, and patent firms bill by the hour on work that is largely pattern."
+  },
+  "first_judged_run": "2026-09-16-r1",
+  "first_seen": "2026-09-16",
+  "id": "solveintelligence-com",
+  "industry": "Legal tech",
+  "last_checked": "2026-09-16",
+  "mentions": [
+    {
+      "date": "2026-03-17",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "London and San Francisco; founded 2023 by Chris and Angus Parsonson; in-browser editor with an AI copilot for drafting and prosecuting patents; Series B led by Visionaries with 20VC, Reuters, Y Combinator; $55M total",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Solve Intelligence raises $40m for AI patent platform",
+      "url": "https://www.siliconrepublic.com/start-ups/solve-intelligence-patent-ai-software-funding"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Solve Intelligence raises fresh $12M to bring AI to IP, patent workflows",
+      "url": "https://techcrunch.com/2025/04/09/microsoft-backs-solve-intelligence-in-12m-series-a-funding/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Solve Intelligence | Y Combinator",
+      "url": "https://www.ycombinator.com/companies/solve-intelligence"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "11-50 employees",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Solve Intelligence - Crunchbase",
+      "url": "https://www.crunchbase.com/organization/solve-intelligence"
+    }
+  ],
+  "name": "Solve Intelligence",
+  "name_key": "solveintelligence",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-solveintelligence-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-09-16-r1",
+    "pages": 2,
+    "queries_done": [
+      "\"Solve Intelligence\" startup United Kingdom"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-solveintelligence-com.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 7.0,
+      "market": 7.0,
+      "overall": 6.7,
+      "run": "2026-09-16-r1",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T15:04:10+00:00",
+  "website": "https://www.solveintelligence.com"
+}

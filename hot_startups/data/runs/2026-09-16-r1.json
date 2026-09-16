@@ -1,0 +1,1101 @@
+{
+  "counts": {
+    "extractions": 13,
+    "feeds_read": 30,
+    "judged": 20,
+    "pages": 40,
+    "searches": 58,
+    "synthesis": 3
+  },
+  "failures": [
+    {
+      "at": "2026-09-16T14:45:45+00:00",
+      "error": "http 403",
+      "url": "https://e27.co/feed/",
+      "what": "feed"
+    },
+    {
+      "at": "2026-09-16T14:58:35+00:00",
+      "error": "http 403",
+      "url": "https://sifted.eu/articles/exclusive-zero-10-3m-seed-round/",
+      "what": "article (direct)"
+    }
+  ],
+  "finished": "2026-09-16T15:07:42+00:00",
+  "first_run": true,
+  "id": "2026-09-16-r1",
+  "judged_ids": [
+    "jackandjill-ai",
+    "aqemia-com",
+    "ontop",
+    "tarabut",
+    "buupass",
+    "zero",
+    "arbio-com",
+    "arcads-ai",
+    "artificial-io",
+    "maven-robotics",
+    "kepler",
+    "bumame",
+    "aikido-dev",
+    "insurely-com",
+    "solveintelligence-com",
+    "etfbook",
+    "thatch",
+    "everycarbon",
+    "stream-co",
+    "finom-co"
+  ],
+  "limits": {
+    "pages_per_week": 40,
+    "run_minutes": 90,
+    "searches_per_week": 60,
+    "startups_judged_per_week": 20
+  },
+  "log": [
+    "2026-09-16T14:45:26+00:00 phase -> feeds",
+    "2026-09-16T14:46:04+00:00 feeds: 30 read, 556 new entries",
+    "2026-09-16T14:50:11+00:00 phase -> discovery",
+    "2026-09-16T14:53:30+00:00 phase -> research",
+    "2026-09-16T15:05:51+00:00 phase -> struggling",
+    "2026-09-16T15:07:01+00:00 phase -> synthesis"
+  ],
+  "minutes": 22.7,
+  "new_ids": [
+    "jackandjill-ai",
+    "aqemia-com",
+    "ontop",
+    "tarabut",
+    "buupass",
+    "zero",
+    "arbio-com",
+    "arcads-ai",
+    "artificial-io",
+    "maven-robotics",
+    "kepler",
+    "bumame",
+    "aikido-dev",
+    "insurely-com",
+    "solveintelligence-com",
+    "etfbook",
+    "thatch",
+    "everycarbon",
+    "stream-co",
+    "finom-co"
+  ],
+  "next_ticket": 96,
+  "number": 1,
+  "phase": "done",
+  "phase_state": {
+    "discovery": {
+      "asia": {
+        "issued": 6
+      },
+      "europe": {
+        "issued": 6
+      },
+      "latin_america": {
+        "issued": 2
+      },
+      "mea": {
+        "issued": 2
+      },
+      "north_america": {
+        "issued": 7
+      },
+      "other": {
+        "issued": 1
+      }
+    },
+    "feeds": {
+      "batches": 12,
+      "fetched": true,
+      "total_entries": 556
+    },
+    "lists": {
+      "https://vivatech.com/news/top-100-rising-startups-of-2026": "read"
+    },
+    "research": {
+      "refresh_ids": [],
+      "refresh_selected": true
+    },
+    "struggling": {
+      "issued": 6,
+      "items": [
+        {
+          "country": "United States",
+          "name": "Router Protocol",
+          "sector": "Crypto infrastructure",
+          "source_url": "https://www.crowdfundinsider.com/2026/09/307275-coinbase-ventures-incubated-router-protocol-to-wind-down-operations/",
+          "what": "shut_down",
+          "why": "Four years of building bridges between blockchains, but the business could never sustain itself and it is winding down by the end of September."
+        },
+        {
+          "country": "Hong Kong",
+          "name": "CoinEx",
+          "sector": "Crypto exchange",
+          "source_url": "https://www.cryptotimes.io/2026/09/15/coinex-announces-shutdown-after-9-years-withdrawals-open-until-december-22-2026/",
+          "what": "shut_down",
+          "why": "After nine years, a long crypto downturn and rising compliance costs made the exchange unprofitable; the founder chose to close rather than sell."
+        },
+        {
+          "country": "Brazil",
+          "name": "Trela",
+          "sector": "Food delivery",
+          "source_url": "https://samais.com.br/publicacoes/falta-de-capital-leva-startup-trela-a-encerrar-operacoes-apos-cinco-anos",
+          "what": "shut_down",
+          "why": "A pandemic-born delivery service that never found capital to keep going once the pandemic demand faded."
+        },
+        {
+          "country": "Singapore",
+          "name": "AscendEX",
+          "sector": "Crypto exchange",
+          "source_url": "https://www.tradingview.com/news/panews:521816562acdf:0/",
+          "what": "shut_down",
+          "why": "Failed to obtain an EU licence under the new MiCA rules and stopped trading; regulation, not customers, ended it."
+        },
+        {
+          "country": "Germany",
+          "name": "Quandoo",
+          "sector": "Restaurant booking",
+          "source_url": "https://www.deutsche-startups.de/2026/01/21/startup-pleiten-2025/",
+          "what": "shut_down",
+          "why": "A scale-up that expanded across countries for years without reaching stable revenue, and ran out of road when funding tightened."
+        }
+      ],
+      "results": [
+        {
+          "query": "startup winds down operations September 2026",
+          "snippet": "Cross-chain interoperability project; four years building bridges and messaging tools; closing by 30 Sept 2026; orderly wind-down after concluding the business could not be sustained",
+          "title": "Coinbase Ventures Incubated Router Protocol To Wind Down Operations",
+          "url": "https://www.crowdfundinsider.com/2026/09/307275-coinbase-ventures-incubated-router-protocol-to-wind-down-operations/"
+        },
+        {
+          "query": "startup winds down operations September 2026",
+          "snippet": "Crypto exchange launched Dec 2017; announced 15 Sept 2026 it will cease exchange operations; withdrawals until 22 Dec 2026",
+          "title": "CoinEx Announces Shutdown After 9 Years",
+          "url": "https://www.cryptotimes.io/2026/09/15/coinex-announces-shutdown-after-9-years-withdrawals-open-until-december-22-2026/"
+        },
+        {
+          "query": "startup winds down operations September 2026",
+          "snippet": "Shutdown services like Sunset, SimpleClosure and Carta Conclusions growing",
+          "title": "The business of winding down startups is booming",
+          "url": "https://pitchbook.com/news/articles/startup-shutdown-services-vc"
+        },
+        {
+          "query": "startup winds down operations September 2026",
+          "snippet": "365 layoff events and 209,032 people affected in 2026 so far",
+          "title": "Startup Failures News | September 2026",
+          "url": "https://blog.mean.ceo/startup-failures-news-september-2026/"
+        },
+        {
+          "query": "Startup Insolvenz September 2026",
+          "snippet": "2025 insolvencies incl. Lilium (flying taxis), Element (insurtech), Zolar (greentech), CustomCells (batteries); also scaleups Quandoo and Native Instruments",
+          "title": "Über 25 millionenschwere Startup-Pleiten",
+          "url": "https://www.deutsche-startups.de/2026/01/21/startup-pleiten-2025/"
+        },
+        {
+          "query": "Startup Insolvenz September 2026",
+          "snippet": "companies burned capital for years, scaled geographically or in product, never reached stable revenue",
+          "title": "Startup-Insolvenzen 2026: Warum auch starke Teams in die Pleite rutschen",
+          "url": "https://www.it-boltwise.de/startup-insolvenzen-2026-warum-auch-starke-teams-in-die-pleite-rutschen.html"
+        },
+        {
+          "query": "Startup Insolvenz September 2026",
+          "snippet": "",
+          "title": "Der Startup-Insolvenz-Ticker",
+          "url": "https://startup-dashboard-deutschland.de/insolvenzen"
+        },
+        {
+          "query": "startup encerra operações setembro de 2026",
+          "snippet": "Trela, Brazilian food delivery startup founded in 2020 during the pandemic, closed for lack of capital",
+          "title": "Após cinco anos, startup de delivery de alimentos encerra as atividades por falta de capital",
+          "url": "https://samais.com.br/publicacoes/falta-de-capital-leva-startup-trela-a-encerrar-operacoes-apos-cinco-anos"
+        },
+        {
+          "query": "startup encerra operações setembro de 2026",
+          "snippet": "a Brazilian crypto fintech with stablecoin accounts, QR payments, cards and tokenised stocks winding down until 31 Dec 2026",
+          "title": "Fintech de criptomoedas encerra operações e obriga clientes a retirar ativos até dezembro",
+          "url": "https://investidoresbrasil.com.br/fintech-criptomoedas-encerra-operacoes/"
+        },
+        {
+          "query": "スタートアップ 事業停止 2026年9月",
+          "snippet": "",
+          "title": "スタートアップ破綻にみる調達減・環境変化の荒波",
+          "url": "https://www.nikkei.com/article/DGXZQOUC26C1J0W4A620C2000000/"
+        },
+        {
+          "query": "スタートアップ 事業停止 2026年9月",
+          "snippet": "no shutdowns; M&A only",
+          "title": "スタートアップM&Aニュース（2026.09.07-09.11）",
+          "url": "https://www.forstartups.com/news/ma-news-20260914"
+        },
+        {
+          "query": "初创公司 倒闭 停止运营 2026年9月",
+          "snippet": "60+ crypto companies and protocols closed Jan-Jul 2026; BitMEX stops 23 Sept; AscendEX stopped trading 1 July after failing to get an EU MiCA licence; BitMart phased shutdown; Odos closed 30 July",
+          "title": "2026年上半年超60家加密公司和项目关停或破产",
+          "url": "https://www.tradingview.com/news/panews:521816562acdf:0/"
+        },
+        {
+          "query": "初创公司 倒闭 停止运营 2026年9月",
+          "snippet": "AI funding extremely split: record rounds for leaders, many small AI startups failing to raise or closing",
+          "title": "2026年AI初创公司生存报告：融资与倒闭数据盘点",
+          "url": "https://aitrendshub.net/h-nd-3654.html"
+        },
+        {
+          "query": "startup ferme ses portes septembre 2026",
+          "snippet": "spot trading ends 29 Sept, closes 22 Dec; cites prolonged crypto decline and rising compliance costs; founder refused to sell",
+          "title": "Coinex ferme ses portes après 9 ans d'activité",
+          "url": "https://news.bitcoin.com/fr/exchanges/coinex-ferme-ses-portes-apres-9-ans-d-activite-et-son-fondateur-refuse-de-la-vendre/"
+        },
+        {
+          "query": "startup ferme ses portes septembre 2026",
+          "snippet": "no market need, running out of money, team conflict, weak business models",
+          "title": "What Actually Kills Startups: The 2026 Shutdown Data",
+          "url": "https://www.foundra.ai/key-reads/startup-shutdown-data-2026-premortem-first-time-founders"
+        }
+      ],
+      "ticket": "done"
+    },
+    "synthesis": {
+      "brief": "done",
+      "brief_result": "Twenty startups joined the list in this first run, led by AQEMIA, a French company that designs new medicines with physics and AI. The strongest newcomers build machines and molecules again: Maven Robotics' warehouse robot, Kepler Aerospace's satellite swarm and EveryCarbon's plastics made from waste. The trend of the week is AI agents that take over a professional's paperwork, from patents and insurance files to hiring and bookkeeping.",
+      "gaps": "done",
+      "gaps_result": [
+        "Jack & Jill put an AI agent on both sides of hiring and Zero replaced the sales CRM. Nobody on the list has built the same two-sided agent for the other big matching markets: finding a doctor, a tradesperson or a tenant.",
+        "AQEMIA and EveryCarbon pair physics and biology with AI to design medicines and plastics. The same recipe is missing for food and fertiliser, where farmers need new molecules just as badly.",
+        "Stream and Thatch reach millions of hourly workers by selling through the employer. No one uses that channel yet for what those workers struggle with next: rent deposits, childcare or legal help.",
+        "Kepler Aerospace and Maven Robotics build hardware for governments and warehouses. No entry brings cheap robots or satellite data to smallholder farms in Asia or Africa, where BuuPass shows the phones are already in everyone's pocket.",
+        "Tarabut and Insurely built consented financial-data pipes for the Gulf and the Nordics. Latin America and Southeast Asia, where Ontop and Bumame operate, still lack that layer, and whoever builds it will own the region's fintech back end."
+      ],
+      "trends": "done",
+      "trends_result": [
+        {
+          "name": "AI does the professional's paperwork",
+          "sentence": "Software agents take over the document-heavy work of a profession, from patents and insurance files to hiring, sales records and bookkeeping.",
+          "startup_ids": [
+            "solveintelligence-com",
+            "artificial-io",
+            "jackandjill-ai",
+            "zero",
+            "finom-co"
+          ]
+        },
+        {
+          "name": "The data pipes under finance",
+          "sentence": "Instead of a consumer app, these companies build the regulated plumbing that lets banks, insurers and employers move money and data.",
+          "startup_ids": [
+            "tarabut",
+            "insurely-com",
+            "etfbook",
+            "ontop"
+          ]
+        },
+        {
+          "name": "Sell to the person who feels the pain, free first",
+          "sentence": "Developers, marketers, sales reps and job seekers get the tool free or cheap, and the company contract follows the usage.",
+          "startup_ids": [
+            "aikido-dev",
+            "arcads-ai",
+            "zero",
+            "jackandjill-ai"
+          ]
+        },
+        {
+          "name": "Machines and molecules are back",
+          "sentence": "Hardware and hard science, from warehouse robots and satellite swarms to drug design and bio-based plastics, are raising the biggest rounds.",
+          "startup_ids": [
+            "maven-robotics",
+            "kepler",
+            "aqemia-com",
+            "everycarbon"
+          ]
+        },
+        {
+          "name": "Reach workers through the employer",
+          "sentence": "The employer signs one contract and thousands of workers get a financial or health product they would never have bought alone.",
+          "startup_ids": [
+            "stream-co",
+            "thatch",
+            "ontop"
+          ]
+        },
+        {
+          "name": "Everyday services digitised in emerging markets",
+          "sentence": "Health check-ups and bus tickets moved onto the phone in Indonesia and Kenya, where the operators, not the apps, are the hard part.",
+          "startup_ids": [
+            "bumame",
+            "buupass"
+          ]
+        }
+      ]
+    }
+  },
+  "started": "2026-09-16T14:45:02+00:00",
+  "tickets": {
+    "t001": {
+      "counted": null,
+      "issued": "2026-09-16T14:45:03+00:00",
+      "key": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+      "status": "done",
+      "submitted": "2026-09-16T14:45:26+00:00",
+      "type": "extract"
+    },
+    "t002": {
+      "counted": "pages",
+      "issued": "2026-09-16T14:46:04+00:00",
+      "key": "feeds-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:47:15+00:00",
+      "type": "extract"
+    },
+    "t003": {
+      "counted": "pages",
+      "issued": "2026-09-16T14:46:04+00:00",
+      "key": "feeds-2",
+      "status": "done",
+      "submitted": "2026-09-16T14:47:15+00:00",
+      "type": "extract"
+    },
+    "t004": {
+      "counted": "pages",
+      "issued": "2026-09-16T14:46:04+00:00",
+      "key": "feeds-3",
+      "status": "done",
+      "submitted": "2026-09-16T14:47:15+00:00",
+      "type": "extract"
+    },
+    "t005": {
+      "counted": "pages",
+      "issued": "2026-09-16T14:46:04+00:00",
+      "key": "feeds-4",
+      "status": "done",
+      "submitted": "2026-09-16T14:48:18+00:00",
+      "type": "extract"
+    },
+    "t006": {
+      "counted": "pages",
+      "issued": "2026-09-16T14:46:04+00:00",
+      "key": "feeds-5",
+      "status": "done",
+      "submitted": "2026-09-16T14:48:18+00:00",
+      "type": "extract"
+    },
+    "t007": {
+      "counted": "pages",
+      "issued": "2026-09-16T14:46:04+00:00",
+      "key": "feeds-6",
+      "status": "done",
+      "submitted": "2026-09-16T14:48:18+00:00",
+      "type": "extract"
+    },
+    "t008": {
+      "counted": "pages",
+      "issued": "2026-09-16T14:48:19+00:00",
+      "key": "feeds-7",
+      "status": "done",
+      "submitted": "2026-09-16T14:50:10+00:00",
+      "type": "extract"
+    },
+    "t009": {
+      "counted": "pages",
+      "issued": "2026-09-16T14:48:19+00:00",
+      "key": "feeds-8",
+      "status": "done",
+      "submitted": "2026-09-16T14:50:11+00:00",
+      "type": "extract"
+    },
+    "t010": {
+      "counted": "pages",
+      "issued": "2026-09-16T14:48:19+00:00",
+      "key": "feeds-9",
+      "status": "done",
+      "submitted": "2026-09-16T14:50:11+00:00",
+      "type": "extract"
+    },
+    "t011": {
+      "counted": "pages",
+      "issued": "2026-09-16T14:48:19+00:00",
+      "key": "feeds-10",
+      "status": "done",
+      "submitted": "2026-09-16T14:50:11+00:00",
+      "type": "extract"
+    },
+    "t012": {
+      "counted": "pages",
+      "issued": "2026-09-16T14:48:19+00:00",
+      "key": "feeds-11",
+      "status": "done",
+      "submitted": "2026-09-16T14:50:11+00:00",
+      "type": "extract"
+    },
+    "t013": {
+      "counted": "pages",
+      "issued": "2026-09-16T14:48:19+00:00",
+      "key": "feeds-12",
+      "status": "done",
+      "submitted": "2026-09-16T14:50:11+00:00",
+      "type": "extract"
+    },
+    "t014": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:50:11+00:00",
+      "key": "discover-north_america-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:51:22+00:00",
+      "type": "search"
+    },
+    "t015": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:50:11+00:00",
+      "key": "discover-north_america-2",
+      "status": "done",
+      "submitted": "2026-09-16T14:51:22+00:00",
+      "type": "search"
+    },
+    "t016": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:50:11+00:00",
+      "key": "discover-north_america-3",
+      "status": "done",
+      "submitted": "2026-09-16T14:51:22+00:00",
+      "type": "search"
+    },
+    "t017": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:50:11+00:00",
+      "key": "discover-north_america-4",
+      "status": "done",
+      "submitted": "2026-09-16T14:51:22+00:00",
+      "type": "search"
+    },
+    "t018": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:50:11+00:00",
+      "key": "discover-north_america-5",
+      "status": "done",
+      "submitted": "2026-09-16T14:51:22+00:00",
+      "type": "search"
+    },
+    "t019": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:50:11+00:00",
+      "key": "discover-north_america-6",
+      "status": "done",
+      "submitted": "2026-09-16T14:51:22+00:00",
+      "type": "search"
+    },
+    "t020": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:50:11+00:00",
+      "key": "discover-north_america-7",
+      "status": "done",
+      "submitted": "2026-09-16T14:51:22+00:00",
+      "type": "search"
+    },
+    "t021": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:50:11+00:00",
+      "key": "discover-europe-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:51:23+00:00",
+      "type": "search"
+    },
+    "t022": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:51:23+00:00",
+      "key": "discover-europe-2",
+      "status": "done",
+      "submitted": "2026-09-16T14:52:23+00:00",
+      "type": "search"
+    },
+    "t023": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:51:23+00:00",
+      "key": "discover-europe-3",
+      "status": "done",
+      "submitted": "2026-09-16T14:52:23+00:00",
+      "type": "search"
+    },
+    "t024": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:51:23+00:00",
+      "key": "discover-europe-4",
+      "status": "done",
+      "submitted": "2026-09-16T14:52:23+00:00",
+      "type": "search"
+    },
+    "t025": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:51:23+00:00",
+      "key": "discover-europe-5",
+      "status": "done",
+      "submitted": "2026-09-16T14:52:23+00:00",
+      "type": "search"
+    },
+    "t026": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:51:23+00:00",
+      "key": "discover-europe-6",
+      "status": "done",
+      "submitted": "2026-09-16T14:52:23+00:00",
+      "type": "search"
+    },
+    "t027": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:51:23+00:00",
+      "key": "discover-asia-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:52:23+00:00",
+      "type": "search"
+    },
+    "t028": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:51:23+00:00",
+      "key": "discover-asia-2",
+      "status": "done",
+      "submitted": "2026-09-16T14:52:24+00:00",
+      "type": "search"
+    },
+    "t029": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:51:23+00:00",
+      "key": "discover-asia-3",
+      "status": "done",
+      "submitted": "2026-09-16T14:52:24+00:00",
+      "type": "search"
+    },
+    "t030": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:52:24+00:00",
+      "key": "discover-asia-4",
+      "status": "done",
+      "submitted": "2026-09-16T14:53:29+00:00",
+      "type": "search"
+    },
+    "t031": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:52:24+00:00",
+      "key": "discover-asia-5",
+      "status": "done",
+      "submitted": "2026-09-16T14:53:29+00:00",
+      "type": "search"
+    },
+    "t032": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:52:24+00:00",
+      "key": "discover-asia-6",
+      "status": "done",
+      "submitted": "2026-09-16T14:53:29+00:00",
+      "type": "search"
+    },
+    "t033": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:52:24+00:00",
+      "key": "discover-latin_america-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:53:29+00:00",
+      "type": "search"
+    },
+    "t034": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:52:24+00:00",
+      "key": "discover-latin_america-2",
+      "status": "done",
+      "submitted": "2026-09-16T14:53:30+00:00",
+      "type": "search"
+    },
+    "t035": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:52:24+00:00",
+      "key": "discover-mea-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:53:30+00:00",
+      "type": "search"
+    },
+    "t036": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:52:24+00:00",
+      "key": "discover-mea-2",
+      "status": "done",
+      "submitted": "2026-09-16T14:53:30+00:00",
+      "type": "search"
+    },
+    "t037": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:52:24+00:00",
+      "key": "discover-other-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:53:30+00:00",
+      "type": "search"
+    },
+    "t038": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:53:30+00:00",
+      "key": "research-jackandjill-ai-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:54:45+00:00",
+      "type": "research_search"
+    },
+    "t039": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:53:30+00:00",
+      "key": "research-aikido-dev-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:54:45+00:00",
+      "type": "research_search"
+    },
+    "t040": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:53:30+00:00",
+      "key": "research-aqemia-com-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:54:45+00:00",
+      "type": "research_search"
+    },
+    "t041": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:53:30+00:00",
+      "key": "research-arbio-com-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:54:45+00:00",
+      "type": "research_search"
+    },
+    "t042": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:53:30+00:00",
+      "key": "research-arcads-ai-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:54:45+00:00",
+      "type": "research_search"
+    },
+    "t043": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:53:30+00:00",
+      "key": "research-artificial-io-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:54:46+00:00",
+      "type": "research_search"
+    },
+    "t044": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:54:46+00:00",
+      "key": "research-jackandjill-ai-2",
+      "status": "done",
+      "submitted": "2026-09-16T14:55:31+00:00",
+      "type": "research_search"
+    },
+    "t045": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:54:46+00:00",
+      "key": "research-artificial-io-2",
+      "status": "done",
+      "submitted": "2026-09-16T14:55:31+00:00",
+      "type": "research_search"
+    },
+    "t046": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:54:46+00:00",
+      "key": "research-aikido-dev-2",
+      "status": "done",
+      "submitted": "2026-09-16T14:55:31+00:00",
+      "type": "research_search"
+    },
+    "t047": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:54:46+00:00",
+      "key": "research-aqemia-com-2",
+      "status": "done",
+      "submitted": "2026-09-16T14:55:31+00:00",
+      "type": "research_search"
+    },
+    "t048": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:54:46+00:00",
+      "key": "research-arbio-com-2",
+      "status": "done",
+      "submitted": "2026-09-16T14:55:31+00:00",
+      "type": "research_search"
+    },
+    "t049": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:54:46+00:00",
+      "key": "research-arcads-ai-2",
+      "status": "done",
+      "submitted": "2026-09-16T14:55:31+00:00",
+      "type": "research_search"
+    },
+    "t050": {
+      "counted": "judged",
+      "issued": "2026-09-16T14:55:34+00:00",
+      "key": "judge-jackandjill-ai",
+      "status": "done",
+      "submitted": "2026-09-16T14:57:06+00:00",
+      "type": "judge"
+    },
+    "t051": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:55:48+00:00",
+      "key": "research-insurely-com-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:57:06+00:00",
+      "type": "research_search"
+    },
+    "t052": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:55:48+00:00",
+      "key": "research-stream-co-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:57:07+00:00",
+      "type": "research_search"
+    },
+    "t053": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:55:48+00:00",
+      "key": "research-finom-co-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:57:07+00:00",
+      "type": "research_search"
+    },
+    "t054": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:55:48+00:00",
+      "key": "research-solveintelligence-com-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:57:07+00:00",
+      "type": "research_search"
+    },
+    "t055": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:55:48+00:00",
+      "key": "research-cusp-ai-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:57:07+00:00",
+      "type": "research_search"
+    },
+    "t056": {
+      "counted": "judged",
+      "issued": "2026-09-16T14:57:07+00:00",
+      "key": "judge-aqemia-com",
+      "status": "done",
+      "submitted": "2026-09-16T14:58:30+00:00",
+      "type": "judge"
+    },
+    "t057": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:57:23+00:00",
+      "key": "research-zero-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:58:31+00:00",
+      "type": "research_search"
+    },
+    "t058": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:57:23+00:00",
+      "key": "research-ontop-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:58:31+00:00",
+      "type": "research_search"
+    },
+    "t059": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:57:23+00:00",
+      "key": "research-maven-robotics-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:58:31+00:00",
+      "type": "research_search"
+    },
+    "t060": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:57:23+00:00",
+      "key": "research-jottoo-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:58:31+00:00",
+      "type": "research_search"
+    },
+    "t061": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:57:23+00:00",
+      "key": "research-etfbook-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:58:31+00:00",
+      "type": "research_search"
+    },
+    "t062": {
+      "counted": "judged",
+      "issued": "2026-09-16T14:58:33+00:00",
+      "key": "judge-ontop",
+      "status": "done",
+      "submitted": "2026-09-16T14:59:41+00:00",
+      "type": "judge"
+    },
+    "t063": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:58:36+00:00",
+      "key": "research-thatch-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:59:41+00:00",
+      "type": "research_search"
+    },
+    "t064": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:58:36+00:00",
+      "key": "research-tarabut-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:59:41+00:00",
+      "type": "research_search"
+    },
+    "t065": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:58:36+00:00",
+      "key": "research-kepler-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:59:41+00:00",
+      "type": "research_search"
+    },
+    "t066": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:58:36+00:00",
+      "key": "research-bumame-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:59:42+00:00",
+      "type": "research_search"
+    },
+    "t067": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:58:36+00:00",
+      "key": "research-buupass-1",
+      "status": "done",
+      "submitted": "2026-09-16T14:59:42+00:00",
+      "type": "research_search"
+    },
+    "t068": {
+      "counted": "judged",
+      "issued": "2026-09-16T14:59:42+00:00",
+      "key": "judge-tarabut",
+      "status": "done",
+      "submitted": "2026-09-16T15:00:32+00:00",
+      "type": "judge"
+    },
+    "t069": {
+      "counted": "searches",
+      "issued": "2026-09-16T14:59:42+00:00",
+      "key": "research-everycarbon-1",
+      "status": "done",
+      "submitted": "2026-09-16T15:00:32+00:00",
+      "type": "research_search"
+    },
+    "t070": {
+      "counted": "judged",
+      "issued": "2026-09-16T15:00:32+00:00",
+      "key": "judge-buupass",
+      "status": "done",
+      "submitted": "2026-09-16T15:01:36+00:00",
+      "type": "judge"
+    },
+    "t071": {
+      "counted": "judged",
+      "issued": "2026-09-16T15:00:32+00:00",
+      "key": "judge-zero",
+      "status": "done",
+      "submitted": "2026-09-16T15:01:36+00:00",
+      "type": "judge"
+    },
+    "t072": {
+      "counted": "judged",
+      "issued": "2026-09-16T15:00:32+00:00",
+      "key": "judge-arbio-com",
+      "status": "done",
+      "submitted": "2026-09-16T15:01:37+00:00",
+      "type": "judge"
+    },
+    "t073": {
+      "counted": "judged",
+      "issued": "2026-09-16T15:01:37+00:00",
+      "key": "judge-arcads-ai",
+      "status": "done",
+      "submitted": "2026-09-16T15:02:28+00:00",
+      "type": "judge"
+    },
+    "t074": {
+      "counted": "judged",
+      "issued": "2026-09-16T15:01:37+00:00",
+      "key": "judge-artificial-io",
+      "status": "done",
+      "submitted": "2026-09-16T15:02:28+00:00",
+      "type": "judge"
+    },
+    "t075": {
+      "counted": "judged",
+      "issued": "2026-09-16T15:01:37+00:00",
+      "key": "judge-maven-robotics",
+      "status": "done",
+      "submitted": "2026-09-16T15:02:29+00:00",
+      "type": "judge"
+    },
+    "t076": {
+      "counted": "judged",
+      "issued": "2026-09-16T15:02:29+00:00",
+      "key": "judge-kepler",
+      "status": "done",
+      "submitted": "2026-09-16T15:03:20+00:00",
+      "type": "judge"
+    },
+    "t077": {
+      "counted": "judged",
+      "issued": "2026-09-16T15:02:29+00:00",
+      "key": "judge-bumame",
+      "status": "done",
+      "submitted": "2026-09-16T15:03:20+00:00",
+      "type": "judge"
+    },
+    "t078": {
+      "counted": "judged",
+      "issued": "2026-09-16T15:02:29+00:00",
+      "key": "judge-aikido-dev",
+      "status": "done",
+      "submitted": "2026-09-16T15:03:21+00:00",
+      "type": "judge"
+    },
+    "t079": {
+      "counted": "judged",
+      "issued": "2026-09-16T15:03:21+00:00",
+      "key": "judge-insurely-com",
+      "status": "done",
+      "submitted": "2026-09-16T15:04:10+00:00",
+      "type": "judge"
+    },
+    "t080": {
+      "counted": "judged",
+      "issued": "2026-09-16T15:03:21+00:00",
+      "key": "judge-solveintelligence-com",
+      "status": "done",
+      "submitted": "2026-09-16T15:04:10+00:00",
+      "type": "judge"
+    },
+    "t081": {
+      "counted": "judged",
+      "issued": "2026-09-16T15:03:21+00:00",
+      "key": "judge-etfbook",
+      "status": "done",
+      "submitted": "2026-09-16T15:04:10+00:00",
+      "type": "judge"
+    },
+    "t082": {
+      "counted": "judged",
+      "issued": "2026-09-16T15:04:10+00:00",
+      "key": "judge-thatch",
+      "status": "done",
+      "submitted": "2026-09-16T15:04:46+00:00",
+      "type": "judge"
+    },
+    "t083": {
+      "counted": "judged",
+      "issued": "2026-09-16T15:04:10+00:00",
+      "key": "judge-everycarbon",
+      "status": "done",
+      "submitted": "2026-09-16T15:04:46+00:00",
+      "type": "judge"
+    },
+    "t084": {
+      "counted": "judged",
+      "issued": "2026-09-16T15:04:46+00:00",
+      "key": "judge-stream-co",
+      "status": "done",
+      "submitted": "2026-09-16T15:05:11+00:00",
+      "type": "judge"
+    },
+    "t085": {
+      "counted": "judged",
+      "issued": "2026-09-16T15:05:12+00:00",
+      "key": "judge-finom-co",
+      "status": "done",
+      "submitted": "2026-09-16T15:05:51+00:00",
+      "type": "judge"
+    },
+    "t086": {
+      "counted": "searches",
+      "issued": "2026-09-16T15:05:51+00:00",
+      "key": "struggling-1",
+      "status": "done",
+      "submitted": "2026-09-16T15:06:32+00:00",
+      "type": "search"
+    },
+    "t087": {
+      "counted": "searches",
+      "issued": "2026-09-16T15:05:51+00:00",
+      "key": "struggling-2",
+      "status": "done",
+      "submitted": "2026-09-16T15:06:33+00:00",
+      "type": "search"
+    },
+    "t088": {
+      "counted": "searches",
+      "issued": "2026-09-16T15:05:51+00:00",
+      "key": "struggling-3",
+      "status": "done",
+      "submitted": "2026-09-16T15:06:33+00:00",
+      "type": "search"
+    },
+    "t089": {
+      "counted": "searches",
+      "issued": "2026-09-16T15:05:51+00:00",
+      "key": "struggling-4",
+      "status": "done",
+      "submitted": "2026-09-16T15:06:33+00:00",
+      "type": "search"
+    },
+    "t090": {
+      "counted": "searches",
+      "issued": "2026-09-16T15:05:51+00:00",
+      "key": "struggling-5",
+      "status": "done",
+      "submitted": "2026-09-16T15:06:33+00:00",
+      "type": "search"
+    },
+    "t091": {
+      "counted": "searches",
+      "issued": "2026-09-16T15:05:51+00:00",
+      "key": "struggling-6",
+      "status": "done",
+      "submitted": "2026-09-16T15:06:33+00:00",
+      "type": "search"
+    },
+    "t092": {
+      "counted": null,
+      "issued": "2026-09-16T15:06:33+00:00",
+      "key": "struggling-summary",
+      "status": "done",
+      "submitted": "2026-09-16T15:07:00+00:00",
+      "type": "struggling"
+    },
+    "t093": {
+      "counted": null,
+      "issued": "2026-09-16T15:07:01+00:00",
+      "key": "synthesis-trends",
+      "status": "done",
+      "submitted": "2026-09-16T15:07:41+00:00",
+      "type": "trends"
+    },
+    "t094": {
+      "counted": null,
+      "issued": "2026-09-16T15:07:42+00:00",
+      "key": "synthesis-gaps",
+      "status": "done",
+      "submitted": "2026-09-16T15:07:42+00:00",
+      "type": "gaps"
+    },
+    "t095": {
+      "counted": null,
+      "issued": "2026-09-16T15:07:42+00:00",
+      "key": "synthesis-brief",
+      "status": "done",
+      "submitted": "2026-09-16T15:07:42+00:00",
+      "type": "brief"
+    }
+  },
+  "time_up": false,
+  "unread_sites": [],
+  "updated": "2026-09-16T15:07:42+00:00",
+  "week_of": "2026-09-14"
+}

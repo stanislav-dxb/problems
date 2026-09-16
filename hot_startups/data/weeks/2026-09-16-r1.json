@@ -1,0 +1,191 @@
+{
+  "brief": "Twenty startups joined the list in this first run, led by AQEMIA, a French company that designs new medicines with physics and AI. The strongest newcomers build machines and molecules again: Maven Robotics' warehouse robot, Kepler Aerospace's satellite swarm and EveryCarbon's plastics made from waste. The trend of the week is AI agents that take over a professional's paperwork, from patents and insurance files to hiring and bookkeeping.",
+  "counts": {
+    "extractions": 13,
+    "feeds_read": 30,
+    "judged": 20,
+    "pages": 40,
+    "searches": 58,
+    "synthesis": 3
+  },
+  "failures": 2,
+  "feeds_read": 30,
+  "gaps": [
+    "Jack & Jill put an AI agent on both sides of hiring and Zero replaced the sales CRM. Nobody on the list has built the same two-sided agent for the other big matching markets: finding a doctor, a tradesperson or a tenant.",
+    "AQEMIA and EveryCarbon pair physics and biology with AI to design medicines and plastics. The same recipe is missing for food and fertiliser, where farmers need new molecules just as badly.",
+    "Stream and Thatch reach millions of hourly workers by selling through the employer. No one uses that channel yet for what those workers struggle with next: rent deposits, childcare or legal help.",
+    "Kepler Aerospace and Maven Robotics build hardware for governments and warehouses. No entry brings cheap robots or satellite data to smallholder farms in Asia or Africa, where BuuPass shows the phones are already in everyone's pocket.",
+    "Tarabut and Insurely built consented financial-data pipes for the Gulf and the Nordics. Latin America and Southeast Asia, where Ontop and Bumame operate, still lack that layer, and whoever builds it will own the region's fintech back end."
+  ],
+  "generated": "2026-09-16T15:07:42+00:00",
+  "last_success": "2026-09-16",
+  "limits": {
+    "pages_per_week": 40,
+    "run_minutes": 90,
+    "searches_per_week": 60,
+    "startups_judged_per_week": 20
+  },
+  "minutes": 22.7,
+  "mix": {
+    "asia": 2,
+    "europe": 13,
+    "latin_america": 1,
+    "mea": 2,
+    "north_america": 2
+  },
+  "new_ids": [
+    "aqemia-com",
+    "maven-robotics",
+    "aikido-dev",
+    "jackandjill-ai",
+    "everycarbon",
+    "kepler",
+    "arcads-ai",
+    "thatch",
+    "zero",
+    "arbio-com",
+    "finom-co",
+    "solveintelligence-com",
+    "tarabut",
+    "artificial-io",
+    "insurely-com",
+    "ontop",
+    "stream-co",
+    "etfbook",
+    "buupass",
+    "bumame"
+  ],
+  "number": 1,
+  "run_id": "2026-09-16-r1",
+  "run_line": "58 searches of 60, 40 pages of 40, 20 startups judged of 20, 23 minutes",
+  "struggling": [
+    {
+      "country": "United States",
+      "name": "Router Protocol",
+      "sector": "Crypto infrastructure",
+      "source_url": "https://www.crowdfundinsider.com/2026/09/307275-coinbase-ventures-incubated-router-protocol-to-wind-down-operations/",
+      "what": "shut_down",
+      "why": "Four years of building bridges between blockchains, but the business could never sustain itself and it is winding down by the end of September."
+    },
+    {
+      "country": "Hong Kong",
+      "name": "CoinEx",
+      "sector": "Crypto exchange",
+      "source_url": "https://www.cryptotimes.io/2026/09/15/coinex-announces-shutdown-after-9-years-withdrawals-open-until-december-22-2026/",
+      "what": "shut_down",
+      "why": "After nine years, a long crypto downturn and rising compliance costs made the exchange unprofitable; the founder chose to close rather than sell."
+    },
+    {
+      "country": "Brazil",
+      "name": "Trela",
+      "sector": "Food delivery",
+      "source_url": "https://samais.com.br/publicacoes/falta-de-capital-leva-startup-trela-a-encerrar-operacoes-apos-cinco-anos",
+      "what": "shut_down",
+      "why": "A pandemic-born delivery service that never found capital to keep going once the pandemic demand faded."
+    },
+    {
+      "country": "Singapore",
+      "name": "AscendEX",
+      "sector": "Crypto exchange",
+      "source_url": "https://www.tradingview.com/news/panews:521816562acdf:0/",
+      "what": "shut_down",
+      "why": "Failed to obtain an EU licence under the new MiCA rules and stopped trading; regulation, not customers, ended it."
+    },
+    {
+      "country": "Germany",
+      "name": "Quandoo",
+      "sector": "Restaurant booking",
+      "source_url": "https://www.deutsche-startups.de/2026/01/21/startup-pleiten-2025/",
+      "what": "shut_down",
+      "why": "A scale-up that expanded across countries for years without reaching stable revenue, and ran out of road when funding tightened."
+    }
+  ],
+  "time_up": false,
+  "title": "Hot Startups",
+  "top_ids": [
+    "aqemia-com",
+    "maven-robotics",
+    "aikido-dev",
+    "jackandjill-ai",
+    "everycarbon",
+    "kepler",
+    "arcads-ai",
+    "thatch",
+    "zero",
+    "arbio-com",
+    "finom-co",
+    "solveintelligence-com",
+    "tarabut",
+    "artificial-io",
+    "insurely-com",
+    "ontop",
+    "stream-co",
+    "etfbook",
+    "buupass",
+    "bumame"
+  ],
+  "total_judged": 20,
+  "total_known": 252,
+  "trends": [
+    {
+      "name": "AI does the professional's paperwork",
+      "sentence": "Software agents take over the document-heavy work of a profession, from patents and insurance files to hiring, sales records and bookkeeping.",
+      "startup_ids": [
+        "solveintelligence-com",
+        "artificial-io",
+        "jackandjill-ai",
+        "zero",
+        "finom-co"
+      ]
+    },
+    {
+      "name": "The data pipes under finance",
+      "sentence": "Instead of a consumer app, these companies build the regulated plumbing that lets banks, insurers and employers move money and data.",
+      "startup_ids": [
+        "tarabut",
+        "insurely-com",
+        "etfbook",
+        "ontop"
+      ]
+    },
+    {
+      "name": "Sell to the person who feels the pain, free first",
+      "sentence": "Developers, marketers, sales reps and job seekers get the tool free or cheap, and the company contract follows the usage.",
+      "startup_ids": [
+        "aikido-dev",
+        "arcads-ai",
+        "zero",
+        "jackandjill-ai"
+      ]
+    },
+    {
+      "name": "Machines and molecules are back",
+      "sentence": "Hardware and hard science, from warehouse robots and satellite swarms to drug design and bio-based plastics, are raising the biggest rounds.",
+      "startup_ids": [
+        "maven-robotics",
+        "kepler",
+        "aqemia-com",
+        "everycarbon"
+      ]
+    },
+    {
+      "name": "Reach workers through the employer",
+      "sentence": "The employer signs one contract and thousands of workers get a financial or health product they would never have bought alone.",
+      "startup_ids": [
+        "stream-co",
+        "thatch",
+        "ontop"
+      ]
+    },
+    {
+      "name": "Everyday services digitised in emerging markets",
+      "sentence": "Health check-ups and bus tickets moved onto the phone in Indonesia and Kenya, where the operators, not the apps, are the hard part.",
+      "startup_ids": [
+        "bumame",
+        "buupass"
+      ]
+    }
+  ],
+  "unread_sites": [],
+  "week_of": "2026-09-14"
+}

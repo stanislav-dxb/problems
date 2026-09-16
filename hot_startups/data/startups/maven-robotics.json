@@ -1,0 +1,168 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": "mavenrobotics.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/",
+          "https://roboticsandautomationnews.com/2026/09/15/maven-robotics-launches-with-100-million-funding-to-scale-general-purpose-industrial-robots/104812/"
+        ],
+        "value": "Santa Clara, California, United States"
+      },
+      "founded": {
+        "confirmed": true,
+        "sources": [
+          "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/",
+          "https://www.globenewswire.com/news-release/2026/09/10/3359782/0/en/maven-robotics-raises-100m-series-a-for-the-world-s-first-general-purpose-robotics-system-for-industrial-work.html"
+        ],
+        "value": "2024"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.mavenrobotics.com"
+        ],
+        "value": "Just launched from stealth; says it works with some of the largest manufacturing and logistics companies, no numbers yet"
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.globenewswire.com/news-release/2026/09/10/3359782/0/en/maven-robotics-raises-100m-series-a-for-the-world-s-first-general-purpose-robotics-system-for-industrial-work.html",
+          "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
+        ],
+        "value": "$100M Series A in September 2026 led by RoboStrategy, with LocalGlobe, Vine Ventures and XTX Ventures"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "A wheeled robot with two arms that works in warehouses and factories, starting with stacking mixed boxes onto pallets, a job humans hate.",
+    "industry": "Robotics",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r1",
+    "lesson": "Pick the ugliest, best-paid job on the warehouse floor and build the machine for that, not the general robot of science fiction.",
+    "name": "Maven Robotics",
+    "not_startup_reason": null,
+    "overall": 8.5,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: $100M first round",
+        "reason": "No deployment numbers published; the company left stealth this month.",
+        "score": null,
+        "source": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
+      },
+      "market": {
+        "reason": "Pallet and tote handling alone is an estimated $80B market, and material handling and assembly go past $1 trillion.",
+        "score": 9,
+        "source": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
+      },
+      "tech": {
+        "reason": "Its own hardware plus physical AI for messy real-world handling; the founder has two decades in autonomous systems.",
+        "score": 8,
+        "source": "https://www.globenewswire.com/news-release/2026/09/10/3359782/0/en/maven-robotics-raises-100m-series-a-for-the-world-s-first-general-purpose-robotics-system-for-industrial-work.html"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-10",
+        "title": "Maven Robotics wants to steal your robot deployment deal (TechCrunch)",
+        "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
+      },
+      {
+        "date": "2026-09-10",
+        "title": "Maven Robotics raises $100M Series A (press release)",
+        "url": "https://www.globenewswire.com/news-release/2026/09/10/3359782/0/en/maven-robotics-raises-100m-series-a-for-the-world-s-first-general-purpose-robotics-system-for-industrial-work.html"
+      },
+      {
+        "date": "2026-09-14",
+        "title": "Maven Robotics Series A (The Bridge, Japanese)",
+        "url": "https://thebridge.jp/2026/09/maven-robotics-series-a-100m-industrial-robotics"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Instead of a humanoid, it is a practical machine: wheels for speed, arms that lift 30 kilos, and a plan to take over existing robot deployment deals with a cheaper, more capable unit.",
+    "website": "https://www.mavenrobotics.com",
+    "who_pays": "Large manufacturing and logistics companies buy or lease the robots.",
+    "why_now": "Physical AI can now handle unpredictable boxes and totes, and warehouses cannot find enough workers."
+  },
+  "first_judged_run": "2026-09-16-r1",
+  "first_seen": "2026-09-16",
+  "id": "maven-robotics",
+  "industry": "Robotics",
+  "last_checked": "2026-09-16",
+  "mentions": [
+    {
+      "date": "2026-09-14",
+      "run": "2026-09-16-r1",
+      "snippet": "Industrial robotics developer; $100M Series A led by RoboStrategy.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://thebridge.jp/2026/09/maven-robotics-series-a-100m-industrial-robotics"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Santa Clara; founded 2024 by brothers Hamza and Khalid Derbas; wheeled two-arm robots, 10 mph, lift 30 kg; mixed-case palletizing and tote handling first ($80B addressable), expanding to assembly; $100M Series A from RoboStrategy, LocalGlobe, Vine Ventures, XTX Ventures",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Maven Robotics wants to steal your robot deployment deal",
+      "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Maven Robotics Raises $100M Series A for the World's First General-Purpose Robotics System for Industrial Work",
+      "url": "https://www.globenewswire.com/news-release/2026/09/10/3359782/0/en/maven-robotics-raises-100m-series-a-for-the-world-s-first-general-purpose-robotics-system-for-industrial-work.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Maven Robotics launches with $100 million funding",
+      "url": "https://roboticsandautomationnews.com/2026/09/15/maven-robotics-launches-with-100-million-funding-to-scale-general-purpose-industrial-robots/104812/"
+    }
+  ],
+  "name": "Maven Robotics",
+  "name_key": "mavenrobotics",
+  "region": "north_america",
+  "research": {
+    "judged_run": "2026-09-16-r1",
+    "pages": 1,
+    "queries_done": [
+      "\"Maven Robotics\" startup United States"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-maven-robotics.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": null,
+      "market": 9.0,
+      "overall": 8.5,
+      "run": "2026-09-16-r1",
+      "tech": 8.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T15:02:29+00:00",
+  "website": "https://www.mavenrobotics.com"
+}

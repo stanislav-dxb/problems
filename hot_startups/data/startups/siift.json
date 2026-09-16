@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "siift",
+  "industry": "AI analytics",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-03",
+      "run": "2026-09-16-r1",
+      "snippet": "Turns AI noise into better business decisions.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.producthunt.com/products/siift"
+    }
+  ],
+  "name": "siift",
+  "name_key": "siift",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:47:15+00:00",
+  "website": null
+}

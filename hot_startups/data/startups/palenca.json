@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Mexico",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "palenca",
+  "industry": "Credit data",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-05-21",
+      "run": "2026-09-16-r1",
+      "snippet": "Payroll and gig-work data that lets lenders reach people credit normally skips; $4M raised.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://contxto.com/en/funding/mexican-startup-palenca-raises-4-million/"
+    }
+  ],
+  "name": "Palenca",
+  "name_key": "palenca",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:50:11+00:00",
+  "website": null
+}

@@ -1,0 +1,69 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United Kingdom",
+  "domain": "cusp.ai",
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "cusp-ai",
+  "industry": "AI for Engineering & Materials",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-03-17",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Cambridge; founded 2024 by Chad Edwards and Max Welling; generative AI that designs new materials on demand for carbon capture and water purification; $450M at a $2.6B valuation with Jeff Bezos and the UK government, July 2026",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "UK government backs British AI startup CuspAI in $450M funding round",
+      "url": "https://invezz.com/news/2026/07/20/uk-government-backs-british-ai-startup-cuspai-in-450m-funding-round/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Series A co-led by NEA and Temasek with NVentures, Samsung Ventures, Hyundai; €25.5M seed a year earlier",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "British startup CuspAI Secures €85 million+ to transform materials discovery with AI",
+      "url": "https://www.eu-startups.com/2025/09/british-startup-cuspai-secures-e85-million-to-transform-materials-discovery-with-ai"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "CuspAI | AI-powered materials discovery",
+      "url": "https://cusp.ai/"
+    }
+  ],
+  "name": "CuspAI",
+  "name_key": "cuspai",
+  "region": null,
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-cusp-ai.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "pages": 2,
+    "queries_done": [
+      "\"CuspAI\" startup United Kingdom"
+    ],
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-cusp-ai.txt"
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:57:23+00:00",
+  "website": "https://www.cusp.ai/"
+}

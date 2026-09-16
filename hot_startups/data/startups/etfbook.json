@@ -1,0 +1,159 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Switzerland",
+  "domain": "etfbook.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "Switzerland",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.startupticker.ch/en/companies/etfbook-squareddata-ag",
+          "https://tech.eu/2026/09/16/etfbook-raises-13m-to-expand-etf-data-and-analytics-globally/"
+        ],
+        "value": "Zurich, Switzerland"
+      },
+      "founded": {
+        "confirmed": true,
+        "sources": [
+          "https://www.startupticker.ch/en/companies/etfbook-squareddata-ag",
+          "https://www.eu-startups.com/2025/02/etfbook-raises-e4-million-to-develop-etf-data-and-analytics-platform/"
+        ],
+        "value": "2020"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://tech.eu/2026/09/16/etfbook-raises-13m-to-expand-etf-data-and-analytics-globally/"
+        ],
+        "value": "Round roughly three times the previous one within 19 months; expanding from Europe to the Americas and Asia-Pacific"
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://tech.eu/2026/09/16/etfbook-raises-13m-to-expand-etf-data-and-analytics-globally/",
+          "https://www.eu-startups.com/2025/02/etfbook-raises-e4-million-to-develop-etf-data-and-analytics-platform/"
+        ],
+        "value": "$13M in September 2026 led by Expedition Growth Capital, after a €4M Series A in February 2025"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://www.startupticker.ch/en/companies/etfbook-squareddata-ag"
+        ],
+        "value": "over 30"
+      }
+    },
+    "idea": "A data service where fund managers, banks and advisers search, compare and analyse every European exchange-traded fund in one place.",
+    "industry": "Financial data",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r1",
+    "lesson": "A focused data product in a fast-growing asset class can take a slice from the incumbents without matching their whole catalogue.",
+    "name": "ETFbook",
+    "not_startup_reason": null,
+    "overall": 5.5,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last",
+        "reason": "No revenue or client growth numbers published this year.",
+        "score": null,
+        "source": "https://tech.eu/2026/09/16/etfbook-raises-13m-to-expand-etf-data-and-analytics-globally/"
+      },
+      "market": {
+        "reason": "Financial data is a huge market, but ETF analytics for institutions is a niche with a few thousand possible buyers.",
+        "score": 6,
+        "source": "https://www.startupticker.ch/en/companies/etfbook-squareddata-ag"
+      },
+      "tech": {
+        "reason": "Solid data engineering and coverage, which a well-funded rival could rebuild in months.",
+        "score": 5,
+        "source": "https://etfbook.com"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-16",
+        "title": "ETFBOOK raises $13M to expand ETF data and analytics globally (Tech.eu)",
+        "url": "https://tech.eu/2026/09/16/etfbook-raises-13m-to-expand-etf-data-and-analytics-globally/"
+      },
+      {
+        "date": null,
+        "title": "ETFbook (SquaredData AG) on Startupticker",
+        "url": "https://www.startupticker.ch/en/companies/etfbook-squareddata-ag"
+      },
+      {
+        "date": "2025-02-01",
+        "title": "ETFbook raises €4 million (EU-Startups)",
+        "url": "https://www.eu-startups.com/2025/02/etfbook-raises-e4-million-to-develop-etf-data-and-analytics-platform/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It chose the ETF corner of the giant financial-data market, where the old giants are expensive and slow, and sells the same data by dashboard or by API.",
+    "website": "https://etfbook.com",
+    "who_pays": "Institutional clients such as fund issuers, banks and asset managers pay subscriptions; over 35 at the last count.",
+    "why_now": "ETFs are the fastest-growing way people invest, and the number of funds has outgrown the tools built for stocks and mutual funds."
+  },
+  "first_judged_run": "2026-09-16-r1",
+  "first_seen": "2026-09-16",
+  "id": "etfbook",
+  "industry": "Financial data",
+  "last_checked": "2026-09-16",
+  "mentions": [
+    {
+      "date": "2026-09-16",
+      "run": "2026-09-16-r1",
+      "snippet": "ETF data and analytics platform expanding to the Americas and Asia; $13M raised.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://tech.eu/2026/09/16/etfbook-raises-13m-to-expand-etf-data-and-analytics-globally/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Zurich; founded 2020 by Pawel Janus and Bartłomiej Igła; B2B data and analytics platform for European ETFs with dashboards and APIs; 30+ people across 10+ countries; 35+ institutional clients at Series A",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "ETFbook (SquaredData AG)",
+      "url": "https://www.startupticker.ch/en/companies/etfbook-squareddata-ag"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "€4M Series A led by BlackFin Capital Partners, Feb 2025",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "ETFbook raises €4 million to develop ETF data and analytics platform",
+      "url": "https://www.eu-startups.com/2025/02/etfbook-raises-e4-million-to-develop-etf-data-and-analytics-platform/"
+    }
+  ],
+  "name": "ETFbook",
+  "name_key": "etfbook",
+  "region": "europe",
+  "research": {
+    "judged_run": "2026-09-16-r1",
+    "pages": 0,
+    "queries_done": [
+      "\"ETFBOOK\" startup Switzerland"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": null,
+      "market": 6.0,
+      "overall": 5.5,
+      "run": "2026-09-16-r1",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T15:04:10+00:00",
+  "website": "https://etfbook.com"
+}

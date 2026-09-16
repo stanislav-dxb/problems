@@ -1,0 +1,207 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "France",
+  "domain": "arcads.ai",
+  "drop_reason": null,
+  "entry": {
+    "country": "France",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.maddyness.com/2025/12/17/ia-arcads-ai-leve-14-millions-deuros-pour-creer-des-pubs-virales-en-quelques-minutes/",
+          "https://www.prnewswire.com/news-releases/arcadsai-raises-16-million-usd-in-seed-funding-to-accelerate-development-in-the-united-states-302644990.html"
+        ],
+        "value": "Paris, France"
+      },
+      "founded": {
+        "confirmed": true,
+        "sources": [
+          "https://www.maddyness.com/2025/12/17/ia-arcads-ai-leve-14-millions-deuros-pour-creer-des-pubs-virales-en-quelques-minutes/",
+          "https://www.prnewswire.com/news-releases/arcadsai-raises-16-million-usd-in-seed-funding-to-accelerate-development-in-the-united-states-302644990.html"
+        ],
+        "value": "2024"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.maddyness.com/2025/12/17/ia-arcads-ai-leve-14-millions-deuros-pour-creer-des-pubs-virales-en-quelques-minutes/",
+          "https://getlatka.com/companies/arcads.ai#funding"
+        ],
+        "value": "$10M yearly recurring revenue within twenty months of launch, later reported at $15M; over 6,000 clients and 100,000 ad assets a month"
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.prnewswire.com/news-releases/arcadsai-raises-16-million-usd-in-seed-funding-to-accelerate-development-in-the-united-states-302644990.html",
+          "https://fr.fashionnetwork.com/news/Arcads-ai-leve-16-millions-de-dollars-pour-ses-videos-promotionnelles-generees-par-ia,1792922.html"
+        ],
+        "value": "$16M seed led by Eurazeo in December 2025"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://www.maddyness.com/2025/12/17/ia-arcads-ai-leve-14-millions-deuros-pour-creer-des-pubs-virales-en-quelques-minutes/"
+        ],
+        "value": "about 7 at the time of the seed round"
+      }
+    },
+    "idea": "Makes video ads that look like influencer clips, with AI actors instead of real people, in 35 languages, in minutes.",
+    "industry": "AI advertising",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r1",
+    "lesson": "Sell the volume the customer already wants to test, not the polish; a tiny team can run a big business when the product is the whole workflow.",
+    "name": "Arcads",
+    "not_startup_reason": null,
+    "overall": 7.3,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Zero to $10M in yearly revenue in twenty months with a handful of people.",
+        "score": 9,
+        "source": "https://www.maddyness.com/2025/12/17/ia-arcads-ai-leve-14-millions-deuros-pour-creer-des-pubs-virales-en-quelques-minutes/"
+      },
+      "market": {
+        "reason": "Every advertiser in the world makes video ads, and the cheap, fast version widens the market to small businesses.",
+        "score": 8,
+        "source": "https://www.prnewswire.com/news-releases/arcadsai-raises-16-million-usd-in-seed-funding-to-accelerate-development-in-the-united-states-302644990.html"
+      },
+      "tech": {
+        "reason": "It runs on video models it licenses from others; the edge is the actor library and the ad workflow, which rivals can copy.",
+        "score": 5,
+        "source": "https://www.arcads.ai/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2025-12-17",
+        "title": "Arcads.ai lève 14 millions d'euros (Maddyness)",
+        "url": "https://www.maddyness.com/2025/12/17/ia-arcads-ai-leve-14-millions-deuros-pour-creer-des-pubs-virales-en-quelques-minutes/"
+      },
+      {
+        "date": "2025-12-17",
+        "title": "Arcads.ai raises $16M seed (press release)",
+        "url": "https://www.prnewswire.com/news-releases/arcadsai-raises-16-million-usd-in-seed-funding-to-accelerate-development-in-the-united-states-302644990.html"
+      },
+      {
+        "date": null,
+        "title": "Arcads revenue 2026 (Latka)",
+        "url": "https://getlatka.com/companies/arcads.ai#funding"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising European Startups 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "A library of more than 1,000 AI actors lets a marketing team test hundreds of ad variants for the price of one real shoot, and a team of about seven reached $10M in yearly revenue.",
+    "website": "https://www.arcads.ai",
+    "who_pays": "Brands and app companies such as Samsung, Nike, Candy Crush and Voodoo pay a subscription.",
+    "why_now": "Video generation became good enough to pass as a phone-shot clip, and performance marketers already test ads by the hundred."
+  },
+  "first_judged_run": "2026-09-16-r1",
+  "first_seen": "2026-09-16",
+  "id": "arcads-ai",
+  "industry": "AI advertising",
+  "last_checked": "2026-09-16",
+  "mentions": [
+    {
+      "date": "2026-03-17",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Founded 2024 by co-CEOs Dylan Fournier and Romain Torres; AI actors make influencer-style video ads in 35 languages; 6,000+ clients; 100,000+ assets per month; team of seven; $10M ARR within twenty months; $16M seed led by Eurazeo",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "IA : Arcads.ai lève 14 millions d'euros pour créer des pubs virales en quelques minutes",
+      "url": "https://www.maddyness.com/2025/12/17/ia-arcads-ai-leve-14-millions-deuros-pour-creer-des-pubs-virales-en-quelques-minutes/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Arcads, startup IA de création de publicité vidéo à 7 M€ d'ARR",
+      "url": "https://thenewsiecle.fr/arcads-ia-creation-publicite-video/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "customers include Candy Crush and Voodoo",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Arcads.ai lève 16 millions de dollars pour ses vidéos promotionnelles générées par IA",
+      "url": "https://fr.fashionnetwork.com/news/Arcads-ai-leve-16-millions-de-dollars-pour-ses-videos-promotionnelles-generees-par-ia,1792922.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Founded 2024 by Dylan Fournier and Romain Torres, previously a marketing agency and a mobile app studio; seed led by Eurazeo with Alpha Intelligence Capital and Sequoia Scout, Dec 2025; 6,000+ clients incl. Samsung, Nike, Adidas; 100,000 assets per month; 35+ languages",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Arcads.ai Raises 16 Million USD in Seed Funding to Accelerate Development in the United States",
+      "url": "https://www.prnewswire.com/news-releases/arcadsai-raises-16-million-usd-in-seed-funding-to-accelerate-development-in-the-united-states-302644990.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "about 4,000 paying customers as of May 2025",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Arcads Revenue 2026: $15M ARR, $16M Raised",
+      "url": "https://getlatka.com/companies/arcads.ai#funding"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Arcads Raises 16m Seed",
+      "url": "https://www.arcads.ai/blog/arcads-raises-16m-seed"
+    }
+  ],
+  "name": "Arcads",
+  "name_key": "arcads",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-arcads-ai.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-09-16-r1",
+    "pages": 2,
+    "queries_done": [
+      "\"Arcads\" startup France",
+      "\"Arcads\" founders funding customers"
+    ],
+    "refresh": false,
+    "searches": 2,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-arcads-ai.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 9.0,
+      "market": 8.0,
+      "overall": 7.3,
+      "run": "2026-09-16-r1",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T15:02:28+00:00",
+  "website": "https://www.arcads.ai/fr"
+}

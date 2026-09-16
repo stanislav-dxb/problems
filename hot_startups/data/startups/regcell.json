@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "regcell",
+  "industry": "Biotech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Emeryville biotech; $44M Series A led by Playground Global.",
+      "source": "startup raises Series A September 2026 United States",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://fundup.ai/recently-funded-startups"
+    }
+  ],
+  "name": "RegCell",
+  "name_key": "regcell",
+  "region": "north_america",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:51:22+00:00",
+  "website": null
+}

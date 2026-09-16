@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Kuwait",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "dawraty",
+  "industry": "Education",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-08",
+      "run": "2026-09-16-r1",
+      "snippet": "Kuwait edtech; $2M seed at a $10M valuation backed by Qatar Development Bank.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "http://wamda.com/2026/09/kuwaits-dawraty-secures-2-million-seed-backed-qatar-development-bank"
+    }
+  ],
+  "name": "Dawraty",
+  "name_key": "dawraty",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:50:11+00:00",
+  "website": null
+}

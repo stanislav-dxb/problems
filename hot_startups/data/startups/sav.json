@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United Arab Emirates",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "sav",
+  "industry": "Consumer fintech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-07",
+      "run": "2026-09-16-r1",
+      "snippet": "Consumer fintech founded 2022; $3.5M pre-Series A.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "http://wamda.com/2026/09/phoenix-venture-partners-leads-3-5-million-round-uae-fintech-sav"
+    }
+  ],
+  "name": "Sav",
+  "name_key": "sav",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:50:11+00:00",
+  "website": null
+}

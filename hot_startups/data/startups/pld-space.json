@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Spain",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "pld-space",
+  "industry": "Space launch",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Small rockets (Miura); Series C extended to €288M.",
+      "source": "startup cierra ronda de inversión septiembre 2026 España",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://forbes.es/economia/1012767/rondas-financiacion-semana-ipronics-pldspace/"
+    }
+  ],
+  "name": "PLD Space",
+  "name_key": "pldspace",
+  "region": "europe",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:52:23+00:00",
+  "website": null
+}

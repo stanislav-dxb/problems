@@ -20,7 +20,7 @@ paused: false
 page:
   title: Hot Startups
   top_n: 50                       # startups shown on the page
-  artifact_url: ""                # filled in after the first publish; the page keeps this address
+  artifact_url: "https://claude.ai/artifact/4LCfMp8xo4YSTknYeRMPD6"                # filled in after the first publish; the page keeps this address
 
 startup_rule:
   max_team_size: 500              # bigger than this is not a startup for our purposes
@@ -29,7 +29,7 @@ discovery:
   share_of_searches: 0.4          # part of the search budget spent on finding new names (the rest researches them)
 
 research:
-  searches_per_startup: 2
+  searches_per_startup: 1
   pages_per_startup: 2
   refresh_after_days: 30          # known startups are re-checked after this many days
   refresh_share: 0.2              # at most this part of the judged budget goes to re-checks

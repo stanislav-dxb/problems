@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "huscarl",
+  "industry": "Insurance AI",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-01",
+      "run": "2026-09-16-r1",
+      "snippet": "AI for companies that self-insure; $5.6M seed led by FRST with Y Combinator.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://contxto.com/en/funding/huscarl-raises-5-6m-to-bring-ai-to-the-growing-self-insurance-market/"
+    }
+  ],
+  "name": "Huscarl",
+  "name_key": "huscarl",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:50:11+00:00",
+  "website": null
+}

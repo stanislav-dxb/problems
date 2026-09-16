@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Chile",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "dataprop",
+  "industry": "Real estate software",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-08-25",
+      "run": "2026-09-16-r1",
+      "snippet": "A collaborative platform to digitise real estate brokerage in Chile.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://contxto.com/en/proptech/dataprop-aims-to-digitize-real-estate-brokerage-in-chile-with-a-collaborative-platform/"
+    }
+  ],
+  "name": "Dataprop",
+  "name_key": "dataprop",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:50:11+00:00",
+  "website": null
+}

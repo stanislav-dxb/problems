@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Saudi Arabia",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "carly",
+  "industry": "Automotive commerce",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-08",
+      "run": "2026-09-16-r1",
+      "snippet": "Digital platform for buying and selling cars in Saudi Arabia; founded 2026.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "http://wamda.com/2026/09/carly-secures-investment-pinnacle-support-phase-growth"
+    }
+  ],
+  "name": "Carly",
+  "name_key": "carly",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:50:11+00:00",
+  "website": null
+}

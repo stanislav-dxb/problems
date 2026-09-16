@@ -1,0 +1,181 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Sweden",
+  "domain": "insurely.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "Sweden",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.finextra.com/newsarticle/40018/open-insurance-startup-insurely-raises-19-million-signs-deal-with-seb",
+          "https://www.insurely.com/press/swedish-insurtech-insurely-secures-19-million-in-series-a-funding-round"
+        ],
+        "value": "Stockholm, Sweden"
+      },
+      "founded": {
+        "confirmed": true,
+        "sources": [
+          "https://www.finextra.com/newsarticle/40018/open-insurance-startup-insurely-raises-19-million-signs-deal-with-seb",
+          "https://www.eu-startups.com/directory/insurely/"
+        ],
+        "value": "2018"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://vivatech.com/news/top-100-rising-startups-of-2026",
+          "https://www.eu-startups.com/directory/insurely/"
+        ],
+        "value": "On VivaTech's 2026 list, which requires €5M+ yearly revenue and 40% growth over three years; clients include Avanza, ICA Försäkring, Lassie, Hedvig and SEB"
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.finextra.com/newsarticle/40018/open-insurance-startup-insurely-raises-19-million-signs-deal-with-seb",
+          "https://fintechnordics.com/7208/fintechsweden/swedish-insurtech-startup-insurely-secures-e8-million-funding/"
+        ],
+        "value": "€19M Series A (2022) plus an €8M convertible (2023) and earlier rounds"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Gives banks, insurers and apps live access to a customer's insurance, pension and savings data, with consent, so switching provider or getting advice takes minutes instead of forms.",
+    "industry": "Open finance data",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r1",
+    "lesson": "Build the plumbing for a rule before the rule arrives; when regulation catches up, you are the default.",
+    "name": "Insurely",
+    "not_startup_reason": null,
+    "overall": 6.3,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: curated list criteria",
+        "reason": "Meets a 40% growth rule for a curated list, but publishes no numbers of its own.",
+        "score": 6,
+        "source": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      "market": {
+        "reason": "Every European bank and insurer will need consented financial data, but it is a business-to-business market with a limited number of buyers.",
+        "score": 7,
+        "source": "https://www.insurely.com"
+      },
+      "tech": {
+        "reason": "Data connections to hundreds of institutions take years to build and are hard to replicate, though not new science.",
+        "score": 6,
+        "source": "https://www.insurely.com"
+      }
+    },
+    "sources": [
+      {
+        "date": "2022-03-09",
+        "title": "Insurely raises €19 million; signs deal with SEB (Finextra)",
+        "url": "https://www.finextra.com/newsarticle/40018/open-insurance-startup-insurely-raises-19-million-signs-deal-with-seb"
+      },
+      {
+        "date": "2023-12-01",
+        "title": "Insurely secures €8 million (Fintech Nordics)",
+        "url": "https://fintechnordics.com/7208/fintechsweden/swedish-insurtech-startup-insurely-secures-e8-million-funding/"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising European Startups 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It did for insurance and pensions what open banking did for bank accounts, starting in a market where no rule forced insurers to open up.",
+    "website": "https://www.insurely.com",
+    "who_pays": "Banks, insurers and fintechs such as Avanza, ICA Försäkring and SEB pay for the data connections.",
+    "why_now": "Europe's open-finance rules are widening from bank accounts to insurance and pensions, and AI advisers need the customer's full financial picture."
+  },
+  "first_judged_run": "2026-09-16-r1",
+  "first_seen": "2026-09-16",
+  "id": "insurely-com",
+  "industry": "Open finance data",
+  "last_checked": "2026-09-16",
+  "mentions": [
+    {
+      "date": "2026-03-17",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Founded Stockholm 2018; open insurance platform gives insurers and banks real-time insurance data to personalise offers; €19M Series A March 2022",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Open insurance startup Insurely raises €19 million; signs deal with SEB",
+      "url": "https://www.finextra.com/newsarticle/40018/open-insurance-startup-insurely-raises-19-million-signs-deal-with-seb"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "€8M convertible note December 2023",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Swedish Insurtech Startup Insurely Secures €8 Million Funding",
+      "url": "https://fintechnordics.com/7208/fintechsweden/swedish-insurtech-startup-insurely-secures-e8-million-funding/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "clients Avanza, ICA Försäkring, Lassie, Hedvig",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Insurely | EU-Startups directory",
+      "url": "https://www.eu-startups.com/directory/insurely/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Swedish insurtech Insurely secures €19 million in Series A",
+      "url": "https://www.insurely.com/press/swedish-insurtech-insurely-secures-19-million-in-series-a-funding-round"
+    }
+  ],
+  "name": "Insurely",
+  "name_key": "insurely",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-insurely-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-09-16-r1",
+    "pages": 2,
+    "queries_done": [
+      "\"Insurely\" startup Sweden"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-insurely-com.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 6.0,
+      "market": 7.0,
+      "overall": 6.3,
+      "run": "2026-09-16-r1",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T15:04:10+00:00",
+  "website": "https://www.insurely.com"
+}

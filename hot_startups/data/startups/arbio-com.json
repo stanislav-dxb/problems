@@ -1,0 +1,202 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Germany",
+  "domain": "arbio.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "Germany",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2025/10/german-proptech-startup-arbio-raises-e31-million-to-build-europes-first-ai-native-platform-for-holiday-rentals/",
+          "https://tech.eu/2025/10/14/arbio-raises-36m-series-a-to-redefine-property-management/"
+        ],
+        "value": "Berlin, Germany"
+      },
+      "founded": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2025/10/german-proptech-startup-arbio-raises-e31-million-to-build-europes-first-ai-native-platform-for-holiday-rentals/",
+          "https://techfundingnews.com/airbnb-for-property-management-arbio-lands-36m-to-reinvent-holiday-rentals-with-ai/"
+        ],
+        "value": "2022"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://techfundingnews.com/airbnb-for-property-management-arbio-lands-36m-to-reinvent-holiday-rentals-with-ai/",
+          "https://www.eu-startups.com/2025/10/german-proptech-startup-arbio-raises-e31-million-to-build-europes-first-ai-native-platform-for-holiday-rentals/"
+        ],
+        "value": "Revenue up tenfold in two years; 1,200+ apartments in 10 cities, 460,000 guests, 30+ acquisitions"
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2025/10/german-proptech-startup-arbio-raises-e31-million-to-build-europes-first-ai-native-platform-for-holiday-rentals/",
+          "https://techfundingnews.com/airbnb-for-property-management-arbio-lands-36m-to-reinvent-holiday-rentals-with-ai/"
+        ],
+        "value": "over €38M, including a €31M Series A led by Eurazeo in October 2025"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://www.eu-startups.com/2025/10/german-proptech-startup-arbio-raises-e31-million-to-build-europes-first-ai-native-platform-for-holiday-rentals/"
+        ],
+        "value": "over 60"
+      }
+    },
+    "idea": "Runs holiday apartments for their owners with an AI operating system that handles pricing, guest messages, cleaning schedules and the accounts.",
+    "industry": "PropTech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r1",
+    "lesson": "Roll up the small operators and put your software underneath them; buying the customer base beats winning it one by one.",
+    "name": "Arbio",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Revenue grew tenfold in two years with hundreds of thousands of guests.",
+        "score": 8,
+        "source": "https://techfundingnews.com/airbnb-for-property-management-arbio-lands-36m-to-reinvent-holiday-rentals-with-ai/"
+      },
+      "market": {
+        "reason": "Holiday rental management is a large industry across Europe, but it is local, labour-heavy and competes with hotels.",
+        "score": 7,
+        "source": "https://www.eu-startups.com/2025/10/german-proptech-startup-arbio-raises-e31-million-to-build-europes-first-ai-native-platform-for-holiday-rentals/"
+      },
+      "tech": {
+        "reason": "An AI operations layer others could build; the acquired portfolio of apartments is the real advantage.",
+        "score": 5,
+        "source": "https://www.arbio.com/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2025-10-14",
+        "title": "Arbio raises €31 million (EU-Startups)",
+        "url": "https://www.eu-startups.com/2025/10/german-proptech-startup-arbio-raises-e31-million-to-build-europes-first-ai-native-platform-for-holiday-rentals/"
+      },
+      {
+        "date": "2025-10-14",
+        "title": "Arbio lands $36M to reinvent holiday rentals with AI (TFN)",
+        "url": "https://techfundingnews.com/airbnb-for-property-management-arbio-lands-36m-to-reinvent-holiday-rentals-with-ai/"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising European Startups 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It buys small, tired property managers and plugs their apartments into its software, growing by acquisition instead of one landlord at a time.",
+    "website": "https://www.arbio.com",
+    "who_pays": "Property owners pay a share of rental income; other managers can use the software portal.",
+    "why_now": "Short-term rentals are a huge fragmented market run by tiny agencies, and AI can now do the messaging and admin they employ people for."
+  },
+  "first_judged_run": "2026-09-16-r1",
+  "first_seen": "2026-09-16",
+  "id": "arbio-com",
+  "industry": "PropTech",
+  "last_checked": "2026-09-16",
+  "mentions": [
+    {
+      "date": "2026-03-17",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Launched 2022 by Constantin Schröder and Paul Bäumler; manages 1,200+ apartments in 10 cities in Germany, Austria, UK; 460,000 guests; 60+ staff; 30+ acquisitions; Series A led by Eurazeo, total over €38M",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "German PropTech startup Arbio raises €31 million to build Europe's first AI-native platform for holiday rentals",
+      "url": "https://www.eu-startups.com/2025/10/german-proptech-startup-arbio-raises-e31-million-to-build-europes-first-ai-native-platform-for-holiday-rentals/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Arbio raises $36M Series A to redefine property management",
+      "url": "https://tech.eu/2025/10/14/arbio-raises-36m-series-a-to-redefine-property-management/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Arbio Group | About Us",
+      "url": "https://www.arbio.com/eng/about-us"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Launched 2022 by Constantin Schröder and Paul Bäumler; $36M Series A led by Eurazeo, total over $45M; 1,000+ properties in Germany and Austria; 30+ acquisitions; revenue up tenfold in two years",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Airbnb for property management: Arbio lands $36M to reinvent holiday rentals with AI",
+      "url": "https://techfundingnews.com/airbnb-for-property-management-arbio-lands-36m-to-reinvent-holiday-rentals-with-ai/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Arbio secures $36M in funding to expand rental management platform",
+      "url": "https://www.phocuswire.com/arbio-series-a-funding-vacation-rental-tech"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Arbio - Crunchbase",
+      "url": "https://www.crunchbase.com/organization/arbio-group"
+    }
+  ],
+  "name": "Arbio",
+  "name_key": "arbio",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-arbio-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-09-16-r1",
+    "pages": 2,
+    "queries_done": [
+      "\"Arbio\" startup Germany",
+      "\"Arbio\" founders funding customers"
+    ],
+    "refresh": false,
+    "searches": 2,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-arbio-com.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 8.0,
+      "market": 7.0,
+      "overall": 6.7,
+      "run": "2026-09-16-r1",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T15:01:37+00:00",
+  "website": "https://www.arbio.com/"
+}

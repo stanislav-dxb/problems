@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "noetive",
+  "industry": "Industrial AI",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "World models for industry; $41M seed led by Eclipse with Craft Ventures, Meta's CTO and Airbnb among backers.",
+      "source": "stealth startup emerges September 2026",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://techstartups.com/2026/09/16/startup-funding-news-today-september-16-2026-anew-labs-caddi-space-epoch-typesafe-ai-more/"
+    }
+  ],
+  "name": "Noetive",
+  "name_key": "noetive",
+  "region": "north_america",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:51:22+00:00",
+  "website": null
+}

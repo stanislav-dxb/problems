@@ -1,0 +1,37 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "jottoo",
+  "industry": "AI productivity",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-14",
+      "run": "2026-09-16-r1",
+      "snippet": "AI meeting notes that turn into tracked tasks.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.producthunt.com/products/jottoo"
+    }
+  ],
+  "name": "Jottoo",
+  "name_key": "jottoo",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [
+      "\"Jottoo\" startup United States"
+    ],
+    "searches": 1
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:58:31+00:00",
+  "website": null
+}

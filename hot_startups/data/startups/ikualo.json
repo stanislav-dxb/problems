@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Spain",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "ikualo",
+  "industry": "Migrant finance",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-04-23",
+      "run": "2026-09-16-r1",
+      "snippet": "Financial services for migrants in Europe, now with remittances to Venezuela.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://contxto.com/en/fintech/spanish-fintech-company-expects-to-channel-more-than-30-million-euros-in-remittances-to-venezuela-in-2026/"
+    }
+  ],
+  "name": "Íkualo",
+  "name_key": "ikualo",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:50:11+00:00",
+  "website": null
+}

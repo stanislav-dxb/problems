@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Brazil",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "dynamox",
+  "industry": "Industrial AI",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-08-27",
+      "run": "2026-09-16-r1",
+      "snippet": "AI for predictive maintenance of industrial machines.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://contxto.com/en/brazil/dynamox-brings-artificial-intelligence-to-predictive-maintenance-for-industry/"
+    }
+  ],
+  "name": "Dynamox",
+  "name_key": "dynamox",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:50:11+00:00",
+  "website": null
+}

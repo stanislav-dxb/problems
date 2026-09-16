@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Germany",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "hyimpulse",
+  "industry": "Space launch",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Small launch vehicles using paraffin-based hybrid rocket engines.",
+      "source": "startup raih pendanaan September 2026",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://www.idntimes.com/business/economy/pangkas-dominasi-spacex-eropa-guyur-modal-jumbo-ke-startup-antariksa-01-jct2y-k7zx4f"
+    }
+  ],
+  "name": "HyImpulse",
+  "name_key": "hyimpulse",
+  "region": "asia",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:53:29+00:00",
+  "website": null
+}

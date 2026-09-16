@@ -1,0 +1,729 @@
+<title>Hot Startups</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+  :root { color-scheme: light; --bg:#f3f4f6; --surface:#fff; --surface-2:#f8f9fb; --ink:#16202b; --ink-2:#4b5563; --muted:#737d89; --line:#dfe3e8;
+    --accent:#2a78d6; --accent-ink:#fff; --meter-track:#cde2fb; --meter-fill:#2a78d6; --new-bg:#fdeae0; --new-ink:#9a3a10; --unk-bg:#eceef1; --unk-ink:#5b6570; --shadow:0 1px 2px rgba(22,32,43,.06); }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { color-scheme: dark; --bg:#0f1216; --surface:#181c22; --surface-2:#1f242b; --ink:#f2f4f7; --ink-2:#c0c6ce; --muted:#8b939e; --line:#2a3038;
+    --accent:#3987e5; --accent-ink:#fff; --meter-track:#104281; --meter-fill:#3987e5; --new-bg:#3a2016; --new-ink:#f5a27a; --unk-bg:#262b32; --unk-ink:#aab2bc; --shadow:none; } }
+  :root[data-theme="dark"] { color-scheme: dark; --bg:#0f1216; --surface:#181c22; --surface-2:#1f242b; --ink:#f2f4f7; --ink-2:#c0c6ce; --muted:#8b939e; --line:#2a3038;
+    --accent:#3987e5; --accent-ink:#fff; --meter-track:#104281; --meter-fill:#3987e5; --new-bg:#3a2016; --new-ink:#f5a27a; --unk-bg:#262b32; --unk-ink:#aab2bc; --shadow:none; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; font-size:15px; line-height:1.5; padding-block:20px 48px; padding-inline:clamp(16px, 4vw, 40px); }
+  .wrap { max-width:1080px; margin:0 auto; display:grid; gap:28px; }
+  h1,h2,h3,h4 { font-family:"Sora","IBM Plex Sans",system-ui,sans-serif; margin:0; text-wrap:balance; }
+  h1 { font-size:26px; font-weight:700; letter-spacing:-0.01em; } h2 { font-size:17px; font-weight:600; }
+  h4 { font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); margin-bottom:4px; }
+  p { margin:0; } a { color:var(--accent); } button,select { font:inherit; color:inherit; }
+  :is(button,select,summary):focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+  .top { display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between; gap:8px 16px; }
+  .brand { display:flex; align-items:baseline; gap:14px; flex-wrap:wrap; } .week { color:var(--ink-2); }
+  .card { background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:20px 22px; box-shadow:var(--shadow); display:grid; gap:14px; }
+  .card p.lead { max-width:68ch; font-size:16px; }
+  .kpis { display:flex; flex-wrap:wrap; gap:8px 28px; color:var(--ink-2); }
+  .kpis b { font-family:"Sora",system-ui,sans-serif; font-size:22px; font-weight:600; color:var(--ink); margin-right:6px; }
+  .mix { color:var(--ink-2); font-size:14px; }
+  .section { display:grid; gap:12px; }
+  .trend-list { list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:12px; }
+  .trend { background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:16px 18px; display:grid; gap:8px; align-content:start; box-shadow:var(--shadow); }
+  .trend .head { display:flex; justify-content:space-between; gap:8px; align-items:baseline; }
+  .trend .head strong { font-family:"Sora",system-ui,sans-serif; font-weight:600; font-size:15px; } .trend .count { color:var(--muted); font-size:13px; white-space:nowrap; }
+  .trend p { color:var(--ink-2); } .names { color:var(--ink-2); font-size:13px; } .names span { display:inline-block; padding:2px 8px; border:1px solid var(--line); border-radius:999px; margin:2px 4px 2px 0; }
+  .strug { list-style:none; margin:0; padding:0; display:grid; gap:8px; }
+  .strug li { background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:12px 16px; display:grid; grid-template-columns:auto 1fr; gap:12px; align-items:start; box-shadow:var(--shadow); }
+  .strug .pill { margin-top:3px; white-space:nowrap; } .strug p { color:var(--ink-2); max-width:70ch; }
+  .gaps { background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:18px 22px; display:grid; gap:10px; box-shadow:var(--shadow); }
+  .gaps .head { display:flex; flex-wrap:wrap; align-items:center; gap:10px; } .gaps ul { margin:0; padding-left:20px; display:grid; gap:8px; max-width:72ch; }
+  .toolbar { display:flex; flex-wrap:wrap; gap:10px 18px; align-items:center; }
+  .seg { display:inline-flex; border:1px solid var(--line); border-radius:8px; overflow:hidden; background:var(--surface); }
+  .seg button { border:0; background:transparent; padding:7px 12px; cursor:pointer; color:var(--ink-2); } .seg button.on { background:var(--accent); color:var(--accent-ink); }
+  .chips { display:flex; flex-wrap:wrap; gap:6px; } .chips button { border:1px solid var(--line); background:var(--surface); border-radius:999px; padding:4px 11px; cursor:pointer; color:var(--ink-2); font-size:13px; }
+  .chips button.on { border-color:var(--accent); color:var(--accent); }
+  .sort { margin-left:auto; color:var(--ink-2); display:flex; gap:6px; align-items:center; } .sort select { border:1px solid var(--line); background:var(--surface); border-radius:8px; padding:6px 8px; }
+  .startups { list-style:none; margin:0; padding:0; display:grid; gap:8px; }
+  .row { background:var(--surface); border:1px solid var(--line); border-radius:12px; box-shadow:var(--shadow); } .row[hidden] { display:none; }
+  details > summary { list-style:none; cursor:pointer; padding:14px 16px; display:grid; grid-template-columns:28px 1fr auto; grid-template-areas:"rank who score" "rank idea score" "rank subs subs"; column-gap:14px; row-gap:4px; align-items:start; }
+  details > summary::-webkit-details-marker { display:none; }
+  .rank { grid-area:rank; font-family:"Sora",system-ui,sans-serif; font-weight:600; color:var(--muted); font-variant-numeric:tabular-nums; padding-top:2px; }
+  .who { grid-area:who; display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 10px; } .name { font-family:"Sora",system-ui,sans-serif; font-weight:600; font-size:16px; } .meta { color:var(--muted); font-size:13px; }
+  .pill { font-size:12px; font-weight:500; padding:1px 8px; border-radius:999px; } .pill.new { background:var(--new-bg); color:var(--new-ink); } .pill.unk { background:var(--unk-bg); color:var(--unk-ink); }
+  .idea { grid-area:idea; max-width:62ch; }
+  .score { grid-area:score; display:grid; justify-items:end; gap:4px; min-width:120px; } .score .num { font-family:"Sora",system-ui,sans-serif; font-weight:600; font-size:22px; line-height:1; }
+  .score .lbl { font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); }
+  .meter { display:block; width:120px; height:6px; border-radius:3px; background:var(--meter-track); overflow:hidden; } .meter i { display:block; height:100%; background:var(--meter-fill); border-radius:3px; }
+  .subs { grid-area:subs; display:flex; flex-wrap:wrap; gap:4px 16px; font-size:13px; color:var(--muted); margin-top:2px; }
+  .subs b { color:var(--ink-2); font-weight:600; font-variant-numeric:tabular-nums; margin-left:4px; } .subs b.q { color:var(--unk-ink); } .subs .hint { font-size:12px; font-style:italic; }
+  .detail { border-top:1px solid var(--line); padding:16px 16px 18px 58px; display:grid; grid-template-columns:1.4fr 1fr; gap:18px 32px; background:var(--surface-2); border-radius:0 0 12px 12px; }
+  .detail .col { display:grid; gap:12px; align-content:start; } .detail p { max-width:60ch; }
+  dl { margin:0; display:grid; grid-template-columns:auto 1fr; gap:4px 14px; } dt { color:var(--muted); font-size:13px; } dd { margin:0; } dd small { color:var(--muted); }
+  .sources { margin:0; padding-left:18px; } .sources li { font-size:14px; }
+  .foot { color:var(--muted); font-size:13px; max-width:80ch; } .unread { font-size:13px; color:var(--muted); } .unread summary { cursor:pointer; }
+  .empty { color:var(--ink-2); }
+  @media (max-width: 640px) { details > summary { grid-template-columns:24px 1fr; grid-template-areas:"rank who" "rank idea" "rank score" "rank subs"; } .score { justify-items:start; }
+    .detail { grid-template-columns:1fr; padding-left:16px; } .sort { margin-left:0; } .strug li { grid-template-columns:1fr; } }
+  @media (prefers-reduced-motion: no-preference) { .row { transition:border-color .15s; } .row:hover { border-color:var(--accent); } }
+</style>
+<div class="wrap">
+  <header class="top">
+    <div class="brand"><h1>Hot Startups</h1><span class="week">Week of 14 September 2026</span></div>
+    <span class="meta">Updated 16 September 2026</span>
+  </header>
+
+  <section class="card" aria-label="This week in one minute">
+    <h2>This week in one minute</h2>
+    <p class="lead">Twenty startups joined the list in this first run, led by AQEMIA, a French company that designs new medicines with physics and AI. The strongest newcomers build machines and molecules again: Maven Robotics&#x27; warehouse robot, Kepler Aerospace&#x27;s satellite swarm and EveryCarbon&#x27;s plastics made from waste. The trend of the week is AI agents that take over a professional&#x27;s paperwork, from patents and insurance files to hiring and bookkeeping.</p>
+    <div class="kpis"><span><b>20</b>on the list</span><span><b>20</b>new this week</span><span><b>6</b>trends</span></div>
+    <p class="mix">Where they come from: Europe 13 · North America 2 · Asia 2 · Middle East and Africa 2 · Latin America 1</p>
+  </section>
+
+  <section class="section" aria-label="Trends">
+    <h2>Ideas that keep coming up</h2>
+    <ul class="trend-list"><li class="trend"><div class="head"><strong>AI does the professional&#x27;s paperwork</strong><span class="count">5 startups</span></div><p>Software agents take over the document-heavy work of a profession, from patents and insurance files to hiring, sales records and bookkeeping.</p><div class="names"><span>Solve Intelligence</span><span>Artificial</span><span>Jack &amp; Jill</span><span>Zero</span><span>Finom</span></div></li><li class="trend"><div class="head"><strong>The data pipes under finance</strong><span class="count">4 startups</span></div><p>Instead of a consumer app, these companies build the regulated plumbing that lets banks, insurers and employers move money and data.</p><div class="names"><span>Tarabut</span><span>Insurely</span><span>ETFbook</span><span>Ontop</span></div></li><li class="trend"><div class="head"><strong>Sell to the person who feels the pain, free first</strong><span class="count">4 startups</span></div><p>Developers, marketers, sales reps and job seekers get the tool free or cheap, and the company contract follows the usage.</p><div class="names"><span>Aikido Security</span><span>Arcads</span><span>Zero</span><span>Jack &amp; Jill</span></div></li><li class="trend"><div class="head"><strong>Machines and molecules are back</strong><span class="count">4 startups</span></div><p>Hardware and hard science, from warehouse robots and satellite swarms to drug design and bio-based plastics, are raising the biggest rounds.</p><div class="names"><span>Maven Robotics</span><span>Kepler Aerospace</span><span>AQEMIA</span><span>EveryCarbon</span></div></li><li class="trend"><div class="head"><strong>Reach workers through the employer</strong><span class="count">3 startups</span></div><p>The employer signs one contract and thousands of workers get a financial or health product they would never have bought alone.</p><div class="names"><span>Stream</span><span>Thatch</span><span>Ontop</span></div></li><li class="trend"><div class="head"><strong>Everyday services digitised in emerging markets</strong><span class="count">2 startups</span></div><p>Health check-ups and bus tickets moved onto the phone in Indonesia and Kenya, where the operators, not the apps, are the hard part.</p><div class="names"><span>Bumame</span><span>BuuPass</span></div></li></ul>
+  </section>
+
+  <section class="section" aria-label="Ideas that are struggling">
+    <h2>Ideas that are struggling</h2>
+    <ul class="strug"><li><span class="pill unk">Shut down</span><div><span class="name">Router Protocol</span> <span class="meta">Crypto infrastructure · United States</span><p>Four years of building bridges between blockchains, but the business could never sustain itself and it is winding down by the end of September. <a href="https://www.crowdfundinsider.com/2026/09/307275-coinbase-ventures-incubated-router-protocol-to-wind-down-operations/">source</a></p></div></li><li><span class="pill unk">Shut down</span><div><span class="name">CoinEx</span> <span class="meta">Crypto exchange · Hong Kong</span><p>After nine years, a long crypto downturn and rising compliance costs made the exchange unprofitable; the founder chose to close rather than sell. <a href="https://www.cryptotimes.io/2026/09/15/coinex-announces-shutdown-after-9-years-withdrawals-open-until-december-22-2026/">source</a></p></div></li><li><span class="pill unk">Shut down</span><div><span class="name">Trela</span> <span class="meta">Food delivery · Brazil</span><p>A pandemic-born delivery service that never found capital to keep going once the pandemic demand faded. <a href="https://samais.com.br/publicacoes/falta-de-capital-leva-startup-trela-a-encerrar-operacoes-apos-cinco-anos">source</a></p></div></li><li><span class="pill unk">Shut down</span><div><span class="name">AscendEX</span> <span class="meta">Crypto exchange · Singapore</span><p>Failed to obtain an EU licence under the new MiCA rules and stopped trading; regulation, not customers, ended it. <a href="https://www.tradingview.com/news/panews:521816562acdf:0/">source</a></p></div></li><li><span class="pill unk">Shut down</span><div><span class="name">Quandoo</span> <span class="meta">Restaurant booking · Germany</span><p>A scale-up that expanded across countries for years without reaching stable revenue, and ran out of road when funding tightened. <a href="https://www.deutsche-startups.de/2026/01/21/startup-pleiten-2025/">source</a></p></div></li></ul>
+  </section>
+
+  <section class="gaps" aria-label="Gaps we noticed">
+    <div class="head"><h2>Gaps we noticed</h2><span class="pill unk">Suggestions, not facts</span></div>
+    <ul><li>Jack &amp; Jill put an AI agent on both sides of hiring and Zero replaced the sales CRM. Nobody on the list has built the same two-sided agent for the other big matching markets: finding a doctor, a tradesperson or a tenant.</li><li>AQEMIA and EveryCarbon pair physics and biology with AI to design medicines and plastics. The same recipe is missing for food and fertiliser, where farmers need new molecules just as badly.</li><li>Stream and Thatch reach millions of hourly workers by selling through the employer. No one uses that channel yet for what those workers struggle with next: rent deposits, childcare or legal help.</li><li>Kepler Aerospace and Maven Robotics build hardware for governments and warehouses. No entry brings cheap robots or satellite data to smallholder farms in Asia or Africa, where BuuPass shows the phones are already in everyone&#x27;s pocket.</li><li>Tarabut and Insurely built consented financial-data pipes for the Gulf and the Nordics. Latin America and Southeast Asia, where Ontop and Bumame operate, still lack that layer, and whoever builds it will own the region&#x27;s fintech back end.</li></ul>
+  </section>
+
+  <section class="section" aria-label="The list">
+    <h2>The list</h2>
+    <div class="toolbar">
+      <div class="seg" role="group" aria-label="Show"><button type="button" id="f-all" class="on" data-new="all">All 20</button><button type="button" id="f-new" data-new="new">New this week</button></div>
+      <div class="chips" role="group" aria-label="Industry"><button type="button" class="on" data-ind="all">Every industry</button><button type="button" data-ind="Biotech">Biotech</button><button type="button" data-ind="Robotics">Robotics</button><button type="button" data-ind="Cybersecurity">Cybersecurity</button><button type="button" data-ind="HR Tech">HR Tech</button><button type="button" data-ind="Materials">Materials</button><button type="button" data-ind="Space tech">Space tech</button><button type="button" data-ind="AI advertising">AI advertising</button><button type="button" data-ind="Health benefits">Health benefits</button><button type="button" data-ind="AI sales tools">AI sales tools</button><button type="button" data-ind="PropTech">PropTech</button></div>
+      <label class="sort">Sort by <select id="sort"><option value="score">Potential</option><option value="growth">Growth</option><option value="new">Newest</option></select></label>
+    </div>
+    
+    <ol class="startups" id="startups">
+      <li class="row" data-new="1" data-ind="Biotech" data-score="9.0" data-growth="-1">
+        <details>
+          <summary>
+            <span class="rank">1</span>
+            <div class="who"><span class="name">AQEMIA</span><span class="meta">Biotech · France</span><span class="pill new">New</span><span class="pill unk">Growth unknown</span></div>
+            <p class="idea">Designs new drug molecules with physics simulation plus generative AI, so a candidate medicine can be found before anything is tested in a lab.</p>
+            <div class="score"><span class="num">9</span><span class="meter"><i style="width:90%"></i></span><span class="lbl">potential</span></div>
+            <div class="subs"><span>Market<b>9</b></span><span>Tech<b>9</b></span><span>Growth<b class="q">?</b></span><span class="hint">score uses market and tech only</span></div>
+          </summary>
+          <div class="detail">
+            <div class="col">
+              <div><h4>The twist</h4><p>Instead of learning only from past chemistry data, it computes how molecules physically bind using statistical mechanics, so it works where no data exists yet.</p></div>
+              <div><h4>Why now</h4><p>Computing power and generative AI now make exact physics calculations fast enough to run across millions of candidate molecules.</p></div>
+              <div><h4>Who pays</h4><p>Big pharma pays for multi-year research partnerships, such as a €150M deal with Sanofi, while the company keeps its own drug pipeline.</p></div>
+              <div><h4>The lesson</h4><p>Pair AI with hard science it cannot fake; the physics makes the model trustworthy exactly where data is scarce.</p></div>
+              <div><h4>Why these scores</h4><ul class="sources"><li><b>Market</b>: Finding new medicines faster and cheaper applies to every disease and every drug company in the world.</li><li><b>Tech</b>: A physics-plus-AI engine spun out of a top science school, with programmes already working in animals; years of work to copy.</li><li><b>Growth</b>: No revenue or programme-count numbers are published; the signals are a €150M pharma deal and repeated funding.</li></ul></div>
+            </div>
+            <div class="col">
+              <dl>
+                <dt>Founded</dt><dd>2019</dd>
+                <dt>Based in</dt><dd>Paris, France (also London)</dd>
+                <dt>Team</dt><dd>about 70 <small>reported by <a href="https://www.crunchbase.com/organization/aqemia">crunchbase.com</a></small></dd>
+                <dt>Raised</dt><dd>over $110M across six rounds, including a €60M Series A and a $7.4M France 2030 grant</dd>
+                <dt>Growth</dt><dd>Several drug programmes showed efficacy in animal models; a €150M partnership with Sanofi and work with Johnson &amp; Johnson <small>(substitute: pharma partnerships and funding rounds)</small></dd>
+              </dl>
+              <div><h4>Where this comes from</h4><ul class="sources"><li><a href="https://aqemia.com/">Company website</a></li><li><a href="https://www.vestbee.com/insights/articles/aqemia-raises-7-4-m-grant">AQEMIA raises $7.4M grant from France 2030 (Vestbee)</a> <small>2025-04-01</small></li><li><a href="https://www.crunchbase.com/organization/aqemia">AQEMIA on Crunchbase</a></li><li><a href="https://www.euronews.com/health/2025/05/22/meet-aqemia-the-french-company-leveraging-ai-backed-physics-tools-for-drug-discovery">Meet Aqemia (Euronews)</a> <small>2025-05-22</small></li><li><a href="https://frenchhealthcare.com/pharma-biotech/aqemia-the-french-startup-pushes-the-boundaries-of-medical-research/">Aqemia pushes the boundaries of medical research (French Healthcare)</a></li><li><a href="https://vivatech.com/news/top-100-rising-startups-of-2026">VivaTech Top 100 Rising European Startups 2026</a> <small>2026-03-17</small></li></ul></div>
+            </div>
+          </div>
+        </details>
+      </li>
+      <li class="row" data-new="1" data-ind="Robotics" data-score="8.5" data-growth="-1">
+        <details>
+          <summary>
+            <span class="rank">2</span>
+            <div class="who"><span class="name">Maven Robotics</span><span class="meta">Robotics · United States</span><span class="pill new">New</span><span class="pill unk">Growth unknown</span></div>
+            <p class="idea">A wheeled robot with two arms that works in warehouses and factories, starting with stacking mixed boxes onto pallets, a job humans hate.</p>
+            <div class="score"><span class="num">8.5</span><span class="meter"><i style="width:85%"></i></span><span class="lbl">potential</span></div>
+            <div class="subs"><span>Market<b>9</b></span><span>Tech<b>8</b></span><span>Growth<b class="q">?</b></span><span class="hint">score uses market and tech only</span></div>
+          </summary>
+          <div class="detail">
+            <div class="col">
+              <div><h4>The twist</h4><p>Instead of a humanoid, it is a practical machine: wheels for speed, arms that lift 30 kilos, and a plan to take over existing robot deployment deals with a cheaper, more capable unit.</p></div>
+              <div><h4>Why now</h4><p>Physical AI can now handle unpredictable boxes and totes, and warehouses cannot find enough workers.</p></div>
+              <div><h4>Who pays</h4><p>Large manufacturing and logistics companies buy or lease the robots.</p></div>
+              <div><h4>The lesson</h4><p>Pick the ugliest, best-paid job on the warehouse floor and build the machine for that, not the general robot of science fiction.</p></div>
+              <div><h4>Why these scores</h4><ul class="sources"><li><b>Market</b>: Pallet and tote handling alone is an estimated $80B market, and material handling and assembly go past $1 trillion.</li><li><b>Tech</b>: Its own hardware plus physical AI for messy real-world handling; the founder has two decades in autonomous systems.</li><li><b>Growth</b>: No deployment numbers published; the company left stealth this month.</li></ul></div>
+            </div>
+            <div class="col">
+              <dl>
+                <dt>Founded</dt><dd>2024</dd>
+                <dt>Based in</dt><dd>Santa Clara, California, United States</dd>
+                <dt>Team</dt><dd>unknown</dd>
+                <dt>Raised</dt><dd>$100M Series A in September 2026 led by RoboStrategy, with LocalGlobe, Vine Ventures and XTX Ventures</dd>
+                <dt>Growth</dt><dd>Just launched from stealth; says it works with some of the largest manufacturing and logistics companies, no numbers yet <small>reported by <a href="https://www.mavenrobotics.com">mavenrobotics.com</a></small> <small>(substitute: $100M first round)</small></dd>
+              </dl>
+              <div><h4>Where this comes from</h4><ul class="sources"><li><a href="https://www.mavenrobotics.com">Company website</a></li><li><a href="https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/">Maven Robotics wants to steal your robot deployment deal (TechCrunch)</a> <small>2026-09-10</small></li><li><a href="https://www.globenewswire.com/news-release/2026/09/10/3359782/0/en/maven-robotics-raises-100m-series-a-for-the-world-s-first-general-purpose-robotics-system-for-industrial-work.html">Maven Robotics raises $100M Series A (press release)</a> <small>2026-09-10</small></li><li><a href="https://thebridge.jp/2026/09/maven-robotics-series-a-100m-industrial-robotics">Maven Robotics Series A (The Bridge, Japanese)</a> <small>2026-09-14</small></li></ul></div>
+            </div>
+          </div>
+        </details>
+      </li>
+      <li class="row" data-new="1" data-ind="Cybersecurity" data-score="7.7" data-growth="9.0">
+        <details>
+          <summary>
+            <span class="rank">3</span>
+            <div class="who"><span class="name">Aikido Security</span><span class="meta">Cybersecurity · Belgium</span><span class="pill new">New</span></div>
+            <p class="idea">One security tool that checks everything a software team writes and runs, and fixes most problems itself, so developers stop drowning in false alarms.</p>
+            <div class="score"><span class="num">7.7</span><span class="meter"><i style="width:77%"></i></span><span class="lbl">potential</span></div>
+            <div class="subs"><span>Market<b>8</b></span><span>Tech<b>6</b></span><span>Growth<b>9</b></span></div>
+          </summary>
+          <div class="detail">
+            <div class="col">
+              <div><h4>The twist</h4><p>It sells to the developers rather than the security department, is free to start, and claims 99% fewer false alarms than the fragmented tools it replaces.</p></div>
+              <div><h4>Why now</h4><p>AI now writes a large share of code, and companies need guardrails that work at that speed without a security team reviewing every line.</p></div>
+              <div><h4>Who pays</h4><p>Software companies pay per team once they outgrow the free tier; customers include Revolut, SoundCloud and Niantic.</p></div>
+              <div><h4>The lesson</h4><p>Sell to the person who feels the pain daily, make the first taste free, and let usage pull the enterprise contract behind it.</p></div>
+              <div><h4>Why these scores</h4><ul class="sources"><li><b>Market</b>: Every company that writes software needs this, and AI-written code is multiplying the need.</li><li><b>Tech</b>: Well-built and broad, but security scanning is a crowded field where large rivals can catch up.</li><li><b>Growth</b>: Fivefold revenue growth in a year and Europe&#x27;s fastest cybersecurity unicorn, three years after founding.</li></ul></div>
+            </div>
+            <div class="col">
+              <dl>
+                <dt>Founded</dt><dd>2022 <small>reported by <a href="https://finance.yahoo.com/news/belgian-cybersecurity-startup-aikido-hits-120614192.html">finance.yahoo.com</a></small></dd>
+                <dt>Based in</dt><dd>Ghent, Belgium <small>reported by <a href="https://finance.yahoo.com/news/belgian-cybersecurity-startup-aikido-hits-120614192.html">finance.yahoo.com</a></small></dd>
+                <dt>Team</dt><dd>unknown</dd>
+                <dt>Raised</dt><dd>$94.7M in total, including a $60M Series B led by DST Global at a $1B valuation</dd>
+                <dt>Growth</dt><dd>Revenue grew about fivefold in a year and customers nearly tripled; its site says 150,000+ organisations use it</dd>
+              </dl>
+              <div><h4>Where this comes from</h4><ul class="sources"><li><a href="https://www.aikido.dev/">Company website</a></li><li><a href="https://finance.yahoo.com/news/belgian-cybersecurity-startup-aikido-hits-120614192.html">Belgian cybersecurity startup Aikido hits unicorn status (Reuters via Yahoo)</a></li><li><a href="https://finance.yahoo.com/news/aikido-security-raises-60-million-130000609.html">Aikido Security raises $60M Series B at $1B valuation (press release)</a></li><li><a href="https://www.aikido.dev/blog/aikido-funding-series-b">Aikido raises $60M at a $1B valuation (company blog)</a></li><li><a href="https://vivatech.com/news/top-100-rising-startups-of-2026">VivaTech Top 100 Rising European Startups 2026</a> <small>2026-03-17</small></li></ul></div>
+            </div>
+          </div>
+        </details>
+      </li>
+      <li class="row" data-new="1" data-ind="HR Tech" data-score="7.7" data-growth="9.0">
+        <details>
+          <summary>
+            <span class="rank">4</span>
+            <div class="who"><span class="name">Jack &amp; Jill</span><span class="meta">HR Tech · United Kingdom</span><span class="pill new">New</span></div>
+            <p class="idea">Two AI agents run the job hunt: Jack talks to job seekers and finds them roles, Jill talks to companies and picks the right people, and the two introduce them directly.</p>
+            <div class="score"><span class="num">7.7</span><span class="meter"><i style="width:77%"></i></span><span class="lbl">potential</span></div>
+            <div class="subs"><span>Market<b>8</b></span><span>Tech<b>6</b></span><span>Growth<b>9</b></span></div>
+          </summary>
+          <div class="detail">
+            <div class="col">
+              <div><h4>The twist</h4><p>There is an agent on each side of the table, so an introduction only happens when both sides fit, and candidates never fill in an application.</p></div>
+              <div><h4>Why now</h4><p>AI can now hold a real conversation about someone&#x27;s career, and companies are drowning in AI-written applications they cannot sort.</p></div>
+              <div><h4>Who pays</h4><p>Companies pay when they hire; job seekers use Jack for free.</p></div>
+              <div><h4>The lesson</h4><p>Put an agent on both sides of a market and charge only when the match closes, so the free side grows the network for you.</p></div>
+              <div><h4>Why these scores</h4><ul class="sources"><li><b>Market</b>: Hiring is a huge cost for every company worldwide, and recruiters take large fees that software can undercut.</li><li><b>Tech</b>: The two-agent setup is clever, but it runs on AI models anyone can rent; the real moat is the growing network of people and companies.</li><li><b>Growth</b>: From 49,000 to over 385,000 professionals in about a year, and a Series A eleven months after the seed.</li></ul></div>
+            </div>
+            <div class="col">
+              <dl>
+                <dt>Founded</dt><dd>2025</dd>
+                <dt>Based in</dt><dd>London, United Kingdom</dd>
+                <dt>Team</dt><dd>unknown</dd>
+                <dt>Raised</dt><dd>$60M: a $20M seed in October 2025 and a $40M Series A in September 2026</dd>
+                <dt>Growth</dt><dd>Its site counts 385,575 professionals using Jack and 5,357 companies using Jill; a year earlier it reported 49,000 candidates</dd>
+              </dl>
+              <div><h4>Where this comes from</h4><ul class="sources"><li><a href="https://jackandjill.ai/">Company website</a></li><li><a href="https://tech.eu/2025/10/16/british-ai-recruitment-startup-jack-jill-raises-20-million-dollars-to-expand-to-the-us/">British HRtech Jack &amp; Jill raises $20M to expand to US (Tech.eu)</a> <small>2025-10-16</small></li><li><a href="https://www.eu-startups.com/2026/09/london-based-jack-jill-raises-e34-68-million-series-a-to-scale-its-ai-agents-for-jobseekers-and-employers">Jack &amp; Jill raises €34.68 million Series A (EU-Startups)</a> <small>2026-09-15</small></li><li><a href="https://www.onrec.com/news/news-archive/jack-jill-secures-20m-seed-investment-to-take-its-ai-recruiters-global">Jack &amp; Jill secures $20M seed (Onrec)</a> <small>2025-10-16</small></li><li><a href="https://vivatech.com/news/top-100-rising-startups-of-2026">VivaTech Top 100 Rising European Startups 2026</a> <small>2026-03-17</small></li></ul></div>
+            </div>
+          </div>
+        </details>
+      </li>
+      <li class="row" data-new="1" data-ind="Materials" data-score="7.5" data-growth="-1">
+        <details>
+          <summary>
+            <span class="rank">5</span>
+            <div class="who"><span class="name">EveryCarbon</span><span class="meta">Materials · Germany</span><span class="pill new">New</span><span class="pill unk">Growth unknown</span></div>
+            <p class="idea">Uses microbes to turn organic waste into the building block for high-performance plastics, so tough industrial materials no longer need oil.</p>
+            <div class="score"><span class="num">7.5</span><span class="meter"><i style="width:75%"></i></span><span class="lbl">potential</span></div>
+            <div class="subs"><span>Market<b>7</b></span><span>Tech<b>8</b></span><span>Growth<b class="q">?</b></span><span class="hint">score uses market and tech only</span></div>
+          </summary>
+          <div class="detail">
+            <div class="col">
+              <div><h4>The twist</h4><p>Rather than replacing plastic, it replaces the oil-based ingredient inside it, so factories can keep their existing polymer processes.</p></div>
+              <div><h4>Why now</h4><p>Europe is pushing industry off fossil inputs, and Germany&#x27;s SPRIND agency is paying for exactly this kind of moonshot.</p></div>
+              <div><h4>Who pays</h4><p>So far grants and a materials programme subcontract; later, plastics and materials makers would buy the chemical.</p></div>
+              <div><h4>The lesson</h4><p>Replace one ingredient in an existing industrial recipe instead of the whole recipe; adoption is far easier.</p></div>
+              <div><h4>Why these scores</h4><ul class="sources"><li><b>Market</b>: Plastics and polymers are a global industry worth hundreds of billions, but this targets one class of high-performance materials first.</li><li><b>Tech</b>: University spin-off with its own microbial process; new science that takes years to copy.</li><li><b>Growth</b>: No customers yet; a six-person team moving from lab to pilot production.</li></ul></div>
+            </div>
+            <div class="col">
+              <dl>
+                <dt>Founded</dt><dd>unknown</dd>
+                <dt>Based in</dt><dd>Hamburg, Germany</dd>
+                <dt>Team</dt><dd>6 <small>reported by <a href="https://www.tuhh.de/tuhh/en/research-and-transfer/research-news/2025-10-23-tuhh-startup-everycarbon-erhaelt-25-millionen-euro-foerderung-von-sprind">tuhh.de</a></small></dd>
+                <dt>Raised</dt><dd>€2.5M from SPRIND&#x27;s Circular Biomanufacturing Challenge (October 2025)</dd>
+                <dt>Growth</dt><dd>Won a FLAIR subcontract in September 2026 to scale production <small>reported by <a href="https://tech.eu/2026/09/15/everycarbon-wins-flair-subcontract-to-scale-fossil-independent-materials-production/">tech.eu</a></small> <small>(substitute: grant and programme wins)</small></dd>
+              </dl>
+              <div><h4>Where this comes from</h4><ul class="sources"><li><a href="https://everycarbon.com">Company website</a></li><li><a href="https://tech.eu/2026/09/15/everycarbon-wins-flair-subcontract-to-scale-fossil-independent-materials-production/">EveryCarbon wins FLAIR subcontract (Tech.eu)</a> <small>2026-09-15</small></li><li><a href="https://www.tuhh.de/tuhh/en/research-and-transfer/research-news/2025-10-23-tuhh-startup-everycarbon-erhaelt-25-millionen-euro-foerderung-von-sprind">TUHH start-up EveryCarbon receives €2.5 million from SPRIND</a> <small>2025-10-23</small></li><li><a href="https://www.sprind.org/en/actions/challenges/biomanufacturing/everycarbon">SPRIND Circular Biomanufacturing Challenge: EveryCarbon</a></li></ul></div>
+            </div>
+          </div>
+        </details>
+      </li>
+      <li class="row" data-new="1" data-ind="Space tech" data-score="7.5" data-growth="-1">
+        <details>
+          <summary>
+            <span class="rank">6</span>
+            <div class="who"><span class="name">Kepler Aerospace</span><span class="meta">Space tech · India</span><span class="pill new">New</span><span class="pill unk">Growth unknown</span></div>
+            <p class="idea">Builds small satellites that fly as a swarm, talk to each other and decide together what to look at, so a defence customer gets intelligence in minutes instead of months.</p>
+            <div class="score"><span class="num">7.5</span><span class="meter"><i style="width:75%"></i></span><span class="lbl">potential</span></div>
+            <div class="subs"><span>Market<b>7</b></span><span>Tech<b>8</b></span><span>Growth<b class="q">?</b></span><span class="hint">score uses market and tech only</span></div>
+          </summary>
+          <div class="detail">
+            <div class="col">
+              <div><h4>The twist</h4><p>It makes the satellite parts itself, the on-board computers, power and radio, and bootstrapped for eight years on Indian defence contracts before taking any outside money.</p></div>
+              <div><h4>Why now</h4><p>India is pushing private space and defence companies hard, and cheap launches make a six-satellite swarm affordable.</p></div>
+              <div><h4>Who pays</h4><p>The Indian defence ministry through iDEX contracts, and later other governments and companies needing surveillance data.</p></div>
+              <div><h4>The lesson</h4><p>Win the government contract first and let it fund the hardware; the investors come after the product exists.</p></div>
+              <div><h4>Why these scores</h4><ul class="sources"><li><b>Market</b>: Governments worldwide are buying surveillance satellites, but the customers are few and the sales cycles long.</li><li><b>Tech</b>: Own avionics and a swarm that coordinates itself in orbit; hardware plus autonomy that takes years to build.</li><li><b>Growth</b>: No revenue numbers; the satellites are not in orbit yet.</li></ul></div>
+            </div>
+            <div class="col">
+              <dl>
+                <dt>Founded</dt><dd>2018</dd>
+                <dt>Based in</dt><dd>Bengaluru, India</dd>
+                <dt>Team</dt><dd>unknown</dd>
+                <dt>Raised</dt><dd>$8M seed in September 2026 led by Blue Ashva Capital, co-led by Finvolve; its first outside funding</dd>
+                <dt>Growth</dt><dd>Two iDEX defence contracts; first six-satellite constellation being built <small>reported by <a href="https://www.business-standard.com/companies/start-ups/kepler-aerospace-raises-8-million-swarming-isr-satellites-126090100625_1.html">business-standard.com</a></small> <small>(substitute: defence contracts and first funding)</small></dd>
+              </dl>
+              <div><h4>Where this comes from</h4><ul class="sources"><li><a href="https://www.kepleraerospace.in">Company website</a></li><li><a href="https://www.business-standard.com/companies/start-ups/kepler-aerospace-raises-8-million-swarming-isr-satellites-126090100625_1.html">Kepler Aerospace raises $8 mn seed round (Business Standard)</a> <small>2026-09-01</small></li><li><a href="https://inc42.com/buzz/kepler-aerospace-raises-8-mn-to-launch-six-autonomous-surveillance-satellites/">Kepler Aerospace raises $8 Mn to launch six autonomous surveillance satellites (Inc42)</a> <small>2026-09-01</small></li><li><a href="https://www.techinasia.com/indian-space-startup-kepler-raises-8m-isr-satellites">Indian space startup Kepler raises $8m (Tech in Asia)</a> <small>2026-09-16</small></li></ul></div>
+            </div>
+          </div>
+        </details>
+      </li>
+      <li class="row" data-new="1" data-ind="AI advertising" data-score="7.3" data-growth="9.0">
+        <details>
+          <summary>
+            <span class="rank">7</span>
+            <div class="who"><span class="name">Arcads</span><span class="meta">AI advertising · France</span><span class="pill new">New</span></div>
+            <p class="idea">Makes video ads that look like influencer clips, with AI actors instead of real people, in 35 languages, in minutes.</p>
+            <div class="score"><span class="num">7.3</span><span class="meter"><i style="width:73%"></i></span><span class="lbl">potential</span></div>
+            <div class="subs"><span>Market<b>8</b></span><span>Tech<b>5</b></span><span>Growth<b>9</b></span></div>
+          </summary>
+          <div class="detail">
+            <div class="col">
+              <div><h4>The twist</h4><p>A library of more than 1,000 AI actors lets a marketing team test hundreds of ad variants for the price of one real shoot, and a team of about seven reached $10M in yearly revenue.</p></div>
+              <div><h4>Why now</h4><p>Video generation became good enough to pass as a phone-shot clip, and performance marketers already test ads by the hundred.</p></div>
+              <div><h4>Who pays</h4><p>Brands and app companies such as Samsung, Nike, Candy Crush and Voodoo pay a subscription.</p></div>
+              <div><h4>The lesson</h4><p>Sell the volume the customer already wants to test, not the polish; a tiny team can run a big business when the product is the whole workflow.</p></div>
+              <div><h4>Why these scores</h4><ul class="sources"><li><b>Market</b>: Every advertiser in the world makes video ads, and the cheap, fast version widens the market to small businesses.</li><li><b>Tech</b>: It runs on video models it licenses from others; the edge is the actor library and the ad workflow, which rivals can copy.</li><li><b>Growth</b>: Zero to $10M in yearly revenue in twenty months with a handful of people.</li></ul></div>
+            </div>
+            <div class="col">
+              <dl>
+                <dt>Founded</dt><dd>2024</dd>
+                <dt>Based in</dt><dd>Paris, France</dd>
+                <dt>Team</dt><dd>about 7 at the time of the seed round <small>reported by <a href="https://www.maddyness.com/2025/12/17/ia-arcads-ai-leve-14-millions-deuros-pour-creer-des-pubs-virales-en-quelques-minutes/">maddyness.com</a></small></dd>
+                <dt>Raised</dt><dd>$16M seed led by Eurazeo in December 2025</dd>
+                <dt>Growth</dt><dd>$10M yearly recurring revenue within twenty months of launch, later reported at $15M; over 6,000 clients and 100,000 ad assets a month</dd>
+              </dl>
+              <div><h4>Where this comes from</h4><ul class="sources"><li><a href="https://www.arcads.ai/fr">Company website</a></li><li><a href="https://www.maddyness.com/2025/12/17/ia-arcads-ai-leve-14-millions-deuros-pour-creer-des-pubs-virales-en-quelques-minutes/">Arcads.ai lève 14 millions d&#x27;euros (Maddyness)</a> <small>2025-12-17</small></li><li><a href="https://www.prnewswire.com/news-releases/arcadsai-raises-16-million-usd-in-seed-funding-to-accelerate-development-in-the-united-states-302644990.html">Arcads.ai raises $16M seed (press release)</a> <small>2025-12-17</small></li><li><a href="https://getlatka.com/companies/arcads.ai#funding">Arcads revenue 2026 (Latka)</a></li><li><a href="https://vivatech.com/news/top-100-rising-startups-of-2026">VivaTech Top 100 Rising European Startups 2026</a> <small>2026-03-17</small></li></ul></div>
+            </div>
+          </div>
+        </details>
+      </li>
+      <li class="row" data-new="1" data-ind="Health benefits" data-score="7.0" data-growth="8.0">
+        <details>
+          <summary>
+            <span class="rank">8</span>
+            <div class="who"><span class="name">Thatch</span><span class="meta">Health benefits · United States</span><span class="pill new">New</span></div>
+            <p class="idea">Lets a US employer give each employee a health budget and a card, and the employee picks their own insurance plan and pays for care, instead of one company-wide plan.</p>
+            <div class="score"><span class="num">7</span><span class="meter"><i style="width:70%"></i></span><span class="lbl">potential</span></div>
+            <div class="subs"><span>Market<b>8</b></span><span>Tech<b>5</b></span><span>Growth<b>8</b></span></div>
+          </summary>
+          <div class="detail">
+            <div class="col">
+              <div><h4>The twist</h4><p>It runs on a little-known US rule (ICHRA) that lets companies fund individual plans tax-free, turning a compliance loophole into a product.</p></div>
+              <div><h4>Why now</h4><p>US health insurance costs are surging and employers want a fixed budget rather than an open-ended group plan.</p></div>
+              <div><h4>Who pays</h4><p>Employers pay per employee; hundreds of companies, from AI startups to large enterprises, use it.</p></div>
+              <div><h4>The lesson</h4><p>Find the rule that already allows a better model and build the product that makes it easy; the law is the moat you did not have to write.</p></div>
+              <div><h4>Why these scores</h4><ul class="sources"><li><b>Market</b>: Employer health benefits in the US are a trillion-dollar spend, though the model is US-only.</li><li><b>Tech</b>: Payments and enrolment software; the insight is regulatory rather than technical, and rivals can follow.</li><li><b>Growth</b>: A unicorn valuation five years after founding, with a team near 200 and customers in the hundreds.</li></ul></div>
+            </div>
+            <div class="col">
+              <dl>
+                <dt>Founded</dt><dd>2021</dd>
+                <dt>Based in</dt><dd>San Francisco, United States <small>reported by <a href="https://research.contrary.com/company/thatch">research.contrary.com</a></small></dd>
+                <dt>Team</dt><dd>close to 200 (April 2026) <small>reported by <a href="https://research.contrary.com/company/thatch">research.contrary.com</a></small></dd>
+                <dt>Raised</dt><dd>about $84M from Index, Andreessen Horowitz and General Catalyst, at a $1B valuation as of September 2026</dd>
+                <dt>Growth</dt><dd>Reached a $1B valuation in September 2026; hundreds of employer customers</dd>
+              </dl>
+              <div><h4>Where this comes from</h4><ul class="sources"><li><a href="https://www.thatch.ai">Company website</a></li><li><a href="https://techcrunch.com/2026/09/15/health-benefits-platform-thatch-reaches-1b-valuation-as-healthcare-costs-surge/">Thatch reaches $1B valuation (TechCrunch)</a> <small>2026-09-15</small></li><li><a href="https://research.contrary.com/company/thatch">Thatch business breakdown (Contrary Research)</a></li><li><a href="https://www.fiercehealthcare.com/health-tech/thatch-secures-38m-backed-a16z-and-general-catalyst-expand-ichra-benefits">Thatch secures $38M (Fierce Healthcare)</a></li></ul></div>
+            </div>
+          </div>
+        </details>
+      </li>
+      <li class="row" data-new="1" data-ind="AI sales tools" data-score="7.0" data-growth="-1">
+        <details>
+          <summary>
+            <span class="rank">9</span>
+            <div class="who"><span class="name">Zero</span><span class="meta">AI sales tools · Finland</span><span class="pill new">New</span><span class="pill unk">Growth unknown</span></div>
+            <p class="idea">Replaces the sales team&#x27;s CRM with AI agents that find likely buyers, write to them, update the records and watch which customers are about to leave.</p>
+            <div class="score"><span class="num">7</span><span class="meter"><i style="width:70%"></i></span><span class="lbl">potential</span></div>
+            <div class="subs"><span>Market<b>8</b></span><span>Tech<b>6</b></span><span>Growth<b class="q">?</b></span><span class="hint">score uses market and tech only</span></div>
+          </summary>
+          <div class="detail">
+            <div class="col">
+              <div><h4>The twist</h4><p>Instead of asking salespeople to fill in a database, it watches buying signals like job postings and does the record-keeping itself.</p></div>
+              <div><h4>Why now</h4><p>AI agents can now read the open web for signals and hold outreach conversations, so the manual CRM looks like paperwork nobody wants.</p></div>
+              <div><h4>Who pays</h4><p>Sales teams at growing software companies pay a subscription; there is a free trial and AI-assisted migration from the old CRM.</p></div>
+              <div><h4>The lesson</h4><p>Do not bolt AI onto the old tool; make the data entry disappear and sell the outcome, which is customers found, won and kept.</p></div>
+              <div><h4>Why these scores</h4><ul class="sources"><li><b>Market</b>: Every company with a sales team pays for a CRM; it is one of the largest software categories in the world.</li><li><b>Tech</b>: Agents on top of rentable models, but the buying-signal engine and the founders&#x27; Smartly.io experience give a real head start.</li><li><b>Growth</b>: No customer numbers yet; the company only just launched publicly.</li></ul></div>
+            </div>
+            <div class="col">
+              <dl>
+                <dt>Founded</dt><dd>unknown</dd>
+                <dt>Based in</dt><dd>Helsinki, Finland</dd>
+                <dt>Team</dt><dd>unknown</dd>
+                <dt>Raised</dt><dd>$10.3M seed in September 2026 led by Primary Venture Partners, after a $2.7M pre-seed</dd>
+                <dt>Growth</dt><dd>Seed round about four times the pre-seed within a short time; public launch with a free trial; founders of Lovable, Supercell and Langdock invested <small>(substitute: funding round bigger than the last)</small></dd>
+              </dl>
+              <div><h4>Where this comes from</h4><ul class="sources"><li><a href="https://zero.inc">Company website</a></li><li><a href="https://arcticstartup.com/zero-raises-10-3-million-seed/">Finnish startup raises $10.3 million seed to replace the CRM with AI agents (ArcticStartup)</a> <small>2026-09-15</small></li><li><a href="https://sifted.eu/articles/exclusive-zero-10-3m-seed-round/">Lovable, Supercell, Langdock founders back Zero (Sifted)</a> <small>2026-09-15</small></li><li><a href="https://arcticstartup.com/zero-raises-2-7m-pre-seed/">Zero raises $2.7M pre-seed (ArcticStartup)</a></li></ul></div>
+            </div>
+          </div>
+        </details>
+      </li>
+      <li class="row" data-new="1" data-ind="PropTech" data-score="6.7" data-growth="8.0">
+        <details>
+          <summary>
+            <span class="rank">10</span>
+            <div class="who"><span class="name">Arbio</span><span class="meta">PropTech · Germany</span><span class="pill new">New</span></div>
+            <p class="idea">Runs holiday apartments for their owners with an AI operating system that handles pricing, guest messages, cleaning schedules and the accounts.</p>
+            <div class="score"><span class="num">6.7</span><span class="meter"><i style="width:67%"></i></span><span class="lbl">potential</span></div>
+            <div class="subs"><span>Market<b>7</b></span><span>Tech<b>5</b></span><span>Growth<b>8</b></span></div>
+          </summary>
+          <div class="detail">
+            <div class="col">
+              <div><h4>The twist</h4><p>It buys small, tired property managers and plugs their apartments into its software, growing by acquisition instead of one landlord at a time.</p></div>
+              <div><h4>Why now</h4><p>Short-term rentals are a huge fragmented market run by tiny agencies, and AI can now do the messaging and admin they employ people for.</p></div>
+              <div><h4>Who pays</h4><p>Property owners pay a share of rental income; other managers can use the software portal.</p></div>
+              <div><h4>The lesson</h4><p>Roll up the small operators and put your software underneath them; buying the customer base beats winning it one by one.</p></div>
+              <div><h4>Why these scores</h4><ul class="sources"><li><b>Market</b>: Holiday rental management is a large industry across Europe, but it is local, labour-heavy and competes with hotels.</li><li><b>Tech</b>: An AI operations layer others could build; the acquired portfolio of apartments is the real advantage.</li><li><b>Growth</b>: Revenue grew tenfold in two years with hundreds of thousands of guests.</li></ul></div>
+            </div>
+            <div class="col">
+              <dl>
+                <dt>Founded</dt><dd>2022</dd>
+                <dt>Based in</dt><dd>Berlin, Germany</dd>
+                <dt>Team</dt><dd>over 60 <small>reported by <a href="https://www.eu-startups.com/2025/10/german-proptech-startup-arbio-raises-e31-million-to-build-europes-first-ai-native-platform-for-holiday-rentals/">eu-startups.com</a></small></dd>
+                <dt>Raised</dt><dd>over €38M, including a €31M Series A led by Eurazeo in October 2025</dd>
+                <dt>Growth</dt><dd>Revenue up tenfold in two years; 1,200+ apartments in 10 cities, 460,000 guests, 30+ acquisitions</dd>
+              </dl>
+              <div><h4>Where this comes from</h4><ul class="sources"><li><a href="https://www.arbio.com/">Company website</a></li><li><a href="https://www.eu-startups.com/2025/10/german-proptech-startup-arbio-raises-e31-million-to-build-europes-first-ai-native-platform-for-holiday-rentals/">Arbio raises €31 million (EU-Startups)</a> <small>2025-10-14</small></li><li><a href="https://techfundingnews.com/airbnb-for-property-management-arbio-lands-36m-to-reinvent-holiday-rentals-with-ai/">Arbio lands $36M to reinvent holiday rentals with AI (TFN)</a> <small>2025-10-14</small></li><li><a href="https://vivatech.com/news/top-100-rising-startups-of-2026">VivaTech Top 100 Rising European Startups 2026</a> <small>2026-03-17</small></li></ul></div>
+            </div>
+          </div>
+        </details>
+      </li>
+      <li class="row" data-new="1" data-ind="Business banking" data-score="6.7" data-growth="7.0">
+        <details>
+          <summary>
+            <span class="rank">11</span>
+            <div class="who"><span class="name">Finom</span><span class="meta">Business banking · Netherlands</span><span class="pill new">New</span></div>
+            <p class="idea">A bank account for small businesses and freelancers across Europe that also does invoices, expenses and, increasingly, the bookkeeping itself.</p>
+            <div class="score"><span class="num">6.7</span><span class="meter"><i style="width:67%"></i></span><span class="lbl">potential</span></div>
+            <div class="subs"><span>Market<b>8</b></span><span>Tech<b>5</b></span><span>Growth<b>7</b></span></div>
+          </summary>
+          <div class="detail">
+            <div class="col">
+              <div><h4>The twist</h4><p>One licence and one app serve five countries with local account numbers, and the AI accounting turns a bank account into the company&#x27;s back office.</p></div>
+              <div><h4>Why now</h4><p>Europe&#x27;s small businesses are still served by slow banks, and AI can now do the bookkeeping that used to need an accountant.</p></div>
+              <div><h4>Who pays</h4><p>Small businesses and freelancers pay monthly subscriptions plus card and lending fees; over 125,000 customers.</p></div>
+              <div><h4>The lesson</h4><p>Start with the account the customer must open anyway, then add the chores around it one by one until leaving would cost them their back office.</p></div>
+              <div><h4>Why these scores</h4><ul class="sources"><li><b>Market</b>: Tens of millions of small businesses in Europe alone need an account and bookkeeping.</li><li><b>Tech</b>: Banking and accounting software plus a licence; strong execution, but Qonto and others sell the same package.</li><li><b>Growth</b>: Rapid customer growth and very large funding, though the team may be near the size limit for this list.</li></ul></div>
+            </div>
+            <div class="col">
+              <dl>
+                <dt>Founded</dt><dd>2019</dd>
+                <dt>Based in</dt><dd>Amsterdam, Netherlands <small>reported by <a href="https://www.eu-startups.com/2025/05/dutch-fintech-startup-finom-raises-e92-3-million-to-develop-platform-for-smes/">eu-startups.com</a></small></dd>
+                <dt>Team</dt><dd>unknown</dd>
+                <dt>Raised</dt><dd>over €300M in total, including €115M announced in 2025 <small>reported by <a href="https://www.eu-startups.com/2025/06/on-million-customers-by-the-end-of-2026-thats-the-goal-of-dutch-fintech-startup-finom-as-they-announce-e115-million-in-funding/">eu-startups.com</a></small></dd>
+                <dt>Growth</dt><dd>Over 125,000 business customers in five countries, targeting one million by the end of 2026 <small>reported by <a href="https://www.eu-startups.com/2025/05/dutch-fintech-startup-finom-raises-e92-3-million-to-develop-platform-for-smes/">eu-startups.com</a></small></dd>
+              </dl>
+              <div><h4>Where this comes from</h4><ul class="sources"><li><a href="https://finom.co/">Company website</a></li><li><a href="https://www.eu-startups.com/2025/05/dutch-fintech-startup-finom-raises-e92-3-million-to-develop-platform-for-smes/">FINOM raises €92.3 million (EU-Startups)</a> <small>2025-05-01</small></li><li><a href="https://www.eu-startups.com/2025/06/on-million-customers-by-the-end-of-2026-thats-the-goal-of-dutch-fintech-startup-finom-as-they-announce-e115-million-in-funding/">Finom announces €115 million in funding (EU-Startups)</a> <small>2025-06-01</small></li><li><a href="https://vivatech.com/news/top-100-rising-startups-of-2026">VivaTech Top 100 Rising European Startups 2026</a> <small>2026-03-17</small></li></ul></div>
+            </div>
+          </div>
+        </details>
+      </li>
+      <li class="row" data-new="1" data-ind="Legal tech" data-score="6.7" data-growth="7.0">
+        <details>
+          <summary>
+            <span class="rank">12</span>
+            <div class="who"><span class="name">Solve Intelligence</span><span class="meta">Legal tech · United Kingdom</span><span class="pill new">New</span></div>
+            <p class="idea">An AI writing tool for patent attorneys that drafts applications, answers patent office objections and searches prior patents, inside a document editor they already know.</p>
+            <div class="score"><span class="num">6.7</span><span class="meter"><i style="width:67%"></i></span><span class="lbl">potential</span></div>
+            <div class="subs"><span>Market<b>7</b></span><span>Tech<b>6</b></span><span>Growth<b>7</b></span></div>
+          </summary>
+          <div class="detail">
+            <div class="col">
+              <div><h4>The twist</h4><p>It picked patents, the most technical and repetitive corner of law, where a good draft has a clear structure that AI can learn and the fees per document are high.</p></div>
+              <div><h4>Why now</h4><p>Language models can now read technical documents and legal precedent at once, and patent firms bill by the hour on work that is largely pattern.</p></div>
+              <div><h4>Who pays</h4><p>Law firms and corporate patent teams pay per seat; thousands of professionals use it.</p></div>
+              <div><h4>The lesson</h4><p>In a big profession, take the narrowest, most expensive document type first; a niche with high fees beats a broad tool with none.</p></div>
+              <div><h4>Why these scores</h4><ul class="sources"><li><b>Market</b>: Patent work is a multi-billion global profession, but it is one specialty rather than all of law.</li><li><b>Tech</b>: Deep patent-specific workflows and data partnerships, built on rentable models; a strong team could follow in a year or two.</li><li><b>Growth</b>: Fast funding steps and a 40%-plus growth requirement met, but no revenue figure published.</li></ul></div>
+            </div>
+            <div class="col">
+              <dl>
+                <dt>Founded</dt><dd>2023</dd>
+                <dt>Based in</dt><dd>London, United Kingdom, and San Francisco</dd>
+                <dt>Team</dt><dd>11 to 50 <small>reported by <a href="https://www.crunchbase.com/organization/solve-intelligence">crunchbase.com</a></small></dd>
+                <dt>Raised</dt><dd>$55M in total, including a $40M Series B led by Visionaries and a $12M Series A backed by Microsoft</dd>
+                <dt>Growth</dt><dd>Series A to Series B within about a year; on VivaTech&#x27;s list requiring 40% growth for three years <small>(substitute: funding round bigger than the last, curated list criteria)</small></dd>
+              </dl>
+              <div><h4>Where this comes from</h4><ul class="sources"><li><a href="https://www.solveintelligence.com">Company website</a></li><li><a href="https://www.siliconrepublic.com/start-ups/solve-intelligence-patent-ai-software-funding">Solve Intelligence raises $40m for AI patent platform (Silicon Republic)</a></li><li><a href="https://techcrunch.com/2025/04/09/microsoft-backs-solve-intelligence-in-12m-series-a-funding/">Solve Intelligence raises $12M Series A (TechCrunch)</a> <small>2025-04-09</small></li><li><a href="https://www.ycombinator.com/companies/solve-intelligence">Solve Intelligence on Y Combinator</a></li><li><a href="https://vivatech.com/news/top-100-rising-startups-of-2026">VivaTech Top 100 Rising European Startups 2026</a> <small>2026-03-17</small></li></ul></div>
+            </div>
+          </div>
+        </details>
+      </li>
+      <li class="row" data-new="1" data-ind="Open banking" data-score="6.5" data-growth="-1">
+        <details>
+          <summary>
+            <span class="rank">13</span>
+            <div class="who"><span class="name">Tarabut</span><span class="meta">Open banking · Bahrain</span><span class="pill new">New</span><span class="pill unk">Growth unknown</span></div>
+            <p class="idea">Runs the regulated pipes that let apps and banks in the Gulf read a customer&#x27;s bank data and move money with their consent, the way open banking works in Europe.</p>
+            <div class="score"><span class="num">6.5</span><span class="meter"><i style="width:65%"></i></span><span class="lbl">potential</span></div>
+            <div class="subs"><span>Market<b>7</b></span><span>Tech<b>6</b></span><span>Growth<b class="q">?</b></span><span class="hint">score uses market and tech only</span></div>
+          </summary>
+          <div class="detail">
+            <div class="col">
+              <div><h4>The twist</h4><p>It was the first company through Bahrain&#x27;s regulatory sandbox in 2018, so it wrote the template regulators in Saudi Arabia and the UAE later followed.</p></div>
+              <div><h4>Why now</h4><p>Gulf regulators are mandating open banking and Saudi banks want embedded finance without building it themselves.</p></div>
+              <div><h4>Who pays</h4><p>Banks, fintechs and large companies pay to connect through the platform.</p></div>
+              <div><h4>The lesson</h4><p>Be the first to go through a new regulation with the regulator; the rulebook you help write becomes your moat.</p></div>
+              <div><h4>Why these scores</h4><ul class="sources"><li><b>Market</b>: Every bank and fintech in the Gulf will need these pipes, but the region is a few rich countries rather than the whole world.</li><li><b>Tech</b>: The software is standard open-banking plumbing; the licences in three countries are what is hard to copy.</li><li><b>Growth</b>: No customer or volume numbers published; the signal is banks putting $50M in and a fresh acquisition.</li></ul></div>
+            </div>
+            <div class="col">
+              <dl>
+                <dt>Founded</dt><dd>2017</dd>
+                <dt>Based in</dt><dd>Manama, Bahrain, with operations in Saudi Arabia and the UAE</dd>
+                <dt>Team</dt><dd>unknown</dd>
+                <dt>Raised</dt><dd>$50M strategic financing in September 2026 from Riyad Bank, SAB Invest&#x27;s X-Tech Fund, GIB and others, after a $13M seed years earlier</dd>
+                <dt>Growth</dt><dd>Live and regulated in three countries; Saudi banks are now investing in it and it acquired an AI company, Servable <small>(substitute: funding round bigger than the last, acquisition)</small></dd>
+              </dl>
+              <div><h4>Where this comes from</h4><ul class="sources"><li><a href="https://www.tarabut.com">Company website</a></li><li><a href="http://wamda.com/2026/09/tarabut-secures-50-million-deepen-saudi-embedded-finance-push">Tarabut secures $50 million to deepen Saudi embedded finance push (Wamda)</a> <small>2026-09-15</small></li><li><a href="https://www.tradingview.com/news/reuters.com,2026-09-15:newsml_Zaw4DWZdr:0-bahrain-fintech-tarabut-secures-50mln-from-saudi-banks-investors/">Bahrain fintech Tarabut secures $50mln (Reuters)</a> <small>2026-09-15</small></li><li><a href="https://startupbahrain.com/blog/tarabut-from-a-bahrain-sandbox-to-gcc-wide-open-finance">Tarabut: From a Bahrain Sandbox to GCC-wide Open Finance (StartUp Bahrain)</a></li></ul></div>
+            </div>
+          </div>
+        </details>
+      </li>
+      <li class="row" data-new="1" data-ind="InsurTech" data-score="6.3" data-growth="6.0">
+        <details>
+          <summary>
+            <span class="rank">14</span>
+            <div class="who"><span class="name">Artificial</span><span class="meta">InsurTech · United Kingdom</span><span class="pill new">New</span></div>
+            <p class="idea">Software that reads the piles of documents brokers send to specialty insurers, sorts the risks and lets underwriters price and bind them in a fraction of the time.</p>
+            <div class="score"><span class="num">6.3</span><span class="meter"><i style="width:63%"></i></span><span class="lbl">potential</span></div>
+            <div class="subs"><span>Market<b>7</b></span><span>Tech<b>6</b></span><span>Growth<b>6</b></span></div>
+          </summary>
+          <div class="detail">
+            <div class="col">
+              <div><h4>The twist</h4><p>It targets the Lloyd&#x27;s of London market, where huge, unusual risks are still placed by email and PDF, and lets several insurers underwrite together through one algorithm.</p></div>
+              <div><h4>Why now</h4><p>Language models can finally read messy broker submissions, and specialty insurers are under pressure to cut costs.</p></div>
+              <div><h4>Who pays</h4><p>Insurers and brokers such as Apollo, Aon, Convex and Chaucer pay for the platform.</p></div>
+              <div><h4>The lesson</h4><p>Pick the corner of a giant industry that still runs on email, and build the boring plumbing the incumbents will never build themselves.</p></div>
+              <div><h4>Why these scores</h4><ul class="sources"><li><b>Market</b>: Specialty and commercial insurance moves hundreds of billions a year, but the buyers are a limited set of insurers and brokers.</li><li><b>Tech</b>: Deep domain software built over a decade with insurers; not novel science, but slow for a newcomer to match.</li><li><b>Growth</b>: Qualified for a list requiring 40% yearly growth, but no numbers of its own published.</li></ul></div>
+            </div>
+            <div class="col">
+              <dl>
+                <dt>Founded</dt><dd>2013 <small>reported by <a href="https://startupintros.com/orgs/artificial-labs">startupintros.com</a></small></dd>
+                <dt>Based in</dt><dd>London, United Kingdom</dd>
+                <dt>Team</dt><dd>50 to 100 <small>reported by <a href="https://www.crunchbase.com/organization/artificial-labs">crunchbase.com</a></small></dd>
+                <dt>Raised</dt><dd>$67M over three rounds, including a $45M Series B in February 2026</dd>
+                <dt>Growth</dt><dd>Series B raised for US expansion; on VivaTech&#x27;s list, which requires €5M+ yearly revenue and 40% growth for three years <small>(substitute: curated list criteria and funding round)</small></dd>
+              </dl>
+              <div><h4>Where this comes from</h4><ul class="sources"><li><a href="https://artificial.io">Company website</a></li><li><a href="https://www.crunchbase.com/organization/artificial-labs">Artificial Labs on Crunchbase</a></li><li><a href="https://startupintros.com/orgs/artificial-labs">Artificial Labs: Funding, Team &amp; Investors (Startup Intros)</a></li><li><a href="https://artificial.io/company/blog/how-artificial-is-building-smart-consortia-for-the-lloyds-market/">How Artificial is building Smart Consortia for the Lloyd&#x27;s market</a></li><li><a href="https://vivatech.com/news/top-100-rising-startups-of-2026">VivaTech Top 100 Rising European Startups 2026</a> <small>2026-03-17</small></li></ul></div>
+            </div>
+          </div>
+        </details>
+      </li>
+      <li class="row" data-new="1" data-ind="Open finance data" data-score="6.3" data-growth="6.0">
+        <details>
+          <summary>
+            <span class="rank">15</span>
+            <div class="who"><span class="name">Insurely</span><span class="meta">Open finance data · Sweden</span><span class="pill new">New</span></div>
+            <p class="idea">Gives banks, insurers and apps live access to a customer&#x27;s insurance, pension and savings data, with consent, so switching provider or getting advice takes minutes instead of forms.</p>
+            <div class="score"><span class="num">6.3</span><span class="meter"><i style="width:63%"></i></span><span class="lbl">potential</span></div>
+            <div class="subs"><span>Market<b>7</b></span><span>Tech<b>6</b></span><span>Growth<b>6</b></span></div>
+          </summary>
+          <div class="detail">
+            <div class="col">
+              <div><h4>The twist</h4><p>It did for insurance and pensions what open banking did for bank accounts, starting in a market where no rule forced insurers to open up.</p></div>
+              <div><h4>Why now</h4><p>Europe&#x27;s open-finance rules are widening from bank accounts to insurance and pensions, and AI advisers need the customer&#x27;s full financial picture.</p></div>
+              <div><h4>Who pays</h4><p>Banks, insurers and fintechs such as Avanza, ICA Försäkring and SEB pay for the data connections.</p></div>
+              <div><h4>The lesson</h4><p>Build the plumbing for a rule before the rule arrives; when regulation catches up, you are the default.</p></div>
+              <div><h4>Why these scores</h4><ul class="sources"><li><b>Market</b>: Every European bank and insurer will need consented financial data, but it is a business-to-business market with a limited number of buyers.</li><li><b>Tech</b>: Data connections to hundreds of institutions take years to build and are hard to replicate, though not new science.</li><li><b>Growth</b>: Meets a 40% growth rule for a curated list, but publishes no numbers of its own.</li></ul></div>
+            </div>
+            <div class="col">
+              <dl>
+                <dt>Founded</dt><dd>2018</dd>
+                <dt>Based in</dt><dd>Stockholm, Sweden</dd>
+                <dt>Team</dt><dd>unknown</dd>
+                <dt>Raised</dt><dd>€19M Series A (2022) plus an €8M convertible (2023) and earlier rounds</dd>
+                <dt>Growth</dt><dd>On VivaTech&#x27;s 2026 list, which requires €5M+ yearly revenue and 40% growth over three years; clients include Avanza, ICA Försäkring, Lassie, Hedvig and SEB <small>(substitute: curated list criteria)</small></dd>
+              </dl>
+              <div><h4>Where this comes from</h4><ul class="sources"><li><a href="https://www.insurely.com">Company website</a></li><li><a href="https://www.finextra.com/newsarticle/40018/open-insurance-startup-insurely-raises-19-million-signs-deal-with-seb">Insurely raises €19 million; signs deal with SEB (Finextra)</a> <small>2022-03-09</small></li><li><a href="https://fintechnordics.com/7208/fintechsweden/swedish-insurtech-startup-insurely-secures-e8-million-funding/">Insurely secures €8 million (Fintech Nordics)</a> <small>2023-12-01</small></li><li><a href="https://vivatech.com/news/top-100-rising-startups-of-2026">VivaTech Top 100 Rising European Startups 2026</a> <small>2026-03-17</small></li></ul></div>
+            </div>
+          </div>
+        </details>
+      </li>
+      <li class="row" data-new="1" data-ind="Global payroll" data-score="6.3" data-growth="6.0">
+        <details>
+          <summary>
+            <span class="rank">16</span>
+            <div class="who"><span class="name">Ontop</span><span class="meta">Global payroll · Colombia</span><span class="pill new">New</span></div>
+            <p class="idea">Lets a company hire and pay contractors in 150 countries in minutes, with contracts and tax rules handled, while the workers get a global account to receive and spend the money.</p>
+            <div class="score"><span class="num">6.3</span><span class="meter"><i style="width:63%"></i></span><span class="lbl">potential</span></div>
+            <div class="subs"><span>Market<b>8</b></span><span>Tech<b>5</b></span><span>Growth<b>6</b></span></div>
+          </summary>
+          <div class="detail">
+            <div class="col">
+              <div><h4>The twist</h4><p>It skips the expensive employer-of-record model the big players sell and treats the worker as a contractor with their own financial account, from $49 a month.</p></div>
+              <div><h4>Why now</h4><p>The best talent increasingly works as contractors by choice, and companies want to hire across borders without opening a local entity.</p></div>
+              <div><h4>Who pays</h4><p>Companies pay a monthly fee per contractor; freelancers get a global account and card.</p></div>
+              <div><h4>The lesson</h4><p>When the giants sell the expensive full package, sell the lighter version the customer actually needs and price it like software.</p></div>
+              <div><h4>Why these scores</h4><ul class="sources"><li><b>Market</b>: Paying remote workers across borders is a worldwide need for companies of every size, and the contractor share keeps growing.</li><li><b>Tech</b>: Payments, contracts and compliance plumbing that a strong team can rebuild; rivals like Deel sell similar things.</li><li><b>Growth</b>: Solid but not explosive: revenue up 25% in a year, with the company now focused on margins rather than expansion.</li></ul></div>
+            </div>
+            <div class="col">
+              <dl>
+                <dt>Founded</dt><dd>2020</dd>
+                <dt>Based in</dt><dd>Bogotá, Colombia (CEO in Miami)</dd>
+                <dt>Team</dt><dd>about 270 across 25 countries <small>reported by <a href="https://contxto.com/en/fintech/ontop-the-startup-thats-changing-how-companies-hire-and-pay-global-talent/">contxto.com</a></small></dd>
+                <dt>Raised</dt><dd>more than $31M, including a $20M Series A led by SoftBank and Tiger Global</dd>
+                <dt>Growth</dt><dd>Passed $1B in processed payments in 2025; serves 1,300+ companies a month and about 17,000 workers in 120+ countries; revenue up 25% while costs fell 10%</dd>
+              </dl>
+              <div><h4>Where this comes from</h4><ul class="sources"><li><a href="https://www.getontop.com">Company website</a></li><li><a href="https://contxto.com/en/fintech/ontop-the-startup-thats-changing-how-companies-hire-and-pay-global-talent/">Ontop, the startup that&#x27;s changing how companies hire and pay global talent (Contxto)</a> <small>2026-09-10</small></li><li><a href="https://ecosistemastartup.com/ontop-la-startup-colombiana-que-reordeno-el-payroll-global-con-ia/">Ontop reordenó el payroll global con IA (El Ecosistema Startup)</a></li><li><a href="https://colombiaone.com/2025/04/09/colombia-ceo-ontop-fintech-julian-torres/">From Bogota Bedroom to Global Fintech CEO in Miami (Colombia One)</a> <small>2025-04-09</small></li></ul></div>
+            </div>
+          </div>
+        </details>
+      </li>
+      <li class="row" data-new="1" data-ind="Workplace finance" data-score="6.3" data-growth="7.0">
+        <details>
+          <summary>
+            <span class="rank">17</span>
+            <div class="who"><span class="name">Stream</span><span class="meta">Workplace finance · United Kingdom</span><span class="pill new">New</span></div>
+            <p class="idea">An app that hourly workers get through their employer to draw part of their pay early, budget, save, claim benefits and now build a pension, without payday lenders.</p>
+            <div class="score"><span class="num">6.3</span><span class="meter"><i style="width:63%"></i></span><span class="lbl">potential</span></div>
+            <div class="subs"><span>Market<b>8</b></span><span>Tech<b>4</b></span><span>Growth<b>7</b></span></div>
+          </summary>
+          <div class="detail">
+            <div class="col">
+              <div><h4>The twist</h4><p>It sells only through employers, so it reaches millions of low-income workers at once and the employer vouches for it; formerly known as Wagestream.</p></div>
+              <div><h4>Why now</h4><p>Wages are paid monthly while bills arrive daily, and employers such as Hilton and Burger King now compete on financial wellbeing to keep staff.</p></div>
+              <div><h4>Who pays</h4><p>Employers pay for the platform as a staff benefit; workers pay small fees for some features.</p></div>
+              <div><h4>The lesson</h4><p>Distribute through the institution that already has the trust and the payroll; one contract can bring a hundred thousand users.</p></div>
+              <div><h4>Why these scores</h4><ul class="sources"><li><b>Market</b>: Hundreds of millions of hourly workers in rich countries live paycheck to paycheck; the US expansion opens the largest of them.</li><li><b>Tech</b>: A well-made payroll-connected app; the technology is ordinary and rivals offer early wage access too.</li><li><b>Growth</b>: Four million users and 2,000 employers eight years in, with a Series D and an IPO in view, but the yearly growth rate is not published.</li></ul></div>
+            </div>
+            <div class="col">
+              <dl>
+                <dt>Founded</dt><dd>2018</dd>
+                <dt>Based in</dt><dd>London, United Kingdom</dd>
+                <dt>Team</dt><dd>unknown</dd>
+                <dt>Raised</dt><dd>€194M in total, including a €76M Series D led by Sofina in January 2026</dd>
+                <dt>Growth</dt><dd>About four million users across 2,000 employers in the UK, Europe and the US; expanding to the US and eyeing an IPO</dd>
+              </dl>
+              <div><h4>Where this comes from</h4><ul class="sources"><li><a href="https://stream.co/en">Company website</a></li><li><a href="https://www.uktech.news/fintech/stream-67m-series-d-20260120">Workplace finance platform Stream closes £67m Series D round (UKTN)</a> <small>2026-01-20</small></li><li><a href="https://www.eu-startups.com/2026/01/british-workplace-finance-platform-stream-adds-e76-million-in-funding-bringing-total-raised-to-e194-million/">Stream adds €76 million in funding (EU-Startups)</a> <small>2026-01-20</small></li><li><a href="https://www.fintechfutures.com/venture-capital-funding/stream-lands-90m-series-d-to-drive-us-expansion-and-eyes-future-ipo">Stream lands $90m Series D (FinTech Futures)</a></li><li><a href="https://vivatech.com/news/top-100-rising-startups-of-2026">VivaTech Top 100 Rising European Startups 2026</a> <small>2026-03-17</small></li></ul></div>
+            </div>
+          </div>
+        </details>
+      </li>
+      <li class="row" data-new="1" data-ind="Financial data" data-score="5.5" data-growth="-1">
+        <details>
+          <summary>
+            <span class="rank">18</span>
+            <div class="who"><span class="name">ETFbook</span><span class="meta">Financial data · Switzerland</span><span class="pill new">New</span><span class="pill unk">Growth unknown</span></div>
+            <p class="idea">A data service where fund managers, banks and advisers search, compare and analyse every European exchange-traded fund in one place.</p>
+            <div class="score"><span class="num">5.5</span><span class="meter"><i style="width:55%"></i></span><span class="lbl">potential</span></div>
+            <div class="subs"><span>Market<b>6</b></span><span>Tech<b>5</b></span><span>Growth<b class="q">?</b></span><span class="hint">score uses market and tech only</span></div>
+          </summary>
+          <div class="detail">
+            <div class="col">
+              <div><h4>The twist</h4><p>It chose the ETF corner of the giant financial-data market, where the old giants are expensive and slow, and sells the same data by dashboard or by API.</p></div>
+              <div><h4>Why now</h4><p>ETFs are the fastest-growing way people invest, and the number of funds has outgrown the tools built for stocks and mutual funds.</p></div>
+              <div><h4>Who pays</h4><p>Institutional clients such as fund issuers, banks and asset managers pay subscriptions; over 35 at the last count.</p></div>
+              <div><h4>The lesson</h4><p>A focused data product in a fast-growing asset class can take a slice from the incumbents without matching their whole catalogue.</p></div>
+              <div><h4>Why these scores</h4><ul class="sources"><li><b>Market</b>: Financial data is a huge market, but ETF analytics for institutions is a niche with a few thousand possible buyers.</li><li><b>Tech</b>: Solid data engineering and coverage, which a well-funded rival could rebuild in months.</li><li><b>Growth</b>: No revenue or client growth numbers published this year.</li></ul></div>
+            </div>
+            <div class="col">
+              <dl>
+                <dt>Founded</dt><dd>2020</dd>
+                <dt>Based in</dt><dd>Zurich, Switzerland</dd>
+                <dt>Team</dt><dd>over 30 <small>reported by <a href="https://www.startupticker.ch/en/companies/etfbook-squareddata-ag">startupticker.ch</a></small></dd>
+                <dt>Raised</dt><dd>$13M in September 2026 led by Expedition Growth Capital, after a €4M Series A in February 2025</dd>
+                <dt>Growth</dt><dd>Round roughly three times the previous one within 19 months; expanding from Europe to the Americas and Asia-Pacific <small>reported by <a href="https://tech.eu/2026/09/16/etfbook-raises-13m-to-expand-etf-data-and-analytics-globally/">tech.eu</a></small> <small>(substitute: funding round bigger than the last)</small></dd>
+              </dl>
+              <div><h4>Where this comes from</h4><ul class="sources"><li><a href="https://etfbook.com">Company website</a></li><li><a href="https://tech.eu/2026/09/16/etfbook-raises-13m-to-expand-etf-data-and-analytics-globally/">ETFBOOK raises $13M to expand ETF data and analytics globally (Tech.eu)</a> <small>2026-09-16</small></li><li><a href="https://www.startupticker.ch/en/companies/etfbook-squareddata-ag">ETFbook (SquaredData AG) on Startupticker</a></li><li><a href="https://www.eu-startups.com/2025/02/etfbook-raises-e4-million-to-develop-etf-data-and-analytics-platform/">ETFbook raises €4 million (EU-Startups)</a> <small>2025-02-01</small></li></ul></div>
+            </div>
+          </div>
+        </details>
+      </li>
+      <li class="row" data-new="1" data-ind="Travel booking" data-score="5.3" data-growth="6.0">
+        <details>
+          <summary>
+            <span class="rank">19</span>
+            <div class="who"><span class="name">BuuPass</span><span class="meta">Travel booking · Kenya</span><span class="pill new">New</span></div>
+            <p class="idea">Sells bus, train and flight tickets across East Africa from a phone, even a basic one without internet, and gives the bus companies software to run their business.</p>
+            <div class="score"><span class="num">5.3</span><span class="meter"><i style="width:53%"></i></span><span class="lbl">potential</span></div>
+            <div class="subs"><span>Market<b>6</b></span><span>Tech<b>4</b></span><span>Growth<b>6</b></span></div>
+          </summary>
+          <div class="detail">
+            <div class="col">
+              <div><h4>The twist</h4><p>The bus operators get free back-office software, so the ticket marketplace fills itself with inventory nobody else has digitised.</p></div>
+              <div><h4>Why now</h4><p>Africa&#x27;s intercity travel still runs on cash and paper, while nearly everyone now carries a phone that can pay.</p></div>
+              <div><h4>Who pays</h4><p>Travellers pay a booking fee; operators pay for the software and premium tools; companies pay for the new corporate travel service.</p></div>
+              <div><h4>The lesson</h4><p>Digitise the suppliers first and the marketplace follows; the software for the bus companies is what makes the tickets stick.</p></div>
+              <div><h4>Why these scores</h4><ul class="sources"><li><b>Market</b>: Hundreds of millions of Africans travel by bus, but tickets are cheap and the business is regional for now.</li><li><b>Tech</b>: A booking marketplace plus operator software; the USSD access for basic phones is smart but easy to copy.</li><li><b>Growth</b>: Big cumulative numbers and steady new operators, but no recent growth rate published.</li></ul></div>
+            </div>
+            <div class="col">
+              <dl>
+                <dt>Founded</dt><dd>2017</dd>
+                <dt>Based in</dt><dd>Nairobi, Kenya</dd>
+                <dt>Team</dt><dd>unknown</dd>
+                <dt>Raised</dt><dd>about $2.9M over four rounds, plus an undisclosed 2025 investment from Yango Ventures <small>reported by <a href="https://techcabal.com/2025/07/07/buupass-receives-undisclosed-investment/">techcabal.com</a></small></dd>
+                <dt>Growth</dt><dd>Over $70M in bookings in 2024, more than 25 million tickets sold, 150+ operators in four countries; launched corporate travel in 2026 <small>reported by <a href="https://techcabal.com/2025/07/07/buupass-receives-undisclosed-investment/">techcabal.com</a></small></dd>
+              </dl>
+              <div><h4>Where this comes from</h4><ul class="sources"><li><a href="https://buupass.com">Company website</a></li><li><a href="https://techcabal.com/2026/09/15/buupass-safaribucks-partnership/">BuuPass taps SafariBucks for cross-border travel payments (TechCabal)</a> <small>2026-09-15</small></li><li><a href="https://techcabal.com/2025/07/07/buupass-receives-undisclosed-investment/">BuuPass secures investment from Yango Ventures (TechCabal)</a> <small>2025-07-07</small></li><li><a href="https://techcabal.com/2026/04/23/buupass-pushes-corporate-travel-gavanpass-launch/">BuuPass pushes into corporate travel (TechCabal)</a> <small>2026-04-23</small></li></ul></div>
+            </div>
+          </div>
+        </details>
+      </li>
+      <li class="row" data-new="1" data-ind="Health services" data-score="5.0" data-growth="-1">
+        <details>
+          <summary>
+            <span class="rank">20</span>
+            <div class="who"><span class="name">Bumame</span><span class="meta">Health services · Indonesia</span><span class="pill new">New</span><span class="pill unk">Growth unknown</span></div>
+            <p class="idea">Health check-ups, lab tests and personal health plans for Indonesians, booked online and often done at home, aimed at catching illness early.</p>
+            <div class="score"><span class="num">5</span><span class="meter"><i style="width:50%"></i></span><span class="lbl">potential</span></div>
+            <div class="subs"><span>Market<b>7</b></span><span>Tech<b>3</b></span><span>Growth<b class="q">?</b></span><span class="hint">score uses market and tech only</span></div>
+          </summary>
+          <div class="detail">
+            <div class="col">
+              <div><h4>The twist</h4><p>It became Indonesia&#x27;s biggest COVID testing operation, then turned that logistics network and customer base into an everyday preventive-health business.</p></div>
+              <div><h4>Why now</h4><p>Indonesia&#x27;s 280 million people have few doctors per head, and the middle class now pays for prevention rather than only emergencies.</p></div>
+              <div><h4>Who pays</h4><p>Individuals and employers pay per test or for health plans.</p></div>
+              <div><h4>The lesson</h4><p>A one-off crisis business can leave behind a network worth more than the crisis; keep the network and change the product.</p></div>
+              <div><h4>Why these scores</h4><ul class="sources"><li><b>Market</b>: Preventive health for one of the world&#x27;s most populous countries, though mostly a domestic market.</li><li><b>Tech</b>: A service business with an app on top; the advantage is operations and brand, not technology.</li><li><b>Growth</b>: No numbers since the COVID years; two funding rounds in two years are the only signal.</li></ul></div>
+            </div>
+            <div class="col">
+              <dl>
+                <dt>Founded</dt><dd>2020</dd>
+                <dt>Based in</dt><dd>Jakarta, Indonesia <small>reported by <a href="https://500.co/content/bumame-raises-pre-series-a-to-bring-personalized-healthcare-early-detection-and-faster-diagnostics-to-everyone-in-indonesia-markup-1169">500.co</a></small></dd>
+                <dt>Team</dt><dd>unknown</dd>
+                <dt>Raised</dt><dd>Undisclosed pre-Series A led by Alpha JWC Ventures with 500 Global and Kopital Ventures (2025), and new Japan-backed funding in September 2026</dd>
+                <dt>Growth</dt><dd>Was the number one COVID testing provider in Indonesia; no current customer numbers published <small>reported by <a href="https://500.co/content/bumame-raises-pre-series-a-to-bring-personalized-healthcare-early-detection-and-faster-diagnostics-to-everyone-in-indonesia-markup-1169">500.co</a></small> <small>(substitute: repeated funding rounds)</small></dd>
+              </dl>
+              <div><h4>Where this comes from</h4><ul class="sources"><li><a href="https://bumame.com">Company website</a></li><li><a href="https://500.co/content/bumame-raises-pre-series-a-to-bring-personalized-healthcare-early-detection-and-faster-diagnostics-to-everyone-in-indonesia-markup-1169">Bumame raises pre-Series A (500 Global)</a></li><li><a href="https://technode.global/2025/02/27/indonesias-bumame-secures-pre-series-a-funding-led-by-alpha-jwc-ventures-for-expansion/">Bumame secures pre-Series A led by Alpha JWC (TechNode Global)</a> <small>2025-02-27</small></li><li><a href="https://dailysocial.id/p/akulaku-files-for-hk-ipo-bumame-lands">Bumame lands Japan-backed funding (DailySocial)</a> <small>2026-09-07</small></li></ul></div>
+            </div>
+          </div>
+        </details>
+      </li>
+    </ol>
+    <p class="foot">This week's run: 58 searches of 60, 40 pages of 40, 20 startups judged of 20, 23 minutes. Last successful run: 16 September 2026. Feeds read: 30. Known startups in memory: 252.</p>
+    
+    <p class="foot">Scores run from 0 to 10 and are a rough sorting tool only. Market, tech and growth count equally. When growth is unknown, the score uses the other two and says so. A fact shown without a note was confirmed by two independent sources; otherwise it says who reported it.</p>
+  </section>
+</div>
+<script>
+  (function () {
+    var list = document.getElementById('startups'); if (!list) return;
+    var rows = Array.prototype.slice.call(list.children); var newMode = 'all', ind = 'all';
+    function apply() {
+      rows.forEach(function (r) { r.hidden = !((newMode === 'all' || r.dataset.new === '1') && (ind === 'all' || r.dataset.ind === ind)); });
+      var n = 1; rows.forEach(function (r) { if (!r.hidden) r.querySelector('.rank').textContent = n++; });
+    }
+    function sortBy(key) {
+      rows.sort(function (a, b) {
+        if (key === 'new') return (b.dataset.new - a.dataset.new) || (b.dataset.score - a.dataset.score);
+        return (b.dataset[key] - a.dataset[key]) || (b.dataset.score - a.dataset.score);
+      });
+      rows.forEach(function (r) { list.appendChild(r); }); apply();
+    }
+    document.querySelectorAll('.seg button').forEach(function (b) { b.addEventListener('click', function () {
+      document.querySelectorAll('.seg button').forEach(function (x) { x.classList.remove('on'); }); b.classList.add('on'); newMode = b.dataset.new; apply(); }); });
+    document.querySelectorAll('.chips button[data-ind]').forEach(function (b) { b.addEventListener('click', function () {
+      document.querySelectorAll('.chips button[data-ind]').forEach(function (x) { x.classList.remove('on'); }); b.classList.add('on'); ind = b.dataset.ind; apply(); }); });
+    var sel = document.getElementById('sort'); if (sel) sel.addEventListener('change', function (e) { sortBy(e.target.value); });
+  })();
+</script>

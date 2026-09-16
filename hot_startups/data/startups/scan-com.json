@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United Kingdom",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "scan-com",
+  "industry": "Health tech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Medical imaging booking; $90M Series C.",
+      "source": "Startup Finanzierungsrunde September 2026",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://techstartups.com/2026/09/09/venture-capital-startup-funding-roundup-september-9-2026-andreessen-horowitz-coatue-management-greylock-lightspeed-kleiner-perkins-sequoia-more/"
+    }
+  ],
+  "name": "Scan.com",
+  "name_key": "scancom",
+  "region": "europe",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:51:23+00:00",
+  "website": null
+}

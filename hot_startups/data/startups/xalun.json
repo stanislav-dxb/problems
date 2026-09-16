@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Switzerland",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "xalun",
+  "industry": "Robotics",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-14",
+      "run": "2026-09-16-r1",
+      "snippet": "ETH Zurich students building the first Swiss humanoid robot.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://sifted.eu/articles/eth-zurich-students-humanoid-xalun/"
+    }
+  ],
+  "name": "Xalun",
+  "name_key": "xalun",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:47:15+00:00",
+  "website": null
+}

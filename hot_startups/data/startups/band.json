@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Israel",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "band",
+  "industry": "Tech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "New company by Eric Gomanovsky, founder of Armotic and Signify; $17M seed.",
+      "source": "סטארטאפ גייס סבב סיד ספטמבר 2026",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://www.geektime.co.il/tag/%D7%A1%D7%91%D7%91-%D7%A1%D7%99%D7%93/"
+    }
+  ],
+  "name": "BAND",
+  "name_key": "band",
+  "region": "mea",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:53:30+00:00",
+  "website": null
+}

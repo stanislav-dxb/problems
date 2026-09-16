@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Germany",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "phase0",
+  "industry": "Construction software",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Cloud software with AI agents that do the admin of small architecture and engineering offices; €2.6M seed extension.",
+      "source": "Startup Finanzierungsrunde September 2026",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://www.vc-magazin.de/blog/2026/09/14/phase0-erhaelt-zusaetzliches-seedkapital/"
+    }
+  ],
+  "name": "Phase0",
+  "name_key": "phase0",
+  "region": "europe",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:51:23+00:00",
+  "website": null
+}

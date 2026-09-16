@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Japan",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "heartbeats",
+  "industry": "Digital collectibles",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-14",
+      "run": "2026-09-16-r1",
+      "snippet": "Digital trading card collection service ORICAL; about ¥2.3B Series C.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://thebridge.jp/2026/09/heartbeats-raises-about-2-3-billion-yen-series-c"
+    }
+  ],
+  "name": "HEARTBEATS",
+  "name_key": "heartbeats",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:50:10+00:00",
+  "website": null
+}

@@ -1,0 +1,166 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "India",
+  "domain": "kepleraerospace.in",
+  "drop_reason": null,
+  "entry": {
+    "country": "India",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.business-standard.com/companies/start-ups/kepler-aerospace-raises-8-million-swarming-isr-satellites-126090100625_1.html",
+          "https://evertiq.com/news/2026-09-03-indian-firm-kepler-raises-8-million-to-build-swarm-satellites"
+        ],
+        "value": "Bengaluru, India"
+      },
+      "founded": {
+        "confirmed": true,
+        "sources": [
+          "https://www.business-standard.com/companies/start-ups/kepler-aerospace-raises-8-million-swarming-isr-satellites-126090100625_1.html",
+          "https://inc42.com/buzz/kepler-aerospace-raises-8-mn-to-launch-six-autonomous-surveillance-satellites/"
+        ],
+        "value": "2018"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.business-standard.com/companies/start-ups/kepler-aerospace-raises-8-million-swarming-isr-satellites-126090100625_1.html"
+        ],
+        "value": "Two iDEX defence contracts; first six-satellite constellation being built"
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.business-standard.com/companies/start-ups/kepler-aerospace-raises-8-million-swarming-isr-satellites-126090100625_1.html",
+          "https://inc42.com/buzz/kepler-aerospace-raises-8-mn-to-launch-six-autonomous-surveillance-satellites/"
+        ],
+        "value": "$8M seed in September 2026 led by Blue Ashva Capital, co-led by Finvolve; its first outside funding"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Builds small satellites that fly as a swarm, talk to each other and decide together what to look at, so a defence customer gets intelligence in minutes instead of months.",
+    "industry": "Space tech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r1",
+    "lesson": "Win the government contract first and let it fund the hardware; the investors come after the product exists.",
+    "name": "Kepler Aerospace",
+    "not_startup_reason": null,
+    "overall": 7.5,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "substitute: defence contracts and first funding",
+        "reason": "No revenue numbers; the satellites are not in orbit yet.",
+        "score": null,
+        "source": "https://www.business-standard.com/companies/start-ups/kepler-aerospace-raises-8-million-swarming-isr-satellites-126090100625_1.html"
+      },
+      "market": {
+        "reason": "Governments worldwide are buying surveillance satellites, but the customers are few and the sales cycles long.",
+        "score": 7,
+        "source": "https://inc42.com/buzz/kepler-aerospace-raises-8-mn-to-launch-six-autonomous-surveillance-satellites/"
+      },
+      "tech": {
+        "reason": "Own avionics and a swarm that coordinates itself in orbit; hardware plus autonomy that takes years to build.",
+        "score": 8,
+        "source": "https://www.business-standard.com/companies/start-ups/kepler-aerospace-raises-8-million-swarming-isr-satellites-126090100625_1.html"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-01",
+        "title": "Kepler Aerospace raises $8 mn seed round (Business Standard)",
+        "url": "https://www.business-standard.com/companies/start-ups/kepler-aerospace-raises-8-million-swarming-isr-satellites-126090100625_1.html"
+      },
+      {
+        "date": "2026-09-01",
+        "title": "Kepler Aerospace raises $8 Mn to launch six autonomous surveillance satellites (Inc42)",
+        "url": "https://inc42.com/buzz/kepler-aerospace-raises-8-mn-to-launch-six-autonomous-surveillance-satellites/"
+      },
+      {
+        "date": "2026-09-16",
+        "title": "Indian space startup Kepler raises $8m (Tech in Asia)",
+        "url": "https://www.techinasia.com/indian-space-startup-kepler-raises-8m-isr-satellites"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It makes the satellite parts itself, the on-board computers, power and radio, and bootstrapped for eight years on Indian defence contracts before taking any outside money.",
+    "website": "https://www.kepleraerospace.in",
+    "who_pays": "The Indian defence ministry through iDEX contracts, and later other governments and companies needing surveillance data.",
+    "why_now": "India is pushing private space and defence companies hard, and cheap launches make a six-satellite swarm affordable."
+  },
+  "first_judged_run": "2026-09-16-r1",
+  "first_seen": "2026-09-16",
+  "id": "kepler",
+  "industry": "Space tech",
+  "last_checked": "2026-09-16",
+  "mentions": [
+    {
+      "date": "2026-09-16",
+      "run": "2026-09-16-r1",
+      "snippet": "Indian space startup building intelligence, surveillance and reconnaissance satellites; $8M raised.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.techinasia.com/indian-space-startup-kepler-raises-8m-isr-satellites"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Bengaluru; founded 2018 by Navneet Singh and Kiran V Sharma; builds satellite avionics and subsystems; first constellation of six autonomous swarming ISR satellites with optical, thermal and electronic-warfare sensors under two iDEX defence contracts; first outside funding, co-led by Finvolve",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Kepler Aerospace raises $8 mn seed round led by Blue Ashva Capital",
+      "url": "https://www.business-standard.com/companies/start-ups/kepler-aerospace-raises-8-million-swarming-isr-satellites-126090100625_1.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "aims to cut time from space data to intelligence from months to minutes",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Kepler Aerospace Raises $8 Mn To Launch Six Autonomous Surveillance Satellites",
+      "url": "https://inc42.com/buzz/kepler-aerospace-raises-8-mn-to-launch-six-autonomous-surveillance-satellites/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Indian firm Kepler raises $8 million to build swarm satellites",
+      "url": "https://evertiq.com/news/2026-09-03-indian-firm-kepler-raises-8-million-to-build-swarm-satellites"
+    }
+  ],
+  "name": "Kepler Aerospace",
+  "name_key": "kepler",
+  "region": "asia",
+  "research": {
+    "judged_run": "2026-09-16-r1",
+    "pages": 0,
+    "queries_done": [
+      "\"Kepler\" startup India"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": null,
+      "market": 7.0,
+      "overall": 7.5,
+      "run": "2026-09-16-r1",
+      "tech": 8.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T15:03:20+00:00",
+  "website": "https://www.kepleraerospace.in"
+}

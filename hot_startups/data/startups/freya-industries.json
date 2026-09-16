@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Sweden",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "freya-industries",
+  "industry": "Security tech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-14",
+      "run": "2026-09-16-r1",
+      "snippet": "Security and defence sensors sold across five European markets; €532K raised.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://arcticstartup.com/freya-industries-raises-e532k/"
+    }
+  ],
+  "name": "Freya Industries",
+  "name_key": "freyaindustries",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:48:18+00:00",
+  "website": null
+}

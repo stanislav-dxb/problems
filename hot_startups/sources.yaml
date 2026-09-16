@@ -27,7 +27,6 @@ regions:
       - {name: Gründerszene (de), url: "https://www.businessinsider.de/gruenderszene/feed/"}
       - {name: El Referente (es), url: "https://elreferente.es/feed/"}
       - {name: ArcticStartup, url: "https://arcticstartup.com/feed/"}
-      - {name: Silicon Canals, url: "https://siliconcanals.com/feed/"}
     queries:
       en:
         - "European startup raises seed round {month_year}"
@@ -57,7 +56,6 @@ regions:
       - {name: Platum (ko), url: "https://platum.kr/feed"}
       - {name: Inc42, url: "https://inc42.com/feed/"}
       - {name: YourStory, url: "https://yourstory.com/feed"}
-      - {name: e27, url: "https://e27.co/feed/"}
       - {name: DailySocial (id), url: "https://dailysocial.id/feed"}
       - {name: The Ken, url: "https://the-ken.com/feed/"}
     queries:
@@ -94,7 +92,7 @@ regions:
     share: 0.07
     feeds:
       - {name: Wamda, url: "https://www.wamda.com/feed"}
-      - {name: Disrupt Africa, url: "https://disrupt-africa.com/feed/"}
+      - {name: Disrupt Africa, url: "https://disruptafrica.com/feed/"}
       - {name: TechCabal, url: "https://techcabal.com/feed/"}
       - {name: Geektime (he), url: "https://www.geektime.co.il/feed/"}
       - {name: Webrazzi (tr), url: "https://webrazzi.com/feed/"}

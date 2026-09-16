@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "humans",
+  "industry": "AI research",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "AI research lab; $480M seed led by SV Angel and Georges Harik.",
+      "source": "初创公司 完成 种子轮 融资 2026年9月",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://finance.sina.com.cn/roll/2026-05-13/doc-inhxufvc7388204.shtml"
+    }
+  ],
+  "name": "humans&",
+  "name_key": "humans",
+  "region": "asia",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:52:23+00:00",
+  "website": null
+}

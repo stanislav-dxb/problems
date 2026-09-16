@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "South Korea",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "asteromorph",
+  "industry": "Deep tech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Seed-stage deep tech startup that raised about 40 billion won.",
+      "source": "스타트업 시드 투자 유치 2026년 9월",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://www.kjob.news/news/522868"
+    }
+  ],
+  "name": "Asteromorph",
+  "name_key": "asteromorph",
+  "region": "asia",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:53:29+00:00",
+  "website": null
+}

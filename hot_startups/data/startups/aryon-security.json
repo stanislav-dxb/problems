@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Israel",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "aryon-security",
+  "industry": "Cloud security",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Cloud security that stops risky changes before they happen; $9M seed.",
+      "source": "סטארטאפ גייס סבב סיד ספטמבר 2026",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://www.ice.co.il/finance/news/article/1053902"
+    }
+  ],
+  "name": "Aryon Security",
+  "name_key": "aryonsecurity",
+  "region": "mea",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:53:30+00:00",
+  "website": null
+}

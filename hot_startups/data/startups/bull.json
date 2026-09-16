@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Brazil",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "bull",
+  "industry": "Credit fintech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Credit platform for small businesses using AI; R$20M seed less than a year after a R$10M pre-seed.",
+      "source": "startup capta rodada seed setembro de 2026",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://businessmoment.com.br/bull-capta-20-milhoes-rodada-seed-ia/"
+    }
+  ],
+  "name": "Bull",
+  "name_key": "bull",
+  "region": "latin_america",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:53:30+00:00",
+  "website": null
+}

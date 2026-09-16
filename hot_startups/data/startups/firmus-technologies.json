@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Australia",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "firmus-technologies",
+  "industry": "AI data centres",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Low-emission 'green AI factories' for compute, originally a bitcoin miner; $330M round backed by Nvidia, now a unicorn.",
+      "source": "Australian startup raises funding September 2026",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://blog.mean.ceo/startups-australia-news-september-2026/"
+    }
+  ],
+  "name": "Firmus Technologies",
+  "name_key": "firmustechnologies",
+  "region": "other",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:53:30+00:00",
+  "website": null
+}

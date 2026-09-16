@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Italy",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "health-triage",
+  "industry": "Health tech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Cancer prevention; €3M raised.",
+      "source": "startup round di investimento settembre 2026 Italia",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://www.etruriaoggi.it/startup-italiane-nel-2026-tutti-i-round-di-investimento-settori-in-crescita-e-mega-finanziamenti/"
+    }
+  ],
+  "name": "Health Triage",
+  "name_key": "healthtriage",
+  "region": "europe",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:52:23+00:00",
+  "website": null
+}

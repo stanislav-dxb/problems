@@ -1,0 +1,212 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "France",
+  "domain": "aqemia.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "France",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.vestbee.com/insights/articles/aqemia-raises-7-4-m-grant",
+          "https://www.crunchbase.com/organization/aqemia"
+        ],
+        "value": "Paris, France (also London)"
+      },
+      "founded": {
+        "confirmed": true,
+        "sources": [
+          "https://www.vestbee.com/insights/articles/aqemia-raises-7-4-m-grant",
+          "https://www.crunchbase.com/organization/aqemia"
+        ],
+        "value": "2019"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://frenchhealthcare.com/pharma-biotech/aqemia-the-french-startup-pushes-the-boundaries-of-medical-research/",
+          "https://www.crunchbase.com/organization/aqemia"
+        ],
+        "value": "Several drug programmes showed efficacy in animal models; a €150M partnership with Sanofi and work with Johnson & Johnson"
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.crunchbase.com/organization/aqemia",
+          "https://www.vestbee.com/insights/articles/aqemia-raises-7-4-m-grant"
+        ],
+        "value": "over $110M across six rounds, including a €60M Series A and a $7.4M France 2030 grant"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://www.crunchbase.com/organization/aqemia"
+        ],
+        "value": "about 70"
+      }
+    },
+    "idea": "Designs new drug molecules with physics simulation plus generative AI, so a candidate medicine can be found before anything is tested in a lab.",
+    "industry": "Biotech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r1",
+    "lesson": "Pair AI with hard science it cannot fake; the physics makes the model trustworthy exactly where data is scarce.",
+    "name": "AQEMIA",
+    "not_startup_reason": null,
+    "overall": 9.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: pharma partnerships and funding rounds",
+        "reason": "No revenue or programme-count numbers are published; the signals are a €150M pharma deal and repeated funding.",
+        "score": null,
+        "source": "https://www.crunchbase.com/organization/aqemia"
+      },
+      "market": {
+        "reason": "Finding new medicines faster and cheaper applies to every disease and every drug company in the world.",
+        "score": 9,
+        "source": "https://www.euronews.com/health/2025/05/22/meet-aqemia-the-french-company-leveraging-ai-backed-physics-tools-for-drug-discovery"
+      },
+      "tech": {
+        "reason": "A physics-plus-AI engine spun out of a top science school, with programmes already working in animals; years of work to copy.",
+        "score": 9,
+        "source": "https://www.crunchbase.com/organization/aqemia"
+      }
+    },
+    "sources": [
+      {
+        "date": "2025-04-01",
+        "title": "AQEMIA raises $7.4M grant from France 2030 (Vestbee)",
+        "url": "https://www.vestbee.com/insights/articles/aqemia-raises-7-4-m-grant"
+      },
+      {
+        "date": null,
+        "title": "AQEMIA on Crunchbase",
+        "url": "https://www.crunchbase.com/organization/aqemia"
+      },
+      {
+        "date": "2025-05-22",
+        "title": "Meet Aqemia (Euronews)",
+        "url": "https://www.euronews.com/health/2025/05/22/meet-aqemia-the-french-company-leveraging-ai-backed-physics-tools-for-drug-discovery"
+      },
+      {
+        "date": null,
+        "title": "Aqemia pushes the boundaries of medical research (French Healthcare)",
+        "url": "https://frenchhealthcare.com/pharma-biotech/aqemia-the-french-startup-pushes-the-boundaries-of-medical-research/"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising European Startups 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Instead of learning only from past chemistry data, it computes how molecules physically bind using statistical mechanics, so it works where no data exists yet.",
+    "website": "https://aqemia.com",
+    "who_pays": "Big pharma pays for multi-year research partnerships, such as a €150M deal with Sanofi, while the company keeps its own drug pipeline.",
+    "why_now": "Computing power and generative AI now make exact physics calculations fast enough to run across millions of candidate molecules."
+  },
+  "first_judged_run": "2026-09-16-r1",
+  "first_seen": "2026-09-16",
+  "id": "aqemia-com",
+  "industry": "Biotech",
+  "last_checked": "2026-09-16",
+  "mentions": [
+    {
+      "date": "2026-03-17",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Founded 2019 by Maximilien Levesque and Emmanuelle Martiano; physics-based algorithms, statistical mechanics and generative AI to design drug candidates, oncology focus; offices Paris and London; four rounds over €71.2M",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Paris-based biotech startup AQEMIA raises $7.4M grant from France 2030",
+      "url": "https://www.vestbee.com/insights/articles/aqemia-raises-7-4-m-grant"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Meet Aqemia, the French start-up leveraging AI-backed physics tools for drug discovery",
+      "url": "https://www.euronews.com/health/2025/05/22/meet-aqemia-the-french-company-leveraging-ai-backed-physics-tools-for-drug-discovery"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "several programs with efficacy in animal models; RNA-targeting projects with Novalix",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Aqemia: the French startup pushes the boundaries of medical research",
+      "url": "https://frenchhealthcare.com/pharma-biotech/aqemia-the-french-startup-pushes-the-boundaries-of-medical-research/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Founded 2019 by CEO Maximilien Levesque and COO Emmanuelle Martiano, spin-off of ENS Paris; $110.5M over 6 rounds; about 70 employees; €60M Series A; investors Cathay Innovation, Wendel; revenue from multi-year pharma collaborations incl. a €150M partnership with Sanofi and work with Johnson & Johnson",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "AQEMIA - Crunchbase Company Profile & Funding",
+      "url": "https://www.crunchbase.com/organization/aqemia"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Behind the Term Sheet: AQEMIA's 38M Funding Round",
+      "url": "https://medium.com/cathay-innovation/behind-the-term-sheet-aqemias-38m-funding-round-2f1160c7b5d0"
+    },
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Aqemia company information, funding & investors | Dealroom",
+      "url": "https://app.dealroom.co/companies/aqemia"
+    }
+  ],
+  "name": "AQEMIA",
+  "name_key": "aqemia",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-aqemia-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-09-16-r1",
+    "pages": 2,
+    "queries_done": [
+      "\"Aqemia\" startup France",
+      "\"Aqemia\" founders funding customers"
+    ],
+    "refresh": false,
+    "searches": 2,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-aqemia-com.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": null,
+      "market": 9.0,
+      "overall": 9.0,
+      "run": "2026-09-16-r1",
+      "tech": 9.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T14:58:30+00:00",
+  "website": "https://aqemia.com/"
+}

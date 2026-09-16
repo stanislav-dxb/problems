@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Costa Rica",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "artemis",
+  "industry": "Fintech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-08-11",
+      "run": "2026-09-16-r1",
+      "snippet": "Accounts in dollars and colones with IBANs plus a digital asset wallet; $1.2M pre-seed.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://contxto.com/en/fintech/artemis-secures-a-1-2-million-investment-round-and-sets-up-operations-in-costa-rica/"
+    }
+  ],
+  "name": "Artemis",
+  "name_key": "artemis",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:50:11+00:00",
+  "website": null
+}

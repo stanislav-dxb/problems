@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "France",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "harmattan-ai",
+  "industry": "Defence tech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "AI-assisted military drones; founded 2024; €171.2M round led by Dassault Aviation.",
+      "source": "startup lève des fonds septembre 2026",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://independant.io/top-levees-fonds-france-2026/"
+    }
+  ],
+  "name": "Harmattan AI",
+  "name_key": "harmattanai",
+  "region": "europe",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:52:23+00:00",
+  "website": null
+}

@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "India",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "janai-technology",
+  "industry": "AI services",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-15",
+      "run": "2026-09-16-r1",
+      "snippet": "Plans 10,000 local JanAI Cafes to bring AI services to 100 million rural households in three years.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://yourstory.com/2026/09/janai-technology-ai-100-million-bharat-households"
+    }
+  ],
+  "name": "JanAI Technology",
+  "name_key": "janaitechnology",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:50:11+00:00",
+  "website": null
+}

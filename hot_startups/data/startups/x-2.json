@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "South Korea",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "x-2",
+  "industry": "Consumer",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-16-r1",
+      "snippet": "Raised a seed round in September 2026.",
+      "source": "스타트업 시드 투자 유치 2026년 9월",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://startuprecipe.co.kr/archives/5824563"
+    }
+  ],
+  "name": "이뿌다",
+  "name_key": "",
+  "region": "asia",
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:53:29+00:00",
+  "website": null
+}

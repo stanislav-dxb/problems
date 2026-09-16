@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United Arab Emirates",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-16",
+  "id": "keep-converting",
+  "industry": "E-commerce AI",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-08",
+      "run": "2026-09-16-r1",
+      "snippet": "AI conversion optimisation for online shops; $2M pre-seed, founded 2025.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "http://wamda.com/2026/09/converting-closes-2-million-pre-seed-led-nuwa-capital-cotu-ventures"
+    }
+  ],
+  "name": "Keep Converting",
+  "name_key": "keepconverting",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-16T14:50:11+00:00",
+  "website": null
+}
