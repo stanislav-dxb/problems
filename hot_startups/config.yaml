@@ -27,6 +27,7 @@ startup_rule:
 
 discovery:
   share_of_searches: 0.4          # part of the search budget spent on finding new names (the rest researches them)
+  skip_when_backlog_over: 100     # no hunting for new names while this many found startups still wait to be judged
 
 research:
   searches_per_startup: 1
@@ -40,6 +41,13 @@ struggling:
 feeds:
   batch_size: 40                  # feed entries per extraction ticket
   max_batches: 12
+  # A feed entry reaches Claude only if it mentions one of these words (funding, launch, new company), in any language.
+  keywords: [raise, raises, raised, funding, funded, seed, pre-seed, series a, series b, series c, round, launch, launches, emerges, stealth,
+             startup, start-up, backs, invests, investment, valuation, unicorn, accelerator, demo day, spin-off, spinout,
+             finanzierung, millionen, gründer, "lève", "levée", millions, ronda, inversión, levanta, cierra, millones,
+             capta, rodada, aporte, milhões, raccoglie, milioni, 資金調達, 調達, スタートアップ, シード, シリーズ,
+             투자, 유치, 스타트업, 시드, 融资, 初创, 创业, 种子轮, pendanaan, yatırım, girişim, גייס, גיוס, סטארטאפ,
+             инвестиции, стартап, привлёк, раунд, تمويل, ناشئة]
 
 text:
   max_chars_per_page: 6000

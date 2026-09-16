@@ -271,12 +271,22 @@ def _plan_lists(cfg: dict, store: Store, run: dict, batch: int) -> list[dict]:
 
 
 # ---- feeds ---------------------------------------------------------------
+def _looks_like_startup_news(cfg: dict, title: str, summary: str) -> bool:
+    """Keep an entry only when it talks about funding, a launch or a new company, in any of our languages."""
+    words = cfg["feeds"].get("keywords") or []
+    if not words:
+        return True
+    text = f"{title} {summary}".lower()
+    return any(w.lower() in text for w in words)
+
+
 def _plan_feeds(cfg: dict, sources: dict, store: Store, run: dict, batch: int) -> list[dict]:
     state = run["phase_state"]["feeds"]
     entries_path = store.work / "feed_entries.json"
     if not state["fetched"] or not entries_path.exists():
         seen = store.seen_links()
         entries = []
+        skipped = 0
         for region, rdef in sources.get("regions", {}).items():
             for feed in rdef.get("feeds", []):
                 ok, items, err = read_feed(feed["url"])
@@ -288,12 +298,16 @@ def _plan_feeds(cfg: dict, sources: dict, store: Store, run: dict, batch: int) -
                     if not e["link"] or e["link"] in seen:
                         continue
                     seen[e["link"]] = run["id"]
-                    entries.append({"region": region, "feed": feed["name"], "title": e["title"], "link": e["link"], "summary": clip(e["summary"], 300), "date": e["date"][:25]})
+                    if not _looks_like_startup_news(cfg, e["title"], e["summary"]):
+                        skipped += 1
+                        continue
+                    entries.append({"region": region, "feed": feed["name"], "title": e["title"], "link": e["link"], "summary": clip(e["summary"], 200), "date": e["date"][:25]})
         store.save_seen_links(seen)
         write_json(entries_path, entries)
         state["fetched"] = True
         state["total_entries"] = len(entries)
-        log(run, f"feeds: {run['counts']['feeds_read']} read, {len(entries)} new entries")
+        state["skipped_entries"] = skipped
+        log(run, f"feeds: {run['counts']['feeds_read']} read, {len(entries)} entries kept, {skipped} skipped as not startup news")
     entries = read_json(entries_path, [])
     size = int(cfg["feeds"]["batch_size"])
     max_batches = min(int(cfg["feeds"]["max_batches"]), max(1, int(run["limits"]["pages_per_week"] * 0.4)))
@@ -331,8 +345,21 @@ def _fill(template: str, lang: str, **kw) -> str:
     return re.sub(r"\s+", " ", out).strip()
 
 
+def _backlog(store: Store) -> int:
+    """Startups found but not yet judged."""
+    return sum(1 for r in store.startups().values() if r["status"] == "candidate")
+
+
 def _plan_discovery(cfg: dict, sources: dict, store: Store, run: dict, batch: int) -> list[dict]:
     state = run["phase_state"]["discovery"]
+    cap = int(cfg["discovery"].get("skip_when_backlog_over", 0))
+    if cap and not state.get("_started") and _backlog(store) >= cap:
+        log(run, f"discovery skipped: {_backlog(store)} startups already waiting to be judged (limit {cap})")
+        state["skipped"] = True
+        _advance(run)
+        return []
+    state["_started"] = True
+    yields = read_json(store.data / "query_yield.json", {}) or {}
     budget = int(round(float(cfg["discovery"]["share_of_searches"]) * int(run["limits"]["searches_per_week"])))
     regions = sources.get("regions", {})
     tasks = []
@@ -345,15 +372,23 @@ def _plan_discovery(cfg: dict, sources: dict, store: Store, run: dict, batch: in
         templates = []
         for lang, tl in (rdef.get("queries") or {}).items():
             for t in tl:
+                y = yields.get(t, {})
+                if int(y.get("uses", 0)) >= 2 and int(y.get("candidates", 0)) == 0:
+                    continue  # tried twice, never named a startup: retired
                 templates.append((lang, t))
         if not templates:
             continue
+        used_now = st.setdefault("queries", [])
         while st["issued"] < alloc[region] and remaining(run, "searches") > 0 and len(tasks) < batch:
             lang, template = templates[(run["number"] * 3 + st["issued"]) % len(templates)]
             st["issued"] += 1
+            query = _fill(template, lang)
+            if query in used_now:
+                continue  # the same words twice in one run would only repeat results
+            used_now.append(query)
             tasks.append(_issue(store, run, {
                 "type": "search", "key": f"discover-{region}-{st['issued']}", "purpose": "discover", "region": region, "language": lang,
-                "query": _fill(template, lang), "instructions": EXPECT["search"],
+                "template": template, "query": query, "instructions": EXPECT["search"],
             }, "searches"))
         if len(tasks) >= batch:
             break
@@ -526,21 +561,21 @@ def _best_article(rec: dict) -> str | None:
 
 
 def _judge_task(cfg: dict, store: Store, run: dict, rec: dict) -> dict:
-    root = Path(cfg["_root"])
-    rulebook = (root / "RULEBOOK.md").read_text(encoding="utf-8") if (root / "RULEBOOK.md").exists() else ""
     rs = rec["research"]
     cap = int(cfg["text"]["max_chars_per_dossier"])
     site_text = Path(rs["site_text"]).read_text(encoding="utf-8") if rs.get("site_text") and Path(rs["site_text"]).exists() else ""
     art_text = Path(rs["article_text"]).read_text(encoding="utf-8") if rs.get("article_text") and Path(rs["article_text"]).exists() else ""
-    mentions = [{"source": m.get("source"), "kind": m.get("source_kind"), "url": m.get("url"), "title": m.get("title"), "date": m.get("date"), "snippet": clip(m.get("snippet"), 400)} for m in rec.get("mentions", [])][:40]
+    mentions = [{"source": m.get("source"), "kind": m.get("source_kind"), "url": m.get("url"), "title": m.get("title"), "date": m.get("date"), "snippet": clip(m.get("snippet"), 250)}
+                for m in rec.get("mentions", []) if m.get("snippet") or m.get("title")][:12]
     dossier = {
         "startup_id": rec["id"], "name": rec["name"], "aliases": rec.get("aliases", []), "website": rec.get("website"), "country": rec.get("country"),
         "industry_guess": rec.get("industry"), "mentions": mentions,
-        "website_text": clip(site_text, cap // 2), "article_url": rs.get("article_url"), "article_text": clip(art_text, cap // 3),
+        "website_text": clip(site_text, cap // 4), "article_url": rs.get("article_url"), "article_text": clip(art_text, cap // 5),
         "previous_entry": rec.get("entry") if rs.get("refresh") else None,
     }
     return {
-        "type": "judge", "key": f"judge-{rec['id']}", "startup_id": rec["id"], "instructions": EXPECT["judge"], "rulebook": rulebook,
+        "type": "judge", "key": f"judge-{rec['id']}", "startup_id": rec["id"], "instructions": EXPECT["judge"],
+        "rulebook": "RULEBOOK.md in the hot_startups folder; read it once at the start of the run and apply it to every write-up",
         "startup_rule": {"max_team_size": cfg["startup_rule"]["max_team_size"], "must_be_private": True},
         "regions": REGIONS, "schema": JUDGE_SCHEMA, "dossier": dossier, "refresh": bool(rs.get("refresh")),
     }
@@ -684,6 +719,13 @@ def _take_search(cfg, sources, store, run, task, result) -> str:
     for c in (result.get("candidates") or [])[:40]:
         if isinstance(c, dict) and _merge_candidate(store, run, c, "search", task.get("query", "web search"), task.get("region")):
             n_c += 1
+    if task.get("purpose") == "discover" and task.get("template"):
+        path = store.data / "query_yield.json"
+        yields = read_json(path, {}) or {}
+        y = yields.setdefault(task["template"], {"uses": 0, "candidates": 0})
+        y["uses"] += 1
+        y["candidates"] += n_c
+        write_json(path, yields)
     return f"{len(results)} results, {n_c} candidates"
 
 

@@ -9,6 +9,7 @@ The program hands out tickets and counts them; Claude does the searching, readin
 2. `pip install -q -r hot_startups/requirements.txt`
 3. `cd hot_startups && python -m hotstartups init`
 4. `python -m hotstartups run start`. If it prints `paused`, stop here and say so. It prints the limits for this run.
+5. Read `RULEBOOK.md` once now. Every `judge` ticket relies on it; the ticket itself no longer repeats it.
 
 ## The loop
 
@@ -19,7 +20,7 @@ Repeat until `next` prints `"done": true`:
    - `search` and `research_search`: run the WebSearch tool with `query` (several in parallel is fine). Write the JSON result file.
    - `extract`: read the `text` in the task and write the candidates file. No web access needed.
    - `fetch_extract` and `fetch`: use the WebFetch tool on `url` with a prompt as the instructions say. Write the result file.
-   - `judge`: read `rulebook`, `schema` and `dossier` in the task, write the entry file following the schema exactly.
+   - `judge`: read `schema` and `dossier` in the task, apply the rulebook you read at the start, write the entry file following the schema exactly.
    - `struggling`, `trends`, `gaps`, `brief`: read the task payload, write the result file.
 3. Save each result as `work/<ticket>.result.json` and run the command in the task's `submit_with`.
    If submit prints `rejected`, fix the file and submit again.

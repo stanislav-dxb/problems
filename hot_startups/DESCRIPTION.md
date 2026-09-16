@@ -118,6 +118,21 @@ The reader sets three numbers in the settings file, in plain words:
   limits above; afterwards the reader checks the usage page on claude.ai, and the weekly numbers are
   set together from real figures.
 
+## Keeping usage low
+
+Four rules cut the tokens a run spends, roughly halving it:
+
+1. **No hunting while the backlog is big.** New-name searches run only when fewer than 100 found startups are
+   waiting to be judged.
+2. **Feeds are filtered first.** A feed entry reaches Claude only if it mentions funding, a launch or a new
+   company, in any of our languages. Everything else is dropped by the program.
+3. **Leaner write-ups.** The rulebook is read once per run, not sent with every write-up, and each dossier
+   carries less website text.
+4. **Empty search phrases retire.** The program records how many startups each search phrase finds; a phrase
+   that found nothing twice is no longer used.
+
+The weekly run can also be set to a lighter model, which uses less of the subscription's limit.
+
 ## The page
 
 Fully online, opened from any laptop, following the approved sketch:

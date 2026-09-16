@@ -93,3 +93,22 @@ def test_paused_and_bad_submission(ctx):
     with pytest.raises(tasks.RunError):
         tasks.submit(cfg, src, store, run, t["ticket"], {"results": "not a list"})
     assert run["tickets"][t["ticket"]]["status"] == "issued"
+
+
+def test_feed_filter_and_backlog_skip(ctx):
+    cfg, src, store = ctx
+    from hotstartups.tasks import _looks_like_startup_news, _backlog, start_run, next_tasks
+    cfg["feeds"]["keywords"] = ["raises", "seed", "capta", "資金調達"]
+    assert _looks_like_startup_news(cfg, "Acme raises $5M", "")
+    assert _looks_like_startup_news(cfg, "Startup capta rodada", "")
+    assert _looks_like_startup_news(cfg, "スタートアップが資金調達", "")
+    assert not _looks_like_startup_news(cfg, "What to wear to a tech interview", "The essential dos and don'ts")
+    # a big backlog of found-but-unjudged startups switches discovery off
+    for i in range(5):
+        store.save_startup(store.new_startup(f"Waiting {i}", f"https://waiting{i}.io"))
+    assert _backlog(store) == 5
+    cfg["discovery"]["skip_when_backlog_over"] = 5
+    run = start_run(cfg, store)
+    res = next_tasks(cfg, src, store, run, batch=10)
+    assert all(t["type"] != "search" or t.get("purpose") != "discover" for t in res["tasks"])
+    assert run["phase_state"]["discovery"].get("skipped") is True

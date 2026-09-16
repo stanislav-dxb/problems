@@ -1,0 +1,94 @@
+{
+  "Australian startup raises funding {month_year}": {
+    "candidates": 1,
+    "uses": 1
+  },
+  "Canada startup raises funding {month_year}": {
+    "candidates": 0,
+    "uses": 1
+  },
+  "Startup Finanzierungsrunde {month_year}": {
+    "candidates": 4,
+    "uses": 1
+  },
+  "Y Combinator {season} {year} batch most interesting startups": {
+    "candidates": 0,
+    "uses": 2
+  },
+  "girişim yatırım aldı {month_year}": {
+    "candidates": 0,
+    "uses": 1
+  },
+  "most promising startups {year} United States": {
+    "candidates": 0,
+    "uses": 1
+  },
+  "startup capta rodada seed {month_year}": {
+    "candidates": 3,
+    "uses": 1
+  },
+  "startup cierra ronda de inversión {month_year} España": {
+    "candidates": 2,
+    "uses": 1
+  },
+  "startup levanta capital {month_year} Colombia Argentina Chile": {
+    "candidates": 2,
+    "uses": 1
+  },
+  "startup lève des fonds {month_year}": {
+    "candidates": 1,
+    "uses": 1
+  },
+  "startup raih pendanaan {month_year}": {
+    "candidates": 1,
+    "uses": 1
+  },
+  "startup raises Series A {month_year} United States": {
+    "candidates": 3,
+    "uses": 1
+  },
+  "startup raises seed round {month_year}": {
+    "candidates": 3,
+    "uses": 1
+  },
+  "startup round di investimento {month_year} Italia": {
+    "candidates": 3,
+    "uses": 1
+  },
+  "startups prometteuses {year} France": {
+    "candidates": 2,
+    "uses": 1
+  },
+  "stealth startup emerges {month_year}": {
+    "candidates": 7,
+    "uses": 1
+  },
+  "vielversprechendste Startups {year} Deutschland Österreich Schweiz": {
+    "candidates": 1,
+    "uses": 1
+  },
+  "סטארטאפ גייס סבב סיד {month_year}": {
+    "candidates": 3,
+    "uses": 1
+  },
+  "スタートアップ 資金調達を実施 {month_year}": {
+    "candidates": 2,
+    "uses": 1
+  },
+  "初创公司 完成 种子轮 融资 {month_year}": {
+    "candidates": 2,
+    "uses": 1
+  },
+  "最具潜力 创业公司 {year}": {
+    "candidates": 1,
+    "uses": 1
+  },
+  "注目 スタートアップ {year}": {
+    "candidates": 5,
+    "uses": 1
+  },
+  "스타트업 시드 투자 유치 {month_year}": {
+    "candidates": 3,
+    "uses": 1
+  }
+}
