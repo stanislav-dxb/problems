@@ -4,11 +4,104 @@
   "country": "United Kingdom",
   "domain": "dexory.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.romania-insider.com/robotics-startup-dexory-funding-oct-2025"
+        ],
+        "value": "Wallingford, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.romania-insider.com/robotics-startup-dexory-funding-oct-2025"
+        ],
+        "value": "2015"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://uk.finance.yahoo.com/news/dexory-uk-start-up-worlds-tallest-autonomous-robot-060042100.html"
+        ],
+        "value": "Clients include GXO, Maersk, DHL, Stellantis and GE Appliances, with a new North American headquarters in Nashville, Tennessee."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "about $285M total, including a $165M Series C"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Dexory sends autonomous robots to scan warehouse shelves and builds a live digital copy of the warehouse, so managers always know exactly what stock they have and where.",
+    "industry": "Robotics",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Solve a boring, repetitive task, like counting stock, with a robot built specifically for the size and shape of the problem.",
+    "name": "Dexory",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: a funding round bigger than the last, plus major named enterprise clients",
+        "reason": "No revenue or robot deployment count numbers were found; the clearest signal is a large new funding round and major named customers.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "Warehouses across logistics, manufacturing, retail and pharma worldwide need accurate, real-time inventory tracking.",
+        "score": 7.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Building the tallest autonomous scanning robot of its kind alongside a live digital twin platform is hard robotics and software engineering.",
+        "score": 7.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Romanian-born robotics startup in London secures USD 165 mln funding | Romania Insider",
+        "url": "https://www.romania-insider.com/robotics-startup-dexory-funding-oct-2025"
+      },
+      {
+        "date": null,
+        "title": "Dexory, the UK start-up with 'world's tallest autonomous robot'",
+        "url": "https://uk.finance.yahoo.com/news/dexory-uk-start-up-worlds-tallest-autonomous-robot-060042100.html"
+      },
+      {
+        "date": null,
+        "title": "Dexory 2026 Company Profile: Valuation, Funding & Investors | PitchBook",
+        "url": "https://pitchbook.com/profiles/company/172587-61"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its robot is the tallest of its kind in the world at 16 metres, letting it scan very high warehouse racking that other systems cannot reach.",
+    "website": "https://www.dexory.com/fr",
+    "who_pays": "Logistics companies, manufacturers, and retail and pharmaceutical businesses pay to use the robots and inventory software in their warehouses.",
+    "why_now": "Supply chains need real-time inventory accuracy, and warehouses are under pressure to run efficiently with fewer staff doing manual stock checks."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "dexory-com",
-  "industry": "Physical AI & Robotics",
-  "last_checked": null,
+  "industry": "Robotics",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +115,25 @@
   ],
   "name": "Dexory",
   "name_key": "dexory",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": null,
+      "market": 7.0,
+      "overall": 7.0,
+      "run": "2026-09-16-r2",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://www.dexory.com/fr"
 }

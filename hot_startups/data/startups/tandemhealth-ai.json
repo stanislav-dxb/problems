@@ -4,11 +4,109 @@
   "country": "Sweden",
   "domain": "tandemhealth.ai",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Sweden",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://arcticstartup.com/tandem-health-raises-9-5m-seed/"
+        ],
+        "value": "Stockholm, Sweden"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://arcticstartup.com/tandem-health-raises-9-5m-seed/"
+        ],
+        "value": "2023"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.eu-startups.com/2025/06/swedish-startup-tandem-secures-e42-6-million-to-reduce-admin-burden-on-clinicians/"
+        ],
+        "value": "Peer-reviewed research found clinicians using Tandem saw a 29% cut in admin time, 30% better job satisfaction and 30% less administrative stress."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "€138.38M ($160M) total, including a $100M Series B"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Tandem Health builds an AI assistant that listens to patient visits and writes up accurate medical notes for doctors, so clinicians spend less time on paperwork.",
+    "industry": "Health tech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Target the paperwork burden in a profession with a well-known burnout problem, and back your product with independent research.",
+    "name": "Tandem Health",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "It went from a $9.5M seed to a $100M Series B with rapidly increasing round sizes and real independent evidence of impact.",
+        "score": 8.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Reducing paperwork for doctors matters across all of healthcare, a huge and essential industry, mainly within Europe for now.",
+        "score": 7.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Accurate, compliant medical note-taking backed by peer-reviewed evidence is harder to copy than a generic transcription tool, though not unique science.",
+        "score": 6.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Swedish healthcare startup raises $9.5M seed to streamline administrative tasks for clinicians - ArcticStartup",
+        "url": "https://arcticstartup.com/tandem-health-raises-9-5m-seed/"
+      },
+      {
+        "date": "2026-09-01",
+        "title": "Stockholm's Tandem Health raises €86.5 million to build an AI-native operating system for European healthcare | EU-Startups",
+        "url": "https://www.eu-startups.com/2026/09/stockholms-tandem-health-raises-e86-5-million-to-build-an-ai-native-operating-system-for-european-healthcare"
+      },
+      {
+        "date": "2025-06-01",
+        "title": "Swedish startup Tandem Health secures €42.6 million to reduce admin burden on clinicians | EU-Startups",
+        "url": "https://www.eu-startups.com/2025/06/swedish-startup-tandem-secures-e42-6-million-to-reduce-admin-burden-on-clinicians/"
+      },
+      {
+        "date": "2026-09-14",
+        "title": "Tandem Health scores $100M Series B, led by EU's €5bn tech startup fund - Tech.eu",
+        "url": "https://tech.eu/2026/09/14/swedish-healthtech-tandem-health-scores-100m-series-b-led-by-eus-eur5bn-tech-startup-fund"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It aims to be a full AI-native operating system for clinics, not just a note-taking add-on, and its impact has been checked with peer-reviewed research.",
+    "website": "https://www.tandemhealth.ai/fr",
+    "who_pays": "Clinics and healthcare providers pay to use the AI assistant to reduce clinicians' administrative work.",
+    "why_now": "Clinics everywhere face staff shortages and burnout from paperwork, and AI can now write accurate, compliant medical notes in real time."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "tandemhealth-ai",
-  "industry": "HealthTech",
-  "last_checked": null,
+  "industry": "Health tech",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +120,25 @@
   ],
   "name": "Tandem Health",
   "name_key": "tandemhealth",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 8.0,
+      "market": 7.0,
+      "overall": 7.0,
+      "run": "2026-09-16-r2",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://www.tandemhealth.ai/fr"
 }

@@ -4,11 +4,103 @@
   "country": "United States",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.optica-opn.org/home/industry/2024/december/ayar_labs_gets_key_funds_from_chip_giants/"
+        ],
+        "value": "San Jose, California, United States"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.optica-opn.org/home/industry/2024/december/ayar_labs_gets_key_funds_from_chip_giants/"
+        ],
+        "value": "2015"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "Strategic investment from three of the world's largest chipmakers (AMD Ventures, Intel Capital, NVIDIA), plus a new design center opening in Bengaluru, India as it moves toward mass production."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "$150M Series E in September 2026, bringing new funding raised this year to $650M and total funding to $1.02B at a $3.75B valuation"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Ayar Labs replaces the electrical wiring between computer chips with light, letting AI data centers move far more data between chips while using less power.",
+    "industry": "Optical chips",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "When physical wiring becomes the bottleneck holding back an entire industry's next leap in performance, deep hardware science aimed squarely at that bottleneck can attract huge strategic investment.",
+    "name": "Ayar Labs",
+    "not_startup_reason": null,
+    "overall": 8.7,
+    "recovered_from_page": true,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "It raised $650M in a single year, reached a $3.75B valuation, and secured direct strategic investment from AMD, Intel and NVIDIA, exceptionally strong momentum.",
+        "score": 9.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Every AI data center provider worldwide faces the same chip-to-chip data bottleneck, a very large and urgent infrastructure market.",
+        "score": 8.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Building working optical interconnects that pack light-based data links right next to a chip is deep, years-in-the-making photonics hardware engineering, extremely hard to copy quickly.",
+        "score": 9.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-14",
+        "title": "Ayar Labs、光インターコネクト量産へ1.5億ドルを追加調達",
+        "url": "https://thebridge.jp/2026/09/ayar-labs-raises-additional-150m-for-optical-io-production"
+      },
+      {
+        "date": null,
+        "title": "Ayar Labs Gets Key Funds from Chip Giants - Optics & Photonics News",
+        "url": "https://www.optica-opn.org/home/industry/2024/december/ayar_labs_gets_key_funds_from_chip_giants/"
+      },
+      {
+        "date": null,
+        "title": "Ayar Labs, Latest Optical Interconnect Startup To Raise Big, Hits Unicorn Status",
+        "url": "https://news.crunchbase.com/ai/interconnect-startup-raises-big-ayar-labs/"
+      },
+      {
+        "date": null,
+        "title": "Ayar Labs 2026 Company Profile: Valuation, Funding & Investors | PitchBook",
+        "url": "https://pitchbook.com/profiles/company/113119-75"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its optical connections sit right next to the chip itself (co-packaged optics), rather than as a separate add-on card, closing the distance that normally limits how fast chips can talk to each other.",
+    "website": null,
+    "who_pays": "Major chipmakers and AI infrastructure builders invest in and buy Ayar Labs' optical interconnect technology to build faster, more power-efficient AI hardware.",
+    "why_now": "AI data centers are hitting a wall where moving data between chips wastes more power and limits speed more than the chips' own computing, making a faster, lower-power connection method essential."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "ayar-labs",
   "industry": "Optical chips",
-  "last_checked": null,
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-09-14",
@@ -22,14 +114,25 @@
   ],
   "name": "Ayar Labs",
   "name_key": "ayarlabs",
-  "region": null,
+  "region": "north_america",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:50:10+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 9.0,
+      "market": 8.0,
+      "overall": 8.7,
+      "run": "2026-09-16-r2",
+      "tech": 9.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": null
 }

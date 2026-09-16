@@ -4,11 +4,110 @@
   "country": "United Kingdom",
   "domain": "fuseenergy.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://sifted.eu/articles/fuse-energy-70m-balderton-lowercarbon-capital"
+        ],
+        "value": "London, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://sifted.eu/articles/fuse-energy-70m-balderton-lowercarbon-capital"
+        ],
+        "value": "2022"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://en.wikipedia.org/wiki/Fuse_Energy"
+        ],
+        "value": "Supplies power to 200,000 UK households and reached $400 million in annual recurring revenue as of December 2025."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://sifted.eu/articles/fuse-energy-70m-balderton-lowercarbon-capital"
+        ],
+        "value": "$70M round at a $5bn valuation"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Fuse Energy sells cheaper household and business electricity and gas, while also building and owning its own solar and wind power to supply it.",
+    "industry": "Energy",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Combine being a customer-friendly reseller with owning the supply source, so you are not just squeezed by wholesale prices.",
+    "name": "Fuse Energy",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "It reached $400 million in annual recurring revenue and 200,000 households, described as Europe's fastest-growing energy startup.",
+        "score": 9.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Almost every household and business needs energy, though Fuse currently only serves Great Britain.",
+        "score": 7.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Owning some renewable generation is a real asset, but energy retail and small-scale generation are not hard for a well-funded rival to replicate.",
+        "score": 4.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Fuse Energy raises $70m backed by Balderton and Lowercarbon Capital | Sifted",
+        "url": "https://sifted.eu/articles/fuse-energy-70m-balderton-lowercarbon-capital"
+      },
+      {
+        "date": "2025-12-01",
+        "title": "Founded by former Revolut executives, Britain's Fuse Energy secures €59 million to scale energy operations | EU-Startups",
+        "url": "https://www.eu-startups.com/2025/12/founded-by-former-revolut-executives-britains-fuse-energy-secures-e59-million-to-to-scale-energy-operations/"
+      },
+      {
+        "date": null,
+        "title": "Fuse Energy",
+        "url": "https://en.wikipedia.org/wiki/Fuse_Energy"
+      },
+      {
+        "date": null,
+        "title": "Ex-Revolut execs turn Fuse into Europe's fastest-growing energy startup — TFN",
+        "url": "https://techfundingnews.com/ex-revolut-founders-fuse-europes-fastest-growing-energy-startup/"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Unlike most energy resellers, it owns real solar farms and a wind turbine, so it makes money both from supplying customers and from generating renewable power itself.",
+    "website": "https://www.fuseenergy.com/",
+    "who_pays": "Households and businesses pay Fuse for their electricity, gas and EV charging.",
+    "why_now": "Rising energy bills make customers eager to switch suppliers, while cheaper renewable power lets a new entrant undercut established energy companies."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "fuseenergy-com",
   "industry": "Energy",
-  "last_checked": null,
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +121,25 @@
   ],
   "name": "Fuse Energy",
   "name_key": "fuseenergy",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 9.0,
+      "market": 7.0,
+      "overall": 6.7,
+      "run": "2026-09-16-r2",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://www.fuseenergy.com/"
 }

@@ -4,11 +4,105 @@
   "country": "Israel",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Israel",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.ynetnews.com/magazine/article/rjit7jckge"
+        ],
+        "value": "Tel Aviv, Israel"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.ynetnews.com/magazine/article/rjit7jckge"
+        ],
+        "value": "2020"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://en.globes.co.il/en/article-israeli-ai-english-tutor-loora-raises-22m-1001556728"
+        ],
+        "value": "More than 15 million users worldwide, revenue more than doubling in the past 12 months to tens of millions of dollars in annual recurring revenue, and over 200 million conversations held with its AI tutor."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "http://www.jpost.com/business-and-innovation/article-908819"
+        ],
+        "value": "$22M Series B led by Union Tech Ventures, with vgames, Emerge, Hearst Ventures and QP Ventures, bringing total funding to more than $43M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Loora lets people practice speaking English by having real conversations with an AI tutor instead of a human teacher, adapting to their level and interests as they talk.",
+    "industry": "AI tools",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Picking one specific, hard-to-scale part of an existing huge market, like live speaking practice, and building the product entirely around solving it can carve out a strong position.",
+    "name": "Loora",
+    "not_startup_reason": null,
+    "overall": 7.7,
+    "recovered_from_page": true,
+    "region": "mea",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "15 million users, revenue more than doubling in a year, and over 200 million AI conversations held are all clear, strong growth numbers.",
+        "score": 9.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Learning to speak English is a need shared by hundreds of millions of people worldwide, one of the largest education markets there is.",
+        "score": 8.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Building a conversational AI tutor that adapts to a learner's level and interests in real time is solid, applied AI engineering, though competitors in AI language learning are emerging quickly.",
+        "score": 6.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-16",
+        "title": "הסטארטאפ שמנסה להחליף מורים לאנגלית ב-AI גייס עוד 22 מיליון דולר",
+        "url": "https://www.geektime.co.il/loora-raises-22m-series-b/"
+      },
+      {
+        "date": null,
+        "title": "The Israeli startup taking on Duolingo: Two former IDF commandos built a multimillion-dollar English app",
+        "url": "https://www.ynetnews.com/magazine/article/rjit7jckge"
+      },
+      {
+        "date": null,
+        "title": "Israeli AI English-learning startup Loora raises $22m. in Series B",
+        "url": "http://www.jpost.com/business-and-innovation/article-908819"
+      },
+      {
+        "date": null,
+        "title": "Israeli AI English tutor Loora raises $22m - Globes",
+        "url": "https://en.globes.co.il/en/article-israeli-ai-english-tutor-loora-raises-22m-1001556728"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It focuses on spoken conversation and pronunciation practice specifically, rather than the vocabulary and grammar drills most language apps like Duolingo emphasize.",
+    "website": null,
+    "who_pays": "Individual learners pay subscriptions to practice spoken English through Loora's AI tutor app.",
+    "why_now": "Learning to speak a language confidently requires lots of live conversation practice that human tutors are too expensive and scarce to provide at scale, and conversational AI has only recently become good enough to fill that gap."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "loora",
-  "industry": "Language learning AI",
-  "last_checked": null,
+  "industry": "AI tools",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-09-16",
@@ -22,14 +116,25 @@
   ],
   "name": "Loora",
   "name_key": "loora",
-  "region": null,
+  "region": "mea",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:50:11+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 9.0,
+      "market": 8.0,
+      "overall": 7.7,
+      "run": "2026-09-16-r2",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": null
 }

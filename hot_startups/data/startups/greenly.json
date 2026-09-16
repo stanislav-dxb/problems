@@ -4,11 +4,103 @@
   "country": "France",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "France",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://en.wikipedia.org/wiki/Greenly_(company)"
+        ],
+        "value": "Paris, France"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://en.wikipedia.org/wiki/Greenly_(company)"
+        ],
+        "value": "2019"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "Works with about 2,000 companies across Europe and the US, and just acquired competitor Normative for €65 million."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "Over $75M total across multiple rounds, including a $52M (€48M) Series B led by Fidelity International Strategic Ventures"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Greenly automatically calculates a company's carbon footprint from its financial and operational data, so businesses can track and report emissions without doing the accounting by hand.",
+    "industry": "Carbon accounting",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Buying a competitor outright can be faster than out-building them when a market is consolidating around a handful of platforms doing the same job.",
+    "name": "Greenly",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "It serves about 2,000 companies and just acquired a direct competitor for €65 million, a clear sign of scale and market consolidation.",
+        "score": 8.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Carbon emissions reporting is becoming a mandatory requirement for large companies across many countries and industries, a large and growing compliance market.",
+        "score": 7.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "It automates emissions calculations from a company's financial and operational data, solid data engineering rather than a hard scientific barrier.",
+        "score": 5.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-11",
+        "title": "Greenly acquires Normative in carbon accounting consolidation",
+        "url": "https://sifted.eu/articles/greenly-normative-acquisition-carbon-accounting/"
+      },
+      {
+        "date": null,
+        "title": "Greenly (company) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Greenly_(company)"
+      },
+      {
+        "date": null,
+        "title": "French carbon accounting startup Greenly raises €48M funding to accelerate adoption of emissions reporting - Silicon Canals",
+        "url": "https://siliconcanals.com/french-startup-greenly-raises-48m/"
+      },
+      {
+        "date": "2024-04-09",
+        "title": "How This French Startup Is Helping Companies Clean Up Their Carbon Clutter With $75 Million - Forbes",
+        "url": "https://www.forbes.com/sites/zoyahasan/2024/04/09/how-this-french-startup-is-helping-companies-clean-up-their-carbon-clutter-with-75-million/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It recently acquired a direct competitor, Normative, for €65 million, consolidating two carbon accounting platforms into one to serve a much larger combined customer base.",
+    "website": null,
+    "who_pays": "Large companies across Europe and the US, including brands like LVMH, L'Oréal and TripAdvisor, pay to use Greenly's platform to track and reduce their carbon footprint.",
+    "why_now": "New regulations are forcing more companies worldwide to measure and report their carbon emissions, and manually calculating those numbers is too slow and error-prone to keep up with demand."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "greenly",
   "industry": "Carbon accounting",
-  "last_checked": null,
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-09-11",
@@ -22,14 +114,25 @@
   ],
   "name": "Greenly",
   "name_key": "greenly",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:47:15+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 8.0,
+      "market": 7.0,
+      "overall": 6.7,
+      "run": "2026-09-16-r2",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": null
 }

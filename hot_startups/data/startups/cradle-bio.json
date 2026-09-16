@@ -4,11 +4,109 @@
   "country": "Netherlands",
   "domain": "cradle.bio",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Netherlands",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.movetheneedle.news/start-ups/how-this-dutch-swiss-ai-start-up-is-revolutionising-protein-engineering/"
+        ],
+        "value": "Delft, Netherlands, with additional operations in Zurich, Switzerland"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.movetheneedle.news/start-ups/how-this-dutch-swiss-ai-start-up-is-revolutionising-protein-engineering/"
+        ],
+        "value": "2021"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "Its platform is used by major biopharma and industrial bio R&D teams including Johnson & Johnson Innovation, Novo Nordisk, Grifols, Novonesis, Twist Bioscience, Bayer and Lundbeck."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.futuremedicine.com/articles/cradle-bio-raises-73m-series-b-to-advance-ai-protein-engineering-software"
+        ],
+        "value": "$5.4M seed, then $24M Series A (Nov 2023), then $73M Series B led by Institutional Venture Partners, bringing total funding to over $100M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Cradle uses generative AI to design and improve proteins, so drug and industrial biology researchers can get to a working protein in far fewer lab experiments than trial-and-error methods.",
+    "industry": "Biotech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Combining a general AI model with a customer's own proprietary experimental data can make the tool useful and differentiated for each customer, not just generically smart.",
+    "name": "Cradle",
+    "not_startup_reason": null,
+    "overall": 7.7,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Funding jumped from a $5.4M seed to a $73M Series B in under three years, and the client list already includes several of the largest names in biopharma.",
+        "score": 8.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Protein engineering underlies drug development and industrial biology worldwide, a large and valuable, if specialised, R&D market.",
+        "score": 7.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Generative AI trained on billions of sequences and continuously enriched with each customer's own lab data is genuinely advanced, hard-to-copy science.",
+        "score": 8.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "How This Dutch-Swiss AI Start-up Is Revolutionising Protein Engineering",
+        "url": "https://www.movetheneedle.news/start-ups/how-this-dutch-swiss-ai-start-up-is-revolutionising-protein-engineering/"
+      },
+      {
+        "date": null,
+        "title": "Cradle Bio Raises $73M Series B to Advance AI Protein Engineering Software",
+        "url": "https://www.futuremedicine.com/articles/cradle-bio-raises-73m-series-b-to-advance-ai-protein-engineering-software"
+      },
+      {
+        "date": null,
+        "title": "AI-Powered Drug Discovery in the Dutch Biotech Ecosystem: How Voyagen, Cradle Bio and Dutch Innovators Are Leading 2026 | Panda",
+        "url": "https://www.panda-int.com/insights/ai-powered-drug-discovery-in-the-dutch-biotech-ecosystem-how-voyagen-cradle-bio-and-dutch-innovators-are-leading-2026/"
+      },
+      {
+        "date": null,
+        "title": "Cradle | Engineer better proteins, faster.",
+        "url": "https://cradle.bio"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its AI is trained not just on billions of known protein sequences but also on each customer's own experimental data, so its suggestions keep improving with every round of lab testing.",
+    "website": "https://cradle.bio",
+    "who_pays": "Pharmaceutical and industrial biology companies, including major players like Johnson & Johnson Innovation, Novo Nordisk, Bayer and Lundbeck, pay to use Cradle's platform to design and optimize proteins.",
+    "why_now": "Protein engineering has traditionally required deep bioinformatics expertise and years of lab iteration, and generative AI models are now good enough to compress that process into a handful of rounds."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "cradle-bio",
-  "industry": "Biotech & Life Sciences",
-  "last_checked": null,
+  "industry": "Biotech",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +120,25 @@
   ],
   "name": "Cradle",
   "name_key": "cradle",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 8.0,
+      "market": 7.0,
+      "overall": 7.7,
+      "run": "2026-09-16-r2",
+      "tech": 8.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://cradle.bio"
 }

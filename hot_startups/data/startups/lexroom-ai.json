@@ -4,11 +4,110 @@
   "country": "Italy",
   "domain": "lexroom.ai",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Italy",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://tech.eu/2025/09/29/italys-lexroom-secures-19m-series-a-to-redefine-legal-workflows-with-ai/"
+        ],
+        "value": "Milan, Italy"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://tech.eu/2025/09/29/italys-lexroom-secures-19m-series-a-to-redefine-legal-workflows-with-ai/"
+        ],
+        "value": "2023"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.eu-startups.com/2026/05/italian-ai-legaltech-startup-lexroom-raises-e42-9-million-series-b-eight-months-after-e16-2-million-series-a/"
+        ],
+        "value": "Tripled its client base and doubled its team in six months, expanding into Germany with a launch in Spain planned."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.eu-startups.com/2026/05/italian-ai-legaltech-startup-lexroom-raises-e42-9-million-series-b-eight-months-after-e16-2-million-series-a/"
+        ],
+        "value": "over €62.7M total, including a €42.9M Series B"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Lexroom uses generative AI to help lawyers research the law, draft documents and summarise cases in plain language questions.",
+    "industry": "Legal tech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Build for a legal or regulatory system that bigger, US-first competitors overlook, and you get a whole region to yourself.",
+    "name": "Lexroom",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Client base tripled and team doubled in just six months, with a Series B eight months after the Series A.",
+        "score": 9.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Legal work is a large, real market, and civil law systems cover many countries, though this is one profession, not everyone.",
+        "score": 6.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Tailoring generative AI to civil law jurisdictions with high-quality legal sources is a real edge, though a strong team could build something similar in a year or two.",
+        "score": 6.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2025-09-29",
+        "title": "Italy's Lexroom secures $19M Series A to redefine legal workflows with AI - Tech.eu",
+        "url": "https://tech.eu/2025/09/29/italys-lexroom-secures-19m-series-a-to-redefine-legal-workflows-with-ai/"
+      },
+      {
+        "date": "2026-05-01",
+        "title": "Italian AI LegalTech startup Lexroom raises €42.9 million Series B eight months after €16.2 million Series A | EU-Startups",
+        "url": "https://www.eu-startups.com/2026/05/italian-ai-legaltech-startup-lexroom-raises-e42-9-million-series-b-eight-months-after-e16-2-million-series-a/"
+      },
+      {
+        "date": null,
+        "title": "Italy's legaltech startup Lexroom.ai raises €16M Series A led by Base10 Partners | Vestbee",
+        "url": "https://www.vestbee.com/insights/articles/lexroom-ai-raises-16-m"
+      },
+      {
+        "date": null,
+        "title": "Italian legal AI start-up Lexroom raises $50m in Series B funding round - The Global Legal Post",
+        "url": "https://www.globallegalpost.com/news/italian-legal-ai-start-up-lexroom-raises-50m-in-series-b-funding-round-2043907803"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It is built specifically for civil law countries, a legal system used across much of Europe and Latin America that most legal AI tools ignore.",
+    "website": "https://www.lexroom.ai/",
+    "who_pays": "Lawyers and corporate legal teams pay to use the platform for research, drafting and case work.",
+    "why_now": "Law firms face growing caseloads and want AI that understands their own country's legal system, not just US law."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "lexroom-ai",
-  "industry": "LegalTech",
-  "last_checked": null,
+  "industry": "Legal tech",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +121,25 @@
   ],
   "name": "Lexroom",
   "name_key": "lexroom",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 9.0,
+      "market": 6.0,
+      "overall": 7.0,
+      "run": "2026-09-16-r2",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://www.lexroom.ai/"
 }

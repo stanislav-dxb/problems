@@ -2,13 +2,106 @@
   "alias_keys": [],
   "aliases": [],
   "country": "United Kingdom",
-  "domain": null,
+  "domain": "open-cosmos.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://techcrunch.com/2023/09/11/open-cosmos-a-uk-satellite-startup-focused-on-sustainability-raises-50m/"
+        ],
+        "value": "Harwell, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://techcrunch.com/2023/09/11/open-cosmos-a-uk-satellite-startup-focused-on-sustainability-raises-50m/"
+        ],
+        "value": "2015"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "Plans to manufacture up to 200 satellites a year and now operates bases in the UK, Spain, Portugal and Greece, working with customers like AWS."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://resiliencemedia.co/open-cosmos-fires-up-its-satellite-ambitions-with-e300m/"
+        ],
+        "value": "€300M in new funding"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Open Cosmos builds and launches small satellites for governments and businesses that want their own space missions without building everything from scratch.",
+    "industry": "Space tech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Turn a very expensive, custom process, like building a satellite, into a repeatable, semi-standard product, and sell it to many customers.",
+    "name": "Open Cosmos",
+    "not_startup_reason": null,
+    "overall": 7.5,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: a funding round bigger than the last, plus stated plans to scale to 200 satellites a year",
+        "reason": "No revenue or satellite count numbers were found; the clearest signal is a very large new funding round and expansion plans.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "Satellite services are needed by governments and businesses worldwide, and independence from foreign satellite networks is a growing priority.",
+        "score": 8.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Building and mass-manufacturing satellites at scale is hard engineering that few companies can do well.",
+        "score": 7.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2023-09-11",
+        "title": "Open Cosmos, a UK satellite startup focused on sustainability, raises $50M | TechCrunch",
+        "url": "https://techcrunch.com/2023/09/11/open-cosmos-a-uk-satellite-startup-focused-on-sustainability-raises-50m/"
+      },
+      {
+        "date": "2026-03-03",
+        "title": "UK-headquartered satellite startup Open Cosmos plans European rival to Starlink - Tech.eu",
+        "url": "https://tech.eu/2026/03/03/uk-headquartered-satellite-startup-open-cosmos-plans-european-rival-to-starlink/"
+      },
+      {
+        "date": null,
+        "title": "Open Cosmos fires up its satellite ambitions with €300M",
+        "url": "https://resiliencemedia.co/open-cosmos-fires-up-its-satellite-ambitions-with-e300m/"
+      },
+      {
+        "date": null,
+        "title": "Open Cosmos",
+        "url": "https://en.wikipedia.org/wiki/Open_Cosmos"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It aims to mass-manufacture up to 200 satellites a year to offer Europe an independent alternative to systems like Starlink.",
+    "website": "https://www.open-cosmos.com/",
+    "who_pays": "Space agencies, governments and companies pay for satellite missions and access to Open Cosmos's satellite technology.",
+    "why_now": "Governments and companies want space capability that is not dependent on a single foreign provider, and satellite costs keep falling."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "open-cosmos",
   "industry": "Space tech",
-  "last_checked": null,
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-09-14",
@@ -22,14 +115,25 @@
   ],
   "name": "Open Cosmos",
   "name_key": "opencosmos",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:47:15+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": null,
+      "market": 8.0,
+      "overall": 7.5,
+      "run": "2026-09-16-r2",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
+  "website": "https://www.open-cosmos.com/"
 }

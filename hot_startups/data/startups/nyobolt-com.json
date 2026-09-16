@@ -4,11 +4,107 @@
   "country": "United Kingdom",
   "domain": "nyobolt.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "Cambridge, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.vestbee.com/insights/articles/nyobolt-secures-30-m"
+        ],
+        "value": "2019"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "Reached a $1 billion valuation in its Series C round."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "$161M total, including a $60M Series C"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Nyobolt builds batteries that charge extremely fast and last for thousands of cycles, aimed at power-hungry uses like AI data centres, robots and electric vehicles.",
+    "industry": "Battery tech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "When a new wave of power-hungry machines arrives, like AI hardware and robots, better batteries become a business on their own.",
+    "name": "Nyobolt",
+    "not_startup_reason": null,
+    "overall": 7.5,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: a funding round bigger than the last, reaching unicorn valuation",
+        "reason": "No revenue or customer growth numbers were found; the clearest signal is reaching a $1 billion valuation after a new funding round.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "AI data centres, robotics and electric vehicles are large, fast-growing markets worldwide that all need better batteries.",
+        "score": 7.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Building batteries with ultra-fast charging and thousands of cycles without degrading is advanced battery science that takes years to replicate.",
+        "score": 8.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "UK-based deeptech startup Nyobolt secures $30M to expand high-power energy solutions | Vestbee",
+        "url": "https://www.vestbee.com/insights/articles/nyobolt-secures-30-m"
+      },
+      {
+        "date": null,
+        "title": "Nyobolt",
+        "url": "https://en.wikipedia.org/wiki/Nyobolt"
+      },
+      {
+        "date": null,
+        "title": "Nyobolt £44m round boosts startup funding | Startupmag",
+        "url": "https://www.startupmag.co.uk/funding/nyobolt-2026-growth-funding/"
+      },
+      {
+        "date": null,
+        "title": "Nyobolt",
+        "url": "https://nyobolt.com"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its batteries can go from 0 to 80% charge in under 5 minutes and react in under a millisecond, far faster than typical batteries, while lasting up to 4,000 full charge cycles.",
+    "website": "https://nyobolt.com",
+    "who_pays": "Makers of data centre power systems, robots and electric vehicles pay to use Nyobolt's battery technology.",
+    "why_now": "AI data centres, robots and electric vehicles all need power fast and reliably, and demand for high-power batteries is rising quickly."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "nyobolt-com",
-  "industry": "Energy",
-  "last_checked": null,
+  "industry": "Battery tech",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +118,25 @@
   ],
   "name": "Nyobolt",
   "name_key": "nyobolt",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": null,
+      "market": 7.0,
+      "overall": 7.5,
+      "run": "2026-09-16-r2",
+      "tech": 8.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://nyobolt.com"
 }

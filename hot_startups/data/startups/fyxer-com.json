@@ -4,11 +4,104 @@
   "country": "United Kingdom",
   "domain": "fyxer.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.bloomberg.com/news/articles/2025-03-24/uk-ai-startup-fyxer-gets-funds-from-benioff-other-tech-bigwigs"
+        ],
+        "value": "London, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.bloomberg.com/news/articles/2025-03-24/uk-ai-startup-fyxer-gets-funds-from-benioff-other-tech-bigwigs"
+        ],
+        "value": "2023"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.todayin-ai.com/p/fyxer"
+        ],
+        "value": "Annual recurring revenue grew from $1M to $17M in 8 months, across more than 180,000 users."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "$30M Series B"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Fyxer builds an AI assistant that sorts your inbox, drafts email replies, and writes up meeting notes so busy professionals miss less and type less.",
+    "industry": "AI tools",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "A well-known daily chore, like email, is a strong place to sell AI, because the pain is constant and easy to explain.",
+    "name": "Fyxer",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Revenue grew roughly 17x in eight months with a clear user count to back it up.",
+        "score": 9.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Every office worker deals with email, but the paid market is mainly professionals who can expense a subscription, not everyone.",
+        "score": 6.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "It is a strong product built on existing AI models, the kind a well-funded competitor could match within a year or two.",
+        "score": 5.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2025-03-24",
+        "title": "UK AI Startup Fyxer Gets Funds From Benioff, Other Tech Bigwigs - Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2025-03-24/uk-ai-startup-fyxer-gets-funds-from-benioff-other-tech-bigwigs"
+      },
+      {
+        "date": null,
+        "title": "AI exec assistant startup Fyxer raises $30m to expand to the US | Sifted",
+        "url": "https://sifted.eu/articles/ai-exec-assistant-startup-fyxer-raises-30m-to-expand-to-the-us"
+      },
+      {
+        "date": null,
+        "title": "Fyxer AI: The UK startup that just hit $9M in ARR 8 months from launch",
+        "url": "https://www.todayin-ai.com/p/fyxer"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It does not just filter email, it learns each person's writing style well enough to draft replies people actually send.",
+    "website": "https://www.fyxer.com",
+    "who_pays": "Individual professionals and their companies pay a subscription to save time on email and meetings.",
+    "why_now": "Email overload keeps growing and large language models are now good enough to draft convincing replies in someone's own voice."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "fyxer-com",
-  "industry": "AI Productivity & Automation",
-  "last_checked": null,
+  "industry": "AI tools",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +115,25 @@
   ],
   "name": "Fyxer",
   "name_key": "fyxer",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 9.0,
+      "market": 6.0,
+      "overall": 6.7,
+      "run": "2026-09-16-r2",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://www.fyxer.com"
 }

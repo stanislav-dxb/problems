@@ -152,7 +152,7 @@ EXPECT = {
     "gaps": ("Write 3 to 5 idea sparks: holes nobody in the entries fills yet (a profession, a region, a combination). Save: {\"gaps\": [\"one or two plain sentences each\"]}. "
              "Mention the entries that inspired each gap by name. These are suggestions, not facts."),
     "brief": ("Write 'this week in one minute': exactly three plain sentences a non-expert can read: what joined, the strongest newcomer and why, the trend of the week. "
-              "Save: {\"sentences\": \"...\"}. Use only the numbers and names given."),
+              "Save: {\"sentences\": \"...\"}. Use ONLY the numbers in \"numbers\" (on_the_list, new_this_week) and the names given; never count anything yourself."),
 }
 
 JUDGE_SCHEMA = {
@@ -416,7 +416,7 @@ def _priority(rec: dict, run_id: str) -> float:
     return p
 
 
-def _research_queue(cfg: dict, store: Store, run: dict) -> list[dict]:
+def _research_queue(cfg: dict, sources: dict, store: Store, run: dict) -> list[dict]:
     """Startups to work on this run: refresh-due ones (capped) plus new candidates by priority."""
     st = run["phase_state"]["research"]
     days = int(cfg["research"]["refresh_after_days"])
@@ -449,7 +449,40 @@ def _research_queue(cfg: dict, store: Store, run: dict) -> list[dict]:
             continue
         queue.append(rec)
     queue.sort(key=lambda r: _priority(r, run["id"]), reverse=True)
-    return queue
+    return _spread_regions(cfg, sources, store, run, queue)
+
+
+def _region_of(sources: dict, rec: dict) -> str | None:
+    if rec.get("region") in REGIONS:
+        return rec["region"]
+    return (sources.get("country_regions") or {}).get(rec.get("country") or "")
+
+
+def _spread_regions(cfg: dict, sources: dict, store: Store, run: dict, queue: list[dict]) -> list[dict]:
+    """Reorder the queue so no region takes more than its share (with slack) of this run's write-ups.
+    The page itself has no quotas; this only spreads the research budget the way the description says."""
+    import math
+    shares = {r: float(d.get("share", 0)) for r, d in (sources.get("regions") or {}).items()}
+    if not shares:
+        return queue
+    limit = int(run["limits"]["startups_judged_per_week"])
+    caps = {r: max(2, math.ceil(sh * limit * 1.5)) for r, sh in shares.items()}
+    done: dict[str, int] = {}
+    for rec in store.startups().values():
+        if rec.get("research", {}).get("judged_run") == run["id"]:
+            reg = _region_of(sources, rec)
+            if reg:
+                done[reg] = done.get(reg, 0) + 1
+    first, later = [], []
+    for rec in queue:
+        reg = _region_of(sources, rec)
+        if reg and done.get(reg, 0) >= caps.get(reg, limit):
+            later.append(rec)
+        else:
+            if reg:
+                done[reg] = done.get(reg, 0) + 1
+            first.append(rec)
+    return first + later
 
 
 def _research_queries(sources: dict, rec: dict) -> list[str]:
@@ -482,7 +515,7 @@ def _plan_research(cfg: dict, sources: dict, store: Store, run: dict, batch: int
     per_s = int(cfg["research"]["searches_per_startup"])
     per_p = int(cfg["research"]["pages_per_startup"])
     max_chars = int(cfg["text"]["max_chars_per_page"])
-    queue = _research_queue(cfg, store, run)
+    queue = _research_queue(cfg, sources, store, run)
     active = queue[: remaining(run, "judged") + 2]
     tasks = []
     judges = 0

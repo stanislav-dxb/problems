@@ -4,11 +4,106 @@
   "country": "Netherlands",
   "domain": "getworkflex.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Netherlands",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.eu-startups.com/2026/03/amsterdams-workflex-secures-e37-million-as-geopolitical-instability-drives-urgency-around-cross-border-mobility-compliance/"
+        ],
+        "value": "Amsterdam, Netherlands"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.eu-startups.com/2026/03/amsterdams-workflex-secures-e37-million-as-geopolitical-instability-drives-urgency-around-cross-border-mobility-compliance/"
+        ],
+        "value": "2022"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.vestbee.com/insights/articles/work-flex-raises-37-m"
+        ],
+        "value": "Trip volume grew more than 250% year over year, serving over 500 enterprise customers including Deel and Otto Group."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "€37M strategic growth investment"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://www.vestbee.com/insights/articles/work-flex-raises-37-m"
+        ],
+        "value": "100"
+      }
+    },
+    "idea": "WorkFlex checks whether a company's cross-border business trips and remote work meet tax, immigration and labour rules, and produces the paperwork to prove it.",
+    "industry": "Compliance tech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Turn a scattered set of legal paperwork requirements into one automated system, and companies will pay to avoid the risk of getting it wrong.",
+    "name": "WorkFlex",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Trip volume grew more than 250% year over year, a clear and very fast growth number.",
+        "score": 9.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Cross-border work compliance affects any company with internationally mobile staff, a real but specialised need.",
+        "score": 6.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Its compliance risk engine covers many countries' rules, real integration work, though a strong competitor could rebuild it over time.",
+        "score": 5.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-01",
+        "title": "Amsterdam's WorkFlex secures €37 million as geopolitical instability drives urgency around cross-border mobility compliance | EU-Startups",
+        "url": "https://www.eu-startups.com/2026/03/amsterdams-workflex-secures-e37-million-as-geopolitical-instability-drives-urgency-around-cross-border-mobility-compliance/"
+      },
+      {
+        "date": null,
+        "title": "Dutch firm WorkFlex raises €37M to grow global business travel compliance platform | Vestbee",
+        "url": "https://www.vestbee.com/insights/articles/work-flex-raises-37-m"
+      },
+      {
+        "date": null,
+        "title": "Amsterdam's WorkFlex Raises €37M To Expand Cross-Border Compliance Platform",
+        "url": "https://startuprise.co.uk/amsterdams-workflex-raises-e37m-to-expand-cross-border-compliance-platform/"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It automates specific compliance documents, like A1 certificates and posted-worker notifications, that companies would otherwise track by hand for every trip.",
+    "website": "https://www.getworkflex.com/",
+    "who_pays": "Large companies with internationally mobile staff pay to manage their travel and work compliance through the platform.",
+    "why_now": "More people travel and work across borders, and governments are tightening enforcement of cross-border work rules just as remote work has made violations more common."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "getworkflex-com",
-  "industry": "HR Tech",
-  "last_checked": null,
+  "industry": "Compliance tech",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +117,25 @@
   ],
   "name": "WorkFlex",
   "name_key": "workflex",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 9.0,
+      "market": 6.0,
+      "overall": 6.7,
+      "run": "2026-09-16-r2",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://www.getworkflex.com/"
 }

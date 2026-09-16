@@ -4,11 +4,104 @@
   "country": "United Kingdom",
   "domain": "runware.ai",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://tech.eu/2025/12/11/runware-nets-50m-series-a-for-one-api-for-all-ai-platform/"
+        ],
+        "value": "London, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://tech.eu/2025/12/11/runware-nets-50m-series-a-for-one-api-for-all-ai-platform/"
+        ],
+        "value": "2023"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://tech.eu/2025/12/11/runware-nets-50m-series-a-for-one-api-for-all-ai-platform/"
+        ],
+        "value": "Its platform has powered more than 10 billion AI generations, with customers including Wix, Together.ai, Quora and Higgsfield."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "$50M Series A"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Runware provides one fast, low-cost API that lets other companies generate AI images, audio and video for their own products, in under a second.",
+    "industry": "AI infrastructure",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "When many companies need to run the same expensive AI task, sell the fast, cheap infrastructure instead of competing on the end product.",
+    "name": "Runware",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Powering more than 10 billion AI generations with named enterprise customers is a large, concrete usage number.",
+        "score": 8.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Almost any product that adds AI-generated images, audio or video is a potential customer, across many industries worldwide.",
+        "score": 7.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Making AI media generation sub-second and cheap at scale is real infrastructure work, though other well-funded AI infra players compete here too.",
+        "score": 6.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Runware - a16z Speedrun",
+        "url": "https://speedrun.a16z.com/companies/runware"
+      },
+      {
+        "date": "2025-12-11",
+        "title": "Runware nets $50M Series A for 'one API for all AI' platform - Tech.eu",
+        "url": "https://tech.eu/2025/12/11/runware-nets-50m-series-a-for-one-api-for-all-ai-platform/"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "Runware Announces $50M Series A to Scale AI Inference Infrastructure for Media Workflows",
+        "url": "https://theaiinsider.tech/2025/12/18/runware-announces-50m-series-a-to-scale-ai-inference-infrastructure-for-media-workflows/"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It focuses purely on making AI media generation as fast and cheap as possible to run, rather than building its own AI models or consumer app.",
+    "website": "https://runware.ai/",
+    "who_pays": "Software companies and platforms pay to run AI image, audio and video generation through Runware's API.",
+    "why_now": "More products now need to generate images, audio and video on demand, and companies want a single, affordable way to plug that in instead of running it themselves."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "runware-ai",
-  "industry": "AI Infrastructure & Models",
-  "last_checked": null,
+  "industry": "AI infrastructure",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +115,25 @@
   ],
   "name": "Runware",
   "name_key": "runware",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 8.0,
+      "market": 7.0,
+      "overall": 7.0,
+      "run": "2026-09-16-r2",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://runware.ai/"
 }

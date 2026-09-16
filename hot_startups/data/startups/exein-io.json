@@ -4,11 +4,108 @@
   "country": "Italy",
   "domain": "exein.io",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Italy",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://techcrunch.com/2026/09/15/new-italian-unicorn-exein-rides-the-physical-ai-wave/"
+        ],
+        "value": "Rome, Italy"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://techcrunch.com/2026/09/15/new-italian-unicorn-exein-rides-the-physical-ai-wave/"
+        ],
+        "value": "2018"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "Its security software is embedded in over 2 billion chips globally, protecting more than 1 billion devices at runtime and blocking over 100,000 attacks in a fraction of a second."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "$270M round at a $1.7B valuation, after an earlier €100M round"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Exein builds security software that runs directly inside the firmware of connected devices and machines, detecting and stopping cyberattacks on the device itself in real time.",
+    "industry": "Cybersecurity",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Building security into the hardware layer itself, rather than bolting it on later, becomes far more valuable once regulators start requiring it by law.",
+    "name": "Exein",
+    "not_startup_reason": null,
+    "overall": 8.3,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "It protects over 1 billion devices, has blocked over 100,000 attacks, and jumped from a €100M round to a $270M round at unicorn valuation.",
+        "score": 9.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Every industry with connected devices or machinery, from cars to factories to consumer electronics, needs this kind of security, a very large and essential market.",
+        "score": 8.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Building real-time security that runs inside firmware across billions of chips is deep, hard-to-copy engineering built over years with major chipmaker partnerships.",
+        "score": 8.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": "2026-09-15",
+        "title": "New Italian unicorn Exein rides the physical AI wave | TechCrunch",
+        "url": "https://techcrunch.com/2026/09/15/new-italian-unicorn-exein-rides-the-physical-ai-wave/"
+      },
+      {
+        "date": "2026-09-16",
+        "title": "Exein becomes unicorn: Italian Physical AI security start-up valued at $1.7bn | Euronews",
+        "url": "https://www.euronews.com/business/2026/09/16/exein-becomes-unicorn-italian-physical-ai-security-start-up-valued-at-17bn"
+      },
+      {
+        "date": null,
+        "title": "Italian-based cybersecurity startup Exein secures €100M led by Blue Cloud Ventures | Vestbee",
+        "url": "https://www.vestbee.com/insights/articles/exein-secures-100-m"
+      },
+      {
+        "date": null,
+        "title": "Physical AI Security | Exein",
+        "url": "https://exein.io/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It protects hardware at the chip and operating-system level rather than adding security on top afterward, and is now expanding that same approach to secure physical AI systems like robots and autonomous machinery.",
+    "website": "https://exein.io/",
+    "who_pays": "Device makers and industrial companies pay to embed Exein's security software into their products so they meet regulations and protect their devices in the field.",
+    "why_now": "As more physical devices and AI-powered machines connect to networks, new laws like the EU's Cyber Resilience Act require built-in security, and attackers increasingly target the hardware itself, not just software."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "exein-io",
   "industry": "Cybersecurity",
-  "last_checked": null,
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +119,25 @@
   ],
   "name": "Exein",
   "name_key": "exein",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 9.0,
+      "market": 8.0,
+      "overall": 8.3,
+      "run": "2026-09-16-r2",
+      "tech": 8.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://exein.io/"
 }

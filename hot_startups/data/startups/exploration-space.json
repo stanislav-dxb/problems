@@ -4,11 +4,112 @@
   "country": "Germany",
   "domain": "exploration.space",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Germany",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://europeanspaceflight.com/the-exploration-company-opens-new-hq-in-oberpfaffenhofen/"
+        ],
+        "value": "Munich (Oberpfaffenhofen), Germany, with a French entity as well"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://europeanspaceflight.com/the-exploration-company-opens-new-hq-in-oberpfaffenhofen/"
+        ],
+        "value": "2021"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.munich-startup.de/en/106016/the-exploration-company-series-b/"
+        ],
+        "value": "Grew from 4 to 400 employees in 4 years, signed €850 million in contracts, and opened offices in France, Germany, Italy, the USA and UAE."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.munich-startup.de/en/106016/the-exploration-company-series-b/"
+        ],
+        "value": "€225 million total from tier-1 European venture funds, including a €150M Series B led by Balderton Capital and Plural"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://www.munich-startup.de/en/106016/the-exploration-company-series-b/"
+        ],
+        "value": "400"
+      }
+    },
+    "idea": "The Exploration Company builds reusable space capsules and rocket engines to carry cargo, and eventually people, to and from space stations at a much lower cost than existing options.",
+    "industry": "SpaceTech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Building full-stack hardware for a strategic, government-backed need can attract huge contracts and funding fast, even before the product has flown operationally.",
+    "name": "The Exploration Company",
+    "not_startup_reason": null,
+    "overall": 8.7,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "It grew its team 100-fold in four years and signed €850 million in contracts, exceptional and well-documented growth.",
+        "score": 9.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Space agencies and commercial space stations worldwide need reliable, lower-cost cargo and crew transport, a strategically important and large market.",
+        "score": 8.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Designing and building a reusable space capsule and a high-thrust reusable rocket engine from scratch is extremely hard aerospace engineering that takes years to replicate.",
+        "score": 9.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "The Exploration Company Opens New HQ in Oberpfaffenhofen - European Spaceflight",
+        "url": "https://europeanspaceflight.com/the-exploration-company-opens-new-hq-in-oberpfaffenhofen/"
+      },
+      {
+        "date": null,
+        "title": "The Exploration Company secures 150 million euros - Munich Startup",
+        "url": "https://www.munich-startup.de/en/106016/the-exploration-company-series-b/"
+      },
+      {
+        "date": null,
+        "title": "The Exploration Company aims to offer Europe independent access to space",
+        "url": "https://europeanspaceflight.com/the-exploration-company-aims-to-offer-europe-independent-access-to-space/"
+      },
+      {
+        "date": null,
+        "title": "Home | The Exploration Company",
+        "url": "https://www.exploration.space/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It is the first European company to sign a Space Act Agreement with NASA, and builds its capsule and engine as one integrated, reusable system rather than relying on established launch providers.",
+    "website": "https://www.exploration.space/",
+    "who_pays": "Space agencies and commercial space station operators pay for cargo and crew transport contracts using the company's Nyx capsule and Storm engine.",
+    "why_now": "Europe wants its own independent way to reach space stations instead of depending on other countries' launch systems, just as demand for regular cargo and crew transport to orbit is growing."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "exploration-space",
   "industry": "SpaceTech",
-  "last_checked": null,
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +123,25 @@
   ],
   "name": "The Exploration Company",
   "name_key": "explorationcompany",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 9.0,
+      "market": 8.0,
+      "overall": 8.7,
+      "run": "2026-09-16-r2",
+      "tech": 9.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://www.exploration.space/"
 }

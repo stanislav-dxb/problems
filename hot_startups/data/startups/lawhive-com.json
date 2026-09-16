@@ -4,11 +4,111 @@
   "country": "United Kingdom",
   "domain": "lawhive.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.globallegalpost.com/news/uk-new-law-start-up-lawhive-secures-fresh-funding-for-us-expansion-1810357469"
+        ],
+        "value": "London, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://getlatka.com/companies/lawhive.co.uk"
+        ],
+        "value": "2020"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "Annualised revenue surpassed £25.6m after sevenfold growth in a year, and it now operates in 35 US states."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.globallegalpost.com/news/uk-new-law-start-up-lawhive-secures-fresh-funding-for-us-expansion-1810357469"
+        ],
+        "value": "$114M total, including a $60M Series B"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://getlatka.com/companies/lawhive.co.uk"
+        ],
+        "value": "about 199"
+      }
+    },
+    "idea": "Lawhive combines an online platform with a real regulated law firm so people and small businesses can get everyday legal help at a fixed, lower price than a high-street solicitor.",
+    "industry": "Legal tech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Own the regulated part of an industry yourself instead of just selling software to it, and you can control price and quality together.",
+    "name": "Lawhive",
+    "not_startup_reason": null,
+    "overall": 7.3,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Revenue grew sevenfold in a year, a very fast and clearly documented number.",
+        "score": 10.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Everyday legal problems like family, property and employment issues affect a huge number of people and businesses across countries.",
+        "score": 7.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Owning a regulated law firm alongside the software is a real structural advantage, though the AI tools themselves could be matched by rivals.",
+        "score": 5.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "How Lawhive hit $55.8M revenue with a 199 person team",
+        "url": "https://getlatka.com/companies/lawhive.co.uk"
+      },
+      {
+        "date": null,
+        "title": "UK New Law start-up Lawhive secures fresh funding for US expansion - The Global Legal Post",
+        "url": "https://www.globallegalpost.com/news/uk-new-law-start-up-lawhive-secures-fresh-funding-for-us-expansion-1810357469"
+      },
+      {
+        "date": "2024-12-01",
+        "title": "Legal Tech for Smaller Firms: Lawhive Raises $37.9 Million",
+        "url": "https://www.orrick.com/en/News/2024/12/Legal-Tech-for-Smaller-Firms-Lawhive-Raises-37-9-Million"
+      },
+      {
+        "date": null,
+        "title": "About Us | Fixed Price Lawyers & Solicitors Online | Lawhive",
+        "url": "https://lawhive.co.uk/about-us"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It uses AI tools to help its own lawyers handle more cases at once, so the savings come from efficiency, not from replacing lawyers with a chatbot.",
+    "website": "https://www.lawhive.com",
+    "who_pays": "Individuals and small businesses pay a fixed fee for family, divorce, property and employment legal work.",
+    "why_now": "People increasingly want legal help online instead of visiting a law office, and AI now helps lawyers work through routine cases much faster."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "lawhive-com",
-  "industry": "LegalTech",
-  "last_checked": null,
+  "industry": "Legal tech",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +122,25 @@
   ],
   "name": "Lawhive",
   "name_key": "lawhive",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 10.0,
+      "market": 7.0,
+      "overall": 7.3,
+      "run": "2026-09-16-r2",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://www.lawhive.com"
 }

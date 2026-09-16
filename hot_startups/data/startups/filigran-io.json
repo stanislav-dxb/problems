@@ -4,11 +4,108 @@
   "country": "France",
   "domain": "filigran.io",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "France",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.maddyness.com/2024/02/29/la-startup-filigran-boucle-une-levee-de-fonds-de-serie-a-de-15-millions-deuros/"
+        ],
+        "value": "Asnières-sur-Seine, France"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.maddyness.com/2024/02/29/la-startup-filigran-boucle-une-levee-de-fonds-de-serie-a-de-15-millions-deuros/"
+        ],
+        "value": "2022"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "Trusted by 6,000+ cybersecurity practitioners, including the FBI as a client."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "Over $100M total across four rounds (€5M in 2023, €15M Series A in early 2024, €35M in autumn 2024, €55M Series C), the largest ever for a French cybersecurity company"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Filigran helps security teams see which of their weaknesses hackers could actually exploit, then test and fix those specific holes, instead of chasing every possible vulnerability.",
+    "industry": "Cybersecurity",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Giving away a genuinely useful open-source tool can build the trust and user base needed to later sell a premium version to serious, well-funded customers.",
+    "name": "Filigran",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "It went from 6,000+ active practitioners to raising four back-to-back funding rounds of rapidly increasing size in under two years, clear fast growth.",
+        "score": 8.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Every large organisation and government agency worldwide needs cyber threat intelligence and defense testing, a large, essential market.",
+        "score": 7.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "It built and maintains two substantial open-source security platforms with real adoption, solid engineering work that a well-resourced competitor could still replicate within a year or two.",
+        "score": 6.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": "2024-02-29",
+        "title": "La startup Filigran boucle une levée de fonds de série A de 15 millions d'euros",
+        "url": "https://www.maddyness.com/2024/02/29/la-startup-filigran-boucle-une-levee-de-fonds-de-serie-a-de-15-millions-deuros/"
+      },
+      {
+        "date": null,
+        "title": "Cybersécurité : la start-up française Filigran, spécialisée dans l'anticipation des cyber-menaces, compte le FBI parmi ses clients – franceinfo",
+        "url": "https://www.franceinfo.fr/economie/cybersecurite-la-start-up-francaise-filigran-specialisee-dans-l-anticipation-des-cyber-menaces-compte-le-fbi-parmi-ses-clients_7547896.html"
+      },
+      {
+        "date": null,
+        "title": "Filigran, la start-up française de tous les records - L'Essentiel de l'Éco",
+        "url": "https://lessentieldeleco.fr/3916-filigran/"
+      },
+      {
+        "date": null,
+        "title": "Filigran | Uncover Threats. Take Action.",
+        "url": "https://filigran.io/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its tools, OpenCTI and OpenBAS, are open-source, which let it build a large community of users and clients, including government agencies like the FBI, on top of free software before selling the full platform.",
+    "website": "https://filigran.io/",
+    "who_pays": "Companies and government agencies pay for the full Filigran platform to manage cyber threat intelligence and test their defenses against real attack scenarios.",
+    "why_now": "Security teams are overwhelmed by vulnerability alerts, and most of them are never actually used in an attack, so there is growing demand for tools that show which risks are real."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "filigran-io",
   "industry": "Cybersecurity",
-  "last_checked": null,
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +119,25 @@
   ],
   "name": "Filigran",
   "name_key": "filigran",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 8.0,
+      "market": 7.0,
+      "overall": 7.0,
+      "run": "2026-09-16-r2",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://filigran.io/"
 }

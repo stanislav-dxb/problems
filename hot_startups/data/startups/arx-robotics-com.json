@@ -4,11 +4,108 @@
   "country": "Germany",
   "domain": "arx-robotics.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Germany",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.eu-startups.com/2025/07/german-defensetech-arx-robotics-reinforces-europes-battlefield-edge-with-e42-million-for-tactical-ugvs/"
+        ],
+        "value": "Munich, Germany"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.eu-startups.com/2025/07/german-defensetech-arx-robotics-reinforces-europes-battlefield-edge-with-e42-million-for-tactical-ugvs/"
+        ],
+        "value": "2021"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "Systems are deployed by six European armed forces, and it opened Europe's largest production facility for military robotic systems."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "€42M Series A total (€31M plus an €11M extension)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "ARX Robotics builds unmanned ground vehicles and AI software that let armed forces send robots instead of people into dangerous jobs like reconnaissance and logistics.",
+    "industry": "Defense tech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "In defense, selling the software that upgrades old equipment can open the door as wide as selling new hardware.",
+    "name": "ARX Robotics",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Being deployed by six European armed forces and opening Europe's largest production facility for this category is a concrete scale signal.",
+        "score": 7.0,
+        "source": null
+      },
+      "market": {
+        "reason": "European defense budgets are rising fast, but this market is mostly limited to military buyers in a handful of countries.",
+        "score": 6.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Building rugged autonomous ground vehicles plus software that retrofits older military vehicles is hard, specialised engineering.",
+        "score": 7.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2025-07-01",
+        "title": "German DefenseTech ARX Robotics reinforces Europe's battlefield edge with €42 million for tactical UGVs | EU-Startups",
+        "url": "https://www.eu-startups.com/2025/07/german-defensetech-arx-robotics-reinforces-europes-battlefield-edge-with-e42-million-for-tactical-ugvs/"
+      },
+      {
+        "date": null,
+        "title": "German ARX Robotics secures €31M Series A round led by HV Capital | Vestbee",
+        "url": "https://www.vestbee.com/insights/articles/arx-robotics-secures-31-m"
+      },
+      {
+        "date": null,
+        "title": "German defence tech startup ARX Robotics raises €11M Series A extension round | Vestbee",
+        "url": "https://www.vestbee.com/insights/articles/arx-robotics-raises-11-m"
+      },
+      {
+        "date": null,
+        "title": "ARX Robotics opens Europe's largest production facility",
+        "url": "https://www.arx-robotics.com/article/arx-robotics-opens-europes-largest-production-facility"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its Mithra OS software can also upgrade existing older military vehicles with autonomy, not just its own new robots.",
+    "website": "https://www.arx-robotics.com/",
+    "who_pays": "European armed forces and defense ministries pay to buy and deploy the robotic vehicles and software.",
+    "why_now": "European militaries are investing heavily in defense technology and want to reduce risk to soldiers using autonomous ground vehicles."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "arx-robotics-com",
-  "industry": "Defense Tech",
-  "last_checked": null,
+  "industry": "Defense tech",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +119,25 @@
   ],
   "name": "ARX Robotics",
   "name_key": "arxrobotics",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 7.0,
+      "market": 6.0,
+      "overall": 6.7,
+      "run": "2026-09-16-r2",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://www.arx-robotics.com/"
 }

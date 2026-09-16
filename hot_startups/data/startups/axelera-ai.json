@@ -4,11 +4,114 @@
   "country": "Netherlands",
   "domain": "axelera.ai",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Netherlands",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://brainporteindhoven.com/int/news/ai-chip-startup-axelera-ai-raises-68-million-to-challenge-nvidia"
+        ],
+        "value": "Eindhoven, Netherlands"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://brainporteindhoven.com/int/news/ai-chip-startup-axelera-ai-raises-68-million-to-challenge-nvidia"
+        ],
+        "value": "2021"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://tech.eu/2026/02/24/dutch-ai-inference-chipmaker-axelera-ai-raises-250m/"
+        ],
+        "value": "Won a €61.6 million EuroHPC grant in 2025, said to be the largest ever EU grant to an AI semiconductor firm."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "over $450M total"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Axelera AI designs computer chips that run AI programs efficiently on devices like cameras, robots and cars, instead of sending everything to the cloud.",
+    "industry": "AI chips",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Instead of competing head-on with a giant across all of AI computing, specialise in one part of the job and do it more efficiently.",
+    "name": "Axelera AI",
+    "not_startup_reason": null,
+    "overall": 8.0,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: a record-size grant and a bigger funding round than before",
+        "reason": "No revenue, customer or shipment numbers were found; the clearest recent signal is a record EU grant rather than a growth number.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "On-device AI chips could be used in almost every kind of device across many industries worldwide.",
+        "score": 8.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Designing competitive AI chips takes rare engineering skill and years of work, hard for most teams to copy quickly.",
+        "score": 8.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "AI chip startup Axelera AI raises $68 million to challenge Nvidia",
+        "url": "https://brainporteindhoven.com/int/news/ai-chip-startup-axelera-ai-raises-68-million-to-challenge-nvidia"
+      },
+      {
+        "date": null,
+        "title": "Dutch startup Axelera AI raises over 60 million and unveils new chip - Techzine Global",
+        "url": "https://www.techzine.eu/news/devices/129384/dutch-startup-axelera-ai-raises-over-60-million-and-unveils-new-chip/"
+      },
+      {
+        "date": null,
+        "title": "European AI Startup Axelera® AI Closes $27 Million Series A",
+        "url": "https://axelera.ai/news/european-ai-startup-axelera-ai-closes-27-million-series-a"
+      },
+      {
+        "date": "2026-02-24",
+        "title": "Dutch AI inference chipmaker Axelera AI raises $250M - Tech.eu",
+        "url": "https://tech.eu/2026/02/24/dutch-ai-inference-chipmaker-axelera-ai-raises-250m/"
+      },
+      {
+        "date": null,
+        "title": "Axelera AI",
+        "url": "https://en.wikipedia.org/wiki/Axelera_AI"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It focuses only on running AI models fast and cheaply (not training them), and claims its chips are far more energy-efficient and cheaper than rivals like Nvidia.",
+    "website": "https://axelera.ai/",
+    "who_pays": "Makers of robots, drones, cars, medical devices and security cameras buy the chips to add on-device AI.",
+    "why_now": "As AI moves into everyday devices, those devices need chips that can run AI without huge power use or cloud connections."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "axelera-ai",
-  "industry": "AI Infrastructure & Models",
-  "last_checked": null,
+  "industry": "AI chips",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +125,25 @@
   ],
   "name": "Axelera AI",
   "name_key": "axeleraai",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": null,
+      "market": 8.0,
+      "overall": 8.0,
+      "run": "2026-09-16-r2",
+      "tech": 8.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://axelera.ai/"
 }

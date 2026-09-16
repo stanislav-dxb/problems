@@ -4,11 +4,105 @@
   "country": "France",
   "domain": "nabla.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "France",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://medium.com/cathay-innovation/behind-the-term-sheet-meet-nabla-the-leading-ambient-ai-assistant-for-healthcare-practitioners-8af64146a9d4"
+        ],
+        "value": "Paris, France"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://medium.com/cathay-innovation/behind-the-term-sheet-meet-nabla-the-leading-ambient-ai-assistant-for-healthcare-practitioners-8af64146a9d4"
+        ],
+        "value": "2018"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.usine-digitale.fr/sante/le-marche-se-joue-maintenant-la-start-up-nabla-veut-simposer-dans-la-premiere-vague-de-lia-medicale-en-france.6PNNQHAKUNEGZKEUFQY557VRXI.html"
+        ],
+        "value": "Adopted by 85,000 professionals worldwide with more than 100,000 daily users, mostly in the United States."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.usine-digitale.fr/sante/le-marche-se-joue-maintenant-la-start-up-nabla-veut-simposer-dans-la-premiere-vague-de-lia-medicale-en-france.6PNNQHAKUNEGZKEUFQY557VRXI.html"
+        ],
+        "value": "€60M total"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Nabla listens to a doctor's conversation with a patient and automatically writes up structured clinical notes straight into medical records.",
+    "industry": "Health tech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "A team can pivot from one healthcare idea to another and succeed if it keeps its strongest technical skill, in this case AI language understanding.",
+    "name": "Nabla",
+    "not_startup_reason": null,
+    "overall": 7.3,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "85,000 professional users and over 100,000 daily users are large, clear numbers.",
+        "score": 8.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Clinical documentation is a need for every doctor worldwide, a very large, essential market.",
+        "score": 8.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Its founding team's deep AI research background helps, but ambient clinical documentation is now a competitive category with several strong players.",
+        "score": 6.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Behind the Term Sheet: Meet Nabla, the Leading Ambient AI Assistant for Healthcare Practitioners | Cathay Innovation",
+        "url": "https://medium.com/cathay-innovation/behind-the-term-sheet-meet-nabla-the-leading-ambient-ai-assistant-for-healthcare-practitioners-8af64146a9d4"
+      },
+      {
+        "date": null,
+        "title": "\"Le marché se joue maintenant\" : La start-up Nabla veut s'imposer dans la première vague de l'IA médicale en France",
+        "url": "https://www.usine-digitale.fr/sante/le-marche-se-joue-maintenant-la-start-up-nabla-veut-simposer-dans-la-premiere-vague-de-lia-medicale-en-france.6PNNQHAKUNEGZKEUFQY557VRXI.html"
+      },
+      {
+        "date": null,
+        "title": "French Femtech Startup Nabla Announces a €17M Funding Round to Continue Work on its App-Based Virtual Clinic | Femtech Insider",
+        "url": "https://femtechinsider.com/nabla-launch/"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It pivoted from a women's health app to become an ambient AI scribe, built by a team from Meta's AI research group, now with multi-agent AI behind it.",
+    "website": "https://nabla.com/",
+    "who_pays": "Clinicians and healthcare organisations pay to use the AI assistant to reduce documentation time.",
+    "why_now": "Doctors everywhere are overloaded with paperwork, and AI is now accurate enough to turn spoken conversations directly into usable medical records."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "nabla-com",
-  "industry": "HealthTech",
-  "last_checked": null,
+  "industry": "Health tech",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +116,25 @@
   ],
   "name": "Nabla",
   "name_key": "nabla",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 8.0,
+      "market": 8.0,
+      "overall": 7.3,
+      "run": "2026-09-16-r2",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://nabla.com/"
 }

@@ -2,13 +2,108 @@
   "alias_keys": [],
   "aliases": [],
   "country": "Ireland",
-  "domain": null,
+  "domain": "mbryonics.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Ireland",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://mbryonics.com/our-company/"
+        ],
+        "value": "Galway, Ireland"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://mbryonics.com/our-company/"
+        ],
+        "value": "2014"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://mbryonics.com/mbryonics-announces-the-creation-of-125-jobs-in-galway-to-power-internet-in-space/"
+        ],
+        "value": "Creating 125 jobs over two years at a new manufacturing facility in Galway, and building a second 40,000-square-foot facility in Shannon aimed at producing thousands of optical terminals by 2027."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "€17.5M from the European Innovation Council Accelerator, plus a separate $21M contract from the European Space Agency"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://mbryonics.com/our-company/"
+        ],
+        "value": "over 100, including more than 30 PhD holders"
+      }
+    },
+    "idea": "MBRYONICS designs and builds the optical hardware, like laser communication terminals, that let satellites send data to each other and to ground stations using light instead of radio.",
+    "industry": "Space tech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Owning the entire technical stack, from hardware to software, in a specialised deep-tech niche can make a small company the default supplier once demand for that niche takes off.",
+    "name": "MBRYONICS",
+    "not_startup_reason": null,
+    "overall": 7.7,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "It is creating 125 new jobs and building a second large manufacturing facility to reach thousands of terminals per year, backed by a major EU grant and an ESA contract.",
+        "score": 8.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Satellite operators worldwide need higher-capacity communication links as the number of satellites in orbit keeps growing, a large and expanding space infrastructure market.",
+        "score": 7.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Designing and fabricating photonic hardware for space, including optical terminals and quantum key distribution, is deep, patent-protected engineering that takes years to replicate.",
+        "score": 8.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Our Company | MBRYONICS",
+        "url": "https://mbryonics.com/our-company/"
+      },
+      {
+        "date": null,
+        "title": "Galway-based Mbryonics bags €17.5m from European accelerator",
+        "url": "https://www.siliconrepublic.com/start-ups/mbryonics-galway-space-tech-european-innovation-council-funding"
+      },
+      {
+        "date": null,
+        "title": "MBRYONICS wins $21M ESA contract, expands Irish manufacturing for optical space communications | Dealroom.co",
+        "url": "https://app.dealroom.co/news/feed/mbryonics-wins-21m-esa-contract-expands-irish-manufacturing-for-optical-space-communications"
+      },
+      {
+        "date": null,
+        "title": "Mbryonics Announces The Creation Of 125 Jobs In Galway To Power 'Internet In Space' | MBRYONICS",
+        "url": "https://mbryonics.com/mbryonics-announces-the-creation-of-125-jobs-in-galway-to-power-internet-in-space/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It builds a full vertical stack itself, from ground-based optics to satellite payloads to the network software that runs them, rather than supplying just one piece of the puzzle.",
+    "website": "https://mbryonics.com/our-company/",
+    "who_pays": "Space agencies and satellite communications companies pay for MBRYONICS' optical terminals, ground systems and related engineering services.",
+    "why_now": "The number of satellites in orbit is growing fast, and radio-based communication is running out of capacity, making optical links a necessary upgrade for satellite operators."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "mbryonics",
   "industry": "Space tech",
-  "last_checked": null,
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-09-15",
@@ -22,14 +117,25 @@
   ],
   "name": "MBRYONICS",
   "name_key": "mbryonics",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:47:15+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 8.0,
+      "market": 7.0,
+      "overall": 7.7,
+      "run": "2026-09-16-r2",
+      "tech": 8.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
+  "website": "https://mbryonics.com/our-company/"
 }

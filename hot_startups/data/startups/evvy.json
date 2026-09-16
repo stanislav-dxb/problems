@@ -2,13 +2,101 @@
   "alias_keys": [],
   "aliases": [],
   "country": "United States",
-  "domain": null,
+  "domain": "evvy.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.evvy.com/about"
+        ],
+        "value": "New York, United States"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.evvy.com/about"
+        ],
+        "value": "2021"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.businesswire.com/news/home/20230927034322/en/Evvy-Precision-Womens-Health-Startup-focused-on-the-Vaginal-Microbiome-Announces-$14M-Series-A"
+        ],
+        "value": "Serves more than 100,000 patients across the United States and works with 3,000 practitioners."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "$40M Series B led by Catalio Capital Management, after a $14M Series A led by Left Lane Capital in 2023"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Evvy sells an at-home test that reads a woman's vaginal microbiome, then connects her with a doctor for treatment, tackling health issues doctors have historically had few good tools to diagnose.",
+    "industry": "Women&#x27;s health",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Applying modern sequencing technology to a health area that has been underinvested in for a long time can create both a real medical improvement and a strong business.",
+    "name": "Evvy",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "recovered_from_page": true,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "It serves over 100,000 patients and partners with 3,000 practitioners, clear evidence of real scale.",
+        "score": 8.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Vaginal and reproductive health affects a very large population, and it is an area long underserved by conventional medicine, a large and growing market.",
+        "score": 7.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Its clinically validated genetic sequencing test for the vaginal microbiome is real scientific work, though competitors with similar lab capabilities could develop comparable tests over time.",
+        "score": 6.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-15",
+        "title": "Evvy raises $40M as it seeks to further women's health research with vaginal microbiome data | TechCrunch",
+        "url": "https://techcrunch.com/2026/09/15/evvy-raises-40m-as-it-seeks-to-further-womens-health-research-with-vaginal-microbiome-data/"
+      },
+      {
+        "date": null,
+        "title": "About Us | Evvy",
+        "url": "https://www.evvy.com/about"
+      },
+      {
+        "date": "2023-09-27",
+        "title": "Evvy, Precision Women's Health Startup focused on the Vaginal Microbiome, Announces $14M Series A",
+        "url": "https://www.businesswire.com/news/home/20230927034322/en/Evvy-Precision-Womens-Health-Startup-focused-on-the-Vaginal-Microbiome-Announces-$14M-Series-A"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its test is the only clinically validated one of its kind using advanced genetic sequencing (mNGS) of the vaginal microbiome from a single swab, rather than the older, more limited standard lab tests.",
+    "website": "https://www.evvy.com/",
+    "who_pays": "Patients pay directly for testing, treatment and membership plans, with some costs covering lab work and clinical oversight by affiliated providers.",
+    "why_now": "Women's health conditions like vaginal symptoms, fertility issues and UTIs have long been underdiagnosed, and better and cheaper genetic sequencing technology now makes a detailed at-home microbiome test possible."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "evvy",
-  "industry": "Women's health",
-  "last_checked": null,
+  "industry": "Women&#x27;s health",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-09-15",
@@ -22,14 +110,25 @@
   ],
   "name": "Evvy",
   "name_key": "evvy",
-  "region": null,
+  "region": "north_america",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:47:15+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 8.0,
+      "market": 7.0,
+      "overall": 7.0,
+      "run": "2026-09-16-r2",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
+  "website": "https://www.evvy.com/"
 }

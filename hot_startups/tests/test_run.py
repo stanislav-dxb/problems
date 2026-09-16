@@ -112,3 +112,18 @@ def test_feed_filter_and_backlog_skip(ctx):
     res = next_tasks(cfg, src, store, run, batch=10)
     assert all(t["type"] != "search" or t.get("purpose") != "discover" for t in res["tasks"])
     assert run["phase_state"]["discovery"].get("skipped") is True
+
+
+def test_write_ups_are_spread_across_regions(ctx):
+    cfg, src, store = ctx
+    from hotstartups.tasks import _spread_regions, start_run
+    src["regions"] = {"europe": {"share": 0.5}, "asia": {"share": 0.5}}
+    src["country_regions"] = {"Germany": "europe", "Japan": "asia"}
+    cfg["limits"]["startups_judged_per_week"] = 2
+    run = start_run(cfg, store)
+    recs = []
+    for i, country in enumerate(["Germany", "Germany", "Germany", "Japan"]):
+        r = store.new_startup(f"S{i}", f"https://s{i}.io"); r["country"] = country; store.save_startup(r); recs.append(r)
+    # cap per region = ceil(0.5 * 2 * 1.5) = 2 -> the third German startup moves behind the Japanese one
+    order = [r["name"] for r in _spread_regions(cfg, src, store, run, recs)]
+    assert order == ["S0", "S1", "S3", "S2"]

@@ -2,13 +2,107 @@
   "alias_keys": [],
   "aliases": [],
   "country": "South Korea",
-  "domain": null,
+  "domain": "liner.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "South Korea",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://liner.com/news/startup-boom-in-the-u-s"
+        ],
+        "value": "Seoul, South Korea, with a US headquarters in San Francisco"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://liner.com/news/startup-boom-in-the-u-s"
+        ],
+        "value": "2015"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.kedglobal.com/artificial-intelligence/newsView/ked202403200008"
+        ],
+        "value": "14 million registered users across 220+ countries; active U.S. paid subscriptions grew 13.5 times in the past year, with over 60% of paid subscribers based in the U.S."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://thenextweb.com/news/liner-36m-series-c-ai-search-enterprise"
+        ],
+        "value": "$36.1M Series C, after a $20-29M (27B KRW) Series B in October 2024"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Liner is an AI search and research assistant that answers questions with citations you can check, instead of just giving an unsourced answer like a typical chatbot.",
+    "industry": "AI tools",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Once you have real usage data on which AI model handles which type of question best, you can resell that matching intelligence as its own product.",
+    "name": "Liner",
+    "not_startup_reason": null,
+    "overall": 7.7,
+    "recovered_from_page": true,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "It has 14 million users worldwide and U.S. paid subscriptions grew 13.5 times in a single year, clear and fast growth.",
+        "score": 9.0,
+        "source": null
+      },
+      "market": {
+        "reason": "AI-assisted search and research tools compete directly with the biggest search and productivity markets in the world.",
+        "score": 8.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "It built its own model-evaluation and routing system based on real usage data across its own products, solid applied AI engineering rather than a new foundation model.",
+        "score": 6.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-15",
+        "title": "라이너, 질문 난이도에 따라 AI 모델 골라 쓰는 '라이너 모델 API' 출시",
+        "url": "https://platum.kr/archives/294603"
+      },
+      {
+        "date": null,
+        "title": "Korean AI Startup Liner Takes on Google in U.S. Search Market",
+        "url": "https://liner.com/news/startup-boom-in-the-u-s"
+      },
+      {
+        "date": null,
+        "title": "S.Korea's Liner, the world's No. 4 generative AI web product - KED Global",
+        "url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202403200008"
+      },
+      {
+        "date": null,
+        "title": "Liner raises $36.1M to take its evidence-first AI search to enterprise customers",
+        "url": "https://thenextweb.com/news/liner-36m-series-c-ai-search-enterprise"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It automatically routes easy questions to cheap, lightweight AI models and hard questions to expensive top-tier models, cutting the cost of running AI answers by more than half without losing answer quality.",
+    "website": "https://liner.com/",
+    "who_pays": "Individual professionals, students and researchers subscribe for Liner's search, research and writing tools, and businesses pay to use its model-routing API to cut their own AI costs.",
+    "why_now": "People are tired of AI answers they cannot verify, and as AI use scales up, the cost of always using the most expensive model for every question has become a real problem for businesses."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "liner",
-  "industry": "AI agents",
-  "last_checked": null,
+  "industry": "AI tools",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-09-15",
@@ -22,14 +116,25 @@
   ],
   "name": "Liner",
   "name_key": "liner",
-  "region": null,
+  "region": "asia",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:50:10+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 9.0,
+      "market": 8.0,
+      "overall": 7.7,
+      "run": "2026-09-16-r2",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
+  "website": "https://liner.com/"
 }

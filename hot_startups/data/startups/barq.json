@@ -4,11 +4,103 @@
   "country": "Saudi Arabia",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Saudi Arabia",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "http://wamda.com/2026/09/saudi-fintech-barq-closes-329-5-million-series-a"
+        ],
+        "value": "Riyadh, Saudi Arabia"
+      },
+      "founded": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "2023"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "http://wamda.com/2026/09/saudi-fintech-barq-closes-329-5-million-series-a"
+        ],
+        "value": "Surpassed 15 million users from more than 210 nationalities within two years, with over SAR440 billion ($117.3 billion) in funds processed through the platform."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "$329.5M Series A at a $1.85B valuation"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "barq is a digital wallet app that lets people send money abroad, hold a Visa card with no annual or international fees, and make cross-border payments, all licensed by Saudi Arabia's central bank.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "A well-connected founder with experience running a similar product can launch and scale a licensed financial app unusually fast.",
+    "name": "barq",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "recovered_from_page": true,
+    "region": "mea",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "It reached 15 million users and processed over $117 billion in transactions within two years of launch, very fast growth backed by numbers.",
+        "score": 9.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Digital payments and money transfer are a large, essential need worldwide, though barq's licensed operations are anchored in Saudi Arabia.",
+        "score": 7.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "It offers a standard e-wallet, card and cross-border payment stack, solid engineering but similar to many digital wallets globally, plus a partnership with Alipay+ rather than owned cross-border tech.",
+        "score": 4.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-15",
+        "title": "Saudi fintech barq closes $329.5 million Series A",
+        "url": "http://wamda.com/2026/09/saudi-fintech-barq-closes-329-5-million-series-a"
+      },
+      {
+        "date": null,
+        "title": "New fintech Barq led by former STC Pay CEO launches in Saudi Arabia",
+        "url": "https://www.fintechfutures.com/paytech/new-fintech-barq-led-by-former-stc-pay-ceo-launches-in-saudi-arabia"
+      },
+      {
+        "date": null,
+        "title": "Barq, a digital wallet by the former Stc Pay CEO, hits 1 million users in just three weeks",
+        "url": "https://www.menabytes.com/barq-1-million-users/"
+      },
+      {
+        "date": null,
+        "title": "Saudi fintech barq becomes Kingdom's newest unicorn after $329.5m funding round",
+        "url": "https://www.arabnews.com/business/saudi-fintech-barq-becomes-kingdoms-newest-unicorn-after-3295m-funding-round-3001921"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It launched under a founder who previously ran a major Saudi digital wallet, and grew to 15 million users within two years by partnering with Alipay+ to let its users pay at merchants in more than 220 countries.",
+    "website": null,
+    "who_pays": "Everyday users pay fees on money transfers and card use, and the company also earns from its growing transaction volume across its financial products.",
+    "why_now": "More people want to send money abroad and pay across borders digitally, and new central bank e-wallet licenses in Saudi Arabia made it possible to launch a full digital wallet quickly."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "barq",
   "industry": "Fintech",
-  "last_checked": null,
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-09-15",
@@ -22,14 +114,25 @@
   ],
   "name": "barq",
   "name_key": "barq",
-  "region": null,
+  "region": "mea",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:50:11+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 9.0,
+      "market": 7.0,
+      "overall": 6.7,
+      "run": "2026-09-16-r2",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": null
 }

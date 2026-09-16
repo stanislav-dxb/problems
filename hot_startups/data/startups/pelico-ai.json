@@ -4,11 +4,109 @@
   "country": "France",
   "domain": "pelico.ai",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "France",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.frenchweb.fr/pelico-leve-347-millions-deuros-pour-devenir-los-de-lindustrie-complexe/455563"
+        ],
+        "value": "Paris, France"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.frenchweb.fr/pelico-leve-347-millions-deuros-pour-devenir-los-de-lindustrie-complexe/455563"
+        ],
+        "value": "2019"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.frenchweb.fr/pelico-leve-347-millions-deuros-pour-devenir-los-de-lindustrie-complexe/455563"
+        ],
+        "value": "Revenue grew 300% over two years and headcount tripled; now works with over 1,000 factories worldwide."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "€34.7M (about $40M)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Pelico gives factory teams one shared, real-time view of their production data so they can spot part shortages and bottlenecks before they cause delays.",
+    "industry": "Manufacturing software",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Give scattered teams one shared source of truth for a messy, high-stakes process and they will pay to avoid costly delays.",
+    "name": "Pelico",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Revenue tripled roughly, growing 300% in two years, with headcount tripling too and clear customer numbers.",
+        "score": 9.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Manufacturing supply chain problems affect a huge, worldwide industrial base, not just one country.",
+        "score": 7.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "It is a strong data and workflow platform, but the core idea could be matched by another well-funded team within a year or two.",
+        "score": 5.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Pelico annonce une levée de fonds de 18,5 M€",
+        "url": "https://www.jaimelesstartups.fr/news/pelico-annonce-une-levee-de-fonds-de-185-me/"
+      },
+      {
+        "date": null,
+        "title": "Pelico lève 34,7 millions d'euros pour devenir l'OS de l'industrie complexe",
+        "url": "https://www.frenchweb.fr/pelico-leve-347-millions-deuros-pour-devenir-los-de-lindustrie-complexe/455563"
+      },
+      {
+        "date": null,
+        "title": "Pelico lève 40 millions de dollars pour sa plateforme de pilotage des opérations industrielles",
+        "url": "https://www.usine-digitale.fr/article/pelico-leve-40-millions-de-dollars-pour-sa-plateforme-de-pilotage-des-operations-industrielles.N2233938"
+      },
+      {
+        "date": null,
+        "title": "Startup PELICO, Plateforme SaaS de gestion de la supply chain",
+        "url": "https://www.myfrenchstartup.com/fr/startup-france/304852/pelico"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It uses AI to suggest fixes and run simulations, and gets different teams on the factory floor collaborating around the same live data instead of separate spreadsheets.",
+    "website": "https://www.pelico.ai/",
+    "who_pays": "Large industrial manufacturers, including aerospace and defense companies, pay to run their factories through the platform.",
+    "why_now": "Supply chains are still unpredictable after recent global disruptions, and factories want to react to shortages in hours, not weeks."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "pelico-ai",
-  "industry": "Supply Chain & Manufacturing",
-  "last_checked": null,
+  "industry": "Manufacturing software",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +120,25 @@
   ],
   "name": "Pelico",
   "name_key": "pelico",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 9.0,
+      "market": 7.0,
+      "overall": 7.0,
+      "run": "2026-09-16-r2",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://www.pelico.ai/"
 }

@@ -4,11 +4,110 @@
   "country": "Netherlands",
   "domain": "silverflow.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Netherlands",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://startupmap.iamsterdam.com/news/feed/amsterdam-s-silverflow-raises-41-8m-to-scale-cloud-native-payment-processing-globally"
+        ],
+        "value": "Amsterdam-Duivendrecht, Netherlands"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://startupmap.iamsterdam.com/news/feed/amsterdam-s-silverflow-raises-41-8m-to-scale-cloud-native-payment-processing-globally"
+        ],
+        "value": "2019"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.eu-startups.com/2026/05/dutch-fintech-silverflow-targets-international-growth-as-transaction-volumes-approach-one-billion-annually/"
+        ],
+        "value": "Processes nearly 1.75 million transactions a day, approaching one billion a year, with customers including Deutsche Bank, Bolt and Buckaroo, and grew headcount by more than 20% after a Series B."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.eu-startups.com/2026/03/amsterdams-cloud-native-payment-company-silverflow-closes-e37-million-series-b-plans-to-grow-workforce-by-over-50/"
+        ],
+        "value": "€37M Series B, after an earlier €15M round"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Silverflow gives banks and payment providers a modern, cloud-based way to process card payments, connecting directly to card networks like Visa and Mastercard.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Rebuild critical financial infrastructure from scratch as cloud-native, and large institutions will eventually switch for the speed and data benefits.",
+    "name": "Silverflow",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Approaching one billion transactions a year with named major customers like Deutsche Bank is a large, well-documented scale signal.",
+        "score": 8.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Card payment processing is a huge, essential market worldwide, and Silverflow already serves customers across Europe, North America and Asia-Pacific.",
+        "score": 7.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Building a direct, cloud-native connection to card networks is hard, trust-sensitive infrastructure work that takes years to replicate.",
+        "score": 6.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "IAmsterdam startup map | Amsterdam's Silverflow raises $41.8M to scale cloud-native payment processing globally",
+        "url": "https://startupmap.iamsterdam.com/news/feed/amsterdam-s-silverflow-raises-41-8m-to-scale-cloud-native-payment-processing-globally"
+      },
+      {
+        "date": "2026-03-01",
+        "title": "Dutch payments technology firm Silverflow closes €37 million Series B; plans to grow workforce by over 50% | EU-Startups",
+        "url": "https://www.eu-startups.com/2026/03/amsterdams-cloud-native-payment-company-silverflow-closes-e37-million-series-b-plans-to-grow-workforce-by-over-50/"
+      },
+      {
+        "date": "2026-05-01",
+        "title": "Dutch FinTech Silverflow targets international growth as transaction volumes approach one billion annually | EU-Startups",
+        "url": "https://www.eu-startups.com/2026/05/dutch-fintech-silverflow-targets-international-growth-as-transaction-volumes-approach-one-billion-annually/"
+      },
+      {
+        "date": "2023-11-01",
+        "title": "Amsterdam-based Silverflow raises €15 million to fast track expansion of cloud-based payments processing platform | EU-Startups",
+        "url": "https://www.eu-startups.com/2023/11/amsterdam-based-silverflow-raises-e15-million-to-fast-track-expansion-of-cloud-based-payments-processing-platform/"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It replaces old, slow payment processing infrastructure with a cloud-native platform and simple APIs, instead of patching legacy systems.",
+    "website": "https://www.silverflow.com/",
+    "who_pays": "Banks and payment providers pay to process card payments through Silverflow's platform.",
+    "why_now": "Banks and payment providers are under pressure to modernise old payment infrastructure that struggles to keep up with today's transaction volumes and data needs."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "silverflow-com",
-  "industry": "FinTech",
-  "last_checked": null,
+  "industry": "Fintech",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +121,25 @@
   ],
   "name": "Silverflow",
   "name_key": "silverflow",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 8.0,
+      "market": 7.0,
+      "overall": 7.0,
+      "run": "2026-09-16-r2",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://www.silverflow.com/"
 }

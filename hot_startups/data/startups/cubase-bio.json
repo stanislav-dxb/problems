@@ -2,13 +2,107 @@
   "alias_keys": [],
   "aliases": [],
   "country": "Sweden",
-  "domain": null,
+  "domain": "cubasebio.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Sweden",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.genomeweb.com/sequencing/swedish-spatial-biology-startup-cubasebio-launches-eu59m-funding"
+        ],
+        "value": "Stockholm, Sweden"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.genomeweb.com/sequencing/swedish-spatial-biology-startup-cubasebio-launches-eu59m-funding"
+        ],
+        "value": "2024"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://arcticstartup.com/heartbeat-bio-and-cubase-bio-partner/"
+        ],
+        "value": "Just announced a partnership with HeartBeat.bio to apply its 3D spatial mapping technology to heart disease research."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.rna-seqblog.com/cubasebio-emerges-from-stealth-to-scale-true-3d-spatial-transcriptomics-with-e5-9m-in-financing/"
+        ],
+        "value": "€5.9M blended financing: €3.9M private capital led by Voima Ventures and Nordic Science Investments, plus a €2M non-dilutive EIC Transition grant"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Cubase Bio maps where genes are active inside tissue in true 3D, instead of the flat 2D slices most tools use, giving drug researchers a much fuller picture of how disease develops inside an organ.",
+    "industry": "Biotech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "A founding team with a proven prior exit in the same specific niche can raise funding and land partnerships quickly, even soon after emerging from stealth.",
+    "name": "Cubase Bio",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: the founders&#x27; prior spatial-biology company was acquired by 10x Genomics, and the company just landed a new research partnership right after emerging from stealth",
+        "reason": "No revenue or customer numbers are available yet, but the founders have a proven track record and are already signing partnerships.",
+        "score": 6.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Spatial biology tools serve pharmaceutical and biotech research budgets worldwide, a real but specialised scientific tools market.",
+        "score": 6.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "True 3D DNA-microscopy-based spatial transcriptomics is deep, novel biology and imaging science that would take competitors years to replicate.",
+        "score": 8.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-11",
+        "title": "Sweden's Cubase Bio teams up with HeartBeat.bio to advance 3D spatial mapping for heart disease - ArcticStartup",
+        "url": "https://arcticstartup.com/heartbeat-bio-and-cubase-bio-partner/"
+      },
+      {
+        "date": null,
+        "title": "Swedish Spatial Biology Startup CubaseBio Launches With €5.9M in Funding | GenomeWeb",
+        "url": "https://www.genomeweb.com/sequencing/swedish-spatial-biology-startup-cubasebio-launches-eu59m-funding"
+      },
+      {
+        "date": null,
+        "title": "Founder Spotlight: Reshaping Spatial Biology from 2D to 3D with CubaseBio - Voima Ventures",
+        "url": "https://voimaventures.com/founder-spotlight-reshaping-spatial-biology-from-2d-to-3d-with-cubasebio/"
+      },
+      {
+        "date": null,
+        "title": "CubaseBio emerges from stealth to scale true 3D spatial transcriptomics with €5.9M in financing | RNA-Seq Blog",
+        "url": "https://www.rna-seqblog.com/cubasebio-emerges-from-stealth-to-scale-true-3d-spatial-transcriptomics-with-e5-9m-in-financing/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its founders previously built and sold a similar spatial biology company, Cartana, to 10x Genomics, where their technology became the foundation of a major commercial product line.",
+    "website": "https://www.cubasebio.com/",
+    "who_pays": "Pharmaceutical and biotech companies pay to use Cubase Bio's 3D tissue mapping technology to accelerate their drug discovery research, including new partnerships like its work with HeartBeat.bio on heart disease.",
+    "why_now": "Drug discovery increasingly depends on understanding disease in realistic, three-dimensional tissue structures like organoids, which flat 2D imaging tools cannot properly capture."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "cubase-bio",
   "industry": "Biotech",
-  "last_checked": null,
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-09-11",
@@ -22,14 +116,25 @@
   ],
   "name": "Cubase Bio",
   "name_key": "cubasebio",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:48:18+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 6.0,
+      "market": 6.0,
+      "overall": 6.7,
+      "run": "2026-09-16-r2",
+      "tech": 8.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
+  "website": "https://www.cubasebio.com/"
 }

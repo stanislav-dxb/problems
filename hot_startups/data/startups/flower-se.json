@@ -4,11 +4,121 @@
   "country": "Sweden",
   "domain": "flower.se",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Sweden",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://arcticstartup.com/flower-raises-e20m-series-a/"
+        ],
+        "value": "Stockholm, Sweden"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://arcticstartup.com/flower-raises-e20m-series-a/"
+        ],
+        "value": "2020"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.energy-storage.news/startup-flower-on-long-term-optimisation-and-the-swedish-bess-market/"
+        ],
+        "value": "2023 revenue was 100M SEK (about €8.6M), a 10x increase year over year versus 2022."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "€100M total, including a €45M Series A extension"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://www.energy-storage.news/startup-flower-on-long-term-optimisation-and-the-swedish-bess-market/"
+        ],
+        "value": "about 130"
+      }
+    },
+    "idea": "Flower manages and trades flexible energy assets, like batteries, wind farms, solar farms and EV chargers, to make renewable power more reliable for the grid.",
+    "industry": "Energy",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "As a market shifts to many small, uneven producers, build the layer that coordinates them all, rather than owning the hardware yourself.",
+    "name": "Flower",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Revenue grew tenfold in a year, a clear, well-sourced number.",
+        "score": 8.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Balancing renewable energy is a growing need across the whole European power grid, and Flower is expanding into several countries.",
+        "score": 7.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Its software works across many hardware types, a real edge, but the approach could be matched by a strong team within a year or two.",
+        "score": 5.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "With €100M in total funding, Swedish startup advances renewable grid stability in Europe - ArcticStartup",
+        "url": "https://arcticstartup.com/flower-raises-e20m-series-a/"
+      },
+      {
+        "date": "2024-10-01",
+        "title": "Stockholm-based Flower raises €45 million to revolutionise European energy flexibility | EU-Startups",
+        "url": "https://www.eu-startups.com/2024/10/stockholm-based-flower-raises-e45-million-to-revolutionise-european-energy-flexibility/"
+      },
+      {
+        "date": null,
+        "title": "Sweden's Flower secures €20M in its Series A round",
+        "url": "https://siliconcanals.com/flower-secures-e20m-in-its-series-a-round/"
+      },
+      {
+        "date": null,
+        "title": "Swedish grid startup Flower scoops €25M to use clean energy to power society — TFN",
+        "url": "https://techfundingnews.com/swedish-grid-startup-flower-scoops-e25m-to-use-clean-energy-to-power-society/"
+      },
+      {
+        "date": "2024-09-19",
+        "title": "Stockholm's Flower acquires Arise's battery project: a boost for Swedish energy - Tech.eu",
+        "url": "https://tech.eu/2024/09/19/stockholms-flower-acquires-major-battery-project-a-boost-for-swedish-energy/"
+      },
+      {
+        "date": null,
+        "title": "Startup Flower on 'long-term optimisation' and the Swedish BESS market",
+        "url": "https://www.energy-storage.news/startup-flower-on-long-term-optimisation-and-the-swedish-bess-market/"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its software works across many different kinds of hardware from different owners, instead of managing just one type of energy asset.",
+    "website": "https://www.flower.se/",
+    "who_pays": "Owners of energy assets like battery parks, wind farms and solar farms pay Flower to optimise and trade their power.",
+    "why_now": "As more wind and solar power connects to the grid, grids need smarter tools to balance supply and demand in real time."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "flower-se",
   "industry": "Energy",
-  "last_checked": null,
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +132,25 @@
   ],
   "name": "Flower",
   "name_key": "flower",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 8.0,
+      "market": 7.0,
+      "overall": 6.7,
+      "run": "2026-09-16-r2",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://www.flower.se/"
 }

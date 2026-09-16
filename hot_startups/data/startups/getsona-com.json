@@ -4,11 +4,102 @@
   "country": "United Kingdom",
   "domain": "getsona.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.eu-startups.com/2022/03/london-based-sona-picks-up-e6-2-million-for-its-people-operating-system-for-frontline-and-deskless-workers/"
+        ],
+        "value": "London, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.eu-startups.com/2022/03/london-based-sona-picks-up-e6-2-million-for-its-people-operating-system-for-frontline-and-deskless-workers/"
+        ],
+        "value": "2021"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://marketingreport.one/news/workforce-management-startup-sona-raises-27-5m-to-expand-its-go-to-market-function-build-more-advanced-ai-capabilities.html"
+        ],
+        "value": "Revenue grew more than 400% in 2023."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://marketingreport.one/news/workforce-management-startup-sona-raises-27-5m-to-expand-its-go-to-market-function-build-more-advanced-ai-capabilities.html"
+        ],
+        "value": "$27.5M Series A"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://marketingreport.one/news/workforce-management-startup-sona-raises-27-5m-to-expand-its-go-to-market-function-build-more-advanced-ai-capabilities.html"
+        ],
+        "value": "about 241"
+      }
+    },
+    "idea": "Sona builds workforce management software for frontline workers, handling scheduling, payroll and everyday HR tasks in one simple app.",
+    "industry": "HR tech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Office workers get most workplace software; build for the much bigger, underserved group of frontline workers instead.",
+    "name": "Sona",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Revenue grew over 400% in a single year, a clear and very fast growth number.",
+        "score": 9.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Frontline and deskless workers make up a huge share of the global workforce, across many industries.",
+        "score": 7.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "AI-driven scheduling and forecasting is a solid feature set, but workforce management tools are an established category others could match.",
+        "score": 5.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2022-03-01",
+        "title": "London-based Sona picks up €6.2 million for its people operating system for frontline and deskless workers | EU-Startups",
+        "url": "https://www.eu-startups.com/2022/03/london-based-sona-picks-up-e6-2-million-for-its-people-operating-system-for-frontline-and-deskless-workers/"
+      },
+      {
+        "date": null,
+        "title": "Workforce management startup Sona raises $27.5m to expand its go-to-market function, build more advanced AI capabilities - MarketingReport",
+        "url": "https://marketingreport.one/news/workforce-management-startup-sona-raises-27-5m-to-expand-its-go-to-market-function-build-more-advanced-ai-capabilities.html"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It uses AI to forecast staffing needs and build schedules automatically, aimed specifically at frontline and deskless workers rather than office staff.",
+    "website": "https://www.getsona.com/",
+    "who_pays": "Large organisations with frontline or deskless workforces pay to run scheduling, HR and payroll through the platform.",
+    "why_now": "Large employers with frontline workforces are under pressure to cut labour costs and improve scheduling as staffing shortages continue."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "getsona-com",
-  "industry": "HR Tech",
-  "last_checked": null,
+  "industry": "HR tech",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +113,25 @@
   ],
   "name": "Sona",
   "name_key": "sona",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 9.0,
+      "market": 7.0,
+      "overall": 7.0,
+      "run": "2026-09-16-r2",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://www.getsona.com/"
 }

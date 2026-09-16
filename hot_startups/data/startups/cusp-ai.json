@@ -4,11 +4,104 @@
   "country": "United Kingdom",
   "domain": "cusp.ai",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://invezz.com/news/2026/07/20/uk-government-backs-british-ai-startup-cuspai-in-450m-funding-round/"
+        ],
+        "value": "Cambridge, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://invezz.com/news/2026/07/20/uk-government-backs-british-ai-startup-cuspai-in-450m-funding-round/"
+        ],
+        "value": "2024"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://invezz.com/news/2026/07/20/uk-government-backs-british-ai-startup-cuspai-in-450m-funding-round/"
+        ],
+        "value": "Raised a $450M round in July 2026 at a $2.6B valuation, up from an €85M+ round and €25.5M seed the year before."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "$450M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "CuspAI uses generative AI to design new materials on demand, for uses like carbon capture and water purification.",
+    "industry": "AI for materials",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Point a powerful new AI method at a slow, expensive scientific search problem and you can shortcut years of lab work.",
+    "name": "CuspAI",
+    "not_startup_reason": null,
+    "overall": 8.0,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Its valuation jumped roughly 20x in under two years across three funding rounds.",
+        "score": 8.0,
+        "source": null
+      },
+      "market": {
+        "reason": "New materials are needed across many large industries, from clean energy to water treatment, worldwide.",
+        "score": 8.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Generative AI for designing new materials from scratch is a rare, hard-to-copy capability backed by top investors and the UK government.",
+        "score": 8.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "UK government backs British AI startup CuspAI in $450M funding round",
+        "url": "https://invezz.com/news/2026/07/20/uk-government-backs-british-ai-startup-cuspai-in-450m-funding-round/"
+      },
+      {
+        "date": null,
+        "title": "British startup CuspAI Secures €85 million+ to transform materials discovery with AI",
+        "url": "https://www.eu-startups.com/2025/09/british-startup-cuspai-secures-e85-million-to-transform-materials-discovery-with-ai"
+      },
+      {
+        "date": null,
+        "title": "CuspAI | AI-powered materials discovery",
+        "url": "https://cusp.ai/"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its AI does not just predict properties of known materials, it designs brand-new ones, something normally left to years of lab trial and error.",
+    "website": "https://www.cusp.ai/",
+    "who_pays": "Industrial and government customers who need new materials for carbon capture and water purification.",
+    "why_now": "Governments and industry are racing to fund carbon capture and clean water technology, and AI can now search huge chemical spaces fast."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "cusp-ai",
-  "industry": "AI for Engineering & Materials",
-  "last_checked": null,
+  "industry": "AI for materials",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -49,21 +142,32 @@
   ],
   "name": "CuspAI",
   "name_key": "cuspai",
-  "region": null,
+  "region": "europe",
   "research": {
     "article_read": true,
     "article_text": "/home/user/problems/hot_startups/cache/article-cusp-ai.txt",
     "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-09-16-r2",
     "pages": 2,
     "queries_done": [
       "\"CuspAI\" startup United Kingdom"
     ],
+    "refresh": false,
     "searches": 1,
     "site_read": true,
     "site_text": "/home/user/problems/hot_startups/cache/site-cusp-ai.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:57:23+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 8.0,
+      "market": 8.0,
+      "overall": 8.0,
+      "run": "2026-09-16-r2",
+      "tech": 8.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://www.cusp.ai/"
 }

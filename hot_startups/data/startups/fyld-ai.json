@@ -4,11 +4,108 @@
   "country": "United Kingdom",
   "domain": "fyld.ai",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://startups.co.uk/startups-100/2025/fyld-2025/"
+        ],
+        "value": "London, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://startups.co.uk/startups-100/2025/fyld-2025/"
+        ],
+        "value": "2020"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "82% year-over-year growth, with a 48% cut in injuries and incidents for a key client and over 2,600 people using it daily at one customer."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "$41M Series B"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "FYLD turns everyday reports and photos from construction and infrastructure field workers into real-time, structured data so managers can see and fix problems fast.",
+    "industry": "AI tools",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Turn the paperwork workers already have to do into structured data automatically, and safety and productivity improve as a side effect.",
+    "name": "FYLD",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "82% year-over-year growth is fast and well documented, backed by concrete safety and productivity numbers from real customers.",
+        "score": 9.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Infrastructure and construction fieldwork is a large, essential industry, though the product targets one part of it.",
+        "score": 6.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Using AI to read field images and video for safety and progress is useful, but similar computer-vision approaches could be built by a strong competitor within a year or two.",
+        "score": 5.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "FYLD: the startup using AI to keep site teams safe",
+        "url": "https://startups.co.uk/startups-100/2025/fyld-2025/"
+      },
+      {
+        "date": "2026-02-17",
+        "title": "AI field operations startup FYLD raises $41M to help build large-scale infrastructure - SiliconANGLE",
+        "url": "https://siliconangle.com/2026/02/17/ai-field-operations-startup-fyld-raises-41m-help-build-large-scale-infrastructure/"
+      },
+      {
+        "date": null,
+        "title": "FYLD named #14 among UK's top 100 startups for 2025",
+        "url": "https://fyld.ai/resources/fyld-named-14-among-uks-top-100-startups-for-2025"
+      },
+      {
+        "date": null,
+        "title": "FYLD raises £32m Series B startup funding | Startupmag",
+        "url": "https://www.startupmag.co.uk/funding/fyld-2026-seriesb-funding/"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It uses AI image analysis to automatically create video risk assessments of worksites, instead of relying on workers to fill out manual paperwork.",
+    "website": "https://www.fyld.ai",
+    "who_pays": "Infrastructure operators, contractors and utility companies pay to run their field operations and safety checks through the platform.",
+    "why_now": "Infrastructure operators face safety rules and labour shortages, and AI can now read images and video from the field reliably."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "fyld-ai",
-  "industry": "AI Productivity & Automation",
-  "last_checked": null,
+  "industry": "AI tools",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +119,25 @@
   ],
   "name": "FYLD",
   "name_key": "fyld",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 9.0,
+      "market": 6.0,
+      "overall": 6.7,
+      "run": "2026-09-16-r2",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://www.fyld.ai"
 }

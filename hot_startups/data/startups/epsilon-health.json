@@ -2,13 +2,88 @@
   "alias_keys": [],
   "aliases": [],
   "country": "United States",
-  "domain": null,
+  "domain": "epsilon.health",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://thebridge.jp/2026/09/epsilon-health-series-a-ai-radiology"
+        ],
+        "value": "United States"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://thebridge.jp/2026/09/epsilon-health-series-a-ai-radiology"
+        ],
+        "value": "$20M Series A"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Epsilon Health gives radiologists an AI tool that reads X-rays and drafts the findings report for them, so imaging providers can read more scans without hiring more radiologists.",
+    "industry": "AI radiology",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Pairing an AI tool with visible, checkable reasoning can make doctors more willing to trust and adopt it, while their corrections become free training data that keeps improving the system.",
+    "name": "Epsilon Health",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "recovered_from_page": true,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "unknown",
+        "reason": "Only a funding announcement is available; no user, scan-volume or revenue numbers have been reported yet.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "Radiology reading capacity is a widespread and growing bottleneck across the US healthcare system, a large, essential market.",
+        "score": 7.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "It built its own image-and-text AI model with custom X-ray preprocessing and a heatmap explanation system tied to generated reports, genuine and hard-to-copy technical work.",
+        "score": 7.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-15",
+        "title": "AI読影で放射線科診療を手掛けるEpsilon Health、シリーズAで2,000万ドル調達",
+        "url": "https://thebridge.jp/2026/09/epsilon-health-series-a-ai-radiology"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its AI model shows a heatmap of exactly which part of the X-ray it looked at for each sentence in the report, so doctors can check the AI's reasoning against the image rather than trusting it blindly, and doctors' corrections feed back into improving the model.",
+    "website": "https://www.epsilon.health/",
+    "who_pays": "Imaging providers and radiology practices pay to use Epsilon Health's remote reading service and AI tools to increase how many scans their radiologists can read.",
+    "why_now": "Demand for imaging scans is rising in the US while the number of radiologists is shrinking as many retire, creating a growing gap that AI-assisted reading can help close."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "epsilon-health",
   "industry": "AI radiology",
-  "last_checked": null,
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-09-15",
@@ -22,14 +97,25 @@
   ],
   "name": "Epsilon Health",
   "name_key": "epsilonhealth",
-  "region": null,
+  "region": "north_america",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:48:18+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": null,
+      "market": 7.0,
+      "overall": 7.0,
+      "run": "2026-09-16-r2",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
+  "website": "https://www.epsilon.health/"
 }

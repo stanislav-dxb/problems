@@ -4,11 +4,106 @@
   "country": "United Kingdom",
   "domain": "physicsx.ai",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.eu-startups.com/2025/06/british-ai-startup-physicsx-raises-e117-3-million-to-usher-in-a-new-era-of-ai-native-engineering-and-manufacturing/"
+        ],
+        "value": "London, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.eu-startups.com/2025/06/british-ai-startup-physicsx-raises-e117-3-million-to-usher-in-a-new-era-of-ai-native-engineering-and-manufacturing/"
+        ],
+        "value": "2023"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "Raised a $300M round valuing it at $2.4 billion, up from a €117.3M round the year before."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://pitchbook.com/profiles/company/529644-70"
+        ],
+        "value": "$300M Series C at a $2.4B valuation"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://pitchbook.com/profiles/company/529644-70"
+        ],
+        "value": "about 300"
+      }
+    },
+    "idea": "PhysicsX uses machine learning to speed up physics simulations, so engineers can test and improve product designs in seconds instead of months.",
+    "industry": "AI for engineering",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Take a niche, high-pressure skill from an elite field, like Formula 1 engineering, and apply it to slower, everyday industries.",
+    "name": "PhysicsX",
+    "not_startup_reason": null,
+    "overall": 7.7,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Its valuation jumped to $2.4 billion after a $300 million round, a big step up from its funding the year before.",
+        "score": 8.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Aerospace, automotive, semiconductor and energy companies worldwide all need faster, cheaper engineering simulation.",
+        "score": 7.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Compressing months of physics simulation into seconds with machine learning is rare, advanced work led by experienced specialists.",
+        "score": 8.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2025-06-01",
+        "title": "British AI startup PhysicsX raises €117.3 million for a new era of AI-native engineering and manufacturing | EU-Startups",
+        "url": "https://www.eu-startups.com/2025/06/british-ai-startup-physicsx-raises-e117-3-million-to-usher-in-a-new-era-of-ai-native-engineering-and-manufacturing/"
+      },
+      {
+        "date": "2023-11-01",
+        "title": "London-based PhysicsX bags €29 million to give engineers AI superpowers in bringing new tech to the real world | EU-Startups",
+        "url": "https://www.eu-startups.com/2023/11/london-based-physicsx-bags-e29-million-to-give-engineers-ai-superpowers-in-bringing-new-tech-to-the-real-world/"
+      },
+      {
+        "date": null,
+        "title": "PhysicsX 2026 Company Profile: Valuation, Funding & Investors | PitchBook",
+        "url": "https://pitchbook.com/profiles/company/529644-70"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It was founded by former Formula 1 engineers and AI scientists who apply race-team speed and rigor to mainstream engineering and manufacturing.",
+    "website": "https://www.physicsx.ai/",
+    "who_pays": "Aerospace, defense, automotive, semiconductor, materials and energy companies pay to use AI-accelerated engineering simulations.",
+    "why_now": "Simulating complex physical designs normally takes huge computing time, and machine learning can now compress that into a tiny fraction of the time."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "physicsx-ai",
-  "industry": "AI for Engineering & Materials",
-  "last_checked": null,
+  "industry": "AI for engineering",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +117,25 @@
   ],
   "name": "PhysicsX",
   "name_key": "physicsx",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 8.0,
+      "market": 7.0,
+      "overall": 7.7,
+      "run": "2026-09-16-r2",
+      "tech": 8.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://www.physicsx.ai/"
 }

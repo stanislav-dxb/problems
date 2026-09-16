@@ -4,11 +4,109 @@
   "country": "Germany",
   "domain": "dash0.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Germany",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://vcgermany.de/startup-liste/dash0"
+        ],
+        "value": "Founded in Germany, now headquartered in New York"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.vestbee.com/insights/articles/dash0-raises-9-5-m"
+        ],
+        "value": "2023"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.dash0.com/blog/dash0-raises-usd110m-series-b"
+        ],
+        "value": "Serves over 800 customers including Zalando, Taco Bell and The Telegraph, and became Germany's second unicorn of 2026."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "$110M Series B at a $1B valuation, after a $35M Series A and a $9.5M seed"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Dash0 helps engineering teams monitor their software and find the cause of problems quickly, using an open standard for collecting system data.",
+    "industry": "Developer tools",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Build on an open industry standard so customers trust you will not lock them in, then add AI on top to stand out.",
+    "name": "Dash0",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "It jumped from a $9.5M seed to a $1 billion valuation with over 800 paying customers in about two years.",
+        "score": 9.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Every company running software online needs monitoring tools, a large but specialised engineering market.",
+        "score": 6.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Building on the open OpenTelemetry standard makes adoption easier, but rivals can build on the same open standard too.",
+        "score": 5.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "German observability tool Dash0 raises $9.5M seed round led by Accel | Vestbee",
+        "url": "https://www.vestbee.com/insights/articles/dash0-raises-9-5-m"
+      },
+      {
+        "date": null,
+        "title": "Dash0 becomes second German Unicorn 2026 and raises 110 million dollars | Startbase",
+        "url": "https://www.startbase.com/news/dash0-wird-zweites-deutsches-unicorn-2026-und-sammelt-110-millionen-dollar-ein/"
+      },
+      {
+        "date": null,
+        "title": "Dash0 Raises $110M Series B at $1B Valuation to Build the AI Nervous System for Production · Dash0",
+        "url": "https://www.dash0.com/blog/dash0-raises-usd110m-series-b"
+      },
+      {
+        "date": null,
+        "title": "Cherry Ventures and Accel lead $35m Series A in AI observability startup Dash0 | Sifted",
+        "url": "https://sifted.eu/articles/cherry-ventures-accel-35m-dash0"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It adds an AI agent, Agent0, that acts like a copilot, helping engineers find the root cause of an issue instead of just showing raw data.",
+    "website": "https://www.dash0.com/",
+    "who_pays": "Engineering and DevOps teams at companies pay to monitor and troubleshoot their software through the platform.",
+    "why_now": "Software systems are getting more complex and change faster, so engineering teams need AI help to catch and fix problems before customers notice."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "dash0-com",
-  "industry": "DevOps Tool",
-  "last_checked": null,
+  "industry": "Developer tools",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +120,25 @@
   ],
   "name": "Dash0",
   "name_key": "dash0",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 9.0,
+      "market": 6.0,
+      "overall": 6.7,
+      "run": "2026-09-16-r2",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://www.dash0.com/"
 }

@@ -192,3 +192,73 @@ country_languages:
   Türkiye: tr
   Israel: he
   Russia: ru
+
+# Which region a country belongs to, used to spread the write-ups across regions.
+country_regions:
+  United States: north_america
+  Canada: north_america
+  United Kingdom: europe
+  France: europe
+  Germany: europe
+  Netherlands: europe
+  Belgium: europe
+  Sweden: europe
+  Denmark: europe
+  Finland: europe
+  Norway: europe
+  Ireland: europe
+  Italy: europe
+  Spain: europe
+  Portugal: europe
+  Switzerland: europe
+  Austria: europe
+  Poland: europe
+  Czech Republic: europe
+  Romania: europe
+  Estonia: europe
+  Lithuania: europe
+  Latvia: europe
+  Greece: europe
+  Hungary: europe
+  Ukraine: europe
+  Brazil: latin_america
+  Mexico: latin_america
+  Colombia: latin_america
+  Chile: latin_america
+  Argentina: latin_america
+  Peru: latin_america
+  Uruguay: latin_america
+  Costa Rica: latin_america
+  Venezuela: latin_america
+  India: asia
+  China: asia
+  Japan: asia
+  South Korea: asia
+  Korea: asia
+  Singapore: asia
+  Indonesia: asia
+  Vietnam: asia
+  Thailand: asia
+  Philippines: asia
+  Malaysia: asia
+  Taiwan: asia
+  Hong Kong: asia
+  Pakistan: asia
+  Bangladesh: asia
+  Israel: mea
+  United Arab Emirates: mea
+  Saudi Arabia: mea
+  Bahrain: mea
+  Qatar: mea
+  Kuwait: mea
+  Egypt: mea
+  Turkey: mea
+  "Türkiye": mea
+  Nigeria: mea
+  Kenya: mea
+  South Africa: mea
+  Ghana: mea
+  Morocco: mea
+  Australia: other
+  New Zealand: other
+  Russia: other

@@ -4,11 +4,109 @@
   "country": "Italy",
   "domain": "xfarm.ag",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Italy",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://agfundernews.com/xfarm-and-farm-technologies-merge-to-become-the-spotify-of-agtech"
+        ],
+        "value": "Italy"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://agfundernews.com/xfarm-and-farm-technologies-merge-to-become-the-spotify-of-agtech"
+        ],
+        "value": "2017"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "Now used on over 600,000 farms covering more than 14 million hectares, connected to 12,000+ pieces of machinery and 12,000+ sensors, and won Italian startup of the year in March 2025."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://startupitalia.eu/startup/xfarm-technologies-round/"
+        ],
+        "value": "About €50M total: €3M seed (2019), €17M Series B (2022), and a €36M Series C"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "xFarm gives farmers one app to manage everything on their farm, from irrigation and crop protection to machinery, accounting and sustainability reporting, using sensors and satellite data instead of scattered paper records and separate tools.",
+    "industry": "AgriTech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Merging with a direct competitor can be a fast way to combine user bases and technology into a single dominant platform in a fragmented market.",
+    "name": "xFarm",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "It is used on over 600,000 farms across 14 million hectares and just won a national startup award, strong and well-documented scale.",
+        "score": 8.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Farm management software addresses a need shared by farms of all sizes worldwide, a large and growing agricultural technology market.",
+        "score": 7.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Combining sensor data, satellite imagery, and direct integration with over 50 machinery brands into one platform is solid, non-trivial systems integration work.",
+        "score": 6.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Digital ag platforms xFarm & Farm Technologies merge to become 'Spotify of agtech'",
+        "url": "https://agfundernews.com/xfarm-and-farm-technologies-merge-to-become-the-spotify-of-agtech"
+      },
+      {
+        "date": null,
+        "title": "xFarm Technologies, la startup agritech chiude il round Serie C da 36 milioni di euro - StartupItalia",
+        "url": "https://startupitalia.eu/startup/xfarm-technologies-round/"
+      },
+      {
+        "date": null,
+        "title": "La startup agritech xFarm cresce all'estero e punta a servizi per banche e assicurazioni - Millionaire",
+        "url": "https://www.millionaire.it/la-startup-agritech-xfarm-cresce-allestero-e-punta-a-servizi-per-banche-e-assicurazioni/"
+      },
+      {
+        "date": null,
+        "title": "xFarm - The app for farm management!",
+        "url": "https://xfarm.ag/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It connects directly with over 50 machinery brands to automatically track field activities, and formed by merging two competing farm-management apps into one combined platform.",
+    "website": "https://xfarm.ag/",
+    "who_pays": "Farmers and farm businesses pay to use xFarm's management software, and the company is expanding into selling farm data services to banks and insurers.",
+    "why_now": "Farmers face rising pressure to cut costs, use resources efficiently and prove sustainability, and cheaper sensors and satellite imagery now make precise, data-driven farm management affordable at scale."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "xfarm-ag",
   "industry": "AgriTech",
-  "last_checked": null,
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +120,25 @@
   ],
   "name": "xFarm",
   "name_key": "xfarm",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 8.0,
+      "market": 7.0,
+      "overall": 7.0,
+      "run": "2026-09-16-r2",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://xfarm.ag/"
 }

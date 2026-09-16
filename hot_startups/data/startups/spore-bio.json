@@ -4,11 +4,112 @@
   "country": "France",
   "domain": "spore.bio",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "France",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.myfrenchstartup.com/fr/startup-france/329305/sporebio"
+        ],
+        "value": "Paris, France"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.eu-startups.com/2026/01/french-biotech-spore-bio-secures-multi-million-dollar-google-org-funding-and-launches-ai-native-research-unit/"
+        ],
+        "value": "Won multi-million-euro funding from Google.org's AI for Science fund and launched a new AI research division, Spore.Labs, in January 2026."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "about $23M Series A, after a €7.9M pre-seed"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Spore.Bio builds a fast testing machine that finds and identifies harmful bacteria in food, water and medicine, without the days-long lab culturing normally needed.",
+    "industry": "Biotech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Replace a slow, decades-old lab test with a fast machine reading, and whole industries that depend on that test become customers.",
+    "name": "Spore.Bio",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: new funding and a new research division",
+        "reason": "No revenue or customer numbers were found; the main recent signal is a new grant and a new research unit rather than a size number.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "Microbial testing is needed across many large industries worldwide: food, water, cosmetics and pharmaceuticals.",
+        "score": 7.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Combining optical hardware with AI to skip lab culturing is a hard, specialised setup that would take a strong team years to copy.",
+        "score": 7.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-01-01",
+        "title": "French BioTech Spore.Bio secures multi-million-euro Google.org funding and launches AI-native research unit | EU-Startups",
+        "url": "https://www.eu-startups.com/2026/01/french-biotech-spore-bio-secures-multi-million-dollar-google-org-funding-and-launches-ai-native-research-unit/"
+      },
+      {
+        "date": "2025-02-01",
+        "title": "Spore.Bio raises €22 million to deploy a new generation of AI-based microbiology testing | EU-Startups",
+        "url": "https://www.eu-startups.com/2025/02/spore-bio-raises-e22-million-to-deploy-a-new-generation-of-ai-based-microbiology-testing/"
+      },
+      {
+        "date": null,
+        "title": "Spore.bio lève 23 millions de dollars pour sa solution de détection de bactéries en usine",
+        "url": "https://www.usine-digitale.fr/article/spore-bio-leve-23-millions-de-dollars-pour-sa-solution-de-detection-de-bacteries-en-usine.N2227742"
+      },
+      {
+        "date": null,
+        "title": "Spore.Bio obtient un financement de 8 millions d'euros",
+        "url": "https://infonet.fr/actualite/levees-de-fonds/sporebio-levee-fonds-8-millions/"
+      },
+      {
+        "date": null,
+        "title": "Startup SPORE.BIO, Construire une nouvelle génération de technologies microbiologiques",
+        "url": "https://www.myfrenchstartup.com/fr/startup-france/329305/sporebio"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It reads a unique light signature from microorganisms with a mix of optics and AI, instead of growing them in a lab dish first.",
+    "website": "https://www.spore.bio/",
+    "who_pays": "Food, beverage, cosmetics and pharmaceutical manufacturers pay to test their production lines for contamination.",
+    "why_now": "Regulators and manufacturers want real-time proof their products are safe, and AI can now read these light signals reliably."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "spore-bio",
-  "industry": "Biotech & Life Sciences",
-  "last_checked": null,
+  "industry": "Biotech",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +123,25 @@
   ],
   "name": "Spore.Bio",
   "name_key": "sporebio",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": null,
+      "market": 7.0,
+      "overall": 7.0,
+      "run": "2026-09-16-r2",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://www.spore.bio/"
 }

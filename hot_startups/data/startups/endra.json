@@ -1,14 +1,102 @@
 {
   "alias_keys": [],
   "aliases": [],
-  "country": "United Kingdom",
-  "domain": null,
+  "country": "Sweden",
+  "domain": "endra.ai",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Sweden",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://siliconangle.com/2025/12/19/endra-secures-20m-automate-mechanical-electrical-plumbing-design-construction/"
+        ],
+        "value": "Sweden"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://siliconangle.com/2025/12/19/endra-secures-20m-automate-mechanical-electrical-plumbing-design-construction/"
+        ],
+        "value": "2023"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.pmmag.com/articles/107630-endra-expands-into-us-uk-following-50m-raise"
+        ],
+        "value": "Expanded into the US and UK with a new London office serving major engineering consultancies across Europe and the Middle East."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "$50M Series A, after a $20M seed"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Endra uses generative AI to design and document the mechanical, electrical and plumbing systems of buildings, work engineers usually do by hand.",
+    "industry": "Construction tech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Find a highly technical, slow, manual design process buried inside a huge industry, like construction, and automate the whole workflow.",
+    "name": "Endra",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "It moved from a $20M seed to a $50M Series A within about a year and expanded into two new major markets.",
+        "score": 8.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Every large building needs MEP design, a big, recurring need across the global construction industry.",
+        "score": 6.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Automating detailed, code-compliant technical design with generative AI is a hard, specialised problem few teams have solved end to end.",
+        "score": 6.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2025-12-19",
+        "title": "Endra secures $20M to automate mechanical, electrical and plumbing design for construction - SiliconANGLE",
+        "url": "https://siliconangle.com/2025/12/19/endra-secures-20m-automate-mechanical-electrical-plumbing-design-construction/"
+      },
+      {
+        "date": null,
+        "title": "Endra Expands Into US, UK Following $50m Raise | Plumbing & Mechanical",
+        "url": "https://www.pmmag.com/articles/107630-endra-expands-into-us-uk-following-50m-raise"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "Exclusive: Notion Capital leads $20 million seed round for startup automating building MEP design | Fortune",
+        "url": "https://fortune.com/2025/12/18/endra-ai-startup-automating-mep-design-sweden-20-million-seed-round-notion-capital/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It automates the whole MEP design workflow, from layout and device placement to routing and compliance paperwork, not just one small piece of it.",
+    "website": "https://endra.ai/",
+    "who_pays": "Engineering consultancies and construction firms pay to use the platform for MEP design work.",
+    "why_now": "Construction projects are slowed by a shortage of MEP engineers, and generative AI can now handle detailed technical design work reliably."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "endra",
-  "industry": "AI for engineering",
-  "last_checked": null,
+  "industry": "Construction tech",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-09-15",
@@ -22,14 +110,25 @@
   ],
   "name": "Endra",
   "name_key": "endra",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:48:18+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 8.0,
+      "market": 6.0,
+      "overall": 6.7,
+      "run": "2026-09-16-r2",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
+  "website": "https://endra.ai/"
 }

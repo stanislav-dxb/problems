@@ -4,11 +4,104 @@
   "country": "France",
   "domain": "comand.ai",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "France",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.gifas.fr/press-summary/comand-ai-une-nouvelle-startup-pour-la-planification-des-operations-militaires"
+        ],
+        "value": "Paris, France"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.gifas.fr/press-summary/comand-ai-une-nouvelle-startup-pour-la-planification-des-operations-militaires"
+        ],
+        "value": "2023"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.frenchweb.fr/comand-ai-leve-32-millions-deuros-la-defense-europeenne-ne-vise-plus-la-souverainete-mais-la-suprematie/462477"
+        ],
+        "value": "Prevail is deployed with operational military units in France, Germany and Ukraine, and Swedish defense group Saab joined as a strategic investor."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "€32M Series A, bringing total funding higher than the earlier €11.5M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Comand AI builds AI software that helps military officers plan operations much faster and with fewer people than traditional planning methods.",
+    "industry": "Defense tech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "In a field where speed and headcount both matter, like military planning, software that multiplies both can find fast government buyers.",
+    "name": "Comand AI",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "It grew from a €3M seed to an €8.5M seed extension and now a €32M Series A within about two years, alongside real operational deployments in three countries.",
+        "score": 8.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Military operational planning software is a real, growing need as European defense spending rises, though buyers are limited to governments.",
+        "score": 6.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Software trusted enough to plan real military operations, backed by a major defense company as an investor, reflects a hard-to-copy level of trust and capability.",
+        "score": 7.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Comand AI, une nouvelle startup pour la planification des opérations militaires",
+        "url": "https://www.gifas.fr/press-summary/comand-ai-une-nouvelle-startup-pour-la-planification-des-operations-militaires"
+      },
+      {
+        "date": null,
+        "title": "COMAND AI lève 32 millions d'euros : la défense européenne ne vise plus la souveraineté, mais la suprématie",
+        "url": "https://www.frenchweb.fr/comand-ai-leve-32-millions-deuros-la-defense-europeenne-ne-vise-plus-la-souverainete-mais-la-suprematie/462477"
+      },
+      {
+        "date": null,
+        "title": "PARIS : Comand AI lève 8,5 millions d'€ pour apporter une supériorité militaire décisive à la France et ses alliés",
+        "url": "https://presseagence.fr/paris-comand-ai-leve-85-millions-de-pour-apporter-une-superiorite-militaire-decisive-a-la-france-et-ses-allies/"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its Prevail software claims to make operational planning up to four times faster with four times fewer people, and it is already deployed with real operational military units, not just in trials.",
+    "website": "https://www.comand.ai/en",
+    "who_pays": "European defense ministries and armed forces pay for the software to plan and run military operations.",
+    "why_now": "European militaries face pressure to move faster with limited staff, especially after seeing modern warfare in Ukraine demand rapid planning cycles."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "comand-ai",
-  "industry": "Defense Tech",
-  "last_checked": null,
+  "industry": "Defense tech",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +115,25 @@
   ],
   "name": "Comand AI",
   "name_key": "comandai",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 8.0,
+      "market": 6.0,
+      "overall": 7.0,
+      "run": "2026-09-16-r2",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://www.comand.ai/en"
 }

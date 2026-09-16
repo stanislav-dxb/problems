@@ -105,7 +105,40 @@ def cmd_finish(a):
         sys.exit(3)
     week = tasks.finish_run(cfg, store, run)
     path = write_page(store, week)
-    _out({"finished": run["finished"], "line": week["run_line"], "on_the_list": len(week["top_ids"]), "new": len(week["new_ids"]), "page": str(path)})
+    out = {"finished": run["finished"], "line": week["run_line"], "on_the_list": len(week["top_ids"]), "new": len(week["new_ids"]), "page": str(path)}
+    branch = (cfg.get("git") or {}).get("branch")
+    if branch and not a.no_push:
+        out["git"] = _save_memory(store, branch, f"Hot Startups run {run['id']}: {week['run_line']}")
+    _out(out)
+    if out.get("git", {}).get("pushed") is False:
+        sys.exit(4)
+
+
+def _save_memory(store: Store, branch: str, message: str) -> dict:
+    """Commit data/, out/ and config.yaml and push them to the branch. The data folder is the program's memory;
+    without this push the next run forgets everything this run learned."""
+    import subprocess
+    repo = store.root.parent
+    rel = store.root.name
+    def git(*args):
+        return subprocess.run(["git", *args], cwd=repo, capture_output=True, text=True)
+    git("add", f"{rel}/data", f"{rel}/out", f"{rel}/config.yaml")
+    if not git("diff", "--cached", "--quiet").returncode == 0:
+        c = git("commit", "-q", "-m", message)
+        if c.returncode != 0:
+            return {"committed": False, "pushed": False, "error": (c.stderr or c.stdout).strip()[:300]}
+    else:
+        return {"committed": False, "pushed": True, "note": "nothing new to save"}
+    for attempt in range(4):
+        r = git("push", "-u", "origin", branch)
+        if r.returncode == 0:
+            return {"committed": True, "pushed": True, "branch": branch}
+        if "rejected" in (r.stderr or "") or "fetch first" in (r.stderr or ""):
+            git("pull", "--rebase", "origin", branch)
+        else:
+            import time
+            time.sleep(2 ** attempt)
+    return {"committed": True, "pushed": False, "error": (r.stderr or r.stdout).strip()[:300]}
 
 
 def cmd_page(a):
@@ -144,8 +177,9 @@ def main(argv=None):
     s = rs.add_parser("start", help="start (or resume) this week's run")
     s.add_argument("--first", action="store_true", help="use the small first-run limits")
     s.set_defaults(fn=cmd_run_start)
-    f = rs.add_parser("finish", help="close the run, write the week file and the page")
+    f = rs.add_parser("finish", help="close the run, write the week file and the page, commit and push the memory")
     f.add_argument("--force", action="store_true")
+    f.add_argument("--no-push", action="store_true", help="do not commit and push data/ afterwards")
     f.set_defaults(fn=cmd_finish)
     n = sub.add_parser("next", help="hand out the next tickets")
     n.add_argument("--batch", type=int, default=5)

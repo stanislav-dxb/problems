@@ -2,13 +2,106 @@
   "alias_keys": [],
   "aliases": [],
   "country": "Japan",
-  "domain": null,
+  "domain": "aoibio.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Japan",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://thebridge.jp/2026/09/aoi-biosciences-funding-secondary-transaction"
+        ],
+        "value": "Japan"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://thebridge.jp/2025/07/aoi-biosciences-2-mugenlabo-magazine"
+        ],
+        "value": "2019 (as Revorf; renamed AOI Biosciences in January 2025)"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://thebridge.jp/2026/09/aoi-biosciences-funding-secondary-transaction"
+        ],
+        "value": "Its antibody test is already used in over 300 medical institutions in Japan, and it is expanding into Malaysia, South Korea, Taiwan and Indonesia; a cited clinical study found treated patients had over double the pregnancy rate and 1.7 times the live-birth rate of untreated patients."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "About ¥500M in a September 2026 round (new shares plus a secondary share sale), bringing cumulative funding to about ¥1 billion"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "AOI Biosciences tests blood for a specific antibody linked to infertility and repeated miscarriage, so doctors can identify at-risk patients and treat them before trying to conceive.",
+    "industry": "Biotech",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Pairing a single, well-validated diagnostic test with a larger drug discovery platform lets a company generate near-term revenue while it builds out a longer-term research bet.",
+    "name": "AOI Biosciences",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "recovered_from_page": true,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "The test is already adopted by over 300 hospitals in Japan and is expanding into four more Asian countries, with strong clinical outcome data behind it.",
+        "score": 7.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Infertility and recurrent pregnancy loss affect many couples worldwide, though this specific antibody test addresses only a fraction of those cases.",
+        "score": 6.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Combining a validated antibody diagnostic with quantum-inspired protein structure prediction, developed jointly with Toshiba, is genuinely novel science that would take real time to replicate.",
+        "score": 7.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-14",
+        "title": "抗体検査のAOI Biosciences、増資と株式譲渡で総額約5億円",
+        "url": "https://thebridge.jp/2026/09/aoi-biosciences-funding-secondary-transaction"
+      },
+      {
+        "date": null,
+        "title": "量子技術が切り拓くアロステリック創薬の新時代——AOI Biosciences×東芝が挑む5,000億円市場 - BRIDGE",
+        "url": "https://thebridge.jp/2025/07/aoi-biosciences-2-mugenlabo-magazine"
+      },
+      {
+        "date": null,
+        "title": "AOI Biosciences、自己免疫疾患検査とアロステリック創薬支援の2つを事業化",
+        "url": "https://bio.nikkeibp.co.jp/atcl/column/16/021500017/072300397/"
+      },
+      {
+        "date": null,
+        "title": "AOI Biosciences株式会社の会社情報と資金調達",
+        "url": "https://www.nikkei.com/compass/company/4vx8SCefoUs98xSjCvC3az"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It also uses quantum-inspired computing, developed with Toshiba, to predict hidden control points on proteins that could become new drug targets, an approach it applies to its own drug discovery research.",
+    "website": "https://www.aoibio.com/",
+    "who_pays": "Hospitals and clinics pay to run AOI's antibody test on patients, and pharmaceutical partners may eventually pay to license its drug discovery technology.",
+    "why_now": "About one fifth of recurrent pregnancy loss cases have no known cause, and a validated blood test that identifies one specific antibody gives doctors a concrete, actionable diagnosis where none existed before."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "aoi-biosciences",
   "industry": "Biotech",
-  "last_checked": null,
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-09-14",
@@ -22,14 +115,25 @@
   ],
   "name": "AOI Biosciences",
   "name_key": "aoibiosciences",
-  "region": null,
+  "region": "asia",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:50:10+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 7.0,
+      "market": 6.0,
+      "overall": 6.7,
+      "run": "2026-09-16-r2",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
+  "website": "https://www.aoibio.com/"
 }

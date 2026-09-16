@@ -4,11 +4,105 @@
   "country": "Germany",
   "domain": "caronsale.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Germany",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.caronsale.com/en/about-us"
+        ],
+        "value": "Berlin, Germany"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.caronsale.com/en/about-us"
+        ],
+        "value": "2018"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://techfundingnews.com/london-vc-northzone-leads-e70m-bet-on-berlins-caronsale-to-digitise-europes-e450b-used-car-market/"
+        ],
+        "value": "Revenue is doubling annually and users are tripling across more than 20 EU markets, with a target of scaling to 1 million used cars sold per year."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.eu-startups.com/2025/07/berlin-based-caronsale-raises-e70-million-to-develop-their-used-car-platform/"
+        ],
+        "value": "€70M Series C led by Northzone, with existing lead HV Capital and support from Insight Partners, Stripes and Creandum"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "CarOnSale runs an online auction marketplace where licensed car dealers, OEMs and fleets buy and sell used cars from each other across Europe, replacing slow, informal wholesale trading with a digital auction.",
+    "industry": "Marketplace",
+    "is_startup": true,
+    "judged_on": "2026-09-16",
+    "judged_run": "2026-09-16-r2",
+    "lesson": "Digitizing a large, old-fashioned B2B trading process, and owning the logistics that come after the sale, can turn a marketplace into an end-to-end operating system for an industry.",
+    "name": "CarOnSale",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Revenue is doubling every year and users are tripling across more than 20 markets, clear and fast growth.",
+        "score": 8.0,
+        "source": null
+      },
+      "market": {
+        "reason": "The European used car wholesale trade is a roughly €450 billion market that dealers everywhere in the region need, a very large and essential industry.",
+        "score": 8.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "It combines AI-based vehicle valuation with digital auctions and logistics integration, solid engineering that competing marketplaces could build over time.",
+        "score": 5.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "About us | CarOnSale",
+        "url": "https://www.caronsale.com/en/about-us"
+      },
+      {
+        "date": "2025-07-01",
+        "title": "Berlin-based CarOnSale raises €70 million to develop their used car platform | EU-Startups",
+        "url": "https://www.eu-startups.com/2025/07/berlin-based-caronsale-raises-e70-million-to-develop-their-used-car-platform/"
+      },
+      {
+        "date": null,
+        "title": "London VC Northzone leads €70M bet on Berlin's CarOnSale to digitise Europe's €450B used car market — TFN",
+        "url": "https://techfundingnews.com/london-vc-northzone-leads-e70m-bet-on-berlins-caronsale-to-digitise-europes-e450b-used-car-market/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It prices every car using real transaction data instead of book values, and pairs the marketplace with its own transport and payment handling so a deal closes end-to-end on one platform.",
+    "website": "https://www.caronsale.com/",
+    "who_pays": "Professional car dealers, OEMs and fleet operators pay a commission on each vehicle bought or sold through the platform.",
+    "why_now": "Europe's used car wholesale trade has stayed largely offline and manual, and dealers now want the speed and pricing accuracy of digital auctions as trading volume grows."
+  },
+  "first_judged_run": "2026-09-16-r2",
   "first_seen": "2026-09-16",
   "id": "caronsale-com",
-  "industry": "Marketplace & E-commerce",
-  "last_checked": null,
+  "industry": "Marketplace",
+  "last_checked": "2026-09-16",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +116,25 @@
   ],
   "name": "CarOnSale",
   "name_key": "caronsale",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-16-r2",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-16",
+      "growth": 8.0,
+      "market": 8.0,
+      "overall": 7.0,
+      "run": "2026-09-16-r2",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-16T22:00:18+00:00",
   "website": "https://www.caronsale.com/"
 }
