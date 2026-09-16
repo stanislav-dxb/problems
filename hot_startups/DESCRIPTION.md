@@ -121,6 +121,36 @@ Fully online, opened from any laptop, following the approved sketch:
 
 Scores stay numbers out of 10 for now.
 
+## Rules that guard against known problems
+
+Built-in rules, always on:
+
+- **Facts.** A fact is shown as fact only when two independent sources agree. With one source it reads
+  "reported by X". Every fact carries a date; anything older than a year is marked "old". Official
+  pages (company site, official announcements) beat blogs.
+- **Too big to be a startup.** Before scoring, the program checks for signs of a stock listing or a
+  large team. If found, the company is dropped and the reason logged.
+- **Consistent scores.** Claude scores against a written rulebook with examples of what a 9, a 5 and a
+  2 mean, the same for every startup. The rulebook is a file in the folder that the reader can read.
+  Score history is kept, so a jump is visible.
+- **Duplicates.** A startup is identified by its website address, not its name.
+- **Dead startups.** Known startups are re-checked monthly. A website that no longer answers, or news
+  of a shutdown, removes the entry.
+- **Failed runs.** A run saves after every step and resumes where it stopped. The page always shows the
+  date of the last successful run. The reader gets an email when a run fails.
+- **Thin first weeks.** One small measuring run first, then one bigger catch-up run once the real usage
+  is known, then the weekly rhythm.
+
+Reduced and shown honestly, since they cannot be fully avoided:
+
+- **Missing growth numbers.** When no number exists, the program looks for substitutes: open job
+  positions, app store rank, a funding round bigger than the last. The entry says which substitute was
+  used, or "growth unknown".
+- **Blocked or changed websites.** Direct read first, then Claude's page reader. What still fails is
+  listed on the page.
+- **Under-covered regions.** The page shows the country mix every week. When a region looks thin, local
+  list sites for it are added. The reader's own finds help most here.
+
 ## Where it runs
 
 In the cloud, on a schedule, once a week (default: Monday morning). Nothing runs on a laptop.
