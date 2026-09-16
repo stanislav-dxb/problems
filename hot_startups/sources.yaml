@@ -1,0 +1,196 @@
+# Where the program looks. Shares say how the discovery searches are split between regions.
+# Feeds were checked on 16 September 2026; a feed that stops working is reported on the page, not skipped quietly.
+# Query templates: {month_year} becomes e.g. "September 2026" in that language, {year} the year.
+
+regions:
+  north_america:
+    share: 0.30
+    feeds:
+      - {name: TechCrunch startups, url: "https://techcrunch.com/category/startups/feed/"}
+      - {name: Product Hunt, url: "https://www.producthunt.com/feed"}
+      - {name: Y Combinator blog, url: "https://www.ycombinator.com/blog/rss/"}
+    queries:
+      en:
+        - "startup raises seed round {month_year}"
+        - "startup raises Series A {month_year} United States"
+        - "most promising startups {year} United States"
+        - "Y Combinator {season} {year} batch most interesting startups"
+        - "Canada startup raises funding {month_year}"
+        - "stealth startup emerges {month_year}"
+  europe:
+    share: 0.25
+    feeds:
+      - {name: Sifted, url: "https://sifted.eu/feed"}
+      - {name: EU-Startups, url: "https://www.eu-startups.com/feed/"}
+      - {name: Tech.eu, url: "https://tech.eu/feed/"}
+      - {name: Maddyness (fr), url: "https://www.maddyness.com/feed/"}
+      - {name: Gründerszene (de), url: "https://www.businessinsider.de/gruenderszene/feed/"}
+      - {name: El Referente (es), url: "https://elreferente.es/feed/"}
+      - {name: ArcticStartup, url: "https://arcticstartup.com/feed/"}
+      - {name: Silicon Canals, url: "https://siliconcanals.com/feed/"}
+    queries:
+      en:
+        - "European startup raises seed round {month_year}"
+        - "most promising startups Europe {year}"
+        - "UK startup raises funding {month_year}"
+      de:
+        - "Startup Finanzierungsrunde {month_year}"
+        - "vielversprechendste Startups {year} Deutschland Österreich Schweiz"
+      fr:
+        - "startup lève des fonds {month_year}"
+        - "startups prometteuses {year} France"
+      es:
+        - "startup cierra ronda de inversión {month_year} España"
+      it:
+        - "startup round di investimento {month_year} Italia"
+      nl:
+        - "startup haalt investering op {month_year}"
+      sv:
+        - "startup tar in kapital {month_year}"
+      pl:
+        - "startup pozyskał finansowanie {month_year}"
+  asia:
+    share: 0.25
+    feeds:
+      - {name: Tech in Asia, url: "https://www.techinasia.com/feed"}
+      - {name: The Bridge (ja), url: "https://thebridge.jp/feed"}
+      - {name: Platum (ko), url: "https://platum.kr/feed"}
+      - {name: Inc42, url: "https://inc42.com/feed/"}
+      - {name: YourStory, url: "https://yourstory.com/feed"}
+      - {name: e27, url: "https://e27.co/feed/"}
+      - {name: DailySocial (id), url: "https://dailysocial.id/feed"}
+      - {name: The Ken, url: "https://the-ken.com/feed/"}
+    queries:
+      en:
+        - "Southeast Asia startup raises seed round {month_year}"
+        - "India startup raises seed funding {month_year}"
+        - "most promising startups Asia {year}"
+      zh:
+        - "初创公司 完成 种子轮 融资 {month_year}"
+        - "最具潜力 创业公司 {year}"
+      ja:
+        - "スタートアップ 資金調達を実施 {month_year}"
+        - "注目 スタートアップ {year}"
+      ko:
+        - "스타트업 시드 투자 유치 {month_year}"
+      id:
+        - "startup raih pendanaan {month_year}"
+      vi:
+        - "startup gọi vốn thành công {month_year}"
+  latin_america:
+    share: 0.08
+    feeds:
+      - {name: Startupi (pt), url: "https://startupi.com.br/feed/"}
+      - {name: Contxto, url: "https://contxto.com/en/feed/"}
+      - {name: LatamList, url: "https://latamlist.com/feed/"}
+    queries:
+      pt:
+        - "startup capta rodada seed {month_year}"
+        - "startups mais promissoras {year} Brasil"
+      es:
+        - "startup levanta ronda semilla {month_year} México"
+        - "startup levanta capital {month_year} Colombia Argentina Chile"
+  mea:
+    share: 0.07
+    feeds:
+      - {name: Wamda, url: "https://www.wamda.com/feed"}
+      - {name: Disrupt Africa, url: "https://disrupt-africa.com/feed/"}
+      - {name: TechCabal, url: "https://techcabal.com/feed/"}
+      - {name: Geektime (he), url: "https://www.geektime.co.il/feed/"}
+      - {name: Webrazzi (tr), url: "https://webrazzi.com/feed/"}
+    queries:
+      en:
+        - "MENA startup raises seed round {month_year}"
+        - "African startup raises seed funding {month_year}"
+      ar:
+        - "شركة ناشئة تجمع تمويل {month_year}"
+      he:
+        - "סטארטאפ גייס סבב סיד {month_year}"
+      tr:
+        - "girişim yatırım aldı {month_year}"
+      fr:
+        - "startup africaine lève des fonds {month_year}"
+  other:
+    share: 0.05
+    feeds:
+      - {name: Startup Daily (au), url: "https://www.startupdaily.net/feed/"}
+      - {name: SmartCompany (au), url: "https://www.smartcompany.com.au/feed/"}
+      - {name: Rusbase (ru), url: "https://rb.ru/feeds/all/"}
+      - {name: vc.ru, url: "https://vc.ru/rss/all"}
+    queries:
+      en:
+        - "Australian startup raises funding {month_year}"
+        - "New Zealand startup raises funding {month_year}"
+      ru:
+        - "стартап привлёк инвестиции {month_year}"
+
+# Searches for shutdowns, pivots and stalls. Rotated week to week.
+struggling_queries:
+  en:
+    - "startup shuts down {month_year}"
+    - "startup pivots after failing {month_year}"
+    - "startup winds down operations {month_year}"
+  de:
+    - "Startup Insolvenz {month_year}"
+  pt:
+    - "startup encerra operações {month_year}"
+  ja:
+    - "スタートアップ 事業停止 {month_year}"
+  zh:
+    - "初创公司 倒闭 停止运营 {month_year}"
+  fr:
+    - "startup ferme ses portes {month_year}"
+
+# Searches about one named startup. {name} and {country} are filled in.
+research_queries:
+  en:
+    - "\"{name}\" startup {country}"
+    - "\"{name}\" founders funding customers"
+  pt:
+    - "\"{name}\" startup rodada investimento"
+  es:
+    - "\"{name}\" startup ronda inversión"
+  fr:
+    - "\"{name}\" start-up levée de fonds"
+  de:
+    - "\"{name}\" Startup Finanzierung Gründer"
+  ja:
+    - "\"{name}\" スタートアップ 資金調達"
+  zh:
+    - "\"{name}\" 创业公司 融资"
+  ko:
+    - "\"{name}\" 스타트업 투자"
+  id:
+    - "\"{name}\" startup pendanaan"
+  tr:
+    - "\"{name}\" girişim yatırım"
+  he:
+    - "\"{name}\" סטארטאפ גיוס"
+  ru:
+    - "\"{name}\" стартап инвестиции"
+
+# Which language to search in for a startup from this country (besides English).
+country_languages:
+  Brazil: pt
+  Portugal: pt
+  Mexico: es
+  Spain: es
+  Argentina: es
+  Colombia: es
+  Chile: es
+  Peru: es
+  France: fr
+  Belgium: fr
+  Germany: de
+  Austria: de
+  Switzerland: de
+  Japan: ja
+  China: zh
+  Taiwan: zh
+  South Korea: ko
+  Korea: ko
+  Indonesia: id
+  Turkey: tr
+  Türkiye: tr
+  Israel: he
+  Russia: ru

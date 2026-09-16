@@ -1,0 +1,49 @@
+# Hot Startups settings. Plain words, edit freely.
+
+# Hard weekly limits. The program counts every ticket it hands out and stops at these numbers.
+limits:
+  searches_per_week: 250          # internet searches a run may do
+  pages_per_week: 200             # web pages a run may read (direct reads, Claude reads, and feed batches)
+  startups_judged_per_week: 60    # startups Claude may write up and score
+  run_minutes: 90                 # a run stops itself after this many minutes, whatever it is doing
+
+# Used automatically for the very first run, so the real usage can be measured before the big numbers apply.
+first_run:
+  searches_per_week: 60
+  pages_per_week: 40
+  startups_judged_per_week: 20
+  run_minutes: 90
+
+# Set to true to stop the weekly runs entirely. Set back to false to resume.
+paused: false
+
+page:
+  title: Hot Startups
+  top_n: 50                       # startups shown on the page
+  artifact_url: ""                # filled in after the first publish; the page keeps this address
+
+startup_rule:
+  max_team_size: 500              # bigger than this is not a startup for our purposes
+
+discovery:
+  share_of_searches: 0.4          # part of the search budget spent on finding new names (the rest researches them)
+
+research:
+  searches_per_startup: 2
+  pages_per_startup: 2
+  refresh_after_days: 30          # known startups are re-checked after this many days
+  refresh_share: 0.2              # at most this part of the judged budget goes to re-checks
+
+struggling:
+  searches: 6                     # searches per week for shutdowns, pivots and stalls
+
+feeds:
+  batch_size: 40                  # feed entries per extraction ticket
+  max_batches: 12
+
+text:
+  max_chars_per_page: 6000
+  max_chars_per_dossier: 14000
+
+git:
+  branch: claude/magical-gates-5a5vqo   # where the weekly run commits its data
