@@ -2,13 +2,91 @@
   "alias_keys": [],
   "aliases": [],
   "country": "United States",
-  "domain": null,
+  "domain": "factory.ai",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "Valuation rose from $1.5B (Series C, April 2026) to $5B just five months later (September 2026)."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "$200M (Sept 2026), following a $150M Series C in April 2026"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Factory builds AI agents called Droids that take a plain-language coding task, such as \"fix this bug\", and carry out the whole job: finding the cause, writing the fix, testing it, and opening a pull request.",
+    "industry": "AI tools",
+    "is_startup": true,
+    "judged_on": "2026-09-21",
+    "judged_run": "2026-09-21-r3",
+    "lesson": "Meet users inside the tools they already use instead of asking them to switch, and avoid locking your product to a single underlying AI model.",
+    "name": "Factory",
+    "not_startup_reason": null,
+    "overall": 7.3,
+    "recovered_from_page": true,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: valuation jumped from $1.5B to $5B between two funding rounds five months apart",
+        "reason": "Its valuation more than tripled in about five months, backed by a large new funding round from major investors.",
+        "score": 8.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Every software team in the world writes and maintains code, so an AI agent that automates that work has a very large potential market.",
+        "score": 8.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Understanding a whole repository and shipping multi-file changes across many editors and channels is a real edge, but the AI coding-agent field is crowded and moving fast, so a strong rival team could match it within a year or two.",
+        "score": 6.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-15",
+        "title": "AIコーディングエージェント「Droids」のFactory、評価額50億ドルで2億ドルを調達",
+        "url": "https://thebridge.jp/2026/09/factory-200m-5b-valuation-droids-ai-coding-agent"
+      },
+      {
+        "date": "2026-09-17",
+        "title": "Uma startup de droides de software vale agora US$ 5 bilhões",
+        "url": "https://startupi.com.br/uma-startup-de-droides-de-software-vale-agora-us-5-bilhoes/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "The agents work inside whatever tool a developer already uses, like VS Code, JetBrains, a terminal, a browser or Slack, and are not locked to a single AI model.",
+    "website": "https://factory.ai/",
+    "who_pays": "Software companies and development teams pay to use Factory's Droids inside their existing tools.",
+    "why_now": "AI models have become reliable enough to handle coding tasks that span many files in a repository from start to finish, so investors are racing to back the leading AI coding-agent companies."
+  },
+  "first_judged_run": "2026-09-21-r3",
   "first_seen": "2026-09-16",
   "id": "factory",
-  "industry": "AI coding agents",
-  "last_checked": null,
+  "industry": "AI tools",
+  "last_checked": "2026-09-21",
   "mentions": [
     {
       "date": "2026-09-15",
@@ -22,14 +100,25 @@
   ],
   "name": "Factory",
   "name_key": "factory",
-  "region": null,
+  "region": "north_america",
   "research": {
+    "judged_run": "2026-09-21-r3",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:48:18+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-09-21",
+      "growth": 8.0,
+      "market": 8.0,
+      "overall": 7.3,
+      "run": "2026-09-21-r3",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-21T05:09:44+00:00",
+  "website": "https://factory.ai/"
 }

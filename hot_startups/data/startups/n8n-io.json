@@ -1,0 +1,148 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Germany",
+  "domain": "n8n.io",
+  "drop_reason": null,
+  "entry": {
+    "country": "Germany",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "Berlin, Germany"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://en.wikipedia.org/wiki/N8n"
+        ],
+        "value": "2019"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "Became a German unicorn and now partners with Deutsche Telekom on agentic AI workflows, backed also by Nvidia."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.thesaasnews.com/news/n8n-raises-180m-series-c-at-2-5b-valuation/"
+        ],
+        "value": "$180M Series C at a $2.5B valuation, $240M raised in total"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "n8n lets technical teams connect their apps and build AI agents that do work automatically, like onboarding a new employee or turning plain language into API calls.",
+    "industry": "AI tools",
+    "is_startup": true,
+    "judged_on": "2026-09-21",
+    "judged_run": "2026-09-21-r3",
+    "lesson": "Serve both non-coders and developers in the same tool, let people self-host it, and an active open-source community can carry a lot of the growth.",
+    "name": "n8n",
+    "not_startup_reason": null,
+    "overall": 7.3,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "It raised a $180M round at a $2.5B valuation and reached unicorn status, a big jump backed by real numbers.",
+        "score": 8.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Workflow automation and AI agents can be used by IT, security, sales and operations teams in almost any company worldwide.",
+        "score": 8.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "It combines a visual builder with real code and can be self-hosted, which is solid engineering but automation tools like this exist elsewhere too.",
+        "score": 6.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-17",
+        "title": "Lovable, n8n und Co.: 4 HR-Trends erfolgreicher Startups",
+        "url": "https://www.businessinsider.de/gruenderszene/lovable-n8n-und-co-4-hr-trends-erfolgreicher-startups/"
+      },
+      {
+        "date": null,
+        "title": "DT's T.Capital invests in German AI tech startup n8n",
+        "url": "https://www.lightreading.com/ai-machine-learning/deutsche-telekom-s-t-capital-invests-in-german-ai-tech-startup-n8n"
+      },
+      {
+        "date": null,
+        "title": "Agentic AI: Deutsche Telekom partners with startup n8n",
+        "url": "https://www.telekom.com/en/media/media-information/archive/agentic-ai-deutsche-telekom-partners-with-startup-n8n-1095912"
+      },
+      {
+        "date": null,
+        "title": "Berlin AI Start Up Becomes Next German Unicorn",
+        "url": "https://www.gtai.de/en/invest/berlin-ai-start-up-becomes-next-german-unicorn-1927128"
+      },
+      {
+        "date": null,
+        "title": "\"I definitely want a European listing\", says Nvidia-backed n8n CEO",
+        "url": "https://tech.eu/2025/12/01/i-definitely-want-a-european-listing-says-nvidia-backed-n8n-ceo/"
+      },
+      {
+        "date": null,
+        "title": "N8n",
+        "url": "https://en.wikipedia.org/wiki/N8n"
+      },
+      {
+        "date": null,
+        "title": "N8n: Funding, Team & Investors",
+        "url": "https://startupintros.com/orgs/n8n"
+      },
+      {
+        "date": null,
+        "title": "n8n Raises $180M Series C at $2.5B Valuation",
+        "url": "https://www.thesaasnews.com/news/n8n-raises-180m-series-c-at-2-5b-valuation/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Unlike drag-and-drop-only automation tools, n8n lets you write real JavaScript or Python inside any step, and you can run it on your own servers instead of only in someone else's cloud.",
+    "website": "https://n8n.io/",
+    "who_pays": "Businesses such as Vodafone and Huel pay to automate security, HR and operations workflows at scale; Deutsche Telekom is both an investor and a partner.",
+    "why_now": "Companies want to plug AI agents into the tools they already use, without giving up control of their data or being locked into one vendor's cloud."
+  },
+  "first_judged_run": "2026-09-21-r3",
+  "first_seen": "2026-09-21",
+  "id": "n8n-io",
+  "industry": "AI tools",
+  "last_checked": "2026-09-21",
+  "mentions": [],
+  "name": "n8n",
+  "name_key": "n8n",
+  "region": "europe",
+  "research": {
+    "judged_run": "2026-09-21-r3",
+    "pages": 0,
+    "queries_done": [],
+    "refresh": false,
+    "searches": 0
+  },
+  "score_history": [
+    {
+      "date": "2026-09-21",
+      "growth": 8.0,
+      "market": 8.0,
+      "overall": 7.3,
+      "run": "2026-09-21-r3",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-21T05:09:44+00:00",
+  "website": "https://n8n.io/"
+}

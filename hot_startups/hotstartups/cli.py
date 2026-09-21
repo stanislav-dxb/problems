@@ -105,13 +105,15 @@ def cmd_finish(a):
         sys.exit(3)
     week = tasks.finish_run(cfg, store, run)
     path = write_page(store, week)
-    out = {"finished": run["finished"], "line": week["run_line"], "on_the_list": len(week["top_ids"]), "new": len(week["new_ids"]), "page": str(path)}
+    out = {"finished": run["finished"], "line": week["run_line"], "on_the_list": len(week["top_ids"]), "new": len(week["new_ids"]), "page": str(path),
+           "publish": {"file_path": str(path), "files": {"entries.js": str(store.out / "entries.js"), "memory.json": str(store.out / "memory.json")}}}
+    out["memory"] = export_memory(store)
     branch = (cfg.get("git") or {}).get("branch")
     if branch and not a.no_push:
         out["git"] = _save_memory(store, branch, f"Hot Startups run {run['id']}: {week['run_line']}")
+        if out["git"].get("pushed") is False:
+            out["git"]["note"] = "push failed; the memory still travels with the page as memory.json, so this is a warning, not a failure"
     _out(out)
-    if out.get("git", {}).get("pushed") is False:
-        sys.exit(4)
 
 
 def _save_memory(store: Store, branch: str, message: str) -> dict:
@@ -139,6 +141,48 @@ def _save_memory(store: Store, branch: str, message: str) -> dict:
             import time
             time.sleep(2 ** attempt)
     return {"committed": True, "pushed": False, "error": (r.stderr or r.stdout).strip()[:300]}
+
+
+def cmd_memory_export(a):
+    cfg, src, store = _ctx()
+    print(export_memory(store))
+
+
+def export_memory(store: Store) -> str:
+    """One JSON bundle of everything under data/: the program's memory, published next to the page."""
+    bundle = {"exported": __import__("hotstartups.util", fromlist=["now_iso"]).now_iso(), "files": {}}
+    for p in sorted(store.data.rglob("*.json")):
+        bundle["files"][str(p.relative_to(store.data))] = json.loads(p.read_text(encoding="utf-8"))
+    store.out.mkdir(parents=True, exist_ok=True)
+    out = store.out / "memory.json"
+    out.write_text(json.dumps(bundle, ensure_ascii=False), encoding="utf-8")
+    return str(out)
+
+
+def cmd_memory_import(a):
+    """Restore data/ from a memory bundle when the bundle knows a later run than the local data does."""
+    cfg, src, store = _ctx()
+    try:
+        bundle = json.loads(Path(a.file).read_text(encoding="utf-8"))
+        files = bundle["files"]
+    except (OSError, ValueError, KeyError) as e:
+        print(f"not a memory bundle: {e}")
+        sys.exit(3)
+    def latest_number(runs: list[dict]) -> int:
+        return max([int(r.get("number", 0)) for r in runs] or [0])
+    bundle_runs = [v for k, v in files.items() if k.startswith("runs/")]
+    local = latest_number(store.runs())
+    remote = latest_number(bundle_runs)
+    if remote <= local and not a.force:
+        _out({"imported": False, "reason": f"local memory already knows run {local}; bundle knows run {remote}"})
+        return
+    n = 0
+    for rel, content in files.items():
+        target = store.data / rel
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(json.dumps(content, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+        n += 1
+    _out({"imported": True, "files": n, "from_run": remote, "local_was": local})
 
 
 def cmd_page(a):
@@ -190,7 +234,14 @@ def main(argv=None):
     sb.add_argument("file")
     sb.set_defaults(fn=cmd_submit)
     sub.add_parser("status", help="counts against limits").set_defaults(fn=cmd_status)
-    sub.add_parser("page", help="re-render out/index.html from the latest week").set_defaults(fn=cmd_page)
+    sub.add_parser("page", help="re-render out/index.html and out/entries.js from the latest week").set_defaults(fn=cmd_page)
+    m = sub.add_parser("memory", help="memory export | memory import <file>")
+    ms = m.add_subparsers(dest="what", required=True)
+    ms.add_parser("export", help="write out/memory.json, a bundle of everything under data/").set_defaults(fn=cmd_memory_export)
+    mi = ms.add_parser("import", help="restore data/ from a memory bundle that knows a later run")
+    mi.add_argument("file")
+    mi.add_argument("--force", action="store_true")
+    mi.set_defaults(fn=cmd_memory_import)
     sub.add_parser("check-sources", help="test that feeds and list sites can be read").set_defaults(fn=cmd_check_sources)
     sh = sub.add_parser("show", help="print one startup's record")
     sh.add_argument("id")

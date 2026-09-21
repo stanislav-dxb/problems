@@ -35,8 +35,13 @@ python -m hotstartups show <id>      # one startup's record
 ## Memory
 
 `data/startups/` holds one file per startup the program has ever seen, `data/runs/` one file per run, and
-`data/weeks/latest.json` what the page shows. These are committed to git after every run; that is how the
-next run remembers. `work/` and `cache/` are scratch and not committed.
+`data/weeks/latest.json` what the page shows. After every run the program bundles all of it into
+`out/memory.json`, which is published next to the page, and also tries to commit it to git. The next run
+fetches the bundle from the page first (`memory import`), so the memory survives even when a cloud session
+cannot push to git. `work/` and `cache/` are scratch and not committed.
+
+The page itself is two files: `out/index.html`, a small shell, and `out/entries.js`, the data it shows. Keeping
+the shell small keeps republishing cheap.
 
 ## Tests
 

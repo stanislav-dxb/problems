@@ -2,13 +2,91 @@
   "alias_keys": [],
   "aliases": [],
   "country": "United States",
-  "domain": null,
+  "domain": "payflip.xyz",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.producthunt.com/products/payflip"
+        ],
+        "value": "Launched on Product Hunt on 2026-09-14, with iOS and Android apps live, but no user or revenue numbers are public."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Sending money to someone is often hard if you don't know their bank details or crypto wallet, so Payflip lets you pay anyone just by naming them, using an email, phone number, @handle, or QR code.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-09-21",
+    "judged_run": "2026-09-21-r3",
+    "lesson": "Make the receiver's side of a payment require zero setup, and let the money itself decide where it ends up if nobody claims it.",
+    "name": "Payflip",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "recovered_from_page": true,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: Product Hunt launch and live app store listings",
+        "reason": "No user, transaction or revenue numbers have been published; the only signal is a fresh Product Hunt launch and live mobile apps.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "Sending money to a person you can name, with no account details needed on either side, is something almost anyone in the world could use.",
+        "score": 9.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Routing a payment across bank, card, and crypto rails through an escrow-with-timeout system is clever, but a strong payments team could rebuild the core idea in months.",
+        "score": 5.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Payflip: pay anyone you can name",
+        "url": "https://payflip.xyz/"
+      },
+      {
+        "date": "2026-09-14",
+        "title": "Payflip - Product Hunt",
+        "url": "https://www.producthunt.com/products/payflip"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "The recipient does not need an account to receive money; the payment sits in escrow and returns to the sender automatically if it is not claimed in time.",
+    "website": "https://payflip.xyz/",
+    "who_pays": "The sender pays; how Payflip itself makes money (fees on transfers or cash-outs) is not stated anywhere we found.",
+    "why_now": "More money is now moved by naming a person instead of an account number, across apps, chats and even AI agents, and Payflip is built to work across all of those at once."
+  },
+  "first_judged_run": "2026-09-21-r3",
   "first_seen": "2026-09-16",
   "id": "payflip",
-  "industry": "Payments",
-  "last_checked": null,
+  "industry": "Fintech",
+  "last_checked": "2026-09-21",
   "mentions": [
     {
       "date": "2026-09-14",
@@ -22,14 +100,25 @@
   ],
   "name": "Payflip",
   "name_key": "payflip",
-  "region": null,
+  "region": "north_america",
   "research": {
+    "judged_run": "2026-09-21-r3",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:47:15+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-09-21",
+      "growth": null,
+      "market": 9.0,
+      "overall": 7.0,
+      "run": "2026-09-21-r3",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-21T05:09:44+00:00",
+  "website": "https://payflip.xyz/"
 }

@@ -4,11 +4,121 @@
   "country": "Germany",
   "domain": "synthflow.ai",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Germany",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "Berlin, Germany"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://synthflow.ai/"
+        ],
+        "value": "Synthflow says its voice agents have handled more than 65 million customer calls and saved over 4 million hours."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "€17.2M (about $18-19M) in a 2025 round, after earlier rounds reported at $7.4M and $9.1M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Businesses lose sales and pay staff to answer routine phone calls, so Synthflow built AI voice agents that can answer, make and handle phone calls for a company automatically.",
+    "industry": "AI Voice",
+    "is_startup": true,
+    "judged_on": "2026-09-21",
+    "judged_run": "2026-09-21-r3",
+    "lesson": "When an AI feature must work every single time, like a real phone call, owning the unglamorous infrastructure underneath becomes the real product advantage.",
+    "name": "Synthflow AI",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "unknown",
+        "reason": "No growth rate is stated, but the company says it has handled more than 65 million calls and raised a bigger round in 2025 than its earlier rounds.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "Almost every business that takes phone calls for support, sales or scheduling is a potential customer, across nearly every industry worldwide.",
+        "score": 8.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "It built its own low-latency phone network instead of just wrapping a generic voice API, which is harder for a typical AI startup to copy quickly.",
+        "score": 6.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "\"Indistinguishable from a human voice\": Berlin-based Synthflow AI raises €17.2 million for its AI voice agent | EU-Startups",
+        "url": "https://www.eu-startups.com/2025/06/indistinguishable-from-a-human-voice-berlin-based-synthflow-ai-raise-e17-2-million-for-its-ai-voice-agent/"
+      },
+      {
+        "date": null,
+        "title": "SynthFlow AI company information, funding & investors | Munich Startup",
+        "url": "https://insights.munich-startup.de/companies/synthflow_ai"
+      },
+      {
+        "date": null,
+        "title": "Synthflow AI secures $9.1M funding | Dealroom.co",
+        "url": "https://app.dealroom.co/news/feed/synthflow-ai-secures-9-1m-funding"
+      },
+      {
+        "date": null,
+        "title": "Berlin-based startup Synthflow secures $7.4M for AI voice assistance platform development",
+        "url": "https://www.vestbee.com/insights/articles/synthflow-secures-7-4-m"
+      },
+      {
+        "date": null,
+        "title": "Synthflow AI — Funding, Investors & Team | Seedtable",
+        "url": "https://www.seedtable.com/startups/synthflow-ai"
+      },
+      {
+        "date": null,
+        "title": "Synthflow - 2026 Company Profile, Team, Funding & Competitors - Tracxn",
+        "url": "https://tracxn.com/d/companies/synthflow/__uIHmtov9CfXAgG0qK-_H7ZFuiZMZ3i1HiYosIU1JL4Q"
+      },
+      {
+        "date": null,
+        "title": "Synthflow AI | Startup Profile and Investments - Bounce Watch",
+        "url": "https://www.bouncewatch.com/explore/startup/synthflow-ai-formerly-fine-tuner"
+      },
+      {
+        "date": null,
+        "title": "AI Voice Agent Platform to Automate Your Phone Calls | Synthflow",
+        "url": "https://synthflow.ai/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It runs its own phone network instead of just plugging into someone else's, so calls are fast and reliable enough for large companies to trust with real customer calls.",
+    "website": "https://synthflow.ai/",
+    "who_pays": "Enterprises pay Synthflow to deploy and run AI voice agents for their sales, support and scheduling calls.",
+    "why_now": "AI voices have become realistic and cheap enough that companies are now willing to let them handle real customer phone calls, not just demos."
+  },
+  "first_judged_run": "2026-09-21-r3",
   "first_seen": "2026-09-16",
   "id": "synthflow-ai",
-  "industry": "AI Voice & Conversational",
-  "last_checked": null,
+  "industry": "AI Voice",
+  "last_checked": "2026-09-21",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +132,25 @@
   ],
   "name": "Synthflow AI",
   "name_key": "synthflowai",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-21-r3",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-21",
+      "growth": null,
+      "market": 8.0,
+      "overall": 7.0,
+      "run": "2026-09-21-r3",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-21T05:09:44+00:00",
   "website": "https://synthflow.ai/"
 }

@@ -1,0 +1,145 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United Kingdom",
+  "domain": "elevenlabs.io",
+  "drop_reason": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "London, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "In talks with the EU Scaleup Fund to raise a further $500M and preparing for a possible IPO."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "$500M Series D at an $11B valuation (also reported as a €424M round)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "ElevenLabs makes software that turns text into realistic human speech and lets businesses build voice agents that can talk to customers.",
+    "industry": "AI tools",
+    "is_startup": true,
+    "judged_on": "2026-09-21",
+    "judged_run": "2026-09-21-r3",
+    "lesson": "Once a core AI skill crosses a quality bar, wrap it in easy products for both solo creators and big enterprises, and the market splits into many paying use cases.",
+    "name": "ElevenLabs",
+    "not_startup_reason": null,
+    "overall": 7.7,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Its valuation jumped from about $3bn to about $11bn in roughly a year, backed by a much bigger funding round.",
+        "score": 8.0,
+        "source": null
+      },
+      "market": {
+        "reason": "AI voice and speech tools can be used by almost any company that makes content, runs customer service, or builds software, worldwide.",
+        "score": 8.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Its expressive, multilingual speech generation is good enough to be used by Disney and Epic Games, which would take a strong team a year or two to match.",
+        "score": 7.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-17",
+        "title": "ElevenLabs in talks for EU Scaleup Fund round",
+        "url": "https://sifted.eu/articles/elevenlabs-funding-round-scaleup-europe-fund/"
+      },
+      {
+        "date": null,
+        "title": "ElevenLabs opens European HQ in London",
+        "url": "https://elevenlabs.io/blog/london-office-opening"
+      },
+      {
+        "date": null,
+        "title": "AI voice startup ElevenLabs pushes global expansion as it gears up for an IPO",
+        "url": "https://www.cnbc.com/2025/07/03/ai-voice-startup-elevenlabs-plots-global-expansion-eventual-ipo.html"
+      },
+      {
+        "date": null,
+        "title": "AI voice startup ElevenLabs raises $180m at a $3bn valuation",
+        "url": "https://sifted.eu/articles/elevenlabs-250m-raise-news"
+      },
+      {
+        "date": null,
+        "title": "ElevenLabs scales UK and US presence",
+        "url": "https://elevenlabs.io/blog/elevenlabs-scales-uk-and-us-presence"
+      },
+      {
+        "date": null,
+        "title": "Mati Staniszewski",
+        "url": "https://en.wikipedia.org/wiki/Mati_Staniszewski"
+      },
+      {
+        "date": null,
+        "title": "AI leader ElevenLabs opens worldwide HQ in London",
+        "url": "https://businesscloud.co.uk/news/ai-leader-elevenlabs-opens-worldwide-hq-in-london/"
+      },
+      {
+        "date": null,
+        "title": "London-Based ElevenLabs Raises $500M in Series D",
+        "url": "https://thetechfounders.co.uk/news/elevenlabs-raises-500m-in-funding-at-11-billion-valuation/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its voices sound natural and expressive in more than 70 languages, so film studios and game makers use it for characters and dubbing, not just robotic text-to-speech.",
+    "website": "https://www.elevenlabs.io",
+    "who_pays": "Large companies such as Stripe, Cisco, Deutsche Telekom and Salesforce pay for API access and voice agents; creators pay to make audiobooks, ads and podcasts.",
+    "why_now": "AI voice has become good enough that big, well-known brands are now willing to put it into real products instead of just experimenting with it."
+  },
+  "first_judged_run": "2026-09-21-r3",
+  "first_seen": "2026-09-21",
+  "id": "elevenlabs-io",
+  "industry": "AI tools",
+  "last_checked": "2026-09-21",
+  "mentions": [],
+  "name": "ElevenLabs",
+  "name_key": "elevenlabs",
+  "region": "europe",
+  "research": {
+    "judged_run": "2026-09-21-r3",
+    "pages": 0,
+    "queries_done": [],
+    "refresh": false,
+    "searches": 0
+  },
+  "score_history": [
+    {
+      "date": "2026-09-21",
+      "growth": 8.0,
+      "market": 8.0,
+      "overall": 7.7,
+      "run": "2026-09-21-r3",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-21T05:09:44+00:00",
+  "website": "https://www.elevenlabs.io"
+}

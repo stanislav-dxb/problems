@@ -2,13 +2,118 @@
   "alias_keys": [],
   "aliases": [],
   "country": "United States",
-  "domain": null,
+  "domain": "cornelis.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance/"
+        ],
+        "value": "2020"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "Raised a $205M round and announced a new product line (Active Compute Fabric) alongside a Qualcomm collaboration."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "$205M round (2026), led by IAG Capital Partners"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Cornelis Networks builds the networking hardware that connects thousands of AI chips together, so they spend less time waiting for data and more time computing.",
+    "industry": "AI infrastructure",
+    "is_startup": true,
+    "judged_on": "2026-09-21",
+    "judged_run": "2026-09-21-r3",
+    "lesson": "When a giant player like Nvidia locks customers into its own hardware, sell an open alternative that works with everyone else's chips.",
+    "name": "Cornelis Networks",
+    "not_startup_reason": null,
+    "overall": 7.7,
+    "recovered_from_page": true,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "It raised $205M, a big new round, and launched a new flagship product with a major hardware partner in the same announcement.",
+        "score": 7.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Every company building large AI or supercomputing clusters worldwide needs high-speed networking between chips, a fast-growing and very large market.",
+        "score": 8.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Building an open networking fabric that beats specialized hardware like InfiniBand on speed and latency took decades of interconnect engineering that a new team could not quickly match.",
+        "score": 8.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-14",
+        "title": "AI infrastructure company Cornelis raises $205M to chip away at Nvidia's dominance",
+        "url": "https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance/"
+      },
+      {
+        "date": null,
+        "title": "Cornelis Networks",
+        "url": "https://www.cornelis.com/"
+      },
+      {
+        "date": null,
+        "title": "Startup Profile: Cornelis Networks Hits Its Stride - Futuriom",
+        "url": "https://www.futuriom.com/articles/news/startup-profile-cornelis-networks-hits-its-stride/2026/06"
+      },
+      {
+        "date": null,
+        "title": "Cornelis Networks raises $205M and scales up and out with its new Active Compute Fabric - NewsBreak",
+        "url": "https://www.newsbreak.com/news/4885144453635-cornelis-networks-raises-205m-and-scales-up-and-out-with-its-new-active-compute-fabric"
+      },
+      {
+        "date": null,
+        "title": "Cornelis Networks 2026 Company Profile: Valuation, Funding & Investors | PitchBook",
+        "url": "https://pitchbook.com/profiles/company/439861-33"
+      },
+      {
+        "date": null,
+        "title": "Cornelis Networks - AI Infrastructure - $99M Raised, Reviews & Alternatives | StartupHub.ai",
+        "url": "https://www.startuphub.ai/startups/cornelis-networks"
+      },
+      {
+        "date": null,
+        "title": "Cornelis Networks - Crunchbase Company Profile & Funding",
+        "url": "https://www.crunchbase.com/organization/cornelis-networks"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its new Active Compute Fabric does some of the data-moving work inside the network itself instead of on the chips, and it works with any brand of GPU, unlike Nvidia's own closed networking gear.",
+    "website": "https://www.cornelis.com/",
+    "who_pays": "National laboratories, large AI and high-performance-computing centers, and hardware makers pay for Cornelis's network switches, adapters and cables.",
+    "why_now": "AI companies are building huge clusters of GPUs, and the network connecting those chips has become one of the biggest bottlenecks and costs in running them."
+  },
+  "first_judged_run": "2026-09-21-r3",
   "first_seen": "2026-09-16",
   "id": "cornelis-networks",
   "industry": "AI infrastructure",
-  "last_checked": null,
+  "last_checked": "2026-09-21",
   "mentions": [
     {
       "date": "2026-09-14",
@@ -22,14 +127,25 @@
   ],
   "name": "Cornelis Networks",
   "name_key": "cornelisnetworks",
-  "region": null,
+  "region": "north_america",
   "research": {
+    "judged_run": "2026-09-21-r3",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:47:15+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-09-21",
+      "growth": 7.0,
+      "market": 8.0,
+      "overall": 7.7,
+      "run": "2026-09-21-r3",
+      "tech": 8.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-21T05:09:44+00:00",
+  "website": "https://www.cornelis.com/"
 }

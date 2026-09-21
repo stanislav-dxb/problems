@@ -4,11 +4,122 @@
   "country": "United Kingdom",
   "domain": "lindushealth.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "London, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "Ranked on the UK's Startups 100 list in both 2024 and 2025, and says it has completed 45+ clinical trials with 82% finishing enrollment on time or ahead of schedule."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "$80M total funding to date, including an $18M Series A in 2023 backed by Peter Thiel"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://www.lindushealth.com/"
+        ],
+        "value": "about 80"
+      }
+    },
+    "idea": "Lindus Health runs clinical trials for biotech and pharma companies, using its own technology and in-house team to recruit patients and manage data faster than a traditional research organisation.",
+    "industry": "Biotech",
+    "is_startup": true,
+    "judged_on": "2026-09-21",
+    "judged_run": "2026-09-21-r3",
+    "lesson": "Once you get very good at the hard, unglamorous middle step of an industry (running the trials), you can move up the value chain and own the end product instead of only servicing the companies that do.",
+    "name": "Lindus Health",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Total funding has grown from an $18M Series A in 2023 to $80M today, alongside 45+ completed trials and two years running on a national Top 100 startup list.",
+        "score": 7.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Every pharma and biotech company in the world needs clinical trials run, and the market for developing new medicines is enormous.",
+        "score": 8.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "It uses AI-powered patient search and an integrated in-house team to speed up trial recruitment, a real edge but one a well-funded rival could match in a year or two.",
+        "score": 6.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Lindus Health / Lindus Therapeutics website",
+        "url": "https://www.lindushealth.com/"
+      },
+      {
+        "date": "2023-08-16",
+        "title": "Lindus Health, a UK clinical trials startup backed by Peter Thiel, raises $18M | TechCrunch",
+        "url": "https://techcrunch.com/2023/08/16/lindus-health-clinical-trials-peter-thiel-creandum-18-million/"
+      },
+      {
+        "date": null,
+        "title": "London-based Lindus Health raises €16.56M to accelerate clinical trial innovation - Silicon Canals",
+        "url": "https://siliconcanals.com/lindus-health-raises-16-56m/"
+      },
+      {
+        "date": null,
+        "title": "Lindus Health lands £14m Series A for clinical trial software",
+        "url": "https://www.uktech.news/medtech/lindus-health-series-a-20230816"
+      },
+      {
+        "date": null,
+        "title": "32. Lindus Health | Startups 100 2024",
+        "url": "https://startups.co.uk/startups-100/2024/lindus-health/"
+      },
+      {
+        "date": null,
+        "title": "Lindus Health: fixing the biggest health issue you don't know about",
+        "url": "https://startups.co.uk/startups-100/2025/lindus-health-2025/"
+      },
+      {
+        "date": null,
+        "title": "Meet Lindus Health, the startup striving to revolutionise clinical trials - Maddyness UK",
+        "url": "https://www.maddyness.com/uk/2022/07/05/meet-lindus-health-the-startup-striving-to-revolutionise-clinical-trials/"
+      },
+      {
+        "date": null,
+        "title": "Lindus Health: Funding, Team & Investors | Startup Intros",
+        "url": "https://startupintros.com/orgs/lindus-health"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It has grown from running other companies' trials into buying the rights to promising drugs itself and developing them, using that same trial-running expertise.",
+    "website": "https://www.lindushealth.com/",
+    "who_pays": "Biotech and pharma companies pay Lindus to run their clinical trials, and Lindus is now also funding its own drug-licensing deals from its balance sheet.",
+    "why_now": "Clinical trials are usually slow and expensive, and Lindus says its in-house recruitment technology lets most of its trials finish on time or early."
+  },
+  "first_judged_run": "2026-09-21-r3",
   "first_seen": "2026-09-16",
   "id": "lindushealth-com",
-  "industry": "HealthTech",
-  "last_checked": null,
+  "industry": "Biotech",
+  "last_checked": "2026-09-21",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -22,14 +133,25 @@
   ],
   "name": "Lindus Health",
   "name_key": "lindushealth",
-  "region": null,
+  "region": "europe",
   "research": {
+    "judged_run": "2026-09-21-r3",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-21",
+      "growth": 7.0,
+      "market": 8.0,
+      "overall": 7.0,
+      "run": "2026-09-21-r3",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-21T05:09:44+00:00",
   "website": "https://www.lindushealth.com/"
 }

@@ -4,11 +4,89 @@
   "country": "United States",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://interestingengineering.com/energy/50000-years-fuel-with-hidden-us-uranium"
+        ],
+        "value": "United States"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Nuclear power needs uranium, but mined supplies are limited, so Fluxnium built fibers that pull uranium dissolved in seawater, tapping a nearly endless fuel source.",
+    "industry": "Clean energy",
+    "is_startup": true,
+    "judged_on": "2026-09-21",
+    "judged_run": "2026-09-21-r3",
+    "lesson": "When a resource everyone will eventually need is abundant but scattered and hard to reach, building the extraction technology can open a market far bigger than competing for the scarce, easy-to-mine version.",
+    "name": "Fluxnium",
+    "not_startup_reason": null,
+    "overall": 7.5,
+    "recovered_from_page": true,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "unknown",
+        "reason": "No user, revenue or funding numbers are available in the coverage, and nothing else stands in for growth evidence.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "Nuclear fuel supply is a large, worldwide industry, since every nuclear plant on Earth needs a steady uranium source.",
+        "score": 7.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Extracting uranium directly from seawater with custom fibers is genuinely new science that would take a strong team years to match.",
+        "score": 8.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-16",
+        "title": "Clean tech startup Fluxnium found a way to tap 50,000 years' worth of nuclear fuel",
+        "url": "https://techcrunch.com/2026/09/16/clean-tech-startup-fluxnium-found-a-way-to-tap-50000-years-worth-of-nuclear-fuel/"
+      },
+      {
+        "date": null,
+        "title": "US firm eyes 4 billion tons of ocean uranium for 50,000 years of fuel",
+        "url": "https://interestingengineering.com/energy/50000-years-fuel-with-hidden-us-uranium"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "The ocean is estimated to hold about 4 billion tons of dissolved uranium, so this fiber technology could unlock roughly 50,000 years' worth of nuclear fuel.",
+    "website": null,
+    "who_pays": "Nuclear power plant operators and utilities that need a long-term, reliable supply of uranium fuel.",
+    "why_now": "Interest in nuclear power as a steady, low-carbon energy source is rising just as mined uranium supplies stay limited, making a cheap way to pull it from seawater valuable now."
+  },
+  "first_judged_run": "2026-09-21-r3",
   "first_seen": "2026-09-16",
   "id": "fluxnium",
   "industry": "Clean energy",
-  "last_checked": null,
+  "last_checked": "2026-09-21",
   "mentions": [
     {
       "date": "2026-09-16",
@@ -22,14 +100,25 @@
   ],
   "name": "Fluxnium",
   "name_key": "fluxnium",
-  "region": null,
+  "region": "north_america",
   "research": {
+    "judged_run": "2026-09-21-r3",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:47:15+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-21",
+      "growth": null,
+      "market": 7.0,
+      "overall": 7.5,
+      "run": "2026-09-21-r3",
+      "tech": 8.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-21T05:09:44+00:00",
   "website": null
 }

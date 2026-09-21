@@ -2,13 +2,104 @@
   "alias_keys": [],
   "aliases": [],
   "country": "United States",
-  "domain": null,
+  "domain": "foxglove.dev",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://foxglove.dev/about"
+        ],
+        "value": "2021"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "Its founder was named a 'scaling leader' invited to speak at TechCrunch Disrupt 2026, and it lists enterprise customers including Shield AI, Scout AI, and Dexterity."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.therobotreport.com/foxglove-raises-40m-scale-data-platform-roboticists/"
+        ],
+        "value": "$40M (Series B)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Robots and self-driving systems generate huge piles of sensor logs that are hard to search or debug, so Foxglove gives robotics teams one platform to collect, visualize, and search all of that data.",
+    "industry": "Robotics software",
+    "is_startup": true,
+    "judged_on": "2026-09-21",
+    "judged_run": "2026-09-21-r3",
+    "lesson": "When a whole industry (robotics) is exploding, the unglamorous job of taming its raw data can become its own big business.",
+    "name": "Foxglove",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "recovered_from_page": true,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: enterprise customer logos and a $40M funding round",
+        "reason": "No user or revenue numbers are public; the best signals are a $40M raise and named enterprise customers like Shield AI and Scout AI.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "Every robotics and physical-AI company worldwide needs to manage sensor data, but Foxglove sells into that one profession rather than to everyone.",
+        "score": 7.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "It helped build the open MCAP data format robotics teams now standardize on and layers agentic debugging on top, an edge a strong team would need a year or two to match.",
+        "score": 7.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "About | Foxglove",
+        "url": "https://foxglove.dev/about"
+      },
+      {
+        "date": null,
+        "title": "Foxglove: Agentic data platform for Physical AI",
+        "url": "https://foxglove.dev"
+      },
+      {
+        "date": null,
+        "title": "Foxglove raises $40M to scale its data platform for roboticists",
+        "url": "https://www.therobotreport.com/foxglove-raises-40m-scale-data-platform-roboticists/"
+      },
+      {
+        "date": "2026-09-15",
+        "title": "Discover how to take your startup from prototype to production at TechCrunch Disrupt 2026",
+        "url": "https://techcrunch.com/2026/09/15/discover-how-to-take-your-startup-from-prototype-to-production-at-techcrunch-disrupt-2026/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It builds in AI agents that can debug and search a robot's history for you, instead of leaving engineers to dig through raw log files by hand.",
+    "website": "https://foxglove.dev",
+    "who_pays": "Robotics and defense companies pay to run their fleets' data through Foxglove's cloud or on their own servers.",
+    "why_now": "Physical AI and robotics companies are scaling up fast, and each robot they add multiplies the amount of sensor data a team has to manage."
+  },
+  "first_judged_run": "2026-09-21-r3",
   "first_seen": "2026-09-16",
   "id": "foxglove",
   "industry": "Robotics software",
-  "last_checked": null,
+  "last_checked": "2026-09-21",
   "mentions": [
     {
       "date": "2026-09-15",
@@ -22,14 +113,25 @@
   ],
   "name": "Foxglove",
   "name_key": "foxglove",
-  "region": null,
+  "region": "north_america",
   "research": {
+    "judged_run": "2026-09-21-r3",
     "pages": 0,
     "queries_done": [],
+    "refresh": false,
     "searches": 0
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:47:15+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-09-21",
+      "growth": null,
+      "market": 7.0,
+      "overall": 7.0,
+      "run": "2026-09-21-r3",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-21T05:09:44+00:00",
+  "website": "https://foxglove.dev"
 }

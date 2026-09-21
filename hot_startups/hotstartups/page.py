@@ -70,208 +70,169 @@ CSS = """
   @media (prefers-reduced-motion: no-preference) { .row { transition:border-color .15s; } .row:hover { border-color:var(--accent); } }
 """
 
-JS = """
-  (function () {
-    var list = document.getElementById('startups'); if (!list) return;
-    var rows = Array.prototype.slice.call(list.children); var newMode = 'all', ind = 'all';
-    function apply() {
-      rows.forEach(function (r) { r.hidden = !((newMode === 'all' || r.dataset.new === '1') && (ind === 'all' || r.dataset.ind === ind)); });
-      var n = 1; rows.forEach(function (r) { if (!r.hidden) r.querySelector('.rank').textContent = n++; });
-    }
-    function sortBy(key) {
-      rows.sort(function (a, b) {
-        if (key === 'new') return (b.dataset.new - a.dataset.new) || (b.dataset.score - a.dataset.score);
-        return (b.dataset[key] - a.dataset[key]) || (b.dataset.score - a.dataset.score);
-      });
-      rows.forEach(function (r) { list.appendChild(r); }); apply();
-    }
-    document.querySelectorAll('.seg button').forEach(function (b) { b.addEventListener('click', function () {
-      document.querySelectorAll('.seg button').forEach(function (x) { x.classList.remove('on'); }); b.classList.add('on'); newMode = b.dataset.new; apply(); }); });
-    document.querySelectorAll('.chips button[data-ind]').forEach(function (b) { b.addEventListener('click', function () {
-      document.querySelectorAll('.chips button[data-ind]').forEach(function (x) { x.classList.remove('on'); }); b.classList.add('on'); ind = b.dataset.ind; apply(); }); });
-    var sel = document.getElementById('sort'); if (sel) sel.addEventListener('change', function (e) { sortBy(e.target.value); });
-  })();
+
+RENDER_JS = r"""
+(function () {
+  var D = window.HOT || {}; var W = D.week || {}; var E = D.entries || [];
+  var esc = function (s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[c]; }); };
+  var nice = function (iso) { if (!iso) return ""; var d = new Date(iso.slice(0, 10) + "T00:00:00Z"); if (isNaN(d)) return iso;
+    return d.getUTCDate() + " " + ["January","February","March","April","May","June","July","August","September","October","November","December"][d.getUTCMonth()] + " " + d.getUTCFullYear(); };
+  var factHtml = function (f) {
+    if (!f || f.value == null || f.value === "") return "<dd>unknown</dd>";
+    var v = esc(f.value);
+    if (f.confirmed) return "<dd>" + v + "</dd>";
+    if (f.source) return '<dd>' + v + ' <small>reported by <a href="' + esc(f.source) + '">' + esc(f.source_domain || "source") + '</a></small></dd>';
+    return "<dd>" + v + " <small>unverified</small></dd>";
+  };
+  var cell = function (label, v) { return v == null ? "<span>" + label + '<b class="q">?</b></span>' : "<span>" + label + "<b>" + esc(v) + "</b></span>"; };
+  var entryHtml = function (e, i) {
+    var gu = e.scores.growth == null;
+    var pills = (e.is_new ? '<span class="pill new">New</span>' : "") + (gu ? '<span class="pill unk">Growth unknown</span>' : "");
+    var hint = gu ? '<span class="hint">score uses market and tech only</span>' : "";
+    var srcs = (e.website ? '<li><a href="' + esc(e.website) + '">Company website</a></li>' : "") + e.sources.map(function (s) {
+      return '<li><a href="' + esc(s.url) + '">' + esc(s.title || s.url) + "</a>" + (s.date ? " <small>" + esc(s.date) + "</small>" : "") + "</li>"; }).join("");
+    var reasons = ["market", "tech", "growth"].map(function (k) { return "<li><b>" + k.charAt(0).toUpperCase() + k.slice(1) + "</b>: " + esc(e.reasons[k] || "") + "</li>"; }).join("");
+    var growthFact = factHtml(e.facts.growth_signal);
+    if (e.growth_basis) growthFact = growthFact.replace(/<\/dd>$/, " <small>(" + esc(e.growth_basis) + ")</small></dd>");
+    return '<li class="row" data-new="' + (e.is_new ? 1 : 0) + '" data-ind="' + esc(e.industry) + '" data-score="' + e.overall + '" data-growth="' + (e.scores.growth == null ? -1 : e.scores.growth) + '">' +
+      "<details><summary>" +
+      '<span class="rank">' + (i + 1) + "</span>" +
+      '<div class="who"><span class="name">' + esc(e.name) + '</span><span class="meta">' + esc(e.industry) + " · " + esc(e.country) + "</span>" + pills + "</div>" +
+      '<p class="idea">' + esc(e.idea) + "</p>" +
+      '<div class="score"><span class="num">' + e.overall + '</span><span class="meter"><i style="width:' + Math.min(100, Math.round(e.overall * 10)) + '%"></i></span><span class="lbl">potential</span></div>' +
+      '<div class="subs">' + cell("Market", e.scores.market) + cell("Tech", e.scores.tech) + cell("Growth", e.scores.growth) + hint + "</div>" +
+      "</summary>" +
+      '<div class="detail"><div class="col">' +
+      "<div><h4>The twist</h4><p>" + esc(e.twist) + "</p></div><div><h4>Why now</h4><p>" + esc(e.why_now) + "</p></div><div><h4>Who pays</h4><p>" + esc(e.who_pays) + "</p></div>" +
+      "<div><h4>The lesson</h4><p>" + esc(e.lesson) + '</p></div><div><h4>Why these scores</h4><ul class="sources">' + reasons + "</ul></div></div>" +
+      '<div class="col"><dl><dt>Founded</dt>' + factHtml(e.facts.founded) + "<dt>Based in</dt>" + factHtml(e.facts.based_in) + "<dt>Team</dt>" + factHtml(e.facts.team_size) +
+      "<dt>Raised</dt>" + factHtml(e.facts.raised) + "<dt>Growth</dt>" + growthFact + "</dl>" +
+      '<div><h4>Where this comes from</h4><ul class="sources">' + srcs + "</ul></div></div></div></details></li>";
+  };
+  var byName = {}; E.forEach(function (e) { byName[e.id] = e.name; });
+  var inds = {}; E.forEach(function (e) { inds[e.industry] = (inds[e.industry] || 0) + 1; });
+  var chips = Object.keys(inds).sort(function (a, b) { return inds[b] - inds[a]; }).slice(0, 10).map(function (k) { return '<button type="button" data-ind="' + esc(k) + '">' + esc(k) + "</button>"; }).join("");
+  var newCount = E.filter(function (e) { return e.is_new; }).length;
+  var trends = (W.trends || []).map(function (t) {
+    var names = (t.startup_ids || []).map(function (id) { return byName[id] ? "<span>" + esc(byName[id]) + "</span>" : ""; }).join("");
+    var n = (t.startup_ids || []).length;
+    return '<li class="trend"><div class="head"><strong>' + esc(t.name) + '</strong><span class="count">' + n + " startup" + (n === 1 ? "" : "s") + "</span></div><p>" + esc(t.sentence) + '</p><div class="names">' + names + "</div></li>"; }).join("");
+  var labels = {shut_down: "Shut down", pivoted: "Pivoted", stalled: "Stalled"};
+  var strug = (W.struggling || []).map(function (s) {
+    return '<li><span class="pill unk">' + (labels[s.what] || esc(s.what)) + '</span><div><span class="name">' + esc(s.name) + '</span> <span class="meta">' + esc(s.sector || "") + " · " + esc(s.country || "") + "</span><p>" + esc(s.why || "") +
+      (s.source_url ? ' <a href="' + esc(s.source_url) + '">source</a>' : "") + "</p></div></li>"; }).join("");
+  var gaps = (W.gaps || []).map(function (g) { return "<li>" + esc(g) + "</li>"; }).join("");
+  var unread = W.unread_sites || [];
+  var unreadHtml = unread.length ? '<details class="unread"><summary>Could not read ' + unread.length + " site" + (unread.length === 1 ? "" : "s") + "</summary><ul>" +
+    unread.map(function (u) { return '<li><a href="' + esc(u.url) + '">' + esc(u.url) + "</a>: " + esc(u.reason || "") + "</li>"; }).join("") + "</ul></details>" : "";
+  var html =
+    '<header class="top"><div class="brand"><h1>' + esc(W.title || "Hot Startups") + '</h1><span class="week">Week of ' + esc(nice(W.week_of)) + '</span></div><span class="meta">Updated ' + esc(nice(W.generated)) + "</span></header>" +
+    '<section class="card" aria-label="This week in one minute"><h2>This week in one minute</h2><p class="lead">' + esc(W.brief || "First run: the list is still filling up.") + "</p>" +
+    '<div class="kpis"><span><b>' + E.length + "</b>on the list</span><span><b>" + newCount + "</b>new this week</span><span><b>" + (W.trends || []).length + "</b>trends</span></div>" +
+    (W.mix_text ? '<p class="mix">Where they come from: ' + esc(W.mix_text) + "</p>" : "") + "</section>" +
+    '<section class="section" aria-label="Trends"><h2>Ideas that keep coming up</h2>' + (trends ? '<ul class="trend-list">' + trends + "</ul>" : '<p class="empty">No trends yet.</p>') + "</section>" +
+    '<section class="section" aria-label="Ideas that are struggling"><h2>Ideas that are struggling</h2>' + (strug ? '<ul class="strug">' + strug + "</ul>" : '<p class="empty">Nothing found this week.</p>') + "</section>" +
+    '<section class="gaps" aria-label="Gaps we noticed"><div class="head"><h2>Gaps we noticed</h2><span class="pill unk">Suggestions, not facts</span></div>' + (gaps ? "<ul>" + gaps + "</ul>" : '<p class="empty">Nothing yet.</p>') + "</section>" +
+    '<section class="section" aria-label="The list"><h2>The list</h2><div class="toolbar">' +
+    '<div class="seg" role="group" aria-label="Show"><button type="button" id="f-all" class="on" data-new="all">All ' + E.length + '</button><button type="button" id="f-new" data-new="new">New this week</button></div>' +
+    '<div class="chips" role="group" aria-label="Industry"><button type="button" class="on" data-ind="all">Every industry</button>' + chips + "</div>" +
+    '<label class="sort">Sort by <select id="sort"><option value="score">Potential</option><option value="growth">Growth</option><option value="new">Newest</option></select></label></div>' +
+    (E.length ? "" : '<p class="empty">Nothing judged yet. The first run fills this in.</p>') +
+    '<ol class="startups" id="startups">' + E.map(entryHtml).join("") + "</ol>" +
+    '<p class="foot">This week’s run: ' + esc(W.run_line || "") + ". Last successful run: " + esc(nice(W.last_success)) + ". Feeds read: " + (W.feeds_read || 0) + ". Known startups in memory: " + (W.total_known || 0) + ".</p>" + unreadHtml +
+    '<p class="foot">Scores run from 0 to 10 and are a rough sorting tool only. Market, tech and growth count equally. When growth is unknown, the score uses the other two and says so. A fact shown without a note was confirmed by two independent sources; otherwise it says who reported it.</p></section>';
+  document.getElementById("app").innerHTML = html;
+
+  var list = document.getElementById("startups"); var rows = Array.prototype.slice.call(list.children); var newMode = "all", ind = "all";
+  function apply() {
+    rows.forEach(function (r) { r.hidden = !((newMode === "all" || r.dataset.new === "1") && (ind === "all" || r.dataset.ind === ind)); });
+    var n = 1; rows.forEach(function (r) { if (!r.hidden) r.querySelector(".rank").textContent = n++; });
+  }
+  function sortBy(key) {
+    rows.sort(function (a, b) { if (key === "new") return (b.dataset.new - a.dataset.new) || (b.dataset.score - a.dataset.score); return (b.dataset[key] - a.dataset[key]) || (b.dataset.score - a.dataset.score); });
+    rows.forEach(function (r) { list.appendChild(r); }); apply();
+  }
+  document.querySelectorAll(".seg button").forEach(function (b) { b.addEventListener("click", function () { document.querySelectorAll(".seg button").forEach(function (x) { x.classList.remove("on"); }); b.classList.add("on"); newMode = b.dataset.new; apply(); }); });
+  document.querySelectorAll(".chips button[data-ind]").forEach(function (b) { b.addEventListener("click", function () { document.querySelectorAll(".chips button[data-ind]").forEach(function (x) { x.classList.remove("on"); }); b.classList.add("on"); ind = b.dataset.ind; apply(); }); });
+  document.getElementById("sort").addEventListener("change", function (e) { sortBy(e.target.value); });
+})();
 """
 
 
-def _nice_date(iso: str) -> str:
-    try:
-        from datetime import date
-        d = date.fromisoformat(iso[:10])
-        return d.strftime("%-d %B %Y")
-    except Exception:
-        return iso
-
-
-def _fact(fv) -> str:
+def _fact_data(fv) -> dict:
+    from .util import domain_of
     if not isinstance(fv, dict) or fv.get("value") in (None, "", "null"):
-        return "<dd>unknown</dd>"
-    v = esc(str(fv["value"]))
+        return {"value": None}
     srcs = [u for u in (fv.get("sources") or []) if isinstance(u, str) and u.startswith("http")]
-    if fv.get("confirmed"):
-        return f"<dd>{v}</dd>"
-    if srcs:
-        from .util import domain_of
-        return f'<dd>{v} <small>reported by <a href="{esc(srcs[0])}">{esc(domain_of(srcs[0]) or "source")}</a></small></dd>'
-    return f"<dd>{v} <small>unverified</small></dd>"
+    out = {"value": str(fv["value"]), "confirmed": bool(fv.get("confirmed"))}
+    if not out["confirmed"] and srcs:
+        out["source"] = srcs[0]
+        out["source_domain"] = domain_of(srcs[0]) or "source"
+    return out
 
 
-def _score_cell(label: str, sc: dict | None) -> str:
-    sc = sc or {}
-    v = sc.get("score")
-    if v is None:
-        return f"<span>{label}<b class=\"q\">?</b></span>"
+def _num(v):
     try:
-        return f"<span>{label}<b>{float(v):g}</b></span>"
+        return None if v is None else float(v)
     except (TypeError, ValueError):
-        return f"<span>{label}<b class=\"q\">?</b></span>"
+        return None
 
 
-def _entry_html(rank: int, rec: dict, is_new: bool) -> str:
+def entry_data(rec: dict, is_new: bool) -> dict:
+    """The part of a startup's record the page needs, as plain data for entries.js."""
     e = rec["entry"]
     sc = e.get("scores") or {}
-    overall = e.get("overall") or 0
-    g = (sc.get("growth") or {})
-    growth_unknown = g.get("score") is None
-    ind = esc(rec.get("industry") or e.get("industry") or "Other")
-    country = esc(rec.get("country") or e.get("country") or "")
-    pills = ""
-    if is_new:
-        pills += '<span class="pill new">New</span>'
-    if growth_unknown:
-        pills += '<span class="pill unk">Growth unknown</span>'
-    hint = '<span class="hint">score uses market and tech only</span>' if growth_unknown else ""
+    g = sc.get("growth") or {}
     basis = g.get("basis")
-    basis_note = f' <small>({esc(str(basis))})</small>' if basis and str(basis) not in ("number", "unknown") else ""
     facts = e.get("facts") or {}
-    growth_fact = facts.get("growth_signal")
-    sources = ""
-    for s in (e.get("sources") or [])[:8]:
-        if isinstance(s, dict) and s.get("url"):
-            t = esc(s.get("title") or s["url"])
-            d = f" <small>{esc(str(s.get('date') or ''))}</small>" if s.get("date") else ""
-            sources += f'<li><a href="{esc(s["url"])}">{t}</a>{d}</li>'
-    website = f'<li><a href="{esc(rec["website"])}">Company website</a></li>' if rec.get("website") else ""
-    reasons = "".join(f"<li><b>{k.title()}</b>: {esc(str((sc.get(k) or {}).get('reason') or ''))}</li>" for k in ("market", "tech", "growth"))
-    try:
-        growth_num = float(g.get("score")) if g.get("score") is not None else -1
-    except (TypeError, ValueError):
-        growth_num = -1
-    return f"""
-      <li class="row" data-new="{1 if is_new else 0}" data-ind="{ind}" data-score="{overall}" data-growth="{growth_num}">
-        <details>
-          <summary>
-            <span class="rank">{rank}</span>
-            <div class="who"><span class="name">{esc(rec["name"])}</span><span class="meta">{ind} · {country}</span>{pills}</div>
-            <p class="idea">{esc(e.get("idea") or "")}</p>
-            <div class="score"><span class="num">{overall:g}</span><span class="meter"><i style="width:{min(100, int(round(overall * 10)))}%"></i></span><span class="lbl">potential</span></div>
-            <div class="subs">{_score_cell("Market", sc.get("market"))}{_score_cell("Tech", sc.get("tech"))}{_score_cell("Growth", sc.get("growth"))}{hint}</div>
-          </summary>
-          <div class="detail">
-            <div class="col">
-              <div><h4>The twist</h4><p>{esc(e.get("twist") or "")}</p></div>
-              <div><h4>Why now</h4><p>{esc(e.get("why_now") or "")}</p></div>
-              <div><h4>Who pays</h4><p>{esc(e.get("who_pays") or "")}</p></div>
-              <div><h4>The lesson</h4><p>{esc(e.get("lesson") or "")}</p></div>
-              <div><h4>Why these scores</h4><ul class="sources">{reasons}</ul></div>
-            </div>
-            <div class="col">
-              <dl>
-                <dt>Founded</dt>{_fact(facts.get("founded"))}
-                <dt>Based in</dt>{_fact(facts.get("based_in"))}
-                <dt>Team</dt>{_fact(facts.get("team_size"))}
-                <dt>Raised</dt>{_fact(facts.get("raised"))}
-                <dt>Growth</dt>{_fact(growth_fact)[:-5] + basis_note + "</dd>"}
-              </dl>
-              <div><h4>Where this comes from</h4><ul class="sources">{website}{sources}</ul></div>
-            </div>
-          </div>
-        </details>
-      </li>"""
+    return {
+        "id": rec["id"], "name": rec["name"], "industry": rec.get("industry") or e.get("industry") or "Other", "country": rec.get("country") or e.get("country") or "",
+        "is_new": bool(is_new), "overall": e.get("overall") or 0, "website": rec.get("website"),
+        "scores": {"market": _num((sc.get("market") or {}).get("score")), "tech": _num((sc.get("tech") or {}).get("score")), "growth": _num(g.get("score"))},
+        "reasons": {k: str((sc.get(k) or {}).get("reason") or "") for k in ("market", "tech", "growth")},
+        "growth_basis": str(basis) if basis and str(basis) not in ("number", "unknown") else None,
+        "idea": e.get("idea") or "", "twist": e.get("twist") or "", "why_now": e.get("why_now") or "", "who_pays": e.get("who_pays") or "", "lesson": e.get("lesson") or "",
+        "facts": {k: _fact_data(facts.get(k)) for k in ("founded", "based_in", "team_size", "raised", "growth_signal")},
+        "sources": [{"url": s["url"], "title": s.get("title") or s["url"], "date": s.get("date")} for s in (e.get("sources") or [])[:8] if isinstance(s, dict) and s.get("url")],
+    }
 
 
-def render(store: Store, week: dict) -> str:
+def page_data(store: Store, week: dict) -> dict:
     startups = store.startups()
     top = [startups[i] for i in week.get("top_ids", []) if i in startups and startups[i].get("entry")]
     new_ids = set(week.get("new_ids", []))
-    title = esc(week.get("title") or "Hot Startups")
-    inds: dict[str, int] = {}
-    for r in top:
-        k = r.get("industry") or (r.get("entry") or {}).get("industry") or "Other"
-        inds[k] = inds.get(k, 0) + 1
-    chips = "".join(f'<button type="button" data-ind="{esc(k)}">{esc(k)}</button>' for k, _ in sorted(inds.items(), key=lambda kv: -kv[1])[:10])
-    mix = " · ".join(f"{REGION_NAMES.get(k, k)} {v}" for k, v in sorted(week.get("mix", {}).items(), key=lambda kv: -kv[1]))
-    trends_html = ""
-    for tr in week.get("trends", []):
-        names = "".join(f"<span>{esc(startups[i]['name'])}</span>" for i in tr.get("startup_ids", []) if i in startups)
-        n = len(tr.get("startup_ids", []))
-        trends_html += f'<li class="trend"><div class="head"><strong>{esc(tr["name"])}</strong><span class="count">{n} startup{"s" if n != 1 else ""}</span></div><p>{esc(tr.get("sentence") or "")}</p><div class="names">{names}</div></li>'
-    strug_html = ""
-    labels = {"shut_down": "Shut down", "pivoted": "Pivoted", "stalled": "Stalled"}
-    for it in week.get("struggling", []):
-        src = f' <a href="{esc(it["source_url"])}">source</a>' if it.get("source_url") else ""
-        strug_html += f'<li><span class="pill unk">{labels.get(it["what"], it["what"])}</span><div><span class="name">{esc(it["name"])}</span> <span class="meta">{esc(it.get("sector") or "")} · {esc(it.get("country") or "")}</span><p>{esc(it.get("why") or "")}{src}</p></div></li>'
-    gaps_html = "".join(f"<li>{esc(g)}</li>" for g in week.get("gaps", []))
-    entries_html = "".join(_entry_html(i + 1, r, r["id"] in new_ids) for i, r in enumerate(top))
-    unread = week.get("unread_sites") or []
-    unread_html = ""
-    if unread:
-        items = "".join(f'<li><a href="{esc(u["url"])}">{esc(u["url"])}</a>: {esc(u.get("reason") or "")}</li>' for u in unread)
-        unread_html = f'<details class="unread"><summary>Could not read {len(unread)} site{"s" if len(unread) != 1 else ""}</summary><ul>{items}</ul></details>'
-    empty = '<p class="empty">Nothing judged yet. The first run fills this in.</p>' if not top else ""
-    brief = esc(week.get("brief") or "First run: the list is still filling up.")
-    return f"""<title>{title}</title>
+    mix = " · ".join(f"{REGION_NAMES.get(k, k)} {v}" for k, v in sorted((week.get("mix") or {}).items(), key=lambda kv: -kv[1]))
+    w = {k: week.get(k) for k in ("run_id", "title", "week_of", "generated", "brief", "trends", "struggling", "gaps", "run_line", "last_success", "feeds_read", "total_known", "unread_sites")}
+    w["title"] = w.get("title") or "Hot Startups"
+    w["mix_text"] = mix
+    return {"week": w, "entries": [entry_data(r, r["id"] in new_ids) for r in top]}
+
+
+def render_shell(title: str) -> str:
+    """The page itself: styles, an empty frame, the data file and the renderer. Small, so republishing stays cheap."""
+    return f"""<title>{esc(title)}</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>{CSS}</style>
-<div class="wrap">
-  <header class="top">
-    <div class="brand"><h1>{title}</h1><span class="week">Week of {_nice_date(week.get("week_of", ""))}</span></div>
-    <span class="meta">Updated {_nice_date(week.get("generated", ""))}</span>
-  </header>
-
-  <section class="card" aria-label="This week in one minute">
-    <h2>This week in one minute</h2>
-    <p class="lead">{brief}</p>
-    <div class="kpis"><span><b>{len(top)}</b>on the list</span><span><b>{len(new_ids)}</b>new this week</span><span><b>{len(week.get("trends", []))}</b>trends</span></div>
-    {f'<p class="mix">Where they come from: {esc(mix)}</p>' if mix else ''}
-  </section>
-
-  <section class="section" aria-label="Trends">
-    <h2>Ideas that keep coming up</h2>
-    {f'<ul class="trend-list">{trends_html}</ul>' if trends_html else '<p class="empty">No trends yet.</p>'}
-  </section>
-
-  <section class="section" aria-label="Ideas that are struggling">
-    <h2>Ideas that are struggling</h2>
-    {f'<ul class="strug">{strug_html}</ul>' if strug_html else '<p class="empty">Nothing found this week.</p>'}
-  </section>
-
-  <section class="gaps" aria-label="Gaps we noticed">
-    <div class="head"><h2>Gaps we noticed</h2><span class="pill unk">Suggestions, not facts</span></div>
-    {f'<ul>{gaps_html}</ul>' if gaps_html else '<p class="empty">Nothing yet.</p>'}
-  </section>
-
-  <section class="section" aria-label="The list">
-    <h2>The list</h2>
-    <div class="toolbar">
-      <div class="seg" role="group" aria-label="Show"><button type="button" id="f-all" class="on" data-new="all">All {len(top)}</button><button type="button" id="f-new" data-new="new">New this week</button></div>
-      <div class="chips" role="group" aria-label="Industry"><button type="button" class="on" data-ind="all">Every industry</button>{chips}</div>
-      <label class="sort">Sort by <select id="sort"><option value="score">Potential</option><option value="growth">Growth</option><option value="new">Newest</option></select></label>
-    </div>
-    {empty}
-    <ol class="startups" id="startups">{entries_html}
-    </ol>
-    <p class="foot">This week's run: {esc(week.get("run_line") or "")}. Last successful run: {_nice_date(week.get("last_success", ""))}. Feeds read: {week.get("feeds_read", 0)}. Known startups in memory: {week.get("total_known", 0)}.</p>
-    {unread_html}
-    <p class="foot">Scores run from 0 to 10 and are a rough sorting tool only. Market, tech and growth count equally. When growth is unknown, the score uses the other two and says so. A fact shown without a note was confirmed by two independent sources; otherwise it says who reported it.</p>
-  </section>
-</div>
-<script>{JS}</script>
+<div class="wrap" id="app"><p class="empty">Loading the list…</p></div>
+<script src="entries.js"></script>
+<script>{RENDER_JS}</script>
 """
 
 
 def write_page(store: Store, week: dict) -> Path:
+    """Writes out/index.html (the shell) and out/entries.js (the data). Publish both: index.html as the page,
+    entries.js as a supporting file at the same path."""
+    import json
     store.out.mkdir(parents=True, exist_ok=True)
+    data = page_data(store, week)
+    (store.out / "entries.js").write_text("window.HOT = " + json.dumps(data, ensure_ascii=False) + ";\n", encoding="utf-8")
     path = store.out / "index.html"
-    path.write_text(render(store, week), encoding="utf-8")
+    path.write_text(render_shell(data["week"]["title"]), encoding="utf-8")
     return path
+
+
+def render(store: Store, week: dict) -> str:
+    """A single self-contained HTML (data inlined) for local viewing and tests."""
+    import json
+    data = page_data(store, week)
+    return render_shell(data["week"]["title"]).replace('<script src="entries.js"></script>', "<script>window.HOT = " + json.dumps(data, ensure_ascii=False).replace("</", "<\\/") + ";</script>")

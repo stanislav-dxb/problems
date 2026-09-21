@@ -1,0 +1,146 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Sweden",
+  "domain": "lovable.dev",
+  "drop_reason": null,
+  "entry": {
+    "country": "Sweden",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.bloomberg.com/news/articles/2025-07-17/swedish-vibe-coding-firm-lovable-hits-1-8-billion-valuation"
+        ],
+        "value": "Stockholm, Sweden"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "Grew from $1M to $100M in annual revenue in 8 months and passed 2.3 million active users."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "$16M (Feb 2025 round); reached a $1.8B valuation by July 2025"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Lovable lets anyone describe an app in plain English and its AI writes the code, builds it, and puts a working piece of software online.",
+    "industry": "AI tools",
+    "is_startup": true,
+    "judged_on": "2026-09-21",
+    "judged_run": "2026-09-21-r3",
+    "lesson": "Once a technology crosses a usability threshold, put a simple chat box in front of it and let ordinary people become builders.",
+    "name": "Lovable",
+    "not_startup_reason": null,
+    "overall": 8.3,
+    "recovered_from_page": true,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Going from $1M to $100M in annual revenue in 8 months with 2.3 million users is an extremely fast, well-documented growth curve.",
+        "score": 10.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Anyone who wants a piece of software built, from solo founders to large businesses, is a potential customer, which is close to the whole software market.",
+        "score": 9.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Lovable built a strong 'describe it and it builds' product on top of existing AI models, but well-funded rivals like Bolt and Replit could match it within a year or two.",
+        "score": 6.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-17",
+        "title": "Lovable, N8n und Co.: 4 HR-Trends erfolgreicher Startups",
+        "url": "https://www.businessinsider.de/gruenderszene/lovable-n8n-und-co-4-hr-trends-erfolgreicher-startups/"
+      },
+      {
+        "date": null,
+        "title": "39. Lovable",
+        "url": "https://www.cnbc.com/2026/05/19/lovable-cnbc-disruptor-50-ranking.html"
+      },
+      {
+        "date": null,
+        "title": "Swedish Vibe Coding Firm Lovable Hits $1.8 Billion Valuation - Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2025-07-17/swedish-vibe-coding-firm-lovable-hits-1-8-billion-valuation"
+      },
+      {
+        "date": null,
+        "title": "Sweden's Lovable becomes fastest growing software company ever by skyrocketing to $100 million ARR in 8 months",
+        "url": "https://www.eu-startups.com/2025/07/swedens-lovable-becomes-fastest-growing-software-company-ever-by-skyrocketing-to-100-million-arr-in-8-months/"
+      },
+      {
+        "date": null,
+        "title": "$1.8 Billion Swedish AI Unicorn Puts OpenAI and Meta on Edge",
+        "url": "https://eu.36kr.com/en/p/3389916439445893"
+      },
+      {
+        "date": null,
+        "title": "Vibe Coding Unicorn Lovable Is The Fastest Growing Software Startup Ever",
+        "url": "https://www.forbes.com/sites/iainmartin/2025/07/23/vibe-coding-turned-this-swedish-ai-unicorn-into-the-fastest-growing-software-startup-ever/"
+      },
+      {
+        "date": null,
+        "title": "How Lovable Reached 2.3M Users",
+        "url": "https://catalaize.substack.com/p/lovables-path-from-open-source-to"
+      },
+      {
+        "date": null,
+        "title": "Lovable team (Right: Anton Osika)",
+        "url": "https://techcrunch.com/2025/02/25/swedens-lovable-an-app-building-ai-platform-rakes-in-16m-after-spectacular-growth"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It grew from $1 million to $100 million a year in revenue in just eight months, which people are calling the fastest a software company has ever grown.",
+    "website": "https://lovable.dev/",
+    "who_pays": "People and businesses pay a subscription to build, host and run their apps on Lovable.",
+    "why_now": "AI models got good enough at writing and testing code that people who cannot program can now describe an app and get a real, working one back."
+  },
+  "first_judged_run": "2026-09-21-r3",
+  "first_seen": "2026-09-21",
+  "id": "lovable-dev",
+  "industry": "AI tools",
+  "last_checked": "2026-09-21",
+  "mentions": [],
+  "name": "Lovable",
+  "name_key": "lovable",
+  "region": "europe",
+  "research": {
+    "judged_run": "2026-09-21-r3",
+    "pages": 0,
+    "queries_done": [],
+    "refresh": false,
+    "searches": 0
+  },
+  "score_history": [
+    {
+      "date": "2026-09-21",
+      "growth": 10.0,
+      "market": 9.0,
+      "overall": 8.3,
+      "run": "2026-09-21-r3",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-21T05:09:44+00:00",
+  "website": "https://lovable.dev/"
+}

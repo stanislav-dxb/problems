@@ -1,0 +1,126 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": "anglehealth.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://techcrunch.com/2026/09/18/y-combinator-insurance-tech-alum-angle-health-hits-2-7b-valuation/"
+        ],
+        "value": "2019"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "Now has 5,000 customers and is profitable, after earlier raises of $58M and $134M."
+      },
+      "raised": {
+        "confirmed": true,
+        "note": "confirmed by two sources in the run; the URLs were not saved",
+        "sources": [],
+        "value": "$200M Series C plus a $400M tender offer, at a $2.7B valuation (Sept 2026)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Small businesses often struggle to find affordable, flexible health insurance for their staff, so Angle Health sells a modern, digital 'level-funded' health plan built for them.",
+    "industry": "InsurTech",
+    "is_startup": true,
+    "judged_on": "2026-09-21",
+    "judged_run": "2026-09-21-r3",
+    "lesson": "Take a huge, regulated, old-fashioned market like health insurance and win the slice big insurers serve worst by being the modern, easy-to-use option.",
+    "name": "Angle Health",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "recovered_from_page": true,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Funding rounds have climbed sharply ($58M, then $134M, then $600M) alongside a jump to a $2.7B valuation, and the company reports 5,000 customers and profitability.",
+        "score": 8.0,
+        "source": null
+      },
+      "market": {
+        "reason": "Health insurance is one of the biggest markets there is, though Angle Health currently only sells to small businesses in the United States.",
+        "score": 7.0,
+        "source": null
+      },
+      "tech": {
+        "reason": "Running a full digital insurance carrier with 100+ payroll integrations is solid, hard-won infrastructure, but not protected by unique science that others can't copy.",
+        "score": 6.0,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-18",
+        "title": "Y Combinator insurance tech alum Angle Health hits $2.7B valuation",
+        "url": "https://techcrunch.com/2026/09/18/y-combinator-insurance-tech-alum-angle-health-hits-2-7b-valuation/"
+      },
+      {
+        "date": "2026-09-18",
+        "title": "Angle Health Raises $600 Million at a $2.7 Billion Valuation to Continue Expanding Affordable Healthcare Access for Small Businesses",
+        "url": "https://www.anglehealth.com/post/angle-health-secures-series-c-financing"
+      },
+      {
+        "date": null,
+        "title": "Angle Health Secures $134M to Grow Benefits Platform for Small Businesses - MedCity News",
+        "url": "https://medcitynews.com/2025/12/angle-health-funding/"
+      },
+      {
+        "date": null,
+        "title": "Angle Health - The Modern Level-Funded Health Plan",
+        "url": "https://www.anglehealth.com/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It runs its own AI-enabled insurance operations and plugs into more than 100 payroll and HR systems, so employers can manage benefits without the usual paperwork.",
+    "website": "https://www.anglehealth.com",
+    "who_pays": "Employers pay premiums to enroll their employees in an Angle Health plan.",
+    "why_now": "Rising health costs are pushing small employers to look for cheaper, easier alternatives to traditional group health insurance."
+  },
+  "first_judged_run": "2026-09-21-r3",
+  "first_seen": "2026-09-21",
+  "id": "anglehealth-com",
+  "industry": "InsurTech",
+  "last_checked": "2026-09-21",
+  "mentions": [],
+  "name": "Angle Health",
+  "name_key": "anglehealth",
+  "region": "north_america",
+  "research": {
+    "judged_run": "2026-09-21-r3",
+    "pages": 0,
+    "queries_done": [],
+    "refresh": false,
+    "searches": 0
+  },
+  "score_history": [
+    {
+      "date": "2026-09-21",
+      "growth": 8.0,
+      "market": 7.0,
+      "overall": 7.0,
+      "run": "2026-09-21-r3",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-21T05:09:44+00:00",
+  "website": "https://www.anglehealth.com"
+}

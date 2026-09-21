@@ -127,3 +127,22 @@ def test_write_ups_are_spread_across_regions(ctx):
     # cap per region = ceil(0.5 * 2 * 1.5) = 2 -> the third German startup moves behind the Japanese one
     order = [r["name"] for r in _spread_regions(cfg, src, store, run, recs)]
     assert order == ["S0", "S1", "S3", "S2"]
+
+
+def test_memory_bundle_round_trip(ctx, tmp_path):
+    cfg, src, store = ctx
+    from hotstartups.cli import export_memory, main
+    import json, os
+    rec = store.new_startup("Bundle Co", "https://bundle.co"); store.save_startup(rec)
+    run = tasks.start_run(cfg, store); run["finished"] = "x"; store.save_run(run)
+    bundle = export_memory(store)
+    b = json.loads(open(bundle).read())
+    assert f"startups/{rec['id']}.json" in b["files"] and any(k.startswith("runs/") for k in b["files"])
+    # an older or equal bundle is ignored; --force restores it
+    os.environ["HOTSTARTUPS_HOME"] = str(store.root)
+    (store.startups_dir / f"{rec['id']}.json").unlink()
+    main(["memory", "import", bundle])          # same run number as local -> not imported
+    assert not (store.startups_dir / f"{rec['id']}.json").exists()
+    main(["memory", "import", bundle, "--force"])
+    assert (store.startups_dir / f"{rec['id']}.json").exists()
+    del os.environ["HOTSTARTUPS_HOME"]
