@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Turkey",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "patientdesk-ai",
+  "industry": "voice AI / healthcare",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-25",
+      "run": "2026-09-28-r4",
+      "snippet": "Voice AI startup that previously raised $1 million pre-seed led by Y Combinator, now launches Turkish-focused voice models Alania and Duyu.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://webrazzi.com/2026/09/25/patientdesk-ai-dan-turkce-ses-modelleri-alania-ve-duyu/"
+    }
+  ],
+  "name": "Patientdesk.ai",
+  "name_key": "patientdeskai",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:10:41+00:00",
+  "website": null
+}

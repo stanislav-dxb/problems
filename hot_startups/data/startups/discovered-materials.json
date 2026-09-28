@@ -4,11 +4,115 @@
   "country": "India",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "India",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://inc42.com/startups/semiconductor-chips-have-an-elemental-problem-and-discovered-materials-wants-it-fixed/",
+          "https://yourstory.com/2026/08/deeptech-startup-discovered-materials-raises-9-million-in-seed-round"
+        ],
+        "value": "India"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://inc42.com/startups/semiconductor-chips-have-an-elemental-problem-and-discovered-materials-wants-it-fixed/"
+        ],
+        "value": "2026"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://entrackr.com/news/lightspeed-india-leads-9-mn-seed-round-in-deep-tech-startup-discovered-materials-12249345",
+          "https://yourstory.com/2026/08/deeptech-startup-discovered-materials-raises-9-million-in-seed-round",
+          "https://www.bwdisrupt.com/article/discovered-materials-raises-9-mn-in-seed-funding-led-by-lightspeed-india-partners-618812"
+        ],
+        "value": "$9M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Computer chips are running into limits set by the materials they are made from, so Discovered Materials uses AI to search for and test new materials that could replace them, starting with materials that pull heat out of stacked 3D chips.",
+    "industry": "Materials",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "When a whole industry is stuck behind one stubborn physical limit, using AI to search a huge space of untried options can turn a research problem into a company.",
+    "name": "Discovered Materials",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "substitute: quality of seed investors (Y Combinator, Lightspeed India Partners, Peak XV Partners)",
+        "reason": "There are no user or revenue numbers yet, but the seed round drew top investors including Y Combinator, Lightspeed India, and Peak XV Partners.",
+        "score": 6,
+        "source": "https://www.bwdisrupt.com/article/discovered-materials-raises-9-mn-in-seed-funding-led-by-lightspeed-india-partners-618812"
+      },
+      "market": {
+        "reason": "New materials for chip heat management could be needed across the whole worldwide semiconductor and AI-chip industry.",
+        "score": 7,
+        "source": "https://inc42.com/startups/semiconductor-chips-have-an-elemental-problem-and-discovered-materials-wants-it-fixed/"
+      },
+      "tech": {
+        "reason": "Discovering and owning IP on genuinely new materials is hard to copy quickly, though the approach is new and unproven at scale.",
+        "score": 7,
+        "source": "https://quantumzeitgeist.com/iit-madras-discovered-materials-9-million/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-16",
+        "title": "Semiconductor Chips Have An Elemental Problem And Discovered Materials Wants It Fixed",
+        "url": "https://inc42.com/startups/semiconductor-chips-have-an-elemental-problem-and-discovered-materials-wants-it-fixed/"
+      },
+      {
+        "date": null,
+        "title": "Lightspeed India leads $9 Mn seed round in deep-tech startup Discovered Materials",
+        "url": "https://entrackr.com/news/lightspeed-india-leads-9-mn-seed-round-in-deep-tech-startup-discovered-materials-12249345"
+      },
+      {
+        "date": null,
+        "title": "Deeptech startup Discovered Materials raises $9M in Seed round | YourStory",
+        "url": "https://yourstory.com/2026/08/deeptech-startup-discovered-materials-raises-9-million-in-seed-round"
+      },
+      {
+        "date": null,
+        "title": "Discovered Materials Raises $9 Mn In Seed Funding Led By Lightspeed India Partners - BW Disrupt",
+        "url": "https://www.bwdisrupt.com/article/discovered-materials-raises-9-mn-in-seed-funding-led-by-lightspeed-india-partners-618812"
+      },
+      {
+        "date": null,
+        "title": "AI materials startup Discovered Materials raises $9 million seed round | Business Standard",
+        "url": "https://www.business-standard.com/amp/companies/start-ups/ai-materials-startup-discovered-materials-raises-9-million-seed-round-126081001726_1.html"
+      },
+      {
+        "date": null,
+        "title": "IIT Madras Chip Startup Discovered Materials Gets $9 Million In Seed Funding",
+        "url": "https://quantumzeitgeist.com/iit-madras-discovered-materials-9-million/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It wants to own the intellectual property on the new materials it finds with AI, sitting as a new business layer between materials research and chipmakers rather than just publishing papers.",
+    "website": null,
+    "who_pays": "Chipmakers and chip-packaging companies would license or buy the materials it discovers.",
+    "why_now": "Chipmakers are pushing against the physical limits of today's materials right as AI has become good enough to search through far more untested material options than people could test by hand."
+  },
+  "first_judged_run": "2026-09-28-r4",
   "first_seen": "2026-09-16",
   "id": "discovered-materials",
-  "industry": "Semiconductor materials",
-  "last_checked": null,
+  "industry": "Materials",
+  "last_checked": "2026-09-28",
   "mentions": [
     {
       "date": "2026-09-16",
@@ -18,18 +122,115 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://inc42.com/startups/semiconductor-chips-have-an-elemental-problem-and-discovered-materials-wants-it-fixed/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Entrackr on Discovered Materials, a deep-tech startup, raising a $9M seed round led by Lightspeed India Partners.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Lightspeed India leads $9 Mn seed round in deep-tech startup Discovered Materials",
+      "url": "https://entrackr.com/news/lightspeed-india-leads-9-mn-seed-round-in-deep-tech-startup-discovered-materials-12249345"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Entrepreneur India coverage of the $9M seed round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Discovered Materials Raises USD9 Mn Seed Round - Entrepreneur India",
+      "url": "https://india.entrepreneur.com/business-news/discovered-materials-raises-usd9-mn-seed-round"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "YourStory on Discovered Materials, founded by IIT-Madras alumni Advaith Sridhar and Akash Ramdas, developing thermally conductive dielectric materials for 3D chip packaging.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Deeptech startup Discovered Materials raises $9M in Seed round | YourStory",
+      "url": "https://yourstory.com/2026/08/deeptech-startup-discovered-materials-raises-9-million-in-seed-round"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "BW Disrupt on the seed round, with participation from Y Combinator, Peak XV Partners and angels including Paul Graham and Gokul Rajaram.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Discovered Materials Raises $9 Mn In Seed Funding Led By Lightspeed India Partners - BW Disrupt",
+      "url": "https://www.bwdisrupt.com/article/discovered-materials-raises-9-mn-in-seed-funding-led-by-lightspeed-india-partners-618812"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Business Standard describes Discovered Materials as an AI materials startup tackling thermal dissipation in AI chips.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "AI materials startup Discovered Materials raises $9 million seed round | Business Standard",
+      "url": "https://www.business-standard.com/amp/companies/start-ups/ai-materials-startup-discovered-materials-raises-9-million-seed-round-126081001726_1.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Further coverage of the funding round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Discovered Materials Raises $9M Seed Led by Lightspeed",
+      "url": "https://laffaz.com/discovered-materials-9-million-seed-lightspeed-india/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "SiliconIndia coverage of the seed round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Discovered Materials Raises $9 Million in Seed Funding",
+      "url": "https://www.siliconindia.com/startup/startup-funding/discovered-materials-raises-9-million-in-seed-funding-nwid-55236.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Quantum Zeitgeist on Discovered Materials, an IIT Madras-linked chip materials startup, and its Material Discovery Bench for evaluating AI on semiconductor material challenges.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "IIT Madras Chip Startup Discovered Materials Gets $9 Million In Seed Funding",
+      "url": "https://quantumzeitgeist.com/iit-madras-discovered-materials-9-million/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Aggregator coverage of the same seed funding round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "IIT Madras Startup Discovered Materials Raises $9 Million Seed Funding | Whalesbook",
+      "url": "https://www.whalesbook.com/news/English/technology/IIT-Madras-Startup-Discovered-Materials-Raises-dollar9-Million-Seed-Funding/6a79f1df315dcde609d0c49c"
     }
   ],
   "name": "Discovered Materials",
   "name_key": "discoveredmaterials",
-  "region": null,
+  "region": "asia",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-discovered-materials.txt",
+    "article_url": "https://inc42.com/startups/semiconductor-chips-have-an-elemental-problem-and-discovered-materials-wants-it-fixed/",
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"Discovered Materials\" startup India"
+    ],
+    "refresh": false,
+    "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:50:10+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 6.0,
+      "market": 7.0,
+      "overall": 6.7,
+      "run": "2026-09-28-r4",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T03:23:48+00:00",
   "website": null
 }

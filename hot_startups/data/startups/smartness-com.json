@@ -4,11 +4,109 @@
   "country": "Italy",
   "domain": "smartness.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Italy",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2026/05/italian-traveltech-startup-smartness-closes-e47-million-series-b-for-european-expansion",
+          "https://bebeez.eu/2026/05/04/italian-traveltech-startup-smartness-closes-e47-million-series-b-for-european-expansion/"
+        ],
+        "value": "Arco, Trentino-Alto Adige, Italy"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.scalablepod.it/en/startup/smartness/"
+        ],
+        "value": "Says it has grown sixfold since its 2023 Series A and now serves over 5,000 clients in 41 countries"
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2026/05/italian-traveltech-startup-smartness-closes-e47-million-series-b-for-european-expansion",
+          "https://www.finsmes.com/2026/05/smartness-raises-e47m-in-series-b-funding.html"
+        ],
+        "value": "€47M Series B"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Small hotels, B&Bs, and vacation rentals struggle to price rooms right and answer guest questions fast, so Smartness gives them AI tools for pricing, guest chat, and day-to-day booking management.",
+    "industry": "Travel tech",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Bundle several small, painful jobs (pricing, guest chat, booking software, marketing) into one product for an industry of small operators who cannot afford enterprise software.",
+    "name": "Smartness",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number: grown sixfold since its 2023 Series A",
+        "reason": "It says its business has grown sixfold in a few years and just closed a big new funding round to expand further.",
+        "score": 8,
+        "source": "https://www.scalablepod.it/en/startup/smartness/"
+      },
+      "market": {
+        "reason": "Independent hotels and vacation rentals that need pricing and booking help exist in almost every country.",
+        "score": 7,
+        "source": "https://smartness.com/"
+      },
+      "tech": {
+        "reason": "Its AI pricing and chatbot tools are solid engineering, but similar hotel revenue-management tools exist elsewhere, so a strong team could match them in a year or two.",
+        "score": 5,
+        "source": "https://smartness.com/"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Italian TravelTech startup Smartness closes €47 million Series B for European expansion | EU-Startups",
+        "url": "https://www.eu-startups.com/2026/05/italian-traveltech-startup-smartness-closes-e47-million-series-b-for-european-expansion"
+      },
+      {
+        "date": null,
+        "title": "Italian TravelTech startup Smartness closes €47 million Series B for European expansion – BeBeez International",
+        "url": "https://bebeez.eu/2026/05/04/italian-traveltech-startup-smartness-closes-e47-million-series-b-for-european-expansion/"
+      },
+      {
+        "date": null,
+        "title": "Smartness Raises €47M in Series B Funding",
+        "url": "https://www.finsmes.com/2026/05/smartness-raises-e47m-in-series-b-funding.html"
+      },
+      {
+        "date": null,
+        "title": "Smartness: AI Platform for Hospitality Revenue Management | Scalable",
+        "url": "https://www.scalablepod.it/en/startup/smartness/"
+      },
+      {
+        "date": null,
+        "title": "Smartness | Revolutionize your hotel and vacation rental management",
+        "url": "https://smartness.com/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "One of its products lets hoteliers pay based on the extra revenue and bookings it actually brings in, instead of a flat monthly fee.",
+    "website": "https://smartness.com/",
+    "who_pays": "Hotel, B&B, and vacation rental owners who subscribe to Smartness's pricing, chatbot, website, and management products.",
+    "why_now": "Independent properties are squeezed by high commissions from booking sites and cannot afford the pricing technology that big hotel chains already use, so cheaper AI tools are in demand."
+  },
+  "first_judged_run": "2026-09-28-r4",
   "first_seen": "2026-09-16",
   "id": "smartness-com",
-  "industry": "Travel Tech",
-  "last_checked": null,
+  "industry": "Travel tech",
+  "last_checked": "2026-09-28",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -18,18 +116,126 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://smartness.com/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Smartness, an Arco, Trentino-Alto Adige, Italy-based travel automation startup, closed a €47 million Series B round led by United Ventures and CDP Venture Capital, with participation from existing investor Partech. Total capital raised now exceeds €60 million.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Italian TravelTech startup Smartness closes €47 million Series B for European expansion | EU-Startups",
+      "url": "https://www.eu-startups.com/2026/05/italian-traveltech-startup-smartness-closes-e47-million-series-b-for-european-expansion"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Smartness's own about page.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "About us | Smartness",
+      "url": "https://www.smartness.com/en/about-us"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Coverage of Smartness's €47M raise to scale its AI operations for hospitality businesses.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Trentino-based Smartness raises €47M to scale AI operations",
+      "url": "https://thenextweb.com/news/smartness-raises-e47m-to-scale-ai-operations"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "BeBeez coverage of the same €47M Series B round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Italian TravelTech startup Smartness closes €47 million Series B for European expansion – BeBeez International",
+      "url": "https://bebeez.eu/2026/05/04/italian-traveltech-startup-smartness-closes-e47-million-series-b-for-european-expansion/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "PaySpace Magazine coverage of Smartness's €47M Series B.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Italian Travel Tech Startup Smartness Raises €47 Million In Series B Funding Round - PaySpace Magazine",
+      "url": "https://payspacemagazine.com/news/italian-travel-tech-startup-smartness-raises-e47-million-in-series-b-funding-round/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "FinSMEs funding announcement for Smartness.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Smartness Raises €47M in Series B Funding",
+      "url": "https://www.finsmes.com/2026/05/smartness-raises-e47m-in-series-b-funding.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Profile describing Smartness as a B2B SaaS AI platform for hospitality revenue management, serving 5,000+ clients in 41 countries, grown sixfold since its 2023 Series A.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Smartness: AI Platform for Hospitality Revenue Management | Scalable",
+      "url": "https://www.scalablepod.it/en/startup/smartness/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Coverage of the Series B round for AI-driven hospitality growth.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Smartness Raises €47M Series B for AI Hospitality Growth",
+      "url": "https://theaiworld.org/news/smartness-raises-47m-series-b-for-ai-hospitality-growth"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "The SaaS News item on Smartness's €47M Series B.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Smartness Raises €47 Million Series B | The SaaS News",
+      "url": "https://www.thesaasnews.com/news/smartness-raises-47-million-series-b"
     }
   ],
   "name": "Smartness",
   "name_key": "smartness",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-smartness-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-09-28-r4",
+    "pages": 2,
+    "queries_done": [
+      "\"Smartness\" startup Italy"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-smartness-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 8.0,
+      "market": 7.0,
+      "overall": 6.7,
+      "run": "2026-09-28-r4",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:32:14+00:00",
   "website": "https://smartness.com/"
 }

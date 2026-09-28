@@ -18,18 +18,115 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://hellojoko.com/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "EU-Startups report that Paris-based fintech Joko raised €10 million to expand its cashback app across Europe.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Paris-based fintech Joko raises €10 million to disrupt cashback in Europe | EU-Startups",
+      "url": "https://www.eu-startups.com/2020/10/paris-based-fintech-joko-raises-e10-million-to-disrupt-cashback-in-europe/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Lengow blog post explaining what Joko is and how its cashback and loyalty app works for merchants.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Qu'est-ce que Joko? Tout ce qu'il faut savoir - Blog Lengow",
+      "url": "https://blog.lengow.com/fr/canaux-marketing/quest-ce-que-joko-tout-ce-quil-faut-savoir/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "FrenchWeb article on an early €1.6 million raise by Joko for its digital loyalty card aimed at millennials.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Joko lève 1,6 million d'euros pour sa carte de fidélité digitale à destination des Millennials",
+      "url": "https://www.frenchweb.fr/joko-leve-16-million-deuros-pour-sa-carte-de-fidelite-digitale-a-destination-des-millennials/366135"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "French Tech Grand Paris directory listing for Joko as a French startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Joko - Startup France French Tech Grand Paris",
+      "url": "https://lespepitestech.com/startup-de-la-french-tech/joko"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "FrenchWeb coverage of Joko raising €10 million from Partech and Axeleo.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "FinTech : Joko lève 10 millions d'euros auprès de Partech et Axeleo",
+      "url": "https://www.frenchweb.fr/fintech-joko-leve-10-millions-deuros-aupres-de-partech-et-axeleo/406430"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "FrenchWeb piece on Joko's strategy to become a shopping 'super-app'.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Quelle est l'approche de Joko pour devenir une «super-app» du shopping?",
+      "url": "https://www.frenchweb.fr/quelle-est-lapproche-de-joko-pour-devenir-une-super-app-du-shopping/430268"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "MyFrenchStartup directory entry describing Joko's app that automatically rewards users for shopping with favorite brands.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Startup JOKO, Application mobile permettant d'être récompensé par ses marques préférées de façon automatique",
+      "url": "https://www.myfrenchstartup.com/fr/startup-france/234166/joko"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "digiFind review describing Joko as a fast-growing French fintech cashback app.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Avis Joko : Joko - La fintech française qui monte en flèche : appli de cash back - digiFind",
+      "url": "https://www.digifind.fr/avis/joko-la-fintech-francaise-qui-monte-en-fleche-appli-de-cash-back/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Wikipedia article about Jolidon, an unrelated lingerie company, not the startup Joko.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Jolidon",
+      "url": "https://en.wikipedia.org/wiki/Jolidon"
     }
   ],
   "name": "Joko",
   "name_key": "joko",
   "region": null,
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-hellojoko-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "pages": 2,
+    "queries_done": [
+      "\"Joko\" startup France"
+    ],
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-hellojoko-com.txt"
   },
   "score_history": [],
   "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "updated": "2026-09-28T02:45:20+00:00",
   "website": "https://hellojoko.com/"
 }

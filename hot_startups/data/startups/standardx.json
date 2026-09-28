@@ -1,0 +1,233 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United Kingdom",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://tech.eu/2026/09/23/standardx-launches-with-ps10m-to-expand-isotope-production-for-medicine-and-fusion",
+          "https://techfundingnews.com/standardx-10m-seed-isotope-refinery-cancer-fusion/"
+        ],
+        "value": "London, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.indianpharmapost.com/startup/standardx-raises-10m-to-build-isotope-refinery-for-cancer-care-and-fusion-21964"
+        ],
+        "value": "2025"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://sifted.eu/articles/standardx-seed-10m",
+          "https://tech.eu/2026/09/23/standardx-launches-with-ps10m-to-expand-isotope-production-for-medicine-and-fusion"
+        ],
+        "value": "£10M seed"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Hospitals and fusion researchers both need rare isotopes that are scarce and hard to get, so StandardX is building a refinery in the UK to produce them domestically.",
+    "industry": "Materials",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "If two separate, growing industries depend on the same scarce raw material, one factory can serve both markets at once.",
+    "name": "StandardX",
+    "not_startup_reason": null,
+    "overall": 7.5,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "unknown",
+        "reason": "It just launched with its first funding round, so there are no output or revenue numbers yet.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "Rare isotopes are essential inputs for two big, growing fields, cancer treatment and nuclear fusion energy, though the product itself is a specialised industrial material rather than a mass consumer good.",
+        "score": 7,
+        "source": "https://techfundingnews.com/standardx-10m-seed-isotope-refinery-cancer-fusion/"
+      },
+      "tech": {
+        "reason": "Building an isotope refinery needs rare nuclear engineering know-how and specialised hardware that most companies cannot quickly copy.",
+        "score": 8,
+        "source": "https://www.indianpharmapost.com/startup/standardx-raises-10m-to-build-isotope-refinery-for-cancer-care-and-fusion-21964"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-23",
+        "title": "Exclusive: Vsquared and East X Ventures lead £10m seed for rare materials startup | Sifted",
+        "url": "https://sifted.eu/articles/standardx-seed-10m"
+      },
+      {
+        "date": "2026-09-23",
+        "title": "StandardX launches with £10M to expand isotope production for medicine and fusion - Tech.eu",
+        "url": "https://tech.eu/2026/09/23/standardx-launches-with-ps10m-to-expand-isotope-production-for-medicine-and-fusion"
+      },
+      {
+        "date": null,
+        "title": "StandardX raises £10m led by Vsquared Ventures and East X Ventures",
+        "url": "https://www.startupmag.co.uk/funding/standardx-2026-growth-funding/"
+      },
+      {
+        "date": null,
+        "title": "StandardX raises £10M to build a UK isotope refinery for cancer care and fusion — TFN",
+        "url": "https://techfundingnews.com/standardx-10m-seed-isotope-refinery-cancer-fusion/"
+      },
+      {
+        "date": null,
+        "title": "StandardX Launches With £10M Seed Round to Create the Rare Isotopes Needed to Advance Medical and Fusion Innovation | FinancialContent",
+        "url": "https://www.financialcontent.com/article/bizwire-2026-9-23-standardx-launches-with-10m-seed-round-to-create-the-rare-isotopes-needed-to-advance-medical-and-fusion-innovation"
+      },
+      {
+        "date": null,
+        "title": "StandardX raises £10m to build isotope refinery for cancer care and fusion",
+        "url": "https://www.indianpharmapost.com/startup/standardx-raises-10m-to-build-isotope-refinery-for-cancer-care-and-fusion-21964"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "The same refinery and process can supply isotopes to two very different customers at once, cancer-treatment centres and nuclear-fusion companies.",
+    "website": null,
+    "who_pays": "Hospitals and medical suppliers buying isotopes for cancer treatment, and fusion companies buying isotopes for their reactors.",
+    "why_now": "Global supplies of medical and fusion isotopes are tight and unreliable, just as demand from cancer care and the growing fusion industry is rising."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "standardx",
+  "industry": "Materials",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-23",
+      "run": "2026-09-28-r4",
+      "snippet": "Rare materials startup that raised a £10m seed led by Vsquared and East X Ventures.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://sifted.eu/articles/standardx-seed-10m/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "StandardX, founded in 2025 by nuclear engineers Richard Pearson and Ross Allen, raised £10 million to build an isotope refinery for cancer care and fusion.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "StandardX raises £10m to build isotope refinery for cancer care and fusion",
+      "url": "https://www.indianpharmapost.com/startup/standardx-raises-10m-to-build-isotope-refinery-for-cancer-care-and-fusion-21964"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tech.eu on London-based StandardX launching with £10 million in seed funding to expand production of rare isotopes for medicine and fusion.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "StandardX launches with £10M to expand isotope production for medicine and fusion - Tech.eu",
+      "url": "https://tech.eu/2026/09/23/standardx-launches-with-ps10m-to-expand-isotope-production-for-medicine-and-fusion"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "StartupMag on StandardX's £10 million seed round led by Vsquared Ventures and East X Ventures.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "StandardX raises £10m led by Vsquared Ventures and East X Ventures",
+      "url": "https://www.startupmag.co.uk/funding/standardx-2026-growth-funding/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "PitchBook company profile for StandardX with valuation, funding and investor details.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "StandardX 2026 Company Profile: Valuation, Funding & Investors | PitchBook",
+      "url": "https://pitchbook.com/profiles/company/1366601-14"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Sifted's exclusive on StandardX's £10 million seed round for its rare-isotope accelerator technology.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Exclusive: Vsquared and East X Ventures lead £10m seed for rare materials startup | Sifted",
+      "url": "https://sifted.eu/articles/standardx-seed-10m"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tech Funding News on StandardX's £10 million seed round to build a UK isotope refinery for medicine and fusion.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "StandardX raises £10M to build a UK isotope refinery for cancer care and fusion — TFN",
+      "url": "https://techfundingnews.com/standardx-10m-seed-isotope-refinery-cancer-fusion/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Press release on StandardX's launch and £10 million seed round to produce rare isotopes for medical and fusion uses.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "StandardX Launches With £10M Seed Round to Create the Rare Isotopes Needed to Advance Medical and Fusion Innovation | FinancialContent",
+      "url": "https://www.financialcontent.com/article/bizwire-2026-9-23-standardx-launches-with-10m-seed-round-to-create-the-rare-isotopes-needed-to-advance-medical-and-fusion-innovation"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Pomegra roundup item on StandardX raising £10 million to fix isotope shortages.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "StandardX Raises £10M to Fix Isotope Shortages | Pomegra Startups",
+      "url": "https://pomegra.io/startups/standardx-raises-10m-to-fix-isotope-shortages-2026-09-24"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tech Startups daily funding roundup for September 23, 2026, covering TEKEVER, F13, Brahma AI, Noxtua, StandardX and other startups.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Startup Funding News Today, September 23, 2026: TEKEVER, F13, Brahma AI, Noxtua, StandardX & More - Tech Startups",
+      "url": "https://techstartups.com/2026/09/23/startup-funding-news-today-september-23-2026-tekever-f13-brahma-ai-noxtua-standardx-more/"
+    }
+  ],
+  "name": "StandardX",
+  "name_key": "standardx",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"StandardX\" startup"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": null,
+      "market": 7.0,
+      "overall": 7.5,
+      "run": "2026-09-28-r4",
+      "tech": 8.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T03:11:51+00:00",
+  "website": null
+}

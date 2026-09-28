@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": null,
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "anyscale",
+  "industry": "AI infrastructure software",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-07-30",
+      "run": "2026-09-28-r4",
+      "snippet": "Startup founded in 2019 that commercializes the open-source Ray project for optimizing large-scale AI clusters; being acquired by Nscale for a reported $1.65B.",
+      "source": "\"Nscale\" startup",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://siliconangle.com/2026/07/30/nscale-buys-ai-infrastructure-optimization-startup-anyscale-reported-1-65b/"
+    }
+  ],
+  "name": "Anyscale",
+  "name_key": "anyscale",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:49:52+00:00",
+  "website": null
+}

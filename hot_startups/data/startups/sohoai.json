@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Australia",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "sohoai",
+  "industry": "proptech / AI",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-25",
+      "run": "2026-09-28-r4",
+      "snippet": "Relaunched by Airtasker co-founder Jonathan Lui as an AI property concierge with an LLM-powered chatbot to search for properties.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.smartcompany.com.au/startupsmart/sohoai-airtasker-founder-jonathan-lui/"
+    }
+  ],
+  "name": "SohoAI",
+  "name_key": "sohoai",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:10:41+00:00",
+  "website": null
+}

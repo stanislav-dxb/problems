@@ -18,18 +18,115 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://aspora.com"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Aspora, a London fintech, raised a $53M Series B to grow its cross-border payments and banking product for the global Indian diaspora.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cross-Border Payments Startup Aspora Secures $53M Series B | Built In London",
+      "url": "https://builtinlondon.uk/articles/aspora-secures-53m-in-series-b-funding-20250616"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Aspora has raised $93 million across rounds to build modern banking for non-resident Indians.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "London's fintech Aspora secures $93M to revolutionize banking for the global indian diaspora | Vestbee",
+      "url": "https://www.vestbee.com/insights/articles/aspora-secures-93-m"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Profile of Aspora with funding, team, and investor details.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Aspora: Funding, Team & Investors | Startup Intros",
+      "url": "https://startupintros.com/orgs/aspora"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "EU-Startups social post describing Aspora as a British fintech startup for the Indian diaspora.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Aspora, a British FinTech startup building modern banking solutions for Indian diaspora",
+      "url": "https://www.facebook.com/EUStartups/posts/aspora-a-british-fintech-startup-building-modern-banking-solutions-for-indian-di/1122051463282795/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Y Combinator company page for Aspora, a single account to manage money across countries.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Aspora: Single account to manage money across the world | Y Combinator",
+      "url": "https://www.ycombinator.com/companies/aspora"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Aspora, formerly Vance, secured €80.2 million across rounds in six months to expand diaspora banking.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "London-based Aspora secures €80.2 million over six months to scale diaspora banking solutions globally | EU-Startups",
+      "url": "https://www.eu-startups.com/2025/06/london-based-aspora-secures-e802-million-over-six-months-to-scale-diaspora-banking-solutions-globally/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tracxn company profile of Aspora with team and funding data.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Aspora - 2026 Company Profile, Team, Funding, Competitors & Financials - Tracxn",
+      "url": "https://tracxn.com/d/companies/aspora/__ZccoErDrpx9HQKCC9gj5pWGY17TYddcu3rBvEmFYBmI"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Indian Startup News coverage of Aspora's $53 million raise.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Fintech startup Aspora raises $53 million to transform banking for global Indians",
+      "url": "https://indianstartupnews.com/funding/fintech-startup-aspora-raises-53-million-to-transform-banking-for-global-indians-9368054"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Venture Up case study on Aspora, the UK fintech startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Aspora – Venture Up",
+      "url": "https://venture-up.co.uk/case-studies/aspora/"
     }
   ],
   "name": "Aspora",
   "name_key": "aspora",
   "region": null,
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-aspora-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "pages": 2,
+    "queries_done": [
+      "\"Aspora\" startup United Kingdom"
+    ],
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-aspora-com.txt"
   },
   "score_history": [],
   "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "updated": "2026-09-28T02:32:58+00:00",
   "website": "https://aspora.com"
 }

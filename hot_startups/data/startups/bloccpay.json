@@ -1,0 +1,227 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Nigeria",
+  "domain": "bloccpay.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "Nigeria",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://disruptafrica.com/2026/09/25/nigerias-bloccpay-is-a-global-stablecoin-powered-payroll-invoicing-platform/",
+          "https://guardian.ng/interview/ajoke-asunmonus-mission-to-revolutionize-global-payments-for-african-freelancers-through-bloccpay/"
+        ],
+        "value": "Nigeria"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://disruptafrica.com/2026/09/25/nigerias-bloccpay-is-a-global-stablecoin-powered-payroll-invoicing-platform/"
+        ],
+        "value": "2022"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.bloccpay.com/blog/building-the-future-of-global-work-bloccpay-s-journey-to-techstars"
+        ],
+        "value": "Joined the Techstars Founder Catalyst Programme, an accelerator for founders."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Freelancers and remote workers in emerging markets struggle to get paid quickly across borders and to prove their income, so Bloccpay built a stablecoin-powered platform that runs payroll for distributed teams and lets freelancers invoice and get paid globally.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Turn a payment feature into a record-keeping tool, so customers build a financial history that can unlock other services later.",
+    "name": "Bloccpay",
+    "not_startup_reason": null,
+    "overall": 5.3,
+    "region": "mea",
+    "scores": {
+      "growth": {
+        "basis": "substitute: accepted into the Techstars Founder Catalyst accelerator programme",
+        "reason": "No user or revenue numbers are public; being accepted into the Techstars accelerator is a mild positive signal but not proof of fast growth.",
+        "score": 4,
+        "source": "https://www.bloccpay.com/blog/building-the-future-of-global-work-bloccpay-s-journey-to-techstars"
+      },
+      "market": {
+        "reason": "Payroll and invoicing for freelancers and remote workers is a need across a huge, global profession, though today the product is focused on emerging-market talent.",
+        "score": 7,
+        "source": "https://disruptafrica.com/2026/09/25/nigerias-bloccpay-is-a-global-stablecoin-powered-payroll-invoicing-platform/"
+      },
+      "tech": {
+        "reason": "Stablecoin-based cross-border payroll and invoicing is solid engineering, but other crypto payroll platforms already do similar things and a strong team could match it in months.",
+        "score": 5,
+        "source": "https://disruptafrica.com/2026/09/25/nigerias-bloccpay-is-a-global-stablecoin-powered-payroll-invoicing-platform/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-25",
+        "title": "Nigeria's Bloccpay is a global, stablecoin-powered payroll, invoicing platform",
+        "url": "https://disruptafrica.com/2026/09/25/nigerias-bloccpay-is-a-global-stablecoin-powered-payroll-invoicing-platform/"
+      },
+      {
+        "date": null,
+        "title": "Ajoke Asunmonu's mission to revolutionize global payments for African freelancers through Bloccpay",
+        "url": "https://guardian.ng/interview/ajoke-asunmonus-mission-to-revolutionize-global-payments-for-african-freelancers-through-bloccpay/"
+      },
+      {
+        "date": null,
+        "title": "Ajoke Asunmonu wins innovative and excellence award for transforming African fin-tech",
+        "url": "https://www.vanguardngr.com/2024/12/ajoke-asunmonu-wins-innovative-and-excellence-award-for-transforming-african-fin-tech/"
+      },
+      {
+        "date": null,
+        "title": "The Friends-Turned-Founders Building The Missing 'Paper Trail' That Haunts Africa's Remote Workers",
+        "url": "https://weetracker.com/2026/09/14/cross-border-payroll-for-african-remote-workers/"
+      },
+      {
+        "date": null,
+        "title": "Building the Future of Global Work: Bloccpay's Journey to Techstars",
+        "url": "https://www.bloccpay.com/blog/building-the-future-of-global-work-bloccpay-s-journey-to-techstars"
+      },
+      {
+        "date": null,
+        "title": "Why Bloccpay is building the future of payroll on stablecoins",
+        "url": "https://technext24.com/interview/bloccpay-stablecoin-payroll-africa/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Every payment on the platform builds a documented history of work and income, the kind of proof-of-income record freelancers can later use to open a bank account, get a loan, or apply for a visa.",
+    "website": "https://www.bloccpay.com",
+    "who_pays": "Businesses pay to run payroll for their distributed teams, and freelancers use the invoicing side to collect payments from clients.",
+    "why_now": "Stablecoins now make it cheap and fast to move money across borders, right as remote work and freelancing for people in emerging markets keeps growing."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "bloccpay",
+  "industry": "Fintech",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-25",
+      "run": "2026-09-28-r4",
+      "snippet": "Global, stablecoin-powered payroll and invoicing platform that helps businesses automate payroll for distributed teams.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://disruptafrica.com/2026/09/25/nigerias-bloccpay-is-a-global-stablecoin-powered-payroll-invoicing-platform/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "The Guardian Nigeria interviews Bloccpay co-founder Ajoke Asunmonu on the startup's mission to fix global payments for African freelancers.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Ajoke Asunmonu's mission to revolutionize global payments for African freelancers through Bloccpay | The Guardian Nigeria News",
+      "url": "https://guardian.ng/interview/ajoke-asunmonus-mission-to-revolutionize-global-payments-for-african-freelancers-through-bloccpay/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Vanguard Nigeria on Bloccpay co-founder Ajoke Asunmonu winning an award for her work in African fintech.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Ajoke Asunmonu wins innovative and excellence award for transforming African fin-tech",
+      "url": "https://www.vanguardngr.com/2024/12/ajoke-asunmonu-wins-innovative-and-excellence-award-for-transforming-african-fin-tech/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "The Guardian Nigeria's tag page collecting its coverage of Bloccpay.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Bloccpay Archives | The Guardian Nigeria News",
+      "url": "https://guardian.ng/tag/bloccpay/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "WeeTracker profile of Bloccpay's founders and its cross-border payroll product for African remote workers.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "The Friends-Turned-Founders Building The Missing 'Paper Trail' That Haunts Africa's Remote Workers",
+      "url": "https://weetracker.com/2026/09/14/cross-border-payroll-for-african-remote-workers/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Own website of Bloc (blochq.io), a separate Nigerian fintech infrastructure company, not to be confused with Bloccpay.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Banking services for passionate founders & business owners | Bloc",
+      "url": "https://www.blochq.io/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Bloccpay's own blog on its journey into the Techstars Founder Catalyst Programme.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Building the Future of Global Work: Bloccpay's Journey to Techstars - Bloccpay Blog",
+      "url": "https://www.bloccpay.com/blog/building-the-future-of-global-work-bloccpay-s-journey-to-techstars"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Disrupt Africa on Bloc (a separate company from Bloccpay) acquiring payments company Orchestrate in 2022.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nigerian fintech infrastructure startup Bloc acquires payments company Orchestrate - Disrupt Africa",
+      "url": "https://disruptafrica.com/2022/07/14/nigerian-fintech-infrastructure-startup-bloc-acquires-payments-company-orchestrate/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Technext24 interview on why Bloccpay is building payroll infrastructure on stablecoins for Africa.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Why Bloccpay is building the future of payroll on stablecoins",
+      "url": "https://technext24.com/interview/bloccpay-stablecoin-payroll-africa/"
+    }
+  ],
+  "name": "Bloccpay",
+  "name_key": "bloccpay",
+  "region": "mea",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-bloccpay.txt",
+    "article_url": "https://disruptafrica.com/2026/09/25/nigerias-bloccpay-is-a-global-stablecoin-powered-payroll-invoicing-platform/",
+    "judged_run": "2026-09-28-r4",
+    "pages": 2,
+    "queries_done": [
+      "\"Bloccpay\" startup Nigeria"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-bloccpay.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 4.0,
+      "market": 7.0,
+      "overall": 5.3,
+      "run": "2026-09-28-r4",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:58:33+00:00",
+  "website": "https://www.bloccpay.com"
+}

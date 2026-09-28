@@ -4,11 +4,116 @@
   "country": "Nigeria",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Nigeria",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://techcabal.com/2026/09/16/bujeti-launches-ai-agents-to-handle-finance-work/",
+          "https://techpoint.africa/news/bujeti-secures-2m-seed/"
+        ],
+        "value": "Nigeria"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://disruptafrica.com/2023/12/11/nigerias-bujeti-secures-2m-seed-funding-to-transform-business-finances-operations/"
+        ],
+        "value": "2021"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://techcabal.com/2026/09/16/bujeti-launches-ai-agents-to-handle-finance-work/"
+        ],
+        "value": "Launched a new suite of AI agents (called Real-time Agent Intelligence Network) in September 2026 that automate routine finance work, expanding beyond its original card and expense product."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://techpoint.africa/news/bujeti-secures-2m-seed/",
+          "https://www.dabafinance.com/en/news/yc-backed-fintech-Bujeti-raises-seed-round"
+        ],
+        "value": "$2M seed round"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "African businesses waste time on manual bookkeeping, chasing unpaid invoices, and tracking spending, so Bujeti gives them corporate cards, expense management, and now AI agents that do this finance work automatically.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Once you own a company's core workflow data, like their spending, you can layer AI agents on top to automate the manual work around it and deepen the product.",
+    "name": "Bujeti",
+    "not_startup_reason": null,
+    "overall": 5.5,
+    "region": "mea",
+    "scores": {
+      "growth": {
+        "basis": "substitute: new product launch (AI agent suite) years after its seed funding",
+        "reason": "No user or revenue numbers are public, but launching a full new AI product line years after its seed round is a sign of continued development.",
+        "score": null,
+        "source": "https://techcabal.com/2026/09/16/bujeti-launches-ai-agents-to-handle-finance-work/"
+      },
+      "market": {
+        "reason": "Business expense management and finance automation is a real, growing need across African businesses, but it is one region rather than a global market.",
+        "score": 6,
+        "source": "https://techcabal.com/2026/09/16/bujeti-launches-ai-agents-to-handle-finance-work/"
+      },
+      "tech": {
+        "reason": "Building AI agents on top of an existing expense and card platform is solid engineering, but a well-funded competitor could build something similar in months.",
+        "score": 5,
+        "source": "https://techcabal.com/2026/09/16/bujeti-launches-ai-agents-to-handle-finance-work/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-16",
+        "title": "YC-backed Bujeti launches AI agents to automate routine finance work",
+        "url": "https://techcabal.com/2026/09/16/bujeti-launches-ai-agents-to-handle-finance-work/"
+      },
+      {
+        "date": null,
+        "title": "YC-backed Nigerian startup, Bujeti, secures a $2 million seed to scale and expand its offerings",
+        "url": "https://techpoint.africa/news/bujeti-secures-2m-seed/"
+      },
+      {
+        "date": null,
+        "title": "Dabafinance - YC-backed fintech Bujeti raises $2m in seed round",
+        "url": "https://www.dabafinance.com/en/news/yc-backed-fintech-Bujeti-raises-seed-round"
+      },
+      {
+        "date": null,
+        "title": "Nigeria's Bujeti secures $2m seed funding to transform business finances, operations - Disrupt Africa",
+        "url": "https://disruptafrica.com/2023/12/11/nigerias-bujeti-secures-2m-seed-funding-to-transform-business-finances-operations/"
+      },
+      {
+        "date": null,
+        "title": "Nigerian Fintech Bujeti Secures $2M in Seed Investment Round - Tech In Africa",
+        "url": "https://www.techinafrica.com/nigerian-fintech-bujeti-secures-2m-in-seed-investment-round/"
+      },
+      {
+        "date": null,
+        "title": "Spotlight: YC-backed Bujeti is building Africa's financial control centre - Technext",
+        "url": "https://technext24.com/2025/10/15/bujeti-yc-backed-fintech-africa-control/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It has moved from being a card and expense tool to running a network of AI agents that process documents, chase unpaid invoices, watch transactions, and answer staff finance questions on their own.",
+    "website": null,
+    "who_pays": "African businesses that pay a fee to use Bujeti's corporate cards and expense and finance management platform.",
+    "why_now": "African businesses are moving past just trying out AI and are starting to put it directly into daily operations like finance and bookkeeping."
+  },
+  "first_judged_run": "2026-09-28-r4",
   "first_seen": "2026-09-16",
   "id": "bujeti",
-  "industry": "Finance automation",
-  "last_checked": null,
+  "industry": "Fintech",
+  "last_checked": "2026-09-28",
   "mentions": [
     {
       "date": "2026-09-16",
@@ -18,18 +123,124 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://techcabal.com/2026/09/16/bujeti-launches-ai-agents-to-handle-finance-work/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Bujeti, a Y Combinator-backed Nigerian fintech, raised a $2 million seed round to scale its expense management and corporate card platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "YC-backed Nigerian startup, Bujeti, secures a $2 million seed to scale and expand its offerings",
+      "url": "https://techpoint.africa/news/bujeti-secures-2m-seed/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Coverage of Bujeti's $2 million YC-backed seed round for its business finance and expense management platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Dabafinance - YC-backed fintech Bujeti raises $2m in seed round",
+      "url": "https://www.dabafinance.com/en/news/yc-backed-fintech-Bujeti-raises-seed-round"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Directory profile listing Bujeti's funding, team and investors.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Bujeti: Funding, Team & Investors | Startup Intros",
+      "url": "https://startupintros.com/orgs/bujeti"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Report on Bujeti's $2 million seed round to grow its Nigerian fintech business.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nigerian Fintech Bujeti Secures $2M in Seed Investment Round - Tech In Africa",
+      "url": "https://www.techinafrica.com/nigerian-fintech-bujeti-secures-2m-in-seed-investment-round/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tracxn company profile of Bujeti with funding and competitor data.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Bujeti - 2026 Company Profile, Funding & Competitors - Tracxn",
+      "url": "https://tracxn.com/d/companies/bujeti/__Bq9-cbpJGByKjmcTUa887hN82CMDKWwbBvIg5TsKzt4"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Empower Africa on Bujeti's $2 million raise for its corporate card and expense management platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nigerian Fintech Bujeti Raises $2 Million to Scale its All-in-One Corporate Card and Expense Management Platform - Empower Africa",
+      "url": "https://empowerafrica.com/nigerian-fintech-bujeti-raises-2-million-to-scale-its-all-in-one-corporate-card-and-expense-management-platform/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Disrupt Africa reports Bujeti, founded in 2021 by Cossi Achille Arouko and Samy Chiba, raised a $2 million seed round led by Y Combinator.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nigeria's Bujeti secures $2m seed funding to transform business finances, operations - Disrupt Africa",
+      "url": "https://disruptafrica.com/2023/12/11/nigerias-bujeti-secures-2m-seed-funding-to-transform-business-finances-operations/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Feature on Bujeti's use of AI to help African businesses manage spending, saving and growth.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Inside Bujeti: The Startup Using AI to Centralise How African Businesses Spend, Save, and Grow — Techparley Africa",
+      "url": "https://techparley.com/inside-bujeti-the-startup-using-ai-to-centralise-how-african-businesses-spend-save-and-grow/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Technext profile describing Bujeti's ambition to be a financial control centre for African businesses.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Spotlight: YC-backed Bujeti is building Africa's financial control centre - Technext",
+      "url": "https://technext24.com/2025/10/15/bujeti-yc-backed-fintech-africa-control/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Skyweb profile of Bujeti as a Nigerian startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Bujeti Startup Profile - Skyweb",
+      "url": "https://skyweb.com.ng/startup-bujeti-nigerian-startup-profile/"
     }
   ],
   "name": "Bujeti",
   "name_key": "bujeti",
-  "region": null,
+  "region": "mea",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-bujeti.txt",
+    "article_url": "https://techcabal.com/2026/09/16/bujeti-launches-ai-agents-to-handle-finance-work/",
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"Bujeti\" startup Nigeria"
+    ],
+    "refresh": false,
+    "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:50:11+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": null,
+      "market": 6.0,
+      "overall": 5.5,
+      "run": "2026-09-28-r4",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T03:26:36+00:00",
   "website": null
 }

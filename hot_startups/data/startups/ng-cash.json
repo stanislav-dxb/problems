@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Brazil",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "ng-cash",
+  "industry": "fintech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-23",
+      "run": "2026-09-28-r4",
+      "snippet": "Brazilian fintech raised $15M led by Blockchain Capital, after a $26.5M Series B in July.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://latamlist.com/ng-cash-raises-15m-from-blockchain-capital/"
+    }
+  ],
+  "name": "NG.CASH",
+  "name_key": "ngcash",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:09:27+00:00",
+  "website": null
+}

@@ -1,0 +1,253 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Israel",
+  "domain": "island.io",
+  "drop_reason": null,
+  "entry": {
+    "country": "Israel",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.timesofisrael.com/us-israeli-browser-startup-valued-at-6-4-billion-as-ai-agents-reshape-workplace-risk",
+          "https://www.ynetnews.com/business/article/bkvcty0k11l"
+        ],
+        "value": "Tel Aviv, Israel (also has US operations)"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://finder.startupnationcentral.org/company_page/island"
+        ],
+        "value": "2020"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.calcalistech.com/ctechnews/article/bkswplrw0",
+          "https://www.calcalistech.com/ctechnews/article/1pcuwcvaj",
+          "https://www.timesofisrael.com/us-israeli-browser-startup-valued-at-6-4-billion-as-ai-agents-reshape-workplace-risk"
+        ],
+        "value": "Valuation roughly doubled within about a year across funding rounds, from $3 billion to $4.8 billion to $6.4 billion."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.timesofisrael.com/us-israeli-browser-startup-valued-at-6-4-billion-as-ai-agents-reshape-workplace-risk",
+          "https://www.calcalistech.com/ctechnews/article/1pcuwcvaj"
+        ],
+        "value": "$400M Series F (Sept 2026) at a $6.4B valuation; earlier raised $250M Series E at $4.8B and $175M Series D at $3B"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "So much work now happens inside a web browser, and soon AI agents will click and type there too, but companies have no way to see or control what happens on that screen, so Island built a business browser with company rules and security built in.",
+    "industry": "Cybersecurity",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Rebuild an everyday tool around a business's biggest unsolved security problem, and let a new technology wave (AI agents) keep raising the value of that control point.",
+    "name": "Island",
+    "not_startup_reason": null,
+    "overall": 8.0,
+    "region": "mea",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Its valuation more than doubled in about a year across back-to-back mega-rounds, with real dollar numbers each time.",
+        "score": 9,
+        "source": "https://www.timesofisrael.com/us-israeli-browser-startup-valued-at-6-4-billion-as-ai-agents-reshape-workplace-risk"
+      },
+      "market": {
+        "reason": "Almost every company with office workers, and now AI agents, needs a way to secure what happens in the browser.",
+        "score": 8,
+        "source": "https://www.timesofisrael.com/us-israeli-browser-startup-valued-at-6-4-billion-as-ai-agents-reshape-workplace-risk"
+      },
+      "tech": {
+        "reason": "It built a full business browser with deep controls and created the category, though large rivals like Chrome are adding similar enterprise features.",
+        "score": 7,
+        "source": "https://www.jewishnews.co.uk/the-3bn-israeli-startup-securing-enterprise-browsers-across-the-world/"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "US-Israeli browser startup valued at $6.4 billion as AI agents reshape workplace risk | The Times of Israel",
+        "url": "https://www.timesofisrael.com/us-israeli-browser-startup-valued-at-6-4-billion-as-ai-agents-reshape-workplace-risk"
+      },
+      {
+        "date": "2026-09-24",
+        "title": "コピペまで監視できるAIブラウザ「Island」4億ドル調達、評価額は64億ドルに",
+        "url": "https://thebridge.jp/2026/09/island-series-f-enterprise-browser-evolution-equity"
+      },
+      {
+        "date": "2026-09-24",
+        "title": "Island mega round propels it to $6.4B valuation - Geektime",
+        "url": "https://www.geektime.co.il/island-mega-round-propels-it-to-6-4b-valuation/"
+      },
+      {
+        "date": null,
+        "title": "Cybersecurity startup Island to open 2nd R&D center in Israel",
+        "url": "https://www.ynetnews.com/business/article/bkvcty0k11l"
+      },
+      {
+        "date": null,
+        "title": "Cyber startup Island doubles valuation to $3 billion in $175 million Series D | Ctech",
+        "url": "https://www.calcalistech.com/ctechnews/article/bkswplrw0"
+      },
+      {
+        "date": null,
+        "title": "Cyber startup Island raises $250 million at $4.8 billion valuation | Ctech",
+        "url": "https://www.calcalistech.com/ctechnews/article/1pcuwcvaj"
+      },
+      {
+        "date": null,
+        "title": "Island - Israeli Startup | Startup Nation Finder",
+        "url": "https://finder.startupnationcentral.org/company_page/island"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It created the 'enterprise browser' category from scratch, and it now also watches and governs AI agents acting inside the browser on people's behalf, catching risky things like copying sensitive data into the wrong place.",
+    "website": "https://www.island.io",
+    "who_pays": "Large companies and government agencies that want to control what employees, contractors and AI agents can do on company systems.",
+    "why_now": "More business software runs in the browser than ever, and AI agents are starting to operate there too, so companies need a new place to enforce security and compliance rules."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "island",
+  "industry": "Cybersecurity",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-24",
+      "run": "2026-09-28-r4",
+      "snippet": "Enterprise browser company that governs how people and AI agents work, raised $400 million Series F at a $6.4 billion valuation.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://thebridge.jp/2026/09/island-series-f-enterprise-browser-evolution-equity"
+    },
+    {
+      "date": "2026-09-24",
+      "run": "2026-09-28-r4",
+      "snippet": "Founded by Dan Amiga, raised $400 million and is now worth $6.4 billion.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.geektime.co.il/island-mega-round-propels-it-to-6-4b-valuation/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Island, the enterprise browser cybersecurity startup, will open a second R&D center in Israel following a $250 million Series E round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cybersecurity startup Island to open 2nd R&D center in Israel",
+      "url": "https://www.ynetnews.com/business/article/bkvcty0k11l"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Profile of Island, an Israeli cybersecurity startup that raised $100 million while operating under the radar.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "The mysterious Israeli cybersecurity startup that has raised $100 million under the radar - CTech",
+      "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3927512,00.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Island, valued at $3 billion, secures enterprise browsers for organizations worldwide.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "The $3bn Israeli startup securing enterprise browsers across the world - Jewish News",
+      "url": "https://www.jewishnews.co.uk/the-3bn-israeli-startup-securing-enterprise-browsers-across-the-world/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Island's valuation reached $6.4 billion after a $400 million raise, as it plans to hire more engineers for its Tel Aviv R&D center.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "US-Israeli browser startup valued at $6.4 billion as AI agents reshape workplace risk | The Times of Israel",
+      "url": "https://www.timesofisrael.com/us-israeli-browser-startup-valued-at-6-4-billion-as-ai-agents-reshape-workplace-risk"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Island doubled its valuation to $3 billion with a $175 million Series D round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cyber startup Island doubles valuation to $3 billion in $175 million Series D | Ctech",
+      "url": "https://www.calcalistech.com/ctechnews/article/bkswplrw0"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Island raised $250 million at a $4.8 billion valuation in its Series E round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cyber startup Island raises $250 million at $4.8 billion valuation | Ctech",
+      "url": "https://www.calcalistech.com/ctechnews/article/1pcuwcvaj"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Profile of Island's funding, team and investors.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Island: Funding, Team & Investors | Startup Intros",
+      "url": "https://startupintros.com/orgs/island"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Island, the browser security company, raised $250 million at a $5 billion valuation.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Browser security co Island raises $250m at $5b valuation - Globes",
+      "url": "https://en.globes.co.il/en/article-browser-security-co-island-raises-250m-at-5b-valuation-1001506087"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Island is an Israeli startup founded in 2020 by Dan Amiga and Mike Fey, creator of the Enterprise Browser category.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Island - Israeli Startup | Startup Nation Finder",
+      "url": "https://finder.startupnationcentral.org/company_page/island"
+    }
+  ],
+  "name": "Island",
+  "name_key": "island",
+  "region": "mea",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-island.txt",
+    "article_url": "https://thebridge.jp/2026/09/island-series-f-enterprise-browser-evolution-equity",
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"Island\" startup Israel"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 9.0,
+      "market": 8.0,
+      "overall": 8.0,
+      "run": "2026-09-28-r4",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:19:18+00:00",
+  "website": "https://www.island.io"
+}

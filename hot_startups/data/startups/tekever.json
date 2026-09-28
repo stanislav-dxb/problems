@@ -1,0 +1,261 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Portugal",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "Portugal",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://startupportugal.dealroom.co/companies/tekever"
+        ],
+        "value": "Lisbon region, Portugal (and UK)"
+      },
+      "founded": {
+        "confirmed": true,
+        "sources": [
+          "https://en.wikipedia.org/wiki/Tekever",
+          "https://startupportugal.dealroom.co/companies/tekever"
+        ],
+        "value": "2001"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://elreferente.es/portugal/inversiones/tekever-recauda-580-millones-de-dolares-y-alcanza-una-valoracion-de-6-400-millones-de-dolares/",
+          "https://www.theportugalnews.com/news/2026-07-08/tekever-acquires-portuguese-ai-startup-cloudsweep/1052128"
+        ],
+        "value": "Valuation grew from about $1 billion in late 2024 to $6.4 billion in September 2026, and it acquired Portuguese AI startup Cloudsweep in July 2026 to expand its software team."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://tech.eu/2026/09/25/tekever-raises-580m-series-d-dtcp-closes-455m-defence-fund-and-the-challenge-to-reinvent-chip-design/",
+          "https://elreferente.es/portugal/inversiones/tekever-recauda-580-millones-de-dolares-y-alcanza-una-valoracion-de-6-400-millones-de-dolares/"
+        ],
+        "value": "$580M Series D (Sept 2026); earlier raised €70M in a 2024 round that made it a unicorn"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Armies and border agencies need eyes in the sky without risking pilots, so TEKEVER builds autonomous drones and software that fly missions and gather intelligence on their own.",
+    "industry": "Defense drones",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Prove your technology works in a real conflict, and investors will keep funding you at higher and higher prices.",
+    "name": "TEKEVER",
+    "not_startup_reason": null,
+    "overall": 8.3,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Its valuation grew roughly six-fold in under two years, backed by a $580 million round, one of the largest in European defense tech.",
+        "score": 9,
+        "source": "https://elreferente.es/portugal/inversiones/tekever-recauda-580-millones-de-dolares-y-alcanza-una-valoracion-de-6-400-millones-de-dolares/"
+      },
+      "market": {
+        "reason": "Military and dual-use drone intelligence is a large, worldwide industry, made bigger by ongoing conflicts and rising defense budgets.",
+        "score": 8,
+        "source": "https://tech.eu/2026/09/25/tekever-raises-580m-series-d-dtcp-closes-455m-defence-fund-and-the-challenge-to-reinvent-chip-design/"
+      },
+      "tech": {
+        "reason": "Its drone and intelligence software has been combat-tested in a real war, which is hard for new competitors to match quickly.",
+        "score": 8,
+        "source": "https://techcrunch.com/2024/11/20/portugals-tekever-raises-74m-for-dual-use-drone-platform-deployed-to-ukraine/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-25",
+        "title": "TEKEVER raises $580M Series D, DTCP closes €455M defence fund, and the challenge to reinvent chip design - Tech.eu",
+        "url": "https://tech.eu/2026/09/25/tekever-raises-580m-series-d-dtcp-closes-455m-defence-fund-and-the-challenge-to-reinvent-chip-design/"
+      },
+      {
+        "date": "2026-09-24",
+        "title": "Tekever recauda 580 millones de dólares y alcanza una valoración de 6.400 millones de dólares",
+        "url": "https://elreferente.es/portugal/inversiones/tekever-recauda-580-millones-de-dolares-y-alcanza-una-valoracion-de-6-400-millones-de-dolares/"
+      },
+      {
+        "date": null,
+        "title": "Portugal's dual-use drone startup Tekever raises €70M and joins the unicorn club | Vestbee",
+        "url": "https://www.vestbee.com/insights/articles/tekever-secures-funding"
+      },
+      {
+        "date": null,
+        "title": "Tekever acquires Portuguese AI startup Cloudsweep - The Portugal News",
+        "url": "https://www.theportugalnews.com/news/2026-07-08/tekever-acquires-portuguese-ai-startup-cloudsweep/1052128"
+      },
+      {
+        "date": null,
+        "title": "TEKEVER company information, funding & investors | Portugal Startup Map",
+        "url": "https://startupportugal.dealroom.co/companies/tekever"
+      },
+      {
+        "date": null,
+        "title": "Portugal's Tekever raises $74M for dual-use drone platform deployed to Ukraine | TechCrunch",
+        "url": "https://techcrunch.com/2024/11/20/portugals-tekever-raises-74m-for-dual-use-drone-platform-deployed-to-ukraine/"
+      },
+      {
+        "date": null,
+        "title": "Tekever",
+        "url": "https://en.wikipedia.org/wiki/Tekever"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its drones already fly real missions in Ukraine, and the same 'dual-use' technology is sold to militaries and civilian agencies alike, which has made it one of Europe's most valuable defense startups.",
+    "website": null,
+    "who_pays": "Governments, militaries and NATO-linked investors; it has been deployed to support Ukraine.",
+    "why_now": "The war in Ukraine has shown militaries need cheap, autonomous drones fast, and governments and investors are pouring money into defense technology as a result."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "tekever",
+  "industry": "Defense drones",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-25",
+      "run": "2026-09-28-r4",
+      "snippet": "Raised a $580M Series D for its autonomous systems.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://tech.eu/2026/09/25/tekever-raises-580m-series-d-dtcp-closes-455m-defence-fund-and-the-challenge-to-reinvent-chip-design/"
+    },
+    {
+      "date": "2026-09-24",
+      "run": "2026-09-28-r4",
+      "snippet": "Europe's leading provider of autonomous systems raised $580 million, reaching a $6.4 billion valuation.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://elreferente.es/portugal/inversiones/tekever-recauda-580-millones-de-dolares-y-alcanza-una-valoracion-de-6-400-millones-de-dolares/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "TEKEVER raised €70 million from existing investors, pushing its valuation above €1 billion, led by the NATO Innovation Fund and Baillie Gifford.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Portugal's dual-use drone startup Tekever raises €70M and joins the unicorn club | Vestbee",
+      "url": "https://www.vestbee.com/insights/articles/tekever-secures-funding"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tekever has acquired local AI startup Cloudsweep as it expands its software engineering and autonomous systems capabilities.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Tekever acquires Portuguese AI startup Cloudsweep - The Portugal News",
+      "url": "https://www.theportugalnews.com/news/2026-07-08/tekever-acquires-portuguese-ai-startup-cloudsweep/1052128"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "TEKEVER is an IT, aerospace, defense and security technologies company based in the Lisbon region and UK, founded in 2001.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "TEKEVER company information, funding & investors | Portugal Startup Map",
+      "url": "https://startupportugal.dealroom.co/companies/tekever"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tekever's drone-based Intelligence-as-a-Service technology has been deployed to Ukraine amid the ongoing war with Russia.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Portugal's Tekever raises $74M for dual-use drone platform deployed to Ukraine | TechCrunch",
+      "url": "https://techcrunch.com/2024/11/20/portugals-tekever-raises-74m-for-dual-use-drone-platform-deployed-to-ukraine/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tekever raised €70 million to expand its AI drone operations.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Portuguese AI drone startup Tekever raises €70 million to expand operations - SiliconANGLE",
+      "url": "https://siliconangle.com/2024/11/20/portuguese-ai-drone-startup-tekever-raises-e70-million-expand-operations/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Coverage of Tekever's €70 million funding round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Portuguese AI drone startup Tekever raises €70 million",
+      "url": "https://portugalglobal.pt/en/news/2024/november/portuguese-ai-drone-startup-tekever-raises-70-million/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tekever becomes Portugal's latest unicorn after its latest funding round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Drone manufacturer Tekever becomes Portugal's latest unicorn – Portugal Resident",
+      "url": "https://www.portugalresident.com/drone-manufacturer-tekever-becomes-portugals-latest-unicorn/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tekever is a company delivering drone-based Intelligence-as-a-Service for civilian, military and private sector missions, founded in 2001 by former IST engineering students.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Tekever",
+      "url": "https://en.wikipedia.org/wiki/Tekever"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tracxn company profile of Tekever with team, funding and competitor information.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Tekever - 2026 Company Profile, Team, Funding & Competitors - Tracxn",
+      "url": "https://tracxn.com/d/companies/tekever/__LGBxNmfL5pkscmFXbg1FugqS-ZaIU0QqmK290ZkwOIE"
+    },
+    {
+      "date": "2026-09-23",
+      "run": "2026-09-28-r4",
+      "snippet": "",
+      "source": "\"StandardX\" startup",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://techstartups.com/2026/09/23/startup-funding-news-today-september-23-2026-tekever-f13-brahma-ai-noxtua-standardx-more/"
+    }
+  ],
+  "name": "TEKEVER",
+  "name_key": "tekever",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-tekever.txt",
+    "article_url": "https://tech.eu/2026/09/25/tekever-raises-580m-series-d-dtcp-closes-455m-defence-fund-and-the-challenge-to-reinvent-chip-design/",
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"TEKEVER\" startup Portugal"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 9.0,
+      "market": 8.0,
+      "overall": 8.3,
+      "run": "2026-09-28-r4",
+      "tech": 8.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:55:14+00:00",
+  "website": null
+}

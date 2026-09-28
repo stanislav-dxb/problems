@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": null,
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "muon-space",
+  "industry": "Satellite manufacturing",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Satellite operator building the 60-satellite constellation for Hubble Network's Bluetooth-to-space service, targeted for completion by 2030.",
+      "source": "\"Hubble Network\" startup",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://www.geekwire.com/2026/hubble-network-raises-200m-to-reach-1-6b-valuation-as-startup-expands-satellite-bluetooth-network/"
+    }
+  ],
+  "name": "Muon Space",
+  "name_key": "muonspace",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:49:57+00:00",
+  "website": null
+}

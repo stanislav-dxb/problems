@@ -2,13 +2,110 @@
   "alias_keys": [],
   "aliases": [],
   "country": "Brazil",
-  "domain": null,
+  "domain": "a5x.com.br",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Brazil",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://a5x.com.br/en/",
+          "https://latamlist.com/a5x-raises-70m-series-d/"
+        ],
+        "value": "Brazil"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://latamlist.com/a5x-raises-70m-series-d/",
+          "https://www.latamrepublic.com/brazilian-startup-a5x-raises-us-70-million-in-series-d-at-us-525-million-valuation/",
+          "https://a5x.com.br/en/"
+        ],
+        "value": "$70M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Brazil has only one big stock and derivatives exchange, so A5X built a new exchange where people can trade futures and options on stocks, currencies, interest rates, and crypto.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "A market with one long-standing giant can still attract huge funding if a new entrant lines up top-tier partners and investors before it even opens.",
+    "name": "A5X",
+    "not_startup_reason": null,
+    "overall": 5.3,
+    "region": "latin_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: size and quality of the Series D funding round and valuation",
+        "reason": "No user or trading volume numbers exist yet since it has not launched, but it just closed a large Series D at a higher valuation with elite backers.",
+        "score": 6,
+        "source": "https://www.latamrepublic.com/brazilian-startup-a5x-raises-us-70-million-in-series-d-at-us-525-million-valuation/"
+      },
+      "market": {
+        "reason": "Derivatives and futures trading is a real, large market, but A5X is focused on Brazil alone for now.",
+        "score": 6,
+        "source": "https://a5x.com.br/en/"
+      },
+      "tech": {
+        "reason": "It relies on the London Stock Exchange Group's trading, clearing, and settlement technology rather than a unique system it built itself, though getting an exchange licensed and running is still hard.",
+        "score": 4,
+        "source": "https://a5x.com.br/en/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-15",
+        "title": "A5X raises $70M Series D",
+        "url": "https://latamlist.com/a5x-raises-70m-series-d/"
+      },
+      {
+        "date": null,
+        "title": "Redefining the concept of exchanges in Brazil. - A5X",
+        "url": "https://a5x.com.br/en/"
+      },
+      {
+        "date": null,
+        "title": "Brazilian Startup A5X Raises US$70 Million in Series D at US$525 Million Valuation",
+        "url": "https://www.latamrepublic.com/brazilian-startup-a5x-raises-us-70-million-in-series-d-at-us-525-million-valuation/"
+      },
+      {
+        "date": null,
+        "title": "Brazil derivatives exchange A5X to launch in 2026 with $73 million backing — TradingView News",
+        "url": "https://www.tradingview.com/news/reuters.com,2025:newsml_L2N3V30NF:0-brazil-derivatives-exchange-a5x-to-launch-in-2026-with-73-million-backing/"
+      },
+      {
+        "date": null,
+        "title": "Brazil's upcoming derivatives exchange raises 385 million reais, plans 2026 launch",
+        "url": "https://www.investing.com/news/stock-market-news/brazils-upcoming-derivatives-exchange-raises-385-million-reais-plans-2026-launch-93CH-4241009"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Instead of building all the trading technology itself, it partnered with the London Stock Exchange Group to handle trading, clearing, and settlement.",
+    "website": "https://a5x.com.br/en/",
+    "who_pays": "Traders, brokers, and other market players pay fees to trade contracts on the exchange.",
+    "why_now": "Some of the world's biggest banks and trading firms are willing to fund a challenger right before its planned 2026 launch, betting Brazil's derivatives market needs more than one exchange."
+  },
+  "first_judged_run": "2026-09-28-r4",
   "first_seen": "2026-09-16",
   "id": "a5x",
   "industry": "Fintech",
-  "last_checked": null,
+  "last_checked": "2026-09-28",
   "mentions": [
     {
       "date": "2026-09-15",
@@ -18,18 +115,117 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://latamlist.com/a5x-raises-70m-series-d/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Roundup of Latin America startup funding for the week, led by A5X's large raise.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Week 38: Latin America Startup Funding Led by A5X",
+      "url": "https://www.techloy.com/week-38-latin-america-startup-funding-a5x/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Dealroom company profile for A5X with funding rounds and investors.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "A5X company information, funding & investors | Dealroom.co",
+      "url": "https://app.dealroom.co/companies/a5x"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Reuters via TradingView on A5X, a new Brazilian derivatives exchange, launching with $73 million in backing.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Brazil derivatives exchange A5X to launch in 2026 with $73 million backing — TradingView News",
+      "url": "https://www.tradingview.com/news/reuters.com,2025:newsml_L2N3V30NF:0-brazil-derivatives-exchange-a5x-to-launch-in-2026-with-73-million-backing/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "A5X's own website describing itself as redefining the concept of exchanges in Brazil.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Redefining the concept of exchanges in Brazil. - A5X",
+      "url": "https://a5x.com.br/en/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Investing.com on A5X raising 385 million reais ahead of its planned 2026 launch.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Brazil's upcoming derivatives exchange raises 385 million reais, plans 2026 launch",
+      "url": "https://www.investing.com/news/stock-market-news/brazils-upcoming-derivatives-exchange-raises-385-million-reais-plans-2026-launch-93CH-4241009"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "EMIS company profile for A5X S.A. in Brazil.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "A5X S.A. Company Profile - Brazil | Financials & Key Executives | EMIS",
+      "url": "https://www.emis.com/php/company-profile/BR/A5X_SA_en_16759295.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "LatamRepublic on A5X's US$70 million Series D round at a US$525 million valuation.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Brazilian Startup A5X Raises US$70 Million in Series D at US$525 Million Valuation",
+      "url": "https://www.latamrepublic.com/brazilian-startup-a5x-raises-us-70-million-in-series-d-at-us-525-million-valuation/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Fundable profile page for A5X.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "A5X Profile | fundable.",
+      "url": "https://www.tryfundable.ai/company/a5x"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "The Investor Society on A5X's funding round aimed at ending B3's monopoly on Brazilian derivatives trading.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "A5X Lands US$70M to End B3's Monopoly on Brazilian Derivatives",
+      "url": "https://www.theinvestorsociety.com/a5x-lands-us-70m-to-end-b3s-monopoly-on-brazilian-derivatives/"
     }
   ],
   "name": "A5X",
   "name_key": "a5x",
-  "region": null,
+  "region": "latin_america",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-a5x.txt",
+    "article_url": "https://latamlist.com/a5x-raises-70m-series-d/",
+    "judged_run": "2026-09-28-r4",
+    "pages": 2,
+    "queries_done": [
+      "\"A5X\" startup Brazil"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-a5x.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:50:11+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 6.0,
+      "market": 6.0,
+      "overall": 5.3,
+      "run": "2026-09-28-r4",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T03:23:43+00:00",
+  "website": "https://a5x.com.br/en/"
 }

@@ -1,0 +1,234 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Germany",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "Germany",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2026/09/cologne-based-metycle-secures-e131-7-million-credit-facility-to-scale-secondary-copper-and-aluminium-supply/",
+          "https://www.chemeurope.com/en/companies/1045993/metycle-gmbh.html"
+        ],
+        "value": "Cologne, Germany"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2023/12/cologne-based-metal-trading-platform-metycle-raises-e4-7-million-to-digitalise-metal-recycling/",
+          "https://metycle.medium.com/metycle-raises-14-million-euro-in-series-a-round-to-expand-ai-powered-platform-for-global-metal-bd083a47ef55",
+          "https://www.eu-startups.com/2026/09/cologne-based-metycle-secures-e131-7-million-credit-facility-to-scale-secondary-copper-and-aluminium-supply/"
+        ],
+        "value": "Went from a €4.7M seed round in 2023 to a €14M Series A, then to a €131.7M credit facility in 2026 to fund inventory."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.eu-startups.com/2026/09/cologne-based-metycle-secures-e131-7-million-credit-facility-to-scale-secondary-copper-and-aluminium-supply/"
+        ],
+        "value": "€131.7M credit facility (2026)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Buying and selling scrap copper and aluminium is slow, offline and full of middlemen, so METYCLE built a digital trading platform that sources, buys and supplies secondary (recycled) copper and aluminium.",
+    "industry": "Recycling",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Digitize an old, offline trading market, then use debt financing rather than just equity to fund the physical inventory the marketplace needs to actually trade.",
+    "name": "METYCLE",
+    "not_startup_reason": null,
+    "overall": 6.3,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round much bigger than the last",
+        "reason": "Funding jumped sharply from a €4.7M seed round in 2023 to a €131.7M credit facility in 2026, a clear sign it is scaling fast.",
+        "score": 7,
+        "source": "https://www.eu-startups.com/2026/09/cologne-based-metycle-secures-e131-7-million-credit-facility-to-scale-secondary-copper-and-aluminium-supply/"
+      },
+      "market": {
+        "reason": "Copper and aluminium recycling is a large, global industrial market, not just a local niche.",
+        "score": 7,
+        "source": "https://www.eu-startups.com/2026/09/cologne-based-metycle-secures-e131-7-million-credit-facility-to-scale-secondary-copper-and-aluminium-supply/"
+      },
+      "tech": {
+        "reason": "It combines a trading platform with sourcing logistics, which is solid engineering and operations but something a well-funded competitor could rebuild within a year or two.",
+        "score": 5,
+        "source": "https://metycle.medium.com/metycle-raises-14-million-euro-in-series-a-round-to-expand-ai-powered-platform-for-global-metal-bd083a47ef55"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-24",
+        "title": "Cologne-based Metycle secures €131.7 million credit facility to scale secondary copper and aluminium supply",
+        "url": "https://www.eu-startups.com/2026/09/cologne-based-metycle-secures-e131-7-million-credit-facility-to-scale-secondary-copper-and-aluminium-supply/"
+      },
+      {
+        "date": null,
+        "title": "Cologne-based metal trading platform METYCLE raises €4.7 million to digitalise metal recycling",
+        "url": "https://www.eu-startups.com/2023/12/cologne-based-metal-trading-platform-metycle-raises-e4-7-million-to-digitalise-metal-recycling/"
+      },
+      {
+        "date": null,
+        "title": "METYCLE Raises 14 Million Euro in Series A Round to Expand AI-Powered Platform for Global Metal Recycling",
+        "url": "https://metycle.medium.com/metycle-raises-14-million-euro-in-series-a-round-to-expand-ai-powered-platform-for-global-metal-bd083a47ef55"
+      },
+      {
+        "date": null,
+        "title": "Amsterdam's Dutch Founders Fund backs Germany's METYCLE in €1.5M round",
+        "url": "https://siliconcanals.com/metycle-raises-1-5m/"
+      },
+      {
+        "date": null,
+        "title": "Germany's METYCLE raised $5 million to expand scrap trading platform",
+        "url": "https://gmk.center/en/news/germanys-metycle-raised-5-million-to-expand-scrap-trading-platform/"
+      },
+      {
+        "date": null,
+        "title": "METYCLE GmbH - Köln, Germany",
+        "url": "https://www.chemeurope.com/en/companies/1045993/metycle-gmbh.html"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It doesn't just match buyers and sellers online, it uses large credit facilities to actually buy and hold scrap metal itself, so it can guarantee supply the way a trading company would.",
+    "website": null,
+    "who_pays": "Metal traders, scrapyards and manufacturers pay to buy and sell copper and aluminium scrap through the platform.",
+    "why_now": "Manufacturers want recycled metal to cut carbon emissions and reduce reliance on mining, so demand for a fast, digital way to source secondary copper and aluminium is growing."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "metycle",
+  "industry": "Recycling",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-24",
+      "run": "2026-09-28-r4",
+      "snippet": "Cologne-based supplier of secondary copper and aluminium, secured a €131.7 million credit facility.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.eu-startups.com/2026/09/cologne-based-metycle-secures-e131-7-million-credit-facility-to-scale-secondary-copper-and-aluminium-supply/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "GMK Center report that Germany's METYCLE raised $5 million to expand its scrap metal trading platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Germany's METYCLE raised $5 million to expand scrap trading platform",
+      "url": "https://gmk.center/en/news/germanys-metycle-raised-5-million-to-expand-scrap-trading-platform/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Silicon Canals on Dutch Founders Fund backing German metal-trading startup METYCLE in a €1.5M pre-seed round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Amsterdam's Dutch Founders Fund backs Germany's METYCLE in €1.5M round - Silicon Canals",
+      "url": "https://siliconcanals.com/metycle-raises-1-5m/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "EU-Startups report that Cologne-based METYCLE raised a €4.7 million seed round to digitalise metal recycling.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cologne-based metal trading platform METYCLE raises €4.7 million to digitalise metal recycling | EU-Startups",
+      "url": "https://www.eu-startups.com/2023/12/cologne-based-metal-trading-platform-metycle-raises-e4-7-million-to-digitalise-metal-recycling/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Recycling International article on METYCLE's funding and its plan to benefit the global scrap trade.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Multi-million funding for Metycle to benefit global scrap trade • Recycling International",
+      "url": "https://recyclinginternational.com/business/multi-million-funding-for-metycle-to-benefit-global-scrap-trade/55721/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "EU-Startups report that Metycle secured a €131.7 million credit facility to scale its secondary copper and aluminium supply.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cologne-based Metycle secures €131.7 million credit facility to scale secondary copper and aluminium supply | EU-Startups",
+      "url": "https://www.eu-startups.com/2026/09/cologne-based-metycle-secures-e131-7-million-credit-facility-to-scale-secondary-copper-and-aluminium-supply"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "StartupIntros profile summarizing METYCLE's funding rounds, team and investors.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "METYCLE: Funding, Team & Investors",
+      "url": "https://startupintros.com/orgs/metycle"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tracxn company profile for METYCLE with team, funding and competitor data.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "METYCLE - 2026 Company Profile, Team, Funding, Competitors & Financials - Tracxn",
+      "url": "https://tracxn.com/d/companies/metycle/__woPp7NIXc7F9_Co5SogxgoKfe3TjutGFS3pyVm4PyS4"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "ChemEurope company directory entry for METYCLE GmbH, based in Cologne, Germany.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "METYCLE GmbH - Köln, Germany",
+      "url": "https://www.chemeurope.com/en/companies/1045993/metycle-gmbh.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "METYCLE's own Medium post announcing a €14 million Series A round to expand its AI-powered metal recycling platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "METYCLE Raises 14 Million Euro in Series A Round to Expand AI-Powered Platform for Global Metal Recycling | by METYCLE | Medium",
+      "url": "https://metycle.medium.com/metycle-raises-14-million-euro-in-series-a-round-to-expand-ai-powered-platform-for-global-metal-bd083a47ef55"
+    }
+  ],
+  "name": "METYCLE",
+  "name_key": "metycle",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"Metycle\" startup Germany"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 7.0,
+      "market": 7.0,
+      "overall": 6.3,
+      "run": "2026-09-28-r4",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:58:35+00:00",
+  "website": null
+}

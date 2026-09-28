@@ -1,0 +1,234 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Italy",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "Italy",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2026/09/italys-clastix-raises-e2-9-million-with-mistral-backing-to-build-sovereign-kubernetes-infrastructure-for-europe/",
+          "https://tech.eu/2026/09/24/clastix-bags-eur29m-to-tackle-the-complexity-of-kubernetes-at-scale/"
+        ],
+        "value": "Naples, Italy"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.startupbusiness.it/en/clastixs-ai-solutions-for-cloud-infrastructure-secure-e2-9-million/199702/",
+          "https://www.vestbee.com/insights/articles/clastix-secures-2-9-m"
+        ],
+        "value": "No growth numbers yet, but early customers already include NVIDIA, Mistral and Fastweb, and this seed round is its first outside funding."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2026/09/italys-clastix-raises-e2-9-million-with-mistral-backing-to-build-sovereign-kubernetes-infrastructure-for-europe/",
+          "https://tech.eu/2026/09/24/clastix-bags-eur29m-to-tackle-the-complexity-of-kubernetes-at-scale/"
+        ],
+        "value": "€2.9M seed round"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Running Kubernetes, the software that powers most cloud data centers, gets very hard once you have many clusters, so Clastix builds tools that make it simple to run and manage Kubernetes at large scale.",
+    "industry": "Cloud infrastructure",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Take a popular open-source project you built and package it into an easier, supported product that large organizations will pay for.",
+    "name": "Clastix",
+    "not_startup_reason": null,
+    "overall": 5.5,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: customer logos (NVIDIA, Mistral, Fastweb)",
+        "reason": "Too early for growth numbers, but landing customers like NVIDIA and Mistral before this being its first funding round is a positive sign.",
+        "score": null,
+        "source": "https://www.startupbusiness.it/en/clastixs-ai-solutions-for-cloud-infrastructure-secure-e2-9-million/199702/"
+      },
+      "market": {
+        "reason": "Managing Kubernetes at scale is a real and growing need for companies and governments, but Clastix's sovereign-Europe pitch is a niche within the huge cloud market.",
+        "score": 6,
+        "source": "https://tech.eu/2026/09/24/clastix-bags-eur29m-to-tackle-the-complexity-of-kubernetes-at-scale/"
+      },
+      "tech": {
+        "reason": "Solid engineering built on open-source projects (Capsule and Kamaji) that a strong team could learn to use or copy in months.",
+        "score": 5,
+        "source": "https://www.startupbusiness.it/en/clastixs-ai-solutions-for-cloud-infrastructure-secure-e2-9-million/199702/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-24",
+        "title": "Italy's Clastix raises €2.9 million with Mistral backing to build sovereign Kubernetes infrastructure for Europe | EU-Startups",
+        "url": "https://www.eu-startups.com/2026/09/italys-clastix-raises-e2-9-million-with-mistral-backing-to-build-sovereign-kubernetes-infrastructure-for-europe/"
+      },
+      {
+        "date": "2026-09-24",
+        "title": "Clastix bags €2.9M to tackle the complexity of Kubernetes at scale",
+        "url": "https://tech.eu/2026/09/24/clastix-bags-eur29m-to-tackle-the-complexity-of-kubernetes-at-scale/"
+      },
+      {
+        "date": null,
+        "title": "Clastix's AI solutions for cloud infrastructure secure €2.9 million",
+        "url": "https://www.startupbusiness.it/en/clastixs-ai-solutions-for-cloud-infrastructure-secure-e2-9-million/199702/"
+      },
+      {
+        "date": null,
+        "title": "Clastix secures €2.9M to scale its Kubernetes infrastructure platform | Vestbee",
+        "url": "https://www.vestbee.com/insights/articles/clastix-secures-2-9-m"
+      },
+      {
+        "date": null,
+        "title": "Clastix raises EUR 2.9 million seed investment to scale its Kubernetes infrastructure platform - Startup.eu",
+        "url": "https://www.startup.eu/investments/clastix-2-9-m-seed-09-2026"
+      },
+      {
+        "date": null,
+        "title": "Clastix Raises €2.9 Million to Expand Kubernetes Infrastructure Platform",
+        "url": "https://www.globalstartupsinsights.com/funding/italy/clastix-raises-e2-9-million-to-expand-kubernetes-infrastructure-platform/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its platform, kMetal, combines two open-source projects it built, Capsule and Kamaji, to run many Kubernetes clusters as one fleet, and it already counts NVIDIA, Mistral and the telecom operator Fastweb as customers.",
+    "website": null,
+    "who_pays": "Companies and public bodies in Europe that want to run their own secure, large-scale Kubernetes infrastructure instead of renting it fully from foreign cloud giants.",
+    "why_now": "European governments and companies want cloud infrastructure they fully control instead of depending on big US tech firms, especially as AI computing needs grow fast."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "clastix",
+  "industry": "Cloud infrastructure",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-24",
+      "run": "2026-09-28-r4",
+      "snippet": "Naples-based infrastructure software company raising €2.9 million to build sovereign Kubernetes infrastructure for Europe.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.eu-startups.com/2026/09/italys-clastix-raises-e2-9-million-with-mistral-backing-to-build-sovereign-kubernetes-infrastructure-for-europe/"
+    },
+    {
+      "date": "2026-09-24",
+      "run": "2026-09-28-r4",
+      "snippet": "Company developing technology for managing Kubernetes operations at scale, raised €2.9 million seed.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://tech.eu/2026/09/24/clastix-bags-eur29m-to-tackle-the-complexity-of-kubernetes-at-scale/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Clastix, a Naples-based infrastructure software company, has raised €2.9 million in a Seed round led by CDP Venture Capital Sgr with participation from Mistral and Vertis SGR to build sovereign Kubernetes infrastructure for Europe.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Italy's Clastix raises €2.9 million with Mistral backing to build sovereign Kubernetes infrastructure for Europe | EU-Startups",
+      "url": "https://www.eu-startups.com/2026/09/italys-clastix-raises-e2-9-million-with-mistral-backing-to-build-sovereign-kubernetes-infrastructure-for-europe"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Clastix's commercial platform kMetal combines open-source projects Capsule and Kamaji for fleet-scale Kubernetes operations, with customers including Fastweb, NVIDIA and Mistral.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Clastix's AI solutions for cloud infrastructure secure €2.9 million",
+      "url": "https://www.startupbusiness.it/en/clastixs-ai-solutions-for-cloud-infrastructure-secure-e2-9-million/199702/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Official YouTube channel of CLASTIX Labs.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "CLASTIX Labs - YouTube",
+      "url": "https://www.youtube.com/@clastixlabs"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Clastix's Seed round marks the company's first external funding, financed in part by the EU's Next-Generation EU programme via Vertis Venture 6 Digital Sud.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Clastix secures €2.9M to scale its Kubernetes infrastructure platform | Vestbee",
+      "url": "https://www.vestbee.com/insights/articles/clastix-secures-2-9-m"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Clastix raised EUR 2.9 million in seed funding to scale its Kubernetes infrastructure platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Clastix raises EUR 2.9 million seed investment to scale its Kubernetes infrastructure platform - Startup.eu",
+      "url": "https://www.startup.eu/investments/clastix-2-9-m-seed-09-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Clastix, an Italian infrastructure software company, raised €2.9 million to expand its Kubernetes infrastructure platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Clastix Raises €2.9 Million to Expand Kubernetes Infrastructure Platform",
+      "url": "https://www.globalstartupsinsights.com/funding/italy/clastix-raises-e2-9-million-to-expand-kubernetes-infrastructure-platform/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Clastix raised €2.9M to tackle Kubernetes complexity for AI infrastructure.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Clastix Raises €2.9M for Kubernetes AI Infrastructure — Konsulteer",
+      "url": "https://www.konsulteer.com/article/clastix-raises-2-9m-to-tackle-kubernetes-complexity-for-ai-infrastructure"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Clastix raised €2.9M to bring sovereign Kubernetes infrastructure to Europe.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Clastix Raises €2.9M to Bring Sovereign… | Pomegra Startups",
+      "url": "https://pomegra.io/startups/clastix-raises-2-9m-to-bring-sovereign-kubernetes-to-europe-2026-09-25"
+    }
+  ],
+  "name": "Clastix",
+  "name_key": "clastix",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"Clastix\" startup Italy"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": null,
+      "market": 6.0,
+      "overall": 5.5,
+      "run": "2026-09-28-r4",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:19:09+00:00",
+  "website": null
+}

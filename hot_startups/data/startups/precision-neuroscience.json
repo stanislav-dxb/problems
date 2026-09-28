@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "precision-neuroscience",
+  "industry": "Health tech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "US startup building a minimally invasive brain-computer interface, founded by a former Neuralink team member.",
+      "source": "\"Precision\" startup",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://theinnovator.news/startup-of-the-week-precision-neuroscience/"
+    }
+  ],
+  "name": "Precision Neuroscience",
+  "name_key": "precisionneuroscience",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T03:17:23+00:00",
+  "website": null
+}

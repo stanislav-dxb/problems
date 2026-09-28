@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Nigeria",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "grey",
+  "industry": "cross-border payments",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-23",
+      "run": "2026-09-28-r4",
+      "snippet": "Y Combinator-backed cross-border payment platform launched new payout routes to Senegal, Ivory Coast, Cameroon and Rwanda.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://disruptafrica.com/2026/09/23/nigerian-fintech-startup-grey-launches-new-payout-routes-to-senegal-ivory-coast-cameroon-rwanda/"
+    }
+  ],
+  "name": "Grey",
+  "name_key": "grey",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:10:41+00:00",
+  "website": null
+}

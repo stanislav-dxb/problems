@@ -1,0 +1,121 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Australia",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "ovum",
+  "industry": "women's health AI",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-25",
+      "run": "2026-09-28-r4",
+      "snippet": "Women's health AI startup founded by Dr Ariella Heffernan-Marks, with 20,000 downloads and 113,000+ AI health conversations.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.startupdaily.net/partner-content/dr-ariella-heffernan-marks-named-best-new-founder-as-ovum-scales-womens-health-ai/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Roundup of Australian startup funding for the week, including Ovum, Airwallex and Savvywise.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Three Australian startups that raised $465.6 million this week",
+      "url": "https://www.smartcompany.com.au/startupsmart/australian-startup-funding-june-2026-airwallex-ovum-savvywise/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Melbourne startup Ovum raises AUD $4 million to grow its AI women's health platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Ovum raises AUD $4 million to expand women's health app",
+      "url": "https://channellife.com.au/story/ovum-raises-aud-4-million-to-expand-women-s-health-app"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Ovum, founded by Dr Ariella Heffernan-Marks, tripled its valuation with a new $4M seed round led by Admiralty Capital Group.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Women's health startup Ovum lands $4 million seed funding after tripling valuation",
+      "url": "https://www.smartcompany.com.au/startupsmart/ovum-raises-4-million-seed-funding-women-health-ai-startup/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Coverage of Ovum's AUD $4 million raise to expand its women's health app.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Ovum raises AUD $4 million to expand women's health app",
+      "url": "https://cfotech.com.au/story/ovum-raises-aud-4-million-to-expand-women-s-health-app"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Profile of Ovum's founder, a doctor-turned-founder, and the startup's $4 million raise.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Doctor-turned-founder behind Ovum raises $4 million to scale AI women's health platform",
+      "url": "https://womensagenda.com.au/latest/doctor-turned-founder-behind-ovum-raises-4-million-to-scale-ai-womens-health-platform/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Forbes Australia on Ovum's earlier AUD $1.7 million pre-seed round for its AI women's healthcare app.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Ovum lands $1.7M to help aid women's health with AI app",
+      "url": "https://www.forbes.com.au/news/innovation/ovum-lands-1-7m-to-revolutionise-womens-healthcare-with-ai/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Femtech Insider on Ovum's seed round to build an AI-powered longitudinal women's health dataset.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Australia's Ovum Raises $4M Seed to Build AI-Powered Longitudinal Women's Health Dataset | Femtech Insider",
+      "url": "https://femtechinsider.com/australias-ovum-raises-4m-seed-to-build-ai-powered-longitudinal-womens-health-dataset/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "OnImpact on Ovum's pre-seed round aimed at tackling the gender health gap.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "AI health tech, Ovum, raises $1.7m to tackle gender health gap - OnImpact",
+      "url": "https://onimpact.com.au/ai-health-tech-ovum-raises-1-7m-to-tackle-gender-health-gap/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Business News Australia on Ovum tripling its valuation a year after its pre-seed round with a new $4 million seed round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Women's health startup Ovum triples valuation on $4m raise",
+      "url": "https://www.businessnewsaustralia.com/articles/womens-health-platform-ovum-triples-valuation-in-a-year-after-4-million-seed-round.html"
+    }
+  ],
+  "name": "Ovum",
+  "name_key": "ovum",
+  "region": null,
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-ovum.txt",
+    "article_url": "https://www.startupdaily.net/partner-content/dr-ariella-heffernan-marks-named-best-new-founder-as-ovum-scales-womens-health-ai/",
+    "pages": 1,
+    "queries_done": [
+      "\"Ovum\" startup Australia"
+    ],
+    "searches": 1
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T03:17:41+00:00",
+  "website": null
+}

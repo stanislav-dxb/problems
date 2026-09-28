@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "India",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "rivet",
+  "industry": "dating app",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-25",
+      "run": "2026-09-28-r4",
+      "snippet": "Dating startup raised $10.5 Mn seed funding from Peak XV Partners and Shine Capital to scale in the US.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://inc42.com/buzz/rivet-bags-10-5-mn-from-peak-xv-others-to-scale-dating-platform-in-us/"
+    }
+  ],
+  "name": "Rivet",
+  "name_key": "rivet",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:09:27+00:00",
+  "website": null
+}

@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Australia",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "savvywise",
+  "industry": null,
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Australian startup mentioned alongside Ovum in the same week's funding roundup.",
+      "source": "\"Ovum\" startup Australia",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://www.smartcompany.com.au/startupsmart/australian-startup-funding-june-2026-airwallex-ovum-savvywise/"
+    }
+  ],
+  "name": "Savvywise",
+  "name_key": "savvywise",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T03:17:23+00:00",
+  "website": null
+}

@@ -4,11 +4,145 @@
   "country": "Ireland",
   "domain": "nuitee.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Ireland",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://nuitee.com/about-us",
+          "https://www.phocuswire.com/nuitee-series-a-funding-infrastructure-ota-hotels"
+        ],
+        "value": "Dublin, Ireland"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://nuitee.com/about-us",
+          "https://www.nuitee.com/blog/Nuitee-raises-USD48M-Series-A-led-by-Accel"
+        ],
+        "value": "2017"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.phocuswire.com/nuitee-series-a-funding-infrastructure-ota-hotels",
+          "https://nuitee.com/about-us"
+        ],
+        "value": "Raised a $48M Series A led by Accel, and its own site claims it supports 2.6 million properties worldwide, with new partnerships announced with Grab and Attijariwafa bank in 2026."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.phocuswire.com/nuitee-series-a-funding-infrastructure-ota-hotels",
+          "https://www.finsmes.com/2024/12/nuitee-raises-48m-in-series-a-funding.html"
+        ],
+        "value": "$48M Series A"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://nuitee.com/about-us"
+        ],
+        "value": "over 300"
+      }
+    },
+    "idea": "Building a hotel-booking or travel product usually means wrestling with hundreds of different hotel and pricing systems, so Nuitée sells ready-made APIs that plug any company straight into hotel rates, availability and bookings worldwide.",
+    "industry": "Travel Tech",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Instead of competing for customers in a crowded market, sell the infrastructure that lets many other companies enter that market easily.",
+    "name": "Nuitée",
+    "not_startup_reason": null,
+    "overall": 6.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: new partnerships (Grab, Attijariwafa bank) and headcount growth",
+        "reason": "It has grown to 300+ employees and landed a $48M round and new partnerships with Grab and a major bank, but no revenue or booking-volume numbers are public.",
+        "score": 6,
+        "source": "https://nuitee.com/about-us"
+      },
+      "market": {
+        "reason": "Hotel and travel distribution is a large global industry, and Nuitée's own materials cite the B2B hotel market at $75 billion.",
+        "score": 7,
+        "source": "https://nuitee.com/"
+      },
+      "tech": {
+        "reason": "API infrastructure for hotel distribution is solid engineering, but similar aggregation and connectivity platforms already exist in travel tech, so it is not hard for a strong team to approach.",
+        "score": 5,
+        "source": "https://nuitee.com/"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Nuitée - Crunchbase Company Profile & Funding",
+        "url": "https://www.crunchbase.com/organization/nuit%C3%A9e"
+      },
+      {
+        "date": null,
+        "title": "Nuitée: Funding, Team & Investors | Startup Intros",
+        "url": "https://startupintros.com/orgs/nuit-e"
+      },
+      {
+        "date": null,
+        "title": "Nuitée 2026 Company Profile: Valuation, Funding & Investors | PitchBook",
+        "url": "https://pitchbook.com/profiles/company/529348-96"
+      },
+      {
+        "date": null,
+        "title": "About Nuitée",
+        "url": "https://nuitee.com/about-us"
+      },
+      {
+        "date": null,
+        "title": "Nuitée raises $48M to grow partnerships, products, team | PhocusWire",
+        "url": "https://www.phocuswire.com/nuitee-series-a-funding-infrastructure-ota-hotels"
+      },
+      {
+        "date": "2024-12-01",
+        "title": "Nuitée Raises $48M in Series A Funding",
+        "url": "https://www.finsmes.com/2024/12/nuitee-raises-48m-in-series-a-funding.html"
+      },
+      {
+        "date": null,
+        "title": "Nuitee's $48M Series A: Unleashing the Next Era of Travel Technology",
+        "url": "https://www.nuitee.com/blog/Nuitee-raises-USD48M-Series-A-led-by-Accel"
+      },
+      {
+        "date": null,
+        "title": "Nuitée | Enabling all companies to build travel solutions | LinkedIn",
+        "url": "https://ie.linkedin.com/company/nuitee"
+      },
+      {
+        "date": null,
+        "title": "Nuitee Travel - 2026 Company Profile, Team, Funding & Competitors - Tracxn",
+        "url": "https://tracxn.com/d/companies/nuitee-travel/__p6h2oVnBG3-7BqnqmaqV1edtLUw6pYm6OYf5QD9tHag"
+      },
+      {
+        "date": null,
+        "title": "Nuitée | Enabling all companies to build travel solutions - Bounce Watch",
+        "url": "https://bouncewatch.com/explore/startup/nuitee-enabling-all-companies-to-build-travel-solutions"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026 | VivaTech",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It calls itself the 'Stripe for travel': other companies, from banks to super-apps like Grab, use Nuitée's building blocks to add hotel booking into their own products without building travel infrastructure themselves.",
+    "website": "https://nuitee.com/",
+    "who_pays": "Travel companies, banks, super-apps and other businesses pay to use Nuitée's APIs to power hotel search, pricing and booking inside their own products.",
+    "why_now": "AI-driven travel booking and agentic apps are growing fast, and companies outside travel (banks, ride-hailing apps) increasingly want to bolt on booking features quickly rather than build them from scratch."
+  },
+  "first_judged_run": "2026-09-28-r4",
   "first_seen": "2026-09-16",
   "id": "nuitee-com",
   "industry": "Travel Tech",
-  "last_checked": null,
+  "last_checked": "2026-09-28",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -18,18 +152,135 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://nuitee.com/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Crunchbase profile of Nuitée, a Dublin-based travel technology company.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nuitée - Crunchbase Company Profile & Funding",
+      "url": "https://www.crunchbase.com/organization/nuit%C3%A9e"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Profile listing Nuitée's funding, team and investors.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nuitée: Funding, Team & Investors | Startup Intros",
+      "url": "https://startupintros.com/orgs/nuit-e"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "PitchBook profile with Nuitée's valuation and funding data.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nuitée 2026 Company Profile: Valuation, Funding & Investors | PitchBook",
+      "url": "https://pitchbook.com/profiles/company/529348-96"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Nuitée's own site: founded in 2017, headquartered in Dublin, Ireland, building API-first travel and hotel-distribution infrastructure, with hubs in Casablanca, Morocco and Palma de Mallorca, Spain, and over 300 employees supporting 2.6 million properties in 25 countries.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "About Nuitée",
+      "url": "https://nuitee.com/about-us"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Dublin-based Nuitée raised $48 million in Series A funding led by Accel to grow its hotel distribution infrastructure.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nuitée raises $48M to grow partnerships, products, team | PhocusWire",
+      "url": "https://www.phocuswire.com/nuitee-series-a-funding-infrastructure-ota-hotels"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "FinSMEs coverage of Nuitée's $48 million Series A round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nuitée Raises $48M in Series A Funding",
+      "url": "https://www.finsmes.com/2024/12/nuitee-raises-48m-in-series-a-funding.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Nuitée's own blog post announcing its $48 million Series A led by Accel, and describing its API-first, 'Stripe for travel' approach. Founders: Med Benmansour, Said Rkaibi and Olivier Dheur, company started in 2017.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nuitee's $48M Series A: Unleashing the Next Era of Travel Technology",
+      "url": "https://www.nuitee.com/blog/Nuitee-raises-USD48M-Series-A-led-by-Accel"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "LinkedIn page for Nuitée, listed as an Irish company enabling other companies to build travel solutions.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nuitée | Enabling all companies to build travel solutions | LinkedIn",
+      "url": "https://ie.linkedin.com/company/nuitee"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tracxn profile of Nuitee Travel with team and funding data.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nuitee Travel - 2026 Company Profile, Team, Funding & Competitors - Tracxn",
+      "url": "https://tracxn.com/d/companies/nuitee-travel/__p6h2oVnBG3-7BqnqmaqV1edtLUw6pYm6OYf5QD9tHag"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Bounce Watch profile of Nuitée covering funding rounds and investors.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nuitée | Enabling all companies to build travel solutions - AI, Big Data Company Profile, Funding Rounds and Investors - Bounce Watch",
+      "url": "https://bouncewatch.com/explore/startup/nuitee-enabling-all-companies-to-build-travel-solutions"
     }
   ],
   "name": "Nuitée",
   "name_key": "nuitee",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-nuitee-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-09-28-r4",
+    "pages": 2,
+    "queries_done": [
+      "\"Nuitée\" startup Ireland"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-nuitee-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 6.0,
+      "market": 7.0,
+      "overall": 6.0,
+      "run": "2026-09-28-r4",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:28:00+00:00",
   "website": "https://nuitee.com/"
 }

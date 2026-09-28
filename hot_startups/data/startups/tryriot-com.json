@@ -18,18 +18,115 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://tryriot.com"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Paris-based cybersecurity startup Riot raised a €28.9M Series B to expand globally and double headcount by 2026, bringing total funding to €43.4M.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cybersecurity startup Riot raises €28.9 million to expand globally and double headcount by 2026 | EU-Startups",
+      "url": "https://www.eu-startups.com/2025/02/cybersecurity-startup-riot-raises-e28-9-million-to-expand-globally-and-double-headcount-by-2026/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Bpifrance profile describing Riot as a French startup that turns employees into a shield against cyberattacks through security awareness training.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Riot, la start-up qui transforme les employés en boucliers anti-cyberattaques",
+      "url": "https://bigmedia.bpifrance.fr/nos-actualites/riot-la-start-qui-transforme-les-employes-en-boucliers-anti-cyberattaques"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "ChannelNews report that French startup Riot raised about $30 million for its cybersecurity awareness platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Sensibilisation à la cybersécurité : Le français Riot lève 30 millions de dollars - ChannelNews",
+      "url": "https://www.channelnews.fr/sensibilisation-a-la-cybersecurite-le-francais-riot-leve-30-millions-de-dollars-142397"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Le Monde Informatique coverage of Riot's roughly €30 million cybersecurity awareness funding round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Sensibilisation en cybersécurité : Le français Riot lève 30 M€ - Le Monde Informatique",
+      "url": "https://www.lemondeinformatique.fr/actualites/lire-sensibilisation-en-cybersecurite-le-francais-riot-leve-30-meteuro-95942.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Forbes France profile of Riot, a French scale-up positioning itself to defend companies against AI-powered cyberattacks.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "À SUIVRE | Riot défend les entreprises contre les cyberattaques dopées à l'IA - Forbes France",
+      "url": "https://www.forbes.fr/technologie/a-suivre-riot-la-scale-up-francaise-qui-veut-defendre-les-entreprises-contre-les-cyberattaques-dopees-a-lia/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Wikipedia article about YesWeHack, a different French cybersecurity company, unrelated to Riot.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "YesWeHack",
+      "url": "https://en.wikipedia.org/wiki/YesWeHack"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Daf-Mag brief noting that cybersecurity startup Riot raised about €29 million.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cybersécurité : la start-up Riot lève 29 millions d'euros - Daf-Mag.fr",
+      "url": "https://www.daf-mag.fr/Thematique/start-up-1275/levees-fonds-ipo-2134/Breves/cybersecurite-start-up-riot-millions-d-euros-467336.htm"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Infonet article on Riot's Paris-based cybersecurity business and its 2025 fundraising.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Riot : cybersécurité et levée de fonds à Paris en 2025",
+      "url": "https://infonet.fr/actualite/articles-sur-lactualite-technologique/riot-cybersecurite-paris-2025/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Grokipedia encyclopedia entry describing Riot, the cybersecurity awareness company.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Riot (cybersecurity company) — Grokipedia",
+      "url": "https://grokipedia.com/page/Riot_cybersecurity_company"
     }
   ],
   "name": "Riot Security",
   "name_key": "riotsecurity",
   "region": null,
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-tryriot-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "pages": 2,
+    "queries_done": [
+      "\"Riot Security\" startup France"
+    ],
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-tryriot-com.txt"
   },
   "score_history": [],
   "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "updated": "2026-09-28T02:45:18+00:00",
   "website": "https://tryriot.com"
 }

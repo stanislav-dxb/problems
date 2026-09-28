@@ -1,0 +1,238 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Saudi Arabia",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "Saudi Arabia",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "http://wamda.com/2026/09/saudi-proptech-rize-secures-50-million-facility-jadwa-investment",
+          "https://www.arabnews.com/node/2485531/business-economy"
+        ],
+        "value": "Saudi Arabia"
+      },
+      "founded": {
+        "confirmed": true,
+        "sources": [
+          "https://www.arabnews.com/node/2456401/business-economy",
+          "http://wamda.com/2026/09/saudi-proptech-rize-secures-50-million-facility-jadwa-investment"
+        ],
+        "value": "2021"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "http://wamda.com/2026/09/saudi-proptech-rize-secures-50-million-facility-jadwa-investment"
+        ],
+        "value": "In September 2026, about 20 months after its $35M Series A, it secured a new $50 million asset-backed financing facility from Jadwa Investment to grow its rental-contract portfolio."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.menabytes.com/rize-series-a/",
+          "https://arabfounders.net/en/saudi-proptech-rize-series-a/"
+        ],
+        "value": "$35M Series A (Jan 2025, equity and debt), after an earlier $2.9M seed round"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Renting a home in Saudi Arabia usually means paying a full year's rent upfront, so Rize lets tenants split that into 12 monthly payments while landlords still get paid upfront.",
+    "industry": "Proptech",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Turning one big yearly bill into small monthly payments removes a real financial pain point that both tenants and landlords will pay to avoid.",
+    "name": "Rize",
+    "not_startup_reason": null,
+    "overall": 5.3,
+    "region": "mea",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last",
+        "reason": "It went from a $2.9M seed to a $35M Series A to a $50M financing facility in under three years, each one bigger than the last.",
+        "score": 7,
+        "source": "http://wamda.com/2026/09/saudi-proptech-rize-secures-50-million-facility-jadwa-investment"
+      },
+      "market": {
+        "reason": "Rent-now-pay-later solves a real cost problem for tenants, but so far Rize only operates in one country's rental market.",
+        "score": 5,
+        "source": "https://www.arabnews.com/node/2485531/business-economy"
+      },
+      "tech": {
+        "reason": "Its core innovation is a financial and legal structure built on top of Saudi Arabia's existing Ejar government platform, not hard technology, so a good team could copy it in months.",
+        "score": 4,
+        "source": "http://wamda.com/2026/09/saudi-proptech-rize-secures-50-million-facility-jadwa-investment"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-16",
+        "title": "Saudi proptech Rize secures $50 million facility from Jadwa Investment - Wamda",
+        "url": "http://wamda.com/2026/09/saudi-proptech-rize-secures-50-million-facility-jadwa-investment"
+      },
+      {
+        "date": null,
+        "title": "Saudi proptech startup raises $2.9m in seed round | Arab News",
+        "url": "https://www.arabnews.com/node/2456401/business-economy"
+      },
+      {
+        "date": null,
+        "title": "Saudi fintech Rize raises $35 million in debt and equity for its rent now pay later platform",
+        "url": "https://www.menabytes.com/rize-series-a/"
+      },
+      {
+        "date": null,
+        "title": "Rize aims to boost Saudi Arabia's rental sector | Arab News",
+        "url": "https://www.arabnews.com/node/2485531/business-economy"
+      },
+      {
+        "date": null,
+        "title": "Saudi Proptech Rize Secures $35 Million Series A to Transform Real Estate Leasing",
+        "url": "https://arabfounders.net/en/saudi-proptech-rize-series-a/"
+      },
+      {
+        "date": null,
+        "title": "Saudi PropTech Rize raises $2.9M seed to enable monthly rent payments in Kingdom | Dealroom.co",
+        "url": "https://app.dealroom.co/news/feed/saudi-proptech-rize-raises-2-9m-seed-to-enable-monthly-rent-payments-in-kingdom"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Rize pays the landlord upfront through Saudi Arabia's official Ejar rental system and collects the tenant's rent in monthly instalments itself, so it says this is not cash financing to the tenant.",
+    "website": null,
+    "who_pays": "Tenants who want to spread rent into monthly payments, and lenders and investors who fund Rize's rental-contract portfolio.",
+    "why_now": "Saudi Arabia's rental market is large and now runs through a digital government platform (Ejar), which makes it possible to automate and finance rent payments safely."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "rize",
+  "industry": "Proptech",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-16",
+      "run": "2026-09-28-r4",
+      "snippet": "Saudi proptech secured a $50 million asset-backed facility from Jadwa Investment to finance its residential rental portfolio.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "http://wamda.com/2026/09/saudi-proptech-rize-secures-50-million-facility-jadwa-investment"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Rize, a Saudi proptech startup founded in 2021 by Ibrahim Balilah and Mohammed Al-Fraihi, raised $2.9 million in a seed round for its rent-now-pay-later platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Saudi proptech startup raises $2.9m in seed round | Arab News",
+      "url": "https://www.arabnews.com/node/2456401/business-economy"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Rize raised $35 million in debt and equity, led by Raed Ventures with several other investors, to grow its rent-now-pay-later platform in Saudi Arabia.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Saudi fintech Rize raises $35 million in debt and equity for its rent now pay later platform",
+      "url": "https://www.menabytes.com/rize-series-a/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Dealroom news item on Rize's $2.9 million seed round to let tenants in Saudi Arabia pay rent monthly instead of upfront.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Saudi PropTech Rize raises $2.9M seed to enable monthly rent payments in Kingdom | Dealroom.co",
+      "url": "https://app.dealroom.co/news/feed/saudi-proptech-rize-raises-2-9m-seed-to-enable-monthly-rent-payments-in-kingdom"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Dealroom note covering Rize's $2.9 million seed round for its rent-now-pay-later platform in Saudi Arabia.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Rize raises $2.9M Seed for Saudi rent-now-pay-later platform | Dealroom.co",
+      "url": "https://app.dealroom.co/news/note/rize-raises-2-9m-seed-for-saudi-rent-now-pay-later-platform"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Arab News piece on Rize's plans to expand its presence in Riyadh and grow into Saudi Arabia's Eastern and Western regions.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Rize aims to boost Saudi Arabia's rental sector | Arab News",
+      "url": "https://www.arabnews.com/node/2485531/business-economy"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "PropTechBuzz coverage of Rize's $2.9 million seed funding round for its rent-now-pay-later platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Saudi PropTech Startup Rize Raises $2.9M Seed Funding",
+      "url": "https://www.proptechbuzz.com/news/saudi-proptech-rize-raises-seed-funding"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tracxn company profile listing Rize's team, funding history and competitors.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Rize - 2026 Company Profile, Team, Funding & Competitors - Tracxn",
+      "url": "https://tracxn.com/d/companies/rize/__4SSZCLPO9AzSvxyCTGm0VIhfPsY0Jt1dIA5MiIzcMkM"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "ArabFounders report on Rize's $35 million Series A round aimed at transforming real estate leasing in Saudi Arabia.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Saudi Proptech Rize Secures $35 Million Series A to Transform Real Estate Leasing",
+      "url": "https://arabfounders.net/en/saudi-proptech-rize-series-a/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "The Saudi Boom's coverage of Rize's $2.9 million seed funding round for its rent-now-pay-later platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Rize, Saudi PropTech Startup Raises $2.9 Million in Seed Funding Round - The Saudi Boom",
+      "url": "https://thesaudiboom.com/rize-saudi-proptech-startup-raises-2-9-million-in-seed-funding-round/"
+    }
+  ],
+  "name": "Rize",
+  "name_key": "rize",
+  "region": "mea",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-rize.txt",
+    "article_url": "http://wamda.com/2026/09/saudi-proptech-rize-secures-50-million-facility-jadwa-investment",
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"Rize\" startup Saudi Arabia"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 7.0,
+      "market": 5.0,
+      "overall": 5.3,
+      "run": "2026-09-28-r4",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T03:11:49+00:00",
+  "website": null
+}

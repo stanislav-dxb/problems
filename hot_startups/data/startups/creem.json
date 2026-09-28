@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Estonia",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "creem",
+  "industry": "fintech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-21",
+      "run": "2026-09-28-r4",
+      "snippet": "Tallinn-based fintech raised a €5 million seed round led by Inovo VC to expand its billing and monetisation platform.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://arcticstartup.com/creem-raises-e5-million-seed/"
+    }
+  ],
+  "name": "Creem",
+  "name_key": "creem",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:06:10+00:00",
+  "website": null
+}

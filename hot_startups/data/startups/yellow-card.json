@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Nigeria",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "yellow-card",
+  "industry": "stablecoin infrastructure",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-24",
+      "run": "2026-09-28-r4",
+      "snippet": "Nigeria-founded global stablecoin infrastructure provider expanded into Canada.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://disruptafrica.com/2026/09/24/nigerian-fintech-startup-yellow-card-expands-into-canada/"
+    }
+  ],
+  "name": "Yellow Card",
+  "name_key": "yellowcard",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:10:41+00:00",
+  "website": null
+}

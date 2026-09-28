@@ -1,0 +1,246 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Australia",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "Australia",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.founders.unsw.edu.au/heo-robotics"
+        ],
+        "value": "Sydney, Australia"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.ycombinator.com/companies/heo-robotics"
+        ],
+        "value": "2016"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.smartcompany.com.au/startupsmart/seven-aussie-startups-that-raised-274-7-million-this-week/"
+        ],
+        "value": "In September 2026 it was named as one of seven Australian startups that together raised $274.7 million in a single week, though HEO's own share of that total was not stated."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.businessnewsaustralia.com/articles/airtree-leads--12m-series-a-for-space-imagery-enabler-heo-robotics.html"
+        ],
+        "value": "$12M Series A"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://tracxn.com/d/companies/heo/__eM6rkHCaekV_OILSTnEXcWgyKZcXoyXgPs7J9XD1WH0"
+        ],
+        "value": "about 47"
+      }
+    },
+    "idea": "Governments and satellite operators cannot easily see how their satellites are actually doing once they are in orbit, so HEO Robotics visually monitors and photographs satellites and other space objects for them.",
+    "industry": "Space tech",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "When a fast-growing industry creates a blind spot that used to need expensive, government-built hardware to see, sell the missing visibility as a service instead of building new hardware from scratch.",
+    "name": "HEO Robotics",
+    "not_startup_reason": null,
+    "overall": 6.0,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "substitute: team headcount (about 47 employees) and inclusion in a large week of funding raises",
+        "reason": "No revenue or user numbers were given, but the team has grown to about 47 people and the company was highlighted in a big week of Australian startup funding.",
+        "score": 5,
+        "source": "https://tracxn.com/d/companies/heo/__eM6rkHCaekV_OILSTnEXcWgyKZcXoyXgPs7J9XD1WH0"
+      },
+      "market": {
+        "reason": "Governments and defense agencies worldwide need to track objects in orbit, but this is a specialised market, not something every business needs.",
+        "score": 6,
+        "source": "https://www.space.gov.au/news-and-media/space-cams-protecting-satellite-services-on-earth"
+      },
+      "tech": {
+        "reason": "Combining space imaging, orbital mechanics and government-grade trust is hard to build and would take a strong team years to match.",
+        "score": 7,
+        "source": "https://www.ycombinator.com/companies/heo-robotics"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "HEO Robotics: We visually monitor space objects for governments and defense | Y Combinator",
+        "url": "https://www.ycombinator.com/companies/heo-robotics"
+      },
+      {
+        "date": null,
+        "title": "HEO Robotics | Founders Program - UNSW Sydney",
+        "url": "https://www.founders.unsw.edu.au/heo-robotics"
+      },
+      {
+        "date": null,
+        "title": "Space startup HEO Robotics raises $12m",
+        "url": "https://www.businessnewsaustralia.com/articles/airtree-leads--12m-series-a-for-space-imagery-enabler-heo-robotics.html"
+      },
+      {
+        "date": null,
+        "title": "HEO - 2026 Company Profile, Team, Funding & Competitors - Tracxn",
+        "url": "https://tracxn.com/d/companies/heo/__eM6rkHCaekV_OILSTnEXcWgyKZcXoyXgPs7J9XD1WH0"
+      },
+      {
+        "date": null,
+        "title": "Space-cams protecting satellite services on Earth | Australian Space Agency",
+        "url": "https://www.space.gov.au/news-and-media/space-cams-protecting-satellite-services-on-earth"
+      },
+      {
+        "date": "2026-09-25",
+        "title": "Seven Aussie startups that raised $274.7 million this week",
+        "url": "https://www.smartcompany.com.au/startupsmart/seven-aussie-startups-that-raised-274-7-million-this-week/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Instead of building its own fleet of camera satellites, it works through partners like Raytheon Australia to turn cameras already in orbit into a way of inspecting other spacecraft, which it calls 'space-cams'.",
+    "website": null,
+    "who_pays": "Government space agencies and defense organisations pay HEO to monitor and inspect satellites and other objects in orbit.",
+    "why_now": "More satellites are being launched every year, and if one breaks, drifts or is threatened, governments and militaries increasingly want to know exactly what happened to it."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "heo-robotics",
+  "industry": "Space tech",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-25",
+      "run": "2026-09-28-r4",
+      "snippet": "One of seven Aussie startups that collectively raised $274.7 million this week, chasing AI health, clean energy and space dominance.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.smartcompany.com.au/startupsmart/seven-aussie-startups-that-raised-274-7-million-this-week/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "UNSW Founders program page on HEO Robotics, a Sydney-based space startup that visually monitors satellites.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "HEO Robotics | Founders Program - UNSW Sydney",
+      "url": "https://www.founders.unsw.edu.au/heo-robotics"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Y Combinator company page: HEO Robotics visually monitors space objects for governments and defense, founded 2016 by Will Crowe and Hiranya Jayakody.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "HEO Robotics: We visually monitor space objects for governments and defense | Y Combinator",
+      "url": "https://www.ycombinator.com/companies/heo-robotics"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Raytheon Australia CapabilityPlus page profiling HEO Robotics as a partner company.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "HEO Robotics | Raytheon Australia",
+      "url": "https://www.raytheonaustralia.com.au/capabilityplus/heorobotics"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "UNSW Founders newsletter spotlight on HEO Robotics.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Portfolio Spotlight: HEO Robotics — UNSW Founders",
+      "url": "https://unswfounders.com/newsletter/heoroboticsprofile"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "PitchBook profile with valuation, funding and investor data for HEO.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "HEO 2026 Company Profile: Valuation, Funding & Investors | PitchBook",
+      "url": "https://pitchbook.com/profiles/company/267765-76"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Business News Australia: HEO Robotics raised $12 million Series A led by AirTree Ventures for its space imagery service.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Space startup HEO Robotics raises $12m",
+      "url": "https://www.businessnewsaustralia.com/articles/airtree-leads--12m-series-a-for-space-imagery-enabler-heo-robotics.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Australian Space Agency article on HEO's satellite-imaging technology protecting satellite services.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Space-cams protecting satellite services on Earth | Australian Space Agency",
+      "url": "https://www.space.gov.au/news-and-media/space-cams-protecting-satellite-services-on-earth"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Techboard company profile for HEO Robotics with Australian startup ecosystem data.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "HEO Robotics - Techboard",
+      "url": "https://techboard.com.au/company-profile/heo-robotics/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Unrelated Wikipedia article about a different company, AIO Robotics, not HEO Robotics.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "AIO Robotics",
+      "url": "https://en.wikipedia.org/wiki/AIO_Robotics"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tracxn profile for HEO, listing team, funding and competitor data; HEO currently has 47 total employees.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "HEO - 2026 Company Profile, Team, Funding & Competitors - Tracxn",
+      "url": "https://tracxn.com/d/companies/heo/__eM6rkHCaekV_OILSTnEXcWgyKZcXoyXgPs7J9XD1WH0"
+    }
+  ],
+  "name": "HEO Robotics",
+  "name_key": "heorobotics",
+  "region": "asia",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-heo-robotics.txt",
+    "article_url": "https://www.smartcompany.com.au/startupsmart/seven-aussie-startups-that-raised-274-7-million-this-week/",
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"HEO Robotics\" startup Australia"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 5.0,
+      "market": 6.0,
+      "overall": 6.0,
+      "run": "2026-09-28-r4",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:44:44+00:00",
+  "website": null
+}

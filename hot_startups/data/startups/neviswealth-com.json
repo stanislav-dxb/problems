@@ -18,18 +18,106 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://www.neviswealth.com"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "PitchBook profile with Nevis's valuation and funding data.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nevis 2026 Company Profile: Valuation, Funding & Investors | PitchBook",
+      "url": "https://pitchbook.com/profiles/company/846571-87"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "UK Companies House record for Nevis Wealth Technology Ltd.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "NEVIS WEALTH TECHNOLOGY LTD overview - Find and update company information - GOV.UK",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/16016151"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "UK Companies House officer listing for Nevis Wealth Technology Ltd.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "NEVIS WEALTH TECHNOLOGY LTD people - Find and update company information - GOV.UK",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/16016151/officers"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Crunchbase profile of Nevis with funding history.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nevis - Crunchbase Company Profile & Funding",
+      "url": "https://www.crunchbase.com/organization/nevis-190a"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Endole company profile confirming the legal entity Nevis Wealth Technology Ltd, UK.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nevis Wealth Technology Ltd - Company Profile - Endole",
+      "url": "https://open.endole.co.uk/insight/company/16016151-nevis-wealth-technology-ltd"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tracxn profile of Nevis Wealth Technology with team and funding data.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nevis Wealth Technology - 2026 Company Profile, Team, Funding & Competitors - Tracxn",
+      "url": "https://tracxn.com/d/companies/nevis-wealth-technology/__p3ifDFjuzoI9qBdMiXdr48-IsMHivm-4uXzwZ7OlK3I"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "FinTech Futures report: Nevis, an AI wealth-management fintech, raised a $35m Series A led by Sequoia Capital.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "AI fintech start-up Nevis raises $35m Series A",
+      "url": "https://www.fintechfutures.com/venture-capital-funding/nevis-raises-35m-series-a"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Fintech.Global coverage of Nevis raising $35m to build AI tools for wealth management, dated 2025-12-02.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nevis bags $35m to build AI for wealth management",
+      "url": "https://fintech.global/2025/12/02/nevis-bags-35m-to-build-ai-for-wealth-management/"
     }
   ],
   "name": "Nevis",
   "name_key": "nevis",
   "region": null,
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-neviswealth-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "pages": 2,
+    "queries_done": [
+      "\"Nevis\" startup United Kingdom"
+    ],
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-neviswealth-com.txt"
   },
   "score_history": [],
   "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "updated": "2026-09-28T02:28:17+00:00",
   "website": "https://www.neviswealth.com"
 }

@@ -18,18 +18,115 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://light.inc/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Dealroom profile of Light, a Danish AI finance-automation startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Light: The Danish Startup Powering Europe's Fast-Growing Tech Firms | Dealroom.co",
+      "url": "https://app.dealroom.co/news/note/light-the-danish-startup-powering-europe-s-fast-growing-tech-firms"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "CNBC coverage of Light's funding round backed by an early Revolut investor.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Early Revolut backer invests in AI-focused finance software startup Light",
+      "url": "https://www.cnbc.com/2025/09/25/ai-finance-startup-light-raises-funding-from-revolut-backer-balderton.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "ArcticStartup report on Light's $30 million raise to automate finance operations.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Denmark's Light secures $30 million to automate finance for hypergrowth companies - ArcticStartup",
+      "url": "https://arcticstartup.com/light-raises-e25-million/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "TechCrunch article on Light's $13M seed round and its AI-driven general ledger product.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Let there be Light! Danish startup exits stealth with $13M seed funding to bring AI to general ledgers | TechCrunch",
+      "url": "https://techcrunch.com/2024/06/12/let-there-be-light-danish-startup-exits-stealth-with-13m-seed-funding-to-bring-ai-to-general-ledgers/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "EU-Startups coverage of Light's €25 million round for its AI-native finance platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Light raises €25 million to replace legacy finance systems with AI-native platform | EU-Startups",
+      "url": "https://www.eu-startups.com/2025/09/light-raises-e25-million-to-replace-legacy-finance-systems-with-ai-native-platform/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "EU-Startups article on Light's earlier €12.1 million funding round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Copenhagen-based Light snaps €12.1 million to scale general ledgers for global company's finances | EU-Startups",
+      "url": "https://www.eu-startups.com/2024/06/copenhagen-based-light-snaps-e12-1-million-to-scale-general-ledgers-for-global-companys-finances/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "LinkedIn company page for Light (uselightinc).",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Light | LinkedIn",
+      "url": "https://www.linkedin.com/company/uselightinc"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tracxn company profile of Light with team and funding data.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Light - 2026 Company Profile, Team, Funding & Competitors - Tracxn",
+      "url": "https://tracxn.com/d/companies/light/__ytOkyjn-pzr1A_LaCSc2VYQSdcMgOuqLzvf987Z8RfY"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Unrelated result about physical lighting manufacturers in Denmark.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "lighting manufacturers in denmark",
+      "url": "https://www.shine.lighting/tags/denmark-lighting-manufacturers/"
     }
   ],
   "name": "Light",
   "name_key": "light",
   "region": null,
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-light-inc.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "pages": 2,
+    "queries_done": [
+      "\"Light\" startup Denmark"
+    ],
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-light-inc.txt"
   },
   "score_history": [],
   "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "updated": "2026-09-28T02:33:02+00:00",
   "website": "https://light.inc/"
 }

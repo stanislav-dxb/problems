@@ -18,18 +18,106 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://www.lap.coffee/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Substack piece on LAP Coffee's VC-backed growth strategy in Germany.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "VC-backed LAP is Disrupting Germany's Stale Coffee Game",
+      "url": "https://damiendupreez.substack.com/p/vc-backed-lap-is-disrupting-germanys"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Coverage of LAP Coffee's rapid expansion and its effect on traditional Berlin cafes.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Germany's fast-growing chain LAP Coffee puts pressure on established local cafes - The Berliner",
+      "url": "https://www.the-berliner.com/english-news-berlin/germanys-fast-growing-chain-lap-coffee-puts-pressure-on-established-local-cafes/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tech.eu article on the backlash against LAP Coffee's grab-and-go model in Berlin.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "The LAP coffee Berlin backlash: when innovation meets resistance - Tech.eu",
+      "url": "https://tech.eu/2025/09/09/the-lap-coffee-berlin-backlash-when-innovation-meets-resistance/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Commentary piece discussing LAP Coffee among specialty coffee trends.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "The Hyperreality of Specialty Coffee - The Pourover",
+      "url": "https://www.thepourover.coffee/the-hyperreality-of-specialty-coffee/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "The Berliner article on controversy surrounding LAP Coffee's growth.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "LAP Coffee: The trouble is brewing - The Berliner",
+      "url": "https://www.the-berliner.com/berlin/lap-coffee-the-trouble-is-brewing/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "News.az report on LAP Coffee continuing to expand in Germany despite criticism.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Berlin's LAP Coffee expands despite backlash in Germany | News.az",
+      "url": "https://news.az/news/berlins-lap-coffee-expands-despite-backlash-in-germany"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Article describing LAP Coffee's business model and expansion in Berlin's cafe scene.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "LAP Coffee: Disrupting the German Coffee Shop Landscape",
+      "url": "https://masonq.com/2025/12/11/trending%F0%9F%87%A9%F0%9F%87%AAlap-coffee-revolutionizing-berlins-cafe-scene/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "CB Insights page, appears unrelated (Yababa), returned in search results.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Founded Year",
+      "url": "https://www.cbinsights.com/company/yababa"
     }
   ],
   "name": "LAP Coffee",
   "name_key": "lapcoffee",
   "region": null,
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-lap-coffee.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "pages": 2,
+    "queries_done": [
+      "\"LAP Coffee\" startup Germany"
+    ],
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-lap-coffee.txt"
   },
   "score_history": [],
   "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "updated": "2026-09-28T02:33:01+00:00",
   "website": "https://www.lap.coffee/"
 }

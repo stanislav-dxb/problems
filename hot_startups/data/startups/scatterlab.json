@@ -1,0 +1,224 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "South Korea",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "South Korea",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://app.dealroom.co/companies/scatter_lab"
+        ],
+        "value": "Seoul, South Korea"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://platum.kr/archives/295221"
+        ],
+        "value": "Zeta has passed 13 million cumulative sign-ups as of September 2026 and just launched a new visual novel feature after a private beta."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.kedglobal.com/artificial-intelligence/newsView/ked202304240008",
+          "https://en.wowtale.net/2023/04/27/56504/"
+        ],
+        "value": "$11M (KRW 15 billion) from SK Telecom, April 2023"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "People want to create and chat with their own custom characters and stories, so ScatterLab built Zeta, an app that lets users build AI characters and worlds and talk with them in real time.",
+    "industry": "AI companion",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Let your users create and sell content inside your product, and it keeps growing your catalogue and your revenue without extra work from you.",
+    "name": "ScatterLab",
+    "not_startup_reason": null,
+    "overall": 6.0,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "13 million cumulative sign-ups is a real number, but there is no data showing how fast that number is climbing.",
+        "score": 5,
+        "source": "https://platum.kr/archives/295221"
+      },
+      "market": {
+        "reason": "AI companion chat apps are already a big worldwide entertainment market, and Zeta runs in Korea, Japan and the US.",
+        "score": 7,
+        "source": "https://platum.kr/archives/295221"
+      },
+      "tech": {
+        "reason": "Generating matching character art, expressions and backgrounds live during a chat is a clever technical feat, but rival companion-AI apps could build something similar within a year or two.",
+        "score": 6,
+        "source": "https://platum.kr/archives/295221"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-28",
+        "title": "ScatterLab's 'Zeta' adds a visual novel mode with character art",
+        "url": "https://platum.kr/archives/295221"
+      },
+      {
+        "date": null,
+        "title": "Scatter Lab company information, funding & investors",
+        "url": "https://app.dealroom.co/companies/scatter_lab"
+      },
+      {
+        "date": null,
+        "title": "SK Telecom invests $11 mn in AI startup Scatter Lab",
+        "url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202304240008"
+      },
+      {
+        "date": "2023-04-27",
+        "title": "SK Telecom invests KRW 15 billion in 'ScatterLab'",
+        "url": "https://en.wowtale.net/2023/04/27/56504/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Zeta just added a 'visual novel mode' where AI generates character art, expressions and changing backgrounds live to match the conversation, plus game-like choices and dice-roll events.",
+    "website": null,
+    "who_pays": "Users buy in-app content and premium features, and the company shares revenue with creators who sell character outfits they design.",
+    "why_now": "AI image generation is now fast and good enough to draw a fresh illustrated scene for every twist in a live conversation, turning plain text chat into an animated story."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "scatterlab",
+  "industry": "AI companion",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-28",
+      "run": "2026-09-28-r4",
+      "snippet": "Generative AI startup added a visual novel mode to its AI-character chat app 'Zeta', combining character art with conversation.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://platum.kr/archives/295221"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Dealroom profile of Scatter Lab (ScatterLab), a Seoul-based conversational AI company.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Scatter Lab company information, funding & investors | Dealroom.co",
+      "url": "https://app.dealroom.co/companies/scatter_lab"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "KED Global on SK Telecom's $11M investment in ScatterLab.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "SK Telecom invests $11 mn in AI startup Scatter Lab - KED Global",
+      "url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202304240008"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "PitchBook profile with ScatterLab's valuation, funding and investors.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Scatter Lab 2026 Company Profile: Valuation, Funding & Investors | PitchBook",
+      "url": "https://pitchbook.com/profiles/company/93545-83"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Karmada open-source project blog noting ScatterLab adopted its technology for infrastructure.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Welcome Scatter Lab to the Karmada Adopter Group! | karmada",
+      "url": "https://karmada.io/blog/2025/10/16/scatterlab-officially-joined-the-karmada-adopter-group/scatterlab/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "WOWTALE on SK Telecom's roughly $11M (KRW 15 billion) investment in ScatterLab.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "SK Telecom invests KRW 15 billion in 'ScatterLab' - WOWTALE",
+      "url": "https://en.wowtale.net/2023/04/27/56504/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tracxn profile listing ScatterLab's team, funding and competitors.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Scatter Lab - 2026 Company Profile, Team, Funding & Competitors - Tracxn",
+      "url": "https://tracxn.com/d/companies/scatterlab/__NbSBU9ywFR-VbdCzwNEF1oz8gfawjO9f8ipPjU3LsQA"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Crunchbase company profile and funding history for ScatterLab.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Scatter Lab - Crunchbase Company Profile & Funding",
+      "url": "https://www.crunchbase.com/organization/scatter-lab"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Alion profile with ScatterLab's jobs, salaries and tech stack.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Scatter Lab: Jobs, Salaries & Tech Stack (2026) | Alion",
+      "url": "https://alion.io/company/scatter-lab"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "The Company Check profile page for Scatter Lab.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Scatter Lab — Company Profile | The Company Check",
+      "url": "https://www.thecompanycheck.com/company/b/scatter-lab/eqku57560u2js5xew"
+    }
+  ],
+  "name": "ScatterLab",
+  "name_key": "scatterlab",
+  "region": "asia",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-scatterlab.txt",
+    "article_url": "https://platum.kr/archives/295221",
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"ScatterLab\" startup South Korea"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 5.0,
+      "market": 7.0,
+      "overall": 6.0,
+      "run": "2026-09-28-r4",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T03:33:46+00:00",
+  "website": null
+}

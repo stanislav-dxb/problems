@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Brazil",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "amentoria",
+  "industry": "edtech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-22",
+      "run": "2026-09-28-r4",
+      "snippet": "Brazilian edtech raised a $196K seed round led by Triaxis Capital and Crescera Capital to expand its education platform.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://latamlist.com/amentoria-raises-196k-seed-round-to-expand-education-platform-in-brazil/"
+    }
+  ],
+  "name": "AMentoria",
+  "name_key": "amentoria",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:09:27+00:00",
+  "website": null
+}

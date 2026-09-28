@@ -4,11 +4,130 @@
   "country": "Germany",
   "domain": "midas.app",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Germany",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2026/03/berlin-based-midas-lands-e43-million-to-expand-tokenised-investment-infrastructure/",
+          "https://berlinstartupjobs.com/companies/midas/"
+        ],
+        "value": "Berlin, Germany"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.marketscreener.com/news/tokenisation-startup-midas-raises-50-million-in-early-stage-funding-round-ce7e51d9d881f326",
+          "https://www.axios.com/pro/fintech-deals/2024/03/28/tokenization-midas-8-million"
+        ],
+        "value": "Raised a $50M Series A in 2026 (about €43M), a big jump from its $8.75M round in 2024, with backers including RRE, Creandum, Coinbase Ventures and Franklin Templeton."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.marketscreener.com/news/tokenisation-startup-midas-raises-50-million-in-early-stage-funding-round-ce7e51d9d881f326",
+          "https://www.startbase.com/news/midas-sammelt-50-millionen-us-dollar-in-series-a-ein"
+        ],
+        "value": "$50M Series A (2026), after an earlier $8.75M round in 2024"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Buying and trading things like stocks, bonds or funds is normally split across many separate, hard-to-connect systems, so Midas builds infrastructure that turns those investments into digital tokens so they can move and trade more easily online.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "When a new way of doing something (tokenising assets) starts to catch on, there is often more money in selling the infrastructure everyone needs than in selling directly to end users.",
+    "name": "Midas",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number: funding round size compared with the prior round",
+        "reason": "Its funding jumped from $8.75M in 2024 to a $50M round in 2026, with well-known crypto and traditional-finance investors joining, though no user or revenue numbers are public.",
+        "score": 7,
+        "source": "https://www.axios.com/pro/fintech-deals/2024/03/28/tokenization-midas-8-million"
+      },
+      "market": {
+        "reason": "Tokenised investing could eventually touch a large part of global financial markets, though today it is still a specialised, early-stage niche.",
+        "score": 7,
+        "source": "https://www.eu-startups.com/2026/03/berlin-based-midas-lands-e43-million-to-expand-tokenised-investment-infrastructure/"
+      },
+      "tech": {
+        "reason": "Building compliant tokenisation infrastructure takes real engineering and regulatory work, but several other firms are building similar tokenisation platforms.",
+        "score": 6,
+        "source": "https://www.marketscreener.com/news/tokenisation-startup-midas-raises-50-million-in-early-stage-funding-round-ce7e51d9d881f326"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Tokenisation startup Midas raises $50 million in early-stage funding round | MarketScreener",
+        "url": "https://www.marketscreener.com/news/tokenisation-startup-midas-raises-50-million-in-early-stage-funding-round-ce7e51d9d881f326"
+      },
+      {
+        "date": null,
+        "title": "Berlin-based Midas lands €43 million to expand tokenised investment infrastructure | EU-Startups",
+        "url": "https://www.eu-startups.com/2026/03/berlin-based-midas-lands-e43-million-to-expand-tokenised-investment-infrastructure/"
+      },
+      {
+        "date": null,
+        "title": "Tokenization startup Midas raises $8.75M",
+        "url": "https://www.axios.com/pro/fintech-deals/2024/03/28/tokenization-midas-8-million"
+      },
+      {
+        "date": null,
+        "title": "Midas raises 50 million US dollars in Series A | Startbase",
+        "url": "https://www.startbase.com/news/midas-sammelt-50-millionen-us-dollar-in-series-a-ein"
+      },
+      {
+        "date": null,
+        "title": "Midas Software GmbH Asset Profile | Preqin",
+        "url": "https://www.preqin.com/data/profile/asset/midas-software-gmbh/631042"
+      },
+      {
+        "date": null,
+        "title": "Jobs at Midas - Berlin Startup Jobs",
+        "url": "https://berlinstartupjobs.com/companies/midas/"
+      },
+      {
+        "date": null,
+        "title": "Midas - Crunchbase Company Profile & Funding",
+        "url": "https://www.crunchbase.com/organization/midas-eb5f"
+      },
+      {
+        "date": null,
+        "title": "Tokenisation Startup Midas Raises $50 Million in Early-Stage Funding Round",
+        "url": "https://www.globalbankingandfinance.com/tokenisation-startup-midas-raises-50-million-early-stage/"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026 | VivaTech",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Instead of building another app for regular people to invest with, Midas builds the behind-the-scenes plumbing (tokenised investment infrastructure) that other financial companies plug into.",
+    "website": "https://midas.app/",
+    "who_pays": "Banks, brokers and asset managers pay to use Midas's infrastructure to tokenise and distribute investment products to their own customers.",
+    "why_now": "Turning real financial assets into digital tokens ('tokenisation') is moving from a niche idea to something big banks and asset managers are testing, so infrastructure that makes this easy is in high demand."
+  },
+  "first_judged_run": "2026-09-28-r4",
   "first_seen": "2026-09-16",
   "id": "midas-app",
-  "industry": "FinTech",
-  "last_checked": null,
+  "industry": "Fintech",
+  "last_checked": "2026-09-28",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -18,18 +137,116 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://midas.app/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "German tokenisation startup Midas raised $50 million in an early-stage round led by RRE and Creandum, with Coinbase Ventures and Franklin Templeton participating.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Tokenisation startup Midas raises $50 million in early-stage funding round | MarketScreener",
+      "url": "https://www.marketscreener.com/news/tokenisation-startup-midas-raises-50-million-in-early-stage-funding-round-ce7e51d9d881f326"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Berlin-based Midas raised €43 million to expand its tokenised investment infrastructure.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Berlin-based Midas lands €43 million to expand tokenised investment infrastructure | EU-Startups",
+      "url": "https://www.eu-startups.com/2026/03/berlin-based-midas-lands-e43-million-to-expand-tokenised-investment-infrastructure/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Earlier report on Midas raising $8.75 million for its tokenization platform in 2024.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Tokenization startup Midas raises $8.75M",
+      "url": "https://www.axios.com/pro/fintech-deals/2024/03/28/tokenization-midas-8-million"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Midas raised $50 million in a Series A round, per German startup database Startbase.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Midas raises 50 million US dollars in Series A | Startbase",
+      "url": "https://www.startbase.com/news/midas-sammelt-50-millionen-us-dollar-in-series-a-ein"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Preqin data profile confirming the legal entity name Midas Software GmbH, based in Germany.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Midas Software GmbH Asset Profile | Preqin",
+      "url": "https://www.preqin.com/data/profile/asset/midas-software-gmbh/631042"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Job board listing for Midas, based in Berlin.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Jobs at Midas - Berlin Startup Jobs",
+      "url": "https://berlinstartupjobs.com/companies/midas/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Crunchbase profile with Midas's funding history.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Midas - Crunchbase Company Profile & Funding",
+      "url": "https://www.crunchbase.com/organization/midas-eb5f"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Coverage of Midas's $50 million funding round for its blockchain-based asset tokenisation platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Tokenisation Startup Midas Raises $50 Million in Early-Stage Funding Round",
+      "url": "https://www.globalbankingandfinance.com/tokenisation-startup-midas-raises-50-million-early-stage/"
     }
   ],
   "name": "Midas",
   "name_key": "midas",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-midas-app.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-09-28-r4",
+    "pages": 2,
+    "queries_done": [
+      "\"Midas\" startup Germany"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 7.0,
+      "market": 7.0,
+      "overall": 6.7,
+      "run": "2026-09-28-r4",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:27:36+00:00",
   "website": "https://midas.app/"
 }

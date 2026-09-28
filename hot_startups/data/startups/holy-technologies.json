@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Germany",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "holy-technologies",
+  "industry": "Manufacturing",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Hamburg-based startup building an autonomous, machine-learning manufacturing system for carbon fiber composites, separate from the HOLY drinks brand.",
+      "source": "\"HOLY\" startup Germany",
+      "source_kind": "search",
+      "title": "Holy Technologies | Startup City Hamburg",
+      "url": "https://startupcity.hamburg/startups-ecosystem/holy_technologies"
+    }
+  ],
+  "name": "Holy Technologies",
+  "name_key": "holytechnologies",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:19:38+00:00",
+  "website": null
+}

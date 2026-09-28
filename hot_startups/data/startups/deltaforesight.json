@@ -1,0 +1,220 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Japan",
+  "domain": "deltaforesight.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "Japan",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://thebridge.jp/2026/09/deltaforesight-raises-324-million-yen-via-j-kiss",
+          "https://deltaforesight.com/en/"
+        ],
+        "value": "This round adds to an earlier J-KISS raise, bringing cumulative funding to about $2.1M, with new backers including Coral Capital, FFG, Animoca Brands and HashPort joining."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://thebridge.jp/2026/09/deltaforesight-raises-324-million-yen-via-j-kiss",
+          "https://deltaforesight.com/en/"
+        ],
+        "value": "About ¥324M ($2.1M) cumulative, via J-KISS convertible notes"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "People and businesses that earn and spend in Japanese yen but borrow in US-dollar stablecoins end up exposed to two currencies moving at once, so DeltaForesight is building a lending system that lets them borrow a yen-tracking crypto stablecoin instead.",
+    "industry": "DeFi",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "When your customers already use a global product that creates a currency mismatch for them, build the local-currency version of it instead.",
+    "name": "DeltaForesight",
+    "not_startup_reason": null,
+    "overall": 4.0,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "substitute: repeat funding round with new backers (Coral Capital, FFG, Animoca Brands, HashPort)",
+        "reason": "The protocol is still under development with no mainnet or users yet, so the only real signal is that several serious investors backed a second funding round.",
+        "score": 3,
+        "source": "https://thebridge.jp/2026/09/deltaforesight-raises-324-million-yen-via-j-kiss"
+      },
+      "market": {
+        "reason": "A yen-pegged stablecoin serves crypto users and businesses tied to one country's currency, which is a real niche rather than a mass-market product yet.",
+        "score": 5,
+        "source": "https://deltaforesight.com/en/"
+      },
+      "tech": {
+        "reason": "Overcollateralized crypto lending with automatic liquidation is a well-known DeFi design, similar to existing protocols, so a strong team could copy it within a year or two.",
+        "score": 4,
+        "source": "https://deltaforesight.com/en/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-26",
+        "title": "「JPYdf」DeFi開発のDeltaForesight、Coral Capitalリードで3.24億円調達",
+        "url": "https://thebridge.jp/2026/09/deltaforesight-raises-324-million-yen-via-j-kiss"
+      },
+      {
+        "date": "2026-09-25",
+        "title": "DeltaForesight | A new force for society.",
+        "url": "https://deltaforesight.com/en/"
+      },
+      {
+        "date": null,
+        "title": "About us | DeltaForesight",
+        "url": "https://deltaforesight.com/en/about/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its protocol, JPYdf, is backed only by crypto collateral locked in a smart contract, which is automatically sold off if its value drops too low, so no bank or company holds the money behind it.",
+    "website": "https://deltaforesight.com/en/",
+    "who_pays": "Crypto holders and businesses who want yen-priced loans would eventually pay fees or interest to borrow JPYdf, once the protocol's mainnet is live.",
+    "why_now": "Japan is opening up clearer rules for crypto assets and stablecoins just as more businesses there start borrowing in digital assets, leaving room for a yen-focused option instead of only dollar ones."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "deltaforesight",
+  "industry": "DeFi",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-26",
+      "run": "2026-09-28-r4",
+      "snippet": "Develops the 'JPYdf' DeFi protocol, raised 324 million yen via J-KISS notes led by Coral Capital.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://thebridge.jp/2026/09/deltaforesight-raises-324-million-yen-via-j-kiss"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "LinkedIn profile of Yusuke Jindo, founder and CEO of DeltaForesight, formerly CFO at Animoca Brands Japan.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Yusuke Jindo - Founder & CEO at DeltaForesight / ex-CFO at Animoca Brands Japan / Japanese CPA passed as No.1 score | LinkedIn",
+      "url": "https://www.linkedin.com/in/yusuke-jindo-1882a0186/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "WebX conference speaker page listing Yusuke Jindo of DeltaForesight.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Yusuke Jindo - DeltaForesight | Speaker of WebX 2026 | WebX | Asia's Largest Web3 Conference | August 2027",
+      "url": "https://webx-asia.com/speaker/84"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Initial (Speeda) Japanese startup database profile for DeltaForesight K.K.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "DeltaForesight株式会社｜スピーダ スタートアップ情報リサーチ",
+      "url": "https://initial.inc/companies/A-LBGDL"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Jorudan news release about an investment into DeltaForesight.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "DeltaForesight株式会社への出資について - ジョルダンニュース",
+      "url": "https://news.jorudan.co.jp/docs/news/detail.cgi?newsid=PT000426A000029076"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "DeltaForesight's own English-language about page.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "About us | DeltaForesight",
+      "url": "https://deltaforesight.com/en/about/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "DeltaForesight's own homepage, describing itself as developing JPYdf, a crypto-backed stablecoin tracking the Japanese yen.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "DeltaForesight | A new force for society.",
+      "url": "https://deltaforesight.com/en/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "PR Times press release from Fukuoka Financial Group about an investment in DeltaForesight.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "DeltaForesight株式会社への出資について | 株式会社ふくおかフィナンシャルグループのプレスリリース",
+      "url": "https://prtimes.jp/main/html/rd/p/000000426.000029076.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "NADA News report that DeltaForesight, developer of the crypto-backed stablecoin JPYdf, raised 300 million yen.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "暗号資産型ステーブルコイン「JPYdf」開発のDeltaForesight、3億円調達 | NADA NEWS（ナダ・ニュース）",
+      "url": "https://www.nadanews.com/369420/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "CB Insights investor page, tangential to DeltaForesight funding data.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Predict your next investment",
+      "url": "https://www.cbinsights.com/investor/delta-1"
+    }
+  ],
+  "name": "DeltaForesight",
+  "name_key": "deltaforesight",
+  "region": "asia",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-deltaforesight.txt",
+    "article_url": "https://thebridge.jp/2026/09/deltaforesight-raises-324-million-yen-via-j-kiss",
+    "judged_run": "2026-09-28-r4",
+    "pages": 2,
+    "queries_done": [
+      "\"DeltaForesight\" startup Japan"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-deltaforesight.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 3.0,
+      "market": 5.0,
+      "overall": 4.0,
+      "run": "2026-09-28-r4",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:44:41+00:00",
+  "website": "https://deltaforesight.com/en/"
+}

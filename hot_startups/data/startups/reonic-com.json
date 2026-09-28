@@ -4,11 +4,115 @@
   "country": "Germany",
   "domain": "reonic.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Germany",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://techcrunch.com/2024/09/04/reonic-raises-e13-million-to-help-small-installers-of-green-tech-like-heat-pumps-and-solar-panels/"
+        ],
+        "value": "Augsburg, Germany"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://techcrunch.com/2024/09/04/reonic-raises-e13-million-to-help-small-installers-of-green-tech-like-heat-pumps-and-solar-panels/"
+        ],
+        "value": "2021"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://reonic.com/"
+        ],
+        "value": "The company's own website says it already has more than 3,000 installer customers using its platform."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://techcrunch.com/2024/09/04/reonic-raises-e13-million-to-help-small-installers-of-green-tech-like-heat-pumps-and-solar-panels/",
+          "https://www.eu-startups.com/2024/09/german-climate-tech-reonic-raises-e13-million-to-integrate-renewables-into-households-and-businesses/"
+        ],
+        "value": "€13M Series A"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Small companies that install solar panels and heat pumps have to juggle sales, planning, paperwork and installation with no proper software, so Reonic gives them one AI-powered platform to plan, sell, and manage the whole job.",
+    "industry": "Energy",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Find a trade that is growing fast but still runs on paper and spreadsheets, and sell them one piece of software that replaces all their separate tools.",
+    "name": "Reonic",
+    "not_startup_reason": null,
+    "overall": 5.7,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: customer count (3,000+ installer customers)",
+        "reason": "No revenue or growth-rate numbers were given, but the company reports over 3,000 installer customers and just closed a €13M Series A round.",
+        "score": 6,
+        "source": "https://reonic.com/"
+      },
+      "market": {
+        "reason": "Software for solar and heat pump installers taps into the fast-growing renewables industry across Europe, but it is still a niche tool for one type of trade business.",
+        "score": 6,
+        "source": "https://www.eu-startups.com/2024/09/german-climate-tech-reonic-raises-e13-million-to-integrate-renewables-into-households-and-businesses/"
+      },
+      "tech": {
+        "reason": "Combining CRM, solar design, and AI chat tools into one platform is solid engineering, but a well-funded competitor could build a similar suite within a year or two.",
+        "score": 5,
+        "source": "https://reonic.com/"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Reonic raises €13 million to help small installers of green tech like heat pumps and solar panels | TechCrunch",
+        "url": "https://techcrunch.com/2024/09/04/reonic-raises-e13-million-to-help-small-installers-of-green-tech-like-heat-pumps-and-solar-panels/"
+      },
+      {
+        "date": null,
+        "title": "German climate tech Reonic raises €13 million to integrate renewables into households and businesses | EU-Startups",
+        "url": "https://www.eu-startups.com/2024/09/german-climate-tech-reonic-raises-e13-million-to-integrate-renewables-into-households-and-businesses/"
+      },
+      {
+        "date": null,
+        "title": "German climate tech SaaS startup Reonic secures €13M",
+        "url": "https://siliconcanals.com/climate-tech-saas-startup-reonic-secures-e13m/"
+      },
+      {
+        "date": null,
+        "title": "Climate tech start-up Reonic raises 13 million euros in Series A round | Startbase",
+        "url": "https://www.startbase.com/news/climate-tech-startup-reonic-sammelt-13-mio-euro-in-series-a-runde-ein/"
+      },
+      {
+        "date": null,
+        "title": "Reonic Raises €13M in Series A Funding",
+        "url": "https://www.finsmes.com/2024/09/reonic-raises-e13m-in-series-a-funding.html"
+      },
+      {
+        "date": null,
+        "title": "Reonic · Renewable Solutions",
+        "url": "https://reonic.com/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "The platform includes AI agents that draft offers, follow up with leads, and answer technical questions about parts and error codes, so a small installer can run more like a big company.",
+    "website": "https://reonic.com/",
+    "who_pays": "Small and medium-sized companies that install solar panels, heat pumps, and other renewable equipment, who pay for the software subscription.",
+    "why_now": "Governments and homeowners across Europe are installing solar panels and heat pumps faster than ever, and the small installer companies doing the work are overwhelmed with paperwork and manual admin."
+  },
+  "first_judged_run": "2026-09-28-r4",
   "first_seen": "2026-09-16",
   "id": "reonic-com",
   "industry": "Energy",
-  "last_checked": null,
+  "last_checked": "2026-09-28",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -18,18 +122,126 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://reonic.com/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Reonic, a German climate tech SaaS startup, secured €13 million in funding.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "German climate tech SaaS startup Reonic secures €13M",
+      "url": "https://siliconcanals.com/climate-tech-saas-startup-reonic-secures-e13m/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Reonic raised €13 million in a Series A round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Climate tech start-up Reonic raises 13 million euros in Series A round | Startbase",
+      "url": "https://www.startbase.com/news/climate-tech-startup-reonic-sammelt-13-mio-euro-in-series-a-runde-ein/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Reonic, an Augsburg-based climate tech startup founded in 2021, raised €13M Series A led by Northzone, with Point Nine and Puzzle Ventures. Software helps small installers of heat pumps and solar panels.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Reonic raises €13 million to help small installers of green tech like heat pumps and solar panels | TechCrunch",
+      "url": "https://techcrunch.com/2024/09/04/reonic-raises-e13-million-to-help-small-installers-of-green-tech-like-heat-pumps-and-solar-panels/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Reonic raised €13 million to help integrate renewable energy into households and businesses.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "German climate tech Reonic raises €13 million to integrate renewables into households and businesses | EU-Startups",
+      "url": "https://www.eu-startups.com/2024/09/german-climate-tech-reonic-raises-e13-million-to-integrate-renewables-into-households-and-businesses/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Startbase company profile for Reonic GmbH.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Reonic (Reonic GmbH)",
+      "url": "https://www.startbase.com/organization/reonic-gmbh/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Reonic's own about page.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Reonic · About us",
+      "url": "https://reonic.com/en-gb/about/us/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "FinSMEs funding announcement for Reonic's Series A.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Reonic Raises €13M in Series A Funding",
+      "url": "https://www.finsmes.com/2024/09/reonic-raises-e13m-in-series-a-funding.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Review site covering Reonic's software pricing and features.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Reonic Review 2026 — Pricing, Pros & Cons | SectorPunk",
+      "url": "https://sectorpunk.com/en/reviews/reonic"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "The SaaS News item on Reonic's €13M Series A.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Reonic Secures €13 Million in Series A",
+      "url": "https://www.thesaasnews.com/news/reonic-secures-13-million-in-series-a/"
     }
   ],
   "name": "Reonic",
   "name_key": "reonic",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-reonic-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-09-28-r4",
+    "pages": 2,
+    "queries_done": [
+      "\"Reonic\" startup Germany"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-reonic-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 6.0,
+      "market": 6.0,
+      "overall": 5.7,
+      "run": "2026-09-28-r4",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:38:45+00:00",
   "website": "https://reonic.com/"
 }

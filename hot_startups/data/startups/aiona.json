@@ -1,0 +1,179 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Japan",
+  "domain": "aiona.co.jp",
+  "drop_reason": null,
+  "entry": {
+    "country": "Japan",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.thesaasnews.com/news/aiona-raises-140000000-unknown/"
+        ],
+        "value": "Shibuya, Tokyo, Japan"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.thesaasnews.com/news/aiona-raises-140000000-unknown/"
+        ],
+        "value": "2024"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://thebridge.jp/2026/09/aiona-raises-140m-yen-for-ai-driven-design",
+          "https://www.thesaasnews.com/news/aiona-raises-140000000-unknown/"
+        ],
+        "value": "¥140M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Designing new products in factories takes a lot of slow, manual work, so AIONA built an AI agent called REVY that helps engineers do that design work faster.",
+    "industry": "AI tools",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Automate the slow, document-heavy steps of an expert job while keeping a human in charge of the final decision.",
+    "name": "AIONA",
+    "not_startup_reason": null,
+    "overall": 6.5,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "unknown",
+        "reason": "No user, revenue or customer numbers are available yet.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "Manufacturing companies worldwide need design and engineering work done, a large but specialized market.",
+        "score": 7,
+        "source": null
+      },
+      "tech": {
+        "reason": "It uses AI on a company's own design documents and know-how, a solid approach that a strong team could rebuild in a year or so.",
+        "score": 6,
+        "source": "https://thebridge.jp/2026/09/aiona-raises-140m-yen-for-ai-driven-design"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-24",
+        "title": "設計業務を自動化するAIエージェント「REVY」のAIONA、ON&BOARDリードで1.4億円を調達",
+        "url": "https://thebridge.jp/2026/09/aiona-raises-140m-yen-for-ai-driven-design"
+      },
+      {
+        "date": null,
+        "title": "AIONA Raises ¥140M in Funding",
+        "url": "https://www.thesaasnews.com/news/aiona-raises-140000000-unknown/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "REVY reads a company's own past drawings, documents and unwritten know-how to prepare each design decision, such as spotting failure risks or checking drawings for errors, but leaves the final call to a human engineer.",
+    "website": "https://www.aiona.co.jp/",
+    "who_pays": "Manufacturing companies pay to speed up and support their engineers' design and drawing-check work.",
+    "why_now": "AI agents are now good enough to read technical drawings and documents, work that used to need a specialist engineer's judgment."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "aiona",
+  "industry": "AI tools",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-24",
+      "run": "2026-09-28-r4",
+      "snippet": "Develops the 'REVY' AI agent that automates manufacturing design work, raised 140 million yen.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://thebridge.jp/2026/09/aiona-raises-140m-yen-for-ai-driven-design"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Plug and Play Japan profile page for AIONA Inc., a startup in its network.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "AIONA Inc. | Plug and Play Japan",
+      "url": "https://japan.plugandplaytechcenter.com/startups/our-startups/aiona-inc/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "AIONA's own Japanese-language company website (AIONA Corporation).",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "AIONA株式会社",
+      "url": "https://www.aiona.co.jp/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "AIONA Corporation, based in Shibuya-ku, Tokyo and founded October 10, 2024, raised 140 million yen via J-KISS stock acquisition rights and debt financing, led by ON&BOARD with GxPartners, Crest Skill Partners, and Mizuho Capital participating. Funds go toward REVY, its AI agent for automating design tasks in manufacturing.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "AIONA Raises ¥140M in Funding",
+      "url": "https://www.thesaasnews.com/news/aiona-raises-140000000-unknown/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "JETRO overview article on Japanese AI startups; general industry context, not AIONA-specific.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Startups in the Vanguard of Japanese Artificial Intelligence | Japan Insight - JETRO",
+      "url": "https://www.jetro.go.jp/en/invest/insights/japan-insight/startups-japan-ai.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "StartupBlink ranking listing of top Japanese startups for September 2026.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "4074 Top startups in Japan for September 2026",
+      "url": "https://www.startupblink.com/top-startups/japan"
+    }
+  ],
+  "name": "AIONA",
+  "name_key": "aiona",
+  "region": "asia",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-aiona.txt",
+    "article_url": "https://thebridge.jp/2026/09/aiona-raises-140m-yen-for-ai-driven-design",
+    "judged_run": "2026-09-28-r4",
+    "pages": 2,
+    "queries_done": [
+      "\"AIONA\" startup Japan"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": null,
+      "market": 7.0,
+      "overall": 6.5,
+      "run": "2026-09-28-r4",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T03:30:22+00:00",
+  "website": "https://www.aiona.co.jp/"
+}

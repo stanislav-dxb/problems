@@ -1,0 +1,210 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Nigeria",
+  "domain": "thally.io",
+  "drop_reason": null,
+  "entry": {
+    "country": "Nigeria",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://disruptafrica.com/2026/09/25/nigerias-thally-launches-to-provide-the-product-knowledge-layer-for-software-teams/",
+          "https://techmoran.com/2026/09/15/thally-launches-ai-documentation-startup-after-reaching-100-workspaces/"
+        ],
+        "value": "Nigeria"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://disruptafrica.com/2026/09/25/nigerias-thally-launches-to-provide-the-product-knowledge-layer-for-software-teams/"
+        ],
+        "value": "2026"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://techmoran.com/2026/09/15/thally-launches-ai-documentation-startup-after-reaching-100-workspaces/"
+        ],
+        "value": "Reached about 100 active workspaces before launching publicly."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "When a software product changes, its documentation, website text and support articles often fall out of date, so Thally watches a company's code and content repositories and works out exactly which pages need updating.",
+    "industry": "Developer tools",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "If you personally suffered through a slow, manual task at several jobs, the shortcut you build for yourself can become the product.",
+    "name": "Thally",
+    "not_startup_reason": null,
+    "overall": 4.7,
+    "region": "mea",
+    "scores": {
+      "growth": {
+        "basis": "number: about 100 active workspaces at launch",
+        "reason": "Reaching about 100 workspaces before public launch is a real but modest early signal, with no growth rate over time yet.",
+        "score": 3,
+        "source": "https://techmoran.com/2026/09/15/thally-launches-ai-documentation-startup-after-reaching-100-workspaces/"
+      },
+      "market": {
+        "reason": "Every software company needs its documentation and support content to stay accurate, but this is one function within a company, not a market everyone touches.",
+        "score": 6,
+        "source": "https://disruptafrica.com/2026/09/25/nigerias-thally-launches-to-provide-the-product-knowledge-layer-for-software-teams/"
+      },
+      "tech": {
+        "reason": "Tracing a product change across connected docs, websites and support content and writing the fix is a clever approach, but other AI documentation tools are chasing the same idea.",
+        "score": 5,
+        "source": "https://disruptafrica.com/2026/09/25/nigerias-thally-launches-to-provide-the-product-knowledge-layer-for-software-teams/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-25",
+        "title": "Nigeria's Thally launches to provide the product knowledge layer for software teams - Disrupt Africa",
+        "url": "https://disruptafrica.com/2026/09/25/nigerias-thally-launches-to-provide-the-product-knowledge-layer-for-software-teams/"
+      },
+      {
+        "date": null,
+        "title": "Thally Launches AI Documentation Startup: TechMoran",
+        "url": "https://techmoran.com/2026/09/15/thally-launches-ai-documentation-startup-after-reaching-100-workspaces/"
+      },
+      {
+        "date": null,
+        "title": "Thally launches AI documentation platform - Gmap Track",
+        "url": "https://www.gmap-track.com/thally-ai-documentation.html"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Instead of just flagging outdated pages, Thally opens a pull request with the fix already written and the evidence behind it, so a human only has to check and approve it, and it also hosts the documentation itself, readable by people or by AI tools.",
+    "website": "https://thally.io",
+    "who_pays": "Software companies, through their product and developer-experience teams, that need their documentation, websites and support content to stay correct.",
+    "why_now": "Companies are shipping product changes faster than ever, so keeping documentation and support content accurate by hand can no longer keep pace."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "thally",
+  "industry": "Developer tools",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-25",
+      "run": "2026-09-28-r4",
+      "snippet": "Nigerian startup launched to provide the product knowledge layer for software teams, keeping documentation and support content in sync.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://disruptafrica.com/2026/09/25/nigerias-thally-launches-to-provide-the-product-knowledge-layer-for-software-teams/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "TechMoran reports Thally, a Nigerian startup, launched its AI documentation platform after reaching 100 active workspaces.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Thally Launches AI Documentation Startup: TechMoran",
+      "url": "https://techmoran.com/2026/09/15/thally-launches-ai-documentation-startup-after-reaching-100-workspaces/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Nigerian government startup portal, general resource, not specific to Thally.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Startup Nigeria",
+      "url": "https://startup.gov.ng/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "StartupBlink ranking list of top Nigerian startups for September 2026.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "1490 Top startups in Nigeria for September 2026",
+      "url": "https://www.startupblink.com/top-startups/nigeria"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Seedtable directory listing best Nigerian startups for 2026.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Best Startups in Nigeria (2026) | Seedtable",
+      "url": "https://seedtable.com/best-startups-in-nigeria"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tracxn overview of Nigerian startup funding rounds and trends.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Startups in Nigeria - 2026 Latest Funding Rounds, Trends and News - Tracxn",
+      "url": "https://tracxn.com/d/geographies/nigeria/__aRcH8lYOC74CSa9mr7vgyDsrJwlraqmlU3-gQ9qUxb0"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Unrelated Wikipedia article about Paystack co-founder Shola Akinlade, not Thally.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Shola Akinlade",
+      "url": "https://en.wikipedia.org/wiki/Shola_Akinlade"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "StartupMapHub database listing of Nigerian tech companies.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "90 Nigeria Startups (2026) – Tech Companies Database",
+      "url": "https://startupmaphub.com/startups/location/nigeria"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Gmap Track article covering Thally's AI documentation platform launch.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Thally launches AI documentation platform - Gmap Track",
+      "url": "https://www.gmap-track.com/thally-ai-documentation.html"
+    }
+  ],
+  "name": "Thally",
+  "name_key": "thally",
+  "region": "mea",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-thally.txt",
+    "article_url": "https://disruptafrica.com/2026/09/25/nigerias-thally-launches-to-provide-the-product-knowledge-layer-for-software-teams/",
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"Thally\" startup Nigeria"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 3.0,
+      "market": 6.0,
+      "overall": 4.7,
+      "run": "2026-09-28-r4",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:49:49+00:00",
+  "website": "https://thally.io"
+}

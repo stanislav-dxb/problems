@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "velocity-payments",
+  "industry": "Payments / fintech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-07-14",
+      "run": "2026-09-28-r4",
+      "snippet": "Payments startup that raised $38 million to help businesses use stablecoins for cross-border treasury and settlement, competing with banks and FX houses across the US, Europe and Australia.",
+      "source": "\"Velocity\" startup United States",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://fortune.com/2026/07/14/exclusive-payments-startup-velocity-38-million-businesses-stablecoin-growth/"
+    }
+  ],
+  "name": "Velocity (payments)",
+  "name_key": "velocitypayments",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:49:55+00:00",
+  "website": null
+}

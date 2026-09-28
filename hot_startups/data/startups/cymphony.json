@@ -2,13 +2,119 @@
   "alias_keys": [],
   "aliases": [],
   "country": "United States",
-  "domain": null,
+  "domain": "cymphony.io",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://quasa.io/insights/cymphony-raises-30m-its-first-proof-is-85-000-ai-visible-files"
+        ],
+        "value": "Launched publicly with this funding round; no user or revenue growth numbers given yet, but it says a proof-of-concept at one customer found 85,000 files visible to AI."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://thebridge.jp/2026/09/cymphony-30m-ai-agent-access-security",
+          "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/",
+          "https://finance.yahoo.com/technology/ai/articles/cymphony-launches-30-million-secure-133000121.html"
+        ],
+        "value": "$30M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "As companies let AI tools and AI agents touch their internal data, it gets easy for that access to expose sensitive files by accident, so Cymphony builds a map of every employee, AI agent, file and permission so security teams can see and fix risky access fast.",
+    "industry": "AI security",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "When a wave of new technology (here, AI agents) creates a new kind of risk, build the tool that shows businesses exactly what that risk looks like and lets them fix it, not just see it.",
+    "name": "Cymphony",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round size and repeat investment from Sequoia, which backed the earlier seed round too",
+        "reason": "The company just launched with this funding round, so there are no user or revenue growth numbers yet.",
+        "score": null,
+        "source": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/"
+      },
+      "market": {
+        "reason": "Almost every company that adopts AI tools will need a way to control what those tools can access, which is a huge and growing market across all industries.",
+        "score": 8,
+        "source": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/"
+      },
+      "tech": {
+        "reason": "Building one graph that connects identity, data, access and behavior across a whole company, for both humans and AI agents, is solid engineering, but rival security vendors are racing to build similar tools.",
+        "score": 6,
+        "source": "https://cymphony.io/about-us"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-14",
+        "title": "AIエージェントのアクセス権限を可視化するCymphony、3,000万ドルを調達",
+        "url": "https://thebridge.jp/2026/09/cymphony-30m-ai-agent-access-security"
+      },
+      {
+        "date": null,
+        "title": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks | TechCrunch",
+        "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/"
+      },
+      {
+        "date": null,
+        "title": "Cymphony Launches with $30 Million to Secure AI Agents Access to Enterprise Data",
+        "url": "https://finance.yahoo.com/technology/ai/articles/cymphony-launches-30-million-secure-133000121.html"
+      },
+      {
+        "date": null,
+        "title": "Cymphony Launches with $30 Million to Secure AI Agents Access to Enterprise Data - The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/investing/markets/markets-news/ACCESS/4513698/cymphony-launches-with-30-million-to-secure-ai-agents-access-to-enterprise-data/"
+      },
+      {
+        "date": null,
+        "title": "About Us | The Team Behind Cymphony's Human Risk Platform",
+        "url": "https://cymphony.io/about-us"
+      },
+      {
+        "date": null,
+        "title": "Cymphony Launches With $30M for AI-Access Security",
+        "url": "https://quasa.io/insights/cymphony-raises-30m-its-first-proof-is-85-000-ai-visible-files"
+      },
+      {
+        "date": null,
+        "title": "Cymphony Raises $30M to Turn Access Data Into Remediation - NewsBreak",
+        "url": "https://www.newsbreak.com/news/4886021319836-cymphony-raises-30m-to-turn-access-data-into-remediation"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its \"Workforce Graph\" treats human staff and AI agents the same way, and an assistant called Maestro can investigate a risk in plain English and then carry out the fix itself, like revoking access or messaging the person who has it.",
+    "website": "https://cymphony.io",
+    "who_pays": "Company security teams pay for it, especially at large enterprises trying to roll out AI without missing a security gap.",
+    "why_now": "Companies are rolling out AI agents very fast, and each new agent given access to company data creates a new way sensitive information can leak, which is a fresh and fast-growing risk that older security tools were not built for."
+  },
+  "first_judged_run": "2026-09-28-r4",
   "first_seen": "2026-09-16",
   "id": "cymphony",
   "industry": "AI security",
-  "last_checked": null,
+  "last_checked": "2026-09-28",
   "mentions": [
     {
       "date": "2026-09-14",
@@ -18,18 +124,117 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://thebridge.jp/2026/09/cymphony-30m-ai-agent-access-security"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "StartupHub.ai directory listing for Cymphony's enterprise security product, with reviews and pricing.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cymphony Security - Enterprise - Reviews, Pricing & Alternatives | StartupHub.ai",
+      "url": "https://www.startuphub.ai/startups/cymphony-security"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "TechCrunch on Sequoia backing Cymphony's Series A, a startup securing enterprise data access as AI agents spread.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks | TechCrunch",
+      "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Datanyze company profile listing Cymphony's management and employees.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cymphony Company Profile | Management and Employees List",
+      "url": "https://www.datanyze.com/companies/cymphony/1230953728"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Yahoo Finance report that Cymphony launched with $30 million to secure AI agents' access to enterprise data.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cymphony Launches with $30 Million to Secure AI Agents Access to Enterprise Data",
+      "url": "https://finance.yahoo.com/technology/ai/articles/cymphony-launches-30-million-secure-133000121.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Globe and Mail syndication of the news that Cymphony launched with a $30 million round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cymphony Launches with $30 Million to Secure AI Agents Access to Enterprise Data - The Globe and Mail",
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/ACCESS/4513698/cymphony-launches-with-30-million-to-secure-ai-agents-access-to-enterprise-data/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Crunchbase profile for 'Cimphony', a similarly named but distinct company, not Cymphony.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cimphony - Crunchbase Company Profile & Funding",
+      "url": "https://www.crunchbase.com/organization/cimphony"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "NewsBreak coverage of Cymphony's $30 million raise to turn access data into security remediation.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cymphony Raises $30M to Turn Access Data Into Remediation - NewsBreak",
+      "url": "https://www.newsbreak.com/news/4886021319836-cymphony-raises-30m-to-turn-access-data-into-remediation"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Cymphony's own about page describing its founders and its Human Risk Platform for workspace security.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "About Us | The Team Behind Cymphony's Human Risk Platform",
+      "url": "https://cymphony.io/about-us"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Quasa.io article on Cymphony's $30M launch round for AI-access security.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cymphony Launches With $30M for AI-Access Security",
+      "url": "https://quasa.io/insights/cymphony-raises-30m-its-first-proof-is-85-000-ai-visible-files"
     }
   ],
   "name": "Cymphony",
   "name_key": "cymphony",
-  "region": null,
+  "region": "north_america",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-cymphony.txt",
+    "article_url": "https://thebridge.jp/2026/09/cymphony-30m-ai-agent-access-security",
+    "judged_run": "2026-09-28-r4",
+    "pages": 2,
+    "queries_done": [
+      "\"Cymphony\" startup United States"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-cymphony.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:50:10+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": null,
+      "market": 8.0,
+      "overall": 7.0,
+      "run": "2026-09-28-r4",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:49:47+00:00",
+  "website": "https://cymphony.io"
 }

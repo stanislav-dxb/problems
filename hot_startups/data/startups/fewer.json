@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": null,
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "fewer",
+  "industry": "consumer app",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-21",
+      "run": "2026-09-28-r4",
+      "snippet": "A phone launcher that counts how often you pick up your phone.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.producthunt.com/products/fewer"
+    }
+  ],
+  "name": "Fewer",
+  "name_key": "fewer",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:05:16+00:00",
+  "website": null
+}

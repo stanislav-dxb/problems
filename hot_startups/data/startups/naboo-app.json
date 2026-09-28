@@ -4,11 +4,123 @@
   "country": "France",
   "domain": "naboo.app",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "France",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Naboo_(entreprise)",
+          "https://www.naboo.app/"
+        ],
+        "value": "Paris, France"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Naboo_(entreprise)"
+        ],
+        "value": "2022"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.naboo.app/"
+        ],
+        "value": "Says over $500 million worth of events have been booked through the platform"
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.journaldunet.com/start-up/1547831-naboo-leve-70-millions-de-dollars-pour-sa-plateforme-d-evenementiel-en-entreprise/",
+          "https://www.naboo.app/"
+        ],
+        "value": "$70M Series B (after a €20M Series A in January 2025)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://www.naboo.app/"
+        ],
+        "value": "over 200"
+      }
+    },
+    "idea": "Companies waste huge amounts of time booking venues, hotels, and suppliers for offsites and events by hand, so Naboo built one platform that sources, books, and pays for all of it.",
+    "industry": "Event tech",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Find a big, boring company expense that is still handled through emails and spreadsheets, and turn it into one platform that also enforces the company's own rules.",
+    "name": "Naboo",
+    "not_startup_reason": null,
+    "overall": 6.3,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last (€20M Series A in Jan 2025 to $70M Series B in Feb 2026)",
+        "reason": "It closed a much larger funding round only about a year after its previous one, and signed big-name customers.",
+        "score": 7,
+        "source": "https://www.journaldunet.com/start-up/1547831-naboo-leve-70-millions-de-dollars-pour-sa-plateforme-d-evenementiel-en-entreprise/"
+      },
+      "market": {
+        "reason": "Almost every mid-size or large company books offsites and events, in many countries.",
+        "score": 7,
+        "source": "https://www.naboo.app/"
+      },
+      "tech": {
+        "reason": "It combines sourcing, booking, payment, and compliance into one AI-assisted platform, which is solid software but a well-funded rival could build something similar in a year or two.",
+        "score": 5,
+        "source": "https://www.naboo.app/"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Star Wars inspired startup Naboo secures €20 million to transform corporate event planning with unified platform | EU-Startups",
+        "url": "https://www.eu-startups.com/2025/01/star-wars-inspired-startup-naboo-secures-e20-million-to-transform-corporate-event-planning-with-unified-platform/"
+      },
+      {
+        "date": null,
+        "title": "Naboo (entreprise) — Wikipédia",
+        "url": "https://fr.wikipedia.org/wiki/Naboo_(entreprise)"
+      },
+      {
+        "date": null,
+        "title": "Naboo lève 20 millions d'euros pour sa plateforme d'événementiel en entreprise",
+        "url": "https://www.usine-digitale.fr/article/naboo-leve-20-millions-d-euros-pour-sa-plateforme-d-evenementiel-en-entreprise.N2226466"
+      },
+      {
+        "date": null,
+        "title": "Naboo lève 70 millions de dollars pour sa plateforme d'événementiel en entreprise",
+        "url": "https://www.journaldunet.com/start-up/1547831-naboo-leve-70-millions-de-dollars-pour-sa-plateforme-d-evenementiel-en-entreprise/"
+      },
+      {
+        "date": null,
+        "title": "Naboo obtient 20M€ pour révolutionner la planification d'événements d'entreprise avec une plateforme basée sur l'IA - CTOL Digital Solutions FR",
+        "url": "https://www.ctol-fr.com/news/naboo-secures-20m-ai-corporate-event-planning/"
+      },
+      {
+        "date": null,
+        "title": "Naboo - AI-Powered Event Procurement Platform",
+        "url": "https://www.naboo.app/"
+      },
+      {
+        "date": null,
+        "title": "Naboo - 2026 Company Profile, Team, Funding & Competitors - Tracxn",
+        "url": "https://tracxn.com/d/companies/naboo/__WuFa5XubajQ6fhsHbfuejNcvCGuPFx2lFC_RIt51tsI"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It calls itself an 'event operating system' that also enforces company travel and event rules automatically, so nobody needs to check every booking by hand.",
+    "website": "https://www.naboo.app/",
+    "who_pays": "Company procurement, HR, and events teams pay to use the platform when they book venues and suppliers for their events.",
+    "why_now": "More companies now run offsites and in-person events again, but the tools to organize them are still scattered across emails and spreadsheets, so demand for one unified booking system is rising."
+  },
+  "first_judged_run": "2026-09-28-r4",
   "first_seen": "2026-09-16",
   "id": "naboo-app",
-  "industry": "Procurement & Operations",
-  "last_checked": null,
+  "industry": "Event tech",
+  "last_checked": "2026-09-28",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -18,18 +130,126 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://www.naboo.app/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Naboo, a French corporate event-planning platform, raised €20 million in a Series A round led by Notion Capital.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Star Wars inspired startup Naboo secures €20 million to transform corporate event planning with unified platform | EU-Startups",
+      "url": "https://www.eu-startups.com/2025/01/star-wars-inspired-startup-naboo-secures-e20-million-to-transform-corporate-event-planning-with-unified-platform/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "French Wikipedia entry: Naboo was founded in Paris in April 2022 by Maxime Eduardo, Antoine Servant, Lucien Bredin and Jean-Louis Villeminot; it pivoted from remote-work organizing to corporate seminar and event planning.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Naboo (entreprise) — Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Naboo_(entreprise)"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "LinkedIn company page for Naboo, described as giving employees the freedom to meet wherever and whenever they need.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Naboo | LinkedIn",
+      "url": "https://fr.linkedin.com/company/naboo-app"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tracxn profile of Naboo with team and funding details.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Naboo - 2026 Company Profile, Team, Funding & Competitors - Tracxn",
+      "url": "https://tracxn.com/d/companies/naboo/__WuFa5XubajQ6fhsHbfuejNcvCGuPFx2lFC_RIt51tsI"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Coverage of Naboo's €20 million raise for its corporate event-planning platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Naboo lève 20 millions d'euros pour sa plateforme d'événementiel en entreprise",
+      "url": "https://www.usine-digitale.fr/article/naboo-leve-20-millions-d-euros-pour-sa-plateforme-d-evenementiel-en-entreprise.N2226466"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Naboo raised $70 million in a Series B led by Lightspeed Venture Partners in February 2026, and opened a New York office.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Naboo lève 70 millions de dollars pour sa plateforme d'événementiel en entreprise",
+      "url": "https://www.journaldunet.com/start-up/1547831-naboo-leve-70-millions-de-dollars-pour-sa-plateforme-d-evenementiel-en-entreprise/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "French startup directory entry for Naboo.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Startup NABOO, Offrez la liberté à vos collaborateurs de se retrouver où ils le souhaitent, quand ils en ont besoin",
+      "url": "https://www.myfrenchstartup.com/fr/startup-france/301706/naboo"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Article on Naboo's €20 million raise for its AI-based corporate event-planning platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Naboo obtient 20M€ pour révolutionner la planification d'événements d'entreprise avec une plateforme basée sur l'IA - CTOL Digital Solutions FR",
+      "url": "https://www.ctol-fr.com/news/naboo-secures-20m-ai-corporate-event-planning/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "CB Insights page listing Naboo's founding year and company data.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Founded Year",
+      "url": "https://www.cbinsights.com/company/naboo-1"
     }
   ],
   "name": "Naboo",
   "name_key": "naboo",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-naboo-app.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-09-28-r4",
+    "pages": 2,
+    "queries_done": [
+      "\"Naboo\" startup France"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-naboo-app.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 7.0,
+      "market": 7.0,
+      "overall": 6.3,
+      "run": "2026-09-28-r4",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:32:11+00:00",
   "website": "https://www.naboo.app/"
 }

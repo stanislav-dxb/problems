@@ -4,11 +4,88 @@
   "country": "Singapore",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Singapore",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.techinasia.com/rural-village-upbringing-inspired-cloud-computing-startup"
+        ],
+        "value": "Singapore"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "ProjectX gives people a cloud computer that keeps their desktop apps, files, and AI agents running all the time, so they are not limited by the power of their own device.",
+    "industry": "Cloud computing",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "A founder's own early struggle with weak hardware can point straight at a real product gap once new technology, like AI agents, makes that gap urgent for many more people.",
+    "name": "ProjectX",
+    "not_startup_reason": null,
+    "overall": 5.5,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "unknown",
+        "reason": "No user, revenue, or funding numbers are available, and most other search results under this name belong to unrelated organizations, leaving nothing solid to measure growth by.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "A cloud workspace for desktop apps and AI agents could be used by almost anyone who needs more computing power than their own device offers, which is a large worldwide market.",
+        "score": 7,
+        "source": null
+      },
+      "tech": {
+        "reason": "It looks like a cloud virtual desktop built for AI agents, an area where other cloud and virtual-desktop providers already compete, so it is unclear how hard it would be to copy.",
+        "score": 4,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-16",
+        "title": "Rural village upbringing inspired cloud computing startup",
+        "url": "https://www.techinasia.com/rural-village-upbringing-inspired-cloud-computing-startup"
+      },
+      {
+        "date": null,
+        "title": "ProjectX: Agent native workspace for heavy parallel workflows on the web | Y Combinator",
+        "url": "https://www.ycombinator.com/companies/projectx"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "The founder grew up without access to good computers in a rural village, and says that shaped the idea of moving all the heavy computing work to the cloud.",
+    "website": null,
+    "who_pays": "People and teams who want a powerful, always-on desktop and AI agents in the cloud would pay to use the workspace.",
+    "why_now": "AI agents increasingly need to run many tasks at once around the clock, which ordinary personal computers are not built for, making an always-on cloud workspace more useful now."
+  },
+  "first_judged_run": "2026-09-28-r4",
   "first_seen": "2026-09-16",
   "id": "projectx",
   "industry": "Cloud computing",
-  "last_checked": null,
+  "last_checked": "2026-09-28",
   "mentions": [
     {
       "date": "2026-09-16",
@@ -18,18 +95,95 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://www.techinasia.com/rural-village-upbringing-inspired-cloud-computing-startup"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "LinkedIn page for StartupX, a Singapore innovation, venture and startup enabler (different from ProjectX).",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "StartupX | LinkedIn",
+      "url": "https://sg.linkedin.com/company/thestartupx"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "LinkedIn page for Project X Singapore.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Project X Singapore | LinkedIn",
+      "url": "https://sg.linkedin.com/company/projectxsg"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Instagram account for Project X, Singapore.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Project X 🇸🇬🇸🇬 (@projectx.sg) · Singapore",
+      "url": "https://www.instagram.com/projectx.sg/?hl=en"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Facebook page for Project X, Singapore, described elsewhere as a sex workers' rights and support organisation founded in 2008, not a tech startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Project X - Singapore (@theprojectxsg)",
+      "url": "https://www.facebook.com/theprojectxsg/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "X (Twitter) account for Project X, Singapore.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Project X - Singapore (@ProjectX_SG) / Posts / X",
+      "url": "https://x.com/ProjectX_SG"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Y Combinator profile for a tech startup called ProjectX, described as an agent-native web workspace for heavy parallel workflows; YC listing does not show it as Singapore-based.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "ProjectX: Agent native workspace for heavy parallel workflows on the web | Y Combinator",
+      "url": "https://www.ycombinator.com/companies/projectx"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Website for Project X (theprojectx.org), which appears to be the social services organisation supporting sex workers, not a tech startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Home - Project X",
+      "url": "https://theprojectx.org/"
     }
   ],
   "name": "ProjectX",
   "name_key": "projectx",
-  "region": null,
+  "region": "asia",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"ProjectX\" startup Singapore"
+    ],
+    "refresh": false,
+    "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:48:18+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": null,
+      "market": 7.0,
+      "overall": 5.5,
+      "run": "2026-09-28-r4",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T03:23:50+00:00",
   "website": null
 }

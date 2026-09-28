@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Germany",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "irisgo",
+  "industry": "consumer products",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-17",
+      "run": "2026-09-28-r4",
+      "snippet": "Maker of a thermal mug with a James Bond-style mechanism, made a deal with investor Andreas Herb on 'Die Hoehle der Loewen'.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.businessinsider.de/gruenderszene/dhdl-loewen-kaempfen-um-thermobecher-mit-james-bond-mechanik/"
+    }
+  ],
+  "name": "Irisgo",
+  "name_key": "irisgo",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:06:10+00:00",
+  "website": null
+}

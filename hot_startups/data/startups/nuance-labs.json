@@ -2,13 +2,112 @@
   "alias_keys": [],
   "aliases": [],
   "country": "United States",
-  "domain": null,
+  "domain": "nuancelabs.ai",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.geekwire.com/2026/seattles-nuance-labs-raises-50m-to-give-ai-models-human-expression-and-nuance/",
+          "https://www.vcbacked.co/company/nuance-labs"
+        ],
+        "value": "Seattle, United States"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.unite.ai/ex-apple-researchers-nuance-labs-lands-50m-series-a-backed-by-nvidia/",
+          "https://www.startuphub.ai/startups/nuance-labs"
+        ],
+        "value": "Raised a $50 million Series A backed by Nvidia, on top of existing investors, taking reported total funding to about $67 million."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.geekwire.com/2026/seattles-nuance-labs-raises-50m-to-give-ai-models-human-expression-and-nuance/",
+          "https://www.unite.ai/ex-apple-researchers-nuance-labs-lands-50m-series-a-backed-by-nvidia/"
+        ],
+        "value": "$50M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Voice AI can already talk back, but no product lets you have a real face-to-face chat with an AI that reacts naturally in real time, so Nuance Labs built a single AI model that sees, hears and speaks at once instead of stitching together separate speech-to-text, chatbot and animation tools.",
+    "industry": "AI avatars",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "When a chain of bolted-together AI tools keeps failing at natural interaction, replace the whole pipeline with a single model trained to do all the steps together.",
+    "name": "Nuance Labs",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: large Series A round with a new strategic investor (Nvidia)",
+        "reason": "No user or revenue numbers are public; a $50 million Series A with Nvidia joining as a new investor is a positive signal but not proof of fast growth.",
+        "score": 5,
+        "source": "https://www.unite.ai/ex-apple-researchers-nuance-labs-lands-50m-series-a-backed-by-nvidia/"
+      },
+      "market": {
+        "reason": "A natural, face-to-face AI interface could be used across customer service, education, healthcare and entertainment, a very wide set of industries worldwide.",
+        "score": 8,
+        "source": "https://www.geekwire.com/2026/seattles-nuance-labs-raises-50m-to-give-ai-models-human-expression-and-nuance/"
+      },
+      "tech": {
+        "reason": "Building one model that sees, hears and speaks in real time, instead of chaining several AI tools together, is a hard, novel engineering approach that would take a strong team a year or more to match.",
+        "score": 8,
+        "source": "https://thebridge.jp/2026/09/nuance-labs-series-a-low-latency-ai-avatar-lightspeed"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-15",
+        "title": "対面で会話できる低遅延AIアバターを開発するNuance Labs、Lightspeed主導で5,000万ドルを調達",
+        "url": "https://thebridge.jp/2026/09/nuance-labs-series-a-low-latency-ai-avatar-lightspeed"
+      },
+      {
+        "date": null,
+        "title": "Seattle's Nuance Labs raises $50M to give AI models human expression and nuance",
+        "url": "https://www.geekwire.com/2026/seattles-nuance-labs-raises-50m-to-give-ai-models-human-expression-and-nuance/"
+      },
+      {
+        "date": null,
+        "title": "Ex-Apple Researchers' Nuance Labs Lands $50M Series A Backed by Nvidia",
+        "url": "https://www.unite.ai/ex-apple-researchers-nuance-labs-lands-50m-series-a-backed-by-nvidia/"
+      },
+      {
+        "date": null,
+        "title": "Nuance Labs - Artificial Intelligence (AI) - Seattle, United States - Seed Funded - Founder Contact Info",
+        "url": "https://www.vcbacked.co/company/nuance-labs"
+      },
+      {
+        "date": null,
+        "title": "Nuance Labs - Artificial Intelligence - $67M Raised",
+        "url": "https://www.startuphub.ai/startups/nuance-labs"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Because one model handles perception and response together instead of a chain of separate tools, the avatar can react with the right expression and tone with almost no lag, instead of freezing or talking over you like typical voice bots.",
+    "website": "https://www.nuancelabs.ai",
+    "who_pays": "Businesses that want a lifelike AI avatar built into their product, such as customer service or coaching tools, would license the model.",
+    "why_now": "Real-time audio-visual AI models have only recently become fast and cheap enough to hold a full face-to-face conversation without the lag that used to break the illusion."
+  },
+  "first_judged_run": "2026-09-28-r4",
   "first_seen": "2026-09-16",
   "id": "nuance-labs",
   "industry": "AI avatars",
-  "last_checked": null,
+  "last_checked": "2026-09-28",
   "mentions": [
     {
       "date": "2026-09-15",
@@ -18,18 +117,115 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://thebridge.jp/2026/09/nuance-labs-series-a-low-latency-ai-avatar-lightspeed"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Crunchbase technical profile page for Nuance Labs.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nuance Labs - Tech Details",
+      "url": "https://www.crunchbase.com/organization/nuance-labs/tech_details"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "PitchBook profile of Nuance Labs with valuation, funding and investor data.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nuance Labs 2026 Company Profile: Valuation, Funding & Investors | PitchBook",
+      "url": "https://pitchbook.com/profiles/company/734071-69"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "StartupHub.ai directory listing Nuance Labs as an AI company that has raised $67M.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nuance Labs - Artificial Intelligence - $67M Raised | StartupHub.ai",
+      "url": "https://www.startuphub.ai/startups/nuance-labs"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "GeekWire reports Seattle-based Nuance Labs raised a $50 million Series A to build AI models that express and perceive human emotion in real time.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Seattle's Nuance Labs raises $50M to give AI models human expression and nuance - GeekWire",
+      "url": "https://www.geekwire.com/2026/seattles-nuance-labs-raises-50m-to-give-ai-models-human-expression-and-nuance/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Unite.ai reports Nuance Labs, founded by former Apple researchers, raised a $50M Series A backed by Nvidia.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Ex-Apple Researchers' Nuance Labs Lands $50M Series A Backed by Nvidia",
+      "url": "https://www.unite.ai/ex-apple-researchers-nuance-labs-lands-50m-series-a-backed-by-nvidia/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "VCBacked directory entry for Nuance Labs, a Seattle-based, seed-funded AI company.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nuance Labs - Artificial Intelligence (AI) - Seattle, United States - Seed Funded - Founder Contact Info | VCBacked",
+      "url": "https://www.vcbacked.co/company/nuance-labs"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Wikipedia article on Vlingo, an unrelated, older voice-recognition company, not connected to Nuance Labs.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Vlingo",
+      "url": "https://en.wikipedia.org/wiki/Vlingo"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Wikipedia article on SpinVox, another unrelated older voice-technology company, not connected to Nuance Labs.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "SpinVox",
+      "url": "https://en.wikipedia.org/wiki/SpinVox"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "NewsBreak syndication of the report on Nuance Labs' $50M Series A round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Seattle's Nuance Labs raises $50M to give AI models human expression and nuance - NewsBreak",
+      "url": "https://www.newsbreak.com/news/4887539707262-seattle-s-nuance-labs-raises-50m-to-give-ai-models-human-expression-and-nuance"
     }
   ],
   "name": "Nuance Labs",
   "name_key": "nuancelabs",
-  "region": null,
+  "region": "north_america",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-nuance-labs.txt",
+    "article_url": "https://thebridge.jp/2026/09/nuance-labs-series-a-low-latency-ai-avatar-lightspeed",
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"Nuance Labs\" startup United States"
+    ],
+    "refresh": false,
+    "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:48:18+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 5.0,
+      "market": 8.0,
+      "overall": 7.0,
+      "run": "2026-09-28-r4",
+      "tech": 8.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T03:04:45+00:00",
+  "website": "https://www.nuancelabs.ai"
 }

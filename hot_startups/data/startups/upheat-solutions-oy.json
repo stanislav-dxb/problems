@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Finland",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "upheat-solutions-oy",
+  "industry": "cleantech / heat pumps",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-22",
+      "run": "2026-09-28-r4",
+      "snippet": "Tampere-based industrial technology company selected for L'Oreal's 100 million euro sustainable innovation programme.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://arcticstartup.com/upheat-selected-for-loreal-programme/"
+    }
+  ],
+  "name": "Upheat Solutions Oy",
+  "name_key": "upheatsolutions",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:06:10+00:00",
+  "website": null
+}

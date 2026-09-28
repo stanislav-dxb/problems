@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "France",
+  "domain": "mistral.ai",
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "mistral-ai",
+  "industry": "AI Infrastructure & Models",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://mistral.ai/fr"
+    }
+  ],
+  "name": "Mistral AI",
+  "name_key": "mistralai",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:03:00+00:00",
+  "website": "https://mistral.ai/fr"
+}

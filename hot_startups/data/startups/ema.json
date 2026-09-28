@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "ema",
+  "industry": "enterprise AI",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-24",
+      "run": "2026-09-28-r4",
+      "snippet": "US-based enterprise AI company raised $77 million Series B led by Creaegis, with Accel and S32 also participating.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://webrazzi.com/2026/09/24/kurumsal-yapay-zeka-alaninda-calisan-ema-77-milyon-dolar-yatirim-aldi/"
+    }
+  ],
+  "name": "Ema",
+  "name_key": "ema",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:10:41+00:00",
+  "website": null
+}

@@ -1,0 +1,252 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": "hifi.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://thebridge.jp/2026/09/hifi-series-a-37m-left-lane-capital-stablecoin-api",
+          "https://www.linkedin.com/company/hifibridge"
+        ],
+        "value": "New York, United States"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.linkedin.com/company/hifibridge"
+        ],
+        "value": "2022"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://thebridge.jp/2026/09/hifi-series-a-37m-left-lane-capital-stablecoin-api"
+        ],
+        "value": "Processes about $7 billion a year in stablecoin payments, annualized."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://thebridge.jp/2026/09/hifi-series-a-37m-left-lane-capital-stablecoin-api",
+          "https://www.hifi.com/blog/hifi-raises-usd37m-series-a-to-build-the-infrastructure-for-tokenized-money"
+        ],
+        "value": "$37M Series A"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://www.linkedin.com/company/hifibridge"
+        ],
+        "value": "about 25"
+      }
+    },
+    "idea": "Businesses that get paid in stablecoins struggle to turn that money into cash they can actually spend, because banks and card networks only work during business hours, so HIFI builds the payment and settlement pipes that move stablecoins in and out of normal bank and card accounts at any time.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "When a new kind of money moves faster than the old banking system, build the plumbing that connects the two, rather than a new currency itself.",
+    "name": "HIFI",
+    "not_startup_reason": null,
+    "overall": 7.3,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "It already processes about $7 billion a year and just raised a much bigger round than its earlier seed funding, backed by Tether.",
+        "score": 7,
+        "source": "https://thebridge.jp/2026/09/hifi-series-a-37m-left-lane-capital-stablecoin-api"
+      },
+      "market": {
+        "reason": "Moving money between stablecoins and normal bank accounts and cards is a need for almost any business worldwide that touches digital dollars.",
+        "score": 8,
+        "source": "https://thebridge.jp/2026/09/hifi-series-a-37m-left-lane-capital-stablecoin-api"
+      },
+      "tech": {
+        "reason": "Linking stablecoin transfers to card networks and banks while handling compliance and clearing is a real edge that would take a strong team a year or two to match.",
+        "score": 7,
+        "source": "https://www.hifi.com/push-to-card"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-28",
+        "title": "年換算70億ドルを処理するステーブルコイン決済基盤のHIFI、シリーズAで3,700万ドルを調達",
+        "url": "https://thebridge.jp/2026/09/hifi-series-a-37m-left-lane-capital-stablecoin-api"
+      },
+      {
+        "date": "2026-09-24",
+        "title": "HIFI raises $37M Series A to build the infrastructure for tokenized money",
+        "url": "https://www.hifi.com/blog/hifi-raises-usd37m-series-a-to-build-the-infrastructure-for-tokenized-money"
+      },
+      {
+        "date": null,
+        "title": "Push to Card - HIFI",
+        "url": "https://www.hifi.com/push-to-card"
+      },
+      {
+        "date": null,
+        "title": "Antler doubles down on HIFI in its $37M Series A",
+        "url": "https://www.antler.co/press-releases/antler-doubles-down-on-hifi-in-its-usd-37m-series-a"
+      },
+      {
+        "date": null,
+        "title": "HIFI | LinkedIn",
+        "url": "https://www.linkedin.com/company/hifibridge"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its \"Push to Card\" feature lets a US business send money straight from its stablecoin balance onto a normal Visa debit or credit card in seconds, with no extra sign-up for the person receiving it.",
+    "website": "https://www.hifi.com",
+    "who_pays": "US businesses that hold stablecoins pay to use HIFI's platform to move, control and cash out that money.",
+    "why_now": "Stablecoins move money nonstop, day and night and on weekends, but the banking system they connect to does not, so demand is growing fast for infrastructure that bridges the two."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "hifi",
+  "industry": "Fintech",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-28",
+      "run": "2026-09-28-r4",
+      "snippet": "New York-based stablecoin payment and clearing API platform processing $7 billion annualized, raised $37 million Series A led by Left Lane Capital.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://thebridge.jp/2026/09/hifi-series-a-37m-left-lane-capital-stablecoin-api"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Music Business Worldwide reports that HIFI, a music-industry financial platform backed by Matt Pincus, acquired AI-powered artist funding startup The Music Fund.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Matt Pincus-backed HIFI buys AI-powered artist funding startup The Music Fund - Music Business Worldwide",
+      "url": "https://www.musicbusinessworldwide.com/matt-pincus-backed-hifi-buys-ai-powered-artist-funding-startup-the-music-fund/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Hub71 accelerator profile page for a startup called HIFI.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Hub71 | HIFI",
+      "url": "https://www.hub71.com/startups/hifi"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Dealroom profile of a venture-backed company called Hifi.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Hifi - venture-backed company profile | Dealroom",
+      "url": "https://dealroom.co/companies/hifi/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Dealroom profile for HIFI Labs, a separate company from HIFI.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "HIFI Labs company information, funding & investors | Dealroom.co",
+      "url": "https://app.dealroom.co/companies/hifi_labs"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Crunchbase profile for HIFI, with funding and company details.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "HIFI - Crunchbase Company Profile & Funding",
+      "url": "https://www.crunchbase.com/organization/hifi"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "LinkedIn page for 'HIFI Bridge', a payments company founded by Zach Walsh in 2022 that uses blockchain and stablecoins to move money globally; New York-based, raised $8M at a $45M valuation, team of about 25.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "HIFI | LinkedIn",
+      "url": "https://www.linkedin.com/company/hifibridge"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Crunchbase profile for HIFI Labs, which says it nurtures artists and ideas to change the future of music.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "HIFI Labs - Crunchbase Company Profile & Funding",
+      "url": "https://www.crunchbase.com/organization/hifi-labs"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Antler's founder-story writeup of a startup called HIFI in its portfolio.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "HIFI | Antler Founder Stories",
+      "url": "https://www.antler.co/portfolio/founder-stories/hifi"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Startup Ranking entry describing Hi.fi as a mobile hyper-casual games company based in California.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Hi.fi - The future will be personalized. | Startup Ranking",
+      "url": "https://www.startupranking.com/hi-fi"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "HIFI's own site, describing itself as a financial-rights organization for music artists, headquartered in New York and founded in 2013; recently joined Block, Inc.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "HIFI - Financial Rights for Artists",
+      "url": "https://hi.fi/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "California-based mobile hyper-casual games startup, a different company despite the similar name.",
+      "source": "\"HIFI\" startup United States",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://www.startupranking.com/hi-fi"
+    }
+  ],
+  "name": "HIFI",
+  "name_key": "hifi",
+  "region": "north_america",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-hifi.txt",
+    "article_url": "https://thebridge.jp/2026/09/hifi-series-a-37m-left-lane-capital-stablecoin-api",
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"HIFI\" startup United States"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 7.0,
+      "market": 8.0,
+      "overall": 7.3,
+      "run": "2026-09-28-r4",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:53:18+00:00",
+  "website": "https://www.hifi.com"
+}

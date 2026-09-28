@@ -1,0 +1,220 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Switzerland",
+  "domain": "lisk.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "Switzerland",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://techcabal.com/2025/10/02/lisk-15-million-fund-emerging-markets/"
+        ],
+        "value": "Switzerland"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Companies that hold both bank accounts and stablecoins have to juggle separate logins, wallets, and spreadsheets, so Lisk gives them one workspace for accounts, payments, and approvals that works across both.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "When your original market dries up, pivot into an adjacent, unglamorous problem, here reconciling different money rails, for a similar kind of customer.",
+    "name": "Lisk",
+    "not_startup_reason": null,
+    "overall": 4.5,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "unknown",
+        "reason": "The product just opened Early Access and no user or revenue numbers have been published.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "Useful mainly to companies that already hold both bank accounts and stablecoins, a real but still niche group today.",
+        "score": 5,
+        "source": "https://lisk.com/"
+      },
+      "tech": {
+        "reason": "It links existing bank rails and stablecoin rails into one interface, solid engineering but not something a strong team couldn't rebuild in a year.",
+        "score": 4,
+        "source": "https://lisk.com/"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Modern Money Operations | Lisk",
+        "url": "https://lisk.com/"
+      },
+      {
+        "date": "2026-09-25",
+        "title": "The vacuum Lisk's exit leaves in Africa's Web3 funding",
+        "url": "https://techcabal.com/2026/09/25/the-vacuum-lisks-exit-leaves-in-africas-web3-funding/"
+      },
+      {
+        "date": null,
+        "title": "Lisk eyes organically-growing Web3 startups with $15m fund",
+        "url": "https://techcabal.com/2025/10/02/lisk-15-million-fund-emerging-markets/"
+      }
+    ],
+    "status_signal": "pivoted",
+    "twist": "Lisk used to be a Web3 platform backing blockchain startups in emerging markets, and it pivoted into this fiat-and-stablecoin money operations tool after pulling out of that business.",
+    "website": "https://lisk.com/",
+    "who_pays": "Finance teams and leaders, such as CFOs, controllers, and COOs, at companies that will pay to use the platform once it leaves Early Access.",
+    "why_now": "More businesses now hold stablecoins alongside normal bank accounts, but no single tool handles payments and approvals across both, so there is a gap to fill."
+  },
+  "first_seen": "2026-09-28",
+  "id": "lisk",
+  "industry": "Fintech",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-25",
+      "run": "2026-09-28-r4",
+      "snippet": "Blockchain company's exit and restructuring left a vacuum in Africa's Web3 funding, after making regional and business-development roles redundant.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://techcabal.com/2026/09/25/the-vacuum-lisks-exit-leaves-in-africas-web3-funding/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "TechCabal on Lisk, a Swiss blockchain platform, launching a $15m fund for Web3 startups in emerging markets.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Lisk eyes organically-growing Web3 startups with $15m fund",
+      "url": "https://techcabal.com/2025/10/02/lisk-15-million-fund-emerging-markets/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Lisk's own site describing its incubator programs for emerging-market Web3 founders.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Incubators - Lisk - The Growth Platform for EM Founders",
+      "url": "https://lisk.com/incubators/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "LinkedIn repost of the TechCabal story on Lisk's $15m emerging-market Web3 fund.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Lisk launches $15m fund for Web3 startups in emerging markets",
+      "url": "https://www.linkedin.com/posts/techcabal_lisk-a-swiss-blockchain-platform-founded-activity-7379512045731475458-5y00"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Lisk's own site page aimed at founders using its growth platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Founders - Lisk Web",
+      "url": "https://lisk.com/founders/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Lisk's own about page describing itself as a growth platform for emerging-market founders.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "About - Lisk - The Growth Platform for EM Founders",
+      "url": "https://lisk.com/about/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "EverythingStartups listing for Lisk as a VC fund.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Everything Startup - New VC Funds - Lisk - EverythingStartups",
+      "url": "https://www.everythingstartups.com/vc-funds/lisk"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Lisk's African blockchain incubation hub site.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "African Blockchain Incubation Hub",
+      "url": "https://www.liskincubationhub.com/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Third-party profile page on Lisk.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Lisk - KEY Difference",
+      "url": "https://keydifference.com/lisk/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "BusinessBeat24 on Lisk's $15M EMpower Fund for Africa's Web3 startups.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Lisk Launches $15M EMpower Fund to Boost Africa's Web3 Startups - BusinessBeat 24",
+      "url": "https://businessbeat24.com/lisks-empower-fund-bridging-the-capital-gap-for-africas-web3-innovators/"
+    }
+  ],
+  "name": "Lisk",
+  "name_key": "lisk",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-lisk.txt",
+    "article_url": "https://techcabal.com/2026/09/25/the-vacuum-lisks-exit-leaves-in-africas-web3-funding/",
+    "judged_run": "2026-09-28-r4",
+    "pages": 2,
+    "queries_done": [
+      "\"Lisk\" startup"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-lisk.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": null,
+      "market": 5.0,
+      "overall": 4.5,
+      "run": "2026-09-28-r4",
+      "tech": 4.0
+    }
+  ],
+  "status": "struggling",
+  "struggling": {
+    "run": "2026-09-28-r4",
+    "what": "pivoted",
+    "why": "The product just opened Early Access and no user or revenue numbers have been published."
+  },
+  "updated": "2026-09-28T03:20:47+00:00",
+  "website": "https://lisk.com/"
+}

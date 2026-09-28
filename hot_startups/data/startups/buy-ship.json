@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Hong Kong",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "buy-ship",
+  "industry": "ecommerce / logistics",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-25",
+      "run": "2026-09-28-r4",
+      "snippet": "Hong Kong ecommerce firm joined the TSE startup hub, which supports Asian companies with ties to Japan.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.techinasia.com/global-smartphone-market-rise-15-record-apple-sales-report"
+    }
+  ],
+  "name": "Buy&Ship",
+  "name_key": "buyship",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:09:01+00:00",
+  "website": null
+}

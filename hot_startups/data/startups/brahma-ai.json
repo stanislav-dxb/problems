@@ -1,0 +1,247 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "India",
+  "domain": "brahma.io",
+  "drop_reason": "Brahma AI is reported as a subsidiary of DNEG (the UK visual-effects studio behind Dune), whose Indian parent group, Prime Focus, is a company listed on the stock market. Since it is majority owned and backed by that publicly traded group rather than being an independently owned company, it does no…",
+  "entry": {
+    "country": "India",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.gurufocus.com/news/9095007/brahma-ai-secures-150-million-funding-valuation-reaches-2-billion",
+          "https://www.cnbc.com/2026/09/24/enterprise-ai-brahma-fundraise-dneg-dune.html"
+        ],
+        "value": "India"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.business-standard.com/companies/start-ups/prime-focus-backed-brahma-ai-raises-150-million-at-2-billion-valuation-126092300208_1.html",
+          "https://www.gurufocus.com/news/9095007/brahma-ai-secures-150-million-funding-valuation-reaches-2-billion"
+        ],
+        "value": "Raised $150 million in a round that pushed its valuation to $2 billion, with a further $100 million in expressions of interest."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.business-standard.com/companies/start-ups/prime-focus-backed-brahma-ai-raises-150-million-at-2-billion-valuation-126092300208_1.html",
+          "https://www.cnbc.com/2026/09/24/enterprise-ai-brahma-fundraise-dneg-dune.html"
+        ],
+        "value": "$150M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Big media and enterprise companies have huge libraries of video, audio and other content that are hard to search, manage and reuse, so Brahma AI built software that organizes that content and uses AI to search it and create new videos, digital humans and voices from it.",
+    "industry": "Media AI",
+    "is_startup": false,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "A company sitting on a giant proprietary archive of real-world data can spin that archive into a separately funded AI product, instead of only using it internally.",
+    "name": "Brahma AI",
+    "not_startup_reason": "Brahma AI is reported as a subsidiary of DNEG (the UK visual-effects studio behind Dune), whose Indian parent group, Prime Focus, is a company listed on the stock market. Since it is majority owned and backed by that publicly traded group rather than being an independently owned company, it does not meet the private-ownership rule.",
+    "overall": 7.7,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "A $150 million round that pushed the valuation to $2 billion in a short period is a strong, verifiable growth signal.",
+        "score": 8,
+        "source": "https://www.business-standard.com/companies/start-ups/prime-focus-backed-brahma-ai-raises-150-million-at-2-billion-valuation-126092300208_1.html"
+      },
+      "market": {
+        "reason": "Enterprise content management and AI content creation is a large market spanning media, advertising, sports and healthcare worldwide, though it is a business tool rather than something everyone buys.",
+        "score": 7,
+        "source": "https://www.cnbc.com/2026/09/24/enterprise-ai-brahma-fundraise-dneg-dune.html"
+      },
+      "tech": {
+        "reason": "It sits on a rare archive of media assets and patents built up from years of visual-effects work, which would be hard for a new entrant to copy quickly.",
+        "score": 8,
+        "source": "https://www.brahma.io/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-23",
+        "title": "Startup Funding News Today, September 23, 2026: TEKEVER, F13, Brahma AI, Noxtua, StandardX & More",
+        "url": "https://techstartups.com/2026/09/23/startup-funding-news-today-september-23-2026-tekever-f13-brahma-ai-noxtua-standardx-more/"
+      },
+      {
+        "date": "2026-09-24",
+        "title": "Indian AI firm backed by Dune and Odyssey visual effects studio valued at $2 billion in fundraise",
+        "url": "https://www.cnbc.com/2026/09/24/enterprise-ai-brahma-fundraise-dneg-dune.html"
+      },
+      {
+        "date": null,
+        "title": "Prime Focus-backed Brahma AI raises $150 million at $2 billion valuation",
+        "url": "https://www.business-standard.com/companies/start-ups/prime-focus-backed-brahma-ai-raises-150-million-at-2-billion-valuation-126092300208_1.html"
+      },
+      {
+        "date": null,
+        "title": "Brahma AI Secures $150 Million Funding, Valuation Reaches $2 Billion",
+        "url": "https://www.gurufocus.com/news/9095007/brahma-ai-secures-150-million-funding-valuation-reaches-2-billion"
+      },
+      {
+        "date": null,
+        "title": "Brahma AI raises $150 million at $2 billion valuation",
+        "url": "https://finance.yahoo.com/technology/ai/articles/brahma-ai-raises-150-million-132731865.html"
+      },
+      {
+        "date": null,
+        "title": "Brahma AI raised $150 million at a $2 billion valuation for its enterprise video platform",
+        "url": "https://qz.com/brahma-ai-fundraise-150-million-2-billion-valuation-092426"
+      },
+      {
+        "date": null,
+        "title": "Brahma AI secures $150m investment to expand enterprise AI platform",
+        "url": "https://www.broadcastprome.com/news/brahma-ai-secures-150m-investment-to-expand-enterprise-ai-platform/"
+      },
+      {
+        "date": null,
+        "title": "BRAHMA AI | Enterprise AI Content Platform & Asset Management",
+        "url": "https://www.brahma.io/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It grew out of DNEG, the Oscar-winning visual effects studio behind movies like Dune, so it can build on decades of real media-production data and technology that a standalone AI startup would not have.",
+    "website": "https://www.brahma.io/",
+    "who_pays": "Large media, entertainment, sports, healthcare and advertising companies pay to use the platform; reported customers include Warner Bros., the NBA and the Mayo Clinic.",
+    "why_now": "Enterprises are producing more digital content than ever and want cheaper ways to manage and reuse it, right as generative AI has made realistic digital humans and voices possible."
+  },
+  "first_seen": "2026-09-28",
+  "id": "brahma-ai",
+  "industry": "Media AI",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-23",
+      "run": "2026-09-28-r4",
+      "snippet": "",
+      "source": "\"StandardX\" startup",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://techstartups.com/2026/09/23/startup-funding-news-today-september-23-2026-tekever-f13-brahma-ai-noxtua-standardx-more/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Brahma AI, an Indian enterprise AI content platform, raised $150 million, taking its valuation to $2 billion.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Brahma AI Secures $150 Million Funding, Valuation Reaches $2 Billion",
+      "url": "https://www.gurufocus.com/news/9095007/brahma-ai-secures-150-million-funding-valuation-reaches-2-billion"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Coverage of Brahma AI's $150 million raise and new $2 billion valuation.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Brahma AI raises $150 million at $2 billion valuation",
+      "url": "https://finance.yahoo.com/technology/ai/articles/brahma-ai-raises-150-million-132731865.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Quartz on Brahma AI's funding round for its enterprise video and content platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Brahma AI raised $150 million at a $2 billion valuation for its enterprise video platform",
+      "url": "https://qz.com/brahma-ai-fundraise-150-million-2-billion-valuation-092426"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "CNBC reports Brahma AI is a subsidiary of UK visual effects firm DNEG (which worked on Dune), targeting media, sports, healthcare and advertising with customers like Warner Bros., the NBA and Mayo Clinic.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Indian AI firm backed by Dune and Odyssey visual effects studio valued at $2 billion in fundraise",
+      "url": "https://www.cnbc.com/2026/09/24/enterprise-ai-brahma-fundraise-dneg-dune.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Business Standard on Brahma AI's $150 million round, backed by local private equity firm Multiples Alternate Asset Management, with an extra $100 million in expressions of interest.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Prime Focus-backed Brahma AI raises $150 million at $2 billion valuation | Start Ups - Business Standard",
+      "url": "https://www.business-standard.com/companies/start-ups/prime-focus-backed-brahma-ai-raises-150-million-at-2-billion-valuation-126092300208_1.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Trade press coverage of Brahma AI's funding to expand its enterprise AI content platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Brahma AI secures $150m investment to expand enterprise AI platform",
+      "url": "https://www.broadcastprome.com/news/brahma-ai-secures-150m-investment-to-expand-enterprise-ai-platform/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Aggregator coverage of the Brahma AI funding round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Brahma AI Raises $150 Million, Valuation Hits $2 Billion | Whalesbook",
+      "url": "https://www.whalesbook.com/news/English/startupsvc/Brahma-AI-Raises-dollar150-Million-Valuation-Hits-dollar2-Billion/6ab2dc375aacb956d07d4744"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Brahma AI's own website, describing itself as an enterprise AI content platform with content intelligence, management and AI creation tools (visual AI, digital humans, voice).",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "BRAHMA AI | Enterprise AI Content Platform & Asset Management",
+      "url": "https://www.brahma.io/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Startup database entry on Brahma AI's $150M round and $2B valuation, dated 2026-09-24.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Brahma AI Hits $2B Valuation on $150M Round | Pomegra Startups",
+      "url": "https://pomegra.io/startups/brahma-ai-hits-2b-valuation-on-150m-round-2026-09-24"
+    }
+  ],
+  "name": "Brahma AI",
+  "name_key": "brahmaai",
+  "region": "asia",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-brahma-ai.txt",
+    "article_url": "https://techstartups.com/2026/09/23/startup-funding-news-today-september-23-2026-tekever-f13-brahma-ai-noxtua-standardx-more/",
+    "judged_run": "2026-09-28-r4",
+    "pages": 2,
+    "queries_done": [
+      "\"Brahma AI\" startup"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-brahma-ai.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 8.0,
+      "market": 7.0,
+      "overall": 7.7,
+      "run": "2026-09-28-r4",
+      "tech": 8.0
+    }
+  ],
+  "status": "dropped",
+  "updated": "2026-09-28T03:04:41+00:00",
+  "website": "https://www.brahma.io/"
+}

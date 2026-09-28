@@ -1,0 +1,252 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Iceland",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "Iceland",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2026/09/reykjavik-based-50skills-raises-e5-3-million-to-scale-its-ai-powered-hr-workflow-automation-platform/",
+          "https://gust.com/companies/50skills"
+        ],
+        "value": "Reykjavík, Iceland"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://arcticstartup.com/50skills-raised-e2-5m-from-frumtak/",
+          "https://www.arctictoday.com/142816-2/"
+        ],
+        "value": "Funding grew from an earlier €2.5M round backed by Frumtak to this new €5.3M (~$6M) round, with reports saying demand for its AI HR platform is growing."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2026/09/reykjavik-based-50skills-raises-e5-3-million-to-scale-its-ai-powered-hr-workflow-automation-platform/",
+          "https://tech.eu/2026/09/24/50skills-raises-6m-to-scale-its-ai-operating-system-for-people-workflows/"
+        ],
+        "value": "€5.3M (reported as about $6M)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Companies juggle many separate tools to hire, onboard, and manage staff, so 50skills built one AI-powered platform, which it calls an 'operating system for people workflows', to automate these HR tasks.",
+    "industry": "HR tech",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Pick one department drowning in repetitive admin, like HR, and sell it AI agents built for its specific tasks rather than a general chatbot.",
+    "name": "50skills",
+    "not_startup_reason": null,
+    "overall": 6.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round size (grew from about €2.5M to €5.3M)",
+        "reason": "No user or revenue numbers were given, but the funding round more than doubled from about €2.5M to €5.3M, and coverage says demand for the product is growing.",
+        "score": 6,
+        "source": "https://www.arctictoday.com/142816-2/"
+      },
+      "market": {
+        "reason": "Almost every employer needs HR admin tools, so the potential market is worldwide, but it is a crowded field with many existing HR software vendors.",
+        "score": 7,
+        "source": "https://www.eu-startups.com/2026/09/reykjavik-based-50skills-raises-e5-3-million-to-scale-its-ai-powered-hr-workflow-automation-platform/"
+      },
+      "tech": {
+        "reason": "Using AI agents that build smaller agents to run HR tasks is a clever use of current AI tools, but a well-resourced competitor could likely copy the approach within a year or two.",
+        "score": 5,
+        "source": "https://techfundingnews.com/50skills-raises-6m-for-ai-agents-that-build-their-own-agents-to-run-hr/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-24",
+        "title": "Reykjavík-based 50skills raises €5.3 million to scale its AI-powered HR workflow automation platform | EU-Startups",
+        "url": "https://www.eu-startups.com/2026/09/reykjavik-based-50skills-raises-e5-3-million-to-scale-its-ai-powered-hr-workflow-automation-platform/"
+      },
+      {
+        "date": "2026-09-24",
+        "title": "50skills raises $6m to scale its AI operating system for people workflows",
+        "url": "https://tech.eu/2026/09/24/50skills-raises-6m-to-scale-its-ai-operating-system-for-people-workflows/"
+      },
+      {
+        "date": null,
+        "title": "50skills | Reykjavík, Iceland Startup",
+        "url": "https://gust.com/companies/50skills"
+      },
+      {
+        "date": null,
+        "title": "50skills raises $6 million as demand grows for AI operating system for people workflows - ArcticToday",
+        "url": "https://www.arctictoday.com/142816-2/"
+      },
+      {
+        "date": null,
+        "title": "Iceland's SaaS startup has raised €2.5M to spread its HR solution to global markets - ArcticStartup",
+        "url": "https://arcticstartup.com/50skills-raised-e2-5m-from-frumtak/"
+      },
+      {
+        "date": null,
+        "title": "50skills raises $6M for AI agents that build their own agents to run HR — TFN",
+        "url": "https://techfundingnews.com/50skills-raises-6m-for-ai-agents-that-build-their-own-agents-to-run-hr/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its AI agents are reported to be able to build their own smaller agents to carry out repetitive HR tasks on their own, instead of just filling in digital forms.",
+    "website": null,
+    "who_pays": "HR teams at companies who pay to use 50skills' software to automate hiring and other people-management work.",
+    "why_now": "Companies want to cut repetitive office admin, and AI agents have gotten good enough to handle multi-step HR processes that used to need a person to run them."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "50skills",
+  "industry": "HR tech",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-24",
+      "run": "2026-09-28-r4",
+      "snippet": "Reykjavík-based startup building the operating system for people workflows, raised €5.3 million.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.eu-startups.com/2026/09/reykjavik-based-50skills-raises-e5-3-million-to-scale-its-ai-powered-hr-workflow-automation-platform/"
+    },
+    {
+      "date": "2026-09-24",
+      "run": "2026-09-28-r4",
+      "snippet": "AI operating system for people workflows, raised $6 million to expand its platform for automating HR.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://tech.eu/2026/09/24/50skills-raises-6m-to-scale-its-ai-operating-system-for-people-workflows/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Startup profile page for 50skills, based in Reykjavík, Iceland.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "50skills | Reykjavík, Iceland Startup",
+      "url": "https://gust.com/companies/50skills"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "50skills raised $6 million as demand grows for its AI operating system for HR and people workflows.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "50skills raises $6 million as demand grows for AI operating system for people workflows - ArcticToday",
+      "url": "https://www.arctictoday.com/142816-2/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Earlier report on 50skills raising €2.5M from Frumtak to expand its HR SaaS platform globally.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Iceland's SaaS startup has raised €2.5M to spread its HR solution to global markets - ArcticStartup",
+      "url": "https://arcticstartup.com/50skills-raised-e2-5m-from-frumtak/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "50skills raised €5.3 million (about $6M) to scale its AI-powered HR workflow automation platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Reykjavík-based 50skills raises €5.3 million to scale its AI-powered HR workflow automation platform | EU-Startups",
+      "url": "https://www.eu-startups.com/2026/09/reykjavik-based-50skills-raises-e5-3-million-to-scale-its-ai-powered-hr-workflow-automation-platform"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Directory listing for 50skills as an Icelandic startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "50skills | Europe Startup Guide",
+      "url": "https://europe-startup-guide.com/iceland/startup/50skills"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Coverage of 50skills' $6 million raise to automate HR workflows with AI.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Icelandic AI Startup 50skills Raises $6 Mn to Automate HR Workflows",
+      "url": "https://startuprise.co.uk/50skills-raises-6-mn"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "SaaS news roundup noting 50skills' $6M funding round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "50skills Raises $6M in Funding",
+      "url": "https://www.thesaasnews.com/news/50skills-raises-6m-unknown/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tech Funding News on 50skills raising $6M for AI agents that build their own agents to run HR processes.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "50skills raises $6M for AI agents that build their own agents to run HR — TFN",
+      "url": "https://techfundingnews.com/50skills-raises-6m-for-ai-agents-that-build-their-own-agents-to-run-hr/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Pomegra coverage of 50skills' €5.3M round for plain-language HR automation, dated 2026-09-24.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "50skills Raises €5.3M for Plain-Language HR… | Pomegra Startups",
+      "url": "https://pomegra.io/startups/50skills-raises-5-3m-for-plain-language-hr-automation-2026-09-24"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Teknowire report on 50skills' €5.3 million raise to expand its AI-powered HR workflow platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "50skills Raises €5.3 Million to Expand AI-Powered HR Workflow Platform - Teknowire",
+      "url": "https://teknowire.com/50skills-raises-e5-3-million-to-expand-ai-powered-hr-workflow-platform/"
+    }
+  ],
+  "name": "50skills",
+  "name_key": "50skills",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"50skills\" startup Iceland"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 6.0,
+      "market": 7.0,
+      "overall": 6.0,
+      "run": "2026-09-28-r4",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:38:47+00:00",
+  "website": null
+}

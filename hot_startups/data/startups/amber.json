@@ -1,0 +1,238 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Australia",
+  "domain": "amber.com.au",
+  "drop_reason": null,
+  "entry": {
+    "country": "Australia",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.smartcompany.com.au/startupsmart/melbourne-startup-amber-raises-10-million-energy-tech-solution/",
+          "https://breakthroughvictoria.com/stories/amber-closes-45-million-funding-round/"
+        ],
+        "value": "Melbourne, Australia"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.amber.com.au/blog/ambers-victorian-start-up-of-the-year",
+          "https://breakthroughvictoria.com/stories/amber-closes-45-million-funding-round/"
+        ],
+        "value": "Named Victorian Start-Up of the Year, and its funding grew from an earlier $10M round to a $45M round used to expand into Europe."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://breakthroughvictoria.com/stories/amber-closes-45-million-funding-round/",
+          "https://pitchbook.com/news/articles/australian-energy-tech-startup-amber-raises-29m-for-europe-expansion"
+        ],
+        "value": "About $45M AUD (reported elsewhere as $29.6M) including a round for European expansion"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Homes with solar panels and batteries usually get a flat, poor rate from their electricity company, so Amber sells power at the real wholesale price and its software buys and sells energy from a home battery automatically at the best times.",
+    "industry": "Energy",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Turn a flat, boring price (electricity) into something that trades automatically for the customer, and you can charge for the software that does the trading.",
+    "name": "Amber",
+    "not_startup_reason": null,
+    "overall": 5.7,
+    "region": "other",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round size (grew from about $10M to $45M)",
+        "reason": "No customer or revenue numbers were given, but the funding round grew sharply, from about $10M to $45M, and paid for a move into Europe, which is a strong signal from investors.",
+        "score": 6,
+        "source": "https://breakthroughvictoria.com/stories/amber-closes-45-million-funding-round/"
+      },
+      "market": {
+        "reason": "Selling wholesale-priced power and automated battery trading is a real business for homeowners in Australia, and the move into Europe could grow it, but it is still a niche within the wider energy market.",
+        "score": 6,
+        "source": "https://pitchbook.com/news/articles/australian-energy-tech-startup-amber-raises-29m-for-europe-expansion"
+      },
+      "tech": {
+        "reason": "Automatically trading a home battery against changing wholesale power prices is solid software engineering, but a well-funded competitor could build something similar within a year or two.",
+        "score": 5,
+        "source": "https://www.amber.com.au/about-us"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-25",
+        "title": "Cheque-in: 7 startups raised $274.7 million this week - Startup Daily",
+        "url": "https://www.startupdaily.net/topic/funding/cheque-in-7-startups-raised-274-7-million-this-week/"
+      },
+      {
+        "date": null,
+        "title": "Melbourne-based Amber banks $10 million for its energy tech solution",
+        "url": "https://www.smartcompany.com.au/startupsmart/melbourne-startup-amber-raises-10-million-energy-tech-solution/"
+      },
+      {
+        "date": null,
+        "title": "Australian energy tech startup Amber raises $29.6M for Europe expansion - PitchBook",
+        "url": "https://pitchbook.com/news/articles/australian-energy-tech-startup-amber-raises-29m-for-europe-expansion"
+      },
+      {
+        "date": null,
+        "title": "About Amber Electricity",
+        "url": "https://www.amber.com.au/about-us"
+      },
+      {
+        "date": null,
+        "title": "Amber Named Victorian Start-Up of the Year",
+        "url": "https://www.amber.com.au/blog/ambers-victorian-start-up-of-the-year"
+      },
+      {
+        "date": null,
+        "title": "Amber closes $45 million funding round | Breakthrough Victoria",
+        "url": "https://breakthroughvictoria.com/stories/amber-closes-45-million-funding-round/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its SmartShift software watches live wholesale electricity prices and moves a customer's battery for them, and the company has now taken this model from Australia into Europe.",
+    "website": "https://www.amber.com.au/",
+    "who_pays": "Homeowners with solar panels and batteries who switch their electricity plan to Amber.",
+    "why_now": "More homes are installing solar panels and batteries, and new government rebates for home batteries make it worth switching to a retailer that can get more value out of them."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "amber",
+  "industry": "Energy",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-25",
+      "run": "2026-09-28-r4",
+      "snippet": "One of seven Aussie startups that collectively raised $274.7 million this week.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.startupdaily.net/topic/funding/cheque-in-7-startups-raised-274-7-million-this-week/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "SmartCompany article on Amber, a Melbourne energy tech startup, raising $10 million.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Melbourne-based Amber banks $10 million for its energy tech solution",
+      "url": "https://www.smartcompany.com.au/startupsmart/melbourne-startup-amber-raises-10-million-energy-tech-solution/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "PitchBook coverage of Amber's $29.6M raise to fund European expansion.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Australian energy tech startup Amber raises $29.6M for Europe expansion - PitchBook",
+      "url": "https://pitchbook.com/news/articles/australian-energy-tech-startup-amber-raises-29m-for-europe-expansion"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "SmartCompany roundup mentioning Amber among Australian startups that raised funding.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Two Aussie startups that raised $56 million this week",
+      "url": "https://www.smartcompany.com.au/startupsmart/two-aussie-startups-raised-56-million-this-week/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Amber's own about page describing its electricity retail and automation service.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "About Amber Electricity",
+      "url": "https://www.amber.com.au/about-us"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Amber's blog post announcing it was named Victorian Start-Up of the Year.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Amber Named Victorian Start-Up of the Year",
+      "url": "https://www.amber.com.au/blog/ambers-victorian-start-up-of-the-year"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Startup Intros profile of Amber Electric with funding and team details.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Amber Electric: Funding, Team & Investors | Startup Intros",
+      "url": "https://startupintros.com/orgs/amber-electric"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Startup Galaxy directory listing for Amber Electric.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Amber Electric - Startup Galaxy",
+      "url": "https://startupgalaxy.com.au/startups/amber-electric"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Breakthrough Victoria announcement of Amber closing a $45 million funding round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Amber closes $45 million funding round | Breakthrough Victoria",
+      "url": "https://breakthroughvictoria.com/stories/amber-closes-45-million-funding-round/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Unrelated Wikipedia article about a film/song titled 'Amber Calling', not the startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Amber Calling",
+      "url": "https://en.wikipedia.org/wiki/Amber_Calling"
+    }
+  ],
+  "name": "Amber",
+  "name_key": "amber",
+  "region": "other",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-amber.txt",
+    "article_url": "https://www.startupdaily.net/topic/funding/cheque-in-7-startups-raised-274-7-million-this-week/",
+    "judged_run": "2026-09-28-r4",
+    "pages": 2,
+    "queries_done": [
+      "\"Amber\" startup Australia"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-amber.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 6.0,
+      "market": 6.0,
+      "overall": 5.7,
+      "run": "2026-09-28-r4",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:38:41+00:00",
+  "website": "https://www.amber.com.au/"
+}

@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "India",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "astrobase",
+  "industry": "spacetech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-25",
+      "run": "2026-09-28-r4",
+      "snippet": "Spacetech startup building the base for tomorrow's medium-lift rockets, part of the first cohort of India's National Space Promotion fund.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://inc42.com/startups/how-astrobase-is-building-the-base-for-tomorrows-medium-lift-rockets/"
+    }
+  ],
+  "name": "Astrobase",
+  "name_key": "astrobase",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:09:27+00:00",
+  "website": null
+}

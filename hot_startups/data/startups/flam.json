@@ -4,11 +4,101 @@
   "country": "India",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "India",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://inc42.com/buzz/flam-bags-4-5-mn-to-help-brands-create-mixed-reality-content/",
+          "https://in.linkedin.com/company/flamappofficial"
+        ],
+        "value": "Bengaluru, India"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://in.linkedin.com/company/flamappofficial"
+        ],
+        "value": "2021"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://in.linkedin.com/company/flamappofficial",
+          "https://yourstory.com/2026/09/govt-to-match-vc-investments-chip-startups-shah-rukh-khan-qed-investors-back-flam"
+        ],
+        "value": "Reports reaching over 380 million users through brands like Britannia, Netflix, AJIO, and WPP, and has drawn new backing interest from QED Investors and Shah Rukh Khan."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://inc42.com/buzz/flam-bags-4-5-mn-to-help-brands-create-mixed-reality-content/"
+        ],
+        "value": "$4.5M (pre-Series A, INR 38 Cr)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Brands want interactive, augmented-reality style content for ads and packaging but don't want to build the technology themselves, so Flam gives them a platform to create and publish it.",
+    "industry": "AI content",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Package a hard technology, here mixed reality, as an easy tool non-technical marketing teams can use, then scale it across many brands at once.",
+    "name": "Flam",
+    "not_startup_reason": null,
+    "overall": 6.0,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "number: self-reported user reach, supported by new investor interest",
+        "reason": "The 380-million-user figure is self-reported with no independent numbers to confirm it, but new investor interest from QED Investors and Shah Rukh Khan backs up the growth story.",
+        "score": 5,
+        "source": "https://in.linkedin.com/company/flamappofficial"
+      },
+      "market": {
+        "reason": "Brand marketing and advertising is a large, worldwide industry, and interactive content is relevant to nearly any consumer brand.",
+        "score": 7,
+        "source": "https://in.linkedin.com/company/flamappofficial"
+      },
+      "tech": {
+        "reason": "Building a reliable mixed-reality content platform that scales across big brands is solid engineering, though a well-funded team could build something similar within a year or two.",
+        "score": 6,
+        "source": "https://inc42.com/buzz/flam-bags-4-5-mn-to-help-brands-create-mixed-reality-content/"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Flam Bags $4.5 Mn To Help Brands Create Mixed Reality Content",
+        "url": "https://inc42.com/buzz/flam-bags-4-5-mn-to-help-brands-create-mixed-reality-content/"
+      },
+      {
+        "date": null,
+        "title": "Flam | LinkedIn",
+        "url": "https://in.linkedin.com/company/flamappofficial"
+      },
+      {
+        "date": "2026-09-16",
+        "title": "Govt to match VC investments in chip startups; Shah Rukh Khan, QED Investors back Flam",
+        "url": "https://yourstory.com/2026/09/govt-to-match-vc-investments-chip-startups-shah-rukh-khan-qed-investors-back-flam"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its content already runs at huge scale, reportedly reaching over 380 million users through brands like Britannia, Netflix, AJIO, and WPP.",
+    "website": null,
+    "who_pays": "Brands and marketing agencies who pay Flam to create and run these interactive campaigns.",
+    "why_now": "Phones are now powerful enough to run rich augmented and mixed-reality experiences at scale, so brands can add this to everyday marketing instead of it being a novelty."
+  },
+  "first_judged_run": "2026-09-28-r4",
   "first_seen": "2026-09-16",
   "id": "flam",
   "industry": "AI content",
-  "last_checked": null,
+  "last_checked": "2026-09-28",
   "mentions": [
     {
       "date": "2026-09-16",
@@ -18,18 +108,86 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://yourstory.com/2026/09/govt-to-match-vc-investments-chip-startups-shah-rukh-khan-qed-investors-back-flam"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Dealroom profile for Flam, a venture-backed company.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Flam — venture-backed company profile | Dealroom",
+      "url": "https://dealroom.co/companies/flam/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Inc42 on Flam, a Bengaluru mixed-reality marketing startup, raising INR 38 Cr ($4.5M) pre-Series A from Turbostart, Twin Ventures, Alphatron Capital and others.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Flam Bags $4.5 Mn To Help Brands Create Mixed Reality Content",
+      "url": "https://inc42.com/buzz/flam-bags-4-5-mn-to-help-brands-create-mixed-reality-content/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "ZoomInfo listing for Flying Flamingos India Pvt Ltd, the legal entity behind Flam.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Flam - Overview, News & Similar companies | ZoomInfo.com",
+      "url": "https://www.zoominfo.com/c/flying-flamingos-india-pvt-ltd/5000033697"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "StartupIntros profile summarizing Flam's funding, team and investors.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Flam: Funding, Team & Investors",
+      "url": "https://startupintros.com/orgs/flam"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tracxn company profile for Flam with team, funding and competitor data.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Flam - 2026 Company Profile, Team, Funding, Competitors & Financials - Tracxn",
+      "url": "https://tracxn.com/d/companies/flam/__P1PE7pNg7K8BxkcW5YQKU1fS9tCSvi91QL7ULFiHmTE"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Flam's LinkedIn page, describing it as a Bengaluru-founded (2021) mixed-reality platform used by brands like Britannia, Netflix, AJIO and WPP, reaching over 380 million users.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Flam | LinkedIn",
+      "url": "https://in.linkedin.com/company/flamappofficial"
     }
   ],
   "name": "Flam",
   "name_key": "flam",
-  "region": null,
+  "region": "asia",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"Flam\" startup India"
+    ],
+    "refresh": false,
+    "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:50:11+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 5.0,
+      "market": 7.0,
+      "overall": 6.0,
+      "run": "2026-09-28-r4",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T03:20:50+00:00",
   "website": null
 }

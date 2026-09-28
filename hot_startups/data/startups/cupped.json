@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Germany",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "cupped",
+  "industry": "apparel",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-17",
+      "run": "2026-09-28-r4",
+      "snippet": "Bra company founder Anna Lu impressed the jury on 'Die Hoehle der Loewen' but backed out of the deal afterward.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.businessinsider.de/gruenderszene/dhdl-traum-pitch-bh-gruenderin-macht-einen-rueckzieher-vom-deal/"
+    }
+  ],
+  "name": "Cupped",
+  "name_key": "cupped",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:06:10+00:00",
+  "website": null
+}

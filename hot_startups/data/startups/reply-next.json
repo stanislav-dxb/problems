@@ -1,0 +1,247 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Spain",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "Spain",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://elreferente.es/inversiones/reply-next-cierra-una-ronda-pre-seed-de-400-000-euros-para-convertirse-en-el-cerebro-digital-de-las-marcas-con-multiples-ubicaciones/",
+          "https://capital-riesgo.es/en/articles/reply-next-raises-400-000-in-pre-seed-round-led-by-4founders-capital/"
+        ],
+        "value": "Spain"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://tech.eu/2026/09/24/ai-platform-reply-next-secures-eur400k-pre-seed-funding/",
+          "https://elreferente.es/inversiones/reply-next-cierra-una-ronda-pre-seed-de-400-000-euros-para-convertirse-en-el-cerebro-digital-de-las-marcas-con-multiples-ubicaciones/"
+        ],
+        "value": "€400K pre-seed"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Businesses with many locations, like restaurant or clinic chains, struggle to keep their online listings, reviews and social media consistent everywhere, so Reply Next uses AI agents to manage all of it for them automatically.",
+    "industry": "Marketing tech",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "A boring, repetitive job that many businesses hate doing, like managing local listings and reviews, is a good place to put AI agents to work.",
+    "name": "Reply Next",
+    "not_startup_reason": null,
+    "overall": 4.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "unknown",
+        "reason": "This is the company's very first funding round, so there is no track record yet to show growth.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "Managing local online presence matters to multi-location brands specifically, which is a real but narrower market, not something every business needs.",
+        "score": 5,
+        "source": "https://tech.eu/2026/09/24/ai-platform-reply-next-secures-eur400k-pre-seed-funding/"
+      },
+      "tech": {
+        "reason": "It is an AI agent layer on top of existing listings, review and social tools, an approach several other companies are also building.",
+        "score": 3,
+        "source": "https://tech.eu/2026/09/24/ai-platform-reply-next-secures-eur400k-pre-seed-funding/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-24",
+        "title": "AI platform Reply Next secures €400K pre-seed funding - Tech.eu",
+        "url": "https://tech.eu/2026/09/24/ai-platform-reply-next-secures-eur400k-pre-seed-funding/"
+      },
+      {
+        "date": "2026-09-24",
+        "title": "Reply Next cierra una ronda pre-seed de 400.000 euros para convertirse en el cerebro digital de las marcas con múltiples ubicaciones",
+        "url": "https://elreferente.es/inversiones/reply-next-cierra-una-ronda-pre-seed-de-400-000-euros-para-convertirse-en-el-cerebro-digital-de-las-marcas-con-multiples-ubicaciones/"
+      },
+      {
+        "date": null,
+        "title": "Reply Next raises €400,000 in pre-seed round led by 4Founders Capital - Capital-Riesgo.es",
+        "url": "https://capital-riesgo.es/en/articles/reply-next-raises-400-000-in-pre-seed-round-led-by-4founders-capital/"
+      },
+      {
+        "date": null,
+        "title": "Reply Next Raises €400,000 Pre-seed",
+        "url": "https://www.thesaasnews.com/news/reply-next-raises-400000-pre-seed/"
+      },
+      {
+        "date": null,
+        "title": "Reply Next Raises €400K for AI Multi-Location Platform — Konsulteer",
+        "url": "https://www.konsulteer.com/article/reply-next-raises-400k-to-manage-multi-location-digital-presence-with-ai"
+      },
+      {
+        "date": null,
+        "title": "Reply Next - Crunchbase Company Profile & Funding",
+        "url": "https://www.crunchbase.com/organization/reply-next"
+      },
+      {
+        "date": null,
+        "title": "Reply Next - 2026 Company Profile, Team & Competitors - Tracxn",
+        "url": "https://tracxn.com/d/companies/replynext/__F5sRv8tc0AJTwjKisbi5Wufw0fu4u2cIDo_eV7_3bHA"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It calls itself the 'digital brain' for multi-location brands, running AI agents across every location's online presence instead of a human team handling each one by hand.",
+    "website": null,
+    "who_pays": "Multi-location brands and franchises that want their online image managed everywhere without hiring a big marketing or community team.",
+    "why_now": "AI agents have become good enough to handle repetitive tasks like answering reviews and updating listings, right as multi-location brands feel pressure to look consistent online everywhere."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "reply-next",
+  "industry": "Marketing tech",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-24",
+      "run": "2026-09-28-r4",
+      "snippet": "AI platform for managing the digital presence of businesses with multiple locations, raised €400K pre-seed.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://tech.eu/2026/09/24/ai-platform-reply-next-secures-eur400k-pre-seed-funding/"
+    },
+    {
+      "date": "2026-09-24",
+      "run": "2026-09-28-r4",
+      "snippet": "Platform closed a 400,000 euro pre-seed round to become the 'digital brain' of brands with multiple locations.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://elreferente.es/inversiones/reply-next-cierra-una-ronda-pre-seed-de-400-000-euros-para-convertirse-en-el-cerebro-digital-de-las-marcas-con-multiples-ubicaciones/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Reply Next, an AI platform for managing the digital presence of multi-location businesses, raised €400,000 in pre-seed funding led by 4Founders Capital.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "AI platform Reply Next secures €400K pre-seed funding - Tech.eu",
+      "url": "https://tech.eu/2026/09/24/ai-platform-reply-next-secures-eur400k-pre-seed-funding"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Reply.io's program for startups, unrelated sales outreach platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Reply for Startups – Reply",
+      "url": "https://reply.io/reply-for-startups/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Crunchbase profile of Reply Next.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Reply Next - Crunchbase Company Profile & Funding",
+      "url": "https://www.crunchbase.com/organization/reply-next"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tracxn profile of Reply Next with team and competitor information.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Reply Next - 2026 Company Profile, Team & Competitors - Tracxn",
+      "url": "https://tracxn.com/d/companies/replynext/__F5sRv8tc0AJTwjKisbi5Wufw0fu4u2cIDo_eV7_3bHA"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Reply.io is an AI sales outreach and cold email platform, unrelated to Reply Next.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Reply.io | AI Sales Outreach & Cold Email Platform",
+      "url": "https://reply.io/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Reply Next, founded by telecommunications engineer Miguel Peñate, raised €400,000 led by 4Founders Capital with participation from angel investors.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Reply Next raises €400,000 in pre-seed round led by 4Founders Capital - Capital-Riesgo.es",
+      "url": "https://capital-riesgo.es/en/articles/reply-next-raises-400-000-in-pre-seed-round-led-by-4founders-capital/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Reply Next raised €400,000 in a pre-seed round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Reply Next Raises €400,000 Pre-seed",
+      "url": "https://www.thesaasnews.com/news/reply-next-raises-400000-pre-seed/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Wikipedia entry on Reply Corporation, an unrelated Italian IT consulting group.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Reply Corporation",
+      "url": "https://en.wikipedia.org/wiki/Reply_Corporation"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Reply Next raised €400K to manage multi-location digital presence with AI agents.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Reply Next Raises €400K for AI Multi-Location Platform — Konsulteer",
+      "url": "https://www.konsulteer.com/article/reply-next-raises-400k-to-manage-multi-location-digital-presence-with-ai"
+    }
+  ],
+  "name": "Reply Next",
+  "name_key": "replynext",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-reply-next.txt",
+    "article_url": "https://tech.eu/2026/09/24/ai-platform-reply-next-secures-eur400k-pre-seed-funding/",
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"Reply Next\" startup"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": null,
+      "market": 5.0,
+      "overall": 4.0,
+      "run": "2026-09-28-r4",
+      "tech": 3.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:24:05+00:00",
+  "website": null
+}

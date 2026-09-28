@@ -1,0 +1,240 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": "hubble.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.geekwire.com/2026/hubble-network-raises-200m-to-reach-1-6b-valuation-as-startup-expands-satellite-bluetooth-network/"
+        ],
+        "value": "Seattle, United States"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.satellitetoday.com/finance/2025/09/17/satellite-bluetooth-startup-hubble-network-raises-70m-series-b/",
+          "https://techstartups.com/2026/09/23/hubble-network-raises-200m-series-c-at-1-6b-valuation-to-connect-bluetooth-devices-directly-to-satellites/"
+        ],
+        "value": "Went from a $70 million Series B in 2025 to a $200 million Series C in September 2026, taking total funding to about $300 million and valuation to $1.6 billion."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.geekwire.com/2026/hubble-network-raises-200m-to-reach-1-6b-valuation-as-startup-expands-satellite-bluetooth-network/",
+          "https://www.bloomberg.com/news/articles/2026-09-23/startup-hubble-reaches-unicorn-status-for-space-based-bluetooth"
+        ],
+        "value": "$200M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Tracking equipment outside cell-phone coverage normally needs pricey, dedicated satellite hardware, so Hubble Network built a network of satellites that can pick up the ordinary Bluetooth signal already inside billions of devices, so nothing new needs to be built into the device.",
+    "industry": "Satellite IoT",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Instead of building new hardware for a new use case, find the huge installed base of an existing chip and build the missing link that lets it reach a much bigger market.",
+    "name": "Hubble Network",
+    "not_startup_reason": null,
+    "overall": 8.0,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Funding nearly tripled from a $70 million Series B to a $200 million Series C within about a year, with valuation reaching $1.6 billion, a clear and sourced growth signal.",
+        "score": 8,
+        "source": "https://techstartups.com/2026/09/23/hubble-network-raises-200m-series-c-at-1-6b-valuation-to-connect-bluetooth-devices-directly-to-satellites/"
+      },
+      "market": {
+        "reason": "Tracking assets like equipment, containers and vehicles once outside cell coverage is a large, worldwide logistics and asset-tracking market, though it is still a specialised niche rather than something everyone buys.",
+        "score": 7,
+        "source": "https://www.geekwire.com/2026/hubble-network-raises-200m-to-reach-1-6b-valuation-as-startup-expands-satellite-bluetooth-network/"
+      },
+      "tech": {
+        "reason": "Getting a satellite in low orbit to reliably pick up an ordinary, low-power Bluetooth signal is a genuinely new hardware and radio-engineering feat that would take years for others to replicate.",
+        "score": 9,
+        "source": "https://spectrum.ieee.org/bluetooth-satellite"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-23",
+        "title": "Bluetooth機器を衛星から発見できるHubble Network、2億ドル調達で評価額16億ドルに",
+        "url": "https://thebridge.jp/2026/09/hubble-network-series-c-200m-smith-point-capital"
+      },
+      {
+        "date": "2026-09-23",
+        "title": "Hubble Network Raises $200 Million, Hits Unicorn Status for Space Bluetooth",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-23/startup-hubble-reaches-unicorn-status-for-space-based-bluetooth"
+      },
+      {
+        "date": null,
+        "title": "Hubble Network raises $200M to reach $1.6B valuation as startup expands satellite Bluetooth network",
+        "url": "https://www.geekwire.com/2026/hubble-network-raises-200m-to-reach-1-6b-valuation-as-startup-expands-satellite-bluetooth-network/"
+      },
+      {
+        "date": "2026-09-23",
+        "title": "Hubble Network raises $200M at $1.6B valuation to connect Bluetooth devices directly to satellites",
+        "url": "https://techstartups.com/2026/09/23/hubble-network-raises-200m-series-c-at-1-6b-valuation-to-connect-bluetooth-devices-directly-to-satellites/"
+      },
+      {
+        "date": "2025-09-17",
+        "title": "Satellite Bluetooth Startup Hubble Network Raises $70M Series B",
+        "url": "https://www.satellitetoday.com/finance/2025/09/17/satellite-bluetooth-startup-hubble-network-raises-70m-series-b/"
+      },
+      {
+        "date": "2026-09-23",
+        "title": "Satellite Bluetooth startup Hubble Network raises $200 million at $1.6 billion valuation",
+        "url": "https://www.933thedrive.com/2026/09/23/satellite-bluetooth-startup-hubble-network-raises-200-million-at-1-6-billion-valuation/"
+      },
+      {
+        "date": null,
+        "title": "bluetooth satellite",
+        "url": "https://spectrum.ieee.org/bluetooth-satellite"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It works with the plain, low-power Bluetooth chip already sitting in most gadgets, so devices can become satellite-trackable with just a firmware update instead of new hardware.",
+    "website": "https://hubble.com",
+    "who_pays": "Businesses that need to locate equipment, containers, or other assets beyond cell coverage pay for Hubble Network's satellite tracking service.",
+    "why_now": "Cell networks cover only about 15% of the Earth's land, and businesses increasingly need to track lower-value assets outside that coverage, right as cheap low-orbit satellite launches have become possible."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "hubble-network",
+  "industry": "Satellite IoT",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-23",
+      "run": "2026-09-28-r4",
+      "snippet": "Satellite communications startup that can find Bluetooth devices from space, raised $200 million Series C at a $1.6 billion valuation.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://thebridge.jp/2026/09/hubble-network-series-c-200m-smith-point-capital"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Via Satellite reports Hubble Network, which connects Bluetooth devices directly to satellites, raised a $70 million Series B.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Satellite Bluetooth Startup Hubble Network Raises $70M Series B - Via Satellite",
+      "url": "https://www.satellitetoday.com/finance/2025/09/17/satellite-bluetooth-startup-hubble-network-raises-70m-series-b/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Bloomberg reports Hubble Network raised $200 million, reaching a $1.6 billion valuation for its space-based Bluetooth network.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Hubble Network Raises $200 Million, Hits Unicorn Status for Space Bluetooth - Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-23/startup-hubble-reaches-unicorn-status-for-space-based-bluetooth"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "GeekWire: Seattle-based Hubble Network, founded by Life360 co-founder Alex Haro, raised $200 million to expand its satellite Bluetooth network.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Hubble Network raises $200M to reach $1.6B valuation as startup expands satellite Bluetooth network - GeekWire",
+      "url": "https://www.geekwire.com/2026/hubble-network-raises-200m-to-reach-1-6b-valuation-as-startup-expands-satellite-bluetooth-network/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Startupintros.com directory profile listing Hubble Network's funding, team and investors.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Hubble Network: Funding, Team & Investors",
+      "url": "https://startupintros.com/orgs/hubble-network"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Local radio station news item on Hubble Network's $200 million raise and new $1.6 billion valuation.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Satellite Bluetooth startup Hubble Network raises $200 million at $1.6 billion valuation | 93.3 The Drive",
+      "url": "https://www.933thedrive.com/2026/09/23/satellite-bluetooth-startup-hubble-network-raises-200-million-at-1-6-billion-valuation/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tech Startups reports the round is a Series C led by Smith Point Capital, bringing Hubble Network's total funding to $300 million.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Hubble Network raises $200M at $1.6B valuation to connect Bluetooth devices directly to satellites - Tech Startups",
+      "url": "https://techstartups.com/2026/09/23/hubble-network-raises-200m-series-c-at-1-6b-valuation-to-connect-bluetooth-devices-directly-to-satellites/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Streamlinefeed article noting Hubble Network was co-founded by Life360 co-founders and has reached unicorn status.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Streamlinefeed",
+      "url": "https://streamlinefeed.co.ke/news/life360-co-founders-satellite-startup-hubble-network-reaches-unicorn-status"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "IEEE Spectrum technical article on connecting standard Bluetooth Low Energy chips directly to satellites, the technology behind Hubble Network.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "bluetooth satellite",
+      "url": "https://spectrum.ieee.org/bluetooth-satellite"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "AMP version of the IEEE Spectrum article on Bluetooth-to-satellite connectivity.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "bluetooth satellite 2668247342",
+      "url": "https://spectrum.ieee.org/amp/bluetooth-satellite-2668247342"
+    }
+  ],
+  "name": "Hubble Network",
+  "name_key": "hubblenetwork",
+  "region": "north_america",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-hubble-network.txt",
+    "article_url": "https://thebridge.jp/2026/09/hubble-network-series-c-200m-smith-point-capital",
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"Hubble Network\" startup"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 8.0,
+      "market": 7.0,
+      "overall": 8.0,
+      "run": "2026-09-28-r4",
+      "tech": 9.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T03:04:45+00:00",
+  "website": "https://hubble.com"
+}

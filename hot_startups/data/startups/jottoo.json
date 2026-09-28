@@ -24,7 +24,8 @@
   "name_key": "jottoo",
   "region": null,
   "research": {
-    "pages": 0,
+    "article_read": true,
+    "pages": 1,
     "queries_done": [
       "\"Jottoo\" startup United States"
     ],
@@ -32,6 +33,6 @@
   },
   "score_history": [],
   "status": "candidate",
-  "updated": "2026-09-16T14:58:31+00:00",
+  "updated": "2026-09-28T03:00:10+00:00",
   "website": null
 }

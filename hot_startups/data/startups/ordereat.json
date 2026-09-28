@@ -1,0 +1,112 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": null,
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "ordereat",
+  "industry": "school cafeteria platform",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-21",
+      "run": "2026-09-28-r4",
+      "snippet": "Raised $2M led by Chile Ventures to expand its school cafeteria ordering platform.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://latamlist.com/ordereat-raises-2m-to-expand-school-cafeteria-platform/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "OrderEAT's LinkedIn company page (handle 'ordereatuy', suggesting a Uruguayan origin).",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "OrderEAT | LinkedIn",
+      "url": "https://www.linkedin.com/company/ordereatuy/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "OrderEAT raises US$2M led by Chilean funds to digitize school cafeterias across Latin America.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "OrderEAT levanta US$2 millones liderado por fondos chilenos para digitalizar las cafeterías escolares de Latinoamérica - Startups Latam",
+      "url": "https://startupslatam.com/ordereat-levanta-us2-millones-liderado-por-fondos-chilenos-para-digitalizar-las-cafeterias-escolares-de-latinoamerica/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "OrderEAT raises US$2M and adds dLocal founder Sergio Fogel as an investor.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "OrderEat levanta US$2M y suma a Sergio Fogel como inversor – El Ecosistema Startup",
+      "url": "https://ecosistemastartup.com/ordereat-levanta-us2m-y-suma-a-sergio-fogel-como-inversor/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "OrderEAT raises US$2M and now runs in 600 schools across Latin America.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "OrderEAT levanta US$2M y llega a 600 colegios en Latam – El Ecosistema Startup",
+      "url": "https://ecosistemastartup.com/ordereat-levanta-us2m-y-llega-a-600-colegios-en-latam/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "OrderEAT raises US$2M to digitize school cafeterias in Latin America.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "OrderEAT levanta US$2M para digitalizar cantinas escolares en LATAM – El Ecosistema Startup",
+      "url": "https://ecosistemastartup.com/ordereat-levanta-us2m-para-digitalizar-cantinas-escolares-en-latam/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "OrderEAT raises US$2M and targets 2,000 schools within 18 months.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "OrderEAT levanta US$2M y va por 2.000 colegios en 18 meses – El Ecosistema Startup",
+      "url": "https://ecosistemastartup.com/ordereat-levanta-us2m-y-va-por-2-000-colegios-en-18-meses/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "English-language coverage: OrderEAT, a closed-loop school-cafeteria wallet app, raises US$2M led by Chile Ventures with participation from Driven VC, Seedstars, Add Ventures and angel investors including Sergio Fogel (dLocal founder). Founded 2019 in Punta del Este, Uruguay; now in 600+ schools across Mexico, Argentina, Uruguay, Chile and Peru, serving 250,000+ active students.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "OrderEAT Raises US$2M to Turn School Cafeterias Into a Teen Wallet",
+      "url": "https://www.theinvestorsociety.com/ordereat-raises-us-2m-to-turn-school-cafeterias-into-a-teen-wallet/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "CB Insights company directory listing for OrderEAT.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Founded Year",
+      "url": "https://www.cbinsights.com/company/ordereat/"
+    }
+  ],
+  "name": "OrderEAT",
+  "name_key": "ordereat",
+  "region": null,
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-ordereat.txt",
+    "article_url": "https://latamlist.com/ordereat-raises-2m-to-expand-school-cafeteria-platform/",
+    "pages": 1,
+    "queries_done": [
+      "\"OrderEAT\" startup"
+    ],
+    "searches": 1
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T03:21:03+00:00",
+  "website": null
+}

@@ -4,11 +4,92 @@
   "country": "United States",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://fortune.com/2026/07/14/exclusive-payments-startup-velocity-38-million-businesses-stablecoin-growth/"
+        ],
+        "value": "United States"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.techinasia.com/circle-q4-revenue-jumps-77-to-770m"
+        ],
+        "value": "Backed by Visa and Circle, and named in coverage of Circle's Q4 earnings as one of the stablecoin partners it invested in."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://fortune.com/2026/07/14/exclusive-payments-startup-velocity-38-million-businesses-stablecoin-growth/"
+        ],
+        "value": "$38M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Businesses that hold or get paid in stablecoins have no easy way to use that money for everyday treasury and settlement, so Velocity builds payment infrastructure that lets businesses tap into stablecoins for cross-border money movement.",
+    "industry": "Payments",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "As stablecoins go mainstream, build the business-facing plumbing (treasury and settlement) instead of another consumer wallet or exchange.",
+    "name": "Velocity",
+    "not_startup_reason": null,
+    "overall": 6.0,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: raised a large funding round from strategic investors Visa and Circle",
+        "reason": "No user or revenue numbers are public, but it raised a sizeable $38 million round backed by Visa and Circle.",
+        "score": 5,
+        "source": "https://fortune.com/2026/07/14/exclusive-payments-startup-velocity-38-million-businesses-stablecoin-growth/"
+      },
+      "market": {
+        "reason": "Cross-border business payments and settlement is a huge worldwide market that touches nearly every company that trades internationally.",
+        "score": 8,
+        "source": "https://fortune.com/2026/07/14/exclusive-payments-startup-velocity-38-million-businesses-stablecoin-growth/"
+      },
+      "tech": {
+        "reason": "Building stablecoin settlement rails for businesses is solid engineering, but it competes with several other well-funded stablecoin infrastructure startups doing similar things.",
+        "score": 5,
+        "source": "https://fortune.com/2026/07/14/exclusive-payments-startup-velocity-38-million-businesses-stablecoin-growth/"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Exclusive: Payments startup Velocity raises $38 million to help businesses tap stablecoin growth",
+        "url": "https://fortune.com/2026/07/14/exclusive-payments-startup-velocity-38-million-businesses-stablecoin-growth/"
+      },
+      {
+        "date": "2026-09-16",
+        "title": "Circle Q4 revenue jumps 77% to $770M",
+        "url": "https://www.techinasia.com/circle-q4-revenue-jumps-77-to-770m"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It positions itself as a direct competitor to banks and foreign-exchange firms for business settlement, not just another crypto tool for crypto-native companies.",
+    "website": null,
+    "who_pays": "Businesses that want faster, cheaper cross-border payments and treasury tools pay to use Velocity's platform.",
+    "why_now": "Stablecoin volumes are growing fast and businesses want cheaper, faster cross-border payments than banks and FX houses can offer."
+  },
+  "first_judged_run": "2026-09-28-r4",
   "first_seen": "2026-09-16",
   "id": "velocity",
-  "industry": "Stablecoin payments",
-  "last_checked": null,
+  "industry": "Payments",
+  "last_checked": "2026-09-28",
   "mentions": [
     {
       "date": "2026-09-16",
@@ -18,18 +99,113 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://www.techinasia.com/circle-q4-revenue-jumps-77-to-770m"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Fortune reports that payments startup Velocity raised $38 million to help businesses use stablecoins for cross-border treasury and settlement, competing with banks and FX houses in the US, Europe and Australia.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Exclusive: Payments startup Velocity raises $38 million to help businesses tap stablecoin growth | Fortune",
+      "url": "https://fortune.com/2026/07/14/exclusive-payments-startup-velocity-38-million-businesses-stablecoin-growth/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Altss profile describing Velocity as a New York-based accelerator or incubator, not a single operating startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Velocity | New York Accelerator / Incubator | Altss",
+      "url": "https://altss.com/profile/velocity"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "University of Waterloo page for Velocity Incubator, which supports pre-seed technology startups.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Velocity Incubator | Entrepreneurship | University of Waterloo",
+      "url": "https://uwaterloo.ca/entrepreneurship/profiles/velocity-incubator"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Crunchbase profile for Velocity Incubator, the University of Waterloo-linked startup incubator.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Velocity Incubator - Crunchbase Company Profile & Funding",
+      "url": "https://www.crunchbase.com/organization/velocity-incubator"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Velocity Labs' own site, describing itself as a US-based digital product accelerator, distinct from the payments startup Velocity.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Digital Product Accelerator | Velocity Labs | United States",
+      "url": "https://www.velocitylabs.com/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Velocity Network Foundation page describing its 'Velocity for Startups' program, not a startup itself.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Velocity for Startups Program - Learn",
+      "url": "https://www.velocitynetwork.foundation/main2/velocity-for-startups"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Startup Nation Finder directory listing for a business-software company called Velocity.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Velocity - Business Software - Startup Nation Finder",
+      "url": "https://finder.startupnationcentral.org/company_page/velocity"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Site for Velocity Capital, led by Nicholas Hunley, which structures single-asset SPVs for accredited investors in oil & gas, film, sports clubs and private companies.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Velocity Startup | Raise Capital the Right Way",
+      "url": "https://velocitystartup.com/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Velocity Fintech Ventures' own site, describing itself as a venture capital firm investing in early-stage fintech companies.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Home - Velocity Fintech Ventures",
+      "url": "https://www.velocityfintech.com/"
     }
   ],
   "name": "Velocity",
   "name_key": "velocity",
-  "region": null,
+  "region": "north_america",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"Velocity\" startup United States"
+    ],
+    "refresh": false,
+    "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:48:18+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 5.0,
+      "market": 8.0,
+      "overall": 6.0,
+      "run": "2026-09-28-r4",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:58:36+00:00",
   "website": null
 }

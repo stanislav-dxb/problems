@@ -2,13 +2,116 @@
   "alias_keys": [],
   "aliases": [],
   "country": "Colombia",
-  "domain": null,
+  "domain": "emiliavision.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Colombia",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://latamlist.com/emilia-ai-raises-1-5m-pre-seed-round-led-by-prosus/",
+          "https://dealroom.co/news/150738-prosus-leads-1-5m-pre-seed-for-restaurant-ai-startup-emilia-ai/"
+        ],
+        "value": "Colombia"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://latamlist.com/emilia-ai-raises-1-5m-pre-seed-round-led-by-prosus/"
+        ],
+        "value": "2024"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://latamlist.com/emilia-ai-raises-1-5m-pre-seed-round-led-by-prosus/",
+          "https://www.prosus.com/news-insights/2026/emilia-ai-raises-dollars-1-point-5-m-led-by-prosus-ventures"
+        ],
+        "value": "$1.5M pre-seed"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Restaurants already run security cameras but nobody watches them for sales or theft, so Emilia AI reads that camera footage in real time and turns it into a coach for staff and a fraud watchdog.",
+    "industry": "Restaurant AI",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Point AI at data a business already collects passively, like security video, and turn it into an active tool instead of building new sensors.",
+    "name": "Emilia AI",
+    "not_startup_reason": null,
+    "overall": 5.5,
+    "region": "latin_america",
+    "scores": {
+      "growth": {
+        "basis": "unknown",
+        "reason": "The only public numbers are the size of this first funding round, with no user, revenue or restaurant-count figures yet.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "Restaurants are a huge, worldwide industry, but the product is aimed only at that one vertical rather than at every kind of business.",
+        "score": 6,
+        "source": "https://www.theinvestorsociety.com/prosus-backs-emilia-ai-to-turn-restaurant-cameras-into-sales-coaches/"
+      },
+      "tech": {
+        "reason": "Applying computer vision to existing security cameras for coaching and fraud detection is solid engineering, but video analytics for retail is an active field a strong competitor could match within a year.",
+        "score": 5,
+        "source": "https://www.newsbreak.com/news/4890968510753-emilia-ai-raises-us-1-5-million-with-prosus-to-turn-restaurant-security-cameras-into-sales-and-anti-fraud-agents"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-15",
+        "title": "Emilia AI raises $1.5M pre-seed round led by Prosus",
+        "url": "https://latamlist.com/emilia-ai-raises-1-5m-pre-seed-round-led-by-prosus/"
+      },
+      {
+        "date": null,
+        "title": "Prosus leads $1.5M pre-seed for restaurant AI startup Emilia AI | Dealroom News",
+        "url": "https://dealroom.co/news/150738-prosus-leads-1-5m-pre-seed-for-restaurant-ai-startup-emilia-ai/"
+      },
+      {
+        "date": null,
+        "title": "Emilia AI Raises $1.5M led by Prosus Ventures to Build the Next-Generation Operating System for Restaurants",
+        "url": "https://www.prosus.com/news-insights/2026/emilia-ai-raises-dollars-1-point-5-m-led-by-prosus-ventures"
+      },
+      {
+        "date": null,
+        "title": "Prosus Backs Emilia AI to Turn Restaurant Cameras Into Sales Coaches",
+        "url": "https://www.theinvestorsociety.com/prosus-backs-emilia-ai-to-turn-restaurant-cameras-into-sales-coaches/"
+      },
+      {
+        "date": null,
+        "title": "Emilia AI raises US$1.5 million with Prosus to turn restaurant security cameras into sales and anti-fraud agents",
+        "url": "https://www.newsbreak.com/news/4890968510753-emilia-ai-raises-us-1-5-million-with-prosus-to-turn-restaurant-security-cameras-into-sales-and-anti-fraud-agents"
+      },
+      {
+        "date": null,
+        "title": "Emilia AI | To augment humans with AI they can use every minute of their | Torre.ai",
+        "url": "https://torre.ai/teams/EmiliaAI"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It reuses cameras restaurants already own as its sensor, so there is no new hardware to install, and one feed does two jobs: coaching staff to sell more and catching fraud.",
+    "website": "https://emiliavision.com/",
+    "who_pays": "Restaurant chains and operators who pay a subscription to run the software on their existing camera systems.",
+    "why_now": "Restaurant margins are thin and staff turnover is high, so cheap, fast AI video analysis that lifts sales and catches theft pays for itself quickly."
+  },
+  "first_judged_run": "2026-09-28-r4",
   "first_seen": "2026-09-16",
   "id": "emilia-ai",
-  "industry": "AI",
-  "last_checked": null,
+  "industry": "Restaurant AI",
+  "last_checked": "2026-09-28",
   "mentions": [
     {
       "date": "2026-09-15",
@@ -18,18 +121,106 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://latamlist.com/emilia-ai-raises-1-5m-pre-seed-round-led-by-prosus/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Dealroom on Emilia AI, a restaurant AI startup founded by Colombians Andres Cajiao and Sebastian Rojo, raising a $1.5 million pre-seed round led by Prosus.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Prosus leads $1.5M pre-seed for restaurant AI startup Emilia AI | Dealroom News",
+      "url": "https://dealroom.co/news/150738-prosus-leads-1-5m-pre-seed-for-restaurant-ai-startup-emilia-ai/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Prosus's own announcement of its $1.5 million investment in Emilia AI to build an operating system for restaurants.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Emilia AI Raises $1.5M led by Prosus Ventures to Build the Next-Generation Operating System for Restaurants – Prosus",
+      "url": "https://www.prosus.com/news-insights/2026/emilia-ai-raises-dollars-1-point-5-m-led-by-prosus-ventures"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Torre.ai team page for Emilia AI, describing its mission to augment humans with AI.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Emilia AI | To augment humans with AI they can use every minute of their | Torre.ai",
+      "url": "https://torre.ai/teams/EmiliaAI"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "The Investor Society on Prosus backing Emilia AI, which turns restaurant security cameras into sales coaches.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Prosus Backs Emilia AI to Turn Restaurant Cameras Into Sales Coaches",
+      "url": "https://www.theinvestorsociety.com/prosus-backs-emilia-ai-to-turn-restaurant-cameras-into-sales-coaches/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Signal Base brief on Emilia AI Studio securing $1.5 million in pre-seed funding.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Emilia AI Studio Secures $1.5M Pre-Seed Funding",
+      "url": "https://www.trysignalbase.com/news/funding/emilia-ai-studio-secures-1-5m-pre-seed-funding"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "NewsBreak on Emilia AI's $1.5 million raise to turn restaurant security cameras into sales and anti-fraud agents.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Emilia AI raises US$1.5 million with Prosus to turn restaurant security cameras into sales and anti-fraud agents - NewsBreak",
+      "url": "https://www.newsbreak.com/news/4890968510753-emilia-ai-raises-us-1-5-million-with-prosus-to-turn-restaurant-security-cameras-into-sales-and-anti-fraud-agents"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "The SaaS News brief on Emilia AI's $1.5 million pre-seed round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Emilia AI Raises $1.5M Pre-seed",
+      "url": "https://www.thesaasnews.com/news/emilia-ai-raises-1-5m-pre-seed/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "StartupResearcher on Emilia AI's $1.5 million pre-seed round led by Prosus Ventures.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Emilia AI Raises $1.5M Pre-Seed Led by Prosus Ventures",
+      "url": "https://www.startupresearcher.com/news/emilia-ai-lands-usd1-5-million-pre-seed-round-led-by-prosus-ventures"
     }
   ],
   "name": "Emilia AI",
   "name_key": "emiliaai",
-  "region": null,
+  "region": "latin_america",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-emilia-ai.txt",
+    "article_url": "https://latamlist.com/emilia-ai-raises-1-5m-pre-seed-round-led-by-prosus/",
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"Emilia AI\" startup Colombia"
+    ],
+    "refresh": false,
+    "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:50:11+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": null,
+      "market": 6.0,
+      "overall": 5.5,
+      "run": "2026-09-28-r4",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T03:15:57+00:00",
+  "website": "https://emiliavision.com/"
 }

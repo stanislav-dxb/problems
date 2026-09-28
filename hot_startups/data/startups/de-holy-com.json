@@ -4,11 +4,110 @@
   "country": "Germany",
   "domain": "de.holy.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Germany",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://siliconcanals.com/holy-raises-10-5m/",
+          "https://www.eu-startups.com/directory/holy-energy/"
+        ],
+        "value": "Berlin, Germany"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://siliconcanals.com/holy-raises-10-5m/"
+        ],
+        "value": "2020"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://de.holy.com/"
+        ],
+        "value": "Says it has served 2 million happy customers"
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://siliconcanals.com/holy-raises-10-5m/"
+        ],
+        "value": "€12.3M total, including a €10.5M Series A"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "People want to cut sugar and additives but still enjoy energy drinks, iced tea, and shakes, so HOLY sells powders and syrups you mix with water to make them yourself.",
+    "industry": "Beverages",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Take a crowded, unhealthy consumer category and re-format the product itself (powder instead of a can) to be healthier, lighter to ship, and easier to sell directly online.",
+    "name": "HOLY",
+    "not_startup_reason": null,
+    "overall": 5.3,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last (€10.5M Series A on top of a smaller earlier raise, for €12.3M total)",
+        "reason": "Its Series A was much bigger than its earlier funding, a sign investors believe it is growing fast, though no revenue or customer growth numbers are public.",
+        "score": 6,
+        "source": "https://siliconcanals.com/holy-raises-10-5m/"
+      },
+      "market": {
+        "reason": "Soft drinks and energy drinks are bought by huge numbers of people worldwide.",
+        "score": 7,
+        "source": "https://siliconcanals.com/holy-raises-10-5m/"
+      },
+      "tech": {
+        "reason": "It is a drink recipe and direct-to-consumer brand, which another company could copy without much difficulty.",
+        "score": 3,
+        "source": "https://de.holy.com/"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Germany-based HOLY raises €10.5M, aims to become Europe's leading healthy soft drink brand - Silicon Canals",
+        "url": "https://siliconcanals.com/holy-raises-10-5m/"
+      },
+      {
+        "date": null,
+        "title": "HOLY Energy | EU-Startups",
+        "url": "https://www.eu-startups.com/directory/holy-energy/"
+      },
+      {
+        "date": null,
+        "title": "HOLY",
+        "url": "https://www.hvcapital.com/portfolio/holy"
+      },
+      {
+        "date": null,
+        "title": "Holy Company Information - Funding, Investors, and More",
+        "url": "https://www.seedtable.com/startups/de-weareholy"
+      },
+      {
+        "date": null,
+        "title": "HOLY - Die Softdrink Revolution",
+        "url": "https://de.holy.com/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Selling concentrated powder and syrup instead of ready-made cans makes the drinks cheaper to ship and store, and lets HOLY sell variety packs straight to consumers online.",
+    "website": "https://de.holy.com/",
+    "who_pays": "Everyday consumers who buy starter sets, refill packs, and subscriptions directly from HOLY's online store.",
+    "why_now": "More shoppers are avoiding sugary drinks, and direct-to-consumer brands can now reach them straight through their own website and social media instead of needing shelf space."
+  },
+  "first_judged_run": "2026-09-28-r4",
   "first_seen": "2026-09-16",
   "id": "de-holy-com",
-  "industry": "Consumer & Lifestyle",
-  "last_checked": null,
+  "industry": "Beverages",
+  "last_checked": "2026-09-28",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -18,18 +117,126 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://de.holy.com/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Holy Technologies is a Hamburg-based startup, founded 2022, developing an autonomous, machine-learning-enhanced manufacturing system for carbon fiber composites.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Holy Technologies | Startup City Hamburg",
+      "url": "https://startupcity.hamburg/startups-ecosystem/holy_technologies"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Directory listing for HOLY, a Berlin-based healthy soft drink and energy drink startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "HOLY Energy | EU-Startups",
+      "url": "https://www.eu-startups.com/directory/holy-energy/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Berlin startup HOLY, founded 2020, raised €10.5 million Series A, taking total funding to €12.3 million, for its sugar-free powdered energy drinks, iced teas, milkshakes and hydration drinks.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Germany-based HOLY raises €10.5M, aims to become Europe's leading healthy soft drink brand - Silicon Canals",
+      "url": "https://siliconcanals.com/holy-raises-10-5m/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "HV Capital portfolio page for HOLY, the German soft drinks startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "HOLY",
+      "url": "https://www.hvcapital.com/portfolio/holy"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Profile of Holy Technologies, the Hamburg carbon-fiber manufacturing startup, with funding and team details.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Holy Technologies: Funding, Team & Investors | Startup Intros",
+      "url": "https://startupintros.com/orgs/holy-technologies"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Seedtable profile of HOLY (also referred to as 'We Are Holy'), the German drinks startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Holy Company Information - Funding, Investors, and More",
+      "url": "https://www.seedtable.com/startups/de-weareholy"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Startbase listing for 'Hey Holy', related to the HOLY drinks brand in Germany.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "HEY HOLY",
+      "url": "https://www.startbase.com/organization/hey-holy/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tracxn company profile for HOLY.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Holy - 2026 Company Profile, Team, Funding & Competitors - Tracxn",
+      "url": "https://tracxn.com/d/companies/holy/__j_RAerRgNJL7DjZU2pSAui4iqCTa21ICmMkGqVrXNA8"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Unrelated: Wikipedia article about a person named David Holy, not a startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "David Holy",
+      "url": "https://en.wikipedia.org/wiki/David_Holy"
     }
   ],
   "name": "HOLY",
   "name_key": "holy",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-de-holy-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-09-28-r4",
+    "pages": 2,
+    "queries_done": [
+      "\"HOLY\" startup Germany"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-de-holy-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 6.0,
+      "market": 7.0,
+      "overall": 5.3,
+      "run": "2026-09-28-r4",
+      "tech": 3.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:32:13+00:00",
   "website": "https://de.holy.com/"
 }

@@ -4,11 +4,81 @@
   "country": "United States",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Salespeople spend a lot of their day on notes, CRM updates and follow-up messages instead of selling, so Convo built an AI copilot that helps them handle that work faster.",
+    "industry": "AI sales tools",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Pick one repetitive, high-volume task inside a job almost everyone already has, like sales note-taking and follow-up, and build an AI assistant focused only on that task.",
+    "name": "Convo",
+    "not_startup_reason": null,
+    "overall": 5.0,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "unknown",
+        "reason": "No user numbers, revenue or funding were found; the only trace is a single Product Hunt launch listing.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "Every business with a sales team, in any country, could use a tool like this, so the potential market is large even though the space is crowded.",
+        "score": 7,
+        "source": "https://www.producthunt.com/products/convo-7"
+      },
+      "tech": {
+        "reason": "An 'AI copilot for salespeople' sounds like a layer built on top of existing AI models and CRMs, which many competitors could copy quickly.",
+        "score": 3,
+        "source": "https://www.producthunt.com/products/convo-7"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-14",
+        "title": "Convo - An AI copilot for salespeople",
+        "url": "https://www.producthunt.com/products/convo-7"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Public information does not go far past a short Product Hunt listing, and the name is shared by several unrelated companies (an ASL interpreting service, an older workspace-chat company, and others), so what makes this particular Convo different is not documented yet.",
+    "website": null,
+    "who_pays": "Sales teams and the companies that employ them would be the ones paying for the software, though no confirmed customers or pricing are public yet.",
+    "why_now": "AI tools have gotten good enough to draft messages, summarize calls and update records on their own, which is exactly the kind of routine writing and admin work that used to eat up a salesperson's day."
+  },
+  "first_judged_run": "2026-09-28-r4",
   "first_seen": "2026-09-16",
   "id": "convo",
   "industry": "AI sales tools",
-  "last_checked": null,
+  "last_checked": "2026-09-28",
   "mentions": [
     {
       "date": "2026-09-14",
@@ -18,18 +88,122 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://www.producthunt.com/products/convo-7"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tracxn profile of a Convo company: Series A, San Francisco, founded 2011, AI-powered software consulting and collaboration platform, raised $5M.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Convo - 2026 Company Profile, Team, Funding & Competitors - Tracxn",
+      "url": "https://tracxn.com/d/companies/convo/__G2D4zbXEDU3ycrgg_4Jood9p7BLtnFD1vCQ3ZWduamk"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "A second, unfunded Tracxn profile for a different Convo: San Francisco, founded 2024, AI-powered platform for qualitative user research.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Convo - 2026 Company Profile & Team - Tracxn",
+      "url": "https://tracxn.com/d/companies/convo/__vyzMhp9MKfPtgMfC19fypwhrum7PZWgg7Q3Fyih1Vjg"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "US homepage for Convo, a deaf-owned company connecting people instantly with qualified ASL interpreters.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Convo US | Home",
+      "url": "https://www.convo.io/us/home"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Crunchbase profile for Convo Technologies, an information technology solutions company started in Feb. 2019 in Cedar Park, Texas.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Convo Technologies - Crunchbase Company Profile & Funding",
+      "url": "https://www.crunchbase.com/organization/convo-technologies"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Startup Ranking listing describing Convo as a cloud-based interactive business workspace for real-time conversations.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Convo - Convo is a cloud-based interactive business workspace enabling real-time conversations online. | Startup Ranking",
+      "url": "https://www.startupranking.com/convo"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Funding and investor tracker page for Convo.com.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Convo.com – Funding, Valuation, Investors, News",
+      "url": "https://o.parsers.vc/startup/convo.com/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Bloomberg Markets company profile page for a Convo entity.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Convo - Company Profile and News - Bloomberg Markets",
+      "url": "https://www.bloomberg.com/profile/company/0863435D:US"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Crunchbase profile for Convo, an enterprise collaboration and team communication platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Convo - Crunchbase Company Profile & Funding",
+      "url": "https://www.crunchbase.com/organization/convo"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "About page for Convo, the ASL interpreting service, deaf-owned and globally run.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Convo | About",
+      "url": "https://www.convo.io/about"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "CB Insights profile page, appears to be for a company called Convoz rather than Convo.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "www.cbinsights.com",
+      "url": "https://www.cbinsights.com/company/convoz"
     }
   ],
   "name": "Convo",
   "name_key": "convo",
-  "region": null,
+  "region": "north_america",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"Convo\" startup United States"
+    ],
+    "refresh": false,
+    "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:47:15+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": null,
+      "market": 7.0,
+      "overall": 5.0,
+      "run": "2026-09-28-r4",
+      "tech": 3.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:44:43+00:00",
   "website": null
 }

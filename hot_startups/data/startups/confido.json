@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": null,
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "confido",
+  "industry": "AI operations for CPG brands",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-28",
+      "run": "2026-09-28-r4",
+      "snippet": "Automates operations for consumer packaged goods brands with AI, raised $55 million Series B led by Insight Partners.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://thebridge.jp/2026/09/confido-series-b-cpg-ai-operating-system-insight-partners"
+    }
+  ],
+  "name": "Confido",
+  "name_key": "confido",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:09:01+00:00",
+  "website": null
+}

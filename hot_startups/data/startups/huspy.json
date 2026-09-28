@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United Arab Emirates",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "huspy",
+  "industry": "proptech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-23",
+      "run": "2026-09-28-r4",
+      "snippet": "UAE-founded proptech entered Italy by acquiring Integra Finance, with an $86 million investment plan.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "http://wamda.com/2026/09/huspy-enters-italy-integra-finance-acquisition-86-million-investment-plan"
+    }
+  ],
+  "name": "Huspy",
+  "name_key": "huspy",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:09:27+00:00",
+  "website": null
+}

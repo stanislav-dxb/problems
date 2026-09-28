@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Netherlands",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "owow-venture-studio",
+  "industry": "venture studio",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-24",
+      "run": "2026-09-28-r4",
+      "snippet": "Eindhoven-based venture studio that secured €2.65M to build B2B startups for traditional industries.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://tech.eu/2026/09/24/owow-venture-studio-lands-eur265m-to-build-b2b-startups-for-traditional-industries/"
+    }
+  ],
+  "name": "OWOW Venture Studio",
+  "name_key": "owowventurestudio",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:05:16+00:00",
+  "website": null
+}

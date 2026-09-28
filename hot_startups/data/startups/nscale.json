@@ -1,0 +1,259 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United Kingdom",
+  "domain": "nscale.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.cnbc.com/2025/09/17/ai-startup-nscale-from-uk-is-blowing-away-nvidia-ceo-jensen-huang.html",
+          "https://www.geekwire.com/2026/uk-data-center-startup-nscale-bets-big-on-bellevue-for-u-s-engineering-hub-amid-ai-boom/"
+        ],
+        "value": "London, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://en.wikipedia.org/wiki/Nscale"
+        ],
+        "value": "2024"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.cnbc.com/2026/03/09/nscale-ai-data-center-nvidia-raise.html",
+          "https://www.techinasia.com/nvidiabacked-ai-startup-nscale-files-ipo"
+        ],
+        "value": "Valuation jumped to $14.6 billion in a Nvidia-backed round in March 2026, then it raised $3.36 billion more and filed to go public on the NYSE just six months later."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.techinasia.com/nvidiabacked-ai-startup-nscale-files-ipo",
+          "https://www.nscale.com/",
+          "https://en.wowtale.net/2026/09/26/235224/"
+        ],
+        "value": "$3.36B in pre-IPO financing (September 2026), on top of earlier rounds including $2B plus a $900M credit line"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "AI companies need huge amounts of computing power, but building and running the data centers, power supply and cooling for that is slow and expensive, so Nscale builds and runs full AI data centers, from power to software, and rents that capacity out.",
+    "industry": "AI infrastructure",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "When everyone needs a scarce physical resource to build a hot new technology, building that infrastructure can be a bigger business than building on top of it.",
+    "name": "Nscale",
+    "not_startup_reason": null,
+    "overall": 8.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Its valuation and funding have grown enormously within a year, from a $14.6B round to a $3.36B raise ahead of an IPO, plus a $1.65B acquisition.",
+        "score": 9,
+        "source": "https://www.techinasia.com/nvidiabacked-ai-startup-nscale-files-ipo"
+      },
+      "market": {
+        "reason": "Almost every AI company and large enterprise in the world needs the computing power Nscale sells.",
+        "score": 9,
+        "source": "https://www.nscale.com/"
+      },
+      "tech": {
+        "reason": "It uses existing GPU and data-center technology; its edge is speed of execution, capital and partnerships like Nvidia rather than new science.",
+        "score": 6,
+        "source": "https://www.cnbc.com/2025/09/17/ai-startup-nscale-from-uk-is-blowing-away-nvidia-ceo-jensen-huang.html"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-26",
+        "title": "Nvidia-backed AI startup Nscale files IPO",
+        "url": "https://www.techinasia.com/nvidiabacked-ai-startup-nscale-files-ipo"
+      },
+      {
+        "date": null,
+        "title": "AI startup Nscale came out of nowhere and is blowing away Nvidia CEO Jensen Huang",
+        "url": "https://www.cnbc.com/2025/09/17/ai-startup-nscale-from-uk-is-blowing-away-nvidia-ceo-jensen-huang.html"
+      },
+      {
+        "date": null,
+        "title": "UK data center startup Nscale bets big on Bellevue for U.S. engineering hub amid AI boom - GeekWire",
+        "url": "https://www.geekwire.com/2026/uk-data-center-startup-nscale-bets-big-on-bellevue-for-u-s-engineering-hub-amid-ai-boom/"
+      },
+      {
+        "date": null,
+        "title": "Nscale buys AI infrastructure optimization startup Anyscale for reported $1.65B - SiliconANGLE",
+        "url": "https://siliconangle.com/2026/07/30/nscale-buys-ai-infrastructure-optimization-startup-anyscale-reported-1-65b/"
+      },
+      {
+        "date": null,
+        "title": "Nvidia backs AI data center startup Nscale as it hits $14.6 billion valuation",
+        "url": "https://www.cnbc.com/2026/03/09/nscale-ai-data-center-nvidia-raise.html"
+      },
+      {
+        "date": null,
+        "title": "Nscale to Buy AI Software Startup Anyscale for $1.65 Billion - Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-30/nscale-to-buy-ai-software-startup-anyscale-for-1-65-billion"
+      },
+      {
+        "date": null,
+        "title": "Nscale has raised billions to power Europe's AI ambitions. Now the startup must prove the hype can survive reality | Fortune",
+        "url": "https://fortune.com/2026/06/03/nscale-raised-billions-europe-ai-ambitions/"
+      },
+      {
+        "date": null,
+        "title": "Nscale",
+        "url": "https://en.wikipedia.org/wiki/Nscale"
+      },
+      {
+        "date": null,
+        "title": "Neocloud Nscale Raises $3.36B in New Funding - WOWTALE",
+        "url": "https://en.wowtale.net/2026/09/26/235224/"
+      },
+      {
+        "date": null,
+        "title": "The engine of superintelligence | Nscale",
+        "url": "https://www.nscale.com/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It owns the whole stack itself, from energy supply and data center buildings to the cloud software on top, instead of just reselling other companies' hardware or power.",
+    "website": "https://www.nscale.com/",
+    "who_pays": "AI labs and large companies pay to rent GPU computing power and cloud services from Nscale.",
+    "why_now": "The rush to build and run large AI models has created a worldwide shortage of data center and computing capacity that only new large-scale builders can fill."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "nscale",
+  "industry": "AI infrastructure",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-26",
+      "run": "2026-09-28-r4",
+      "snippet": "Nvidia-backed AI infrastructure company raised $3.36b ahead of an NYSE listing.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.techinasia.com/nvidiabacked-ai-startup-nscale-files-ipo"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "CNBC profile of UK-based Nscale, an AI data center company that has grown fast enough to impress Nvidia's CEO.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "AI startup Nscale came out of nowhere and is blowing away Nvidia CEO Jensen Huang",
+      "url": "https://www.cnbc.com/2025/09/17/ai-startup-nscale-from-uk-is-blowing-away-nvidia-ceo-jensen-huang.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Nscale, a London-based AI data center startup, is opening a US engineering hub in Bellevue, Washington, fresh off a $2 billion raise and a $900 million credit line.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "UK data center startup Nscale bets big on Bellevue for U.S. engineering hub amid AI boom - GeekWire",
+      "url": "https://www.geekwire.com/2026/uk-data-center-startup-nscale-bets-big-on-bellevue-for-u-s-engineering-hub-amid-ai-boom/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Nscale is acquiring Anyscale, the startup behind the open-source Ray project for optimizing large AI clusters, for a reported $1.65 billion.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nscale buys AI infrastructure optimization startup Anyscale for reported $1.65B - SiliconANGLE",
+      "url": "https://siliconangle.com/2026/07/30/nscale-buys-ai-infrastructure-optimization-startup-anyscale-reported-1-65b/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Nvidia is among the investors in a funding round that values Nscale, a UK AI data center startup, at $14.6 billion.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nvidia backs AI data center startup Nscale as it hits $14.6 billion valuation",
+      "url": "https://www.cnbc.com/2026/03/09/nscale-ai-data-center-nvidia-raise.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Bloomberg reports on Nscale's agreement to acquire AI software startup Anyscale for $1.65 billion.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nscale to Buy AI Software Startup Anyscale for $1.65 Billion - Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-30/nscale-to-buy-ai-software-startup-anyscale-for-1-65-billion"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Fortune examines Nscale's rapid fundraising and its plan to build AI data center capacity across Europe.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nscale has raised billions to power Europe's AI ambitions. Now the startup must prove the hype can survive reality | Fortune",
+      "url": "https://fortune.com/2026/06/03/nscale-raised-billions-europe-ai-ambitions/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Wikipedia entry on Nscale, a UK AI infrastructure company spun out of crypto miner Arkon Energy in 2024 and founded by Josh Payne.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nscale",
+      "url": "https://en.wikipedia.org/wiki/Nscale"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "WOWTALE reports Nscale, a 'neocloud' AI infrastructure provider, raised $3.36 billion in new funding.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Neocloud Nscale Raises $3.36B in New Funding - WOWTALE",
+      "url": "https://en.wowtale.net/2026/09/26/235224/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Nscale's own website, describing itself as an AI infrastructure and cloud computing provider.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "The engine of superintelligence | Nscale",
+      "url": "https://www.nscale.com/"
+    }
+  ],
+  "name": "Nscale",
+  "name_key": "nscale",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "judged_run": "2026-09-28-r4",
+    "pages": 2,
+    "queries_done": [
+      "\"Nscale\" startup"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-nscale.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 9.0,
+      "market": 9.0,
+      "overall": 8.0,
+      "run": "2026-09-28-r4",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:53:18+00:00",
+  "website": "https://www.nscale.com/"
+}

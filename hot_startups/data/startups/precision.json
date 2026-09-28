@@ -1,0 +1,121 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": null,
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "precision",
+  "industry": "brain-computer interfaces",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-25",
+      "run": "2026-09-28-r4",
+      "snippet": "Neuralink rival focused on brain-computer interfaces raised $250 million in a Series D round led by Pershing Square and Ackman Oxman Institute.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://webrazzi.com/2026/09/25/beyin-bilgisayar-ara-yuzleri-alanina-odaklanan-precision-250-milyon-dolar-yatirim-aldi/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Startus Insights roundup of precision medicine startups, a broad industry term rather than one company named 'Precision'.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "5 Top Precision Medicine Startups impacting the Healthcare Sector",
+      "url": "https://www.startus-insights.com/innovators-guide/discover-5-top-precision-medicine-startups/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Precision for Medicine's clinical trial management services page.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Study Start Up | Initiate with Precision",
+      "url": "https://www.precisionformedicine.com/cro-services/clinical-trial-management/study-start-up"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Another roundup of precision medicine startups to watch in 2026.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "9 Precision Medicine Startups to Watch in 2026 - Cure.",
+      "url": "https://wewillcure.com/insights/company-profiles/precision-medicine-startups-to-watch-in-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Feature on Precision Neuroscience, a US brain-computer interface startup founded by a former Neuralink team member.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Startup Of The Week: Precision Neuroscience - The Innovator",
+      "url": "https://theinnovator.news/startup-of-the-week-precision-neuroscience/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Inside Precision Medicine's list of startups to watch.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "10 Startups to Watch | Inside Precision Medicine",
+      "url": "https://www.insideprecisionmedicine.com/news-and-features/10-startups-to-watch/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "FierceBiotech on FDA clearance for Precision Neuroscience's brain-computer interface implant.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "FDA clears Precision Neuroscience's minimally invasive brain-computer interface implant",
+      "url": "https://www.fiercebiotech.com/medtech/fda-clears-precision-neurosciences-minimally-invasive-brain-computer-interface-implant"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "MobiHealthNews on Precision Neuroscience raising $102M for its AI-enabled brain implant.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Precision Neuroscience scores $102M for AI-enabled brain implant | MobiHealthNews",
+      "url": "https://www.mobihealthnews.com/news/precision-neuroscience-scores-102m-ai-enabled-brain-implant"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "PR Newswire on defense startup Aventra, unrelated to a company literally named 'Precision'.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Defense Tech Startup Aventra Emerges from Stealth with $3M Seed Round to Transform Unguided Munitions into Long-Range Precision Weapons",
+      "url": "https://www.prnewswire.com/news-releases/defense-tech-startup-aventra-emerges-from-stealth-with-3m-seed-round-to-transform-unguided-munitions-into-long-range-precision-weapons-302572038.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Wikipedia article on Precision BioSciences, a publicly traded gene-editing company, not the same as the AI startup Precision Neuroscience.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Precision BioSciences",
+      "url": "https://en.wikipedia.org/wiki/Precision_BioSciences"
+    }
+  ],
+  "name": "Precision",
+  "name_key": "precision",
+  "region": null,
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-precision.txt",
+    "article_url": "https://webrazzi.com/2026/09/25/beyin-bilgisayar-ara-yuzleri-alanina-odaklanan-precision-250-milyon-dolar-yatirim-aldi/",
+    "pages": 1,
+    "queries_done": [
+      "\"Precision\" startup"
+    ],
+    "searches": 1
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T03:17:42+00:00",
+  "website": null
+}

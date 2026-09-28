@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Egypt",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "paymob",
+  "industry": "payments infrastructure",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-21",
+      "run": "2026-09-28-r4",
+      "snippet": "Egypt-founded payments infrastructure provider raised $35 million pre-Series C co-led by Mubadala and EBRD.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "http://wamda.com/2026/09/paymob-raises-35-million-pre-series-c-led-mubadala-ebrd"
+    }
+  ],
+  "name": "Paymob",
+  "name_key": "paymob",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:09:27+00:00",
+  "website": null
+}

@@ -1,0 +1,121 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Australia",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "kinoxis-therapeutics",
+  "industry": "biotech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-25",
+      "run": "2026-09-28-r4",
+      "snippet": "One of seven Aussie startups that collectively raised $274.7 million this week.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.smartcompany.com.au/startupsmart/seven-aussie-startups-that-raised-274-7-million-this-week/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Gust profile of Kinoxis Therapeutics, a Melbourne, Australia based startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Kinoxis Therapeutics Pty Ltd | Melbourne, Victoria, Australia Startup",
+      "url": "https://gust.com/companies/kinoxis-therapeutics"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Dealroom profile of Kinoxis Therapeutics as a venture-backed biotech company.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Kinoxis Therapeutics — venture-backed company profile | Dealroom",
+      "url": "https://dealroom.co/companies/kinoxis-therapeutics/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Dealroom company page with Kinoxis Therapeutics' funding and investor details.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Kinoxis Therapeutics company information, funding & investors | Dealroom.co",
+      "url": "https://app.dealroom.co/companies/kinoxis_therapeutics"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "LinkedIn company page for Kinoxis Therapeutics Pty Ltd.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Kinoxis Therapeutics Pty Ltd | LinkedIn",
+      "url": "https://au.linkedin.com/company/kinoxis-therapeutics-pty-ltd"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Crunchbase profile and funding history for Kinoxis Therapeutics.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Kinoxis Therapeutics - Crunchbase Company Profile & Funding",
+      "url": "https://www.crunchbase.com/organization/kinoxis-therapeutics"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Startup Daily on Kinoxis Therapeutics, a University of Sydney spinout, raising a $14.5 million Series B.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Sydney Uni mental health biotech banks $14.5 million Series B - Startup Daily",
+      "url": "https://www.startupdaily.net/topic/funding/sydney-uni-mental-health-biotech-banks-14-5-million-series-b/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Startup Daily on Kinoxis raising $6.75 million plus a $2.5 million grant for dementia-related research.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Dementia biotech Kinoxis raises $6.75 million with a $2.5m grant as cherry on top - Startup Daily",
+      "url": "https://www.startupdaily.net/topic/funding/dementia-biotech-kinoxis-raises-6-75-million-with-a-2-5m-grant-as-cherry-on-top/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Uniseed, an Australian venture fund, profile page on its portfolio company Kinoxis Therapeutics.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Kinoxis Therapeutics | Uniseed",
+      "url": "https://uniseed.com/project/kinoxis-therapeutics/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Bounce Watch profile with Kinoxis Therapeutics' funding, investors and signals for 2026.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Kinoxis Therapeutics Pty Ltd (Biotechnology, Health and Wellness) — Funding, Investors & Signals 2026 - Bounce Watch",
+      "url": "https://bouncewatch.com/explore/startup/kinoxis-therapeutics-pty-ltd"
+    }
+  ],
+  "name": "Kinoxis Therapeutics",
+  "name_key": "kinoxistherapeutics",
+  "region": null,
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-kinoxis-therapeutics.txt",
+    "article_url": "https://www.smartcompany.com.au/startupsmart/seven-aussie-startups-that-raised-274-7-million-this-week/",
+    "pages": 1,
+    "queries_done": [
+      "\"Kinoxis Therapeutics\" startup Australia"
+    ],
+    "searches": 1
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T03:17:43+00:00",
+  "website": null
+}

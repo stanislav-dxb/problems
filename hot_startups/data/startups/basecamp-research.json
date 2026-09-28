@@ -1,0 +1,257 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United Kingdom",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://techcrunch.com/2024/10/09/basecamp-research-taps-60m-to-build-a-gpt-for-biology/",
+          "https://www.vcbacked.co/company/basecamp-research"
+        ],
+        "value": "London, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://techcrunch.com/2024/10/09/basecamp-research-taps-60m-to-build-a-gpt-for-biology/"
+        ],
+        "value": "2019"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://techcrunch.com/2024/10/09/basecamp-research-taps-60m-to-build-a-gpt-for-biology/",
+          "https://tech.eu/2026/09/23/anthropic-and-nvidia-back-basecamp-research-in-140m-series-c/"
+        ],
+        "value": "Raised a $140M round in 2026 backed by Anthropic, Nvidia and Menlo Ventures, more than double its $60M round from 2024."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://sifted.eu/articles/anthropic-nvidia-basecamp-research/",
+          "https://tech.eu/2026/09/23/anthropic-and-nvidia-back-basecamp-research-in-140m-series-c/"
+        ],
+        "value": "$140M Series C (2026), after a $60M round in 2024"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://www.vcbacked.co/company/basecamp-research"
+        ],
+        "value": "about 48"
+      }
+    },
+    "idea": "Designing new medicines usually relies on the same small set of lab-known genes, so Basecamp Research collects genetic material from remote places like rainforests, oceans and hot springs and uses it to train AI models that help design new medicines.",
+    "industry": "Biotech",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "When everyone is competing over the same public datasets, go collect a rare dataset nobody else has and turn it into a lasting advantage.",
+    "name": "Basecamp Research",
+    "not_startup_reason": null,
+    "overall": 7.7,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last, with new marquee investors (Anthropic, Nvidia)",
+        "reason": "Went from a $60M round in 2024 to a $140M round in 2026 with major new backers, though no user or revenue numbers are public.",
+        "score": 7,
+        "source": "https://tech.eu/2026/09/23/anthropic-and-nvidia-back-basecamp-research-in-140m-series-c/"
+      },
+      "market": {
+        "reason": "AI-driven drug discovery and genetic medicine is a huge, fast-growing global market for pharma and biotech.",
+        "score": 8,
+        "source": "https://tech.eu/2026/09/23/anthropic-and-nvidia-back-basecamp-research-in-140m-series-c/"
+      },
+      "tech": {
+        "reason": "Its dataset of genetic material from remote, rarely-sampled ecosystems is very hard for competitors to gather or copy quickly.",
+        "score": 8,
+        "source": "https://the-decoder.com/inside-basecamp-research-the-ai-startup-turning-evolution-into-training-data/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-23",
+        "title": "Anthropic and Nvidia back Basecamp Research",
+        "url": "https://sifted.eu/articles/anthropic-nvidia-basecamp-research/"
+      },
+      {
+        "date": "2026-09-23",
+        "title": "Anthropic and Nvidia back Basecamp Research in $140m Series C",
+        "url": "https://tech.eu/2026/09/23/anthropic-and-nvidia-back-basecamp-research-in-140m-series-c/"
+      },
+      {
+        "date": "2024-10-09",
+        "title": "Basecamp Research draws $60M to build a 'GPT for biology' | TechCrunch",
+        "url": "https://techcrunch.com/2024/10/09/basecamp-research-taps-60m-to-build-a-gpt-for-biology/"
+      },
+      {
+        "date": null,
+        "title": "AI startup Basecamp allies with the Broad to dream up 'programmable' genetic medicines | BioPharma Dive",
+        "url": "https://www.biopharmadive.com/news/basecamp-broad-david-liu-ai-genetic-medicine-series-b/729129/"
+      },
+      {
+        "date": null,
+        "title": "Inside Basecamp Research, the AI startup turning evolution into training data",
+        "url": "https://the-decoder.com/inside-basecamp-research-the-ai-startup-turning-evolution-into-training-data/"
+      },
+      {
+        "date": null,
+        "title": "Basecamp Research Funding & Investors - Series B - London | VCBacked",
+        "url": "https://www.vcbacked.co/company/basecamp-research"
+      },
+      {
+        "date": null,
+        "title": "Basecamp Research — Funding, Investors & Team | Seedtable",
+        "url": "https://seedtable.com/companies/basecamp-research"
+      },
+      {
+        "date": null,
+        "title": "Basecamp Research - Crunchbase Company Profile & Funding",
+        "url": "https://www.crunchbase.com/organization/basecamp-research"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Instead of training its AI mostly on data other labs already have, it built its own huge, unique database of genetic diversity gathered from extreme and rarely-sampled environments around the world.",
+    "website": null,
+    "who_pays": "Pharmaceutical and biotech companies, plus investors, who want better AI tools for discovering and designing new drugs and genetic medicines.",
+    "why_now": "AI models are only as good as their training data, and interest in AI-designed medicines and biology is at an all-time high, making a rare, large genetic dataset very valuable."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "basecamp-research",
+  "industry": "Biotech",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-23",
+      "run": "2026-09-28-r4",
+      "snippet": "Backed by Anthropic and Nvidia in a $140m round.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://sifted.eu/articles/anthropic-nvidia-basecamp-research/"
+    },
+    {
+      "date": "2026-09-23",
+      "run": "2026-09-28-r4",
+      "snippet": "UK life sciences startup using AI to develop new medicines faster, raised $140M Series C from Anthropic, Menlo Ventures and Nvidia.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://tech.eu/2026/09/23/anthropic-and-nvidia-back-basecamp-research-in-140m-series-c/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Basecamp Research profile with funding, investors and team information.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Basecamp Research — Funding, Investors & Team | Seedtable",
+      "url": "https://seedtable.com/companies/basecamp-research"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "PitchBook profile of Basecamp Research covering valuation, funding and investors.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Basecamp Research 2026 Company Profile: Valuation, Funding & Investors | PitchBook",
+      "url": "https://pitchbook.com/profiles/company/455154-67"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "World Economic Forum profile of Basecamp Research.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Basecamp Research | World Economic Forum",
+      "url": "https://www.weforum.org/organizations/basecamp-research/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Crunchbase profile of Basecamp Research.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Basecamp Research - Crunchbase Company Profile & Funding",
+      "url": "https://www.crunchbase.com/organization/basecamp-research"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "LinkedIn page of Basecamp Research.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Basecamp Research | LinkedIn",
+      "url": "https://uk.linkedin.com/company/basecamp-research-bcr"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Basecamp Research, founded in London in 2019 by Glen Gowers and Oliver Vince, raised $60 million to build a 'GPT for biology'.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Basecamp Research draws $60M to build a 'GPT for biology' | TechCrunch",
+      "url": "https://techcrunch.com/2024/10/09/basecamp-research-taps-60m-to-build-a-gpt-for-biology/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Basecamp Research partners with the Broad Institute on programmable genetic medicines as part of its Series B.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "AI startup Basecamp allies with the Broad to dream up 'programmable' genetic medicines | BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/basecamp-broad-david-liu-ai-genetic-medicine-series-b/729129/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Basecamp Research trains AI models on genetic material from rainforests, oceans and hot springs to design antibiotics and cell therapy tools.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Inside Basecamp Research, the AI startup turning evolution into training data",
+      "url": "https://the-decoder.com/inside-basecamp-research-the-ai-startup-turning-evolution-into-training-data/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Basecamp Research is headquartered in London, United Kingdom, with 48 total employees, and has raised $140 million including from Nvidia and Anthropic's Anthology Fund.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Basecamp Research Funding & Investors - Series B - London | VCBacked",
+      "url": "https://www.vcbacked.co/company/basecamp-research"
+    }
+  ],
+  "name": "Basecamp Research",
+  "name_key": "basecampresearch",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"Basecamp Research\" startup United Kingdom"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 7.0,
+      "market": 8.0,
+      "overall": 7.7,
+      "run": "2026-09-28-r4",
+      "tech": 8.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:24:03+00:00",
+  "website": null
+}

@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "hifi-bridge",
+  "industry": "Payments / blockchain",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "New York payments startup founded by Zach Walsh in 2022 using blockchain and stablecoins to move money globally; raised $8M at a $45M valuation with a team of about 25.",
+      "source": "\"HIFI\" startup United States",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://www.linkedin.com/company/hifibridge"
+    }
+  ],
+  "name": "HIFI Bridge",
+  "name_key": "hifibridge",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:49:53+00:00",
+  "website": null
+}

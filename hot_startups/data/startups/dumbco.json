@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": null,
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "dumbco",
+  "industry": "consumer hardware",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-25",
+      "run": "2026-09-28-r4",
+      "snippet": "Startup that sells 'dumbphones', got tired of formulaic AI-written cover letters and asked candidates to write them by hand instead.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://vc.ru/hr/3159698-startup-dumbco-rukopisy-soprovoditelnye-pisma?from=rss"
+    }
+  ],
+  "name": "DumbCo",
+  "name_key": "dumbco",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:10:49+00:00",
+  "website": null
+}

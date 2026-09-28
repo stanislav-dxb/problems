@@ -4,11 +4,86 @@
   "country": "United States",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": null,
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Every team building an AI app ends up building its own system to store and retrieve context, like memory and documents, so Twigg gives them a ready-made context layer to plug in instead.",
+    "industry": "AI tools",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "When many teams are rebuilding the same piece of plumbing by hand, package it as a reusable product.",
+    "name": "Twigg",
+    "not_startup_reason": null,
+    "overall": 5.0,
+    "region": "other",
+    "scores": {
+      "growth": {
+        "basis": "unknown",
+        "reason": "The product just launched with no user, revenue, or other numbers available.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "Every team building AI apps needs a context or memory layer, a real and growing but still specialized market.",
+        "score": 6,
+        "source": "https://www.producthunt.com/products/twigg"
+      },
+      "tech": {
+        "reason": "Context and memory layers for AI apps are a known idea with several existing competitors, so a strong team could match this in months.",
+        "score": 4,
+        "source": "https://www.linkedin.com/posts/twigg-ai_were-excited-to-introduce-twigg-our-improved-activity-7387050447049535488--JMF"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-14",
+        "title": "Twigg on Product Hunt",
+        "url": "https://www.producthunt.com/products/twigg"
+      },
+      {
+        "date": null,
+        "title": "Introducing Twigg: A Visual AI Context Management Tool",
+        "url": "https://www.linkedin.com/posts/twigg-ai_were-excited-to-introduce-twigg-our-improved-activity-7387050447049535488--JMF"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It is built to be visual, so developers can see and manage what context their AI has, rather than only calling an API blind.",
+    "website": null,
+    "who_pays": "Developers and companies building AI apps who would otherwise spend time building this infrastructure themselves.",
+    "why_now": "As more companies build AI apps, most run into the same need for a context and memory layer, creating demand for an off-the-shelf tool instead of everyone building their own."
+  },
+  "first_judged_run": "2026-09-28-r4",
   "first_seen": "2026-09-16",
   "id": "twigg",
-  "industry": "AI infrastructure",
-  "last_checked": null,
+  "industry": "AI tools",
+  "last_checked": "2026-09-28",
   "mentions": [
     {
       "date": "2026-09-14",
@@ -18,18 +93,104 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://www.producthunt.com/products/twigg"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "ZoomInfo directory listing for Twigg Corp.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Twigg - Overview, News & Similar companies | ZoomInfo.com",
+      "url": "https://www.zoominfo.com/c/twigg-corp/347572744"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Crunchbase profile for Twigg Corporation, founded in 1971 in Martinsville, Indiana, a manufacturer of gas turbine engine components for aerospace and defense, with 51-200 employees.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Twigg Corporation - Crunchbase Company Profile & Funding",
+      "url": "https://www.crunchbase.com/organization/twigg-corporation"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Twigg Corporation's own history page, describing its origins manufacturing aircraft engine parts.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "The History of the Twigg Corporation",
+      "url": "https://www.twiggcorp.com/history"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "TechCrunch on Twig (different spelling, UK-based), a fintech startup that lets people borrow against their belongings, raising a $35M Series A.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Twig takes $35M to turn stuff you own into a way to pay | TechCrunch",
+      "url": "https://techcrunch.com/2022/01/11/twig-series-a/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Crunchbase profile for Twig, the UK circular-economy fintech app.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Twig - Crunchbase Company Profile & Funding",
+      "url": "https://www.crunchbase.com/organization/diem-4ccf"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "LinkedIn page for a company called Twigg, based in India.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Twigg",
+      "url": "https://in.linkedin.com/company/twigg-one"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "LinkedIn post introducing Twigg, described as a visual AI context management tool.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Introducing Twigg: A Visual AI Context Management Tool",
+      "url": "https://www.linkedin.com/posts/twigg-ai_were-excited-to-introduce-twigg-our-improved-activity-7387050447049535488--JMF"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Crunchbase profile for a person named Andy Twigg, unrelated to a company called Twigg.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Andy Twigg - CTO @ C9 Inc. - Crunchbase Person Profile",
+      "url": "https://www.crunchbase.com/person/andy-twigg"
     }
   ],
   "name": "Twigg",
   "name_key": "twigg",
-  "region": null,
+  "region": "other",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"Twigg\" startup United States"
+    ],
+    "refresh": false,
+    "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:47:15+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": null,
+      "market": 6.0,
+      "overall": 5.0,
+      "run": "2026-09-28-r4",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T03:20:49+00:00",
   "website": null
 }

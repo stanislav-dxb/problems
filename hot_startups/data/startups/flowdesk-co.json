@@ -4,11 +4,120 @@
   "country": "France",
   "domain": "flowdesk.co",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "France",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.nasdaq.com/press-release/flowdesk-the-french-digital-asset-financial-technology-provider-raises-$30-million-to",
+          "https://www.businesswire.com/news/home/20220626005039/en/Flowdesk-the-French-Digital-Asset-Financial-Technology-Provider-Raises-$30-Million-to-Expand-Its-Infrastructure-and-Trading-Platform"
+        ],
+        "value": "France"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.frenchweb.fr/flowdesk-boucle-un-tour-de-94-millions-deuros-pour-repondre-a-la-demande-institutionnelle-en-crypto/451792",
+          "https://www.flowdesk.co/"
+        ],
+        "value": "Grew its funding from $30M in 2022 to about $102M in a later round, and says it now connects to 150+ exchange venues and trades 1,000+ asset pairs."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.frenchweb.fr/flowdesk-boucle-un-tour-de-94-millions-deuros-pour-repondre-a-la-demande-institutionnelle-en-crypto/451792",
+          "https://www.nasdaq.com/press-release/flowdesk-the-french-digital-asset-financial-technology-provider-raises-$30-million-to"
+        ],
+        "value": "€94M (about $102M) round, including equity and debt, after an earlier $30M round in 2022"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Trading crypto across many different exchanges is fragmented and hard, so Flowdesk built one platform that provides liquidity, market-making and trading services for crypto companies and institutions.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Get properly licensed and regulated early in a messy new market, so bigger institutional clients feel safe trusting you with their business.",
+    "name": "Flowdesk",
+    "not_startup_reason": null,
+    "overall": 6.3,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last",
+        "reason": "Its funding rounds got much bigger over time, growing from $30M in 2022 to about $102M later, a sign of strong momentum.",
+        "score": 7,
+        "source": "https://www.frenchweb.fr/flowdesk-boucle-un-tour-de-94-millions-deuros-pour-repondre-a-la-demande-institutionnelle-en-crypto/451792"
+      },
+      "market": {
+        "reason": "Institutional crypto trading and liquidity is a real and growing market worldwide, but it is still a niche compared to mainstream finance.",
+        "score": 6,
+        "source": "https://www.nasdaq.com/press-release/flowdesk-the-french-digital-asset-financial-technology-provider-raises-$30-million-to"
+      },
+      "tech": {
+        "reason": "It built its own trading and liquidity infrastructure across many exchanges, solid engineering that a strong, well-funded team could still match in a year or two.",
+        "score": 6,
+        "source": "https://www.flowdesk.co/"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Flowdesk, the French Digital Asset Financial Technology Provider, Raises $30 Million to Expand Its Infrastructure and Trading Platform | Nasdaq",
+        "url": "https://www.nasdaq.com/press-release/flowdesk-the-french-digital-asset-financial-technology-provider-raises-$30-million-to"
+      },
+      {
+        "date": null,
+        "title": "Flowdesk, the French Digital Asset Financial Technology Provider, Raises $30 Million to Expand Its Infrastructure and Trading Platform",
+        "url": "https://www.businesswire.com/news/home/20220626005039/en/Flowdesk-the-French-Digital-Asset-Financial-Technology-Provider-Raises-$30-Million-to-Expand-Its-Infrastructure-and-Trading-Platform"
+      },
+      {
+        "date": null,
+        "title": "Flowdesk boucle un tour de 94 millions d'euros pour répondre à la demande institutionnelle en crypto",
+        "url": "https://www.frenchweb.fr/flowdesk-boucle-un-tour-de-94-millions-deuros-pour-repondre-a-la-demande-institutionnelle-en-crypto/451792"
+      },
+      {
+        "date": null,
+        "title": "Flowdesk | Digital Asset Trading & Liquidity Solutions",
+        "url": "https://www.flowdesk.co/"
+      },
+      {
+        "date": null,
+        "title": "Flowdesk | EU-Startups",
+        "url": "https://www.eu-startups.com/directory/flowdesk/"
+      },
+      {
+        "date": null,
+        "title": "Flowdesk: Funding, Team & Investors | Startup Intros",
+        "url": "https://startupintros.com/orgs/flowdesk"
+      },
+      {
+        "date": null,
+        "title": "Founded Year",
+        "url": "https://www.cbinsights.com/investor/flowdesk"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It runs a full trading and technology stack, its own execution algorithms, an OTC trading desk and a ventures arm, rather than just being a broker, and it is a licensed, regulated firm in both Europe and Dubai.",
+    "website": "https://www.flowdesk.co/",
+    "who_pays": "Crypto exchanges, token issuers and financial institutions that need liquidity and trading infrastructure for digital assets.",
+    "why_now": "New crypto rules in Europe (MiCA) and Dubai (VARA) are now being enforced, and demand for institutional-grade crypto trading and liquidity keeps rising."
+  },
+  "first_judged_run": "2026-09-28-r4",
   "first_seen": "2026-09-16",
   "id": "flowdesk-co",
-  "industry": "FinTech",
-  "last_checked": null,
+  "industry": "Fintech",
+  "last_checked": "2026-09-28",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -18,18 +127,126 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://www.flowdesk.co/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Directory listing describing Flowdesk as a French crypto market-making and trading infrastructure company.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Flowdesk | EU-Startups",
+      "url": "https://www.eu-startups.com/directory/flowdesk/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Flowdesk, a French digital-asset fintech, raised $30 million to expand its infrastructure and trading platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Flowdesk, the French Digital Asset Financial Technology Provider, Raises $30 Million to Expand Its Infrastructure and Trading Platform | Nasdaq",
+      "url": "https://www.nasdaq.com/press-release/flowdesk-the-french-digital-asset-financial-technology-provider-raises-$30-million-to"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Same $30 million funding announcement, via Businesswire press release.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Flowdesk, the French Digital Asset Financial Technology Provider, Raises $30 Million to Expand Its Infrastructure and Trading Platform",
+      "url": "https://www.businesswire.com/news/home/20220626005039/en/Flowdesk-the-French-Digital-Asset-Financial-Technology-Provider-Raises-$30-Million-to-Expand-Its-Infrastructure-and-Trading-Platform"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Profile page listing Flowdesk's funding rounds, team and investors.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Flowdesk: Funding, Team & Investors | Startup Intros",
+      "url": "https://startupintros.com/orgs/flowdesk"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Flowdesk closed a €94 million (about $102M) funding round, including equity from HV Capital, Eurazeo, Cathay Innovation and ISAI, plus debt from BlackRock-managed funds.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Flowdesk boucle un tour de 94 millions d'euros pour répondre à la demande institutionnelle en crypto",
+      "url": "https://www.frenchweb.fr/flowdesk-boucle-un-tour-de-94-millions-deuros-pour-repondre-a-la-demande-institutionnelle-en-crypto/451792"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "French startup directory entry describing Flowdesk as a cryptocurrency trading platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Startup FLOWDESK, Plateforme de trading de cryptomonnaies",
+      "url": "https://www.myfrenchstartup.com/fr/startup-france/302718/flowdesk"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Forinov profile of Flowdesk as a French fintech startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Le profil de Flowdesk, startup FinTech - Forinov",
+      "url": "https://www.forinov.fr/startups/_110/Flowdesk_5602/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Newsletter item covering one of Flowdesk's funding rounds.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "dealflow france 14 flowdesk raises",
+      "url": "https://dealflowfrance.substack.com/p/dealflow-france-14-flowdesk-raises"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "CB Insights page with Flowdesk's founding year and investment data.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Founded Year",
+      "url": "https://www.cbinsights.com/investor/flowdesk"
     }
   ],
   "name": "Flowdesk",
   "name_key": "flowdesk",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-flowdesk-co.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-09-28-r4",
+    "pages": 2,
+    "queries_done": [
+      "\"Flowdesk\" startup France"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-flowdesk-co.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 7.0,
+      "market": 6.0,
+      "overall": 6.3,
+      "run": "2026-09-28-r4",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:24:06+00:00",
   "website": "https://www.flowdesk.co/"
 }

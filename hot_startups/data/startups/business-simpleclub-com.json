@@ -18,18 +18,115 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://business.simpleclub.com/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Munich Startup profile of simpleclub GmbH, a Munich-based edtech company.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "simpleclub GmbH - Munich Startup",
+      "url": "https://www.munich-startup.de/en/startups/simpleclub-gmbh/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Startbase report on an earlier €4 million round for simpleclub.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Another 4 million euros for simpleclub | Startbase",
+      "url": "https://www.startbase.com/news/weitere-4-mio-euro-fuer-simpleclub/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Munich Startup on simpleclub's €7 million Series A financing.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "7 million euros for Edtech startup Simpleclub - Munich Startup",
+      "url": "https://www.munich-startup.de/en/83838/series-a-financing-simpleclub/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Dealroom profile of simpleclub as a venture-backed edtech company.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Simpleclub — venture-backed company profile | Dealroom",
+      "url": "https://dealroom.co/companies/simpleclub/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Startbase organization page for simpleclub GmbH.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "simpleclub (simpleclub GmbH)",
+      "url": "https://www.startbase.com/organization/simpleclub/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Munich Startup report on an investment round for simpleclub.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Financing for Edtech startup Simpleclub – Munich Startup",
+      "url": "https://www.munich-startup.de/en/65589/investment-simpleclub/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Munich Startup report on a further funding round for simpleclub.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "New financing for Edtech startup Simpleclub - Munich Startup",
+      "url": "https://www.munich-startup.de/en/78285/new-funding-for-edtech-startup-simpleclub/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "EU-Startups directory listing for simpleclub.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Simpleclub | EU-Startups",
+      "url": "https://www.eu-startups.com/directory/simpleclub/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Crunchbase profile of simpleclub with funding history.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "simpleclub - Crunchbase Company Profile & Funding",
+      "url": "https://www.crunchbase.com/organization/simpleclub"
     }
   ],
   "name": "simpleclub",
   "name_key": "simpleclub",
   "region": null,
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-business-simpleclub-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "pages": 2,
+    "queries_done": [
+      "\"simpleclub\" startup Germany"
+    ],
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-business-simpleclub-com.txt"
   },
   "score_history": [],
   "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "updated": "2026-09-28T02:28:21+00:00",
   "website": "https://business.simpleclub.com/"
 }

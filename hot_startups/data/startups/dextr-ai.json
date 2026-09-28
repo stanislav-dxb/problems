@@ -1,0 +1,215 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "India",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "India",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://inc42.com/buzz/dextr-ai-raises-6-7-mn-to-build-ai-agents-for-hospitality-industry/"
+        ],
+        "value": "2025"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://inc42.com/buzz/dextr-ai-raises-6-7-mn-to-build-ai-agents-for-hospitality-industry/"
+        ],
+        "value": "Says it already handles more than a million guest interactions a month across hundreds of hotel properties."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://inc42.com/buzz/dextr-ai-raises-6-7-mn-to-build-ai-agents-for-hospitality-industry/",
+          "https://india.entrepreneur.com/business-news/dextr-ai-raises-usd-6-7-mn-led-by-elevation-capital"
+        ],
+        "value": "$6.7M seed"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Hotels and other hospitality businesses juggle many manual jobs like reservations, guest requests, and staffing, so Dextr AI builds AI agents that handle these tasks for them automatically.",
+    "industry": "Hospitality AI",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Build AI agents that are narrowly focused on one industry's daily grunt work, rather than a general-purpose assistant.",
+    "name": "Dextr AI",
+    "not_startup_reason": null,
+    "overall": 5.7,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Serving hundreds of properties and over a million interactions a month is a real number, but there is no data yet on how fast that is growing.",
+        "score": 5,
+        "source": "https://inc42.com/buzz/dextr-ai-raises-6-7-mn-to-build-ai-agents-for-hospitality-industry/"
+      },
+      "market": {
+        "reason": "Hospitality is a large, worldwide industry that every hotel and resort could use this for.",
+        "score": 7,
+        "source": "https://inc42.com/buzz/dextr-ai-raises-6-7-mn-to-build-ai-agents-for-hospitality-industry/"
+      },
+      "tech": {
+        "reason": "Building AI agents for hotel workflows is solid engineering, but well-resourced rivals could copy it within a year or two.",
+        "score": 5,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-25",
+        "title": "Dextr AI Raises $6.7 Mn To Build AI Agents For Hospitality Industry",
+        "url": "https://inc42.com/buzz/dextr-ai-raises-6-7-mn-to-build-ai-agents-for-hospitality-industry/"
+      },
+      {
+        "date": null,
+        "title": "Dextr AI Raises USD 6.7 Mn Led by Elevation Capital",
+        "url": "https://india.entrepreneur.com/business-news/dextr-ai-raises-usd-6-7-mn-led-by-elevation-capital"
+      },
+      {
+        "date": null,
+        "title": "Dextr AI secures $6.7M to scale AI agents across global hospitality markets",
+        "url": "https://yourstory.com/ai-story/dextr-ai-funding-67m-scale-ai-agents-global-hospitality-markets"
+      },
+      {
+        "date": null,
+        "title": "Hospitality AI startup Dextr AI raises $6.7 million to expand its AI agents for hotels",
+        "url": "https://indianstartupnews.com/funding/hospitality-ai-startup-dextr-ai-raises-67-million-to-expand-its-ai-agents-for-hotels-12575007"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Instead of one general AI assistant, Dextr AI makes agents dedicated to hospitality's own repetitive jobs, and already runs more than a million guest interactions a month for hundreds of hotels.",
+    "website": null,
+    "who_pays": "Hotels and other hospitality businesses pay to use Dextr AI's platform to run their operations.",
+    "why_now": "AI systems have become capable enough to run whole workflows like reservations and guest service on their own, just as hotels struggle to find and keep enough staff."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "dextr-ai",
+  "industry": "Hospitality AI",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-25",
+      "run": "2026-09-28-r4",
+      "snippet": "Hospitality-focused AI startup raised $6.7 Mn seed funding led by Elevation to build AI agents for hospitality.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://inc42.com/buzz/dextr-ai-raises-6-7-mn-to-build-ai-agents-for-hospitality-industry/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Entrepreneur India on Dextr AI's $6.7M seed round led by Elevation Capital.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Dextr AI Raises USD 6.7 Mn Led by Elevation Capital",
+      "url": "https://india.entrepreneur.com/business-news/dextr-ai-raises-usd-6-7-mn-led-by-elevation-capital"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "YourStory on Dextr AI's funding to scale its hospitality AI agents globally, including India.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Dextr AI secures $6.7M to scale AI agents across global hospitality markets | YourStory",
+      "url": "https://yourstory.com/ai-story/dextr-ai-funding-67m-scale-ai-agents-global-hospitality-markets"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Indian Startup News coverage of Dextr AI's $6.7M raise to expand its hotel AI agents.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Hospitality AI startup Dextr AI raises $6.7 million to expand its AI agents for hotels",
+      "url": "https://indianstartupnews.com/funding/hospitality-ai-startup-dextr-ai-raises-67-million-to-expand-its-ai-agents-for-hotels-12575007"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "NewsBytes on Dextr AI's seed round and its plan to target the Indian market.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Dextr AI raises $6.7 million seed from Elevation Capital, targets India",
+      "url": "https://www.newsbytesapp.com/news/business/dextr-ai-raises-67-million-seed-from-elevation-capital-targets-india/tldr"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "SiliconIndia report on Dextr AI's $6.7M seed round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Dextr AI Raises $6.7 Million in Seed Round Led by Elevation Capital",
+      "url": "https://www.siliconindia.com/startup/startup-funding/dextr-ai-raises-67-million-in-seed-round-led-by-elevation-capital-nwid-55541.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "General Wikipedia overview of AI in India, not specific to Dextr AI.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Artificial intelligence in India",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_India"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "RetailIntel on Dextr AI's plan to scale its hotel AI agents in India using new seed funding.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Dextr AI raises $6.7M seed round to scale hotel AI agents in India",
+      "url": "https://retailintel.in/signal/dextr-ai-raises-6-7m-seed-round-to-scale-hotel-ai-agents-in-2166f14c"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Indian Startup Times coverage of Dextr AI's $6.7M seed round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Dextr AI Raises $6.7 Mn Seed Round Led by Elevation Capital - Indian Startup Times",
+      "url": "https://www.indianstartuptimes.com/investment/dextr-ai-raises-6-7-mn-seed-round-led-by-elevation-capital/"
+    }
+  ],
+  "name": "Dextr AI",
+  "name_key": "dextrai",
+  "region": "asia",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-dextr-ai.txt",
+    "article_url": "https://inc42.com/buzz/dextr-ai-raises-6-7-mn-to-build-ai-agents-for-hospitality-industry/",
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"Dextr AI\" startup India"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 5.0,
+      "market": 7.0,
+      "overall": 5.7,
+      "run": "2026-09-28-r4",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T03:33:43+00:00",
+  "website": null
+}

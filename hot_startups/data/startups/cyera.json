@@ -1,0 +1,273 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Israel",
+  "domain": "cyera.io",
+  "drop_reason": null,
+  "entry": {
+    "country": "Israel",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://en.wikipedia.org/wiki/Cyera",
+          "https://www.timesofisrael.com/israeli-founded-cyber-unicorn-cyera-said-to-raise-400m-soaring-to-9-billion-valuation/"
+        ],
+        "value": "Israel"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://en.wikipedia.org/wiki/Cyera"
+        ],
+        "value": "2021"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.timesofisrael.com/israeli-founded-cyber-unicorn-cyera-said-to-raise-400m-soaring-to-9-billion-valuation/",
+          "https://www.calcalistech.com/ctechnews/article/w1j2xejw4",
+          "https://www.timesofisrael.com/cyera-to-acquire-israeli-ai-startup-oasis-security-in-1-billion-deal/"
+        ],
+        "value": "Raised $400M twice within a few months, taking its valuation from $9B to $12B and its total funding past $1B, and it agreed to buy another security startup, Oasis Security, for $1B."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.geektime.co.il/cyera-raises-1b-in-3-months/",
+          "https://www.calcalistech.com/ctechnews/article/w1j2xejw4"
+        ],
+        "value": "$1B total, including a $400M round in 2026 at a $12B valuation"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Companies store huge amounts of sensitive data across cloud, SaaS and AI systems and often do not know where it all is or who can reach it, so Cyera scans it all and uses AI to find, classify and protect that data automatically.",
+    "industry": "Cybersecurity",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "When a new technology (AI) changes how a valuable resource (data) is used, the old tools for protecting that resource stop working, and there is room for a new company built for the new way it is used.",
+    "name": "Cyera",
+    "not_startup_reason": null,
+    "overall": 7.7,
+    "region": "mea",
+    "scores": {
+      "growth": {
+        "basis": "number: funding raised and valuation increase",
+        "reason": "Two funding rounds of $400M each within about three months, a jump from $9B to $12B valuation, and a $1B acquisition all point to very fast growth.",
+        "score": 9,
+        "source": "https://www.calcalistech.com/ctechnews/article/w1j2xejw4"
+      },
+      "market": {
+        "reason": "Almost every large company in the world now needs to secure its data and, increasingly, its AI systems, which is a huge and growing global market.",
+        "score": 8,
+        "source": "https://www.cyera.io/"
+      },
+      "tech": {
+        "reason": "It uses solid AI-based classification and scanning engineering, but data-security scanning is a space several well-funded competitors are also building in.",
+        "score": 6,
+        "source": "https://www.cyera.io/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-22",
+        "title": "Cyera raises another $400 million in 3 months",
+        "url": "https://www.geektime.co.il/cyera-raises-1b-in-3-months/"
+      },
+      {
+        "date": null,
+        "title": "Israeli startup Cyera valued at $9 billion after Blackstone-led deal - Israel & Jewish News - JNS",
+        "url": "https://www.jns.org/israeli-startup-cyera-valued-at-9-billion-after-blackstone-deal/"
+      },
+      {
+        "date": null,
+        "title": "Cyera to acquire Israeli AI startup Oasis Security in $1 billion deal | The Times of Israel",
+        "url": "https://www.timesofisrael.com/cyera-to-acquire-israeli-ai-startup-oasis-security-in-1-billion-deal/"
+      },
+      {
+        "date": null,
+        "title": "Six-month-old Israeli startup is bought by cyber unicorn Cyera for about $50 million | The Times of Israel",
+        "url": "https://www.timesofisrael.com/six-month-old-israeli-startup-is-bought-by-cyber-unicorn-cyera-for-about-50-million/"
+      },
+      {
+        "date": null,
+        "title": "Cyera raises $300 million at $12 billion valuation, extending its rapid ascent | Ctech",
+        "url": "https://www.calcalistech.com/ctechnews/article/w1j2xejw4"
+      },
+      {
+        "date": null,
+        "title": "Cyera - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cyera"
+      },
+      {
+        "date": null,
+        "title": "Israeli startup Cyera valued at $9 billion after Blackstone-led deal | columbusjewishnews.com",
+        "url": "https://www.columbusjewishnews.com/israeli-startup-cyera-valued-at-9-billion-after-blackstone-led-deal/article_e226a5d9-9251-48ca-b642-374df0ecd4e1.html"
+      },
+      {
+        "date": null,
+        "title": "Israeli-founded cyber unicorn Cyera said to raise $400m, soaring to $9 billion valuation | The Times of Israel",
+        "url": "https://www.timesofisrael.com/israeli-founded-cyber-unicorn-cyera-said-to-raise-400m-soaring-to-9-billion-valuation/"
+      },
+      {
+        "date": null,
+        "title": "Cyera - Israeli Startup | Startup Nation Finder",
+        "url": "https://finder.startupnationcentral.org/company_page/cyera?section=news"
+      },
+      {
+        "date": null,
+        "title": "Cyera | Company Overview & News",
+        "url": "https://www.forbes.com/companies/cyera/"
+      },
+      {
+        "date": null,
+        "title": "AI Security Platform | Protect Data & Secure AI | Cyera",
+        "url": "https://www.cyera.io/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It does not just find and label sensitive data once; it also watches the AI agents and non-human identities that touch that data, so it protects data at rest, in motion and while AI systems are actively using it.",
+    "website": "https://www.cyera.io/",
+    "who_pays": "Large enterprises and their security teams (CISOs) pay to license the platform to find and lock down sensitive data across their cloud and SaaS systems.",
+    "why_now": "Companies are rushing to plug AI tools and agents into their data, which multiplies the ways sensitive information can leak or be misused, making automatic, AI-aware data security suddenly urgent."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "cyera",
+  "industry": "Cybersecurity",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-26",
+      "run": "2026-09-28-r4",
+      "snippet": "Raised funds this week, among a group of startups highlighted in a weekly funding wrap.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.techinasia.com/move-fast-dont-break"
+    },
+    {
+      "date": "2026-09-22",
+      "run": "2026-09-28-r4",
+      "snippet": "Raised another $400 million within three months, extending its round to exactly $1 billion after Wiz previously held the title.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.geektime.co.il/cyera-raises-1b-in-3-months/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Cyera, an Israeli data security startup, was valued at $9 billion after a Blackstone-led funding deal.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Israeli startup Cyera valued at $9 billion after Blackstone-led deal - Israel & Jewish News - JNS",
+      "url": "https://www.jns.org/israeli-startup-cyera-valued-at-9-billion-after-blackstone-deal/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Cyera agreed to acquire Israeli AI security startup Oasis Security in a deal valued at $1 billion.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cyera to acquire Israeli AI startup Oasis Security in $1 billion deal | The Times of Israel",
+      "url": "https://www.timesofisrael.com/cyera-to-acquire-israeli-ai-startup-oasis-security-in-1-billion-deal/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Cyera, described as a cyber unicorn, bought a six-month-old Israeli startup for about $50 million.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Six-month-old Israeli startup is bought by cyber unicorn Cyera for about $50 million | The Times of Israel",
+      "url": "https://www.timesofisrael.com/six-month-old-israeli-startup-is-bought-by-cyber-unicorn-cyera-for-about-50-million/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Cyera raised $300 million at a $12 billion valuation, continuing its rapid growth.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cyera raises $300 million at $12 billion valuation, extending its rapid ascent | Ctech",
+      "url": "https://www.calcalistech.com/ctechnews/article/w1j2xejw4"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Wikipedia entry on Cyera, a data security company founded in 2021 by Yotam Segev and Tamar Bar-Ilan.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cyera - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cyera"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Report on Cyera's $9 billion valuation after a Blackstone-led deal.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Israeli startup Cyera valued at $9 billion after Blackstone-led deal | columbusjewishnews.com",
+      "url": "https://www.columbusjewishnews.com/israeli-startup-cyera-valued-at-9-billion-after-blackstone-led-deal/article_e226a5d9-9251-48ca-b642-374df0ecd4e1.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Cyera reportedly raised $400 million, pushing its valuation to $9 billion.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Israeli-founded cyber unicorn Cyera said to raise $400m, soaring to $9 billion valuation | The Times of Israel",
+      "url": "https://www.timesofisrael.com/israeli-founded-cyber-unicorn-cyera-said-to-raise-400m-soaring-to-9-billion-valuation/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Startup Nation Finder profile of Cyera with news coverage.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cyera - Israeli Startup | Startup Nation Finder",
+      "url": "https://finder.startupnationcentral.org/company_page/cyera?section=news"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Forbes company overview and news page for Cyera.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cyera | Company Overview & News",
+      "url": "https://www.forbes.com/companies/cyera/"
+    }
+  ],
+  "name": "Cyera",
+  "name_key": "cyera",
+  "region": "mea",
+  "research": {
+    "article_read": true,
+    "judged_run": "2026-09-28-r4",
+    "pages": 2,
+    "queries_done": [
+      "\"Cyera\" startup Israel"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-cyera.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 9.0,
+      "market": 8.0,
+      "overall": 7.7,
+      "run": "2026-09-28-r4",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T02:27:13+00:00",
+  "website": "https://www.cyera.io/"
+}

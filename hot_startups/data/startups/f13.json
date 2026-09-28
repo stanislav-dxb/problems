@@ -1,0 +1,221 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Germany",
+  "domain": "f13.tech",
+  "drop_reason": null,
+  "entry": {
+    "country": "Germany",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://tech.eu/2026/09/23/f13-emerges-from-stealth-with-5m-for-vector-graphics-ai",
+          "https://www.edtechinnovationhub.com/news/f13-emerges-from-stealth-with-5m-raise-and-ai-model-for-precise-vector-graphics"
+        ],
+        "value": "Berlin, Germany"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://tech.eu/2026/09/23/f13-emerges-from-stealth-with-5m-for-vector-graphics-ai",
+          "https://techfundingnews.com/f13-5m-pre-seed-ai-vector-graphics-no-deck/"
+        ],
+        "value": "$5M pre-seed"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Designers, marketers and anyone making charts or diagrams need images that are exact, not just realistic-looking, so F13 is building an AI model that creates precise, editable vector graphics instead of pixel pictures.",
+    "industry": "AI tools",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "When you find a specific spot where AI output needs to be exactly right, not just pretty, building for correctness is a good bet.",
+    "name": "F13",
+    "not_startup_reason": null,
+    "overall": 6.5,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "unknown",
+        "reason": "It just emerged from stealth with its first funding round, so there are no usage or revenue numbers yet.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "Useful for anyone making charts, diagrams or graphics that must stay accurate, a real but still fairly specific slice of the huge design and content market.",
+        "score": 6,
+        "source": "https://tech.eu/2026/09/23/f13-emerges-from-stealth-with-5m-for-vector-graphics-ai"
+      },
+      "tech": {
+        "reason": "Building an AI model that outputs precise, editable vector graphics instead of pixels is a real technical edge most AI image tools do not have yet.",
+        "score": 7,
+        "source": "https://techfundingnews.com/f13-5m-pre-seed-ai-vector-graphics-no-deck/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-23",
+        "title": "F13 emerges from stealth with $5M for vector graphics AI - Tech.eu",
+        "url": "https://tech.eu/2026/09/23/f13-emerges-from-stealth-with-5m-for-vector-graphics-ai"
+      },
+      {
+        "date": null,
+        "title": "F13 raises $5m for precise AI vector graphics model | ETIH EdTech News — EdTech Innovation Hub",
+        "url": "https://www.edtechinnovationhub.com/news/f13-emerges-from-stealth-with-5m-raise-and-ai-model-for-precise-vector-graphics"
+      },
+      {
+        "date": null,
+        "title": "F13 raises $5M to make AI-generated charts answer to the data",
+        "url": "https://runtimewire.com/article/f13-raises-5m-vector-graphics-ai-accurate-charts"
+      },
+      {
+        "date": null,
+        "title": "Serial founder's F13 raises $5M, without a pitch deck, to develop AI for precise vector graphics — TFN",
+        "url": "https://techfundingnews.com/f13-5m-pre-seed-ai-vector-graphics-no-deck/"
+      },
+      {
+        "date": "2026-09-23",
+        "title": "Startup Funding News Today, September 23, 2026: TEKEVER, F13, Brahma AI, Noxtua, StandardX & More - Tech Startups",
+        "url": "https://techstartups.com/2026/09/23/startup-funding-news-today-september-23-2026-tekever-f13-brahma-ai-noxtua-standardx-more/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Unlike typical AI image generators, its output is editable vector graphics whose numbers can be trusted to match the real data, which is why one report describes it as making AI-generated charts \"answer to the data.\"",
+    "website": null,
+    "who_pays": "Businesses, designers and publishers who need accurate, editable graphics and charts, though F13 has not said publicly how it will charge.",
+    "why_now": "AI-generated images are everywhere but often get details and data wrong, so there is demand for AI graphics people can actually trust and edit."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "f13",
+  "industry": "AI tools",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-23",
+      "run": "2026-09-28-r4",
+      "snippet": "",
+      "source": "\"StandardX\" startup",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://techstartups.com/2026/09/23/startup-funding-news-today-september-23-2026-tekever-f13-brahma-ai-noxtua-standardx-more/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Berlin-based F13 emerged from stealth with a $5 million round to build an AI model for precise, editable vector graphics.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "F13 emerges from stealth with $5M for vector graphics AI - Tech.eu",
+      "url": "https://tech.eu/2026/09/23/f13-emerges-from-stealth-with-5m-for-vector-graphics-ai"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Latka profile of a separate company called 'F13 Works', an e-commerce business reporting $174.1K revenue with a 2-person team; a different company from the AI vector-graphics F13.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "How F13 Works hit $174.1K revenue with a 2 person team in ...",
+      "url": "https://getlatka.com/companies/f13-works"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Rev1 Ventures post on F13 Works, an e-commerce business connecting suppliers and retailers; a different company from the AI startup F13.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "F13 Works | E-commerce Business Connecting Suppliers and Retailers",
+      "url": "https://www.rev1ventures.com/blog/f13-works-creating-powerful-way-new-brands-scale/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "EdTech Innovation Hub coverage of F13's $5 million raise for its precise AI vector-graphics model.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "F13 raises $5m for precise AI vector graphics model | ETIH EdTech News — EdTech Innovation Hub",
+      "url": "https://www.edtechinnovationhub.com/news/f13-emerges-from-stealth-with-5m-raise-and-ai-model-for-precise-vector-graphics"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Unrelated appliance troubleshooting page about a Frigidaire oven error code, not a startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Frigidaire Oven F13 Help | Beacon",
+      "url": "https://www.beaconsaves.com/blog/frigidaire-oven-f13-error-code"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Report on F13's $5 million raise for AI that generates charts and diagrams where the underlying data must stay accurate.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "F13 raises $5M to make AI-generated charts answer to the data",
+      "url": "https://runtimewire.com/article/f13-raises-5m-vector-graphics-ai-accurate-charts"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tech Funding News on F13's $5 million pre-seed round, raised without a pitch deck, led by Credo Ventures and Point Nine Capital.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Serial founder's F13 raises $5M, without a pitch deck, to develop AI for precise vector graphics — TFN",
+      "url": "https://techfundingnews.com/f13-5m-pre-seed-ai-vector-graphics-no-deck/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "F13's own website, describing itself as an AI vector-graphics company.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "F13 Technologies - F13 Technologies",
+      "url": "https://www.f13.tech/"
+    }
+  ],
+  "name": "F13",
+  "name_key": "f13",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-f13.txt",
+    "article_url": "https://techstartups.com/2026/09/23/startup-funding-news-today-september-23-2026-tekever-f13-brahma-ai-noxtua-standardx-more/",
+    "judged_run": "2026-09-28-r4",
+    "pages": 2,
+    "queries_done": [
+      "\"F13\" startup"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-f13.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": null,
+      "market": 6.0,
+      "overall": 6.5,
+      "run": "2026-09-28-r4",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T03:11:47+00:00",
+  "website": "https://www.f13.tech/"
+}

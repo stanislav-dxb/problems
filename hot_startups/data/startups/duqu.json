@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Netherlands",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "duqu",
+  "industry": "fintech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-24",
+      "run": "2026-09-28-r4",
+      "snippet": "Amsterdam-based fintech that gives businesses immediate access to money tied up in unpaid invoices, raised €1.5 million pre-seed.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.eu-startups.com/2026/09/amsterdam-based-duqu-raises-e1-5-million-to-unlock-cash-tied-up-in-unpaid-invoices/"
+    }
+  ],
+  "name": "Duqu",
+  "name_key": "duqu",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:05:16+00:00",
+  "website": null
+}

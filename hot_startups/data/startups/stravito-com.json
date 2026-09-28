@@ -18,18 +18,124 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://www.stravito.com/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tech.eu brief on Stravito's €5.6 million funding round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Swedish knowledge tech startup Stravito raises €5.6 million - Tech.eu",
+      "url": "https://tech.eu/brief/swedish-knowledge-tech-startup-stravito-raises-e5-6-million/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "ZoomInfo company overview for Stravito.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Stravito - Overview, News & Similar companies | ZoomInfo.com",
+      "url": "https://www.zoominfo.com/c/stravito/454774099"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Crunchbase profile listing Stravito's funding history.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Stravito - Crunchbase Company Profile & Funding",
+      "url": "https://www.crunchbase.com/organization/stravito"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Stravito's own site noting recognition as a top Swedish startup in 2020.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Stravito recognised as a top Swedish startup in 2020",
+      "url": "https://www.stravito.com/resources/stravito-recognised-as-one-of-the-top-swedish-startups-to-follow-in-2020"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Stravito careers page for its Sweden location.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Sweden - Stravito",
+      "url": "https://careers.stravito.com/locations/sweden"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Stravito's own site on being named a top startup by 33-listan for a second year.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Stravito named top startup in 2020 by 33-listan",
+      "url": "https://www.stravito.com/resources/stravito-named-as-top-startup-by-33-listan-for-2nd-consecutive-year"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "TechCrunch coverage of Stravito's $14.6M raise, describing it as a knowledge platform for market research.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Stravito raises $14.6M to create a 'Netflix for enterprise market research' | TechCrunch",
+      "url": "https://techcrunch.com/2021/09/02/stravito-raises-14-6m-to-create-a-netflix-for-enterprise-market-research/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tracxn company profile of Stravito with team and funding data.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Stravito - 2026 Company Profile, Team, Funding & Competitors - Tracxn",
+      "url": "https://tracxn.com/d/companies/stravito/__Ij7OUugepRn6AfSa5e_Yv0TIahciuFEYsL73DxIXB_o"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Startup Reporter article on Stravito launching a bug bounty program.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Swedish startup Stravito launches Bug Bounty Program - Startup Reporter",
+      "url": "https://www.startupreporter.eu/swedish-startup-stravito/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "The SaaS News coverage of Stravito's €12.4 million Series A round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Stravito Raises €12.4 Million in Series A",
+      "url": "https://www.thesaasnews.com/news/stravito-raises-12-4-million-in-series-a/"
     }
   ],
   "name": "Stravito",
   "name_key": "stravito",
   "region": null,
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-stravito-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "pages": 2,
+    "queries_done": [
+      "\"Stravito\" startup Sweden"
+    ],
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-stravito-com.txt"
   },
   "score_history": [],
   "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "updated": "2026-09-28T02:33:04+00:00",
   "website": "https://www.stravito.com/"
 }

@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": null,
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "soteris",
+  "industry": "insurtech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-22",
+      "run": "2026-09-28-r4",
+      "snippet": "Launched an AI tool that identifies insurance policies that reduce profits for insurers.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://contxto.com/en/insurtech/soteris-launches-ai-tool-to-identify-insurance-policies-that-reduce-profits/"
+    }
+  ],
+  "name": "Soteris",
+  "name_key": "soteris",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:09:27+00:00",
+  "website": null
+}

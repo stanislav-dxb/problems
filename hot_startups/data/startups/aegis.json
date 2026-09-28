@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Israel",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "aegis",
+  "industry": "AI security",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Israeli AI security startup acquired by Upwind to expand its cloud-security and research capabilities.",
+      "source": "\"Upwind\" startup Israel",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://www.ynetnews.com/business/article/sj5iuc11qgx"
+    }
+  ],
+  "name": "Aegis",
+  "name_key": "aegis",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T03:06:48+00:00",
+  "website": null
+}

@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Norway",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "cerebionics",
+  "industry": "brain-computer interface",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-24",
+      "run": "2026-09-28-r4",
+      "snippet": "Startup founded by Norwegian founder Agnessa turning human intent into commands for machines.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://tech.eu/2026/09/24/cerebionics-wants-to-turn-human-intent-into-commands-for-machines/"
+    }
+  ],
+  "name": "Cerebionics",
+  "name_key": "cerebionics",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:05:16+00:00",
+  "website": null
+}

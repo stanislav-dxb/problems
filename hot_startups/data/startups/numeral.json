@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": null,
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "numeral",
+  "industry": "sales tax compliance AI",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-28",
+      "run": "2026-09-28-r4",
+      "snippet": "Automates sales tax compliance with AI, raised $100 million Series C led by Insight Partners.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://thebridge.jp/2026/09/numeral-series-c-100m-insight-partners"
+    }
+  ],
+  "name": "Numeral",
+  "name_key": "numeral",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:09:01+00:00",
+  "website": null
+}

@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Germany",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-09-28",
+  "id": "compact-greens",
+  "industry": null,
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-25",
+      "run": "2026-09-28-r4",
+      "snippet": "Young founding team pitched on 'Die Hoehle der Loewen' and impressed investors, but no deal was made.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.businessinsider.de/gruenderszene/media/dhdl-compact-greens-punktet-bei-den-loewen-doch-am-ende-gibt-es-keinen-deal/"
+    }
+  ],
+  "name": "Compact Greens",
+  "name_key": "compactgreens",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-09-28T02:06:10+00:00",
+  "website": null
+}

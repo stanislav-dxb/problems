@@ -18,18 +18,124 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://www.kota.io/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Dublin-based Kota closed a €12.8 million round to build employee benefits infrastructure.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Dublin-based Kota closes €12.8 million to build the internet's employee benefits infrastructure | EU-Startups",
+      "url": "https://www.eu-startups.com/2025/05/dublin-based-kota-closes-e12-8-million-to-build-the-internets-employee-benefits-infrastructure/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Glassdoor employee review describing Kota as a dynamic, remote-friendly Irish startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Kota (Ireland) - Dynamic, remote-friendly startup with growth potential | Glassdoor",
+      "url": "https://www.glassdoor.com/Reviews/Employee-Review-Kota-Ireland-E9895112-RVW89793021.htm"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "EU-Startups directory listing for Kota.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Kota | EU-Startups",
+      "url": "https://www.eu-startups.com/directory/kota/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Silicon Republic on Kota, a Dublin company, raising $14.5m in a Series A round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Irish company Kota raises $14.5m in Series A funding round",
+      "url": "https://www.siliconrepublic.com/start-ups/kota-raises-14-5m-series-a-funding-round-ireland-dublin"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Business Post feature on Kota's plan to grow in a $100m employee benefits market.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Inside Kota: how the fast-growing Irish startup plans to take over a $100m benefits market | Business Post",
+      "url": "https://www.businesspost.ie/tech/inside-kota-how-the-fast-growing-irish-startup-plans-to-take-over-a-100m-benefits-market/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "HR News coverage of Kota's $14.5M raise for digitizing employee benefits.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Kota Raises $14.5M to Bring Employee Benefits Into the Digital Age - HR News",
+      "url": "https://hrnews.co.uk/kota-raises-14-5m-to-bring-employee-benefits-into-the-digital-age/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tracxn profile of Kota with team and funding data.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Kota - 2026 Company Profile, Team & Funding - Tracxn",
+      "url": "https://tracxn.com/d/companies/kota/__jn-589LQsk7WKI94DjJm89_XPS-8t-sUV2m8lI5iEyc"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tech Funding News on Kota's $14.5M raise to fix Europe's employee benefits system.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Dublin's Kota secures $14.5M to fix Europe's \"broken\" employee benefits system — TFN",
+      "url": "https://techfundingnews.com/dublins-kota-secures-14-5m-to-fix-europes-broken-employee-benefits-system/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Technews180 report on an earlier €5 million round for Kota.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Irish Startup Kota Secures €5 Million to Revolutionize Employee Benefits",
+      "url": "https://technews180.com/funding-news/irish-startup-kota-secures-e5-million-to-revolutionize-employee-benefits/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Newsletter roundup of Irish startup news mentioning Kota.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "The Week In Irish Startups",
+      "url": "https://edoriordan.substack.com/p/the-week-in-irish-startups-9fc"
     }
   ],
   "name": "Kota",
   "name_key": "kota",
   "region": null,
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-kota-io.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "pages": 2,
+    "queries_done": [
+      "\"Kota\" startup Ireland"
+    ],
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-kota-io.txt"
   },
   "score_history": [],
   "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "updated": "2026-09-28T02:28:26+00:00",
   "website": "https://www.kota.io/"
 }

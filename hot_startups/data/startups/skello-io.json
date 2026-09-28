@@ -18,18 +18,115 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://skello.io/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Skello raised €200 million to grow its AI tools for frontline workforce management, announced July 2026.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "France's Skello secures €200 million to grow its AI tools for frontline workforce management | EU-Startups",
+      "url": "https://www.eu-startups.com/2026/07/frances-skello-secures-e200-million-to-grow-its-ai-tools-for-frontline-workforce-management/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "FrenchWeb report on Skello's €200 million raise, framed as French Tech entering an era of European consolidators.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "SKELLO lève 200 millions d'euros : la French Tech entre dans l'ère des consolidateurs européens",
+      "url": "https://www.frenchweb.fr/skello-leve-200-millions-deuros-la-french-tech-entre-dans-lere-des-consolidateurs-europeens/462695"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Earlier FrenchWeb report on Skello raising €40 million to expand across Europe.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "RH : Skello lève 40 millions d'euros pour prendre son envol en Europe",
+      "url": "https://www.frenchweb.fr/rh-skello-leve-40-millions-deuros-pour-prendre-son-envol-en-europe/427792"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "French Tech directory listing for Skello, Paris.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Skello - Startup France French Tech Grand Paris",
+      "url": "https://lespepitestech.com/startup-de-la-french-tech/skello"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Actu IA on Skello's €40 million round to improve its scheduling automation for hospitality.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Hôtellerie & Plannings : La start-up de la French Tech Skello lève 40 millions d'euros pour améliorer sa solution d'automatisation des plannings",
+      "url": "https://www.actuia.com/actualite/hotellerie-plannings-la-start-up-de-la-french-tech-skello-leve-40-millions-deuros-pour-ameliorer-sa-solution-dautomatisation-des-plannings/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "StartupBegins directory profile for Skello.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Skello - StartupBegins",
+      "url": "https://www.startupbegins.com/startup/skello/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "J'aime les Startups report on Skello's €200 million raise for European expansion.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Skello lève 200 millions d'euros pour son expansion européenne",
+      "url": "https://www.jaimelesstartups.fr/news/skello-levee-de-fonds-200-millions-euros-pour-expansion-europeenne/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Annuaire des Startups profile of Skello, a Paris SaaS software company.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "SKELLO Paris: startup Logiciels SAAS (levées de fonds & présentation entreprise)",
+      "url": "https://www.annuaire-startups.pro/startup/skello/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "CB Insights company page for Skello.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Skello company logo",
+      "url": "https://www.cbinsights.com/company/skello"
     }
   ],
   "name": "Skello",
   "name_key": "skello",
   "region": null,
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-skello-io.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "pages": 2,
+    "queries_done": [
+      "\"Skello\" startup France"
+    ],
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/repo/hot_startups/cache/site-skello-io.txt"
   },
   "score_history": [],
   "status": "candidate",
-  "updated": "2026-09-16T14:45:26+00:00",
+  "updated": "2026-09-28T02:28:23+00:00",
   "website": "https://skello.io/"
 }

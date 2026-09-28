@@ -121,7 +121,17 @@
   "id": "n8n-io",
   "industry": "AI tools",
   "last_checked": "2026-09-21",
-  "mentions": [],
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://n8n.io/"
+    }
+  ],
   "name": "n8n",
   "name_key": "n8n",
   "region": "europe",
@@ -143,6 +153,6 @@
     }
   ],
   "status": "judged",
-  "updated": "2026-09-21T05:09:44+00:00",
+  "updated": "2026-09-28T02:03:00+00:00",
   "website": "https://n8n.io/"
 }

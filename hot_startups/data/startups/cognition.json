@@ -1,0 +1,221 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://en.wikipedia.org/wiki/Cognition_AI"
+        ],
+        "value": "San Francisco, United States"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.techinasia.com/us-ai-coding-startup-cognition-raises-over-1b"
+        ],
+        "value": "Annualized revenue grew from about $492M in May 2026 to $900M in September 2026."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.thesaasnews.com/news/cognition-ai-inc-raises-1b-other/"
+        ],
+        "value": "$1B at a $26B valuation"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Writing and maintaining software still takes armies of engineers, so Cognition built an AI agent called Devin that can work through coding tasks on its own, from planning a fix to writing, testing and shipping the code.",
+    "industry": "AI coding",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Once an AI model can reliably finish multi-step tasks, package it as an autonomous agent for one expensive, well understood job instead of a general chat tool.",
+    "name": "Cognition",
+    "not_startup_reason": null,
+    "overall": 7.7,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Annualized revenue nearly doubled in about four months, from $492M to $900M.",
+        "score": 9,
+        "source": "https://www.techinasia.com/us-ai-coding-startup-cognition-raises-over-1b"
+      },
+      "market": {
+        "reason": "Software engineers work in nearly every industry worldwide, so an AI that does their job has a huge potential market.",
+        "score": 8,
+        "source": "https://en.wikipedia.org/wiki/Cognition_AI"
+      },
+      "tech": {
+        "reason": "Devin's autonomous, multi-step coding is a real edge today, but strong rivals in AI coding tools could catch up within a year or two.",
+        "score": 6,
+        "source": "https://en.wikipedia.org/wiki/Cognition_AI"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-26",
+        "title": "US AI coding startup Cognition raises over $1B",
+        "url": "https://www.techinasia.com/us-ai-coding-startup-cognition-raises-over-1b"
+      },
+      {
+        "date": null,
+        "title": "Cognition AI",
+        "url": "https://en.wikipedia.org/wiki/Cognition_AI"
+      },
+      {
+        "date": null,
+        "title": "Cognition AI Inc. Raises $1B at $26B Valuation",
+        "url": "https://www.thesaasnews.com/news/cognition-ai-inc-raises-1b-other/"
+      },
+      {
+        "date": null,
+        "title": "Cognition 2026 Company Profile: Valuation, Funding & Investors",
+        "url": "https://pitchbook.com/profiles/company/590473-45"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Devin is built to act like a full teammate that plans and finishes multi-step engineering work by itself, not just a code-autocomplete tool.",
+    "website": null,
+    "who_pays": "Software companies pay to use Devin as an AI engineer to help their teams ship code.",
+    "why_now": "AI models recently got good enough to handle long, multi-step tasks on their own, which is exactly what real software engineering work requires."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "cognition",
+  "industry": "AI coding",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-26",
+      "run": "2026-09-28-r4",
+      "snippet": "US AI coding startup nearing $1b annualized revenue, up from $492 million in May to $900 million in September.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.techinasia.com/us-ai-coding-startup-cognition-raises-over-1b"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Wikipedia article on Cognition AI (Cognition Labs), the San Francisco maker of the Devin AI software engineer.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cognition AI",
+      "url": "https://en.wikipedia.org/wiki/Cognition_AI"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "PitchBook profile with Cognition's valuation, funding and investor details.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cognition 2026 Company Profile: Valuation, Funding & Investors | PitchBook",
+      "url": "https://pitchbook.com/profiles/company/590473-45"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Crunchbase company profile and funding history for Cognition.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cognition - Crunchbase Company Profile & Funding",
+      "url": "https://www.crunchbase.com/organization/cognition-5bd7"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Startup Intros profile summarizing Cognition's funding, team and investors.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cognition: Funding, Team & Investors | Startup Intros",
+      "url": "https://startupintros.com/orgs/cognition"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Tracxn profile listing Cognition's funding and competitors.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cognition - 2026 Company Profile, Funding & Competitors - Tracxn",
+      "url": "https://tracxn.com/d/companies/cognition/__A-LTT9JRh_QNtJP-fH1fyGNlIUA_Bt9UIx3qnfFr1w0"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Startups.gallery directory entry for Cognition AI.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cognition | startups.gallery",
+      "url": "https://startups.gallery/companies/cognition-ai"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Forbes company overview and news page for Cognition.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cognition | Company Overview & News",
+      "url": "https://www.forbes.com/companies/cognition/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "The SaaS News on Cognition AI's $1B raise at a $26B valuation, co-led by Lux Capital, General Catalyst and 8VC.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cognition AI Inc. Raises $1B at $26B Valuation",
+      "url": "https://www.thesaasnews.com/news/cognition-ai-inc-raises-1b-other/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "CB Insights page for Digital Cognition Technologies, a different company that only shares part of the name with Cognition AI.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Digital Cognition Technologies company logo",
+      "url": "https://www.cbinsights.com/company/digital-cognition-technologies"
+    }
+  ],
+  "name": "Cognition",
+  "name_key": "cognition",
+  "region": "north_america",
+  "research": {
+    "article_read": true,
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"Cognition\" startup United States"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 9.0,
+      "market": 8.0,
+      "overall": 7.7,
+      "run": "2026-09-28-r4",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T03:33:45+00:00",
+  "website": null
+}

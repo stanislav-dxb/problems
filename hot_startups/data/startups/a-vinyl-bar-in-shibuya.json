@@ -4,11 +4,115 @@
   "country": "Japan",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Japan",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://inforcapital.com/news/a-vinyl-bar-in-shibuya-raises-55m-pre-seed-round-for-music-apps/",
+          "https://theaiinsider.tech/2026/09/14/a-vinyl-bar-in-shibuya-announces-5-5m-in-funding-to-build-interactive-music-creation-tools/",
+          "https://digitalmarketreports.com/news/91715/a-vinyl-bar-in-shibuya-raises-5-5-million-for-interactive-music-apps/"
+        ],
+        "value": "$5.5M pre-seed round"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Most music apps just let you listen or use AI to generate a whole song for you, so this studio makes small, playful apps that get people directly involved in making sounds and music themselves.",
+    "industry": "Music apps",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "A well-known figure from a big platform can use their credibility and taste to launch small, experimental products before settling on one core product.",
+    "name": "A Vinyl Bar in Shibuya",
+    "not_startup_reason": null,
+    "overall": 4.5,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "unknown",
+        "reason": "This is a brand-new pre-seed company with no prior round or usage numbers to compare against.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "Consumer music-creation apps are a real market of interested hobbyists and musicians worldwide, but it is a niche next to mainstream music streaming.",
+        "score": 5,
+        "source": "https://techcrunch.com/2026/09/14/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps/"
+      },
+      "tech": {
+        "reason": "The apps are experimental and creative, but public reports do not describe a hard-to-copy technical edge, and sources even disagree on how much AI is involved.",
+        "score": 4,
+        "source": "https://jingletree.com/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps-without-any-ai-prompting-269325.html"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-14",
+        "title": "A Vinyl Bar in Shibuya is a startup from a former Spotify leader for making music apps",
+        "url": "https://techcrunch.com/2026/09/14/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps/"
+      },
+      {
+        "date": null,
+        "title": "A Vinyl Bar in Shibuya is a startup from a former Spotify leader for making music apps",
+        "url": "https://tech.yahoo.com/audio/articles/vinyl-bar-shibuya-startup-offering-135500887.html"
+      },
+      {
+        "date": null,
+        "title": "Ex-Spotify Exec's Music App Startup Secures $5.5M",
+        "url": "https://inforcapital.com/news/a-vinyl-bar-in-shibuya-raises-55m-pre-seed-round-for-music-apps/"
+      },
+      {
+        "date": null,
+        "title": "A Vinyl Bar in Shibuya Announces $5.5M in Funding to Build Interactive Music Creation Tools",
+        "url": "https://theaiinsider.tech/2026/09/14/a-vinyl-bar-in-shibuya-announces-5-5m-in-funding-to-build-interactive-music-creation-tools/"
+      },
+      {
+        "date": null,
+        "title": "A Vinyl Bar in Shibuya Raises $5.5 Million for Interactive Music Apps",
+        "url": "https://digitalmarketreports.com/news/91715/a-vinyl-bar-in-shibuya-raises-5-5-million-for-interactive-music-apps/"
+      },
+      {
+        "date": null,
+        "title": "New Startup A Vinyl Bar in Shibuya Lets Users Create Music with Generative AI Tools - SSBCrack News",
+        "url": "https://news.ssbcrack.com/new-startup-a-vinyl-bar-in-shibuya-lets-users-create-music-with-generative-ai-tools/"
+      },
+      {
+        "date": null,
+        "title": "A Vinyl Bar in Shibuya is a startup offering fun music apps without any AI prompting - Jingletree",
+        "url": "https://jingletree.com/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps-without-any-ai-prompting-269325.html"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It is run by a former Spotify leader and releases its work as small experimental 'singles' style apps rather than one big product, with reports differing on how much of the music-making is AI-driven versus hands-on.",
+    "website": null,
+    "who_pays": "Not yet clear from public reporting; likely everyday consumers who would pay to use or subscribe to its music-making apps.",
+    "why_now": "People are tired of passively consuming AI-made content and want playful, hands-on ways to create music themselves, especially as making music with software gets easier."
+  },
+  "first_judged_run": "2026-09-28-r4",
   "first_seen": "2026-09-16",
   "id": "a-vinyl-bar-in-shibuya",
   "industry": "Music apps",
-  "last_checked": null,
+  "last_checked": "2026-09-28",
   "mentions": [
     {
       "date": "2026-09-14",
@@ -18,18 +122,106 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://techcrunch.com/2026/09/14/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Yahoo Tech on A Vinyl Bar in Shibuya, a startup from a former Spotify head of innovation, making small interactive music apps.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "A Vinyl Bar in Shibuya is a startup from a former Spotify leader for making music apps",
+      "url": "https://tech.yahoo.com/audio/articles/vinyl-bar-shibuya-startup-offering-135500887.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Syndicated coverage of the TechCrunch story on A Vinyl Bar in Shibuya's funding and music apps.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "A Vinyl Bar in Shibuya is a startup from a former Spotify leader for making music apps | daily.dev",
+      "url": "https://daily.dev/posts/a-vinyl-bar-in-shibuya-is-a-startup-from-a-former-spotify-leader-for-making-music-apps-om1nxdwos"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Report on A Vinyl Bar in Shibuya's $5.5 million pre-seed round for its interactive music apps.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Ex-Spotify Exec's Music App Startup Secures $5.5M",
+      "url": "https://inforcapital.com/news/a-vinyl-bar-in-shibuya-raises-55m-pre-seed-round-for-music-apps/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "NewsBreak syndication of the TechCrunch article on A Vinyl Bar in Shibuya.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "A Vinyl Bar in Shibuya is a startup from a former Spotify leader for making music apps - NewsBreak",
+      "url": "https://www.newsbreak.com/techcrunch-com-332114314/4885178218240-a-vinyl-bar-in-shibuya-is-a-startup-from-a-former-spotify-leader-for-making-music-apps"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "AI Insider coverage of the $5.5 million funding round for A Vinyl Bar in Shibuya's interactive music creation tools.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "A Vinyl Bar in Shibuya Announces $5.5M in Funding to Build Interactive Music Creation Tools",
+      "url": "https://theaiinsider.tech/2026/09/14/a-vinyl-bar-in-shibuya-announces-5-5m-in-funding-to-build-interactive-music-creation-tools/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "SSBCrack News item on A Vinyl Bar in Shibuya letting users create music with generative tools.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "New Startup A Vinyl Bar in Shibuya Lets Users Create Music with Generative AI Tools - SSBCrack News",
+      "url": "https://news.ssbcrack.com/new-startup-a-vinyl-bar-in-shibuya-lets-users-create-music-with-generative-ai-tools/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Jingletree coverage noting the apps let people interact with sound directly rather than relying on AI prompting.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "A Vinyl Bar in Shibuya is a startup offering fun music apps without any AI prompting - Jingletree",
+      "url": "https://jingletree.com/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps-without-any-ai-prompting-269325.html"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Digital Market Reports on the $5.5 million raise for A Vinyl Bar in Shibuya's interactive music apps.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "A Vinyl Bar in Shibuya Raises $5.5 Million for Interactive Music Apps",
+      "url": "https://digitalmarketreports.com/news/91715/a-vinyl-bar-in-shibuya-raises-5-5-million-for-interactive-music-apps/"
     }
   ],
   "name": "A Vinyl Bar in Shibuya",
   "name_key": "avinylbarinshibuya",
-  "region": null,
+  "region": "asia",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-a-vinyl-bar-in-shibuya.txt",
+    "article_url": "https://techcrunch.com/2026/09/14/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps/",
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"A Vinyl Bar in Shibuya\" startup Japan"
+    ],
+    "refresh": false,
+    "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:47:15+00:00",
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": null,
+      "market": 5.0,
+      "overall": 4.5,
+      "run": "2026-09-28-r4",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T03:26:36+00:00",
   "website": null
 }

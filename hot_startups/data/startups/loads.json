@@ -2,13 +2,106 @@
   "alias_keys": [],
   "aliases": [],
   "country": "Chile",
-  "domain": null,
+  "domain": "loadsfoods.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Chile",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://contxto.com/en/chile/loads-chilean-agtech-secures-2-million-dollar-seed-investment-for-expansion/"
+        ],
+        "value": "Santiago, Chile"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://latamlist.com/loads-secures-15m-credit-facility-from-addem-capital/",
+          "https://www.hyperlatam.com/loads-agritech-raises-usd-2m/"
+        ],
+        "value": "Secured a $15M revolving credit facility from Addem Capital in September 2026, far larger than its earlier $2M seed round."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://contxto.com/en/chile/loads-chilean-agtech-secures-2-million-dollar-seed-investment-for-expansion/",
+          "https://latamlist.com/loads-secures-15m-credit-facility-from-addem-capital/"
+        ],
+        "value": "$2M seed round, plus a $15M revolving credit facility in 2026"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Food importers and producers in Latin America often lack the cash flow to finance long shipping and payment cycles, so Loads connects importers with global food producers and provides financing to move the trade along.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "Build a matchmaking platform for a trade that moves slowly because of financing gaps, then become the lender yourself once you have the data and trust to get a credit line from a bank or fund.",
+    "name": "Loads",
+    "not_startup_reason": null,
+    "overall": 5.0,
+    "region": "latin_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last",
+        "reason": "Went from a $2M seed round to a $15M credit facility, a clear step up, though no revenue or customer numbers are public.",
+        "score": 6,
+        "source": "https://latamlist.com/loads-secures-15m-credit-facility-from-addem-capital/"
+      },
+      "market": {
+        "reason": "Financing food trade is a real, recurring need in Latin America, but it is one region and one type of trade rather than a global mass market.",
+        "score": 5,
+        "source": "https://latamlist.com/loads-secures-15m-credit-facility-from-addem-capital/"
+      },
+      "tech": {
+        "reason": "Matching importers with producers and running trade credit is solid business building, but not a hard-to-copy technology.",
+        "score": 4,
+        "source": "https://contxto.com/en/chile/loads-chilean-agtech-secures-2-million-dollar-seed-investment-for-expansion/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-14",
+        "title": "Loads secures $15M credit facility from Addem Capital",
+        "url": "https://latamlist.com/loads-secures-15m-credit-facility-from-addem-capital/"
+      },
+      {
+        "date": null,
+        "title": "Loads, Chilean agtech, secures $2 million seed investment for expansion",
+        "url": "https://contxto.com/en/chile/loads-chilean-agtech-secures-2-million-dollar-seed-investment-for-expansion/"
+      },
+      {
+        "date": null,
+        "title": "Chile's Loads Raises USD $2M to Enhance AgriTech Trade Networks",
+        "url": "https://www.hyperlatam.com/loads-agritech-raises-usd-2m/"
+      },
+      {
+        "date": null,
+        "title": "Loads 2026 Company Profile: Valuation, Funding & Investors | PitchBook",
+        "url": "https://pitchbook.com/profiles/company/503835-67"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It pairs a food-trade matchmaking platform with real credit lines, and just secured a $15M revolving credit facility to fund its financing to customers, much bigger than its earlier seed round.",
+    "website": "https://www.loadsfoods.com/",
+    "who_pays": "Food importers and producers in Latin America who use Loads' platform and pay for its trade financing.",
+    "why_now": "Global food trade keeps growing but traditional banks in Latin America are slow to finance small and mid-size importers and producers, leaving room for a faster, tech-based lender."
+  },
+  "first_judged_run": "2026-09-28-r4",
   "first_seen": "2026-09-16",
   "id": "loads",
-  "industry": "Food trade fintech",
-  "last_checked": null,
+  "industry": "Fintech",
+  "last_checked": "2026-09-28",
   "mentions": [
     {
       "date": "2026-09-14",
@@ -18,18 +111,115 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://latamlist.com/loads-secures-15m-credit-facility-from-addem-capital/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "PitchBook profile of Loads with valuation, funding and investor data.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Loads 2026 Company Profile: Valuation, Funding & Investors | PitchBook",
+      "url": "https://pitchbook.com/profiles/company/503835-67"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Contxto reports Loads, a Santiago-based agtech connecting importers with global producers, raised a $2 million seed round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Loads, Chilean agtech, secures $2 million seed investment for expansion",
+      "url": "https://contxto.com/en/chile/loads-chilean-agtech-secures-2-million-dollar-seed-investment-for-expansion/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "HyperLatam on Loads' $2 million raise to grow its agritech trade network, noting investors including Alaya Capital, Canary, Murchison Ventures, Nazca and Start-Up Chile.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Chile's Loads Raises USD $2M to Enhance AgriTech Trade Networks",
+      "url": "https://www.hyperlatam.com/loads-agritech-raises-usd-2m/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "LinkedIn page for Start-Up Chile, the government startup accelerator program that invested in Loads; not itself a startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Start-Up Chile | LinkedIn",
+      "url": "https://www.linkedin.com/company/start-up-chile"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "GrowthMentor directory entry describing the Start-Up Chile accelerator program.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Start-Up Chile — Startup Accelerator | GrowthMentor",
+      "url": "https://www.growthmentor.com/startup-accelerators/start-up-chile"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Wikipedia article on the Start-Up Chile government accelerator program, unrelated to the company Loads specifically.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Start-Up Chile",
+      "url": "https://en.wikipedia.org/wiki/Start-Up_Chile"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Failory list of Chilean startups to watch in 2026.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Top 41 Chile Startups to Watch in 2026",
+      "url": "https://www.failory.com/startups/chile"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "IEA analysis piece referencing the Start-Up Chile program.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Start-Up Chile – Analysis - IEA",
+      "url": "https://www.iea.org/articles/start-up-chile"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "WIPO Magazine article about the Start-Up Chile program.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Start-Up Chile",
+      "url": "https://www.wipo.int/en/web/wipo-magazine/articles/start-up-chile-38986"
     }
   ],
   "name": "Loads",
   "name_key": "loads",
-  "region": null,
+  "region": "latin_america",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-loads.txt",
+    "article_url": "https://latamlist.com/loads-secures-15m-credit-facility-from-addem-capital/",
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"Loads\" startup Chile"
+    ],
+    "refresh": false,
+    "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-16T14:50:11+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 6.0,
+      "market": 5.0,
+      "overall": 5.0,
+      "run": "2026-09-28-r4",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T03:26:36+00:00",
+  "website": "https://www.loadsfoods.com/"
 }

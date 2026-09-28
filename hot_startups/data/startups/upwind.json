@@ -1,0 +1,244 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Israel",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "Israel",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.ynetnews.com/business/article/h1iuhsbu11g",
+          "https://www.geektime.co.il/upwind-acquires-a-new-startup/"
+        ],
+        "value": "Israel"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.geektime.co.il/upwind-acquires-a-new-startup/",
+          "https://www.timesofisrael.com/israeli-founded-cyber-startup-raises-250m-attains-unicorn-status-at-1-5b-valuation/"
+        ],
+        "value": "Valuation reportedly doubled in under a year: it reached unicorn status at $1.5B with a $250M round, then raised $300M more."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.geektime.co.il/upwind-acquires-a-new-startup/"
+        ],
+        "value": "$300M (most recent round, reported September 2026)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Companies running apps in the cloud struggle to spot and stop security problems while they are actually happening, so Upwind built a platform that watches cloud workloads in real time and reacts to threats as they occur.",
+    "industry": "Cybersecurity",
+    "is_startup": true,
+    "judged_on": "2026-09-28",
+    "judged_run": "2026-09-28-r4",
+    "lesson": "In a hot, well-funded category, keep raising money and buying smaller rivals to stay ahead of fast-moving competitors.",
+    "name": "Upwind",
+    "not_startup_reason": null,
+    "overall": 7.7,
+    "region": "mea",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Its valuation reportedly doubled in under a year through back-to-back funding rounds.",
+        "score": 8,
+        "source": "https://www.geektime.co.il/upwind-acquires-a-new-startup/"
+      },
+      "market": {
+        "reason": "Almost every company running workloads in the cloud needs security tools like this, a very large worldwide market.",
+        "score": 8,
+        "source": null
+      },
+      "tech": {
+        "reason": "Its real-time cloud security approach is strong enough to win huge rounds at a fast-rising valuation, though rivals in cloud security could catch up within a year or two.",
+        "score": 7,
+        "source": "https://techcrunch.com/2024/11/08/upwind-an-israeli-cloud-cybersecurity-startup-is-raising-100m-at-a-850-900m-valuation-say-sources/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-23",
+        "title": "Upwind acquires a new startup",
+        "url": "https://www.geektime.co.il/upwind-acquires-a-new-startup/"
+      },
+      {
+        "date": null,
+        "title": "Israeli startup Upwind joins unicorn club after $250M Series B",
+        "url": "https://www.ynetnews.com/business/article/h1iuhsbu11g"
+      },
+      {
+        "date": null,
+        "title": "Israeli-founded cyber startup raises $250m, attains unicorn status at $1.5b valuation",
+        "url": "https://www.timesofisrael.com/israeli-founded-cyber-startup-raises-250m-attains-unicorn-status-at-1-5b-valuation/"
+      },
+      {
+        "date": "2024-11-08",
+        "title": "Upwind, an Israeli cloud cybersecurity startup, is raising $100M at a $850M-$900M valuation, say sources",
+        "url": "https://techcrunch.com/2024/11/08/upwind-an-israeli-cloud-cybersecurity-startup-is-raising-100m-at-a-850-900m-valuation-say-sources/"
+      },
+      {
+        "date": null,
+        "title": "Upwind acquires Israeli AI security startup Aegis, launches new cyber research lab",
+        "url": "https://www.ynetnews.com/business/article/sj5iuc11qgx"
+      },
+      {
+        "date": null,
+        "title": "Upwind acquires Israeli AI security startup Aegis",
+        "url": "https://en.globes.co.il/en/article-upwind-acquires-israeli-cybersecurity-startup-aegis-1001557352"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It just bought an Israeli AI security startup, Aegis, and opened a new cyber research lab to add AI-driven detection on top of its existing runtime protection.",
+    "website": null,
+    "who_pays": "Companies that run their applications in the cloud pay for ongoing security monitoring and protection.",
+    "why_now": "More companies are moving fast-changing workloads to the cloud, and investors are pouring huge rounds into cloud-security startups right now."
+  },
+  "first_judged_run": "2026-09-28-r4",
+  "first_seen": "2026-09-28",
+  "id": "upwind",
+  "industry": "Cybersecurity",
+  "last_checked": "2026-09-28",
+  "mentions": [
+    {
+      "date": "2026-09-23",
+      "run": "2026-09-28-r4",
+      "snippet": "Israeli cybersecurity company, which raised $300 million earlier this month and doubled its valuation in under a year, announced another acquisition.",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.geektime.co.il/upwind-acquires-a-new-startup/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Ynet reports Upwind, an Israeli runtime cloud-security startup, raised $250 million and reached unicorn status.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Israeli startup Upwind joins unicorn club after $250M Series B",
+      "url": "https://www.ynetnews.com/business/article/h1iuhsbu11g"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "TechCrunch on an earlier Upwind round, reported to value the company at $850-900 million.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Upwind, an Israeli cloud cybersecurity startup, is raising $100M at a $850M-$900M valuation, say sources | TechCrunch",
+      "url": "https://techcrunch.com/2024/11/08/upwind-an-israeli-cloud-cybersecurity-startup-is-raising-100m-at-a-850-900m-valuation-say-sources/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Ynet reports Upwind acquired Israeli AI security startup Aegis and launched a new cyber research lab.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Upwind acquires Israeli AI security startup Aegis, launches new cyber research lab",
+      "url": "https://www.ynetnews.com/business/article/sj5iuc11qgx"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Times of Israel article on an Israeli-founded cyber startup being acquired by Datadog for about $1 billion; unclear if this refers to Upwind or a different company.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Israeli-founded cyber startup set to be snapped up by Datadog in $1 billion deal | The Times of Israel",
+      "url": "https://www.timesofisrael.com/israeli-founded-cyber-startup-set-to-be-snapped-up-by-datadog-in-1-billion-deal/"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Globes coverage of Upwind's acquisition of Israeli AI security startup Aegis.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Upwind acquires Israeli AI security startup Aegis - Globes",
+      "url": "https://en.globes.co.il/en/article-upwind-acquires-israeli-cybersecurity-startup-aegis-1001557352"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Calcalist on Upwind's $100 million raise at an $850-900 million valuation.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cyber startup Upwind raising $100 million at $850-900M valuation | Ctech",
+      "url": "https://www.calcalistech.com/ctechnews/article/hkxgq11pwjl"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Jerusalem Post on Upwind's $250 million Series B led by Bessemer Venture Partners, reaching unicorn status.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Israeli-founded Upwind hits unicorn status with $250 million Series B led by Bessemer",
+      "url": "https://www.jpost.com/business-and-innovation/article-884607"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Calcalist on an earlier $50 million round raised by Upwind to protect cloud applications.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cyber startup Upwind nets $50 million to protect cloud applications | Ctech",
+      "url": "https://www.calcalistech.com/ctechnews/article/h1wtb5ea3"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Calcalist report that Upwind was in talks to raise over $250 million at a valuation above $1.2 billion.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cyber startup Upwind in talks to raise $250 million-plus at over $1.2 billion valuation | CTech",
+      "url": "https://www.calcalistech.com/ctechnews/article/by2e611arzl"
+    },
+    {
+      "date": "",
+      "run": "2026-09-28-r4",
+      "snippet": "Times of Israel confirms Upwind's $250 million raise and $1.5 billion valuation, founded by Amiram Shachar and the team behind Spot.io.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Israeli-founded cyber startup raises $250m, attains unicorn status at $1.5b valuation | The Times of Israel",
+      "url": "https://www.timesofisrael.com/israeli-founded-cyber-startup-raises-250m-attains-unicorn-status-at-1-5b-valuation/"
+    }
+  ],
+  "name": "Upwind",
+  "name_key": "upwind",
+  "region": "mea",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/repo/hot_startups/cache/article-upwind.txt",
+    "article_url": "https://www.geektime.co.il/upwind-acquires-a-new-startup/",
+    "judged_run": "2026-09-28-r4",
+    "pages": 1,
+    "queries_done": [
+      "\"Upwind\" startup Israel"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-09-28",
+      "growth": 8.0,
+      "market": 8.0,
+      "overall": 7.7,
+      "run": "2026-09-28-r4",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-09-28T03:30:24+00:00",
+  "website": null
+}
