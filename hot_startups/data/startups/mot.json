@@ -1,0 +1,143 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Japan",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "Japan",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://thebridge.jp/2026/10/mot-raises-funding-from-dbj-capital-and-shochiku-ventures"
+        ],
+        "value": "Raised new funds in October 2026 from DBJ Capital and Shochiku Ventures."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://thebridge.jp/2026/10/mot-raises-funding-from-dbj-capital-and-shochiku-ventures"
+        ],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Comic artists lose time on business tasks, so MOT manages their schedules and requests and also runs an online manga school.",
+    "industry": "Media education",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Run a school that finds talent, then manage the best of it.",
+    "name": "MOT",
+    "not_startup_reason": null,
+    "overall": 4.0,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "substitute: new funding from DBJ Capital and Shochiku Ventures",
+        "reason": "No numbers on users or revenue, only a funding round with no amount.",
+        "score": null,
+        "source": "https://thebridge.jp/2026/10/mot-raises-funding-from-dbj-capital-and-shochiku-ventures"
+      },
+      "market": {
+        "reason": "Manga is big, but this is one country and one niche.",
+        "score": 5,
+        "source": "https://thebridge.jp/2026/10/mot-raises-funding-from-dbj-capital-and-shochiku-ventures"
+      },
+      "tech": {
+        "reason": "It is a service business with online courses, little hard to copy.",
+        "score": 3,
+        "source": "https://thebridge.jp/2026/10/mot-raises-funding-from-dbj-capital-and-shochiku-ventures"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-05",
+        "title": "MOT raises funding (The Bridge)",
+        "url": "https://thebridge.jp/2026/10/mot-raises-funding-from-dbj-capital-and-shochiku-ventures"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "The school brings students face to face with editors, which feeds new talent into the artist management side.",
+    "website": null,
+    "who_pays": "Artists and publishers pay for management, and students pay for school courses.",
+    "why_now": "Manga is going into anime, games and overseas events, so artists have more business work."
+  },
+  "first_judged_run": "2026-10-05-r5",
+  "first_seen": "2026-10-05",
+  "id": "mot",
+  "industry": "Media education",
+  "last_checked": "2026-10-05",
+  "mentions": [
+    {
+      "date": "2026-10-05",
+      "run": "2026-10-05-r5",
+      "snippet": "Manga artist management and Kakikomi manga school; funding from DBJ Capital and Shochiku Ventures",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://thebridge.jp/2026/10/mot-raises-funding-from-dbj-capital-and-shochiku-ventures"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "MOTA is a French cooling systems firm with a Japanese subsidiary; no clear startup named MOT found.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "MOTA Inc. Japan",
+      "url": "https://trends.directindustry.com/mota/project-188431-191327.html"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "MOT here means management of technology, not a startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Recovering from Success: Innovation and Technology Management in Japan",
+      "url": "https://academic.oup.com/book/34320/chapter/291264075"
+    }
+  ],
+  "name": "MOT",
+  "name_key": "mot",
+  "region": "asia",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-mot.txt",
+    "article_url": "https://thebridge.jp/2026/10/mot-raises-funding-from-dbj-capital-and-shochiku-ventures",
+    "judged_run": "2026-10-05-r5",
+    "pages": 1,
+    "queries_done": [
+      "\"MOT\" startup Japan"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": null,
+      "market": 5.0,
+      "overall": 4.0,
+      "run": "2026-10-05-r5",
+      "tech": 3.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:29:12+00:00",
+  "website": null
+}

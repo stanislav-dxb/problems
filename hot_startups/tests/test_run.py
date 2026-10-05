@@ -146,3 +146,20 @@ def test_memory_bundle_round_trip(ctx, tmp_path):
     main(["memory", "import", bundle, "--force"])
     assert (store.startups_dir / f"{rec['id']}.json").exists()
     del os.environ["HOTSTARTUPS_HOME"]
+
+
+def test_brief_counts_only_newcomers_on_the_page(ctx):
+    cfg, src, store = ctx
+    cfg["page"]["top_n"] = 2
+    run = tasks.start_run(cfg, store)
+    for i, overall in enumerate([9, 8, 7, 6]):
+        r = store.new_startup(f"S{i}", f"https://s{i}.io")
+        r["status"] = "judged"; r["first_judged_run"] = run["id"]
+        r["entry"] = {"is_startup": True, "overall": overall, "idea": "i", "lesson": "l"}
+        store.save_startup(r)
+        run["new_ids"].append(r["id"])
+    run["phase_state"]["synthesis"] = {"trends": "done", "gaps": "done", "trends_result": []}
+    brief = tasks._plan_synthesis(cfg, store, run)[0]
+    # four newcomers were judged, but only the best two are on the page
+    assert brief["numbers"]["on_the_list"] == 2 and brief["numbers"]["new_this_week"] == 2
+    assert [e["name"] for e in brief["newcomers"]] == ["S0", "S1"]

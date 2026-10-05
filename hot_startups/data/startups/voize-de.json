@@ -4,11 +4,111 @@
   "country": "Germany",
   "domain": "voize.de",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Germany",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://vestbee.com/insights/articles/voize-raises-9-m"
+        ],
+        "value": "Berlin, Germany"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.why.berlin/n/voize-raises-9m-to-turn-speech-into-smart-documentation"
+        ],
+        "value": 2020
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://voize.de/",
+          "https://vivatech.com/news/top-100-rising-startups-of-2026"
+        ],
+        "value": "Says 2,000+ facilities use it; named to VivaTech Top 100 Rising Startups 2026, which needs €5M ARR."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://vestbee.com/insights/articles/voize-raises-9-m",
+          "https://finder.techleap.nl/news/feed/voize-raises-9m-for-ai-healthcare-admin"
+        ],
+        "value": "$9M seed"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Nurses lose hours to paperwork, so Voize lets them speak notes that become written care records.",
+    "industry": "Health",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Take a boring task people hate and let them do it by voice inside the tools they already use.",
+    "name": "Voize",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: VivaTech Top 100 criteria (at least €5M ARR, 40% growth) and 2,000+ facilities claimed by the company",
+        "reason": "Made the VivaTech list that requires €5M revenue and 40% yearly growth, and claims 2,000+ facilities.",
+        "score": 7,
+        "source": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      "market": {
+        "reason": "Nursing documentation is a huge problem in a whole profession worldwide.",
+        "score": 7,
+        "source": "https://voize.de/"
+      },
+      "tech": {
+        "reason": "Voice-to-record plus live links to many record systems is solid, but a good team could copy it in a year.",
+        "score": 6,
+        "source": "https://voize.de/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "voize – AI Companion for Nurses",
+        "url": "https://voize.de/"
+      },
+      {
+        "date": null,
+        "title": "Voize raises $9M",
+        "url": "https://vestbee.com/insights/articles/voize-raises-9-m"
+      },
+      {
+        "date": null,
+        "title": "voize raises 9M for AI healthcare admin",
+        "url": "https://finder.techleap.nl/news/feed/voize-raises-9m-for-ai-healthcare-admin"
+      },
+      {
+        "date": null,
+        "title": "voize raises 9M to turn speech into smart documentation",
+        "url": "https://www.why.berlin/n/voize-raises-9m-to-turn-speech-into-smart-documentation"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "The spoken notes turn into structured entries that sync straight into the care home's existing records system.",
+    "website": "https://voize.de/",
+    "who_pays": "Care homes and nursing facilities pay a subscription.",
+    "why_now": "Care homes lack staff and burnout is high, and voice AI is now good enough to chart at the bedside."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-16",
   "id": "voize-de",
-  "industry": "HealthTech",
-  "last_checked": null,
+  "industry": "Health",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -27,18 +127,90 @@
       "source_kind": "list",
       "title": "",
       "url": "https://voize.de/"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "HealthTech startup from Germany in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Berlin healthtech startup with voice-assisted care documentation; $9M seed led by HV Capital.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Voize raises $9M",
+      "url": "https://vestbee.com/insights/articles/voize-raises-9-m"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Voize raises $9M.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "voize raises 9M for AI healthcare admin",
+      "url": "https://finder.techleap.nl/news/feed/voize-raises-9m-for-ai-healthcare-admin"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Founded 2020 by Fabio Schmidberger, Marcel Schmidberger and Erik Ziegler.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "voize raises 9M to turn speech into smart documentation",
+      "url": "https://www.why.berlin/n/voize-raises-9m-to-turn-speech-into-smart-documentation"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "voize company profile.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "voize Overview",
+      "url": "https://pitchbook.com/profiles/company/438114-16"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "voize company page.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "voize on Welcome to the Jungle",
+      "url": "https://app.welcometothejungle.com/companies/voize"
     }
   ],
   "name": "Voize",
   "name_key": "voize",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-voize-de.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-05-r5",
+    "pages": 2,
+    "queries_done": [
+      "\"Voize\" startup Germany"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-voize-de.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:03:00+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 7.0,
+      "market": 7.0,
+      "overall": 6.7,
+      "run": "2026-10-05-r5",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:13:16+00:00",
   "website": "https://voize.de/"
 }

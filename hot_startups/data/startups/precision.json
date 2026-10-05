@@ -1,14 +1,107 @@
 {
   "alias_keys": [],
   "aliases": [],
-  "country": null,
+  "country": "United States",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://theinnovator.news/startup-of-the-week-precision-neuroscience/"
+        ],
+        "value": "United States"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://webrazzi.com/2026/09/25/beyin-bilgisayar-ara-yuzleri-alanina-odaklanan-precision-250-milyon-dolar-yatirim-aldi/",
+          "https://www.mobihealthnews.com/news/precision-neuroscience-scores-102m-ai-enabled-brain-implant"
+        ],
+        "value": "Raised $250M in a Series D, bigger than its earlier $102M round."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://webrazzi.com/2026/09/25/beyin-bilgisayar-ara-yuzleri-alanina-odaklanan-precision-250-milyon-dolar-yatirim-aldi/",
+          "https://www.mobihealthnews.com/news/precision-neuroscience-scores-102m-ai-enabled-brain-implant"
+        ],
+        "value": "$250M Series D (reported Sept 2026); earlier $102M round"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "People with paralysis cannot easily control computers, so Precision makes a thin brain implant that reads brain signals.",
+    "industry": "Health",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "In a hard science field, a gentler version of a scary technology can reach patients sooner.",
+    "name": "Precision Neuroscience",
+    "not_startup_reason": null,
+    "overall": 8.5,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last ($250M vs $102M)",
+        "reason": "No user or revenue numbers, only a funding round larger than the last.",
+        "score": null,
+        "source": "https://webrazzi.com/2026/09/25/beyin-bilgisayar-ara-yuzleri-alanina-odaklanan-precision-250-milyon-dolar-yatirim-aldi/"
+      },
+      "market": {
+        "reason": "Brain implants could help millions of people with paralysis and other conditions worldwide.",
+        "score": 8,
+        "source": "https://www.fiercebiotech.com/medtech/fda-clears-precision-neurosciences-minimally-invasive-brain-computer-interface-implant"
+      },
+      "tech": {
+        "reason": "New hardware and science with regulatory clearance that is hard to copy for years.",
+        "score": 9,
+        "source": "https://www.fiercebiotech.com/medtech/fda-clears-precision-neurosciences-minimally-invasive-brain-computer-interface-implant"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-25",
+        "title": "Precision raised $250M (Webrazzi)",
+        "url": "https://webrazzi.com/2026/09/25/beyin-bilgisayar-ara-yuzleri-alanina-odaklanan-precision-250-milyon-dolar-yatirim-aldi/"
+      },
+      {
+        "date": null,
+        "title": "Startup Of The Week: Precision Neuroscience",
+        "url": "https://theinnovator.news/startup-of-the-week-precision-neuroscience/"
+      },
+      {
+        "date": null,
+        "title": "FDA clears Precision Neuroscience's brain-computer interface implant",
+        "url": "https://www.fiercebiotech.com/medtech/fda-clears-precision-neurosciences-minimally-invasive-brain-computer-interface-implant"
+      },
+      {
+        "date": null,
+        "title": "Precision Neuroscience scores $102M for AI-enabled brain implant",
+        "url": "https://www.mobihealthnews.com/news/precision-neuroscience-scores-102m-ai-enabled-brain-implant"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "The implant is very thin and goes on the brain surface with minimal surgery, and it has won FDA clearance.",
+    "website": null,
+    "who_pays": "Hospitals and health systems would pay for the implant; investors fund it until then.",
+    "why_now": "Better AI can decode brain signals, and investors are putting big money into Neuralink rivals."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-28",
   "id": "precision",
-  "industry": "brain-computer interfaces",
-  "last_checked": null,
+  "industry": "Health",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-09-25",
@@ -101,21 +194,32 @@
       "url": "https://en.wikipedia.org/wiki/Precision_BioSciences"
     }
   ],
-  "name": "Precision",
+  "name": "Precision Neuroscience",
   "name_key": "precision",
-  "region": null,
+  "region": "north_america",
   "research": {
     "article_read": true,
     "article_text": "/home/user/repo/hot_startups/cache/article-precision.txt",
     "article_url": "https://webrazzi.com/2026/09/25/beyin-bilgisayar-ara-yuzleri-alanina-odaklanan-precision-250-milyon-dolar-yatirim-aldi/",
+    "judged_run": "2026-10-05-r5",
     "pages": 1,
     "queries_done": [
       "\"Precision\" startup"
     ],
+    "refresh": false,
     "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T03:17:42+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": null,
+      "market": 8.0,
+      "overall": 8.5,
+      "run": "2026-10-05-r5",
+      "tech": 9.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:15:48+00:00",
   "website": null
 }

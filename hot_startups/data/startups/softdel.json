@@ -1,0 +1,168 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "India",
+  "domain": "softdel.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "India",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://automa.net/company/softdel"
+        ],
+        "value": 1999
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.iotforall.com/author/softdelsystems"
+        ],
+        "value": "Offices in the USA, Japan, Singapore and India."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://www.iotforall.com/author/softdelsystems"
+        ],
+        "value": "about 150"
+      }
+    },
+    "idea": "Smart buildings and factories run many machines that do not talk to each other, so Softdel writes software that connects them.",
+    "industry": "IoT software",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Do the unglamorous plumbing that big players need, and stay useful as new trends like AI arrive.",
+    "name": "Softdel",
+    "not_startup_reason": null,
+    "overall": 5.5,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "substitute: offices in four countries and a partner listing with Intel",
+        "reason": "No revenue or user numbers were found.",
+        "score": null,
+        "source": "https://intel.com/content/www/us/en/partner/showcase/storefront/a5S3b0000002nA6EAI/softdel-systems-pvt-ltd.html"
+      },
+      "market": {
+        "reason": "Smart building and factory software is a real market, but a niche one.",
+        "score": 6,
+        "source": "https://automa.net/company/softdel"
+      },
+      "tech": {
+        "reason": "Solid engineering from long experience, but similar work can be copied by good teams.",
+        "score": 5,
+        "source": "https://automa.net/company/softdel"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Softdel on automa.net",
+        "url": "https://automa.net/company/softdel"
+      },
+      {
+        "date": null,
+        "title": "Softdel on IoT For All",
+        "url": "https://www.iotforall.com/author/softdelsystems"
+      },
+      {
+        "date": null,
+        "title": "Softdel Systems on Intel partner showcase",
+        "url": "https://intel.com/content/www/us/en/partner/showcase/storefront/a5S3b0000002nA6EAI/softdel-systems-pvt-ltd.html"
+      },
+      {
+        "date": "2026-10-04",
+        "title": "YourStory feed item",
+        "url": "https://yourstory.com/2026/10/vc-money-is-pouring-into-indian-startups"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It has built this kind of device software for over 20 years and works with big chip makers like Intel.",
+    "website": "https://www.softdel.com",
+    "who_pays": "Equipment makers and building or factory technology firms pay for the software and engineering work.",
+    "why_now": "More buildings and factories want connected machines and AI to save energy and cut costs."
+  },
+  "first_judged_run": "2026-10-05-r5",
+  "first_seen": "2026-10-05",
+  "id": "softdel",
+  "industry": "IoT software",
+  "last_checked": "2026-10-05",
+  "mentions": [
+    {
+      "date": "2026-10-04",
+      "run": "2026-10-05-r5",
+      "snippet": "Enterprise AI strategy profiled",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://yourstory.com/2026/10/vc-money-is-pouring-into-indian-startups"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Softdel, founded 1999, IoT software for smart buildings and factories.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Softdel on automa.net",
+      "url": "https://automa.net/company/softdel"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Softdel Systems Pvt Ltd.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Softdel Systems on Intel partner showcase",
+      "url": "https://intel.com/content/www/us/en/partner/showcase/storefront/a5S3b0000002nA6EAI/softdel-systems-pvt-ltd.html"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Softdel, 150+ professionals, offices in USA, Japan, Singapore, India.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Softdel on IoT For All",
+      "url": "https://www.iotforall.com/author/softdelsystems"
+    }
+  ],
+  "name": "Softdel",
+  "name_key": "softdel",
+  "region": "asia",
+  "research": {
+    "article_read": true,
+    "judged_run": "2026-10-05-r5",
+    "pages": 2,
+    "queries_done": [
+      "\"Softdel\" startup India"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true
+  },
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": null,
+      "market": 6.0,
+      "overall": 5.5,
+      "run": "2026-10-05-r5",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:22:59+00:00",
+  "website": "https://www.softdel.com"
+}

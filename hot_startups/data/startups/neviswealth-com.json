@@ -4,11 +4,102 @@
   "country": "United Kingdom",
   "domain": "neviswealth.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://fintech.global/2025/12/02/nevis-bags-35m-to-build-ai-for-wealth-management/",
+          "https://vivatech.com/news/top-100-rising-startups-of-2026"
+        ],
+        "value": "Raised a $35M Series A led by Sequoia Capital in December 2025 and named to the VivaTech Top 100 Rising European Startups 2026."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.fintechfutures.com/venture-capital-funding/nevis-raises-35m-series-a",
+          "https://fintech.global/2025/12/02/nevis-bags-35m-to-build-ai-for-wealth-management/"
+        ],
+        "value": "$35M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Wealth managers spend much of their time on paperwork, so Nevis builds AI software that does that work for them.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Pick a high-paid profession full of routine paperwork and build AI that does the paperwork.",
+    "name": "Nevis",
+    "not_startup_reason": null,
+    "overall": 6.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: $35M Series A led by Sequoia and VivaTech Top 100 listing",
+        "reason": "No user or revenue numbers found.",
+        "score": null,
+        "source": "https://fintech.global/2025/12/02/nevis-bags-35m-to-build-ai-for-wealth-management/"
+      },
+      "market": {
+        "reason": "Wealth management is a large industry worldwide.",
+        "score": 7,
+        "source": "https://fintech.global/2025/12/02/nevis-bags-35m-to-build-ai-for-wealth-management/"
+      },
+      "tech": {
+        "reason": "Not enough detail on what is built; AI tools for advisers can be copied by good teams.",
+        "score": 5,
+        "source": "https://www.fintechfutures.com/venture-capital-funding/nevis-raises-35m-series-a"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "AI fintech start-up Nevis raises $35m Series A",
+        "url": "https://www.fintechfutures.com/venture-capital-funding/nevis-raises-35m-series-a"
+      },
+      {
+        "date": "2025-12-02",
+        "title": "Nevis bags $35m to build AI for wealth management",
+        "url": "https://fintech.global/2025/12/02/nevis-bags-35m-to-build-ai-for-wealth-management/"
+      },
+      {
+        "date": null,
+        "title": "NEVIS WEALTH TECHNOLOGY LTD overview",
+        "url": "https://find-and-update.company-information.service.gov.uk/company/16016151"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising European Startups 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It is built for the whole wealth-management job, backed by Sequoia Capital.",
+    "website": "https://www.neviswealth.com",
+    "who_pays": "Wealth management firms pay for the software.",
+    "why_now": "AI can now read and write documents well enough to take over routine work in finance."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-16",
   "id": "neviswealth-com",
-  "industry": "FinTech",
-  "last_checked": null,
+  "industry": "Fintech",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -99,25 +190,45 @@
       "source_kind": "research",
       "title": "Nevis bags $35m to build AI for wealth management",
       "url": "https://fintech.global/2025/12/02/nevis-bags-35m-to-build-ai-for-wealth-management/"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "FinTech startup from UK in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
     }
   ],
   "name": "Nevis",
   "name_key": "nevis",
-  "region": null,
+  "region": "europe",
   "research": {
     "article_read": true,
     "article_text": "/home/user/repo/hot_startups/cache/article-neviswealth-com.txt",
     "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-05-r5",
     "pages": 2,
     "queries_done": [
       "\"Nevis\" startup United Kingdom"
     ],
+    "refresh": false,
     "searches": 1,
     "site_read": true,
     "site_text": "/home/user/repo/hot_startups/cache/site-neviswealth-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:28:17+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": null,
+      "market": 7.0,
+      "overall": 6.0,
+      "run": "2026-10-05-r5",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:25:30+00:00",
   "website": "https://www.neviswealth.com"
 }

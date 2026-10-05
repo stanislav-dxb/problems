@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Sweden",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "ipercept",
+  "industry": "industrial AI",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-29",
+      "run": "2026-10-05-r5",
+      "snippet": "Makes CNC machines more intelligent; $16.5M Series A",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://arcticstartup.com/ipercept-raises-16-5m-series-a/"
+    }
+  ],
+  "name": "IPercept",
+  "name_key": "ipercept",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:08:21+00:00",
+  "website": null
+}

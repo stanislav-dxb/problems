@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "India",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "zestmoney",
+  "industry": "fintech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Buy-now-pay-later lender shutting down and laying off 150 staff.",
+      "source": "初创公司 倒闭 停止运营 2026年10月",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://inc42.com/?p=430270"
+    }
+  ],
+  "name": "ZestMoney",
+  "name_key": "zestmoney",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:32:10+00:00",
+  "website": null
+}

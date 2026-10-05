@@ -4,11 +4,112 @@
   "country": "France",
   "domain": "stoik.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "France",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.growthtalent.org/companies/stoik",
+          "https://www.frenchtechjournal.com/french-tech-wire-stoiks-plan-to-help-cisos-sleep-at-night/"
+        ],
+        "value": "Paris, France"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.growthtalent.org/companies/stoik"
+        ],
+        "value": "2021"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.stoik.com/"
+        ],
+        "value": "14,000+ companies protected, 2,000+ partner brokers in seven markets."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://siecledigital.fr/2023/09/20/stoik-leve-10-millions-deuros-afin-de-simplanter-durablement-en-allemagne/"
+        ],
+        "value": "EUR 10M round in 2023 (total unknown)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://www.growthtalent.org/companies/stoik"
+        ],
+        "value": "101-200"
+      }
+    },
+    "idea": "Small firms get hacked and cannot cope, so Stoïk sells cyber insurance bundled with protection tools and a team that fixes attacks.",
+    "industry": "Cybersecurity",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "When you carry the loss, fund the prevention too.",
+    "name": "Stoïk",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "14,000+ insured companies",
+        "reason": "14,000+ clients across seven markets and a VivaTech listing needing 40% growth.",
+        "score": 7,
+        "source": "https://www.stoik.com/"
+      },
+      "market": {
+        "reason": "Nearly every business needs cyber cover.",
+        "score": 8,
+        "source": "https://www.stoik.com/"
+      },
+      "tech": {
+        "reason": "Own tools and response team add a real edge over plain insurers.",
+        "score": 6,
+        "source": "https://www.stoik.com/"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Stoïk",
+        "url": "https://www.stoik.com/"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Stoik - Growth Talent",
+        "url": "https://www.growthtalent.org/companies/stoik"
+      },
+      {
+        "date": "2023-09-20",
+        "title": "Stoik lève 10 millions d'euros",
+        "url": "https://siecledigital.fr/2023/09/20/stoik-leve-10-millions-deuros-afin-de-simplanter-durablement-en-allemagne/"
+      },
+      {
+        "date": null,
+        "title": "Stoïk's plan to help CISOs sleep at night",
+        "url": "https://www.frenchtechjournal.com/french-tech-wire-stoiks-plan-to-help-cisos-sleep-at-night/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "The insurer also runs the security and the incident response, so it profits when clients are safer.",
+    "website": "https://www.stoik.com/",
+    "who_pays": "Businesses pay insurance premiums, often through brokers.",
+    "why_now": "Cyber attacks on small and mid-size firms keep rising and insurers need better risk control."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-16",
   "id": "stoik-com",
   "industry": "Cybersecurity",
-  "last_checked": null,
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -27,18 +128,81 @@
       "source_kind": "list",
       "title": "",
       "url": "https://www.stoik.com/"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "Cybersecurity startup from France in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Round led by Munich Re Ventures.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Stoik lève 10 millions d'euros afin de s'implanter durablement en Allemagne",
+      "url": "https://siecledigital.fr/2023/09/20/stoik-leve-10-millions-deuros-afin-de-simplanter-durablement-en-allemagne/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Cyber insurance startup in Paris.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "French Tech wire: Stoïk's plan to help CISOs sleep at night",
+      "url": "https://www.frenchtechjournal.com/french-tech-wire-stoiks-plan-to-help-cisos-sleep-at-night/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Funding round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Stoïk funding deal",
+      "url": "https://funding.tech.eu/deals/C3D7FFF3-3FF9-4DD4-AF72-C57BF42090B5"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Paris, founded 2021, 101-200 employees.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Stoik - Growth Talent",
+      "url": "https://www.growthtalent.org/companies/stoik"
     }
   ],
   "name": "Stoïk",
   "name_key": "stoik",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-stoik-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-05-r5",
+    "pages": 2,
+    "queries_done": [
+      "\"Stoïk\" startup France"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-stoik-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:03:00+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 7.0,
+      "market": 8.0,
+      "overall": 7.0,
+      "run": "2026-10-05-r5",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:20:38+00:00",
   "website": "https://www.stoik.com/"
 }

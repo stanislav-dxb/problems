@@ -2,13 +2,106 @@
   "alias_keys": [],
   "aliases": [],
   "country": "United States",
-  "domain": null,
+  "domain": "crusoe.ai",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://bouncewatch.com/company/crusoe"
+        ],
+        "value": "Denver, United States"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://ecosistemastartup.com/crusoe-levanta-us3-900m-serie-f-y-se-valora-en-us30-900m/",
+          "https://www.techinasia.com/oracle-openai-drop-texas-ai-data-center-expansion-plan"
+        ],
+        "value": "Raised a $3.9B Series F; one report says it dropped a $1.25B turbine deal."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://ecosistemastartup.com/crusoe-levanta-us3-900m-serie-f-y-se-valora-en-us30-900m/",
+          "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding"
+        ],
+        "value": "$3.9B Series F at a $30.9B valuation"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "AI needs huge amounts of computing power, so Crusoe builds data centers and a cloud to supply it.",
+    "industry": "AI infrastructure",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "In a gold rush, sell the shovels, and own as much of the supply chain as you can.",
+    "name": "Crusoe",
+    "not_startup_reason": null,
+    "overall": 8.0,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last",
+        "reason": "Series F of $3.9B is far above its earlier raises of about $2.6B in total.",
+        "score": 8,
+        "source": "https://ecosistemastartup.com/crusoe-levanta-us3-900m-serie-f-y-se-valora-en-us30-900m/"
+      },
+      "market": {
+        "reason": "Nearly every AI business needs computing power.",
+        "score": 9,
+        "source": "https://crusoe.ai"
+      },
+      "tech": {
+        "reason": "Own data centers, energy and cloud stack is hard and slow to copy.",
+        "score": 7,
+        "source": "https://crusoe.ai"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Crusoe raises $3.9B Series F",
+        "url": "https://ecosistemastartup.com/crusoe-levanta-us3-900m-serie-f-y-se-valora-en-us30-900m/"
+      },
+      {
+        "date": null,
+        "title": "Crusoe announces Series F",
+        "url": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding"
+      },
+      {
+        "date": null,
+        "title": "Crusoe - bouncewatch",
+        "url": "https://bouncewatch.com/company/crusoe"
+      },
+      {
+        "date": "2026-09-26",
+        "title": "Oracle, OpenAI drop Texas expansion plan (Tech in Asia)",
+        "url": "https://www.techinasia.com/oracle-openai-drop-texas-ai-data-center-expansion-plan"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It controls the whole chain, from power to data centers to the cloud and model tools.",
+    "website": "https://crusoe.ai",
+    "who_pays": "AI companies and businesses pay to rent computing power and use its model tools.",
+    "why_now": "Demand for AI computing is far bigger than the supply of data centers."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-28",
   "id": "crusoe",
-  "industry": "AI data center infrastructure",
-  "last_checked": null,
+  "industry": "AI infrastructure",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-09-26",
@@ -18,18 +111,61 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://www.techinasia.com/oracle-openai-drop-texas-ai-data-center-expansion-plan"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Crusoe is an AI infrastructure startup in Denver, CO, raised $2.6B.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Crusoe - bouncewatch",
+      "url": "https://bouncewatch.com/company/crusoe"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Series F of $3.9B at a $30.9B valuation.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Crusoe levanta US$3.900M Serie F",
+      "url": "https://ecosistemastartup.com/crusoe-levanta-us3-900m-serie-f-y-se-valora-en-us30-900m/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Crusoe company profile.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Crusoe - inforcapital",
+      "url": "https://inforcapital.com/companies/crusoe/"
     }
   ],
   "name": "Crusoe",
   "name_key": "crusoe",
-  "region": null,
+  "region": "north_america",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "judged_run": "2026-10-05-r5",
+    "pages": 2,
+    "queries_done": [
+      "\"Crusoe\" startup United States"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-crusoe.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:09:01+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 8.0,
+      "market": 9.0,
+      "overall": 8.0,
+      "run": "2026-10-05-r5",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:24:49+00:00",
+  "website": "https://crusoe.ai"
 }

@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Norway",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "pistachio",
+  "industry": "cybersecurity",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-28",
+      "run": "2026-10-05-r5",
+      "snippet": "Human risk management; acquired Hugin.io IP for compliance management",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://arcticstartup.com/pistachio-acquires-hugin-io/"
+    }
+  ],
+  "name": "Pistachio",
+  "name_key": "pistachio",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:08:21+00:00",
+  "website": null
+}

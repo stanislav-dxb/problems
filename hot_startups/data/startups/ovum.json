@@ -4,11 +4,115 @@
   "country": "Australia",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Australia",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://channellife.com.au/story/ovum-raises-aud-4-million-to-expand-women-s-health-app"
+        ],
+        "value": "Melbourne, Australia"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.startupdaily.net/partner-content/dr-ariella-heffernan-marks-named-best-new-founder-as-ovum-scales-womens-health-ai/",
+          "https://www.businessnewsaustralia.com/articles/womens-health-platform-ovum-triples-valuation-in-a-year-after-4-million-seed-round.html"
+        ],
+        "value": "20,000 downloads and 113,000+ AI health conversations; valuation tripled in a year."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.smartcompany.com.au/startupsmart/ovum-raises-4-million-seed-funding-women-health-ai-startup/",
+          "https://channellife.com.au/story/ovum-raises-aud-4-million-to-expand-women-s-health-app",
+          "https://www.forbes.com.au/news/innovation/ovum-lands-1-7m-to-revolutionise-womens-healthcare-with-ai/"
+        ],
+        "value": "AUD $4M seed (after AUD $1.7M pre-seed)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Women's health is often under-studied and hard to get answers about, so Ovum gives women an AI health app they can talk to.",
+    "industry": "Health",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Build a product people use daily, and the data it gathers becomes a second asset nobody else has.",
+    "name": "Ovum",
+    "not_startup_reason": null,
+    "overall": 6.3,
+    "region": "other",
+    "scores": {
+      "growth": {
+        "basis": "20,000 downloads; 113,000 conversations",
+        "reason": "Downloads and chats are growing and valuation tripled, but the numbers are small and mostly from the company.",
+        "score": 6,
+        "source": "https://www.startupdaily.net/partner-content/dr-ariella-heffernan-marks-named-best-new-founder-as-ovum-scales-womens-health-ai/"
+      },
+      "market": {
+        "reason": "Half the world's people could use better women's health tools.",
+        "score": 8,
+        "source": "https://femtechinsider.com/australias-ovum-raises-4m-seed-to-build-ai-powered-longitudinal-womens-health-dataset/"
+      },
+      "tech": {
+        "reason": "An AI app on common tools is copyable, though the growing dataset adds some edge.",
+        "score": 5,
+        "source": "https://femtechinsider.com/australias-ovum-raises-4m-seed-to-build-ai-powered-longitudinal-womens-health-dataset/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-25",
+        "title": "Dr Ariella Heffernan-Marks named best new founder as Ovum scales",
+        "url": "https://www.startupdaily.net/partner-content/dr-ariella-heffernan-marks-named-best-new-founder-as-ovum-scales-womens-health-ai/"
+      },
+      {
+        "date": null,
+        "title": "Women's health startup Ovum lands $4 million seed funding",
+        "url": "https://www.smartcompany.com.au/startupsmart/ovum-raises-4-million-seed-funding-women-health-ai-startup/"
+      },
+      {
+        "date": null,
+        "title": "Ovum raises AUD $4 million",
+        "url": "https://channellife.com.au/story/ovum-raises-aud-4-million-to-expand-women-s-health-app"
+      },
+      {
+        "date": null,
+        "title": "Ovum lands $1.7M",
+        "url": "https://www.forbes.com.au/news/innovation/ovum-lands-1-7m-to-revolutionise-womens-healthcare-with-ai/"
+      },
+      {
+        "date": null,
+        "title": "Australia's Ovum Raises $4M Seed",
+        "url": "https://femtechinsider.com/australias-ovum-raises-4m-seed-to-build-ai-powered-longitudinal-womens-health-dataset/"
+      },
+      {
+        "date": null,
+        "title": "Ovum triples valuation on $4m raise",
+        "url": "https://www.businessnewsaustralia.com/articles/womens-health-platform-ovum-triples-valuation-in-a-year-after-4-million-seed-round.html"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Every conversation builds a long-running women's health dataset, and the founder is a doctor.",
+    "website": null,
+    "who_pays": "Investors fund it today; the paying customers would be app users and health partners.",
+    "why_now": "People now trust AI chat for health questions, and investors are backing women's health."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-28",
   "id": "ovum",
-  "industry": "women's health AI",
-  "last_checked": null,
+  "industry": "Health",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-09-25",
@@ -103,19 +207,30 @@
   ],
   "name": "Ovum",
   "name_key": "ovum",
-  "region": null,
+  "region": "other",
   "research": {
     "article_read": true,
     "article_text": "/home/user/repo/hot_startups/cache/article-ovum.txt",
     "article_url": "https://www.startupdaily.net/partner-content/dr-ariella-heffernan-marks-named-best-new-founder-as-ovum-scales-womens-health-ai/",
+    "judged_run": "2026-10-05-r5",
     "pages": 1,
     "queries_done": [
       "\"Ovum\" startup Australia"
     ],
+    "refresh": false,
     "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T03:17:41+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 6.0,
+      "market": 8.0,
+      "overall": 6.3,
+      "run": "2026-10-05-r5",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:09:25+00:00",
   "website": null
 }

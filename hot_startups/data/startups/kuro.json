@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Germany",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "kuro",
+  "industry": "construction tech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-02",
+      "run": "2026-10-05-r5",
+      "snippet": "AI software for general contractors; raised EUR 10M led by UVC Partners",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.eu-startups.com/2026/10/berlin-based-kuro-raises-e10-million-to-build-the-ai-foundation-for-general-contractors/"
+    }
+  ],
+  "name": "Kuro",
+  "name_key": "kuro",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:08:21+00:00",
+  "website": null
+}

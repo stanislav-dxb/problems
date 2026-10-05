@@ -1,0 +1,192 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Mexico",
+  "domain": "tryjeeves.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "Mexico",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.bloomberglinea.com/2022/03/22/jeeves-now-valued-at-21b-after-180m-tencent-led-series-c-round/",
+          "https://www.bloomberglinea.com/latinoamerica/mexico/la-mexicana-jeeves-llega-a-brasil-y-predice-que-representara-el-30-de-sus-ingresos/"
+        ],
+        "value": "Valued at $2.1B in 2022; expanded to Brazil and raised $110M in September 2026."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://latamlist.com/jeeves-raises-110m-led-by-coinfund/",
+          "https://webrazzi.com/2026/09/30/kurumsal-harcama-yonetimi-girisimi-jeeves-110-milyon-dolar-yatirim-aldi/"
+        ],
+        "value": "$110M in the latest round, led by CoinFund"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Companies that work in many countries struggle to pay bills and manage staff spending in many currencies, so Jeeves gives them one platform for corporate cards and payments.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Take a messy, many-country back-office chore and fix it once with local licences and partners.",
+    "name": "Jeeves",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "region": "latin_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round and new-country launch",
+        "reason": "A new $110M round and entry into Brazil show fast growth, though no revenue numbers are given.",
+        "score": 7,
+        "source": "https://latamlist.com/jeeves-raises-110m-led-by-coinfund/"
+      },
+      "market": {
+        "reason": "Every company that pays across borders could use it, in many countries.",
+        "score": 8,
+        "source": "https://www.nasdaq.com/press-release/global-fintech-jeeves-and-mastercard-join-forces-to-offer-fully-locally-issued"
+      },
+      "tech": {
+        "reason": "Local card issuing and payment links are solid work, but rivals can build similar products over time.",
+        "score": 6,
+        "source": "https://www.nasdaq.com/press-release/global-fintech-jeeves-and-mastercard-join-forces-to-offer-fully-locally-issued"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-30",
+        "title": "Jeeves raises $110M led by CoinFund",
+        "url": "https://latamlist.com/jeeves-raises-110m-led-by-coinfund/"
+      },
+      {
+        "date": "2026-09-30",
+        "title": "Jeeves raises $110M (Webrazzi)",
+        "url": "https://webrazzi.com/2026/09/30/kurumsal-harcama-yonetimi-girisimi-jeeves-110-milyon-dolar-yatirim-aldi/"
+      },
+      {
+        "date": "2022-03-22",
+        "title": "Jeeves becomes a $2.1B unicorn",
+        "url": "https://www.bloomberglinea.com/2022/03/22/jeeves-now-valued-at-21b-after-180m-tencent-led-series-c-round/"
+      },
+      {
+        "date": null,
+        "title": "Jeeves and Mastercard join forces",
+        "url": "https://www.nasdaq.com/press-release/global-fintech-jeeves-and-mastercard-join-forces-to-offer-fully-locally-issued"
+      },
+      {
+        "date": null,
+        "title": "La mexicana Jeeves llega a Brasil",
+        "url": "https://www.bloomberglinea.com/latinoamerica/mexico/la-mexicana-jeeves-llega-a-brasil-y-predice-que-representara-el-30-de-sus-ingresos/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It issues cards locally in each country, so a company can pay in local money without big foreign fees.",
+    "website": "https://www.tryjeeves.com/",
+    "who_pays": "Businesses pay through card and payment fees and related services.",
+    "why_now": "Fast-growing companies in Latin America and beyond want simple cross-border spending, and Jeeves just raised $110M to push further."
+  },
+  "first_judged_run": "2026-10-05-r5",
+  "first_seen": "2026-10-05",
+  "id": "jeeves",
+  "industry": "Fintech",
+  "last_checked": "2026-10-05",
+  "mentions": [
+    {
+      "date": "2026-09-30",
+      "run": "2026-10-05-r5",
+      "snippet": "Corporate payments platform; raised $110M led by CoinFund",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://latamlist.com/jeeves-raises-110m-led-by-coinfund/"
+    },
+    {
+      "date": "2026-09-30",
+      "run": "2026-10-05-r5",
+      "snippet": "Corporate spend management; $110M led by CoinFund",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://webrazzi.com/2026/09/30/kurumsal-harcama-yonetimi-girisimi-jeeves-110-milyon-dolar-yatirim-aldi/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Jeeves valued at $2.1B.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Mexico-Born Jeeves Becomes a $2.1B Unicorn After a $180M Tencent-Led Series C",
+      "url": "https://www.bloomberglinea.com/2022/03/22/jeeves-now-valued-at-21b-after-180m-tencent-led-series-c-round/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Locally issued cards in Mexico.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Global fintech Jeeves and Mastercard join forces",
+      "url": "https://www.nasdaq.com/press-release/global-fintech-jeeves-and-mastercard-join-forces-to-offer-fully-locally-issued"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Multi-currency payments in Mexico.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Mastercard partners with Jeeves in Mexico",
+      "url": "https://paymentexpert.com/2021/11/30/mastercard-partners-with-jeeves-in-boost-to-multi-currency-payments-in-mexico/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Expands to Brazil.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "La mexicana Jeeves llega a Brasil",
+      "url": "https://www.bloomberglinea.com/latinoamerica/mexico/la-mexicana-jeeves-llega-a-brasil-y-predice-que-representara-el-30-de-sus-ingresos/"
+    }
+  ],
+  "name": "Jeeves",
+  "name_key": "jeeves",
+  "region": "latin_america",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-jeeves.txt",
+    "article_url": "https://latamlist.com/jeeves-raises-110m-led-by-coinfund/",
+    "judged_run": "2026-10-05-r5",
+    "pages": 1,
+    "queries_done": [
+      "\"Jeeves\" startup Mexico"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 7.0,
+      "market": 8.0,
+      "overall": 7.0,
+      "run": "2026-10-05-r5",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:14:27+00:00",
+  "website": "https://www.tryjeeves.com/"
+}

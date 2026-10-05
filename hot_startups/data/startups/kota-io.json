@@ -4,11 +4,116 @@
   "country": "Ireland",
   "domain": "kota.io",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Ireland",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2025/05/dublin-based-kota-closes-e12-8-million-to-build-the-internets-employee-benefits-infrastructure/",
+          "https://www.siliconrepublic.com/start-ups/kota-raises-14-5m-series-a-funding-round-ireland-dublin"
+        ],
+        "value": "Dublin, Ireland"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.businesspost.ie/tech/inside-kota-how-the-fast-growing-irish-startup-plans-to-take-over-a-100m-benefits-market/"
+        ],
+        "value": "Described as fast-growing and went after a $100m benefits market."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2025/05/dublin-based-kota-closes-e12-8-million-to-build-the-internets-employee-benefits-infrastructure/",
+          "https://www.siliconrepublic.com/start-ups/kota-raises-14-5m-series-a-funding-round-ireland-dublin",
+          "https://hrnews.co.uk/kota-raises-14-5m-to-bring-employee-benefits-into-the-digital-age/",
+          "https://techfundingnews.com/dublins-kota-secures-14-5m-to-fix-europes-broken-employee-benefits-system/"
+        ],
+        "value": "$14.5M Series A, then EUR 12.8M in 2025"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Companies find it hard to set up and manage staff benefits like health cover and pensions, so Kota offers software that does it in one place.",
+    "industry": "Insurtech",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Build the shared back-end that connects many providers, and every business that needs it becomes a customer.",
+    "name": "Kota",
+    "not_startup_reason": null,
+    "overall": 6.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: follow-on funding round",
+        "reason": "A second, larger-in-euro-terms round in 2025 and press calling it fast-growing, but no hard numbers.",
+        "score": 6,
+        "source": "https://www.eu-startups.com/2025/05/dublin-based-kota-closes-e12-8-million-to-build-the-internets-employee-benefits-infrastructure/"
+      },
+      "market": {
+        "reason": "Employee benefits is a large market used by almost every employer, though Kota starts in Europe.",
+        "score": 7,
+        "source": "https://www.businesspost.ie/tech/inside-kota-how-the-fast-growing-irish-startup-plans-to-take-over-a-100m-benefits-market/"
+      },
+      "tech": {
+        "reason": "Solid software linking many providers, but no sign of a hard-to-copy edge.",
+        "score": 5,
+        "source": "https://www.eu-startups.com/2025/05/dublin-based-kota-closes-e12-8-million-to-build-the-internets-employee-benefits-infrastructure/"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Dublin-based Kota closes EUR 12.8 million - EU-Startups",
+        "url": "https://www.eu-startups.com/2025/05/dublin-based-kota-closes-e12-8-million-to-build-the-internets-employee-benefits-infrastructure/"
+      },
+      {
+        "date": null,
+        "title": "Irish company Kota raises $14.5m in Series A",
+        "url": "https://www.siliconrepublic.com/start-ups/kota-raises-14-5m-series-a-funding-round-ireland-dublin"
+      },
+      {
+        "date": null,
+        "title": "Kota Raises $14.5M - HR News",
+        "url": "https://hrnews.co.uk/kota-raises-14-5m-to-bring-employee-benefits-into-the-digital-age/"
+      },
+      {
+        "date": null,
+        "title": "Dublin's Kota secures $14.5M - TFN",
+        "url": "https://techfundingnews.com/dublins-kota-secures-14-5m-to-fix-europes-broken-employee-benefits-system/"
+      },
+      {
+        "date": null,
+        "title": "Inside Kota - Business Post",
+        "url": "https://www.businesspost.ie/tech/inside-kota-how-the-fast-growing-irish-startup-plans-to-take-over-a-100m-benefits-market/"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising European Startups 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Kota acts as the plumbing that links employers to many benefit providers, instead of selling just one benefit.",
+    "website": "https://www.kota.io/",
+    "who_pays": "Employers pay Kota to run benefits for their staff.",
+    "why_now": "More firms hire remote and across borders, and they want simple benefits tools that work online."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-16",
   "id": "kota-io",
-  "industry": "InsurTech",
-  "last_checked": null,
+  "industry": "Insurtech",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -117,25 +222,45 @@
       "source_kind": "research",
       "title": "The Week In Irish Startups",
       "url": "https://edoriordan.substack.com/p/the-week-in-irish-startups-9fc"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "InsurTech startup from Ireland in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
     }
   ],
   "name": "Kota",
   "name_key": "kota",
-  "region": null,
+  "region": "europe",
   "research": {
     "article_read": true,
     "article_text": "/home/user/repo/hot_startups/cache/article-kota-io.txt",
     "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-05-r5",
     "pages": 2,
     "queries_done": [
       "\"Kota\" startup Ireland"
     ],
+    "refresh": false,
     "searches": 1,
     "site_read": true,
     "site_text": "/home/user/repo/hot_startups/cache/site-kota-io.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:28:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 6.0,
+      "market": 7.0,
+      "overall": 6.0,
+      "run": "2026-10-05-r5",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:23:58+00:00",
   "website": "https://www.kota.io/"
 }

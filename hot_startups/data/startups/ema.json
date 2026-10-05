@@ -2,13 +2,108 @@
   "alias_keys": [],
   "aliases": [],
   "country": "United States",
-  "domain": null,
+  "domain": "ema.co",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.devx.com/daily-news/san-francisco-startup-ema-secures-25m-for-ai-tech/",
+          "https://www.cbinsights.com/compare/ema-unlimited-vs-sema4ai"
+        ],
+        "value": "San Francisco, United States"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.cbinsights.com/compare/ema-unlimited-vs-sema4ai"
+        ],
+        "value": "2023"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://webrazzi.com/2026/09/24/kurumsal-yapay-zeka-alaninda-calisan-ema-77-milyon-dolar-yatirim-aldi/",
+          "https://www.devx.com/daily-news/san-francisco-startup-ema-secures-25m-for-ai-tech/"
+        ],
+        "value": "Raised a $77M Series B in September 2026, after an earlier $25M round."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://webrazzi.com/2026/09/24/kurumsal-yapay-zeka-alaninda-calisan-ema-77-milyon-dolar-yatirim-aldi/"
+        ],
+        "value": "$77M Series B"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Big companies lose hours to routine work in HR, IT and finance, so Ema offers AI workers that do these jobs.",
+    "industry": "AI tools",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Sell finished work, not tools, and charge for the outcome.",
+    "name": "Ema",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: Series B of $77M bigger than the earlier $25M round",
+        "reason": "No customer or revenue numbers found.",
+        "score": null,
+        "source": "https://webrazzi.com/2026/09/24/kurumsal-yapay-zeka-alaninda-calisan-ema-77-milyon-dolar-yatirim-aldi/"
+      },
+      "market": {
+        "reason": "Every large business has HR, IT and finance work that could be automated.",
+        "score": 8,
+        "source": "https://www.ema.co"
+      },
+      "tech": {
+        "reason": "Combining 100+ models is a solid approach, but a good team could copy it in months.",
+        "score": 6,
+        "source": "https://www.ema.co"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-24",
+        "title": "Ema raises $77 million",
+        "url": "https://webrazzi.com/2026/09/24/kurumsal-yapay-zeka-alaninda-calisan-ema-77-milyon-dolar-yatirim-aldi/"
+      },
+      {
+        "date": null,
+        "title": "San Francisco Startup Ema Secures $25M for AI Tech",
+        "url": "https://www.devx.com/daily-news/san-francisco-startup-ema-secures-25m-for-ai-tech/"
+      },
+      {
+        "date": null,
+        "title": "Compare Ema vs Sema4.ai",
+        "url": "https://www.cbinsights.com/compare/ema-unlimited-vs-sema4ai"
+      },
+      {
+        "date": null,
+        "title": "Ema - Universal AI Employee",
+        "url": "https://www.ema.co"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its system picks the best of 100+ AI models for each request to keep accuracy high and cost low.",
+    "website": "https://www.ema.co",
+    "who_pays": "Large companies pay, with pricing based on results rather than modules.",
+    "why_now": "AI agents are now good enough to run real business tasks, and companies want to cut software spending."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-28",
   "id": "ema",
-  "industry": "enterprise AI",
-  "last_checked": null,
+  "industry": "AI tools",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-09-24",
@@ -18,18 +113,63 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://webrazzi.com/2026/09/24/kurumsal-yapay-zeka-alaninda-calisan-ema-77-milyon-dolar-yatirim-aldi/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Ema uses AI agents to automate HR, IT and finance work.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "San Francisco Startup Ema Secures $25M for AI Tech",
+      "url": "https://www.devx.com/daily-news/san-francisco-startup-ema-secures-25m-for-ai-tech/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Ema private company profile.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Ema - multiples.vc",
+      "url": "https://multiples.vc/private-comps/ema"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Ema, founded 2023, San Francisco.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Compare Ema vs Sema4.ai",
+      "url": "https://www.cbinsights.com/compare/ema-unlimited-vs-sema4ai"
     }
   ],
   "name": "Ema",
   "name_key": "ema",
-  "region": null,
+  "region": "north_america",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-ema.txt",
+    "article_url": "https://webrazzi.com/2026/09/24/kurumsal-yapay-zeka-alaninda-calisan-ema-77-milyon-dolar-yatirim-aldi/",
+    "judged_run": "2026-10-05-r5",
+    "pages": 2,
+    "queries_done": [
+      "\"Ema\" startup United States"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-ema.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:10:41+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": null,
+      "market": 8.0,
+      "overall": 7.0,
+      "run": "2026-10-05-r5",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:25:30+00:00",
+  "website": "https://www.ema.co"
 }

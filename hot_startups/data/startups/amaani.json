@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United Arab Emirates",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "amaani",
+  "industry": "consumer beauty",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-28",
+      "run": "2026-10-05-r5",
+      "snippet": "Parent of AIZA beauty brand; $5M Series A led by BECO Capital",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "http://wamda.com/2026/09/%C3%AFza-parent-amaani-raises-5-million-series-a-gcc-expansion"
+    }
+  ],
+  "name": "Amaani",
+  "name_key": "amaani",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:08:21+00:00",
+  "website": null
+}

@@ -4,11 +4,110 @@
   "country": "France",
   "domain": "skello.io",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "France",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://lespepitestech.com/startup-de-la-french-tech/skello",
+          "https://www.annuaire-startups.pro/startup/skello/"
+        ],
+        "value": "Paris, France"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2026/07/frances-skello-secures-e200-million-to-grow-its-ai-tools-for-frontline-workforce-management/",
+          "https://vivatech.com/news/top-100-rising-startups-of-2026"
+        ],
+        "value": "Raised EUR 200M in July 2026, far more than its earlier EUR 40M round; listed in VivaTech Top 100 Rising European Startups 2026."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2026/07/frances-skello-secures-e200-million-to-grow-its-ai-tools-for-frontline-workforce-management/",
+          "https://www.frenchweb.fr/skello-leve-200-millions-deuros-la-french-tech-entre-dans-lere-des-consolidateurs-europeens/462695"
+        ],
+        "value": "EUR 200M (July 2026), after an earlier EUR 40M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Shops, restaurants and hotels struggle to plan staff shifts, so Skello makes software that builds and manages work schedules.",
+    "industry": "HR software",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Pick a boring daily chore in one type of business, solve it well, then use big funding to grow across Europe.",
+    "name": "Skello",
+    "not_startup_reason": null,
+    "overall": 6.3,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: EUR 200M round bigger than the EUR 40M before it",
+        "reason": "Funding grew from EUR 40M to EUR 200M, and the VivaTech list needs at least EUR 5M revenue and 40% yearly growth.",
+        "score": 8,
+        "source": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      "market": {
+        "reason": "Staff scheduling is needed by many businesses across Europe.",
+        "score": 7,
+        "source": "https://www.eu-startups.com/2026/07/frances-skello-secures-e200-million-to-grow-its-ai-tools-for-frontline-workforce-management/"
+      },
+      "tech": {
+        "reason": "Scheduling software with AI features that a good team could copy in months.",
+        "score": 4,
+        "source": "https://www.eu-startups.com/2026/07/frances-skello-secures-e200-million-to-grow-its-ai-tools-for-frontline-workforce-management/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-07-01",
+        "title": "France's Skello secures EUR 200 million",
+        "url": "https://www.eu-startups.com/2026/07/frances-skello-secures-e200-million-to-grow-its-ai-tools-for-frontline-workforce-management/"
+      },
+      {
+        "date": null,
+        "title": "SKELLO leve 200 millions d'euros",
+        "url": "https://www.frenchweb.fr/skello-leve-200-millions-deuros-la-french-tech-entre-dans-lere-des-consolidateurs-europeens/462695"
+      },
+      {
+        "date": null,
+        "title": "Skello - Les Pepites Tech",
+        "url": "https://lespepitestech.com/startup-de-la-french-tech/skello"
+      },
+      {
+        "date": null,
+        "title": "SKELLO Paris",
+        "url": "https://www.annuaire-startups.pro/startup/skello/"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It focuses on frontline workers and now adds AI tools to plan shifts and manage the workforce.",
+    "website": "https://skello.io/",
+    "who_pays": "Businesses with hourly staff pay a subscription.",
+    "why_now": "Frontline businesses face staff shortages and tight rules, and new AI makes planning faster."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-16",
   "id": "skello-io",
-  "industry": "HR Tech",
-  "last_checked": null,
+  "industry": "HR software",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -108,25 +207,45 @@
       "source_kind": "research",
       "title": "Skello company logo",
       "url": "https://www.cbinsights.com/company/skello"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "HR Tech startup from France in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
     }
   ],
   "name": "Skello",
   "name_key": "skello",
-  "region": null,
+  "region": "europe",
   "research": {
     "article_read": true,
     "article_text": "/home/user/repo/hot_startups/cache/article-skello-io.txt",
     "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-05-r5",
     "pages": 2,
     "queries_done": [
       "\"Skello\" startup France"
     ],
+    "refresh": false,
     "searches": 1,
     "site_read": true,
     "site_text": "/home/user/repo/hot_startups/cache/site-skello-io.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:28:23+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 8.0,
+      "market": 7.0,
+      "overall": 6.3,
+      "run": "2026-10-05-r5",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:10:55+00:00",
   "website": "https://skello.io/"
 }

@@ -1,0 +1,175 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": "reco.ai",
+  "drop_reason": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://thebridge.jp/2026/10/reco-agentic-security-55m-funding-att-ventures",
+          "https://www.vcbacked.co/directory/cities/united-states/florida/altamonte-springs"
+        ],
+        "value": "Altamonte Springs, Florida, United States"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://thebridge.jp/2026/10/reco-agentic-security-55m-funding-att-ventures",
+          "https://www.vcbacked.co/directory/cities/united-states/florida/altamonte-springs"
+        ],
+        "value": "Raised $55M more in September 2026, after a $30M Series B in February 2026."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://thebridge.jp/2026/10/reco-agentic-security-55m-funding-att-ventures"
+        ],
+        "value": "$140M in total, including $55M added in September 2026"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Workers connect AI agents to work apps, and security teams cannot see what those agents can reach, so Reco shows and controls these hidden links.",
+    "industry": "Security",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "When a new kind of tool spreads fast, sell the visibility and control that its users lack.",
+    "name": "Reco",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding rounds ($30M Feb 2026, then $55M Sept 2026)",
+        "reason": "New money keeps arriving within months, though no customer or revenue numbers are given.",
+        "score": 7,
+        "source": "https://thebridge.jp/2026/10/reco-agentic-security-55m-funding-att-ventures"
+      },
+      "market": {
+        "reason": "Any firm using AI agents and business apps needs to control them.",
+        "score": 8,
+        "source": "https://thebridge.jp/2026/10/reco-agentic-security-55m-funding-att-ventures"
+      },
+      "tech": {
+        "reason": "Mapping agent links across 280+ apps is solid work, but security rivals could build the same in months.",
+        "score": 6,
+        "source": "https://thebridge.jp/2026/10/reco-agentic-security-55m-funding-att-ventures"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-05",
+        "title": "Reco raises $55M more from AT&T Ventures and others (BRIDGE)",
+        "url": "https://thebridge.jp/2026/10/reco-agentic-security-55m-funding-att-ventures"
+      },
+      {
+        "date": "2026-09-29",
+        "title": "Reco raises $50M to secure against rogue AI agents (Geektime)",
+        "url": "https://www.geektime.co.il/reco-ai-security-funding-50m/"
+      },
+      {
+        "date": null,
+        "title": "Altamonte Springs startups",
+        "url": "https://www.vcbacked.co/directory/cities/united-states/florida/altamonte-springs"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It focuses on AI agents themselves, mapping which agent can touch which app and which data.",
+    "website": "https://www.reco.ai/",
+    "who_pays": "Companies pay for the platform, which links to more than 280 apps.",
+    "why_now": "AI agents are spreading fast inside firms, and each one gets access to email, files and customer data."
+  },
+  "first_judged_run": "2026-10-05-r5",
+  "first_seen": "2026-10-05",
+  "id": "reco",
+  "industry": "Security",
+  "last_checked": "2026-10-05",
+  "mentions": [
+    {
+      "date": "2026-10-05",
+      "run": "2026-10-05-r5",
+      "snippet": "Agentic security; raised additional $55M with AT&T Ventures",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://thebridge.jp/2026/10/reco-agentic-security-55m-funding-att-ventures"
+    },
+    {
+      "date": "2026-09-29",
+      "run": "2026-10-05-r5",
+      "snippet": "Raised $50M to secure against rogue AI agents",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.geektime.co.il/reco-ai-security-funding-50m/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Profile of Reco.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Reco Ventures Overview",
+      "url": "https://pitchbook.com/profiles/company/571483-81"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Lists Reco, a SaaS security company in Altamonte Springs, Florida; $30M Series B in Feb 2026.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Altamonte Springs startups",
+      "url": "https://www.vcbacked.co/directory/cities/united-states/florida/altamonte-springs"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Different Reco: South Korean waste management startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "[Game Changer] Trash talk: Reco wants to become Korea's WM",
+      "url": "https://www.koreajoongangdaily.com/business/game-changer-trash-talk-reco-wants-to-become-koreas-wm/10681950"
+    }
+  ],
+  "name": "Reco",
+  "name_key": "reco",
+  "region": "north_america",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-reco.txt",
+    "article_url": "https://thebridge.jp/2026/10/reco-agentic-security-55m-funding-att-ventures",
+    "judged_run": "2026-10-05-r5",
+    "pages": 1,
+    "queries_done": [
+      "\"Reco\" startup United States"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 7.0,
+      "market": 8.0,
+      "overall": 7.0,
+      "run": "2026-10-05-r5",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:26:57+00:00",
+  "website": "https://www.reco.ai/"
+}

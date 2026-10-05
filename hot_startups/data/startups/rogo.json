@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "rogo",
+  "industry": "financial AI",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-03",
+      "run": "2026-10-05-r5",
+      "snippet": "Financial-services AI startup that raised $30M",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://inc42.com/features/skin-in-the-game-why-banks-are-taking-stakes-in-ai-labs/"
+    }
+  ],
+  "name": "Rogo",
+  "name_key": "rogo",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:08:21+00:00",
+  "website": null
+}

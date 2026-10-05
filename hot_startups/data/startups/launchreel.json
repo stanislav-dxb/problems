@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "launchreel",
+  "industry": "AI video editing",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-03",
+      "run": "2026-10-05-r5",
+      "snippet": "Design-style tool for editing professional videos faster",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.producthunt.com/products/launchreel-2"
+    }
+  ],
+  "name": "LaunchReel",
+  "name_key": "launchreel",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:08:21+00:00",
+  "website": null
+}

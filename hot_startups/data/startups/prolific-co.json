@@ -1,14 +1,93 @@
 {
   "alias_keys": [],
   "aliases": [],
-  "country": "UK",
+  "country": "United Kingdom",
   "domain": "prolific.co",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://vivatech.com/news/top-100-rising-startups-of-2026"
+        ],
+        "value": "United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://vivatech.com/news/top-100-rising-startups-of-2026"
+        ],
+        "value": "Named in the VivaTech Top 100 Rising European Startups 2026, which requires at least 5M euro yearly revenue and 40% growth over three years."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Researchers and AI teams struggle to find real, trustworthy people for studies and feedback, so Prolific runs a site where verified people get paid to take part.",
+    "industry": "AI tools",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "A two-sided marketplace gets stronger when you guarantee quality on the supply side, here verified people.",
+    "name": "Prolific",
+    "not_startup_reason": null,
+    "overall": 6.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: VivaTech Top 100 inclusion criteria",
+        "reason": "Its place on a list that requires 5M euro revenue and 40% growth is real but indirect evidence.",
+        "score": 6,
+        "source": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      "market": {
+        "reason": "Every research group and AI lab needs human data, so the market is large and worldwide.",
+        "score": 7,
+        "source": "https://prolific.co/"
+      },
+      "tech": {
+        "reason": "Solid platform with a verified participant pool, but a good team could copy the software.",
+        "score": 5,
+        "source": "https://prolific.co/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Prolific",
+        "url": "https://prolific.co/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It offers people from many backgrounds and countries, so AI models can be tested against what a wide mix of real people prefer.",
+    "website": "https://prolific.co/",
+    "who_pays": "Researchers, universities and AI companies pay to run studies; participants are paid out of that money.",
+    "why_now": "AI builders need large amounts of human feedback to train and check their models."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-28",
   "id": "prolific-co",
-  "industry": "AI Infrastructure & Models",
-  "last_checked": null,
+  "industry": "AI tools",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "",
@@ -18,18 +97,54 @@
       "source_kind": "list",
       "title": "",
       "url": "https://prolific.co/"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "AI Infrastructure & Models startup from UK in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "General UK startup news; no specific Prolific result.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Startups in the United Kingdom News | July, 2026",
+      "url": "https://blog.mean.ceo/?p=9027"
     }
   ],
   "name": "Prolific",
   "name_key": "prolific",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-prolific-co.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-05-r5",
+    "pages": 2,
+    "queries_done": [
+      "\"Prolific\" startup UK"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-prolific-co.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:03:00+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 6.0,
+      "market": 7.0,
+      "overall": 6.0,
+      "run": "2026-10-05-r5",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:29:45+00:00",
   "website": "https://prolific.co/"
 }

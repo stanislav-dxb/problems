@@ -1,0 +1,142 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": "halluminate.ai",
+  "drop_reason": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.vcbacked.co/company/halluminates"
+        ],
+        "value": "San Francisco, United States"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://thebridge.jp/2026/10/halluminate-series-a-oak-hcft-financial-ai-training-environments",
+          "https://www.vcbacked.co/company/halluminates"
+        ],
+        "value": "Raised a $30M Series A in October 2026, after a pre-seed in September 2025."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://thebridge.jp/2026/10/halluminate-series-a-oak-hcft-financial-ai-training-environments"
+        ],
+        "value": "$38.5M total, including a $30M Series A led by Oak HC/FT (Oct 2026)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "AI agents are good at maths and code but weak at real office work like building a financial model, so Halluminate builds practice workplaces and tests where AI can learn and be graded on that work.",
+    "industry": "AI tools",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "When everyone sells the same shovels, sell the training ground: build realistic practice worlds with a clear way to score the result.",
+    "name": "Halluminate",
+    "not_startup_reason": null,
+    "overall": 6.3,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last ($30M Series A after a pre-seed)",
+        "reason": "A much bigger round than its first one and top investors joining, but no revenue or customer numbers.",
+        "score": 6,
+        "source": "https://thebridge.jp/2026/10/halluminate-series-a-oak-hcft-financial-ai-training-environments"
+      },
+      "market": {
+        "reason": "Every AI lab and many firms building work agents could need training environments, starting with finance.",
+        "score": 7,
+        "source": "https://thebridge.jp/2026/10/halluminate-series-a-oak-hcft-financial-ai-training-environments"
+      },
+      "tech": {
+        "reason": "Realistic work simulations with expert-made tasks and real deal data are hard work, but a good team could copy the approach.",
+        "score": 6,
+        "source": "https://thebridge.jp/2026/10/halluminate-series-a-oak-hcft-financial-ai-training-environments"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-05",
+        "title": "Halluminate raises $30M Series A (BRIDGE)",
+        "url": "https://thebridge.jp/2026/10/halluminate-series-a-oak-hcft-financial-ai-training-environments"
+      },
+      {
+        "date": null,
+        "title": "Halluminate",
+        "url": "https://www.vcbacked.co/company/halluminates"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its practice workplaces copy a real job, with an inbox, a data room of files, tools and coworkers, and its tests use anonymised papers from real private deals.",
+    "website": "https://www.halluminate.ai",
+    "who_pays": "AI labs and companies that build AI agents pay for the training environments and benchmarks.",
+    "why_now": "AI labs have used up easy training data and now need realistic, checkable work tasks to make agents useful in jobs like finance."
+  },
+  "first_judged_run": "2026-10-05-r5",
+  "first_seen": "2026-10-05",
+  "id": "halluminate",
+  "industry": "AI tools",
+  "last_checked": "2026-10-05",
+  "mentions": [
+    {
+      "date": "2026-10-05",
+      "run": "2026-10-05-r5",
+      "snippet": "Training environments and benchmarks for financial AI; $30M Series A",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://thebridge.jp/2026/10/halluminate-series-a-oak-hcft-financial-ai-training-environments"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "San Francisco startup providing sandboxes and datasets to train computer and browser use agents. Backed by Y Combinator. Pre-seed, September 2025.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Halluminate",
+      "url": "https://www.vcbacked.co/company/halluminates"
+    }
+  ],
+  "name": "Halluminate",
+  "name_key": "halluminate",
+  "region": "north_america",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-halluminate.txt",
+    "article_url": "https://thebridge.jp/2026/10/halluminate-series-a-oak-hcft-financial-ai-training-environments",
+    "judged_run": "2026-10-05-r5",
+    "pages": 1,
+    "queries_done": [
+      "\"Halluminate\" startup United States"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 6.0,
+      "market": 7.0,
+      "overall": 6.3,
+      "run": "2026-10-05-r5",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:31:30+00:00",
+  "website": "https://www.halluminate.ai"
+}

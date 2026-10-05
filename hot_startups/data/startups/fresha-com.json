@@ -1,14 +1,114 @@
 {
   "alias_keys": [],
   "aliases": [],
-  "country": "UK",
+  "country": "United Kingdom",
   "domain": "fresha.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.vcbacked.co/company/fresha"
+        ],
+        "value": "London, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.vcbacked.co/company/fresha"
+        ],
+        "value": "2015"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://vivatech.com/news/top-100-rising-startups-of-2026",
+          "https://bebeez.eu/2026/03/23/fresha-named-among-vivatechs-top-100-rising-european-startups-as-marketplace-infrastructure-redefines-service-based-commerce/"
+        ],
+        "value": "Named in VivaTech's Top 100 Rising European Startups 2026, which needs over 5M euros revenue and 40% yearly growth."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.vcbacked.co/company/fresha",
+          "https://siliconcanals.com/crowdfunding/fresha-raises-100m/"
+        ],
+        "value": "$185M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Salons and spas lose time and money on phone bookings, so Fresha gives them free booking software and a shop window where customers book online.",
+    "industry": "Marketplace",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Give the boring tool away for free to win the businesses, then earn money on payments and the marketplace on top.",
+    "name": "Fresha",
+    "not_startup_reason": null,
+    "overall": 6.3,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: VivaTech Top 100 criteria (40% growth, over 5M euros revenue)",
+        "reason": "VivaTech picks only firms with 40% yearly growth over three years.",
+        "score": 7,
+        "source": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      "market": {
+        "reason": "Booking and payments for salons, spas and barbers is a whole profession served worldwide.",
+        "score": 7,
+        "source": "https://fresha.com/"
+      },
+      "tech": {
+        "reason": "Solid booking and payments software, but a good team could copy it; its edge is the large network.",
+        "score": 5,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising European Startups 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Fresha raises $100M",
+        "url": "https://siliconcanals.com/crowdfunding/fresha-raises-100m/"
+      },
+      {
+        "date": null,
+        "title": "Fresha",
+        "url": "https://www.vcbacked.co/company/fresha"
+      },
+      {
+        "date": "2026-03-23",
+        "title": "Fresha named among VivaTech's Top 100 Rising European Startups",
+        "url": "https://bebeez.eu/2026/03/23/fresha-named-among-vivatechs-top-100-rising-european-startups-as-marketplace-infrastructure-redefines-service-based-commerce/"
+      },
+      {
+        "date": null,
+        "title": "Fresha website",
+        "url": "https://fresha.com/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "The software is free for businesses; Fresha earns from payments and from new customers it brings in.",
+    "website": "https://fresha.com/",
+    "who_pays": "Salons and spas pay card fees and a cut on new customers; shoppers pay for their treatments.",
+    "why_now": "People now expect to book and pay for everything on their phone, including haircuts and massages."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-28",
   "id": "fresha-com",
-  "industry": "Marketplace & E-commerce",
-  "last_checked": null,
+  "industry": "Marketplace",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "",
@@ -18,18 +118,81 @@
       "source_kind": "list",
       "title": "",
       "url": "https://fresha.com/"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "Marketplace & E-commerce startup from UK in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Fresha raised $100M.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Fresha raises $100M",
+      "url": "https://siliconcanals.com/crowdfunding/fresha-raises-100m/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Fresha funding news.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "UK tech funding roundup: Fresha, Gradient Labs",
+      "url": "https://uktech.news/funding/uk-tech-funding-roundup-fresha-gradient-labs-20240823"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Fresha named in VivaTech Top 100 in March 2026.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Fresha named among VivaTech's Top 100 Rising European Startups",
+      "url": "https://bebeez.eu/2026/03/23/fresha-named-among-vivatechs-top-100-rising-european-startups-as-marketplace-infrastructure-redefines-service-based-commerce/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "London-based beauty and wellness booking platform, founded 2015, $185M raised.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Fresha",
+      "url": "https://www.vcbacked.co/company/fresha"
     }
   ],
   "name": "Fresha",
   "name_key": "fresha",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-fresha-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-05-r5",
+    "pages": 2,
+    "queries_done": [
+      "\"Fresha\" startup UK"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-fresha-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:03:00+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 7.0,
+      "market": 7.0,
+      "overall": 6.3,
+      "run": "2026-10-05-r5",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:15:48+00:00",
   "website": "https://fresha.com/"
 }

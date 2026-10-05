@@ -4,11 +4,101 @@
   "country": "Germany",
   "domain": "lap.coffee",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Germany",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.the-berliner.com/english-news-berlin/germanys-fast-growing-chain-lap-coffee-puts-pressure-on-established-local-cafes/"
+        ],
+        "value": "Berlin, Germany"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.the-berliner.com/english-news-berlin/germanys-fast-growing-chain-lap-coffee-puts-pressure-on-established-local-cafes/",
+          "https://news.az/news/berlins-lap-coffee-expands-despite-backlash-in-germany"
+        ],
+        "value": "Press reports rapid expansion despite local backlash."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Many German cafes are slow and pricey; LAP Coffee runs fast grab-and-go coffee shops with a simple menu.",
+    "industry": "Food & Drink",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Take a slow local habit, make it fast and standard, and scale it like a chain.",
+    "name": "LAP Coffee",
+    "not_startup_reason": null,
+    "overall": 4.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: press coverage of fast expansion",
+        "reason": "Several outlets report fast expansion, but no numbers were found.",
+        "score": 5,
+        "source": "https://www.the-berliner.com/english-news-berlin/germanys-fast-growing-chain-lap-coffee-puts-pressure-on-established-local-cafes/"
+      },
+      "market": {
+        "reason": "Coffee is a real market, but this is mainly one country so far.",
+        "score": 5,
+        "source": "https://www.the-berliner.com/english-news-berlin/germanys-fast-growing-chain-lap-coffee-puts-pressure-on-established-local-cafes/"
+      },
+      "tech": {
+        "reason": "It is a shop concept with little unique technology.",
+        "score": 2,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Germany's fast-growing chain LAP Coffee puts pressure on established local cafes",
+        "url": "https://www.the-berliner.com/english-news-berlin/germanys-fast-growing-chain-lap-coffee-puts-pressure-on-established-local-cafes/"
+      },
+      {
+        "date": null,
+        "title": "Berlin's LAP Coffee expands despite backlash in Germany",
+        "url": "https://news.az/news/berlins-lap-coffee-expands-despite-backlash-in-germany"
+      },
+      {
+        "date": "2025-09-09",
+        "title": "The LAP coffee Berlin backlash",
+        "url": "https://tech.eu/2025/09/09/the-lap-coffee-berlin-backlash-when-innovation-meets-resistance/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It grows like a chain with venture money, which has caused a backlash from local cafes in Berlin.",
+    "website": "https://www.lap.coffee/",
+    "who_pays": "Coffee drinkers pay for each drink in the shops.",
+    "why_now": "Investors are backing quick-service coffee as people want cheap, fast specialty coffee."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-16",
   "id": "lap-coffee",
-  "industry": "Consumer & Lifestyle",
-  "last_checked": null,
+  "industry": "Food & Drink",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -99,25 +189,45 @@
       "source_kind": "research",
       "title": "Founded Year",
       "url": "https://www.cbinsights.com/company/yababa"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "Consumer & Lifestyle startup from Germany in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
     }
   ],
   "name": "LAP Coffee",
   "name_key": "lapcoffee",
-  "region": null,
+  "region": "europe",
   "research": {
     "article_read": true,
     "article_text": "/home/user/repo/hot_startups/cache/article-lap-coffee.txt",
     "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-05-r5",
     "pages": 2,
     "queries_done": [
       "\"LAP Coffee\" startup Germany"
     ],
+    "refresh": false,
     "searches": 1,
     "site_read": true,
     "site_text": "/home/user/repo/hot_startups/cache/site-lap-coffee.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:33:01+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 5.0,
+      "market": 5.0,
+      "overall": 4.0,
+      "run": "2026-10-05-r5",
+      "tech": 2.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:12:03+00:00",
   "website": "https://www.lap.coffee/"
 }

@@ -136,6 +136,15 @@
       "source_kind": "research",
       "title": "Maven Robotics launches with $100 million funding",
       "url": "https://roboticsandautomationnews.com/2026/09/15/maven-robotics-launches-with-100-million-funding-to-scale-general-purpose-industrial-robots/104812/"
+    },
+    {
+      "date": "2026-09-28",
+      "run": "2026-10-05-r5",
+      "snippet": "Raised $100M Series A with Shorooq and Presight",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "http://wamda.com/2026/09/shorooq-presight-join-maven-robotics-100-million-series-a"
     }
   ],
   "name": "Maven Robotics",
@@ -163,6 +172,6 @@
     }
   ],
   "status": "judged",
-  "updated": "2026-09-16T15:02:29+00:00",
+  "updated": "2026-10-05T05:08:21+00:00",
   "website": "https://www.mavenrobotics.com"
 }

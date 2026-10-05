@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": null,
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "abfinance",
+  "industry": "crypto",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Crypto venture from a former Bybit co-CEO that scrapped its launch and is winding down.",
+      "source": "startup winds down operations October 2026",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://bitcoinethereumnews.com/?p=2788768"
+    }
+  ],
+  "name": "ABFinance",
+  "name_key": "abfinance",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:32:09+00:00",
+  "website": null
+}

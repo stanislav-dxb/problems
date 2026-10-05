@@ -1,0 +1,184 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "India",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "India",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://yourstory.com/companies/simple-energy"
+        ],
+        "value": "Bengaluru, India"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://yourstory.com/companies/simple-energy"
+        ],
+        "value": 2019
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://autocarpro.in/news/ev-startup-simple-energy-plans-nationwide-expansion-in-2025-124554"
+        ],
+        "value": "Plans 150 new stores on top of 53 outlets; plant sized for 150,000 vehicles."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://inc42.com/buzz/from-simple-energy-to-arivihan-indian-startups-raised-over-233-mn-this-week/"
+        ],
+        "value": "$180M Series C (Sept 2026)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Petrol scooters are costly and dirty to run, so Simple Energy makes electric scooters in India.",
+    "industry": "Electric vehicles",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "In a huge market, own the vehicle and the sales network, not just one part.",
+    "name": "Simple Energy",
+    "not_startup_reason": null,
+    "overall": 6.3,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last",
+        "reason": "A $180M Series C is far bigger than earlier rounds of $10M to $25M.",
+        "score": 7,
+        "source": "https://inc42.com/buzz/from-simple-energy-to-arivihan-indian-startups-raised-over-233-mn-this-week/"
+      },
+      "market": {
+        "reason": "Two-wheelers are the main vehicle for hundreds of millions of people in India.",
+        "score": 7,
+        "source": "https://inc42.com/buzz/from-simple-energy-to-arivihan-indian-startups-raised-over-233-mn-this-week/"
+      },
+      "tech": {
+        "reason": "Solid vehicle engineering, but other makers compete with similar products.",
+        "score": 5,
+        "source": "https://autocarpro.in/news/ev-startup-simple-energy-plans-nationwide-expansion-in-2025-124554"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-03",
+        "title": "From Simple Energy To Arivihan - Indian Startups Raised Over $233 Mn This Week",
+        "url": "https://inc42.com/buzz/from-simple-energy-to-arivihan-indian-startups-raised-over-233-mn-this-week/"
+      },
+      {
+        "date": null,
+        "title": "Simple Energy - YourStory",
+        "url": "https://yourstory.com/companies/simple-energy"
+      },
+      {
+        "date": null,
+        "title": "EV startup Simple Energy plans nationwide expansion in 2025",
+        "url": "https://autocarpro.in/news/ev-startup-simple-energy-plans-nationwide-expansion-in-2025-124554"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It makes its own vehicles at a plant in Hosur and sells through its own growing store network.",
+    "website": null,
+    "who_pays": "Everyday riders buy the scooters.",
+    "why_now": "Indian buyers are switching to electric two-wheelers and the firm just raised a big round."
+  },
+  "first_judged_run": "2026-10-05-r5",
+  "first_seen": "2026-10-05",
+  "id": "simple-energy",
+  "industry": "Electric vehicles",
+  "last_checked": "2026-10-05",
+  "mentions": [
+    {
+      "date": "2026-10-03",
+      "run": "2026-10-05-r5",
+      "snippet": "Among Indian startups raising funds this week",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://inc42.com/buzz/from-simple-energy-to-arivihan-indian-startups-raised-over-233-mn-this-week/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Raised about $25M, debt and equity, led by Thyrocare founder's family office.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Indian electric scooter startup Simple Energy raises $25 million",
+      "url": "https://evertiq.com/news/2026-06-05-indian-electric-scooter-startup-simple-energy-raises-25-million"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "$10M bridge round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Simple Energy raises $10 Mn in bridge round",
+      "url": "https://entrackr.com/snippets/simple-energy-raises-10-mn-in-bridge-round-10499888"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Bengaluru electric two-wheeler maker founded 2019; total about $51M raised.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "simple energy - YourStory",
+      "url": "https://yourstory.com/companies/simple-energy"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Plans 150 new stores; 53 outlets; Hosur plant with 150,000 vehicle capacity.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "EV startup Simple Energy plans nationwide expansion in 2025",
+      "url": "https://autocarpro.in/news/ev-startup-simple-energy-plans-nationwide-expansion-in-2025-124554"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "$21M funding.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "EV startup Simple Energy raises $21m funding and 19 other India deals",
+      "url": "https://dealstreetasia.com/?p=271233"
+    }
+  ],
+  "name": "Simple Energy",
+  "name_key": "simpleenergy",
+  "region": "asia",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-simple-energy.txt",
+    "article_url": "https://inc42.com/buzz/from-simple-energy-to-arivihan-indian-startups-raised-over-233-mn-this-week/",
+    "judged_run": "2026-10-05-r5",
+    "pages": 1,
+    "queries_done": [
+      "\"Simple Energy\" startup India"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 7.0,
+      "market": 7.0,
+      "overall": 6.3,
+      "run": "2026-10-05-r5",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:21:53+00:00",
+  "website": null
+}

@@ -4,11 +4,113 @@
   "country": "France",
   "domain": "zefir.fr",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "France",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://builtin.com/company/zefir",
+          "https://tech.eu/2024/04/22/zefir-raises-11m-to-speed-up-real-estate-transactions/"
+        ],
+        "value": "Paris, France"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://builtin.com/company/zefir"
+        ],
+        "value": "2020"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://vivatech.com/news/top-100-rising-startups-of-2026",
+          "https://www.zefir.fr/"
+        ],
+        "value": "Says sales are up to 2x faster; listed in VivaTech Rising 100 for 2026."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.faradaypartners.com/insights/zefir-raises-20-million-euros-from-sequoia-capital-to-pursue-its-expansion"
+        ],
+        "value": "EUR 20M from Sequoia (undated)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://builtin.com/company/zefir"
+        ],
+        "value": "74"
+      }
+    },
+    "idea": "Selling a home is slow and few buyers see it, so Zefir lets all local agents team up to sell one home, helped by AI.",
+    "industry": "Real estate",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Make rivals cooperate on a shared pool and everyone gets more buyers.",
+    "name": "Zefir",
+    "not_startup_reason": null,
+    "overall": 6.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding rounds growing from EUR 11M to EUR 20M",
+        "reason": "Several rounds, each larger, and a VivaTech listing that needs 40% growth.",
+        "score": 7,
+        "source": "https://www.faradaypartners.com/insights/zefir-raises-20-million-euros-from-sequoia-capital-to-pursue-its-expansion"
+      },
+      "market": {
+        "reason": "Housing is huge, but this is mostly a French market for now.",
+        "score": 6,
+        "source": "https://www.zefir.fr/"
+      },
+      "tech": {
+        "reason": "The agent network model is the edge; the AI is copyable.",
+        "score": 5,
+        "source": "https://www.zefir.fr/"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Zefir",
+        "url": "https://www.zefir.fr/"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Zefir - Built In",
+        "url": "https://builtin.com/company/zefir"
+      },
+      {
+        "date": "2024-04-22",
+        "title": "Zefir raises EUR 11M",
+        "url": "https://tech.eu/2024/04/22/zefir-raises-11m-to-speed-up-real-estate-transactions/"
+      },
+      {
+        "date": null,
+        "title": "zefir raises 20 million euros from sequoia capital",
+        "url": "https://www.faradaypartners.com/insights/zefir-raises-20-million-euros-from-sequoia-capital-to-pursue-its-expansion"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Agents in a neighbourhood share buyers on each sale, which they call collective sale, and an AI assistant matches buyers to homes.",
+    "website": "https://www.zefir.fr/",
+    "who_pays": "Home sellers pay when the home sells, and agents share the fee.",
+    "why_now": "AI can now estimate prices and match buyers quickly."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-16",
   "id": "zefir-fr",
-  "industry": "PropTech",
-  "last_checked": null,
+  "industry": "Real estate",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -27,18 +129,90 @@
       "source_kind": "list",
       "title": "",
       "url": "https://www.zefir.fr/"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "PropTech startup from France in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Zefir raises funding for real estate.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Zefir secures 11M for real estate tech",
+      "url": "https://finder.techleap.nl/news/feed/zefir-secures-11m-for-real-estate-tech"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Paris real estate startup raises €11M.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Zefir raises €11M to speed up real estate transactions",
+      "url": "https://tech.eu/2024/04/22/zefir-raises-11m-to-speed-up-real-estate-transactions/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "€15M raised, Sequoia backing.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Zefir raises 15M with Sequoia support",
+      "url": "https://finder.techleap.nl/news/feed/zefir-raises-15m-with-sequoia-support"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Zefir raises €20M from Sequoia.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "zefir raises 20 million euros from sequoia capital",
+      "url": "https://www.faradaypartners.com/insights/zefir-raises-20-million-euros-from-sequoia-capital-to-pursue-its-expansion"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Paris-based, founded 2020, 74 employees.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Zefir - Built In",
+      "url": "https://builtin.com/company/zefir"
     }
   ],
   "name": "Zefir",
   "name_key": "zefir",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-zefir-fr.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-05-r5",
+    "pages": 2,
+    "queries_done": [
+      "\"Zefir\" startup France"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-zefir-fr.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:03:00+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 7.0,
+      "market": 6.0,
+      "overall": 6.0,
+      "run": "2026-10-05-r5",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:20:38+00:00",
   "website": "https://www.zefir.fr/"
 }

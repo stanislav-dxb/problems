@@ -4,11 +4,103 @@
   "country": "France",
   "domain": "tryriot.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "France",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2025/02/cybersecurity-startup-riot-raises-e28-9-million-to-expand-globally-and-double-headcount-by-2026/",
+          "https://infonet.fr/actualite/articles-sur-lactualite-technologique/riot-cybersecurite-paris-2025/"
+        ],
+        "value": "Paris, France"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.eu-startups.com/2025/02/cybersecurity-startup-riot-raises-e28-9-million-to-expand-globally-and-double-headcount-by-2026/"
+        ],
+        "value": "Plans to double headcount by 2026 and expand globally."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.eu-startups.com/2025/02/cybersecurity-startup-riot-raises-e28-9-million-to-expand-globally-and-double-headcount-by-2026/"
+        ],
+        "value": "€43.4M total, including a €28.9M Series B (Feb 2025)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Most cyberattacks start with a tricked employee, so Riot trains staff to spot and stop attacks.",
+    "industry": "Cybersecurity",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Fix the human weak point in a system, not just the technology.",
+    "name": "Riot Security",
+    "not_startup_reason": null,
+    "overall": 6.3,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: Series B larger than earlier funding, plus VivaTech list criteria",
+        "reason": "Raised a €28.9M Series B and was named to the VivaTech Top 100 Rising Startups, which needs €5M revenue and 40% growth.",
+        "score": 7,
+        "source": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      "market": {
+        "reason": "Every company with staff needs security training, worldwide.",
+        "score": 7,
+        "source": "https://www.eu-startups.com/2025/02/cybersecurity-startup-riot-raises-e28-9-million-to-expand-globally-and-double-headcount-by-2026/"
+      },
+      "tech": {
+        "reason": "Training software and simulations are solid engineering but can be copied in months.",
+        "score": 5,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Cybersecurity startup Riot raises €28.9 million",
+        "url": "https://www.eu-startups.com/2025/02/cybersecurity-startup-riot-raises-e28-9-million-to-expand-globally-and-double-headcount-by-2026/"
+      },
+      {
+        "date": null,
+        "title": "Le français Riot lève 30 millions de dollars",
+        "url": "https://www.channelnews.fr/sensibilisation-a-la-cybersecurite-le-francais-riot-leve-30-millions-de-dollars-142397"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Riot : cybersécurité et levée de fonds à Paris en 2025",
+        "url": "https://infonet.fr/actualite/articles-sur-lactualite-technologique/riot-cybersecurite-paris-2025/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It turns employees into a shield through security awareness training instead of selling only tools.",
+    "website": "https://tryriot.com",
+    "who_pays": "Companies pay a subscription to train their employees.",
+    "why_now": "AI makes phishing and scams more convincing, so firms need staff who can spot them."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-16",
   "id": "tryriot-com",
   "industry": "Cybersecurity",
-  "last_checked": null,
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -108,25 +200,45 @@
       "source_kind": "research",
       "title": "Riot (cybersecurity company) — Grokipedia",
       "url": "https://grokipedia.com/page/Riot_cybersecurity_company"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "Cybersecurity startup from France in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
     }
   ],
   "name": "Riot Security",
   "name_key": "riotsecurity",
-  "region": null,
+  "region": "europe",
   "research": {
     "article_read": true,
     "article_text": "/home/user/repo/hot_startups/cache/article-tryriot-com.txt",
     "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-05-r5",
     "pages": 2,
     "queries_done": [
       "\"Riot Security\" startup France"
     ],
+    "refresh": false,
     "searches": 1,
     "site_read": true,
     "site_text": "/home/user/repo/hot_startups/cache/site-tryriot-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:45:18+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 7.0,
+      "market": 7.0,
+      "overall": 6.3,
+      "run": "2026-10-05-r5",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:13:16+00:00",
   "website": "https://tryriot.com"
 }

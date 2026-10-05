@@ -4,11 +4,115 @@
   "country": "Denmark",
   "domain": "flatpay.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Denmark",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://vivatech.com/news/top-100-rising-startups-of-2026"
+        ],
+        "value": "Denmark"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://techsavvy.media/en/danish-fintech-shoots-its-way-into-the-history-books-with-record-breaking-unicorn-status/"
+        ],
+        "value": "2022"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://siliconcanals.com/flatpay-denmarks-fastest-unicorn/"
+        ],
+        "value": "About 60,000 customers, up from 7,000 in April 2024."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.startupbusiness.it/en/danish-fintech-flatpay-closes-e145-million-funding-round/148416/",
+          "https://oresundstartups.com/flatpay-soars-to-unicorn-status-raises-e145m-to-fuel-hypergrowth/"
+        ],
+        "value": "EUR 145M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Small shops pay high and confusing card fees; Flatpay sells card terminals and till software with one flat rate.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Make a boring, confusing price simple and sell it face to face.",
+    "name": "Flatpay",
+    "not_startup_reason": null,
+    "overall": 7.7,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "60000 customers vs 7000 in April 2024",
+        "reason": "Customers grew about eightfold in under two years and it became a unicorn.",
+        "score": 10,
+        "source": "https://siliconcanals.com/flatpay-denmarks-fastest-unicorn/"
+      },
+      "market": {
+        "reason": "Nearly every small business takes card payments.",
+        "score": 9,
+        "source": "https://www.flatpay.com"
+      },
+      "tech": {
+        "reason": "Mostly good service and pricing on standard payment tools.",
+        "score": 4,
+        "source": "https://www.flatpay.com"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Silicon Canals: Flatpay, Denmark's fastest unicorn",
+        "url": "https://siliconcanals.com/flatpay-denmarks-fastest-unicorn/"
+      },
+      {
+        "date": null,
+        "title": "Startupbusiness: Flatpay closes 145 million euro round",
+        "url": "https://www.startupbusiness.it/en/danish-fintech-flatpay-closes-e145-million-funding-round/148416/"
+      },
+      {
+        "date": null,
+        "title": "Oresund Startups: Flatpay unicorn",
+        "url": "https://oresundstartups.com/flatpay-soars-to-unicorn-status-raises-e145m-to-fuel-hypergrowth/"
+      },
+      {
+        "date": null,
+        "title": "Techsavvy: Danish fintech unicorn",
+        "url": "https://techsavvy.media/en/danish-fintech-shoots-its-way-into-the-history-books-with-record-breaking-unicorn-status/"
+      },
+      {
+        "date": null,
+        "title": "Flatpay website",
+        "url": "https://www.flatpay.com"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Staff visit each shop, install everything and give support, with daily payouts.",
+    "website": "https://www.flatpay.com",
+    "who_pays": "Shops and small businesses pay a fee on each card payment.",
+    "why_now": "Shops are moving away from cash and want simple, fair pricing."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-16",
   "id": "flatpay-com",
-  "industry": "FinTech",
-  "last_checked": null,
+  "industry": "Fintech",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -27,18 +131,90 @@
       "source_kind": "list",
       "title": "",
       "url": "https://www.flatpay.com"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "FinTech startup from Denmark in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Flatpay is a payment terminal and POS provider for small merchants.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Finextra: Danish POS startup Flatpay raises $45 million",
+      "url": "https://finextra.com/newsarticle/43996/danish-pos-startup-flatpay-raises-45-million"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Unicorn status three and a half years after launch; 146.5M euro round at $1.7B valuation; about 60,000 customers, up from 7,000 in April 2024.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Silicon Canals: Flatpay, Denmark's fastest unicorn",
+      "url": "https://siliconcanals.com/flatpay-denmarks-fastest-unicorn/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Round from Hedosophia, AVP Growth, Smash Capital and Dawn Capital.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Startupbusiness: Flatpay closes 145 million euro round",
+      "url": "https://www.startupbusiness.it/en/danish-fintech-flatpay-closes-e145-million-funding-round/148416/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Founded 2022; operates in UK, Finland, Germany, Italy, France.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Techsavvy: Danish fintech record-breaking unicorn",
+      "url": "https://techsavvy.media/en/danish-fintech-shoots-its-way-into-the-history-books-with-record-breaking-unicorn-status/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Raises 145M euros for hypergrowth.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Oresund Startups: Flatpay soars to unicorn status",
+      "url": "https://oresundstartups.com/flatpay-soars-to-unicorn-status-raises-e145m-to-fuel-hypergrowth/"
     }
   ],
   "name": "Flatpay",
   "name_key": "flatpay",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-flatpay-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-05-r5",
+    "pages": 2,
+    "queries_done": [
+      "\"Flatpay\" startup Denmark"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-flatpay-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:03:00+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 10.0,
+      "market": 9.0,
+      "overall": 7.7,
+      "run": "2026-10-05-r5",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:19:31+00:00",
   "website": "https://www.flatpay.com"
 }

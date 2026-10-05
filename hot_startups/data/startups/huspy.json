@@ -2,13 +2,108 @@
   "alias_keys": [],
   "aliases": [],
   "country": "United Arab Emirates",
-  "domain": null,
+  "domain": "huspy.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United Arab Emirates",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "http://wamda.com/2026/09/huspy-enters-italy-integra-finance-acquisition-86-million-investment-plan"
+        ],
+        "value": "Dubai, United Arab Emirates"
+      },
+      "founded": {
+        "confirmed": true,
+        "sources": [
+          "http://wamda.com/2026/09/huspy-enters-italy-integra-finance-acquisition-86-million-investment-plan",
+          "https://techcrunch.com/2025/07/07/uae-proptech-huspy-raises-59m-to-scale-in-europe/"
+        ],
+        "value": "2020"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "http://wamda.com/2026/09/huspy-enters-italy-integra-finance-acquisition-86-million-investment-plan"
+        ],
+        "value": "Works in 15 cities in four countries after buying Integra Finance in Italy in September 2026."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://mena.entrepreneur.com/growth-strategies/we-got-funded-uae-based-proptech-startup-huspy-raises/494305",
+          "https://techcrunch.com/2025/07/07/uae-proptech-huspy-raises-59m-to-scale-in-europe/"
+        ],
+        "value": "$59M Series B (2025)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Buying a home and getting a mortgage is slow and confusing, so Huspy helps people find a home and a loan in one place.",
+    "industry": "Proptech",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Buy local firms that already have customers and licences, then plug your software into them.",
+    "name": "Huspy",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "region": "mea",
+    "scores": {
+      "growth": {
+        "basis": "substitute: new market entry and larger funding round ($59M Series B)",
+        "reason": "Fourth country and fifth acquisition, with an $86M Italy plan, but no user or revenue numbers.",
+        "score": 7,
+        "source": "http://wamda.com/2026/09/huspy-enters-italy-integra-finance-acquisition-86-million-investment-plan"
+      },
+      "market": {
+        "reason": "Housing and mortgages matter to almost every family in several large regions.",
+        "score": 8,
+        "source": "https://www.huspy.com"
+      },
+      "tech": {
+        "reason": "Solid broker software, but acquisitions and licences matter more than hard-to-copy technology.",
+        "score": 5,
+        "source": "https://www.huspy.com"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-23",
+        "title": "Huspy enters Italy with Integra Finance acquisition",
+        "url": "http://wamda.com/2026/09/huspy-enters-italy-integra-finance-acquisition-86-million-investment-plan"
+      },
+      {
+        "date": "2025-07-07",
+        "title": "UAE proptech Huspy raises $59M to scale in Europe",
+        "url": "https://techcrunch.com/2025/07/07/uae-proptech-huspy-raises-59m-to-scale-in-europe/"
+      },
+      {
+        "date": null,
+        "title": "Huspy raises US$59 Million Series B",
+        "url": "https://mena.entrepreneur.com/growth-strategies/we-got-funded-uae-based-proptech-startup-huspy-raises/494305"
+      },
+      {
+        "date": null,
+        "title": "Huspy",
+        "url": "https://www.huspy.com"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It gives real estate agents and mortgage brokers its own software, and it grows by buying small broker firms in new countries.",
+    "website": "https://www.huspy.com",
+    "who_pays": "Banks and lenders pay fees on loans, and buyers and sellers pay for property services.",
+    "why_now": "Software that does routine paperwork lets brokers serve more buyers, and home markets in the Gulf and Europe are busy."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-28",
   "id": "huspy",
-  "industry": "proptech",
-  "last_checked": null,
+  "industry": "Proptech",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-09-23",
@@ -18,18 +113,81 @@
       "source_kind": "feed",
       "title": "",
       "url": "http://wamda.com/2026/09/huspy-enters-italy-integra-finance-acquisition-86-million-investment-plan"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Huspy raised a US$59M Series B led by Balderton Capital.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "“We Got Funded!” UAE-Based Proptech Startup Huspy Raises US$59 Million Series B Round",
+      "url": "https://mena.entrepreneur.com/growth-strategies/we-got-funded-uae-based-proptech-startup-huspy-raises/494305"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Home-buying platform founded 2020, operates in UAE and Spain, launching in Saudi Arabia.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "UAE proptech Huspy raises $59M to scale in Europe",
+      "url": "https://techcrunch.com/2025/07/07/uae-proptech-huspy-raises-59m-to-scale-in-europe/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Huspy secured new investment in May 2024.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "UAE Huspy secures new investment to develop superapp",
+      "url": "https://www.wamda.com/index.php/en/2024/05/uae-huspy-secures-new-investment-develop-superapp"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Profile of co-founder and CEO Jad Antoun.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "The SME Story: Jad Antoun, CEO and co-founder of Huspy",
+      "url": "https://gulfbusiness.com/en/2021/uae/the-sme-story-jad-antoun-ceo-and-co-founder-of-huspy/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "CB Insights company profile.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Huspy",
+      "url": "https://www.cbinsights.com/company/huspy"
     }
   ],
   "name": "Huspy",
   "name_key": "huspy",
-  "region": null,
+  "region": "mea",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-huspy.txt",
+    "article_url": "http://wamda.com/2026/09/huspy-enters-italy-integra-finance-acquisition-86-million-investment-plan",
+    "judged_run": "2026-10-05-r5",
+    "pages": 2,
+    "queries_done": [
+      "\"Huspy\" startup United Arab Emirates"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-huspy.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:09:27+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 7.0,
+      "market": 8.0,
+      "overall": 6.7,
+      "run": "2026-10-05-r5",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:18:28+00:00",
+  "website": "https://www.huspy.com"
 }

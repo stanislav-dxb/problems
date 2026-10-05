@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "atomic",
+  "industry": "supply chain AI",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-05",
+      "run": "2026-10-05-r5",
+      "snippet": "AI automating procurement and supply chain planning; $12.5M Series A",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://thebridge.jp/2026/10/atomic-series-a-supply-chain-planning-klass-madrona"
+    }
+  ],
+  "name": "Atomic",
+  "name_key": "atomic",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:08:21+00:00",
+  "website": null
+}

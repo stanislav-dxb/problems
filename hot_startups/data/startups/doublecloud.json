@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "UAE",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "doublecloud",
+  "industry": "data infrastructure",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Dubai-based cloud data company that shut down operations.",
+      "source": "初创公司 倒闭 停止运营 2026年10月",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://me.peoplemattersglobal.com/news/business/dubai-based-doublecloud-shuts-down-operations-43074"
+    }
+  ],
+  "name": "DoubleCloud",
+  "name_key": "doublecloud",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:32:10+00:00",
+  "website": null
+}

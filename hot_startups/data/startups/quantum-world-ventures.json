@@ -1,0 +1,47 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "India",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "quantum-world-ventures",
+  "industry": "quantum/medtech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-03",
+      "run": "2026-10-05-r5",
+      "snippet": "Bengaluru startup developing quantum and AI for medical technology",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://yourstory.com/2026/10/quantum-world-ventures-looks-to-move-the-technology-beyond-the-lab"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "No company named Quantum World Ventures found; results are about other Indian quantum ventures.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Karnataka to launch quantum VC fund to back 100 startups",
+      "url": "https://news.ventureintelligence.com/private-equity/karnataka-to-launch-quantum-vc-fund-to-back-100-startups"
+    }
+  ],
+  "name": "Quantum World Ventures",
+  "name_key": "quantumworldventures",
+  "region": null,
+  "research": {
+    "article_read": true,
+    "pages": 1,
+    "queries_done": [
+      "\"Quantum World Ventures\" startup India"
+    ],
+    "searches": 1
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:18:43+00:00",
+  "website": null
+}

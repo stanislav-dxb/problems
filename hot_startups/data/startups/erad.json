@@ -1,0 +1,197 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Saudi Arabia",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "Saudi Arabia",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.menabytes.com/erad-pre-series-a/"
+        ],
+        "value": "Riyadh, Saudi Arabia"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.wamda.com/2025/04/erad-secures-16-million-pre-series-bridge-sme-credit-gap-mena"
+        ],
+        "value": 2022
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.wamda.com/2025/04/erad-secures-16-million-pre-series-bridge-sme-credit-gap-mena"
+        ],
+        "value": "Deployed over $26.6M in financing by April 2025."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "http://wamda.com/2026/09/saudi-fintech-erad-raises-22-million-series-led-mevp",
+          "https://www.menabytes.com/erad-pre-series-a/"
+        ],
+        "value": "$22M Series A (Sept 2026), after a $16M pre-Series A"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Small and mid-sized firms in Saudi Arabia and the UAE struggle to get loans, so Erad lends them money quickly.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Find a group that banks ignore and serve it with faster, simpler credit.",
+    "name": "Erad",
+    "not_startup_reason": null,
+    "overall": 6.0,
+    "region": "mea",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding rounds grew from $2.4M to $16M to $22M",
+        "reason": "Raised a $22M Series A in 2026 after a $16M round in 2025, a bigger round each time.",
+        "score": 8,
+        "source": "http://wamda.com/2026/09/saudi-fintech-erad-raises-22-million-series-led-mevp"
+      },
+      "market": {
+        "reason": "A real market across Saudi Arabia and the UAE, but focused on one region.",
+        "score": 6,
+        "source": "https://www.wamda.com/2025/04/erad-secures-16-million-pre-series-bridge-sme-credit-gap-mena"
+      },
+      "tech": {
+        "reason": "Lending products built on credit data; a good team could copy this in months.",
+        "score": 4,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-28",
+        "title": "Saudi fintech Erad raises $22M Series A led by MEVP",
+        "url": "http://wamda.com/2026/09/saudi-fintech-erad-raises-22-million-series-led-mevp"
+      },
+      {
+        "date": null,
+        "title": "Wamda: erad secures $16 million pre-series",
+        "url": "https://www.wamda.com/2025/04/erad-secures-16-million-pre-series-bridge-sme-credit-gap-mena"
+      },
+      {
+        "date": null,
+        "title": "MENAbytes: erad pre-series A",
+        "url": "https://www.menabytes.com/erad-pre-series-a/"
+      },
+      {
+        "date": null,
+        "title": "Wamda: erad raises pre-seed round",
+        "url": "https://www.wamda.com/2022/09/erad-raises-24-million-pre-seed-round"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It focuses on SME credit and has already put out over $26.6M in financing.",
+    "website": null,
+    "who_pays": "Small businesses pay fees and interest on the financing they receive.",
+    "why_now": "Saudi Arabia is pushing small business growth and banks still leave many small firms without credit."
+  },
+  "first_judged_run": "2026-10-05-r5",
+  "first_seen": "2026-10-05",
+  "id": "erad",
+  "industry": "Fintech",
+  "last_checked": "2026-10-05",
+  "mentions": [
+    {
+      "date": "2026-10-03",
+      "run": "2026-10-05-r5",
+      "snippet": "Raised funds this week",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.techinasia.com/tales-as-old-as-time"
+    },
+    {
+      "date": "2026-09-28",
+      "run": "2026-10-05-r5",
+      "snippet": "$22M Series A led by MEVP",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "http://wamda.com/2026/09/saudi-fintech-erad-raises-22-million-series-led-mevp"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Riyadh fintech erad raised a $16M pre-Series A.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "MENAbytes: erad pre-series A",
+      "url": "https://www.menabytes.com/erad-pre-series-a/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Financing for SMEs in Saudi Arabia and UAE; founded 2022; deployed over $26.6M.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Wamda: erad secures $16 million pre-series",
+      "url": "https://www.wamda.com/2025/04/erad-secures-16-million-pre-series-bridge-sme-credit-gap-mena"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Debt financing to expand in Saudi Arabia and GCC.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Sharikat Mubasher: erad secures $33mn debt financing",
+      "url": "https://www.sharikatmubasher.com/media-hub/news/21507657/erad-secures-33mn-debt-financing-to-expand-in-saudi-arabia-gcc"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Pre-seed round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Cairoscene: erad raises $2.5 million pre-seed",
+      "url": "https://cairoscene.com/Business/Saudi-Arabia-s-Fintech-Startup-erad-Raises-2-5-Million-Pre-Seed"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Pre-seed from Nuwa Capital, VentureSouq, Khwarizmi Ventures.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Wamda: erad raises 2.4 million pre-seed round",
+      "url": "https://www.wamda.com/2022/09/erad-raises-24-million-pre-seed-round"
+    }
+  ],
+  "name": "Erad",
+  "name_key": "erad",
+  "region": "mea",
+  "research": {
+    "article_read": true,
+    "judged_run": "2026-10-05-r5",
+    "pages": 1,
+    "queries_done": [
+      "\"Erad\" startup Saudi Arabia"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 8.0,
+      "market": 6.0,
+      "overall": 6.0,
+      "run": "2026-10-05-r5",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:13:16+00:00",
+  "website": null
+}

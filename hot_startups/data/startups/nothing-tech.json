@@ -1,14 +1,107 @@
 {
   "alias_keys": [],
   "aliases": [],
-  "country": "UK",
+  "country": "United Kingdom",
   "domain": "nothing.tech",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://en.wikipedia.org/wiki/Nothing_(company)"
+        ],
+        "value": "London, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://en.wikipedia.org/wiki/Nothing_(company)"
+        ],
+        "value": 2020
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.tryfundable.ai/company/nothing"
+        ],
+        "value": "Valued at $1.3B as of December 2025."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://preqin.com/data/profile/asset/nothing-technology-limited/416532"
+        ],
+        "value": "$443M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Phones and earbuds feel alike and dull, so Nothing makes gadgets with a bold, see-through look.",
+    "industry": "Consumer electronics",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "In a crowded market, strong design and a loyal community can beat bigger rivals.",
+    "name": "Nothing Technology",
+    "not_startup_reason": null,
+    "overall": 6.5,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: $443M raised over 7 rounds and $1.3B valuation",
+        "reason": "No sales numbers were found.",
+        "score": null,
+        "source": "https://preqin.com/data/profile/asset/nothing-technology-limited/416532"
+      },
+      "market": {
+        "reason": "Phones and audio gadgets are a huge worldwide market.",
+        "score": 8,
+        "source": "https://en.wikipedia.org/wiki/Nothing_(company)"
+      },
+      "tech": {
+        "reason": "Good product design and software, but rivals can copy the ideas in months.",
+        "score": 5,
+        "source": "https://en.wikipedia.org/wiki/Nothing_(company)"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Nothing (company)",
+        "url": "https://en.wikipedia.org/wiki/Nothing_(company)"
+      },
+      {
+        "date": null,
+        "title": "Nothing Technology Limited - Preqin",
+        "url": "https://preqin.com/data/profile/asset/nothing-technology-limited/416532"
+      },
+      {
+        "date": null,
+        "title": "Nothing - Fundable",
+        "url": "https://www.tryfundable.ai/company/nothing"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its Glyph lights and clear design make the gadgets stand out, and it builds a fan community around each launch.",
+    "website": "https://nothing.tech/",
+    "who_pays": "Shoppers buy the phones, earbuds and headphones directly and through stores.",
+    "why_now": "People are bored of look-alike phones and will pay for design and personality."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-28",
   "id": "nothing-tech",
-  "industry": "Consumer & Lifestyle",
-  "last_checked": null,
+  "industry": "Consumer electronics",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "",
@@ -18,18 +111,81 @@
       "source_kind": "list",
       "title": "",
       "url": "https://nothing.tech/"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "Consumer & Lifestyle startup from UK in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "British consumer electronics company in London, founded 2020 by Carl Pei; phones, earbuds, Glyph lighting.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nothing (company)",
+      "url": "https://en.wikipedia.org/wiki/Nothing_(company)"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Nothing launches smartphone in UK.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "British tech firm Nothing launches first UK smartphone in five years",
+      "url": "https://www.expressandstar.com/news/science/british-tech-firm-nothing-launches-first-uk-smartphone-in-five-years-5927991"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Raised $443M across 7 rounds.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nothing Technology Limited - Preqin",
+      "url": "https://preqin.com/data/profile/asset/nothing-technology-limited/416532"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Company profile; valuation $1.3B as of Dec 2025.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nothing - Fundable",
+      "url": "https://www.tryfundable.ai/company/nothing"
     }
   ],
   "name": "Nothing Technology",
   "name_key": "nothingtechnology",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-nothing-tech.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-05-r5",
+    "pages": 2,
+    "queries_done": [
+      "\"Nothing Technology\" startup UK"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-nothing-tech.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:03:00+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": null,
+      "market": 8.0,
+      "overall": 6.5,
+      "run": "2026-10-05-r5",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:23:00+00:00",
   "website": "https://nothing.tech/"
 }

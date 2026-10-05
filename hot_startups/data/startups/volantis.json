@@ -1,0 +1,152 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://webrazzi.com/2026/10/02/yari-iletken-ve-yapay-zeka-altyapisi-alanina-odaklanan-volantis-88-milyon-dolar-yatirim-aldi/"
+        ],
+        "value": "Raised an $88M round in October 2026."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://webrazzi.com/2026/10/02/yari-iletken-ve-yapay-zeka-altyapisi-alanina-odaklanan-volantis-88-milyon-dolar-yatirim-aldi/"
+        ],
+        "value": "$88M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "AI data centers need faster, more efficient chips, and Volantis works on semiconductors and AI infrastructure to meet that need.",
+    "industry": "Chips",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "When a boom creates a bottleneck, build the hardware that removes it.",
+    "name": "Volantis",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round of $88M",
+        "reason": "No customer or revenue numbers are public, only the funding round.",
+        "score": null,
+        "source": "https://webrazzi.com/2026/10/02/yari-iletken-ve-yapay-zeka-altyapisi-alanina-odaklanan-volantis-88-milyon-dolar-yatirim-aldi/"
+      },
+      "market": {
+        "reason": "AI chips and infrastructure are a huge industry worldwide.",
+        "score": 8,
+        "source": "https://webrazzi.com/2026/10/02/yari-iletken-ve-yapay-zeka-altyapisi-alanina-odaklanan-volantis-88-milyon-dolar-yatirim-aldi/"
+      },
+      "tech": {
+        "reason": "Chip work is hard to copy, but little is known about what they built.",
+        "score": 6,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-02",
+        "title": "Volantis raised $88M",
+        "url": "https://webrazzi.com/2026/10/02/yari-iletken-ve-yapay-zeka-altyapisi-alanina-odaklanan-volantis-88-milyon-dolar-yatirim-aldi/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Details are thin, but it raised a large round for a young chip company.",
+    "website": null,
+    "who_pays": "Likely AI and data center companies that buy the chips and infrastructure.",
+    "why_now": "The AI boom is driving huge demand for chips and the infrastructure around them."
+  },
+  "first_judged_run": "2026-10-05-r5",
+  "first_seen": "2026-10-05",
+  "id": "volantis",
+  "industry": "Chips",
+  "last_checked": "2026-10-05",
+  "mentions": [
+    {
+      "date": "2026-10-02",
+      "run": "2026-10-05-r5",
+      "snippet": "Raised $88M",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://webrazzi.com/2026/10/02/yari-iletken-ve-yapay-zeka-altyapisi-alanina-odaklanan-volantis-88-milyon-dolar-yatirim-aldi/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Photonic compute platform for AI; $9M seed in June 2025.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Volantis Systems raises $9M for AI platform",
+      "url": "https://finder.techleap.nl/news/feed/volantis-systems-raises-9m-for-ai-platform"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Private equity firm in Boston.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Volantis Capital Management",
+      "url": "https://www.privateequityinternational.com/institution-profiles/volantis-capital-management.html"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Company profile.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Macchina Volantis",
+      "url": "https://www.cbinsights.com/company/macchina-volantis/people"
+    }
+  ],
+  "name": "Volantis",
+  "name_key": "volantis",
+  "region": "north_america",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-volantis.txt",
+    "article_url": "https://webrazzi.com/2026/10/02/yari-iletken-ve-yapay-zeka-altyapisi-alanina-odaklanan-volantis-88-milyon-dolar-yatirim-aldi/",
+    "judged_run": "2026-10-05-r5",
+    "pages": 1,
+    "queries_done": [
+      "\"Volantis\" startup United States"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": null,
+      "market": 8.0,
+      "overall": 7.0,
+      "run": "2026-10-05-r5",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:28:00+00:00",
+  "website": null
+}

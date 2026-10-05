@@ -2,13 +2,99 @@
   "alias_keys": [],
   "aliases": [],
   "country": "Brazil",
-  "domain": null,
+  "domain": "arvore.com.br",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Brazil",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://startupi.com.br/arvore-lanca-avaliacao-gratuita-fluencia-leitora-escolas/"
+        ],
+        "value": "Brazil"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.g2.com/sellers/arvore"
+        ],
+        "value": "2014"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://startupi.com.br/arvore-lanca-avaliacao-gratuita-fluencia-leitora-escolas/"
+        ],
+        "value": "Its reading test has assessed more than 350 thousand students."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Many Brazilian students finish school unable to read well, so Arvore gives schools a digital reading library and tools to track progress.",
+    "industry": "Education",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Give away a useful free test to win schools, then sell the full program.",
+    "name": "Arvore",
+    "not_startup_reason": null,
+    "overall": 5.5,
+    "region": "latin_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: customer reach, over 350 thousand educators and students assessed",
+        "reason": "No growth numbers over time; only a total of users reached.",
+        "score": null,
+        "source": "https://www.arvore.com.br"
+      },
+      "market": {
+        "reason": "Real market, but mostly Brazilian schools.",
+        "score": 6,
+        "source": "https://www.arvore.com.br"
+      },
+      "tech": {
+        "reason": "Solid reading platform and speech scoring that a good team could copy in months.",
+        "score": 5,
+        "source": "https://startupi.com.br/arvore-lanca-avaliacao-gratuita-fluencia-leitora-escolas/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-24",
+        "title": "Arvore launches free reading fluency test (Startupi)",
+        "url": "https://startupi.com.br/arvore-lanca-avaliacao-gratuita-fluencia-leitora-escolas/"
+      },
+      {
+        "date": null,
+        "title": "Arvore - G2",
+        "url": "https://www.g2.com/sellers/arvore"
+      },
+      {
+        "date": null,
+        "title": "Arvore website",
+        "url": "https://www.arvore.com.br"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Reading is gamified, and a free test listens to students read aloud and scores their fluency in under five minutes.",
+    "website": "https://www.arvore.com.br",
+    "who_pays": "Public and private schools and school networks pay for the platform.",
+    "why_now": "Brazil is focused on its reading crisis, and speech tools now make quick checks cheap."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-28",
   "id": "arvore",
-  "industry": "edtech",
-  "last_checked": null,
+  "industry": "Education",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-09-24",
@@ -18,18 +104,63 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://startupi.com.br/arvore-lanca-avaliacao-gratuita-fluencia-leitora-escolas/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Mentions Arvore (tree) project in Sao Paulo; not clearly the reading startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Sao Paulo ganha jogo para mapear arborizacao",
+      "url": "https://www.baguete.com.br/noticias/27/08/2024/sao-paulo-ganha-jogo-para-mapear-arborizacao"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Arvore, digital reading platform for basic education in Brazil, founded 2014.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Arvore - G2",
+      "url": "https://www.g2.com/sellers/arvore"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "News tagged Arvore.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Startups.com.br tag arvore",
+      "url": "https://startups.com.br/tag/arvore/"
     }
   ],
   "name": "Arvore",
   "name_key": "arvore",
-  "region": null,
+  "region": "latin_america",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-arvore.txt",
+    "article_url": "https://startupi.com.br/arvore-lanca-avaliacao-gratuita-fluencia-leitora-escolas/",
+    "judged_run": "2026-10-05-r5",
+    "pages": 2,
+    "queries_done": [
+      "\"Arvore\" startup Brazil"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-arvore.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:09:27+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": null,
+      "market": 6.0,
+      "overall": 5.5,
+      "run": "2026-10-05-r5",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:24:49+00:00",
+  "website": "https://www.arvore.com.br"
 }

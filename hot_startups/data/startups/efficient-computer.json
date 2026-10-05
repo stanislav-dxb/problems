@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "efficient-computer",
+  "industry": "semiconductors",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-30",
+      "run": "2026-10-05-r5",
+      "snippet": "Energy-efficient processors; $97M Series B at $650M valuation",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://webrazzi.com/2026/09/30/efficient-computer-650-milyon-dolar-degerlemeyle-97-milyon-dolar-yatirim-aldi/"
+    }
+  ],
+  "name": "Efficient Computer",
+  "name_key": "efficientcomputer",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:08:22+00:00",
+  "website": null
+}

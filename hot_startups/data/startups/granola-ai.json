@@ -27,18 +27,52 @@
       "source_kind": "list",
       "title": "",
       "url": "https://www.granola.ai"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "AI Productivity & Automation startup from UK in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "UK granola food brand, not the Granola software startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "rollagranola introduces line of nut and seed based granolas",
+      "url": "https://archive.foodbev.com/news/rollagranola-introduces-line-of-nut-and-seed-based-granolas/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "UK granola food maker.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Bakeit Food launches US$4M granola production facility in UK",
+      "url": "https://millingmea.com/bakeit-food-launches-us4m-granola-production-facility-in-uk/"
     }
   ],
   "name": "Granola",
   "name_key": "granola",
   "region": null,
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-granola-ai.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "pages": 2,
+    "queries_done": [
+      "\"Granola\" startup United Kingdom"
+    ],
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-granola-ai.txt"
   },
   "score_history": [],
   "status": "candidate",
-  "updated": "2026-09-28T02:03:00+00:00",
+  "updated": "2026-10-05T05:11:10+00:00",
   "website": "https://www.granola.ai"
 }

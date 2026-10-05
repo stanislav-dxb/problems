@@ -1,0 +1,148 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "China",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "China",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://pitchbook.com/profiles/company/416671-39"
+        ],
+        "value": "Suzhou, China"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://pitchbook.com/profiles/company/416671-39"
+        ],
+        "value": 2015
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://pitchbook.com/profiles/company/416671-39"
+        ],
+        "value": "Raised a Series D in July 2023 and is in IPO registration."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Many everyday chemicals are made from oil, so Leadsynbio makes bio-based products with fermentation instead.",
+    "industry": "Biotech",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Swap an old oil-based process for a living one, then sell the same product to existing buyers.",
+    "name": "Leadsynbio",
+    "not_startup_reason": null,
+    "overall": 5.7,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding rounds and IPO registration",
+        "reason": "A Series D and an IPO filing suggest growth, but no numbers are given.",
+        "score": 5,
+        "source": "https://pitchbook.com/profiles/company/416671-39"
+      },
+      "market": {
+        "reason": "Bio-based chemicals are a real market, but the products named are niche.",
+        "score": 6,
+        "source": "https://pitchbook.com/profiles/company/416671-39"
+      },
+      "tech": {
+        "reason": "Fermentation know-how is solid but details are not public in the sources.",
+        "score": 6,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Leadsynbio Overview",
+        "url": "https://pitchbook.com/profiles/company/416671-39"
+      },
+      {
+        "date": "2026-10-03",
+        "title": "Tech in Asia: raised funds this week",
+        "url": "https://www.techinasia.com/tales-as-old-as-time"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It uses microbes to brew its products, which can cut reliance on oil-based chemistry.",
+    "website": null,
+    "who_pays": "Companies that buy ingredients and materials pay for the products.",
+    "why_now": "Makers and buyers want greener materials, and the company has filed to go public."
+  },
+  "first_judged_run": "2026-10-05-r5",
+  "first_seen": "2026-10-05",
+  "id": "leadsynbio",
+  "industry": "Biotech",
+  "last_checked": "2026-10-05",
+  "mentions": [
+    {
+      "date": "2026-10-03",
+      "run": "2026-10-05-r5",
+      "snippet": "Raised funds this week",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.techinasia.com/tales-as-old-as-time"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Founded 2015, Suzhou, China; bio-based products via fermentation; Series D in July 2023; in IPO registration.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Leadsynbio Overview",
+      "url": "https://pitchbook.com/profiles/company/416671-39"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Company profile.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "suzhou leadsynbio technology",
+      "url": "https://discovery.patsnap.com/company/suzhou-leadsynbio-technology/"
+    }
+  ],
+  "name": "Leadsynbio",
+  "name_key": "leadsynbio",
+  "region": "asia",
+  "research": {
+    "article_read": true,
+    "judged_run": "2026-10-05-r5",
+    "pages": 1,
+    "queries_done": [
+      "\"Leadsynbio\" startup Unknown"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 5.0,
+      "market": 6.0,
+      "overall": 5.7,
+      "run": "2026-10-05-r5",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:29:12+00:00",
+  "website": null
+}

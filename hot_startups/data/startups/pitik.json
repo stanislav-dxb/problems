@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Indonesia",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "pitik",
+  "industry": "agritech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Poultry farming startup that ceased operations after laying off over half its staff.",
+      "source": "スタートアップ 事業停止 2026年10月",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://dealstreetasia.com/stories/pitik-ceases-operations-403415"
+    }
+  ],
+  "name": "Pitik",
+  "name_key": "pitik",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:32:10+00:00",
+  "website": null
+}

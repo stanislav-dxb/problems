@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "general-intuition",
+  "industry": "AI foundation models",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-05",
+      "run": "2026-10-05-r5",
+      "snippet": "Trains AI foundation models on gameplay video; $220M at $6.2B valuation",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://thebridge.jp/2026/10/general-intuition-220m-funding-6-2b-valuation-coalition"
+    }
+  ],
+  "name": "General Intuition",
+  "name_key": "generalintuition",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:08:21+00:00",
+  "website": null
+}

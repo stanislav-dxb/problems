@@ -1,0 +1,182 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": "flowengineering.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
+          "https://thebridge.jp/2026/10/flow-engineering-series-b-hardware-ai-valor-atreides"
+        ],
+        "value": "Raised a $50M Series B at a $750M valuation in September 2026."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
+          "https://ecosistemastartup.com/flow-engineering-ia-para-hardware-levanta-us50m/"
+        ],
+        "value": "$50M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Designing hardware is slow because teams must keep changing and checking many linked requirements, so Flow Engineering gives engineers AI helpers that do this work.",
+    "industry": "AI tools",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Take a tool that made one field fast, and rebuild it for a slower field that has been left behind.",
+    "name": "Flow Engineering",
+    "not_startup_reason": null,
+    "overall": 6.5,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: $50M Series B at $750M valuation",
+        "reason": "No customer or revenue numbers, but a large new funding round with top investors.",
+        "score": null,
+        "source": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/"
+      },
+      "market": {
+        "reason": "Hardware makers across many industries could use it.",
+        "score": 7,
+        "source": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/"
+      },
+      "tech": {
+        "reason": "AI agents for engineering are solid work, but the sources give few details on what is hard to copy.",
+        "score": 6,
+        "source": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-30",
+        "title": "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation",
+        "url": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/"
+      },
+      {
+        "date": "2026-10-05",
+        "title": "Flow Engineering Series B",
+        "url": "https://thebridge.jp/2026/10/flow-engineering-series-b-hardware-ai-valor-atreides"
+      },
+      {
+        "date": null,
+        "title": "Flow Engineering, IA para hardware, levanta US$50M",
+        "url": "https://ecosistemastartup.com/flow-engineering-ia-para-hardware-levanta-us50m/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It brings the fast, repeat-and-improve way of software teams to physical products.",
+    "website": "https://www.flowengineering.com/",
+    "who_pays": "Companies that build hardware pay for the software.",
+    "why_now": "AI agents have become good enough to help with complex engineering work, and investors are backing them with big rounds."
+  },
+  "first_judged_run": "2026-10-05-r5",
+  "first_seen": "2026-10-05",
+  "id": "flow-engineering",
+  "industry": "AI tools",
+  "last_checked": "2026-10-05",
+  "mentions": [
+    {
+      "date": "2026-09-30",
+      "run": "2026-10-05-r5",
+      "snippet": "AI agents for hardware design; backed at $750M valuation",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/"
+    },
+    {
+      "date": "2026-10-05",
+      "run": "2026-10-05-r5",
+      "snippet": "AI agent platform for hardware development; $50M Series B at $750M valuation",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://thebridge.jp/2026/10/flow-engineering-series-b-hardware-ai-valor-atreides"
+    },
+    {
+      "date": "2026-10-01",
+      "run": "2026-10-05-r5",
+      "snippet": "$50M Series B",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://webrazzi.com/2026/10/01/yapay-zeka-destekli-donanim-tasarim-platformu-flow-50-milyon-dolar-yatirim-aldi/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Founded 2016, San Francisco. Hardware engineering requirements platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Flow Engineering Overview",
+      "url": "https://pitchbook.com/profiles/company/223337-53"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Flow Engineering company profile and jobs.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "flow engineering",
+      "url": "https://wellfound.com/company/flow-engineering"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Series B of $50M at $750M post-money valuation, co-led by Antonio Gracias and Gavin Baker, with Sequoia.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Flow Engineering, IA para hardware, levanta US$50M",
+      "url": "https://ecosistemastartup.com/flow-engineering-ia-para-hardware-levanta-us50m/"
+    }
+  ],
+  "name": "Flow Engineering",
+  "name_key": "flowengineering",
+  "region": "north_america",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-flow-engineering.txt",
+    "article_url": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
+    "judged_run": "2026-10-05-r5",
+    "pages": 1,
+    "queries_done": [
+      "\"Flow Engineering\" startup United States"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": null,
+      "market": 7.0,
+      "overall": 6.5,
+      "run": "2026-10-05-r5",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:10:54+00:00",
+  "website": "https://www.flowengineering.com/"
+}

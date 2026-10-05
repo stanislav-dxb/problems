@@ -2,13 +2,107 @@
   "alias_keys": [],
   "aliases": [],
   "country": "Australia",
-  "domain": null,
+  "domain": "medcast.com.au",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Australia",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://medcast.com.au/about/join-our-team"
+        ],
+        "value": "Sydney, Australia"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://medcast.com.au/about/join-our-team"
+        ],
+        "value": "2013"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://medcast.com.au/about/join-our-team"
+        ],
+        "value": "Over 100,000 registered health professionals."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.startupresearcher.com/news/best-practice-software-leads-medcast-aud5-4-million-funding-round",
+          "https://www.saasrise.com/deals/medcast-raises-54-million-for-clinical-ai-platform-e3848c8a-c273-499b-8bfa-c4548ba707d7"
+        ],
+        "value": "A$5.4M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Doctors and nurses must keep learning, but finding trusted courses is hard, so Medcast offers online courses and an AI tool for clinical answers.",
+    "industry": "Health education",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Add an AI tool to a trusted content library and tie it to a rule people already must follow.",
+    "name": "Medcast",
+    "not_startup_reason": null,
+    "overall": 5.3,
+    "region": "other",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round and 100,000 registered users",
+        "reason": "A steady user base and a new round, but no growth numbers.",
+        "score": 5,
+        "source": "https://medcast.com.au/about/join-our-team"
+      },
+      "market": {
+        "reason": "A real market of health workers, but mostly one country.",
+        "score": 6,
+        "source": "https://medcast.com.au"
+      },
+      "tech": {
+        "reason": "A useful AI tool on top of its own course library, which a good team could copy in months.",
+        "score": 5,
+        "source": "https://medcast.com.au"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-25",
+        "title": "Seven Aussie startups that raised $274.7 million this week",
+        "url": "https://www.smartcompany.com.au/startupsmart/seven-aussie-startups-that-raised-274-7-million-this-week/"
+      },
+      {
+        "date": null,
+        "title": "Best Practice Software Leads Medcast 5.4 Million Funding Round",
+        "url": "https://www.startupresearcher.com/news/best-practice-software-leads-medcast-aud5-4-million-funding-round"
+      },
+      {
+        "date": null,
+        "title": "Medcast raises 5.4 million for clinical AI platform",
+        "url": "https://www.saasrise.com/deals/medcast-raises-54-million-for-clinical-ai-platform-e3848c8a-c273-499b-8bfa-c4548ba707d7"
+      },
+      {
+        "date": null,
+        "title": "Join our team",
+        "url": "https://medcast.com.au/about/join-our-team"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its AI tool, MedLuma, answers questions from verified Australian sources and turns each question into learning credit.",
+    "website": "https://medcast.com.au",
+    "who_pays": "Health professionals pay for subscriptions and courses, and government bodies fund some programs.",
+    "why_now": "AI can now answer clinical questions fast, but health workers need answers they can trace to trusted sources."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-28",
   "id": "medcast",
-  "industry": "health education",
-  "last_checked": null,
+  "industry": "Health education",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-09-25",
@@ -18,18 +112,72 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://www.smartcompany.com.au/startupsmart/seven-aussie-startups-that-raised-274-7-million-this-week/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Best Practice Software takes a stake in Medcast.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "BP takes big stake in Medcast in search of knowledge ‘singularity’",
+      "url": "https://www.medicalrepublic.com.au/?p=129254"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "A$5.4M round led by Best Practice Software.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Best Practice Software Leads Medcast 5.4 Million Funding Round",
+      "url": "https://www.startupresearcher.com/news/best-practice-software-leads-medcast-aud5-4-million-funding-round"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Medcast raises $5.4M for clinical AI platform MedLuma.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Medcast raises 5.4 million for clinical AI platform",
+      "url": "https://www.saasrise.com/deals/medcast-raises-54-million-for-clinical-ai-platform-e3848c8a-c273-499b-8bfa-c4548ba707d7"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Medcast careers page; Sydney health education company founded 2013, over 100,000 registered health professionals.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Join our team",
+      "url": "https://medcast.com.au/about/join-our-team"
     }
   ],
   "name": "Medcast",
   "name_key": "medcast",
-  "region": null,
+  "region": "other",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-medcast.txt",
+    "article_url": "https://www.smartcompany.com.au/startupsmart/seven-aussie-startups-that-raised-274-7-million-this-week/",
+    "judged_run": "2026-10-05-r5",
+    "pages": 2,
+    "queries_done": [
+      "\"Medcast\" startup Australia"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-medcast.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:10:41+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 5.0,
+      "market": 6.0,
+      "overall": 5.3,
+      "run": "2026-10-05-r5",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:18:28+00:00",
+  "website": "https://medcast.com.au"
 }

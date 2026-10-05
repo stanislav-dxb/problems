@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Estonia",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "bilt-me",
+  "industry": "no-code AI",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-28",
+      "run": "2026-10-05-r5",
+      "snippet": "No-code mobile app platform; EUR 615K pre-seed",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://arcticstartup.com/bilt-me-raises-e615k/"
+    }
+  ],
+  "name": "bilt.me",
+  "name_key": "biltme",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:08:21+00:00",
+  "website": null
+}

@@ -1,14 +1,104 @@
 {
   "alias_keys": [],
   "aliases": [],
-  "country": null,
-  "domain": null,
+  "country": "United States",
+  "domain": "numeral.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://fintech.global/2025/09/19/numeral-raises-35m-to-expand-ai-powered-tax-automation/"
+        ],
+        "value": "San Francisco, United States"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://fintech.global/2025/09/19/numeral-raises-35m-to-expand-ai-powered-tax-automation/"
+        ],
+        "value": 2023
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://pulse2.com/numeral-raises-100-million-series-c/amp/",
+          "https://thebridge.jp/2026/09/numeral-series-c-100m-insight-partners"
+        ],
+        "value": "Over 2,000 customers and revenue up 3.5x; a later report says over 3,500 customers."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://thebridge.jp/2026/09/numeral-series-c-100m-insight-partners",
+          "https://pulse2.com/numeral-raises-100-million-series-c/amp/"
+        ],
+        "value": "$157M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Online sellers must track, file and pay sales tax in many places, and Numeral does all of it for them.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Take a dull task that grows with every new place you sell, and do it end to end.",
+    "name": "Numeral",
+    "not_startup_reason": null,
+    "overall": 7.3,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "3.5x revenue growth",
+        "reason": "Revenue up 3.5x, customers up, and a $100M round after a $35M one.",
+        "score": 8,
+        "source": "https://pulse2.com/numeral-raises-100-million-series-c/amp/"
+      },
+      "market": {
+        "reason": "Every online seller faces sales tax and VAT, in many countries.",
+        "score": 8,
+        "source": "https://thebridge.jp/2026/09/numeral-series-c-100m-insight-partners"
+      },
+      "tech": {
+        "reason": "Solid automation across many tax rules, but a good team could copy it in months.",
+        "score": 6,
+        "source": "https://thebridge.jp/2026/09/numeral-series-c-100m-insight-partners"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-28",
+        "title": "Numeral Series C (The Bridge)",
+        "url": "https://thebridge.jp/2026/09/numeral-series-c-100m-insight-partners"
+      },
+      {
+        "date": "2025-09-19",
+        "title": "Numeral raises $35m to expand AI-powered tax automation",
+        "url": "https://fintech.global/2025/09/19/numeral-raises-35m-to-expand-ai-powered-tax-automation/"
+      },
+      {
+        "date": null,
+        "title": "Numeral Raises $100 Million Series C Led By Insight Partners",
+        "url": "https://pulse2.com/numeral-raises-100-million-series-c/amp/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It even receives and reads the tax letters that arrive by post, and answers them.",
+    "website": "https://www.numeral.com",
+    "who_pays": "Online shops and software companies pay a fee, and accounting firms resell it to their clients.",
+    "why_now": "Online sellers now sell across many states and countries, and AI can read rules and forms."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-28",
   "id": "numeral",
-  "industry": "sales tax compliance AI",
-  "last_checked": null,
+  "industry": "Fintech",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-09-28",
@@ -18,18 +108,52 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://thebridge.jp/2026/09/numeral-series-c-100m-insight-partners"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Sales tax automation for e-commerce and SaaS; founded 2023, San Francisco.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Numeral raises $35m to expand AI-powered tax automation",
+      "url": "https://fintech.global/2025/09/19/numeral-raises-35m-to-expand-ai-powered-tax-automation/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Total funding $157M; 2,000+ customers; revenue up 3.5x.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Numeral Raises $100 Million Series C Led By Insight Partners",
+      "url": "https://pulse2.com/numeral-raises-100-million-series-c/amp/"
     }
   ],
   "name": "Numeral",
   "name_key": "numeral",
-  "region": null,
+  "region": "north_america",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-numeral.txt",
+    "article_url": "https://thebridge.jp/2026/09/numeral-series-c-100m-insight-partners",
+    "judged_run": "2026-10-05-r5",
+    "pages": 1,
+    "queries_done": [
+      "\"Numeral\" startup"
+    ],
+    "refresh": false,
+    "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:09:01+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 8.0,
+      "market": 8.0,
+      "overall": 7.3,
+      "run": "2026-10-05-r5",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:29:12+00:00",
+  "website": "https://www.numeral.com"
 }

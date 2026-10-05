@@ -251,6 +251,15 @@
       "source_kind": "research",
       "title": "Nuitée | Enabling all companies to build travel solutions - AI, Big Data Company Profile, Funding Rounds and Investors - Bounce Watch",
       "url": "https://bouncewatch.com/explore/startup/nuitee-enabling-all-companies-to-build-travel-solutions"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "Travel Tech startup from Ireland in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
     }
   ],
   "name": "Nuitée",
@@ -281,6 +290,6 @@
     }
   ],
   "status": "judged",
-  "updated": "2026-09-28T02:28:00+00:00",
+  "updated": "2026-10-05T05:06:35+00:00",
   "website": "https://nuitee.com/"
 }

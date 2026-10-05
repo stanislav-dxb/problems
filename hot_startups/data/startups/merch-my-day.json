@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Germany",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "merch-my-day",
+  "industry": "merch",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-02",
+      "run": "2026-10-05-r5",
+      "snippet": "Bootstrapped merch business founded by Luca Montesinos and Justus Stroetmann",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.businessinsider.de/gruenderszene/business/wir-sind-wie-business-twins-so-fand-rapper-montez-seinen-weg-ins-unternehmertum-und-seinen-co-founder/"
+    }
+  ],
+  "name": "Merch My Day",
+  "name_key": "merchmyday",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:08:21+00:00",
+  "website": null
+}

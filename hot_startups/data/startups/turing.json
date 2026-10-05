@@ -1,0 +1,182 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Japan",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "Japan",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.automotiveworld.com/news/japans-turing-partners-with-denso-for-av-deployment/"
+        ],
+        "value": "Tokyo, Japan"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.automotiveworld.com/news/japans-turing-partners-with-denso-for-av-deployment/"
+        ],
+        "value": 2021
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://technews.tw/2026/08/19/japanese-self-driving-startup-turing-is-planning-a-u-s-office-and-eyeing-a-10b-ipo/",
+          "https://thebridge.jp/2026/10/turing-e2e-tokyo-40min-drive-video"
+        ],
+        "value": "Plans a U.S. office and published a 40-minute Tokyo test drive in September 2026."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.automotiveworld.com/news/japans-turing-partners-with-denso-for-av-deployment/",
+          "https://finder.techleap.nl/news/feed/turing-raises-99m-with-denso-s-support"
+        ],
+        "value": "$99M (JP¥15.3bn)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Cars still need a human to handle hard city roads, so Turing builds one AI driver that learns to drive from camera video.",
+    "industry": "Self-driving",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Replace a long chain of hand-built rules with one learned model, and prove it in public.",
+    "name": "Turing",
+    "not_startup_reason": null,
+    "overall": 8.0,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round of $99M and a planned U.S. office",
+        "reason": "No customer or revenue numbers were found.",
+        "score": null,
+        "source": "https://technews.tw/2026/08/19/japanese-self-driving-startup-turing-is-planning-a-u-s-office-and-eyeing-a-10b-ipo/"
+      },
+      "market": {
+        "reason": "Cars and driving are used by almost everyone worldwide.",
+        "score": 9,
+        "source": "https://www.automotiveworld.com/news/japans-turing-partners-with-denso-for-av-deployment/"
+      },
+      "tech": {
+        "reason": "A single learned driving model is a clever edge, though large rivals are racing the same way.",
+        "score": 7,
+        "source": "https://thebridge.jp/2026/10/turing-e2e-tokyo-40min-drive-video"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Japan's Turing partners with Denso for AV deployment",
+        "url": "https://www.automotiveworld.com/news/japans-turing-partners-with-denso-for-av-deployment/"
+      },
+      {
+        "date": null,
+        "title": "Turing raises $99M with Denso's support",
+        "url": "https://finder.techleap.nl/news/feed/turing-raises-99m-with-denso-s-support"
+      },
+      {
+        "date": "2026-10-02",
+        "title": "Turing publishes 40-minute E2E Tokyo drive video",
+        "url": "https://thebridge.jp/2026/10/turing-e2e-tokyo-40min-drive-video"
+      },
+      {
+        "date": "2026-08-19",
+        "title": "Japanese self-driving startup Turing planning US office",
+        "url": "https://technews.tw/2026/08/19/japanese-self-driving-startup-turing-is-planning-a-u-s-office-and-eyeing-a-10b-ipo/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "One end-to-end AI model does the whole drive, and it ran 40 minutes through central Tokyo in one uncut video.",
+    "website": null,
+    "who_pays": "Carmakers and partners such as Denso would pay to use the driving software, and investors fund it today.",
+    "why_now": "Large AI models and big funding rounds now let small teams chase the leaders abroad."
+  },
+  "first_judged_run": "2026-10-05-r5",
+  "first_seen": "2026-10-05",
+  "id": "turing",
+  "industry": "Self-driving",
+  "last_checked": "2026-10-05",
+  "mentions": [
+    {
+      "date": "2026-10-02",
+      "run": "2026-10-05-r5",
+      "snippet": "End-to-end self-driving developer; published 40-minute Tokyo drive video",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://thebridge.jp/2026/10/turing-e2e-tokyo-40min-drive-video"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Tokyo self-driving startup Turing, founded 2021, raised JP¥15.3bn (US$99m).",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Japan's Turing partners with Denso for AV deployment",
+      "url": "https://www.automotiveworld.com/news/japans-turing-partners-with-denso-for-av-deployment/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Series A with JIC Venture Growth and Global Brain.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Turing raises $99M with Denso's support",
+      "url": "https://finder.techleap.nl/news/feed/turing-raises-99m-with-denso-s-support"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Turing plans a U.S. office.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Japanese self-driving startup Turing planning US office",
+      "url": "https://technews.tw/2026/08/19/japanese-self-driving-startup-turing-is-planning-a-u-s-office-and-eyeing-a-10b-ipo/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Turing and Sakana funding.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Japanese AI startups Turing, Sakana secure over $230M",
+      "url": "https://www.folio3.ai/ai-pulse/japanese-ai-startups-turing-sakana-secure-over-usd-230-million"
+    }
+  ],
+  "name": "Turing",
+  "name_key": "turing",
+  "region": "asia",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-turing.txt",
+    "article_url": "https://thebridge.jp/2026/10/turing-e2e-tokyo-40min-drive-video",
+    "judged_run": "2026-10-05-r5",
+    "pages": 1,
+    "queries_done": [
+      "\"Turing\" startup Japan"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": null,
+      "market": 9.0,
+      "overall": 8.0,
+      "run": "2026-10-05-r5",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:23:00+00:00",
+  "website": null
+}

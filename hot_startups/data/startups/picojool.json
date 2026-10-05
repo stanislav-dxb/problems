@@ -1,14 +1,100 @@
 {
   "alias_keys": [],
   "aliases": [],
-  "country": null,
-  "domain": null,
+  "country": "United States",
+  "domain": "picojool.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.vcbacked.co/company/picojool"
+        ],
+        "value": "Palo Alto, United States"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://thebridge.jp/2026/09/picojool-series-a-27-5m-socratic-partners-vcsel"
+        ],
+        "value": "Raised a $27.5M Series A in September 2026, led by Socratic Partners, with Hudson River Trading joining."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://thebridge.jp/2026/09/picojool-series-a-27-5m-socratic-partners-vcsel"
+        ],
+        "value": "$39.5M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "AI computers need to move huge amounts of data between chips, and wires waste power; PicoJool makes tiny lasers and light-based modules that carry the data instead.",
+    "industry": "Photonics",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "When one part of a system becomes the bottleneck, a better version of that single part can become a big business.",
+    "name": "PicoJool",
+    "not_startup_reason": null,
+    "overall": 7.5,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last (Series A of $27.5M, total $39.5M)",
+        "reason": "No customer or revenue numbers are given.",
+        "score": null,
+        "source": "https://thebridge.jp/2026/09/picojool-series-a-27-5m-socratic-partners-vcsel"
+      },
+      "market": {
+        "reason": "Every large AI data center needs fast, low-power links between chips.",
+        "score": 8,
+        "source": "https://thebridge.jp/2026/09/picojool-series-a-27-5m-socratic-partners-vcsel"
+      },
+      "tech": {
+        "reason": "Laser chips and modules with a low-energy parallel design are hard to build, though rivals such as Broadcom and Marvell compete.",
+        "score": 7,
+        "source": "https://www.distillintelligence.com/competitors/picojool"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-28",
+        "title": "AIデータセンター向け光接続のPicoJool、シリーズAで2,750万ドルを調達",
+        "url": "https://thebridge.jp/2026/09/picojool-series-a-27-5m-socratic-partners-vcsel"
+      },
+      {
+        "date": null,
+        "title": "PicoJool on VC Backed",
+        "url": "https://www.vcbacked.co/company/picojool"
+      },
+      {
+        "date": null,
+        "title": "PicoJool competitors",
+        "url": "https://www.distillintelligence.com/competitors/picojool"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its microVCSEL lasers use many small beams side by side to carry more data while using less energy per bit.",
+    "website": "https://www.picojool.com",
+    "who_pays": "Makers of AI chips and data center equipment buy the lasers and modules.",
+    "why_now": "Bigger AI models spread work over many chips, so the links between chips now limit speed and eat the data center power budget."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-28",
   "id": "picojool",
-  "industry": "photonics / AI data center interconnect",
-  "last_checked": null,
+  "industry": "Photonics",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-09-28",
@@ -18,18 +104,61 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://thebridge.jp/2026/09/picojool-series-a-27-5m-socratic-partners-vcsel"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "PicoJool, Palo Alto photonics startup; $12.0M raised.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "www.vcbacked.co",
+      "url": "https://www.vcbacked.co/company/picojool"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "PicoJool funding profile.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "picojool picojool com funding",
+      "url": "https://fundediq.co/picojool-picojool-com-funding/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Competitors include Broadcom, Marvell, POET Technologies.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "PicoJool competitors",
+      "url": "https://www.distillintelligence.com/competitors/picojool"
     }
   ],
   "name": "PicoJool",
   "name_key": "picojool",
-  "region": null,
+  "region": "north_america",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-picojool.txt",
+    "article_url": "https://thebridge.jp/2026/09/picojool-series-a-27-5m-socratic-partners-vcsel",
+    "judged_run": "2026-10-05-r5",
+    "pages": 1,
+    "queries_done": [
+      "\"PicoJool\" startup"
+    ],
+    "refresh": false,
+    "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:09:01+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": null,
+      "market": 8.0,
+      "overall": 7.5,
+      "run": "2026-10-05-r5",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:28:38+00:00",
+  "website": "https://www.picojool.com"
 }

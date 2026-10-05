@@ -4,11 +4,115 @@
   "country": "Germany",
   "domain": "business.simpleclub.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Germany",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.munich-startup.de/en/startups/simpleclub-gmbh/",
+          "https://www.startbase.com/organization/simpleclub/"
+        ],
+        "value": "Munich, Germany"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.munich-startup.de/en/83838/series-a-financing-simpleclub/",
+          "https://www.munich-startup.de/en/78285/new-funding-for-edtech-startup-simpleclub/"
+        ],
+        "value": "Several funding rounds over the years."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.munich-startup.de/en/83838/series-a-financing-simpleclub/",
+          "https://www.startbase.com/news/weitere-4-mio-euro-fuer-simpleclub/"
+        ],
+        "value": "EUR 7M Series A, plus earlier rounds (total unknown)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Students find school and training hard to follow, so simpleclub offers learning apps with short videos and practice, and now sells training to businesses.",
+    "industry": "Edtech",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Win over users with a product they love, then sell the same skill to businesses.",
+    "name": "simpleclub",
+    "not_startup_reason": null,
+    "overall": 5.5,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: repeated funding rounds",
+        "reason": "No user or revenue numbers found, but it has raised several rounds.",
+        "score": null,
+        "source": "https://www.munich-startup.de/en/83838/series-a-financing-simpleclub/"
+      },
+      "market": {
+        "reason": "Education and staff training are real markets, though language and country focus limit reach.",
+        "score": 6,
+        "source": "https://www.munich-startup.de/en/startups/simpleclub-gmbh/"
+      },
+      "tech": {
+        "reason": "Good learning content and apps, but a strong team could copy the approach in months.",
+        "score": 5,
+        "source": "https://www.munich-startup.de/en/startups/simpleclub-gmbh/"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "simpleclub GmbH - Munich Startup",
+        "url": "https://www.munich-startup.de/en/startups/simpleclub-gmbh/"
+      },
+      {
+        "date": null,
+        "title": "7 million euros for Edtech startup Simpleclub",
+        "url": "https://www.munich-startup.de/en/83838/series-a-financing-simpleclub/"
+      },
+      {
+        "date": null,
+        "title": "Another 4 million euros for simpleclub",
+        "url": "https://www.startbase.com/news/weitere-4-mio-euro-fuer-simpleclub/"
+      },
+      {
+        "date": null,
+        "title": "New financing for Edtech startup Simpleclub",
+        "url": "https://www.munich-startup.de/en/78285/new-funding-for-edtech-startup-simpleclub/"
+      },
+      {
+        "date": null,
+        "title": "simpleclub (simpleclub GmbH)",
+        "url": "https://www.startbase.com/organization/simpleclub/"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It started as a study app for students and carries that simple, student-style teaching into company training.",
+    "website": "https://business.simpleclub.com/",
+    "who_pays": "Students pay for the app, and companies pay for the business training product.",
+    "why_now": "Companies need to train staff fast, and people are used to learning from short videos on their phones."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-16",
   "id": "business-simpleclub-com",
-  "industry": "HR Tech",
-  "last_checked": null,
+  "industry": "Edtech",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -108,25 +212,45 @@
       "source_kind": "research",
       "title": "simpleclub - Crunchbase Company Profile & Funding",
       "url": "https://www.crunchbase.com/organization/simpleclub"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "HR Tech startup from Germany in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
     }
   ],
   "name": "simpleclub",
   "name_key": "simpleclub",
-  "region": null,
+  "region": "europe",
   "research": {
     "article_read": true,
     "article_text": "/home/user/repo/hot_startups/cache/article-business-simpleclub-com.txt",
     "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-05-r5",
     "pages": 2,
     "queries_done": [
       "\"simpleclub\" startup Germany"
     ],
+    "refresh": false,
     "searches": 1,
     "site_read": true,
     "site_text": "/home/user/repo/hot_startups/cache/site-business-simpleclub-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:28:21+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": null,
+      "market": 6.0,
+      "overall": 5.5,
+      "run": "2026-10-05-r5",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:26:16+00:00",
   "website": "https://business.simpleclub.com/"
 }

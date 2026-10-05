@@ -670,9 +670,11 @@ def _plan_synthesis(cfg: dict, store: Store, run: dict) -> list[dict]:
         if step in ("gaps", "brief"):
             payload["trends"] = st.get("trends_result", [])
         if step == "brief":
-            new_ids = set(run["new_ids"])
-            payload["numbers"] = {"on_the_list": min(len(entries), int(cfg["page"]["top_n"])), "new_this_week": len([e for e in entries if e["id"] in new_ids]), "trends": len(st.get("trends_result", []))}
-            payload["newcomers"] = [e for e in entries if e["id"] in new_ids][:10]
+            # count only what the page will show: newcomers ranked below top_n are not on it
+            on_page = {r["id"] for r in _ranked(store)[: int(cfg["page"]["top_n"])]}
+            newcomers = [e for e in entries if e["id"] in on_page and e["id"] in set(run["new_ids"])]
+            payload["numbers"] = {"on_the_list": len(on_page), "new_this_week": len(newcomers), "trends": len(st.get("trends_result", []))}
+            payload["newcomers"] = newcomers[:10]
         return [_issue(store, run, payload, None)]
     run["phase"] = "done"
     return []
@@ -903,13 +905,19 @@ def _take_brief(cfg, sources, store, run, task, result) -> str:
 # ---------------------------------------------------------------------------
 # finishing: the week file the page is built from
 # ---------------------------------------------------------------------------
-def finish_run(cfg: dict, store: Store, run: dict) -> dict:
+def _ranked(store: Store) -> list[dict]:
+    """Every judged startup with a score, best first: the page shows the first top_n."""
     entries = []
     for rec in store.startups().values():
         e = rec.get("entry")
         if rec["status"] == "judged" and e and e.get("is_startup") and e.get("overall") is not None:
             entries.append(rec)
     entries.sort(key=lambda r: (r["entry"]["overall"], r.get("first_judged_run") or ""), reverse=True)
+    return entries
+
+
+def finish_run(cfg: dict, store: Store, run: dict) -> dict:
+    entries = _ranked(store)
     top = entries[: int(cfg["page"]["top_n"])]
     mix: dict[str, int] = {}
     for r in top:

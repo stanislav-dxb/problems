@@ -4,11 +4,110 @@
   "country": "United Kingdom",
   "domain": "aspora.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2025/06/london-based-aspora-secures-e802-million-over-six-months-to-scale-diaspora-banking-solutions-globally/",
+          "https://www.vestbee.com/insights/articles/aspora-secures-93-m"
+        ],
+        "value": "London, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2025/06/london-based-aspora-secures-e802-million-over-six-months-to-scale-diaspora-banking-solutions-globally/",
+          "https://vivatech.com/news/top-100-rising-startups-of-2026"
+        ],
+        "value": "Raised EUR 80.2M in six months; named in VivaTech Top 100 Rising European Startups 2026."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.vestbee.com/insights/articles/aspora-secures-93-m",
+          "https://builtinlondon.uk/articles/aspora-secures-53m-in-series-b-funding-20250616"
+        ],
+        "value": "$93M across rounds, including a $53M Series B (June 2025)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "People from India who live abroad struggle to send and manage money across borders, so Aspora gives them one account that works in many countries.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Pick one group with a shared, expensive problem and serve them better than the big banks do.",
+    "name": "Aspora",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last",
+        "reason": "Fast fundraising and a Series B bigger than earlier rounds, but no user numbers in the dossier.",
+        "score": 7,
+        "source": "https://www.eu-startups.com/2025/06/london-based-aspora-secures-e802-million-over-six-months-to-scale-diaspora-banking-solutions-globally/"
+      },
+      "market": {
+        "reason": "Tens of millions of people in the Indian diaspora move money across borders.",
+        "score": 8,
+        "source": "https://www.vestbee.com/insights/articles/aspora-secures-93-m"
+      },
+      "tech": {
+        "reason": "Solid banking and payments engineering, but a good team could copy it.",
+        "score": 5,
+        "source": "https://www.ycombinator.com/companies/aspora"
+      }
+    },
+    "sources": [
+      {
+        "date": "2025-06-16",
+        "title": "Aspora Secures $53M Series B",
+        "url": "https://builtinlondon.uk/articles/aspora-secures-53m-in-series-b-funding-20250616"
+      },
+      {
+        "date": null,
+        "title": "Aspora secures $93M",
+        "url": "https://www.vestbee.com/insights/articles/aspora-secures-93-m"
+      },
+      {
+        "date": "2025-06-01",
+        "title": "Aspora secures EUR 80.2 million",
+        "url": "https://www.eu-startups.com/2025/06/london-based-aspora-secures-e802-million-over-six-months-to-scale-diaspora-banking-solutions-globally/"
+      },
+      {
+        "date": null,
+        "title": "Aspora | Y Combinator",
+        "url": "https://www.ycombinator.com/companies/aspora"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising Startups 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It is built only for the Indian diaspora, not for everyone.",
+    "website": "https://aspora.com",
+    "who_pays": "Customers pay small fees on money transfers and banking products.",
+    "why_now": "Millions of Indians live abroad and send money home, and digital banking now makes a cross-border account cheap to run."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-16",
   "id": "aspora-com",
-  "industry": "FinTech",
-  "last_checked": null,
+  "industry": "Fintech",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -108,25 +207,45 @@
       "source_kind": "research",
       "title": "Aspora – Venture Up",
       "url": "https://venture-up.co.uk/case-studies/aspora/"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "FinTech startup from UK in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
     }
   ],
   "name": "Aspora",
   "name_key": "aspora",
-  "region": null,
+  "region": "europe",
   "research": {
     "article_read": true,
     "article_text": "/home/user/repo/hot_startups/cache/article-aspora-com.txt",
     "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-05-r5",
     "pages": 2,
     "queries_done": [
       "\"Aspora\" startup United Kingdom"
     ],
+    "refresh": false,
     "searches": 1,
     "site_read": true,
     "site_text": "/home/user/repo/hot_startups/cache/site-aspora-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:32:58+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 7.0,
+      "market": 8.0,
+      "overall": 6.7,
+      "run": "2026-10-05-r5",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:09:25+00:00",
   "website": "https://aspora.com"
 }

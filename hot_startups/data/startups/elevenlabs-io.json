@@ -127,6 +127,33 @@
       "source_kind": "list",
       "title": "",
       "url": "https://www.elevenlabs.io"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "AI Creation Tools startup from UK in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "2026-09-30",
+      "run": "2026-10-05-r5",
+      "snippet": "AI voice startup; valuation doubled to $22B via $300M employee tender",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/"
+    },
+    {
+      "date": "2026-10-01",
+      "run": "2026-10-05-r5",
+      "snippet": "Valuation raised to $22B",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://webrazzi.com/2026/10/01/elevenlabsin-degerlemesi-22-milyar-dolara-yukseldi/"
     }
   ],
   "name": "ElevenLabs",
@@ -150,6 +177,6 @@
     }
   ],
   "status": "judged",
-  "updated": "2026-09-28T02:03:00+00:00",
+  "updated": "2026-10-05T05:08:22+00:00",
   "website": "https://www.elevenlabs.io"
 }

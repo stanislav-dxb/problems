@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "South Africa",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "walletdoc",
+  "industry": "payments",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-01",
+      "run": "2026-10-05-r5",
+      "snippet": "Launches Visa Payment Passkeys for local merchants",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://disruptafrica.com/2026/10/01/sas-walletdoc-launches-visa-payment-passkeys-for-safer-frictionless-online-checkout/"
+    }
+  ],
+  "name": "Walletdoc",
+  "name_key": "walletdoc",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:08:21+00:00",
+  "website": null
+}

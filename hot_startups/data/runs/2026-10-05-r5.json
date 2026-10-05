@@ -1,0 +1,1645 @@
+{
+  "counts": {
+    "extractions": 6,
+    "feeds_read": 29,
+    "judged": 60,
+    "pages": 86,
+    "searches": 57,
+    "synthesis": 3
+  },
+  "failures": [
+    {
+      "at": "2026-10-05T05:09:44+00:00",
+      "error": "http 403",
+      "url": "https://nivoda.net/",
+      "what": "company site (direct)"
+    },
+    {
+      "at": "2026-10-05T05:11:09+00:00",
+      "error": "http 429",
+      "url": "https://shotgun.live/",
+      "what": "company site (direct)"
+    },
+    {
+      "at": "2026-10-05T05:12:19+00:00",
+      "error": "almost no text",
+      "url": "https://www.techinasia.com/tales-as-old-as-time",
+      "what": "article (direct)"
+    },
+    {
+      "at": "2026-10-05T05:14:44+00:00",
+      "error": "almost no text",
+      "url": "https://thelaundrylady.com.au/",
+      "what": "company site (direct)"
+    },
+    {
+      "at": "2026-10-05T05:18:41+00:00",
+      "error": "almost no text",
+      "url": "https://www.techinasia.com/tales-as-old-as-time",
+      "what": "article (direct)"
+    },
+    {
+      "at": "2026-10-05T05:18:43+00:00",
+      "error": "http 403",
+      "url": "https://yourstory.com/2026/10/quantum-world-ventures-looks-to-move-the-technology-beyond-the-lab",
+      "what": "article (direct)"
+    },
+    {
+      "at": "2026-10-05T05:19:40+00:00",
+      "error": "http 403",
+      "url": "https://www.enveda.com",
+      "what": "company site (direct)"
+    },
+    {
+      "at": "2026-10-05T05:19:43+00:00",
+      "error": "ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)",
+      "url": "https://www.softdel.com",
+      "what": "company site (direct)"
+    },
+    {
+      "at": "2026-10-05T05:20:54+00:00",
+      "error": "http 403",
+      "url": "https://yourstory.com/2026/10/vc-money-is-pouring-into-indian-startups",
+      "what": "article (direct)"
+    },
+    {
+      "at": "2026-10-05T05:23:11+00:00",
+      "error": "almost no text",
+      "url": "https://www.techinasia.com/oracle-openai-drop-texas-ai-data-center-expansion-plan",
+      "what": "article (direct)"
+    },
+    {
+      "at": "2026-10-05T05:23:16+00:00",
+      "error": "almost no text",
+      "url": "https://www.techinasia.com/agents-humans-picked-100b-company",
+      "what": "article (direct)"
+    }
+  ],
+  "finished": "2026-10-05T05:34:00+00:00",
+  "first_run": false,
+  "id": "2026-10-05-r5",
+  "judged_ids": [
+    "kinoxis-therapeutics",
+    "ovum",
+    "aspora-com",
+    "flow-engineering",
+    "dust-tt",
+    "skello-io",
+    "nivoda-net",
+    "lap-coffee",
+    "summize-com",
+    "erad",
+    "voize-de",
+    "tryriot-com",
+    "jeeves",
+    "paymob",
+    "hellojoko-com",
+    "fresha-com",
+    "ordereat",
+    "precision",
+    "huspy",
+    "medcast",
+    "the-laundry-lady",
+    "asklio-ai",
+    "flatpay-com",
+    "makersite-io",
+    "langdock-com",
+    "zefir-fr",
+    "stoik-com",
+    "enveda",
+    "eon-space-labs",
+    "simple-energy",
+    "softdel",
+    "turing",
+    "nothing-tech",
+    "kota-io",
+    "stravito-com",
+    "trace-space",
+    "eliseai",
+    "arvore",
+    "crusoe",
+    "rivet",
+    "neviswealth-com",
+    "ema",
+    "light-inc",
+    "supabase",
+    "business-simpleclub-com",
+    "synthesia-io",
+    "reco",
+    "amp-ai",
+    "turbo-law",
+    "truelayer-com",
+    "volantis",
+    "picojool",
+    "armadin",
+    "gathern",
+    "leadsynbio",
+    "numeral",
+    "mot",
+    "sohoai",
+    "prolific-co",
+    "halluminate"
+  ],
+  "limits": {
+    "pages_per_week": 200,
+    "run_minutes": 90,
+    "searches_per_week": 250,
+    "startups_judged_per_week": 60
+  },
+  "log": [
+    "2026-10-05T05:06:51+00:00 phase -> feeds",
+    "2026-10-05T05:07:17+00:00 feeds: 29 read, 186 entries kept, 233 skipped as not startup news",
+    "2026-10-05T05:08:32+00:00 phase -> discovery",
+    "2026-10-05T05:08:32+00:00 discovery skipped: 366 startups already waiting to be judged (limit 100)",
+    "2026-10-05T05:08:32+00:00 phase -> research",
+    "2026-10-05T05:31:37+00:00 phase -> struggling",
+    "2026-10-05T05:32:48+00:00 phase -> synthesis"
+  ],
+  "minutes": 28.1,
+  "new_ids": [
+    "kinoxis-therapeutics",
+    "ovum",
+    "aspora-com",
+    "flow-engineering",
+    "dust-tt",
+    "skello-io",
+    "nivoda-net",
+    "lap-coffee",
+    "summize-com",
+    "erad",
+    "voize-de",
+    "tryriot-com",
+    "jeeves",
+    "paymob",
+    "hellojoko-com",
+    "fresha-com",
+    "ordereat",
+    "precision",
+    "huspy",
+    "medcast",
+    "the-laundry-lady",
+    "asklio-ai",
+    "flatpay-com",
+    "makersite-io",
+    "langdock-com",
+    "zefir-fr",
+    "stoik-com",
+    "enveda",
+    "eon-space-labs",
+    "simple-energy",
+    "softdel",
+    "turing",
+    "nothing-tech",
+    "kota-io",
+    "stravito-com",
+    "trace-space",
+    "arvore",
+    "crusoe",
+    "rivet",
+    "neviswealth-com",
+    "ema",
+    "light-inc",
+    "supabase",
+    "business-simpleclub-com",
+    "synthesia-io",
+    "reco",
+    "turbo-law",
+    "truelayer-com",
+    "volantis",
+    "picojool",
+    "armadin",
+    "gathern",
+    "leadsynbio",
+    "numeral",
+    "mot",
+    "sohoai",
+    "prolific-co",
+    "halluminate"
+  ],
+  "next_ticket": 133,
+  "number": 5,
+  "phase": "done",
+  "phase_state": {
+    "discovery": {
+      "skipped": true
+    },
+    "feeds": {
+      "batches": 5,
+      "fetched": true,
+      "skipped_entries": 233,
+      "total_entries": 186
+    },
+    "lists": {
+      "https://vivatech.com/news/top-100-rising-startups-of-2026": "read"
+    },
+    "research": {
+      "refresh_ids": [],
+      "refresh_selected": true
+    },
+    "struggling": {
+      "issued": 6,
+      "items": [
+        {
+          "country": "unknown",
+          "name": "Entropy",
+          "sector": "crypto",
+          "source_url": "https://cryptojobslist.com/crypto-layoffs/entropy-2026-01",
+          "what": "shut_down",
+          "why": "The a16z-backed crypto startup is shutting down and refunding investors."
+        },
+        {
+          "country": "Nigeria",
+          "name": "Glover App",
+          "sector": "fintech",
+          "source_url": "https://nairametrics.com/2026/07/17/glover-app-announces-orderly-wind-down-of-operations/",
+          "what": "shut_down",
+          "why": "It announced an orderly wind down, ending trading July 27, 2026 and ceasing operations July 31."
+        },
+        {
+          "country": "unknown",
+          "name": "ABFinance",
+          "sector": "crypto",
+          "source_url": "https://bitcoinethereumnews.com/?p=2788768",
+          "what": "shut_down",
+          "why": "The ex-Bybit co-CEO's startup scrapped its launch and is winding down in an orderly manner."
+        },
+        {
+          "country": "India",
+          "name": "Koo",
+          "sector": "social media",
+          "source_url": "https://www.infomoney.com.br/?p=2518737",
+          "what": "shut_down",
+          "why": "The social network announced the shutdown of its operations."
+        },
+        {
+          "country": "Colombia",
+          "name": "Frubana",
+          "sector": "food e-commerce",
+          "source_url": "https://gironews.com/varejo-digital/startup-colombiana-frubana-encerra-atividades-no-brasil/",
+          "what": "shut_down",
+          "why": "The Colombian startup ended its operations in Brazil on July 30."
+        },
+        {
+          "country": "Brazil",
+          "name": "Mercado Diferente",
+          "sector": "e-commerce",
+          "source_url": "https://startups.com.br/negocios/exclusivo-mercado-diferente-encerra-a-operacao-dia-21-de-dezembro/",
+          "what": "shut_down",
+          "why": "It announced it will end operations on December 21."
+        },
+        {
+          "country": "Indonesia",
+          "name": "Pitik",
+          "sector": "agritech",
+          "source_url": "https://dealstreetasia.com/stories/pitik-ceases-operations-403415",
+          "what": "shut_down",
+          "why": "The Indonesian poultry startup ceased operations."
+        },
+        {
+          "country": "Singapore",
+          "name": "Tessa Therapeutics",
+          "sector": "biotech",
+          "source_url": "https://endpts.com/singapore-cancer-cell-therapy-startup-tessa-therapeutics-to-shut-down/",
+          "what": "shut_down",
+          "why": "The Singapore cancer cell therapy startup is shutting down."
+        },
+        {
+          "country": "India",
+          "name": "ZestMoney",
+          "sector": "fintech",
+          "source_url": "https://inc42.com/?p=430270",
+          "what": "shut_down",
+          "why": "Once valued at $450 million, it will shut down by the end of December."
+        },
+        {
+          "country": "United Arab Emirates",
+          "name": "DoubleCloud",
+          "sector": "cloud software",
+          "source_url": "https://me.peoplemattersglobal.com/news/business/dubai-based-doublecloud-shuts-down-operations-43074",
+          "what": "shut_down",
+          "why": "The Dubai-based company shut down its operations."
+        },
+        {
+          "country": "United States",
+          "name": "Bowery Farming",
+          "sector": "indoor farming",
+          "source_url": "https://techcrunch.com/?p=2910520",
+          "what": "shut_down",
+          "why": "The indoor farming startup shut down."
+        },
+        {
+          "country": "United States",
+          "name": "80 Acres Farms",
+          "sector": "indoor farming",
+          "source_url": "https://agroempresario.com/publicacion/120802/indoor-ag-heavyweight-80-acres-farms-to-cease-operations/",
+          "what": "shut_down",
+          "why": "It will cease all operations on August 3, 2026."
+        }
+      ],
+      "results": [
+        {
+          "query": "startup winds down operations October 2026",
+          "snippet": "Entropy, an a16z-backed crypto startup, is shutting down and refunding investors.",
+          "title": "entropy 2026 01",
+          "url": "https://cryptojobslist.com/crypto-layoffs/entropy-2026-01"
+        },
+        {
+          "query": "startup winds down operations October 2026",
+          "snippet": "Glover App to end trading July 27, 2026 and cease operations July 31.",
+          "title": "glover app announces orderly wind down of operations",
+          "url": "https://nairametrics.com/2026/07/17/glover-app-announces-orderly-wind-down-of-operations/"
+        },
+        {
+          "query": "startup winds down operations October 2026",
+          "snippet": "ABFinance is winding down in an orderly manner.",
+          "title": "Ex-Bybit co-CEO's ABFinance scraps launch amid 2026 shutdown wave",
+          "url": "https://bitcoinethereumnews.com/?p=2788768"
+        },
+        {
+          "query": "startup winds down operations October 2026",
+          "snippet": "",
+          "title": "gaming startup winds down operations promises new life for players",
+          "url": "https://roundtable.io/tech/gaming-startup-winds-down-operations-promises-new-life-for-players"
+        },
+        {
+          "query": "Startup Insolvenz Oktober 2026",
+          "snippet": "Weekly tracker of the largest startup and company insolvencies in 2026.",
+          "title": "insolvenz ticker 2026 das sind die groessten pleiten von jungfirmen und unternehmen",
+          "url": "https://www.trendingtopics.eu/insolvenz-ticker-2026-das-sind-die-groessten-pleiten-von-jungfirmen-und-unternehmen/"
+        },
+        {
+          "query": "Startup Insolvenz Oktober 2026",
+          "snippet": "Startup insolvency news.",
+          "title": "startbase Insolvenzen",
+          "url": "https://www.startbase.de/tag/insolvenzen/"
+        },
+        {
+          "query": "Startup Insolvenz Oktober 2026",
+          "snippet": "What startups can do in insolvency.",
+          "title": "Munich Startup",
+          "url": "https://www.munich-startup.de/100920/startups-und-insolvenz-das-koennt-ihr-tun/"
+        },
+        {
+          "query": "Startup Insolvenz Oktober 2026",
+          "snippet": "An end to the AI boom could trigger about 4,000 additional insolvencies in Germany.",
+          "title": "Ende des Booms um Künstliche Intelligenz",
+          "url": "https://www.it-daily.net/?p=161795"
+        },
+        {
+          "query": "startup encerra operações outubro de 2026",
+          "snippet": "Koo announces shutdown.",
+          "title": "Rede social Koo anuncia encerramento de suas operações",
+          "url": "https://www.infomoney.com.br/?p=2518737"
+        },
+        {
+          "query": "startup encerra operações outubro de 2026",
+          "snippet": "Frubana ended operations in Brazil on July 30.",
+          "title": "startup colombiana frubana encerra atividades no brasil",
+          "url": "https://gironews.com/varejo-digital/startup-colombiana-frubana-encerra-atividades-no-brasil/"
+        },
+        {
+          "query": "startup encerra operações outubro de 2026",
+          "snippet": "",
+          "title": "exclusivo mercado diferente encerra a operacao dia 21 de dezembro",
+          "url": "https://startups.com.br/negocios/exclusivo-mercado-diferente-encerra-a-operacao-dia-21-de-dezembro/"
+        },
+        {
+          "query": "スタートアップ 事業停止 2026年10月",
+          "snippet": "SimpleClosure supported more dissolutions in H1 2026; AI firms were 14.4% of closures.",
+          "title": "shutdown h1 2026",
+          "url": "https://simpleclosure.com/blog/insights/state-of-shutdowns-h1-2026"
+        },
+        {
+          "query": "スタートアップ 事業停止 2026年10月",
+          "snippet": "Indonesian poultry startup Pitik ceased operations.",
+          "title": "pitik ceases operations",
+          "url": "https://dealstreetasia.com/stories/pitik-ceases-operations-403415"
+        },
+        {
+          "query": "スタートアップ 事業停止 2026年10月",
+          "snippet": "",
+          "title": "Singapore cancer cell therapy startup Tessa Therapeutics to shut down",
+          "url": "https://endpts.com/singapore-cancer-cell-therapy-startup-tessa-therapeutics-to-shut-down/"
+        },
+        {
+          "query": "初创公司 倒闭 停止运营 2026年10月",
+          "snippet": "Once valued at $450 Mn, ZestMoney to shut down by Dec-end.",
+          "title": "ZestMoney shutdown",
+          "url": "https://inc42.com/?p=430270"
+        },
+        {
+          "query": "初创公司 倒闭 停止运营 2026年10月",
+          "snippet": "",
+          "title": "shutdown h1 2026",
+          "url": "https://simpleclosure.com/blog/insights/state-of-shutdowns-h1-2026"
+        },
+        {
+          "query": "初创公司 倒闭 停止运营 2026年10月",
+          "snippet": "More than 60 crypto projects closed in 2026; BitMEX shutting Sept 23.",
+          "title": "aicoin article",
+          "url": "https://www.aicoin.com/zh-Hans/article/546444"
+        },
+        {
+          "query": "初创公司 倒闭 停止运营 2026年10月",
+          "snippet": "",
+          "title": "doublecloud shuts down operations",
+          "url": "https://me.peoplemattersglobal.com/news/business/dubai-based-doublecloud-shuts-down-operations-43074"
+        },
+        {
+          "query": "startup ferme ses portes octobre 2026",
+          "snippet": "Indoor farming startup shutdown.",
+          "title": "Bowery Farming",
+          "url": "https://techcrunch.com/?p=2910520"
+        },
+        {
+          "query": "startup ferme ses portes octobre 2026",
+          "snippet": "80 Acres Farms to cease all operations August 3, 2026.",
+          "title": "80 Acres Farms to cease operations",
+          "url": "https://agroempresario.com/publicacion/120802/indoor-ag-heavyweight-80-acres-farms-to-cease-operations/"
+        },
+        {
+          "query": "startup ferme ses portes octobre 2026",
+          "snippet": "Gro Intelligence closing.",
+          "title": "techcabal",
+          "url": "https://techcabal.com/fr/?p=134998"
+        },
+        {
+          "query": "startup ferme ses portes octobre 2026",
+          "snippet": "",
+          "title": "presse-citron fermeture",
+          "url": "https://www.presse-citron.net/tag/fermeture/"
+        }
+      ],
+      "ticket": "done"
+    },
+    "synthesis": {
+      "brief": "done",
+      "brief_result": "This week 11 new startups joined the list, which now has 50 companies on it. The strongest newcomer is Precision Neuroscience, which makes a thin brain implant that reads brain signals to help people with paralysis control computers, and it shows that a gentler version of a scary technology can reach patients sooner. The trend of the week is security for the AI era, with startups building tools that find, watch and control the new risks created by cloud, data and AI agents.",
+      "gaps": "done",
+      "gaps_result": [
+        "Nobody serves the physical trades or construction: Maven Robotics and Dexory automate warehouses, but a robot or AI tool for site inspection, plumbing or electrical work is an open niche.",
+        "No entry targets Africa, South Asia or Latin American health: Aqemia, Enveda and Evvy are all in rich markets, so a low-cost AI diagnostic or drug-discovery tool built for tropical diseases or local clinics is missing.",
+        "Nothing combines AI note-taking with other regulated professions: Nabla, Tandem Health and Lawhive cover doctors and lawyers, but social workers, teachers and insurance adjusters drown in the same paperwork.",
+        "Agriculture and climate lack AI-science players: CuspAI and Cradle design materials and proteins, but nobody uses that method for crop traits, soil microbes or fertiliser alternatives alongside xFarm's farm data.",
+        "Security for physical and critical infrastructure is thin: Exein and Reco secure devices and AI agents, but no one pairs this with ports, water utilities or power grids, which Mazama Energy and Crusoe will make more AI-dependent."
+      ],
+      "trends": "done",
+      "trends_result": [
+        {
+          "name": "Security for the AI era",
+          "sentence": "Startups build cybersecurity tools that find, watch and control risks created by cloud, data and AI agents.",
+          "startup_ids": [
+            "aikido-dev",
+            "armadin",
+            "cyera",
+            "cymphony",
+            "exein-io",
+            "filigran-io",
+            "island",
+            "reco",
+            "stoik-com",
+            "upwind"
+          ]
+        },
+        {
+          "name": "Hardware for the AI boom",
+          "sentence": "Startups remove physical bottlenecks in AI computing, from chips and light-based links to networking and data centers.",
+          "startup_ids": [
+            "ayar-labs",
+            "picojool",
+            "axelera-ai",
+            "crusoe",
+            "nscale",
+            "cornelis-networks",
+            "runware-ai",
+            "volantis",
+            "verifaix"
+          ]
+        },
+        {
+          "name": "AI agents doing whole jobs",
+          "sentence": "Startups package AI as agents or easy tools that carry out complete tasks like coding, calls, hiring and automation.",
+          "startup_ids": [
+            "cognition",
+            "factory",
+            "ema",
+            "jackandjill-ai",
+            "n8n-io",
+            "synthflow-ai",
+            "lovable-dev",
+            "elevenlabs-io"
+          ]
+        },
+        {
+          "name": "AI for science discovery",
+          "sentence": "Startups point AI at slow lab searches to find new drugs, proteins, materials and faster engineering designs.",
+          "startup_ids": [
+            "aqemia-com",
+            "basecamp-research",
+            "cradle-bio",
+            "cusp-ai",
+            "enveda",
+            "physicsx-ai"
+          ]
+        },
+        {
+          "name": "Space and defense hardware",
+          "sentence": "Startups build satellites, capsules, drones and planning software for government and defense customers.",
+          "startup_ids": [
+            "exploration-space",
+            "tekever",
+            "kepler",
+            "open-cosmos",
+            "mbryonics",
+            "comand-ai"
+          ]
+        },
+        {
+          "name": "AI note-taking for clinicians",
+          "sentence": "Startups use AI to cut doctors' paperwork by writing notes and reports from visits and scans.",
+          "startup_ids": [
+            "nabla-com",
+            "tandemhealth-ai",
+            "epsilon-health"
+          ]
+        }
+      ]
+    }
+  },
+  "started": "2026-10-05T05:05:54+00:00",
+  "tickets": {
+    "t001": {
+      "counted": null,
+      "issued": "2026-10-05T05:06:01+00:00",
+      "key": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+      "status": "done",
+      "submitted": "2026-10-05T05:06:35+00:00",
+      "type": "extract"
+    },
+    "t002": {
+      "counted": "pages",
+      "issued": "2026-10-05T05:07:17+00:00",
+      "key": "feeds-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:08:21+00:00",
+      "type": "extract"
+    },
+    "t003": {
+      "counted": "pages",
+      "issued": "2026-10-05T05:07:17+00:00",
+      "key": "feeds-2",
+      "status": "done",
+      "submitted": "2026-10-05T05:08:21+00:00",
+      "type": "extract"
+    },
+    "t004": {
+      "counted": "pages",
+      "issued": "2026-10-05T05:07:17+00:00",
+      "key": "feeds-3",
+      "status": "done",
+      "submitted": "2026-10-05T05:08:21+00:00",
+      "type": "extract"
+    },
+    "t005": {
+      "counted": "pages",
+      "issued": "2026-10-05T05:07:17+00:00",
+      "key": "feeds-4",
+      "status": "done",
+      "submitted": "2026-10-05T05:08:21+00:00",
+      "type": "extract"
+    },
+    "t006": {
+      "counted": "pages",
+      "issued": "2026-10-05T05:07:17+00:00",
+      "key": "feeds-5",
+      "status": "done",
+      "submitted": "2026-10-05T05:08:22+00:00",
+      "type": "extract"
+    },
+    "t007": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:08:32+00:00",
+      "key": "judge-kinoxis-therapeutics",
+      "status": "done",
+      "submitted": "2026-10-05T05:09:25+00:00",
+      "type": "judge"
+    },
+    "t008": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:08:32+00:00",
+      "key": "judge-ovum",
+      "status": "done",
+      "submitted": "2026-10-05T05:09:25+00:00",
+      "type": "judge"
+    },
+    "t009": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:08:32+00:00",
+      "key": "judge-aspora-com",
+      "status": "done",
+      "submitted": "2026-10-05T05:09:25+00:00",
+      "type": "judge"
+    },
+    "t010": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:08:32+00:00",
+      "key": "research-flow-engineering-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:09:25+00:00",
+      "type": "research_search"
+    },
+    "t011": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:08:32+00:00",
+      "key": "research-emma-learn-com-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:09:26+00:00",
+      "type": "research_search"
+    },
+    "t012": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:08:32+00:00",
+      "key": "research-dust-tt-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:09:26+00:00",
+      "type": "research_search"
+    },
+    "t013": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:08:32+00:00",
+      "key": "research-nivoda-net-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:09:26+00:00",
+      "type": "research_search"
+    },
+    "t014": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:08:32+00:00",
+      "key": "research-summize-com-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:09:26+00:00",
+      "type": "research_search"
+    },
+    "t015": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:09:41+00:00",
+      "key": "judge-flow-engineering",
+      "status": "done",
+      "submitted": "2026-10-05T05:10:54+00:00",
+      "type": "judge"
+    },
+    "t016": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:09:43+00:00",
+      "key": "judge-dust-tt",
+      "status": "done",
+      "submitted": "2026-10-05T05:10:54+00:00",
+      "type": "judge"
+    },
+    "t017": {
+      "counted": null,
+      "issued": "2026-10-05T05:09:44+00:00",
+      "key": "site-nivoda-net",
+      "status": "done",
+      "submitted": "2026-10-05T05:10:54+00:00",
+      "type": "fetch"
+    },
+    "t018": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:09:44+00:00",
+      "key": "judge-skello-io",
+      "status": "done",
+      "submitted": "2026-10-05T05:10:55+00:00",
+      "type": "judge"
+    },
+    "t019": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:09:47+00:00",
+      "key": "research-voize-de-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:10:55+00:00",
+      "type": "research_search"
+    },
+    "t020": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:09:47+00:00",
+      "key": "research-shotgun-live-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:10:55+00:00",
+      "type": "research_search"
+    },
+    "t021": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:09:47+00:00",
+      "key": "research-granola-ai-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:10:55+00:00",
+      "type": "research_search"
+    },
+    "t022": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:09:47+00:00",
+      "key": "research-armadin-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:10:55+00:00",
+      "type": "research_search"
+    },
+    "t023": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:11:05+00:00",
+      "key": "judge-nivoda-net",
+      "status": "done",
+      "submitted": "2026-10-05T05:12:02+00:00",
+      "type": "judge"
+    },
+    "t024": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:11:05+00:00",
+      "key": "judge-lap-coffee",
+      "status": "done",
+      "submitted": "2026-10-05T05:12:03+00:00",
+      "type": "judge"
+    },
+    "t025": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:11:05+00:00",
+      "key": "judge-summize-com",
+      "status": "done",
+      "submitted": "2026-10-05T05:12:03+00:00",
+      "type": "judge"
+    },
+    "t026": {
+      "counted": null,
+      "issued": "2026-10-05T05:11:09+00:00",
+      "key": "site-shotgun-live",
+      "status": "done",
+      "submitted": "2026-10-05T05:12:03+00:00",
+      "type": "fetch"
+    },
+    "t027": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:11:10+00:00",
+      "key": "research-asklio-ai-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:12:03+00:00",
+      "type": "research_search"
+    },
+    "t028": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:11:10+00:00",
+      "key": "research-flatpay-com-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:12:03+00:00",
+      "type": "research_search"
+    },
+    "t029": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:11:10+00:00",
+      "key": "research-erad-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:12:03+00:00",
+      "type": "research_search"
+    },
+    "t030": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:11:10+00:00",
+      "key": "research-makersite-io-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:12:04+00:00",
+      "type": "research_search"
+    },
+    "t031": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:12:19+00:00",
+      "key": "judge-erad",
+      "status": "done",
+      "submitted": "2026-10-05T05:13:16+00:00",
+      "type": "judge"
+    },
+    "t032": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:12:19+00:00",
+      "key": "judge-voize-de",
+      "status": "done",
+      "submitted": "2026-10-05T05:13:16+00:00",
+      "type": "judge"
+    },
+    "t033": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:12:19+00:00",
+      "key": "judge-tryriot-com",
+      "status": "done",
+      "submitted": "2026-10-05T05:13:16+00:00",
+      "type": "judge"
+    },
+    "t034": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:12:26+00:00",
+      "key": "research-langdock-com-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:13:16+00:00",
+      "type": "research_search"
+    },
+    "t035": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:12:26+00:00",
+      "key": "research-zefir-fr-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:13:16+00:00",
+      "type": "research_search"
+    },
+    "t036": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:12:26+00:00",
+      "key": "research-stoik-com-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:13:16+00:00",
+      "type": "research_search"
+    },
+    "t037": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:12:26+00:00",
+      "key": "research-jeeves-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:13:17+00:00",
+      "type": "research_search"
+    },
+    "t038": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:12:26+00:00",
+      "key": "research-paymob-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:13:17+00:00",
+      "type": "research_search"
+    },
+    "t039": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:13:26+00:00",
+      "key": "judge-jeeves",
+      "status": "done",
+      "submitted": "2026-10-05T05:14:27+00:00",
+      "type": "judge"
+    },
+    "t040": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:13:30+00:00",
+      "key": "judge-paymob",
+      "status": "done",
+      "submitted": "2026-10-05T05:14:27+00:00",
+      "type": "judge"
+    },
+    "t041": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:13:30+00:00",
+      "key": "judge-hellojoko-com",
+      "status": "done",
+      "submitted": "2026-10-05T05:14:27+00:00",
+      "type": "judge"
+    },
+    "t042": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:13:36+00:00",
+      "key": "research-synthesia-io-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:14:27+00:00",
+      "type": "research_search"
+    },
+    "t043": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:13:36+00:00",
+      "key": "research-prolific-co-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:14:27+00:00",
+      "type": "research_search"
+    },
+    "t044": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:13:36+00:00",
+      "key": "research-the-laundry-lady-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:14:28+00:00",
+      "type": "research_search"
+    },
+    "t045": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:13:36+00:00",
+      "key": "research-fresha-com-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:14:28+00:00",
+      "type": "research_search"
+    },
+    "t046": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:13:36+00:00",
+      "key": "research-reco-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:14:28+00:00",
+      "type": "research_search"
+    },
+    "t047": {
+      "counted": null,
+      "issued": "2026-10-05T05:14:44+00:00",
+      "key": "site-the-laundry-lady",
+      "status": "done",
+      "submitted": "2026-10-05T05:15:47+00:00",
+      "type": "fetch"
+    },
+    "t048": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:14:46+00:00",
+      "key": "judge-fresha-com",
+      "status": "done",
+      "submitted": "2026-10-05T05:15:48+00:00",
+      "type": "judge"
+    },
+    "t049": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:14:46+00:00",
+      "key": "judge-ordereat",
+      "status": "done",
+      "submitted": "2026-10-05T05:15:48+00:00",
+      "type": "judge"
+    },
+    "t050": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:14:46+00:00",
+      "key": "judge-precision",
+      "status": "done",
+      "submitted": "2026-10-05T05:15:48+00:00",
+      "type": "judge"
+    },
+    "t051": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:14:50+00:00",
+      "key": "research-huspy-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:15:48+00:00",
+      "type": "research_search"
+    },
+    "t052": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:14:50+00:00",
+      "key": "research-amp-ai-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:15:48+00:00",
+      "type": "research_search"
+    },
+    "t053": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:14:50+00:00",
+      "key": "research-turbo-law-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:15:49+00:00",
+      "type": "research_search"
+    },
+    "t054": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:14:50+00:00",
+      "key": "research-medcast-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:15:49+00:00",
+      "type": "research_search"
+    },
+    "t055": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:17:29+00:00",
+      "key": "judge-huspy",
+      "status": "done",
+      "submitted": "2026-10-05T05:18:28+00:00",
+      "type": "judge"
+    },
+    "t056": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:17:32+00:00",
+      "key": "judge-medcast",
+      "status": "done",
+      "submitted": "2026-10-05T05:18:28+00:00",
+      "type": "judge"
+    },
+    "t057": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:17:33+00:00",
+      "key": "judge-the-laundry-lady",
+      "status": "done",
+      "submitted": "2026-10-05T05:18:28+00:00",
+      "type": "judge"
+    },
+    "t058": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:17:35+00:00",
+      "key": "research-halluminate-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:18:28+00:00",
+      "type": "research_search"
+    },
+    "t059": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:17:35+00:00",
+      "key": "research-quantum-world-ventures-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:18:29+00:00",
+      "type": "research_search"
+    },
+    "t060": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:17:35+00:00",
+      "key": "research-gathern-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:18:29+00:00",
+      "type": "research_search"
+    },
+    "t061": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:17:35+00:00",
+      "key": "research-leadsynbio-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:18:29+00:00",
+      "type": "research_search"
+    },
+    "t062": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:17:35+00:00",
+      "key": "research-numeral-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:18:29+00:00",
+      "type": "research_search"
+    },
+    "t063": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:18:37+00:00",
+      "key": "judge-asklio-ai",
+      "status": "done",
+      "submitted": "2026-10-05T05:19:30+00:00",
+      "type": "judge"
+    },
+    "t064": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:18:37+00:00",
+      "key": "judge-flatpay-com",
+      "status": "done",
+      "submitted": "2026-10-05T05:19:31+00:00",
+      "type": "judge"
+    },
+    "t065": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:18:37+00:00",
+      "key": "judge-makersite-io",
+      "status": "done",
+      "submitted": "2026-10-05T05:19:31+00:00",
+      "type": "judge"
+    },
+    "t066": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:18:43+00:00",
+      "key": "research-enveda-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:19:31+00:00",
+      "type": "research_search"
+    },
+    "t067": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:18:43+00:00",
+      "key": "research-m-based-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:19:31+00:00",
+      "type": "research_search"
+    },
+    "t068": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:18:43+00:00",
+      "key": "research-mot-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:19:31+00:00",
+      "type": "research_search"
+    },
+    "t069": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:18:43+00:00",
+      "key": "research-softdel-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:19:32+00:00",
+      "type": "research_search"
+    },
+    "t070": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:18:43+00:00",
+      "key": "research-turing-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:19:32+00:00",
+      "type": "research_search"
+    },
+    "t071": {
+      "counted": null,
+      "issued": "2026-10-05T05:19:40+00:00",
+      "key": "site-enveda",
+      "status": "done",
+      "submitted": "2026-10-05T05:20:38+00:00",
+      "type": "fetch"
+    },
+    "t072": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:19:40+00:00",
+      "key": "judge-langdock-com",
+      "status": "done",
+      "submitted": "2026-10-05T05:20:38+00:00",
+      "type": "judge"
+    },
+    "t073": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:19:40+00:00",
+      "key": "judge-zefir-fr",
+      "status": "done",
+      "submitted": "2026-10-05T05:20:38+00:00",
+      "type": "judge"
+    },
+    "t074": {
+      "counted": null,
+      "issued": "2026-10-05T05:19:43+00:00",
+      "key": "site-softdel",
+      "status": "done",
+      "submitted": "2026-10-05T05:20:38+00:00",
+      "type": "fetch"
+    },
+    "t075": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:19:43+00:00",
+      "key": "judge-stoik-com",
+      "status": "done",
+      "submitted": "2026-10-05T05:20:38+00:00",
+      "type": "judge"
+    },
+    "t076": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:19:50+00:00",
+      "key": "research-eon-space-labs-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:20:38+00:00",
+      "type": "research_search"
+    },
+    "t077": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:19:50+00:00",
+      "key": "research-simple-energy-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:20:39+00:00",
+      "type": "research_search"
+    },
+    "t078": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:19:50+00:00",
+      "key": "research-nothing-tech-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:20:39+00:00",
+      "type": "research_search"
+    },
+    "t079": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:20:48+00:00",
+      "key": "judge-enveda",
+      "status": "done",
+      "submitted": "2026-10-05T05:21:53+00:00",
+      "type": "judge"
+    },
+    "t080": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:20:50+00:00",
+      "key": "judge-eon-space-labs",
+      "status": "done",
+      "submitted": "2026-10-05T05:21:53+00:00",
+      "type": "judge"
+    },
+    "t081": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:20:54+00:00",
+      "key": "judge-simple-energy",
+      "status": "done",
+      "submitted": "2026-10-05T05:21:53+00:00",
+      "type": "judge"
+    },
+    "t082": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:20:56+00:00",
+      "key": "research-truelayer-com-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:21:54+00:00",
+      "type": "research_search"
+    },
+    "t083": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:20:56+00:00",
+      "key": "research-sohoai-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:21:54+00:00",
+      "type": "research_search"
+    },
+    "t084": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:20:56+00:00",
+      "key": "research-trace-space-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:21:54+00:00",
+      "type": "research_search"
+    },
+    "t085": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:20:56+00:00",
+      "key": "research-eliseai-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:21:54+00:00",
+      "type": "research_search"
+    },
+    "t086": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:20:56+00:00",
+      "key": "research-arvore-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:21:54+00:00",
+      "type": "research_search"
+    },
+    "t087": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:22:07+00:00",
+      "key": "judge-softdel",
+      "status": "done",
+      "submitted": "2026-10-05T05:22:59+00:00",
+      "type": "judge"
+    },
+    "t088": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:22:07+00:00",
+      "key": "judge-turing",
+      "status": "done",
+      "submitted": "2026-10-05T05:23:00+00:00",
+      "type": "judge"
+    },
+    "t089": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:22:07+00:00",
+      "key": "judge-nothing-tech",
+      "status": "done",
+      "submitted": "2026-10-05T05:23:00+00:00",
+      "type": "judge"
+    },
+    "t090": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:22:15+00:00",
+      "key": "research-crusoe-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:23:00+00:00",
+      "type": "research_search"
+    },
+    "t091": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:22:15+00:00",
+      "key": "research-volantis-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:23:00+00:00",
+      "type": "research_search"
+    },
+    "t092": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:22:16+00:00",
+      "key": "research-ema-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:23:01+00:00",
+      "type": "research_search"
+    },
+    "t093": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:22:16+00:00",
+      "key": "research-supabase-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:23:01+00:00",
+      "type": "research_search"
+    },
+    "t094": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:23:09+00:00",
+      "key": "judge-kota-io",
+      "status": "done",
+      "submitted": "2026-10-05T05:23:58+00:00",
+      "type": "judge"
+    },
+    "t095": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:23:09+00:00",
+      "key": "judge-stravito-com",
+      "status": "done",
+      "submitted": "2026-10-05T05:23:58+00:00",
+      "type": "judge"
+    },
+    "t096": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:23:09+00:00",
+      "key": "judge-trace-space",
+      "status": "done",
+      "submitted": "2026-10-05T05:23:58+00:00",
+      "type": "judge"
+    },
+    "t097": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:23:17+00:00",
+      "key": "research-picojool-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:23:59+00:00",
+      "type": "research_search"
+    },
+    "t098": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:24:07+00:00",
+      "key": "judge-eliseai",
+      "status": "done",
+      "submitted": "2026-10-05T05:24:49+00:00",
+      "type": "judge"
+    },
+    "t099": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:24:07+00:00",
+      "key": "judge-arvore",
+      "status": "done",
+      "submitted": "2026-10-05T05:24:49+00:00",
+      "type": "judge"
+    },
+    "t100": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:24:07+00:00",
+      "key": "judge-crusoe",
+      "status": "done",
+      "submitted": "2026-10-05T05:24:49+00:00",
+      "type": "judge"
+    },
+    "t101": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:24:07+00:00",
+      "key": "research-rivet-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:24:50+00:00",
+      "type": "research_search"
+    },
+    "t102": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:24:59+00:00",
+      "key": "judge-rivet",
+      "status": "done",
+      "submitted": "2026-10-05T05:25:30+00:00",
+      "type": "judge"
+    },
+    "t103": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:24:59+00:00",
+      "key": "judge-neviswealth-com",
+      "status": "done",
+      "submitted": "2026-10-05T05:25:30+00:00",
+      "type": "judge"
+    },
+    "t104": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:24:59+00:00",
+      "key": "judge-ema",
+      "status": "done",
+      "submitted": "2026-10-05T05:25:30+00:00",
+      "type": "judge"
+    },
+    "t105": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:25:43+00:00",
+      "key": "judge-light-inc",
+      "status": "done",
+      "submitted": "2026-10-05T05:26:16+00:00",
+      "type": "judge"
+    },
+    "t106": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:25:43+00:00",
+      "key": "judge-supabase",
+      "status": "done",
+      "submitted": "2026-10-05T05:26:16+00:00",
+      "type": "judge"
+    },
+    "t107": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:25:43+00:00",
+      "key": "judge-business-simpleclub-com",
+      "status": "done",
+      "submitted": "2026-10-05T05:26:16+00:00",
+      "type": "judge"
+    },
+    "t108": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:26:26+00:00",
+      "key": "judge-synthesia-io",
+      "status": "done",
+      "submitted": "2026-10-05T05:26:57+00:00",
+      "type": "judge"
+    },
+    "t109": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:26:26+00:00",
+      "key": "judge-reco",
+      "status": "done",
+      "submitted": "2026-10-05T05:26:57+00:00",
+      "type": "judge"
+    },
+    "t110": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:26:26+00:00",
+      "key": "judge-amp-ai",
+      "status": "done",
+      "submitted": "2026-10-05T05:26:58+00:00",
+      "type": "judge"
+    },
+    "t111": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:27:11+00:00",
+      "key": "judge-turbo-law",
+      "status": "done",
+      "submitted": "2026-10-05T05:28:00+00:00",
+      "type": "judge"
+    },
+    "t112": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:27:11+00:00",
+      "key": "judge-truelayer-com",
+      "status": "done",
+      "submitted": "2026-10-05T05:28:00+00:00",
+      "type": "judge"
+    },
+    "t113": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:27:11+00:00",
+      "key": "judge-volantis",
+      "status": "done",
+      "submitted": "2026-10-05T05:28:00+00:00",
+      "type": "judge"
+    },
+    "t114": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:28:08+00:00",
+      "key": "judge-picojool",
+      "status": "done",
+      "submitted": "2026-10-05T05:28:38+00:00",
+      "type": "judge"
+    },
+    "t115": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:28:08+00:00",
+      "key": "judge-armadin",
+      "status": "done",
+      "submitted": "2026-10-05T05:28:39+00:00",
+      "type": "judge"
+    },
+    "t116": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:28:08+00:00",
+      "key": "judge-gathern",
+      "status": "done",
+      "submitted": "2026-10-05T05:28:39+00:00",
+      "type": "judge"
+    },
+    "t117": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:28:46+00:00",
+      "key": "judge-leadsynbio",
+      "status": "done",
+      "submitted": "2026-10-05T05:29:12+00:00",
+      "type": "judge"
+    },
+    "t118": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:28:46+00:00",
+      "key": "judge-numeral",
+      "status": "done",
+      "submitted": "2026-10-05T05:29:12+00:00",
+      "type": "judge"
+    },
+    "t119": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:28:46+00:00",
+      "key": "judge-mot",
+      "status": "done",
+      "submitted": "2026-10-05T05:29:12+00:00",
+      "type": "judge"
+    },
+    "t120": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:29:20+00:00",
+      "key": "judge-sohoai",
+      "status": "done",
+      "submitted": "2026-10-05T05:29:45+00:00",
+      "type": "judge"
+    },
+    "t121": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:29:20+00:00",
+      "key": "judge-prolific-co",
+      "status": "done",
+      "submitted": "2026-10-05T05:29:45+00:00",
+      "type": "judge"
+    },
+    "t122": {
+      "counted": "judged",
+      "issued": "2026-10-05T05:29:56+00:00",
+      "key": "judge-halluminate",
+      "status": "done",
+      "submitted": "2026-10-05T05:31:30+00:00",
+      "type": "judge"
+    },
+    "t123": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:31:37+00:00",
+      "key": "struggling-1",
+      "status": "done",
+      "submitted": "2026-10-05T05:32:09+00:00",
+      "type": "search"
+    },
+    "t124": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:31:37+00:00",
+      "key": "struggling-2",
+      "status": "done",
+      "submitted": "2026-10-05T05:32:10+00:00",
+      "type": "search"
+    },
+    "t125": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:31:37+00:00",
+      "key": "struggling-3",
+      "status": "done",
+      "submitted": "2026-10-05T05:32:10+00:00",
+      "type": "search"
+    },
+    "t126": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:31:37+00:00",
+      "key": "struggling-4",
+      "status": "done",
+      "submitted": "2026-10-05T05:32:10+00:00",
+      "type": "search"
+    },
+    "t127": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:31:37+00:00",
+      "key": "struggling-5",
+      "status": "done",
+      "submitted": "2026-10-05T05:32:10+00:00",
+      "type": "search"
+    },
+    "t128": {
+      "counted": "searches",
+      "issued": "2026-10-05T05:31:37+00:00",
+      "key": "struggling-6",
+      "status": "done",
+      "submitted": "2026-10-05T05:32:10+00:00",
+      "type": "search"
+    },
+    "t129": {
+      "counted": null,
+      "issued": "2026-10-05T05:32:18+00:00",
+      "key": "struggling-summary",
+      "status": "done",
+      "submitted": "2026-10-05T05:32:37+00:00",
+      "type": "struggling"
+    },
+    "t130": {
+      "counted": null,
+      "issued": "2026-10-05T05:32:48+00:00",
+      "key": "synthesis-trends",
+      "status": "done",
+      "submitted": "2026-10-05T05:33:05+00:00",
+      "type": "trends"
+    },
+    "t131": {
+      "counted": null,
+      "issued": "2026-10-05T05:33:13+00:00",
+      "key": "synthesis-gaps",
+      "status": "done",
+      "submitted": "2026-10-05T05:33:30+00:00",
+      "type": "gaps"
+    },
+    "t132": {
+      "counted": null,
+      "issued": "2026-10-05T05:33:37+00:00",
+      "key": "synthesis-brief",
+      "status": "done",
+      "submitted": "2026-10-05T05:33:50+00:00",
+      "type": "brief"
+    }
+  },
+  "time_up": false,
+  "unread_sites": [
+    {
+      "reason": "WebFetch returned HTTP 429 Too Many Requests twice",
+      "url": "https://shotgun.live/"
+    },
+    {
+      "reason": "WebFetch returned no page content for the URL (empty page or blocked).",
+      "url": "https://thelaundrylady.com.au/"
+    },
+    {
+      "reason": "WebFetch returned HTTP 503 Service Unavailable",
+      "url": "https://www.softdel.com"
+    }
+  ],
+  "updated": "2026-10-05T05:34:00+00:00",
+  "week_of": "2026-10-05"
+}

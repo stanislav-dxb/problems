@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Spain",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "tenoro",
+  "industry": "supply chain AI",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-30",
+      "run": "2026-10-05-r5",
+      "snippet": "AI agent for supply chain; raised EUR 1.7M",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://elreferente.es/inversiones/tenoro-capta-17-millones-de-euros-para-desarrollar-su-agente-de-ia-para-la-cadena-de-suministro/"
+    }
+  ],
+  "name": "Tenoro",
+  "name_key": "tenoro",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:08:21+00:00",
+  "website": null
+}

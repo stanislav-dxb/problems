@@ -4,11 +4,100 @@
   "country": "Australia",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Australia",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.businessnewsaustralia.com/amp-html/articles/prop-tech-soho-hits--20m-valuation-after-singapore-s-feedback-ventures-buys-in.html"
+        ],
+        "value": "Sydney, Australia"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.businessnewsaustralia.com/amp-html/articles/prop-tech-soho-hits--20m-valuation-after-singapore-s-feedback-ventures-buys-in.html"
+        ],
+        "value": "2018"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.startupdaily.net/topic/funding/airtasker-cofounder-jonathan-luis-proptech-app-soho-banks-750000-to-hit-20-million-valuation/"
+        ],
+        "value": "Valued at $20M after a $750,000 investment from Feedback Ventures (older report, undated)."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.businessnewsaustralia.com/amp-html/articles/prop-tech-soho-hits--20m-valuation-after-singapore-s-feedback-ventures-buys-in.html",
+          "https://www.startupdaily.net/topic/funding/airtasker-cofounder-jonathan-luis-proptech-app-soho-banks-750000-to-hit-20-million-valuation/"
+        ],
+        "value": "$750,000"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Finding a home to rent or buy is slow and confusing, so SohoAI is a chatbot that searches for properties and acts like a personal property helper.",
+    "industry": "Proptech",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Replace a form full of filters with a conversation, and let software do the searching for you.",
+    "name": "SohoAI",
+    "not_startup_reason": null,
+    "overall": 4.5,
+    "region": "other",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round and valuation",
+        "reason": "No user or revenue numbers are given; only an old funding round and a valuation.",
+        "score": null,
+        "source": "https://www.startupdaily.net/topic/funding/airtasker-cofounder-jonathan-luis-proptech-app-soho-banks-750000-to-hit-20-million-valuation/"
+      },
+      "market": {
+        "reason": "Property search is a real market, but this looks focused on one country for now.",
+        "score": 6,
+        "source": "https://www.smartcompany.com.au/startupsmart/sohoai-airtasker-founder-jonathan-lui/"
+      },
+      "tech": {
+        "reason": "A chatbot on top of language models that anyone can buy is easy to copy.",
+        "score": 3,
+        "source": "https://www.smartcompany.com.au/startupsmart/sohoai-airtasker-founder-jonathan-lui/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-25",
+        "title": "Airtasker co-founder plans AI property concierge with SohoAI",
+        "url": "https://www.smartcompany.com.au/startupsmart/sohoai-airtasker-founder-jonathan-lui/"
+      },
+      {
+        "date": null,
+        "title": "Prop-tech Soho hits $20m valuation after Feedback Ventures buys in",
+        "url": "https://www.businessnewsaustralia.com/amp-html/articles/prop-tech-soho-hits--20m-valuation-after-singapore-s-feedback-ventures-buys-in.html"
+      },
+      {
+        "date": null,
+        "title": "Airtasker cofounder Jonathan Lui proptech app Soho banks $750,000",
+        "url": "https://www.startupdaily.net/topic/funding/airtasker-cofounder-jonathan-luis-proptech-app-soho-banks-750000-to-hit-20-million-valuation/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It was relaunched by Jonathan Lui, who also co-founded Airtasker, as an AI concierge that you simply talk to.",
+    "website": null,
+    "who_pays": "Not stated; likely property businesses or investors, but the sources do not say.",
+    "why_now": "Chatbots built on large language models now understand plain requests well enough to replace search filters."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-28",
   "id": "sohoai",
-  "industry": "proptech / AI",
-  "last_checked": null,
+  "industry": "Proptech",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-09-25",
@@ -18,18 +107,52 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://www.smartcompany.com.au/startupsmart/sohoai-airtasker-founder-jonathan-lui/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Sydney AI proptech Soho, founded 2018 by Airtasker co-founder Jonathan Lui; $750,000 investment.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Prop-tech Soho hits $20m valuation after Feedback Ventures buys in",
+      "url": "https://www.businessnewsaustralia.com/amp-html/articles/prop-tech-soho-hits--20m-valuation-after-singapore-s-feedback-ventures-buys-in.html"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Soho property matching app valued at $20M.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Airtasker cofounder Jonathan Lui proptech app Soho banks $750,000",
+      "url": "https://www.startupdaily.net/topic/funding/airtasker-cofounder-jonathan-luis-proptech-app-soho-banks-750000-to-hit-20-million-valuation/"
     }
   ],
   "name": "SohoAI",
   "name_key": "sohoai",
-  "region": null,
+  "region": "other",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-sohoai.txt",
+    "article_url": "https://www.smartcompany.com.au/startupsmart/sohoai-airtasker-founder-jonathan-lui/",
+    "judged_run": "2026-10-05-r5",
+    "pages": 1,
+    "queries_done": [
+      "\"SohoAI\" startup Australia"
+    ],
+    "refresh": false,
+    "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:10:41+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": null,
+      "market": 6.0,
+      "overall": 4.5,
+      "run": "2026-10-05-r5",
+      "tech": 3.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:29:45+00:00",
   "website": null
 }

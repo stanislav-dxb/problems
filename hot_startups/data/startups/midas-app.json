@@ -218,6 +218,15 @@
       "source_kind": "research",
       "title": "Tokenisation Startup Midas Raises $50 Million in Early-Stage Funding Round",
       "url": "https://www.globalbankingandfinance.com/tokenisation-startup-midas-raises-50-million-early-stage/"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "FinTech startup from Germany in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
     }
   ],
   "name": "Midas",
@@ -247,6 +256,6 @@
     }
   ],
   "status": "judged",
-  "updated": "2026-09-28T02:27:36+00:00",
+  "updated": "2026-10-05T05:06:35+00:00",
   "website": "https://midas.app/"
 }

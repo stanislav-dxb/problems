@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Germany",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "reverion",
+  "industry": "energy",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-02",
+      "run": "2026-10-05-r5",
+      "snippet": "Builds high-efficiency gas power plants; raised EUR 154M, plans 800 jobs",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.businessinsider.de/gruenderszene/bayern-154-millionen-euro-hier-sollen-jetzt-800-neue-jobs-entstehen/"
+    }
+  ],
+  "name": "Reverion",
+  "name_key": "reverion",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:08:21+00:00",
+  "website": null
+}

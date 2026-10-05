@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Lithuania",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "enforceshield",
+  "industry": "legaltech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-09-28",
+      "run": "2026-10-05-r5",
+      "snippet": "Automates takedowns and IP enforcement; EUR 1.7M seed",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://arcticstartup.com/enforceshield-raises-e1-7-million-seed/"
+    }
+  ],
+  "name": "EnforceShield",
+  "name_key": "enforceshield",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:08:21+00:00",
+  "website": null
+}

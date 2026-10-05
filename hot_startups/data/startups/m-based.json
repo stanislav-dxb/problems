@@ -1,0 +1,49 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Turkey",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "m-based",
+  "industry": "materials",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-01",
+      "run": "2026-10-05-r5",
+      "snippet": "Mushroom-based alternative materials; about $700K seed",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://webrazzi.com/2026/10/01/mantar-tabanli-alternatif-malzemeler-gelistiren-m-based-yaklasik-700-bin-dolar-yatirim-aldi/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Turkish biotech startup M-Based, Ankara, mushroom-based vegan leather FOMES.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "M-Based gets investment from Hatcher+, Sente Ventures, Fark Labs",
+      "url": "https://webrazzi.com/2024/07/25/yerli-biyoteknoloji-girisimi-m-based-hatcher-sente-ventures-ve-fark-labsten-yatirim-aldi/"
+    }
+  ],
+  "name": "M-Based",
+  "name_key": "mbased",
+  "region": null,
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-m-based.txt",
+    "article_url": "https://webrazzi.com/2026/10/01/mantar-tabanli-alternatif-malzemeler-gelistiren-m-based-yaklasik-700-bin-dolar-yatirim-aldi/",
+    "pages": 1,
+    "queries_done": [
+      "\"M-Based\" startup Turkey"
+    ],
+    "searches": 1
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:19:50+00:00",
+  "website": null
+}

@@ -190,6 +190,15 @@
       "source_kind": "research",
       "title": "Digital Cognition Technologies company logo",
       "url": "https://www.cbinsights.com/company/digital-cognition-technologies"
+    },
+    {
+      "date": "2026-10-01",
+      "run": "2026-10-05-r5",
+      "snippet": "Agentic coding startup in feud with Factory",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.geektime.co.il/cognition-factory-ai-feud-khosla/"
     }
   ],
   "name": "Cognition",
@@ -216,6 +225,6 @@
     }
   ],
   "status": "judged",
-  "updated": "2026-09-28T03:33:45+00:00",
+  "updated": "2026-10-05T05:08:22+00:00",
   "website": null
 }

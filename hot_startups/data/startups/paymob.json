@@ -4,11 +4,106 @@
   "country": "Egypt",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Egypt",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "http://wamda.com/2026/09/paymob-raises-35-million-pre-series-c-led-mubadala-ebrd",
+          "https://disruptafrica.com/2026/09/30/egyptian-fintech-startup-paymob-raises-35m-pre-series-c-funding-round/"
+        ],
+        "value": "Egypt"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "http://wamda.com/2026/09/paymob-raises-35-million-pre-series-c-led-mubadala-ebrd"
+        ],
+        "value": "2015"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "http://wamda.com/2026/09/paymob-raises-35-million-pre-series-c-led-mubadala-ebrd"
+        ],
+        "value": "Revenue grew 3x in 18 months; serves 390,000+ merchants in four countries."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "http://wamda.com/2026/09/paymob-raises-35-million-pre-series-c-led-mubadala-ebrd",
+          "https://disruptafrica.com/2026/09/30/egyptian-fintech-startup-paymob-raises-35m-pre-series-c-funding-round/"
+        ],
+        "value": "More than $125M in total, including $35M pre-Series C in 2026"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Many shops in the Middle East struggle to take card and online payments, so Paymob gives them one system that accepts more than 60 payment methods.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Win a hard home market first, then use that base to enter richer neighbouring markets.",
+    "name": "Paymob",
+    "not_startup_reason": null,
+    "overall": 7.7,
+    "region": "mea",
+    "scores": {
+      "growth": {
+        "basis": "3x revenue in 18 months",
+        "reason": "Revenue tripled in 18 months and Gulf revenue grew 7x.",
+        "score": 8,
+        "source": "http://wamda.com/2026/09/paymob-raises-35-million-pre-series-c-led-mubadala-ebrd"
+      },
+      "market": {
+        "reason": "Every business that takes payments in a large region could use it.",
+        "score": 9,
+        "source": "http://wamda.com/2026/09/paymob-raises-35-million-pre-series-c-led-mubadala-ebrd"
+      },
+      "tech": {
+        "reason": "A solid payments platform and licences, but a good team could copy the tech in months.",
+        "score": 6,
+        "source": "http://wamda.com/2026/09/paymob-raises-35-million-pre-series-c-led-mubadala-ebrd"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-21",
+        "title": "Paymob raises $35 million pre-Series C",
+        "url": "http://wamda.com/2026/09/paymob-raises-35-million-pre-series-c-led-mubadala-ebrd"
+      },
+      {
+        "date": "2026-09-30",
+        "title": "Egyptian fintech Paymob raises $35M",
+        "url": "https://disruptafrica.com/2026/09/30/egyptian-fintech-startup-paymob-raises-35m-pre-series-c-funding-round/"
+      },
+      {
+        "date": "2021-04-01",
+        "title": "Paymob completes $18.5 million Series A",
+        "url": "https://www.wamda.com/2021/04/paymob-completes-18-5-million-series-funding"
+      },
+      {
+        "date": null,
+        "title": "Paymob closes Series B extension",
+        "url": "https://techpoint.africa/news/paymob-closes-series-b-extension/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "One technology layer covers online and in-store payments across several countries, and it is now building for shopping done by AI agents.",
+    "website": null,
+    "who_pays": "Shops and online businesses pay fees on the payments they accept.",
+    "why_now": "Gulf markets are growing fast and Paymob won a UAE payments licence in 2025."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-28",
   "id": "paymob",
-  "industry": "payments infrastructure",
-  "last_checked": null,
+  "industry": "Fintech",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-09-21",
@@ -18,18 +113,79 @@
       "source_kind": "feed",
       "title": "",
       "url": "http://wamda.com/2026/09/paymob-raises-35-million-pre-series-c-led-mubadala-ebrd"
+    },
+    {
+      "date": "2026-09-30",
+      "run": "2026-10-05-r5",
+      "snippet": "Payments infrastructure in MENA; $35M pre-Series C",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://disruptafrica.com/2026/09/30/egyptian-fintech-startup-paymob-raises-35m-pre-series-c-funding-round/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Paymob payments in Egypt.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Egyptian startup makes access to financial services easier",
+      "url": "https://africa.com/top-10-news/egyptian-startup-makes-access-to-financial-services-easier"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Series B extension.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Paymob closes Series B extension",
+      "url": "https://techpoint.africa/news/paymob-closes-series-b-extension/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Largest Series A in Egypt.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Paymob completes $18.5 million Series A",
+      "url": "https://www.wamda.com/2021/04/paymob-completes-18-5-million-series-funding"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Regional expansion funding.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Paymob raises $3.5M",
+      "url": "https://kr-asia.com/egyptian-payments-startup-paymob-raises-usd-3-5-million-to-fuel-its-regional-expansion"
     }
   ],
   "name": "Paymob",
   "name_key": "paymob",
-  "region": null,
+  "region": "mea",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-paymob.txt",
+    "article_url": "http://wamda.com/2026/09/paymob-raises-35-million-pre-series-c-led-mubadala-ebrd",
+    "judged_run": "2026-10-05-r5",
+    "pages": 1,
+    "queries_done": [
+      "\"Paymob\" startup Egypt"
+    ],
+    "refresh": false,
+    "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:09:27+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 8.0,
+      "market": 9.0,
+      "overall": 7.7,
+      "run": "2026-10-05-r5",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:14:27+00:00",
   "website": null
 }

@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United Kingdom",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "veremark",
+  "industry": "HR tech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-05",
+      "run": "2026-10-05-r5",
+      "snippet": "$100M Series B startup testing the LSE's new private market",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://sifted.eu/articles/veremark-pisces/"
+    }
+  ],
+  "name": "Veremark",
+  "name_key": "veremark",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:08:21+00:00",
+  "website": null
+}

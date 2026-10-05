@@ -96,6 +96,15 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://thebridge.jp/2026/09/factory-200m-5b-valuation-droids-ai-coding-agent"
+    },
+    {
+      "date": "2026-10-01",
+      "run": "2026-10-05-r5",
+      "snippet": "Agentic coding startup valued at $5B, in feud with Cognition",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.geektime.co.il/cognition-factory-ai-feud-khosla/"
     }
   ],
   "name": "Factory",
@@ -119,6 +128,6 @@
     }
   ],
   "status": "judged",
-  "updated": "2026-09-21T05:09:44+00:00",
+  "updated": "2026-10-05T05:08:22+00:00",
   "website": "https://factory.ai/"
 }

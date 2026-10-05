@@ -1,0 +1,166 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Turkey",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "Turkey",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://mobidictum.com/tr/revo-capital-turbo-law-38m-dolar-yatirim/"
+        ],
+        "value": "2025"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://webrazzi.com/2026/06/18/yapay-zeka-destekli-hukuk-girisimi-turbo-law-revo-capital-liderliginde-3-8-milyon-dolar-yatirim-aldi/",
+          "https://mobidictum.com/tr/revo-capital-turbo-law-38m-dolar-yatirim/"
+        ],
+        "value": "Raised $3.8M led by Revo Capital in June 2026."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://webrazzi.com/2026/06/18/yapay-zeka-destekli-hukuk-girisimi-turbo-law-revo-capital-liderliginde-3-8-milyon-dolar-yatirim-aldi/",
+          "https://mobidictum.com/tr/revo-capital-turbo-law-38m-dolar-yatirim/"
+        ],
+        "value": "$3.8M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Law firms and insurers handle many cases with slow, manual paperwork, so Turbo Law built a case management platform that uses AI to speed the work up.",
+    "industry": "Legal AI",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Pick a paper-heavy profession and build the AI-first tool that does its routine work.",
+    "name": "Turbo Law",
+    "not_startup_reason": null,
+    "overall": 5.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "unknown",
+        "reason": "No customer or revenue numbers are public.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "Legal work is a real market, but this starts in Turkey for law firms and insurers.",
+        "score": 6,
+        "source": "https://mobidictum.com/tr/revo-capital-turbo-law-38m-dolar-yatirim/"
+      },
+      "tech": {
+        "reason": "Little is known about the technology, and AI case tools can be copied in months.",
+        "score": 4,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-02",
+        "title": "Yapay zeka destekli hukuk girişimi: Turbo Law",
+        "url": "https://webrazzi.com/2026/10/02/yapay-zeka-destekli-hukuk-girisimi-turbo-law/"
+      },
+      {
+        "date": "2026-06-18",
+        "title": "Turbo Law raised $3.8M led by Revo Capital",
+        "url": "https://webrazzi.com/2026/06/18/yapay-zeka-destekli-hukuk-girisimi-turbo-law-revo-capital-liderliginde-3-8-milyon-dolar-yatirim-aldi/"
+      },
+      {
+        "date": null,
+        "title": "Turbo Law founders Jay Sarmaz and Özgür Bora Gevrek",
+        "url": "https://mobidictum.com/tr/revo-capital-turbo-law-38m-dolar-yatirim/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It is built around AI from the start, for both law firms and insurers.",
+    "website": null,
+    "who_pays": "Law firms and insurers pay to run their cases on the platform.",
+    "why_now": "AI can now read and draft legal documents well enough to take over routine case work."
+  },
+  "first_judged_run": "2026-10-05-r5",
+  "first_seen": "2026-10-05",
+  "id": "turbo-law",
+  "industry": "Legal AI",
+  "last_checked": "2026-10-05",
+  "mentions": [
+    {
+      "date": "2026-10-02",
+      "run": "2026-10-05-r5",
+      "snippet": "AI-powered legal startup",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://webrazzi.com/2026/10/02/yapay-zeka-destekli-hukuk-girisimi-turbo-law/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "AI legal startup Turbo Law raised $3.8M led by Revo Capital.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Yapay zeka destekli hukuk girişimi Turbo Law, Revo Capital liderliğinde 3,8 milyon dolar yatırım aldı",
+      "url": "https://webrazzi.com/2026/06/18/yapay-zeka-destekli-hukuk-girisimi-turbo-law-revo-capital-liderliginde-3-8-milyon-dolar-yatirim-aldi/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Founded 2025 by Jay Sarmaz (CEO) and Özgür Bora Gevrek (CTO); case management platform for law firms and insurers.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Turbo Law Kurucuları Jay Sarmaz ve Özgür Bora Gevrek",
+      "url": "https://mobidictum.com/tr/revo-capital-turbo-law-38m-dolar-yatirim/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "LinkedIn profile appearing in results.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Talha Duran",
+      "url": "https://tr.linkedin.com/in/talhaduran"
+    }
+  ],
+  "name": "Turbo Law",
+  "name_key": "turbolaw",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-turbo-law.txt",
+    "article_url": "https://webrazzi.com/2026/10/02/yapay-zeka-destekli-hukuk-girisimi-turbo-law/",
+    "judged_run": "2026-10-05-r5",
+    "pages": 1,
+    "queries_done": [
+      "\"Turbo Law\" startup Turkey"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": null,
+      "market": 6.0,
+      "overall": 5.0,
+      "run": "2026-10-05-r5",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:28:00+00:00",
+  "website": null
+}

@@ -4,11 +4,106 @@
   "country": "France",
   "domain": "dust.tt",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "France",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://bbfrance.substack.com/p/dusttt-frances-rising-star-in-generative"
+        ],
+        "value": "Paris, France"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://bbfrance.substack.com/p/dusttt-frances-rising-star-in-generative"
+        ],
+        "value": "2022"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://dust.tt",
+          "https://vivatech.com/news/top-100-rising-startups-of-2026"
+        ],
+        "value": "Says it is trusted by 3,000+ organizations; named in VivaTech Top 100 Rising European Startups 2026."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://bbfrance.substack.com/p/dusttt-frances-rising-star-in-generative",
+          "https://www.seedtable.com/funding-rounds/dust-tt-series-a-2024"
+        ],
+        "value": "$16M Series A (June 2024), plus an earlier seed"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Companies have knowledge spread across many apps, so Dust lets teams build AI helpers that read that knowledge and do real work.",
+    "industry": "AI tools",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "When tools are everywhere, the glue that connects them with the right controls can be the product.",
+    "name": "Dust",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: VivaTech Top 100 criteria and 3,000+ customer claim",
+        "reason": "The VivaTech list requires at least EUR 5M revenue and 40% yearly growth, and the company claims 3,000+ customers.",
+        "score": 7,
+        "source": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      "market": {
+        "reason": "Almost any company could use AI helpers at work.",
+        "score": 8,
+        "source": "https://dust.tt"
+      },
+      "tech": {
+        "reason": "Solid product with many connectors and controls, but it builds on models from others and could be copied in months.",
+        "score": 5,
+        "source": "https://dust.tt"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Dust",
+        "url": "https://dust.tt"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Dust.tt: France's Rising Star in Generative AI",
+        "url": "https://bbfrance.substack.com/p/dusttt-frances-rising-star-in-generative"
+      },
+      {
+        "date": null,
+        "title": "Dust funding rounds",
+        "url": "https://www.seedtable.com/funding-rounds/dust-tt-series-a-2024"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "People and AI helpers work together in the same space, and teams can pick from 20+ AI models for each task.",
+    "website": "https://dust.tt",
+    "who_pays": "Companies pay for team subscriptions.",
+    "why_now": "Firms want to use AI at work but need control over their data and permissions."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-16",
   "id": "dust-tt",
-  "industry": "AI Productivity & Automation",
-  "last_checked": null,
+  "industry": "AI tools",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -27,18 +122,72 @@
       "source_kind": "list",
       "title": "",
       "url": "https://dust.tt"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "AI Productivity & Automation startup from France in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Paris startup founded 2022 by Gabriel Hubert and Stanislas Polu; seed then $16M Series A in June 2024 led by Sequoia.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Dust.tt: France's Rising Star in Generative AI",
+      "url": "https://bbfrance.substack.com/p/dusttt-frances-rising-star-in-generative"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "French Tech Journal on Dust's AI agents.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "La Machine 83: Dust's AI agents could transform the future of enterprise work",
+      "url": "https://www.frenchtechjournal.com/la-machine-83-dusts-ai-agents-could-transform-the-future-of-enterprise-work/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Series A 2024.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Dust funding rounds",
+      "url": "https://www.seedtable.com/funding-rounds/dust-tt-series-a-2024"
     }
   ],
   "name": "Dust",
   "name_key": "dust",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-dust-tt.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-05-r5",
+    "pages": 2,
+    "queries_done": [
+      "\"Dust\" startup France"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-dust-tt.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:03:00+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 7.0,
+      "market": 8.0,
+      "overall": 6.7,
+      "run": "2026-10-05-r5",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:10:54+00:00",
   "website": "https://dust.tt"
 }

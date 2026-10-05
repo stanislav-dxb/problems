@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "South Africa",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "exten-ai",
+  "industry": "AI no-code",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-01",
+      "run": "2026-10-05-r5",
+      "snippet": "Lets non-technical founders build full-stack apps in plain language",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://disruptafrica.com/2026/10/01/south-african-startup-exten-ai-helps-non-technical-founders-build-full-stack-apps-in-plain-language/"
+    }
+  ],
+  "name": "Exten AI",
+  "name_key": "extenai",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:08:21+00:00",
+  "website": null
+}

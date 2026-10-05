@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "France",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "inbolt",
+  "industry": "robotics",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-01",
+      "run": "2026-10-05-r5",
+      "snippet": "Robot guidance tech used by Stellantis, Toyota, Ford; raised EUR 11M",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.maddyness.com/2026/10/01/apres-stellantis-toyota-et-ford-inbolt-leve-11-millions-deuros-et-vise-les-data-centers/"
+    }
+  ],
+  "name": "Inbolt",
+  "name_key": "inbolt",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:08:21+00:00",
+  "website": null
+}

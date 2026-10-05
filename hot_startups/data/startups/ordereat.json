@@ -1,14 +1,118 @@
 {
   "alias_keys": [],
   "aliases": [],
-  "country": null,
+  "country": "Uruguay",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Uruguay",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.theinvestorsociety.com/ordereat-raises-us-2m-to-turn-school-cafeterias-into-a-teen-wallet/"
+        ],
+        "value": "2019"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://ecosistemastartup.com/ordereat-levanta-us2m-y-llega-a-600-colegios-en-latam/",
+          "https://ecosistemastartup.com/ordereat-levanta-us2m-y-va-por-2-000-colegios-en-18-meses/"
+        ],
+        "value": "Now in 600 schools across Latin America, aiming for 2,000 in 18 months."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://latamlist.com/ordereat-raises-2m-to-expand-school-cafeteria-platform/",
+          "https://startupslatam.com/ordereat-levanta-us2-millones-liderado-por-fondos-chilenos-para-digitalizar-las-cafeterias-escolares-de-latinoamerica/",
+          "https://www.theinvestorsociety.com/ordereat-raises-us-2m-to-turn-school-cafeterias-into-a-teen-wallet/"
+        ],
+        "value": "$2M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "School cafeterias have long queues and cash handling, so OrderEAT lets students order and pay through an app.",
+    "industry": "Food tech",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Win a captive place like a school, then become the payment wallet for everyone inside it.",
+    "name": "OrderEAT",
+    "not_startup_reason": null,
+    "overall": 5.7,
+    "region": "latin_america",
+    "scores": {
+      "growth": {
+        "basis": "600 schools",
+        "reason": "Reached 600 schools and plans 2,000 within 18 months, though figures come from press about the company's raise.",
+        "score": 7,
+        "source": "https://ecosistemastartup.com/ordereat-levanta-us2m-y-llega-a-600-colegios-en-latam/"
+      },
+      "market": {
+        "reason": "Real market across Latin American schools, but limited to school cafeterias.",
+        "score": 6,
+        "source": "https://www.theinvestorsociety.com/ordereat-raises-us-2m-to-turn-school-cafeterias-into-a-teen-wallet/"
+      },
+      "tech": {
+        "reason": "An ordering and wallet app that others could copy; the edge is school contracts.",
+        "score": 4,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-21",
+        "title": "OrderEAT raises $2M to expand school cafeteria platform",
+        "url": "https://latamlist.com/ordereat-raises-2m-to-expand-school-cafeteria-platform/"
+      },
+      {
+        "date": null,
+        "title": "OrderEAT Raises US$2M to Turn School Cafeterias Into a Teen Wallet",
+        "url": "https://www.theinvestorsociety.com/ordereat-raises-us-2m-to-turn-school-cafeterias-into-a-teen-wallet/"
+      },
+      {
+        "date": null,
+        "title": "OrderEAT levanta US$2M y llega a 600 colegios en Latam",
+        "url": "https://ecosistemastartup.com/ordereat-levanta-us2m-y-llega-a-600-colegios-en-latam/"
+      },
+      {
+        "date": null,
+        "title": "OrderEAT levanta US$2M y va por 2.000 colegios en 18 meses",
+        "url": "https://ecosistemastartup.com/ordereat-levanta-us2m-y-va-por-2-000-colegios-en-18-meses/"
+      },
+      {
+        "date": null,
+        "title": "OrderEAT levanta US$2 millones liderado por fondos chilenos",
+        "url": "https://startupslatam.com/ordereat-levanta-us2-millones-liderado-por-fondos-chilenos-para-digitalizar-las-cafeterias-escolares-de-latinoamerica/"
+      },
+      {
+        "date": null,
+        "title": "OrderEAT | LinkedIn",
+        "url": "https://www.linkedin.com/company/ordereatuy/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It works as a closed wallet for teenagers, a safe way for them to pay without cash or a bank card.",
+    "website": null,
+    "who_pays": "Parents load money into the wallet, and cafeterias and schools use the platform.",
+    "why_now": "Schools and parents want cashless payments, and investors are now backing Latin American school tech."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-28",
   "id": "ordereat",
-  "industry": "school cafeteria platform",
-  "last_checked": null,
+  "industry": "Food tech",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-09-21",
@@ -94,19 +198,30 @@
   ],
   "name": "OrderEAT",
   "name_key": "ordereat",
-  "region": null,
+  "region": "latin_america",
   "research": {
     "article_read": true,
     "article_text": "/home/user/repo/hot_startups/cache/article-ordereat.txt",
     "article_url": "https://latamlist.com/ordereat-raises-2m-to-expand-school-cafeteria-platform/",
+    "judged_run": "2026-10-05-r5",
     "pages": 1,
     "queries_done": [
       "\"OrderEAT\" startup"
     ],
+    "refresh": false,
     "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T03:21:03+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 7.0,
+      "market": 6.0,
+      "overall": 5.7,
+      "run": "2026-10-05-r5",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:15:48+00:00",
   "website": null
 }

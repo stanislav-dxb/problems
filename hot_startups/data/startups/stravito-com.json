@@ -4,11 +4,115 @@
   "country": "Sweden",
   "domain": "stravito.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Sweden",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.stravito.com/resources/stravito-recognised-as-one-of-the-top-swedish-startups-to-follow-in-2020",
+          "https://tech.eu/brief/swedish-knowledge-tech-startup-stravito-raises-e5-6-million/"
+        ],
+        "value": "Sweden"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.stravito.com/resources/stravito-recognised-as-one-of-the-top-swedish-startups-to-follow-in-2020",
+          "https://www.stravito.com/resources/stravito-named-as-top-startup-by-33-listan-for-2nd-consecutive-year"
+        ],
+        "value": "Named a top Swedish startup by 33-listan two years in a row (2020)."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://techcrunch.com/2021/09/02/stravito-raises-14-6m-to-create-a-netflix-for-enterprise-market-research/",
+          "https://www.thesaasnews.com/news/stravito-raises-12-4-million-in-series-a/"
+        ],
+        "value": "$14.6M Series A in 2021 (reported as EUR 12.4M)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Big companies buy lots of market research but staff cannot find it later, so Stravito puts it all in one searchable place.",
+    "industry": "Data tools",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Take something every big company already pays for, then fix the part where it gets lost or wasted.",
+    "name": "Stravito",
+    "not_startup_reason": null,
+    "overall": 6.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "unknown",
+        "reason": "No revenue or customer numbers in the sources, only older funding and awards.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "Nearly every large company buys market research, so the profession is global.",
+        "score": 7,
+        "source": "https://techcrunch.com/2021/09/02/stravito-raises-14-6m-to-create-a-netflix-for-enterprise-market-research/"
+      },
+      "tech": {
+        "reason": "Useful search and sharing software, but a good team could build similar tools in months.",
+        "score": 5,
+        "source": "https://techcrunch.com/2021/09/02/stravito-raises-14-6m-to-create-a-netflix-for-enterprise-market-research/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2021-09-02",
+        "title": "Stravito raises $14.6M - TechCrunch",
+        "url": "https://techcrunch.com/2021/09/02/stravito-raises-14-6m-to-create-a-netflix-for-enterprise-market-research/"
+      },
+      {
+        "date": null,
+        "title": "Stravito Raises EUR 12.4 Million in Series A",
+        "url": "https://www.thesaasnews.com/news/stravito-raises-12-4-million-in-series-a/"
+      },
+      {
+        "date": null,
+        "title": "Swedish knowledge tech startup Stravito raises EUR 5.6 million - Tech.eu",
+        "url": "https://tech.eu/brief/swedish-knowledge-tech-startup-stravito-raises-e5-6-million/"
+      },
+      {
+        "date": null,
+        "title": "Stravito recognised as a top Swedish startup in 2020",
+        "url": "https://www.stravito.com/resources/stravito-recognised-as-one-of-the-top-swedish-startups-to-follow-in-2020"
+      },
+      {
+        "date": null,
+        "title": "Stravito named top startup by 33-listan",
+        "url": "https://www.stravito.com/resources/stravito-named-as-top-startup-by-33-listan-for-2nd-consecutive-year"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising European Startups 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It works like a Netflix for market research, with easy search and sharing across the company.",
+    "website": "https://www.stravito.com/",
+    "who_pays": "Large companies pay a subscription to use the platform.",
+    "why_now": "Firms hold more reports than ever and want AI-style search to find answers fast."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-16",
   "id": "stravito-com",
-  "industry": "Data & Analytics",
-  "last_checked": null,
+  "industry": "Data tools",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -117,25 +221,45 @@
       "source_kind": "research",
       "title": "Stravito Raises €12.4 Million in Series A",
       "url": "https://www.thesaasnews.com/news/stravito-raises-12-4-million-in-series-a/"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "Data & Analytics startup from Sweden in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
     }
   ],
   "name": "Stravito",
   "name_key": "stravito",
-  "region": null,
+  "region": "europe",
   "research": {
     "article_read": true,
     "article_text": "/home/user/repo/hot_startups/cache/article-stravito-com.txt",
     "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-05-r5",
     "pages": 2,
     "queries_done": [
       "\"Stravito\" startup Sweden"
     ],
+    "refresh": false,
     "searches": 1,
     "site_read": true,
     "site_text": "/home/user/repo/hot_startups/cache/site-stravito-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:33:04+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": null,
+      "market": 7.0,
+      "overall": 6.0,
+      "run": "2026-10-05-r5",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:23:58+00:00",
   "website": "https://www.stravito.com/"
 }

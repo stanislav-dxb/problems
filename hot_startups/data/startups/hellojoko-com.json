@@ -4,11 +4,109 @@
   "country": "France",
   "domain": "hellojoko.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "France",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2020/10/paris-based-fintech-joko-raises-e10-million-to-disrupt-cashback-in-europe/",
+          "https://lespepitestech.com/startup-de-la-french-tech/joko"
+        ],
+        "value": "Paris, France"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://vivatech.com/news/top-100-rising-startups-of-2026"
+        ],
+        "value": "Named in VivaTech Top 100 Rising European Startups 2026."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2020/10/paris-based-fintech-joko-raises-e10-million-to-disrupt-cashback-in-europe/",
+          "https://www.frenchweb.fr/fintech-joko-leve-10-millions-deuros-aupres-de-partech-et-axeleo/406430"
+        ],
+        "value": "EUR 10M in 2020"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Shoppers rarely get rewarded for buying from their favourite brands, so Joko is an app that pays them cashback automatically.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Make a saving happen automatically, so users do not have to do any work.",
+    "name": "Joko",
+    "not_startup_reason": null,
+    "overall": 5.5,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: named in VivaTech Top 100 Rising European Startups 2026",
+        "reason": "No growth numbers in the sources.",
+        "score": null,
+        "source": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      "market": {
+        "reason": "Shoppers and brands across Europe could use cashback.",
+        "score": 7,
+        "source": "https://www.eu-startups.com/2020/10/paris-based-fintech-joko-raises-e10-million-to-disrupt-cashback-in-europe/"
+      },
+      "tech": {
+        "reason": "A cashback app is useful but rivals can copy the idea within months.",
+        "score": 4,
+        "source": "https://www.myfrenchstartup.com/fr/startup-france/234166/joko"
+      }
+    },
+    "sources": [
+      {
+        "date": "2020-10-01",
+        "title": "Paris-based fintech Joko raises 10 million euros",
+        "url": "https://www.eu-startups.com/2020/10/paris-based-fintech-joko-raises-e10-million-to-disrupt-cashback-in-europe/"
+      },
+      {
+        "date": null,
+        "title": "Joko leve 10 millions d'euros",
+        "url": "https://www.frenchweb.fr/fintech-joko-leve-10-millions-deuros-aupres-de-partech-et-axeleo/406430"
+      },
+      {
+        "date": null,
+        "title": "Joko super-app du shopping",
+        "url": "https://www.frenchweb.fr/quelle-est-lapproche-de-joko-pour-devenir-une-super-app-du-shopping/430268"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising Startups 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "MyFrenchStartup Joko",
+        "url": "https://www.myfrenchstartup.com/fr/startup-france/234166/joko"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Rewards arrive on their own, with no codes or coupons to hunt for.",
+    "website": "https://hellojoko.com/",
+    "who_pays": "Brands and shops pay Joko when it sends them customers.",
+    "why_now": "Shoppers want savings, and Joko is aiming to grow into a wider shopping app."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-16",
   "id": "hellojoko-com",
-  "industry": "FinTech",
-  "last_checked": null,
+  "industry": "Fintech",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -108,25 +206,45 @@
       "source_kind": "research",
       "title": "Jolidon",
       "url": "https://en.wikipedia.org/wiki/Jolidon"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "FinTech startup from France in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
     }
   ],
   "name": "Joko",
   "name_key": "joko",
-  "region": null,
+  "region": "europe",
   "research": {
     "article_read": true,
     "article_text": "/home/user/repo/hot_startups/cache/article-hellojoko-com.txt",
     "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-05-r5",
     "pages": 2,
     "queries_done": [
       "\"Joko\" startup France"
     ],
+    "refresh": false,
     "searches": 1,
     "site_read": true,
     "site_text": "/home/user/repo/hot_startups/cache/site-hellojoko-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:45:20+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": null,
+      "market": 7.0,
+      "overall": 5.5,
+      "run": "2026-10-05-r5",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:14:27+00:00",
   "website": "https://hellojoko.com/"
 }

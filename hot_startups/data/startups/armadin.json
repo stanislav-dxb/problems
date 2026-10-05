@@ -1,0 +1,175 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://geo.sig.ai/compare/armadin-vs-anduril-industries"
+        ],
+        "value": "Palo Alto, United States"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://geo.sig.ai/compare/armadin-vs-anduril-industries"
+        ],
+        "value": "2025"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/",
+          "https://webrazzi.com/2026/10/02/armadin-2-5-milyar-dolari-asan-degerlemeyle-255-5-milyon-dolar-yatirim-aldi/",
+          "https://thebridge.jp/2026/10/armadin-series-b-autonomous-offensive-security-a16z-accel"
+        ],
+        "value": "Raised $255.5M Series B at a valuation above $2.5B, led by a16z and Accel."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/",
+          "https://webrazzi.com/2026/10/02/armadin-2-5-milyar-dolari-asan-degerlemeyle-255-5-milyon-dolar-yatirim-aldi/",
+          "https://geo.sig.ai/compare/armadin-vs-anduril-industries"
+        ],
+        "value": "$255.5M Series B (earlier about $189.9M in seed and Series A)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Hackers now use AI to attack fast, so Armadin uses swarms of AI agents to attack a company's own systems first and find the holes.",
+    "industry": "Cybersecurity",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "A veteran founder in a field he knows deeply can raise huge money early by pointing new technology at an old, urgent problem.",
+    "name": "Armadin",
+    "not_startup_reason": null,
+    "overall": 7.7,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last ($255.5M after $189.9M)",
+        "reason": "A $255.5M Series B came only months after a $189.9M seed and Series A.",
+        "score": 8,
+        "source": "https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/"
+      },
+      "market": {
+        "reason": "Nearly every business needs security, and the problem is growing worldwide.",
+        "score": 9,
+        "source": "https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/"
+      },
+      "tech": {
+        "reason": "Agent swarms are a clever approach, but the details are not public and others are building similar tools.",
+        "score": 6,
+        "source": "https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-01",
+        "title": "Kevin Mandia's new 'agent swarm' security startup Armadin raises $255.5M at $2.5B valuation",
+        "url": "https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/"
+      },
+      {
+        "date": "2026-10-05",
+        "title": "Armadin Series B",
+        "url": "https://thebridge.jp/2026/10/armadin-series-b-autonomous-offensive-security-a16z-accel"
+      },
+      {
+        "date": "2026-10-02",
+        "title": "Armadin 255.5 milyon dolar yatirim aldi",
+        "url": "https://webrazzi.com/2026/10/02/armadin-2-5-milyar-dolari-asan-degerlemeyle-255-5-milyon-dolar-yatirim-aldi/"
+      },
+      {
+        "date": null,
+        "title": "Armadin vs Anduril Industries",
+        "url": "https://geo.sig.ai/compare/armadin-vs-anduril-industries"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It is led by Kevin Mandia, who founded Mandiant, and it uses many AI agents working together instead of one tool.",
+    "website": null,
+    "who_pays": "Large companies pay for the security service.",
+    "why_now": "AI lets attackers move faster than human security teams, so defenders need machines that test and fix on their own."
+  },
+  "first_judged_run": "2026-10-05-r5",
+  "first_seen": "2026-10-05",
+  "id": "armadin",
+  "industry": "Cybersecurity",
+  "last_checked": "2026-10-05",
+  "mentions": [
+    {
+      "date": "2026-10-01",
+      "run": "2026-10-05-r5",
+      "snippet": "Agent-swarm security startup founded by Kevin Mandia; raised $255.5M at $2.5B valuation",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/"
+    },
+    {
+      "date": "2026-10-05",
+      "run": "2026-10-05-r5",
+      "snippet": "Autonomous offensive security; $255.5M Series B at $2.5B+",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://thebridge.jp/2026/10/armadin-series-b-autonomous-offensive-security-a16z-accel"
+    },
+    {
+      "date": "2026-10-02",
+      "run": "2026-10-05-r5",
+      "snippet": "Raised $255.5M Series B led by a16z and Accel",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://webrazzi.com/2026/10/02/armadin-2-5-milyar-dolari-asan-degerlemeyle-255-5-milyon-dolar-yatirim-aldi/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Armadin was founded in 2025 in the US by Kevin Mandia, former Mandiant CEO; based in Palo Alto; AI-native offensive and defensive cybersecurity; raised $189.9M across Seed and Series A in March 2026.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Armadin vs Anduril Industries",
+      "url": "https://geo.sig.ai/compare/armadin-vs-anduril-industries"
+    }
+  ],
+  "name": "Armadin",
+  "name_key": "armadin",
+  "region": "north_america",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-armadin.txt",
+    "article_url": "https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/",
+    "judged_run": "2026-10-05-r5",
+    "pages": 1,
+    "queries_done": [
+      "\"Armadin\" startup United States"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 8.0,
+      "market": 9.0,
+      "overall": 7.7,
+      "run": "2026-10-05-r5",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:28:39+00:00",
+  "website": null
+}

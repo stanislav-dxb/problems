@@ -4,11 +4,106 @@
   "country": "Germany",
   "domain": "asklio.ai",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Germany",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://vivatech.com/news/top-100-rising-startups-of-2026"
+        ],
+        "value": "Germany"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.ycombinator.com/companies/lio/jobs"
+        ],
+        "value": "2023"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://asklio.ai"
+        ],
+        "value": "Says 150+ large companies use Lio (company claim)."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.munich-startup.de/news/lio-sammelt-25-millionen-euro-ein"
+        ],
+        "value": "EUR 25.7M Series A"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://www.ycombinator.com/companies/lio/jobs"
+        ],
+        "value": "about 80"
+      }
+    },
+    "idea": "Big companies spend huge effort buying things from suppliers; Lio builds AI agents that do this buying work for them.",
+    "industry": "AI tools",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Pick a dull, costly back-office job, and let people who lived it build the automation.",
+    "name": "askLio (now Lio)",
+    "not_startup_reason": null,
+    "overall": 6.3,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: customer logos and funding round",
+        "reason": "Big Series A and many customers, but the customer count is from the company itself.",
+        "score": 6,
+        "source": "https://www.munich-startup.de/news/lio-sammelt-25-millionen-euro-ein"
+      },
+      "market": {
+        "reason": "Every large company buys from suppliers, so the need is worldwide.",
+        "score": 7,
+        "source": "https://asklio.ai"
+      },
+      "tech": {
+        "reason": "Solid agent software with deep process know-how, but others could build similar tools.",
+        "score": 6,
+        "source": "https://asklio.ai"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Munich Startup: Lio raises 25 million euros",
+        "url": "https://www.munich-startup.de/news/lio-sammelt-25-millionen-euro-ein"
+      },
+      {
+        "date": null,
+        "title": "Y Combinator: Lio jobs",
+        "url": "https://www.ycombinator.com/companies/lio/jobs"
+      },
+      {
+        "date": null,
+        "title": "Lio website",
+        "url": "https://asklio.ai"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Former procurement staff from large firms built it, and AI engineers work on site with each customer.",
+    "website": "https://asklio.ai",
+    "who_pays": "Large companies pay to use Lio as a virtual buying department.",
+    "why_now": "AI agents can now handle messy office tasks from start to finish, including odd edge cases."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-16",
   "id": "asklio-ai",
-  "industry": "AI Productivity & Automation",
-  "last_checked": null,
+  "industry": "AI tools",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -27,18 +122,81 @@
       "source_kind": "list",
       "title": "",
       "url": "https://asklio.ai"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "AI Productivity & Automation startup from Germany in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Lio (formerly askLio) builds agentic AI for enterprise procurement; raised 25.7M euros Series A led by Andreessen Horowitz.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Munich Startup: Lio raises 25 million euros",
+      "url": "https://www.munich-startup.de/news/lio-sammelt-25-millionen-euro-ein"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "askLio founders from LMU Munich won the Start-up Prize+ from BMWK.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "MMT alumni win founding prize",
+      "url": "https://www.som.lmu.de/en/latest-news/news-overview/news/mmt-alumni-win-founding-prize-83aa2064.html"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Lio, formerly askLio, Y Combinator S23, founded 2023, team of about 80.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Y Combinator: Lio jobs",
+      "url": "https://www.ycombinator.com/companies/lio/jobs"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "News tag for askLio.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "deutsche-startups: askLio",
+      "url": "https://www.deutsche-startups.de/tag/asklio/"
     }
   ],
-  "name": "askLio",
+  "name": "askLio (now Lio)",
   "name_key": "asklio",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-asklio-ai.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-05-r5",
+    "pages": 2,
+    "queries_done": [
+      "\"askLio\" startup Germany"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-asklio-ai.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:03:00+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 6.0,
+      "market": 7.0,
+      "overall": 6.3,
+      "run": "2026-10-05-r5",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:19:30+00:00",
   "website": "https://asklio.ai"
 }

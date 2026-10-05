@@ -1,0 +1,160 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Saudi Arabia",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "Saudi Arabia",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "http://wamda.com/2026/09/pinnacle-increases-stake-saudi-hospitality-startup-gathern"
+        ],
+        "value": "Riyadh, Saudi Arabia"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "http://wamda.com/2026/09/pinnacle-increases-stake-saudi-hospitality-startup-gathern"
+        ],
+        "value": "2016"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "http://wamda.com/2026/09/pinnacle-increases-stake-saudi-hospitality-startup-gathern",
+          "https://meatechwatch.com/2025/08/22/saudis-gathern-raises-usd-72m-to-expand-hospitality-platform/"
+        ],
+        "value": "More than 5 million registered users and 72,000 units on the platform as of August 2025."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "http://wamda.com/2026/09/pinnacle-increases-stake-saudi-hospitality-startup-gathern",
+          "https://meatechwatch.com/2025/08/22/saudis-gathern-raises-usd-72m-to-expand-hospitality-platform/",
+          "https://www.wamda.com/en/2021/05/gathern-raises-6-million-series-led-stv"
+        ],
+        "value": "$72M Series B (plus $6M Series A in 2021)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Saudi travellers struggled to find and book local holiday homes, so Gathern runs an online marketplace for apartments, villas, chalets, farms and camps.",
+    "industry": "Travel",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Build a local version of a global marketplace around the habits and property types of one country.",
+    "name": "Gathern",
+    "not_startup_reason": null,
+    "overall": 5.7,
+    "region": "mea",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last ($72M after $6M) and 72,000 units listed",
+        "reason": "Users and units are large and a bigger Series B followed the Series A, but there are no yearly growth figures.",
+        "score": 7,
+        "source": "https://meatechwatch.com/2025/08/22/saudis-gathern-raises-usd-72m-to-expand-hospitality-platform/"
+      },
+      "market": {
+        "reason": "A real market, but mostly one country.",
+        "score": 6,
+        "source": "http://wamda.com/2026/09/pinnacle-increases-stake-saudi-hospitality-startup-gathern"
+      },
+      "tech": {
+        "reason": "A marketplace app is solid work but can be copied in months; its edge is supply and brand.",
+        "score": 4,
+        "source": "http://wamda.com/2026/09/pinnacle-increases-stake-saudi-hospitality-startup-gathern"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-29",
+        "title": "Pinnacle increases stake in Saudi hospitality startup Gathern",
+        "url": "http://wamda.com/2026/09/pinnacle-increases-stake-saudi-hospitality-startup-gathern"
+      },
+      {
+        "date": "2025-08-22",
+        "title": "Saudi's Gathern Raises USD 72M to Expand Hospitality Platform",
+        "url": "https://meatechwatch.com/2025/08/22/saudis-gathern-raises-usd-72m-to-expand-hospitality-platform/"
+      },
+      {
+        "date": "2021-05-01",
+        "title": "Gathern raises $6 million Series A led by STV",
+        "url": "https://www.wamda.com/en/2021/05/gathern-raises-6-million-series-led-stv"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It focuses on local Saudi stays such as farms and camps, and holds an estimated 44% of the country's alternative stay market.",
+    "website": null,
+    "who_pays": "Guests pay for bookings, and the platform takes a share from hosts.",
+    "why_now": "Saudi tourism is growing fast, and people want more choice than hotels."
+  },
+  "first_judged_run": "2026-10-05-r5",
+  "first_seen": "2026-10-05",
+  "id": "gathern",
+  "industry": "Travel",
+  "last_checked": "2026-10-05",
+  "mentions": [
+    {
+      "date": "2026-09-29",
+      "run": "2026-10-05-r5",
+      "snippet": "Alternative accommodation platform; Pinnacle increased stake",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "http://wamda.com/2026/09/pinnacle-increases-stake-saudi-hospitality-startup-gathern"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Saudi peer-to-peer holiday rental platform founded 2017 by Latifa Altamimi.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Gathern raises $6 million Series A led by STV",
+      "url": "https://www.wamda.com/en/2021/05/gathern-raises-6-million-series-led-stv"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "$72M Series B led by Sanabil; 72,000 units in 200+ cities.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Saudi's Gathern Raises USD 72M to Expand Hospitality Platform",
+      "url": "https://meatechwatch.com/2025/08/22/saudis-gathern-raises-usd-72m-to-expand-hospitality-platform/"
+    }
+  ],
+  "name": "Gathern",
+  "name_key": "gathern",
+  "region": "mea",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-gathern.txt",
+    "article_url": "http://wamda.com/2026/09/pinnacle-increases-stake-saudi-hospitality-startup-gathern",
+    "judged_run": "2026-10-05-r5",
+    "pages": 1,
+    "queries_done": [
+      "\"Gathern\" startup Saudi Arabia"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 7.0,
+      "market": 6.0,
+      "overall": 5.7,
+      "run": "2026-10-05-r5",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:28:39+00:00",
+  "website": null
+}

@@ -27,18 +27,52 @@
       "source_kind": "list",
       "title": "",
       "url": "https://emma-learn.com/"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "EdTech startup from France in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Emma The Sleep Company, mattress brand based in Germany with French market teams.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Ready to lead, disrupt and reinvent the sleep industry?",
+      "url": "https://www.welcometothejungle.com/en/companies/emma-sleep/jobs/product-manager-french-speaker_paris"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Unrelated article about a person named Emma.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "emma 25 ans mon associee m a laissee tomber j ai pris un job en cdd",
+      "url": "https://www.letudiant.fr/jobsstages/emma-25-ans-mon-associee-m-a-laissee-tomber-j-ai-pris-un-job-en-cdd.html"
     }
   ],
   "name": "Emma",
   "name_key": "emma",
   "region": null,
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-emma-learn-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "pages": 2,
+    "queries_done": [
+      "\"Emma\" startup France"
+    ],
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-emma-learn-com.txt"
   },
   "score_history": [],
   "status": "candidate",
-  "updated": "2026-09-28T02:03:00+00:00",
+  "updated": "2026-10-05T05:09:47+00:00",
   "website": "https://emma-learn.com/"
 }

@@ -4,11 +4,113 @@
   "country": "United Kingdom",
   "domain": "nivoda.net",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://builtinlondon.uk/company/nivoda",
+          "https://startuprise.co.uk/nivoda-has-raised-e48-4-mn-in-latest-funding/"
+        ],
+        "value": "London, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://builtinlondon.uk/company/nivoda"
+        ],
+        "value": "2017"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://nivoda.net/",
+          "https://vivatech.com/news/top-100-rising-startups-of-2026"
+        ],
+        "value": "Says 10,000+ jewelers use it; named in VivaTech Top 100 Rising European Startups 2026."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://fundediq.co/nivoda-nivoda-net-funding/"
+        ],
+        "value": "about $92M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://builtinlondon.uk/company/nivoda"
+        ],
+        "value": "251-500"
+      }
+    },
+    "idea": "Jewelers have to buy and hold costly diamond stock; Nivoda is an online marketplace where they pick from about 2 million diamonds and sell them without owning them first.",
+    "industry": "Marketplace",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Turn a stock-heavy trade into a shared catalogue so small sellers can offer a huge range without holding inventory.",
+    "name": "Nivoda",
+    "not_startup_reason": null,
+    "overall": 6.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: VivaTech Top 100 inclusion and 10,000+ jewelers",
+        "reason": "The VivaTech list needs 40% yearly growth and 5M euros ARR, but Nivoda shows no own figures.",
+        "score": 6,
+        "source": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      "market": {
+        "reason": "Diamond and jewelry retail is a large worldwide trade that needs sourcing.",
+        "score": 7,
+        "source": "https://nivoda.net/"
+      },
+      "tech": {
+        "reason": "A solid marketplace with live feeds and video tools, but the model can be copied in months.",
+        "score": 5,
+        "source": "https://nivoda.net/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Nivoda",
+        "url": "https://builtinlondon.uk/company/nivoda"
+      },
+      {
+        "date": null,
+        "title": "Nivoda has raised 48.4 million euros",
+        "url": "https://startuprise.co.uk/nivoda-has-raised-e48-4-mn-in-latest-funding/"
+      },
+      {
+        "date": null,
+        "title": "nivoda funding",
+        "url": "https://fundediq.co/nivoda-nivoda-net-funding/"
+      },
+      {
+        "date": null,
+        "title": "Nivoda website",
+        "url": "https://nivoda.net/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Retailers can show diamonds in their shop or on their website through video and data feeds, and Nivoda ships them only after a sale.",
+    "website": "https://nivoda.net/",
+    "who_pays": "Jewelry retailers pay for the diamonds and gems they order through the marketplace.",
+    "why_now": "Lab-grown diamonds have widened the choice and made online sourcing far more common."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-16",
   "id": "nivoda-net",
-  "industry": "Marketplace & E-commerce",
-  "last_checked": null,
+  "industry": "Marketplace",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -27,18 +129,72 @@
       "source_kind": "list",
       "title": "",
       "url": "https://nivoda.net/"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "Marketplace & E-commerce startup from UK in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "London B2B marketplace for natural and lab-grown diamonds, founded 2017, 251-500 employees.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nivoda",
+      "url": "https://builtinlondon.uk/company/nivoda"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "London-based Nivoda funding news.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Nivoda has raised €48.4 million",
+      "url": "https://startuprise.co.uk/nivoda-has-raised-e48-4-mn-in-latest-funding/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "About $92M raised across 3 rounds.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "nivoda funding",
+      "url": "https://fundediq.co/nivoda-nivoda-net-funding/"
     }
   ],
   "name": "Nivoda",
   "name_key": "nivoda",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-nivoda-net.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-05-r5",
+    "pages": 2,
+    "queries_done": [
+      "\"Nivoda\" startup United Kingdom"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-nivoda-net.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:03:00+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 6.0,
+      "market": 7.0,
+      "overall": 6.0,
+      "run": "2026-10-05-r5",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:12:02+00:00",
   "website": "https://nivoda.net/"
 }

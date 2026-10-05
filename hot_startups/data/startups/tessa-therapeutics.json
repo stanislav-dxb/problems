@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Singapore",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "tessa-therapeutics",
+  "industry": "biotech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Cancer cell therapy company backed by Temasek and Polaris that is shutting down.",
+      "source": "スタートアップ 事業停止 2026年10月",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://endpts.com/singapore-cancer-cell-therapy-startup-tessa-therapeutics-to-shut-down/"
+    }
+  ],
+  "name": "Tessa Therapeutics",
+  "name_key": "tessatherapeutics",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:32:10+00:00",
+  "website": null
+}

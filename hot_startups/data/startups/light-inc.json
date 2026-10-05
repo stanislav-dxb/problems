@@ -4,11 +4,115 @@
   "country": "Denmark",
   "domain": "light.inc",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Denmark",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2024/06/copenhagen-based-light-snaps-e12-1-million-to-scale-general-ledgers-for-global-companys-finances/",
+          "https://techcrunch.com/2024/06/12/let-there-be-light-danish-startup-exits-stealth-with-13m-seed-funding-to-bring-ai-to-general-ledgers/"
+        ],
+        "value": "Copenhagen, Denmark"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.cnbc.com/2025/09/25/ai-finance-startup-light-raises-funding-from-revolut-backer-balderton.html",
+          "https://techcrunch.com/2024/06/12/let-there-be-light-danish-startup-exits-stealth-with-13m-seed-funding-to-bring-ai-to-general-ledgers/"
+        ],
+        "value": "Second round in about a year, bigger than the first."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://arcticstartup.com/light-raises-e25-million/",
+          "https://www.eu-startups.com/2025/09/light-raises-e25-million-to-replace-legacy-finance-systems-with-ai-native-platform/"
+        ],
+        "value": "$30M (EUR 25M) in 2025, after a $13M seed in 2024"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Fast-growing companies struggle with slow, messy accounts, so Light builds software that keeps the books and does much of the accounting work automatically.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Rebuild the old core system that everything depends on, rather than patching around it.",
+    "name": "Light",
+    "not_startup_reason": null,
+    "overall": 6.5,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last",
+        "reason": "No customer or revenue numbers found, but the second round was bigger than the seed.",
+        "score": null,
+        "source": "https://arcticstartup.com/light-raises-e25-million/"
+      },
+      "market": {
+        "reason": "Every growing business needs accounts, though this targets fast-growing tech firms first.",
+        "score": 7,
+        "source": "https://www.eu-startups.com/2025/09/light-raises-e25-million-to-replace-legacy-finance-systems-with-ai-native-platform/"
+      },
+      "tech": {
+        "reason": "A new ledger with AI is real engineering, but rivals could copy the approach within a year or two.",
+        "score": 6,
+        "source": "https://techcrunch.com/2024/06/12/let-there-be-light-danish-startup-exits-stealth-with-13m-seed-funding-to-bring-ai-to-general-ledgers/"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Early Revolut backer invests in AI-focused finance software startup Light",
+        "url": "https://www.cnbc.com/2025/09/25/ai-finance-startup-light-raises-funding-from-revolut-backer-balderton.html"
+      },
+      {
+        "date": null,
+        "title": "Denmark's Light secures $30 million",
+        "url": "https://arcticstartup.com/light-raises-e25-million/"
+      },
+      {
+        "date": null,
+        "title": "Light raises EUR 25 million",
+        "url": "https://www.eu-startups.com/2025/09/light-raises-e25-million-to-replace-legacy-finance-systems-with-ai-native-platform/"
+      },
+      {
+        "date": null,
+        "title": "Let there be Light!",
+        "url": "https://techcrunch.com/2024/06/12/let-there-be-light-danish-startup-exits-stealth-with-13m-seed-funding-to-bring-ai-to-general-ledgers/"
+      },
+      {
+        "date": null,
+        "title": "Copenhagen-based Light snaps EUR 12.1 million",
+        "url": "https://www.eu-startups.com/2024/06/copenhagen-based-light-snaps-e12-1-million-to-scale-general-ledgers-for-global-companys-finances/"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising Startups 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It replaces the old accounting ledger at the core with a new one built around AI, instead of adding a helper on top.",
+    "website": "https://light.inc/",
+    "who_pays": "Fast-growing companies pay a subscription to run their finances on it.",
+    "why_now": "AI can now read invoices and contracts well enough to do work that used to need big finance teams."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-16",
   "id": "light-inc",
-  "industry": "FinTech",
-  "last_checked": null,
+  "industry": "Fintech",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -108,25 +212,45 @@
       "source_kind": "research",
       "title": "lighting manufacturers in denmark",
       "url": "https://www.shine.lighting/tags/denmark-lighting-manufacturers/"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "FinTech startup from Denmark in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
     }
   ],
   "name": "Light",
   "name_key": "light",
-  "region": null,
+  "region": "europe",
   "research": {
     "article_read": true,
     "article_text": "/home/user/repo/hot_startups/cache/article-light-inc.txt",
     "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-05-r5",
     "pages": 2,
     "queries_done": [
       "\"Light\" startup Denmark"
     ],
+    "refresh": false,
     "searches": 1,
     "site_read": true,
     "site_text": "/home/user/repo/hot_startups/cache/site-light-inc.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:33:02+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": null,
+      "market": 7.0,
+      "overall": 6.5,
+      "run": "2026-10-05-r5",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:26:16+00:00",
   "website": "https://light.inc/"
 }

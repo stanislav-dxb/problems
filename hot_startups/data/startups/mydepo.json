@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "South Korea",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-05",
+  "id": "mydepo",
+  "industry": "enterprise AI",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-02",
+      "run": "2026-10-05-r5",
+      "snippet": "Enterprise AI workspace; ran hackathon with Chilean university",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://platum.kr/archives/295705"
+    }
+  ],
+  "name": "Mydepo",
+  "name_key": "mydepo",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-05T05:08:21+00:00",
+  "website": null
+}

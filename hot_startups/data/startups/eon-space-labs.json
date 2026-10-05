@@ -1,0 +1,190 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "India",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "India",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.outlookbusiness.com/corporate/eon-space-labs-raises-12-mn-to-launch-indias-lightest-space-telescope"
+        ],
+        "value": "Hyderabad, India"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.outlookbusiness.com/corporate/eon-space-labs-raises-12-mn-to-launch-indias-lightest-space-telescope"
+        ],
+        "value": 2022
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://inc42.com/buzz/takeme2space-satleo-eon-space-labs-launch-payloads-aboard-spacex-falcon-9/"
+        ],
+        "value": "MIRA flew on SpaceX Falcon 9 in October 2026."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.outlookbusiness.com/corporate/eon-space-labs-raises-12-mn-to-launch-indias-lightest-space-telescope",
+          "https://finder.techleap.nl/news/feed/eon-space-labs-raises-1-2m-funding"
+        ],
+        "value": "$1.2M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Satellites, drones and aircraft need small, light cameras, so EON Space Labs builds compact optical and infrared imaging payloads.",
+    "industry": "Spacetech",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "When launch gets cheap, the next opportunity is making the parts smaller and lighter.",
+    "name": "EON Space Labs",
+    "not_startup_reason": null,
+    "overall": 6.5,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "substitute: first payload launched on Falcon 9",
+        "reason": "No customer or revenue numbers found.",
+        "score": null,
+        "source": "https://inc42.com/buzz/takeme2space-satleo-eon-space-labs-launch-payloads-aboard-spacex-falcon-9/"
+      },
+      "market": {
+        "reason": "A real market for small imaging payloads, but a niche.",
+        "score": 6,
+        "source": "https://thesouthfirst.com/business-tech/inside-eon-space-labs-how-hyderabad-startup-engineered-indias-lightest-space-telescope"
+      },
+      "tech": {
+        "reason": "Light, high-resolution space optics are hard to build and already flown.",
+        "score": 7,
+        "source": "https://inc42.com/buzz/takeme2space-satleo-eon-space-labs-launch-payloads-aboard-spacex-falcon-9/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-02",
+        "title": "TakeMe2Space, SatLeo, EON Space Labs Launch Payloads Aboard SpaceX Falcon 9",
+        "url": "https://inc42.com/buzz/takeme2space-satleo-eon-space-labs-launch-payloads-aboard-spacex-falcon-9/"
+      },
+      {
+        "date": null,
+        "title": "EON Space Labs raises $1.2M",
+        "url": "https://www.outlookbusiness.com/corporate/eon-space-labs-raises-12-mn-to-launch-indias-lightest-space-telescope"
+      },
+      {
+        "date": null,
+        "title": "Inside EON Space Labs",
+        "url": "https://thesouthfirst.com/business-tech/inside-eon-space-labs-how-hyderabad-startup-engineered-indias-lightest-space-telescope"
+      },
+      {
+        "date": null,
+        "title": "EON Space Labs raises 1.2M funding",
+        "url": "https://finder.techleap.nl/news/feed/eon-space-labs-raises-1-2m-funding"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its MIRA telescope is billed as India's lightest high-resolution space telescope.",
+    "website": null,
+    "who_pays": "Satellite makers and operators, plus drone and airborne users, buy the imaging payloads.",
+    "why_now": "Cheap rideshare launches mean small Indian firms can now fly their own gear into orbit."
+  },
+  "first_judged_run": "2026-10-05-r5",
+  "first_seen": "2026-10-05",
+  "id": "eon-space-labs",
+  "industry": "Spacetech",
+  "last_checked": "2026-10-05",
+  "mentions": [
+    {
+      "date": "2026-10-02",
+      "run": "2026-10-05-r5",
+      "snippet": "Launched payload on Falcon 9",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://inc42.com/buzz/takeme2space-satleo-eon-space-labs-launch-payloads-aboard-spacex-falcon-9/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Hyderabad deeptech startup founded 2022; raised $1.2M Pre-Series A led by MGF Kavachh; makes MIRA, India's lightest high-resolution space telescope.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "eon space labs raises 12 mn to launch indias lightest space telescope",
+      "url": "https://www.outlookbusiness.com/corporate/eon-space-labs-raises-12-mn-to-launch-indias-lightest-space-telescope"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Compact electro-optical and infrared imaging payloads for satellites, drones and airborne platforms.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "inside eon space labs how hyderabad startup engineered indias lightest space telescope",
+      "url": "https://thesouthfirst.com/business-tech/inside-eon-space-labs-how-hyderabad-startup-engineered-indias-lightest-space-telescope"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "EON Space Labs optical payloads.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "EON Space Labs: India's satellite optics bet",
+      "url": "https://yourstory.com/2026/04/eon-space-labs-optical-payloads"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "$1.2M funding.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "EON Space Labs raises 1.2M funding",
+      "url": "https://finder.techleap.nl/news/feed/eon-space-labs-raises-1-2m-funding"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Company profile.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Eon Space Labs - Dealroom",
+      "url": "https://app.dealroom.co/companies/eon_space_labs"
+    }
+  ],
+  "name": "EON Space Labs",
+  "name_key": "eonspacelabs",
+  "region": "asia",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-eon-space-labs.txt",
+    "article_url": "https://inc42.com/buzz/takeme2space-satleo-eon-space-labs-launch-payloads-aboard-spacex-falcon-9/",
+    "judged_run": "2026-10-05-r5",
+    "pages": 1,
+    "queries_done": [
+      "\"EON Space Labs\" startup India"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": null,
+      "market": 6.0,
+      "overall": 6.5,
+      "run": "2026-10-05-r5",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:21:53+00:00",
+  "website": null
+}

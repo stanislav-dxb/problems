@@ -4,11 +4,95 @@
   "country": "India",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "India",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://inc42.com/buzz/rivet-bags-10-5-mn-from-peak-xv-others-to-scale-dating-platform-in-us/"
+        ],
+        "value": "Delhi NCR, India"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://inc42.com/buzz/rivet-bags-10-5-mn-from-peak-xv-others-to-scale-dating-platform-in-us/"
+        ],
+        "value": "2025"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://inc42.com/buzz/rivet-bags-10-5-mn-from-peak-xv-others-to-scale-dating-platform-in-us/"
+        ],
+        "value": "Launched across the US in September 2026 after a $10.5M seed round."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://inc42.com/buzz/rivet-bags-10-5-mn-from-peak-xv-others-to-scale-dating-platform-in-us/",
+          "https://www.mexc.com/tr-CT/news/886012"
+        ],
+        "value": "$10.5M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Dating apps are tiring and strangers rarely know each other well, so Rivet lets friends and community members recommend matches for people.",
+    "industry": "Dating",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "When a crowded market feels broken, put trusted people in the middle instead of an algorithm alone.",
+    "name": "Rivet",
+    "not_startup_reason": null,
+    "overall": 5.5,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round of $10.5M from Peak XV, Shine Capital and Blume",
+        "reason": "No user or revenue numbers are given; the seed round and US launch are the only signals.",
+        "score": null,
+        "source": "https://inc42.com/buzz/rivet-bags-10-5-mn-from-peak-xv-others-to-scale-dating-platform-in-us/"
+      },
+      "market": {
+        "reason": "Dating is a large worldwide market with many paying users.",
+        "score": 7,
+        "source": "https://inc42.com/buzz/rivet-bags-10-5-mn-from-peak-xv-others-to-scale-dating-platform-in-us/"
+      },
+      "tech": {
+        "reason": "Matching built on community recommendations is useful, but a good team could copy it in months.",
+        "score": 4,
+        "source": "https://inc42.com/buzz/rivet-bags-10-5-mn-from-peak-xv-others-to-scale-dating-platform-in-us/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-25",
+        "title": "Rivet Bags $10.5 Mn From Peak XV, Others To Scale Dating Platform In US",
+        "url": "https://inc42.com/buzz/rivet-bags-10-5-mn-from-peak-xv-others-to-scale-dating-platform-in-us/"
+      },
+      {
+        "date": null,
+        "title": "Rivet raised $10.5M seed led by Peak XV",
+        "url": "https://www.mexc.com/tr-CT/news/886012"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Even people who are not looking for a date can join as matchmakers.",
+    "website": null,
+    "who_pays": "Users are expected to pay, as with other dating apps, but the sources do not say how Rivet charges.",
+    "why_now": "People are tired of swiping on big dating apps, and Rivet just raised money to launch across the US."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-28",
   "id": "rivet",
-  "industry": "dating app",
-  "last_checked": null,
+  "industry": "Dating",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-09-25",
@@ -18,18 +102,79 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://inc42.com/buzz/rivet-bags-10-5-mn-from-peak-xv-others-to-scale-dating-platform-in-us/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "WeWork India launched Rivet, a design-and-build platform for large enterprises.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Rivet by WeWork",
+      "url": "https://nsearchives.nseindia.com/corporate/WEWORK_09032026140111_Media_Release_-_Rivet_by_WeWork.pdf"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Social networking and entertainment platform for Indian users.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Rivet raised $10.5M seed led by Peak XV",
+      "url": "https://www.mexc.com/tr-CT/news/886012"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Technology and consulting company founded 2020, Valsad, Gujarat.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "1Rivet India LLP",
+      "url": "https://www.greatplacetowork.in/great/company/1rivet-india-llp"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Fastening systems and riveting tools, Chennai, est. 2019.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Rivet Technologies & Solutions",
+      "url": "https://m.indiamart.com/rivettechnologiessolutions/profile.html"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "CB Insights comparison.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Compare Rivet vs Technoligent",
+      "url": "https://www.cbinsights.com/compare/rivet-3-vs-technoligent"
     }
   ],
   "name": "Rivet",
   "name_key": "rivet",
-  "region": null,
+  "region": "asia",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-rivet.txt",
+    "article_url": "https://inc42.com/buzz/rivet-bags-10-5-mn-from-peak-xv-others-to-scale-dating-platform-in-us/",
+    "judged_run": "2026-10-05-r5",
+    "pages": 1,
+    "queries_done": [
+      "\"Rivet\" startup India"
+    ],
+    "refresh": false,
+    "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:09:27+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": null,
+      "market": 7.0,
+      "overall": 5.5,
+      "run": "2026-10-05-r5",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:25:30+00:00",
   "website": null
 }

@@ -4,11 +4,106 @@
   "country": "United Kingdom",
   "domain": "summize.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://nordic9.com/companies/summize"
+        ],
+        "value": "Manchester, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.summize.com/resources/summize-named-in-sifted-100-uk-ireland-the-fastest-growing-startups-in-2025",
+          "https://www.deloitte.co.uk/fast50/winners/2025/winner-profiles/summize/"
+        ],
+        "value": "Over 100% net ARR growth for four years; ranked #55 in Sifted 100 UK & Ireland 2025."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Business teams keep sending contract questions to the legal team; Summize puts AI helpers inside Outlook, Slack, Teams and Salesforce so they get answers instantly.",
+    "industry": "LegalTech",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Put the product inside the tools people already use so adoption is instant.",
+    "name": "Summize",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "over 100% net ARR growth for four years",
+        "reason": "Over 100% net ARR growth for four years, backed by Sifted and Deloitte Fast 50 rankings.",
+        "score": 8,
+        "source": "https://www.summize.com/resources/summize-named-in-sifted-100-uk-ireland-the-fastest-growing-startups-in-2025"
+      },
+      "market": {
+        "reason": "Every business signs contracts, and legal teams worldwide face the same bottleneck.",
+        "score": 7,
+        "source": "https://www.summize.com"
+      },
+      "tech": {
+        "reason": "Useful integrations and AI agents, but a good team could copy them in months.",
+        "score": 5,
+        "source": "https://www.summize.com"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Summize named in Sifted 100 UK & Ireland 2025",
+        "url": "https://www.summize.com/resources/summize-named-in-sifted-100-uk-ireland-the-fastest-growing-startups-in-2025"
+      },
+      {
+        "date": null,
+        "title": "Summize Deloitte Fast 50 winner profile",
+        "url": "https://www.deloitte.co.uk/fast50/winners/2025/winner-profiles/summize/"
+      },
+      {
+        "date": null,
+        "title": "Summize (private company)",
+        "url": "https://nordic9.com/companies/summize"
+      },
+      {
+        "date": null,
+        "title": "Summize website",
+        "url": "https://www.summize.com"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It works inside the tools people already use, so there is no new platform to learn.",
+    "website": "https://www.summize.com",
+    "who_pays": "Companies and their legal teams pay a software subscription.",
+    "why_now": "AI can now read contracts and answer questions grounded in a company's own rules."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-16",
   "id": "summize-com",
   "industry": "LegalTech",
-  "last_checked": null,
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -27,18 +122,81 @@
       "source_kind": "list",
       "title": "",
       "url": "https://www.summize.com"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "LegalTech startup from UK in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Manchester contract software company.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Summize (private company)",
+      "url": "https://nordic9.com/companies/summize"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Ranked #55 fastest growing startups; over 100% net ARR growth for four years.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Summize named in Sifted 100 UK & Ireland 2025",
+      "url": "https://www.summize.com/resources/summize-named-in-sifted-100-uk-ireland-the-fastest-growing-startups-in-2025"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Deloitte UK Fast 50 2025 winner.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Summize Deloitte Fast 50 winner profile",
+      "url": "https://www.deloitte.co.uk/fast50/winners/2025/winner-profiles/summize/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Funding and team growth.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "SaaS firm accelerates growth with NPIF and Future Fund",
+      "url": "https://britishlegalitforum.com/news/saas-firm-accelerates-growth-with-support-from-npif-and-the-future-fund/"
     }
   ],
   "name": "Summize",
   "name_key": "summize",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-summize-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-05-r5",
+    "pages": 2,
+    "queries_done": [
+      "\"Summize\" startup United Kingdom"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-summize-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:03:00+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 8.0,
+      "market": 7.0,
+      "overall": 6.7,
+      "run": "2026-10-05-r5",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:12:03+00:00",
   "website": "https://www.summize.com"
 }

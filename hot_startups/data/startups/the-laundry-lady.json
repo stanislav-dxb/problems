@@ -2,13 +2,107 @@
   "alias_keys": [],
   "aliases": [],
   "country": "Australia",
-  "domain": null,
+  "domain": "thelaundrylady.com.au",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Australia",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://sunshinecoastnews.com/2022/11/07/startup-business-bubbles-to-the-top"
+        ],
+        "value": "Sunshine Coast, Australia"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://sunshinecoastnews.com/2022/11/07/startup-business-bubbles-to-the-top"
+        ],
+        "value": "2012"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.smartcompany.com.au/technology/the-laundry-lady-launches-new-digital-app-as-it-gears-up-for-uk-launch/",
+          "https://www.startupdaily.net/topic/women-in-tech/the-laundry-lady-launches-new-digital-app-as-it-gears-up-for-uk-launch/"
+        ],
+        "value": "Launched a new app in September 2026 ahead of a UK launch."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://noosatoday.com.au/?p=93579"
+        ],
+        "value": "$1M seed"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "People hate doing laundry, so The Laundry Lady picks it up, washes it and brings it back.",
+    "industry": "Consumer services",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Turn a chore people dislike into a simple booking, and use local contractors to grow without owning machines.",
+    "name": "The Laundry Lady",
+    "not_startup_reason": null,
+    "overall": 4.5,
+    "region": "other",
+    "scores": {
+      "growth": {
+        "basis": "substitute: planned UK launch and $1M seed round",
+        "reason": "No numbers on customers or revenue; plans for Canada and the UK.",
+        "score": null,
+        "source": "https://noosatoday.com.au/?p=93579"
+      },
+      "market": {
+        "reason": "Laundry is a universal chore, but this is a local service business.",
+        "score": 6,
+        "source": "https://noosatoday.com.au/?p=93579"
+      },
+      "tech": {
+        "reason": "Mostly a booking app on top of a contractor service.",
+        "score": 3,
+        "source": "https://www.smartcompany.com.au/technology/the-laundry-lady-launches-new-digital-app-as-it-gears-up-for-uk-launch/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-25",
+        "title": "The Laundry Lady launches new digital app ahead of UK launch",
+        "url": "https://www.smartcompany.com.au/technology/the-laundry-lady-launches-new-digital-app-as-it-gears-up-for-uk-launch/"
+      },
+      {
+        "date": "2026-10-04",
+        "title": "The Laundry Lady launches new digital app",
+        "url": "https://www.startupdaily.net/topic/women-in-tech/the-laundry-lady-launches-new-digital-app-as-it-gears-up-for-uk-launch/"
+      },
+      {
+        "date": null,
+        "title": "The Laundry Lady secures $1M to fuel international expansion",
+        "url": "https://noosatoday.com.au/?p=93579"
+      },
+      {
+        "date": "2022-11-07",
+        "title": "Startup business bubbles to the top",
+        "url": "https://sunshinecoastnews.com/2022/11/07/startup-business-bubbles-to-the-top"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Local contractors do the work, and a new app handles booking and tracking.",
+    "website": "https://thelaundrylady.com.au/",
+    "who_pays": "Households pay per load for pickup and delivery.",
+    "why_now": "Busy people pay to save time, and a new app is helping the firm expand abroad."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-28",
   "id": "the-laundry-lady",
-  "industry": "consumer services",
-  "last_checked": null,
+  "industry": "Consumer services",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-09-25",
@@ -18,18 +112,71 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://www.smartcompany.com.au/technology/the-laundry-lady-launches-new-digital-app-as-it-gears-up-for-uk-launch/"
+    },
+    {
+      "date": "2026-10-04",
+      "run": "2026-10-05-r5",
+      "snippet": "Launched digital app ahead of UK launch",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.startupdaily.net/topic/women-in-tech/the-laundry-lady-launches-new-digital-app-as-it-gears-up-for-uk-launch/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Seed round of $1M led by Karl Jacoby for expansion to Canada and the UK.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "The Laundry Lady secures $1M to fuel international expansion",
+      "url": "https://noosatoday.com.au/?p=93579"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Founded 2012 by Susan Toft; contractor-based laundry pickup and delivery.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Startup business bubbles to the top",
+      "url": "https://sunshinecoastnews.com.au/2022/11/07/startup-business-bubbles-to-the-top"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "Company profile.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "the laundry lady",
+      "url": "https://www.vcbacked.co/company/the-laundry-lady"
     }
   ],
   "name": "The Laundry Lady",
   "name_key": "laundrylady",
-  "region": null,
+  "region": "other",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-the-laundry-lady.txt",
+    "article_url": "https://www.smartcompany.com.au/technology/the-laundry-lady-launches-new-digital-app-as-it-gears-up-for-uk-launch/",
+    "judged_run": "2026-10-05-r5",
+    "pages": 2,
+    "queries_done": [
+      "\"The Laundry Lady\" startup Australia"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:10:41+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": null,
+      "market": 6.0,
+      "overall": 4.5,
+      "run": "2026-10-05-r5",
+      "tech": 3.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:18:28+00:00",
+  "website": "https://thelaundrylady.com.au/"
 }

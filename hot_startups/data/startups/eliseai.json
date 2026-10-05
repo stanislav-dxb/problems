@@ -1,0 +1,176 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": "eliseai.com",
+  "drop_reason": "Team is about 625 people, over the 500 limit.",
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://dealroom.co/companies/meetelise/"
+        ],
+        "value": "New York, United States"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://dealroom.co/companies/meetelise/"
+        ],
+        "value": "2017"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.vcbacked.co/company/eliseai",
+          "https://thebridge.jp/2026/10/eliseai-350m-a16z-bessemer-housing-healthcare-ai"
+        ],
+        "value": "Raised $250M in Aug 2025, then $350M a year later."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://thebridge.jp/2026/10/eliseai-350m-a16z-bessemer-housing-healthcare-ai",
+          "https://www.eliseai.com"
+        ],
+        "value": "$350M in its latest round at a $4B valuation"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://www.vcbacked.co/company/eliseai"
+        ],
+        "value": "about 625"
+      }
+    },
+    "idea": "Property managers and clinics drown in calls, texts and emails, so EliseAI answers them with an AI assistant.",
+    "industry": "AI tools",
+    "is_startup": false,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Pick a dull, message-heavy industry and let AI do the repetitive talking.",
+    "name": "EliseAI",
+    "not_startup_reason": "Team is about 625 people, over the 500 limit.",
+    "overall": 7.3,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last",
+        "reason": "Two big rounds in about a year, from $250M to $350M.",
+        "score": 8,
+        "source": "https://thebridge.jp/2026/10/eliseai-350m-a16z-bessemer-housing-healthcare-ai"
+      },
+      "market": {
+        "reason": "Housing and healthcare are huge industries with endless messages to handle.",
+        "score": 8,
+        "source": "https://www.eliseai.com"
+      },
+      "tech": {
+        "reason": "Solid AI agent and CRM product, but others could build similar tools in months.",
+        "score": 6,
+        "source": "https://thebridge.jp/2026/10/eliseai-350m-a16z-bessemer-housing-healthcare-ai"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-05",
+        "title": "EliseAI raises $350M (BRIDGE)",
+        "url": "https://thebridge.jp/2026/10/eliseai-350m-a16z-bessemer-housing-healthcare-ai"
+      },
+      {
+        "date": null,
+        "title": "EliseAI - Dealroom",
+        "url": "https://dealroom.co/companies/meetelise/"
+      },
+      {
+        "date": null,
+        "title": "EliseAI - VC Backed",
+        "url": "https://www.vcbacked.co/company/eliseai"
+      },
+      {
+        "date": null,
+        "title": "EliseAI website",
+        "url": "https://www.eliseai.com"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "One AI handles phone, text, email and chat in many languages, and also books tours and sorts repair requests.",
+    "website": "https://www.eliseai.com",
+    "who_pays": "Housing companies and healthcare providers pay for the software.",
+    "why_now": "AI can now talk like a person, so it can take over routine front-desk work."
+  },
+  "first_seen": "2026-10-05",
+  "id": "eliseai",
+  "industry": "AI tools",
+  "last_checked": "2026-10-05",
+  "mentions": [
+    {
+      "date": "2026-10-05",
+      "run": "2026-10-05-r5",
+      "snippet": "AI for leasing and resident communication; $350M at $4B valuation",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://thebridge.jp/2026/10/eliseai-350m-a16z-bessemer-housing-healthcare-ai"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "EliseAI funding round and unicorn status.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "EliseAI raises $75M, becomes unicorn",
+      "url": "https://finder.techleap.nl/news/feed/eliseai-raises-75m-becomes-unicorn"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "EliseAI, New York, founded 2017, AI for housing and healthcare.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "EliseAI - Dealroom",
+      "url": "https://dealroom.co/companies/meetelise/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-05-r5",
+      "snippet": "$250M Series E Aug 2025; about 625 people.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "EliseAI - VC Backed",
+      "url": "https://www.vcbacked.co/company/eliseai"
+    }
+  ],
+  "name": "EliseAI",
+  "name_key": "eliseai",
+  "region": "north_america",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-eliseai.txt",
+    "article_url": "https://thebridge.jp/2026/10/eliseai-350m-a16z-bessemer-housing-healthcare-ai",
+    "judged_run": "2026-10-05-r5",
+    "pages": 2,
+    "queries_done": [
+      "\"EliseAI\" startup United States"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-eliseai.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 8.0,
+      "market": 8.0,
+      "overall": 7.3,
+      "run": "2026-10-05-r5",
+      "tech": 6.0
+    }
+  ],
+  "status": "dropped",
+  "updated": "2026-10-05T05:24:49+00:00",
+  "website": "https://www.eliseai.com"
+}

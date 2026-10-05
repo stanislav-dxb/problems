@@ -4,11 +4,108 @@
   "country": "Australia",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Australia",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://gust.com/companies/kinoxis-therapeutics"
+        ],
+        "value": "Melbourne, Australia"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.smartcompany.com.au/startupsmart/seven-aussie-startups-that-raised-274-7-million-this-week/"
+        ],
+        "value": "Named among seven Australian startups that raised $274.7M in one week (Sept 2026)."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.startupdaily.net/topic/funding/sydney-uni-mental-health-biotech-banks-14-5-million-series-b/",
+          "https://www.startupdaily.net/topic/funding/dementia-biotech-kinoxis-raises-6-75-million-with-a-2-5m-grant-as-cherry-on-top/"
+        ],
+        "value": "$14.5M Series B (currency not stated in source); earlier $6.75M plus a $2.5M grant"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Dementia and mental health conditions have few good drug treatments, so Kinoxis develops new medicines for them.",
+    "industry": "Biotech",
+    "is_startup": true,
+    "judged_on": "2026-10-05",
+    "judged_run": "2026-10-05-r5",
+    "lesson": "Turn university research into a company, and use grants plus venture money to pay for the long road to a drug.",
+    "name": "Kinoxis Therapeutics",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "region": "other",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last",
+        "reason": "A Series B followed an earlier smaller round, so funding is getting bigger.",
+        "score": 7,
+        "source": "https://www.startupdaily.net/topic/funding/sydney-uni-mental-health-biotech-banks-14-5-million-series-b/"
+      },
+      "market": {
+        "reason": "Brain disease drugs serve a huge worldwide patient group.",
+        "score": 7,
+        "source": "https://www.startupdaily.net/topic/funding/dementia-biotech-kinoxis-raises-6-75-million-with-a-2-5m-grant-as-cherry-on-top/"
+      },
+      "tech": {
+        "reason": "A university-born drug program looks real, but little detail is public so the edge is unproven.",
+        "score": 6,
+        "source": "https://uniseed.com/project/kinoxis-therapeutics/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-25",
+        "title": "Seven Aussie startups that raised $274.7 million this week",
+        "url": "https://www.smartcompany.com.au/startupsmart/seven-aussie-startups-that-raised-274-7-million-this-week/"
+      },
+      {
+        "date": null,
+        "title": "Sydney Uni mental health biotech banks $14.5 million Series B",
+        "url": "https://www.startupdaily.net/topic/funding/sydney-uni-mental-health-biotech-banks-14-5-million-series-b/"
+      },
+      {
+        "date": null,
+        "title": "Dementia biotech Kinoxis raises $6.75 million",
+        "url": "https://www.startupdaily.net/topic/funding/dementia-biotech-kinoxis-raises-6-75-million-with-a-2-5m-grant-as-cherry-on-top/"
+      },
+      {
+        "date": null,
+        "title": "Kinoxis Therapeutics Pty Ltd | Gust",
+        "url": "https://gust.com/companies/kinoxis-therapeutics"
+      },
+      {
+        "date": null,
+        "title": "Kinoxis Therapeutics | Uniseed",
+        "url": "https://uniseed.com/project/kinoxis-therapeutics/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It is a University of Sydney spinout backed by a specialist Australian university venture fund.",
+    "website": null,
+    "who_pays": "Investors and research grants pay now; drug companies or health systems would pay if a medicine works.",
+    "why_now": "Ageing populations are making dementia a much bigger problem, and investors are putting money into brain medicines."
+  },
+  "first_judged_run": "2026-10-05-r5",
   "first_seen": "2026-09-28",
   "id": "kinoxis-therapeutics",
-  "industry": "biotech",
-  "last_checked": null,
+  "industry": "Biotech",
+  "last_checked": "2026-10-05",
   "mentions": [
     {
       "date": "2026-09-25",
@@ -103,19 +200,30 @@
   ],
   "name": "Kinoxis Therapeutics",
   "name_key": "kinoxistherapeutics",
-  "region": null,
+  "region": "other",
   "research": {
     "article_read": true,
     "article_text": "/home/user/repo/hot_startups/cache/article-kinoxis-therapeutics.txt",
     "article_url": "https://www.smartcompany.com.au/startupsmart/seven-aussie-startups-that-raised-274-7-million-this-week/",
+    "judged_run": "2026-10-05-r5",
     "pages": 1,
     "queries_done": [
       "\"Kinoxis Therapeutics\" startup Australia"
     ],
+    "refresh": false,
     "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T03:17:43+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-05",
+      "growth": 7.0,
+      "market": 7.0,
+      "overall": 6.7,
+      "run": "2026-10-05-r5",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-05T05:09:25+00:00",
   "website": null
 }

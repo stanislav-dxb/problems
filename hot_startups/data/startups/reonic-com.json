@@ -212,6 +212,15 @@
       "source_kind": "research",
       "title": "Reonic Secures €13 Million in Series A",
       "url": "https://www.thesaasnews.com/news/reonic-secures-13-million-in-series-a/"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-05-r5",
+      "snippet": "Energy startup from Germany in VivaTech Top 100 Rising European Startups 2026",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
     }
   ],
   "name": "Reonic",
@@ -242,6 +251,6 @@
     }
   ],
   "status": "judged",
-  "updated": "2026-09-28T02:38:45+00:00",
+  "updated": "2026-10-05T05:06:35+00:00",
   "website": "https://reonic.com/"
 }
