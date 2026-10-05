@@ -13,19 +13,21 @@ costs many times more than the work itself.
 1. In the repository, check out the branch named in `hot_startups/config.yaml` under `git.branch` and pull the latest.
 2. `pip install -q -r hot_startups/requirements.txt`
 3. `cd hot_startups && python -m hotstartups init`
-4. Fetch the memory that travels with the page: with the Artifact tool, `action: read_file`, `url` = the address in
-   `config.yaml` under `page.artifact_url`, `path: memory.json`. It is saved into your scratchpad folder; the result
-   names the path. Then `python -m hotstartups memory import <that path>`. It restores `data/` only if the bundle
+4. Fetch the memory that travels with the page: with the Artifact tool, `action: read`, `url` = the address in
+   `config.yaml` under `page.artifact_url`, `path: memory.json`. The file is saved locally; the result names the
+   path. Then `python -m hotstartups memory import <that path>`. It restores `data/` only if the bundle
    knows a later run than the repository does, and says so either way. If the file does not exist yet, continue
    with the repository's data.
 5. `python -m hotstartups run start`. If it prints `paused`, stop here and say so. It prints the limits for this run.
 
 ## The loop (main session)
 
-Repeat until `next` prints `"done": true`:
+Repeat until `next` prints `"done": true`. Do not end your turn before the run is finished and published: a run
+session that stops early leaves the week empty.
 
 1. `python -m hotstartups next --batch 8 --out work/next.json`. Do not read `work/next.json` yourself.
-2. Launch one helper with the Agent tool (general-purpose), with this task, verbatim, plus the run's folder path:
+2. Launch one helper with the Agent tool (general-purpose) and `run_in_background: false`, so you wait for its reply
+   (a helper left in the background is lost when the session ends). Give it this task, verbatim:
 
    > Work the tickets in `hot_startups/work/next.json` (read that file first; the run folder is `hot_startups/`).
    > For each task in `tasks`, do exactly what its `instructions` say, using only the task's own fields:
@@ -50,8 +52,8 @@ Repeat until `next` prints `"done": true`:
 2. Publish with the Artifact tool. `page.artifact_url` in `config.yaml` is set: first `action: read` with that url
    (the page is small; read the saved file in full as the tool asks), then publish with `file_path: out/index.html`,
    `url` set to that address, and `files: {"entries.js": "out/entries.js", "memory.json": "out/memory.json"}`.
-   Omit favicon. Both files are required: without `entries.js` the page is empty, without `memory.json` the next
-   run forgets this one. If the address is empty: publish the same way without `url`, with favicon 🔥, then write
+   Omit icon. Both files are required: without `entries.js` the page is empty, without `memory.json` the next
+   run forgets this one. If the address is empty: publish the same way without `url`, with icon `chart`, then write
    the returned URL into `config.yaml` under `page.artifact_url`.
 3. Final message: start with "OK" if everything worked or "FAILED" if anything did not; then the counts line from
    `run finish`, how many startups are on the page, how many are new, what could not be read, whether the push
