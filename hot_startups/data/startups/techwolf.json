@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Belgium",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-12",
+  "id": "techwolf",
+  "industry": "HR AI",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-06",
+      "run": "2026-10-12-r6",
+      "snippet": "AI startup being acquired by SAP",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://sifted.eu/articles/sap-techwolf-acquisition-deal/"
+    }
+  ],
+  "name": "TechWolf",
+  "name_key": "techwolf",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-12T02:08:22+00:00",
+  "website": null
+}

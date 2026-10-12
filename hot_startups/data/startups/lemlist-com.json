@@ -4,11 +4,113 @@
   "country": "France",
   "domain": "lemlist.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "France",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.cbinsights.com/company/lemlist"
+        ],
+        "value": "Paris, France"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.maddyness.com/2025/10/20/lemlist-startup-valorisee-plus-de-150-millions-de-dollars-sans-lever-de-fonds-met-la-main-sur-claap/"
+        ],
+        "value": "About 35M euros yearly revenue, up 65% in a year (October 2025)."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": true,
+        "sources": [
+          "https://www.growthtalent.org/entreprises/lemlist",
+          "https://map.getclera.com/company/lemlist"
+        ],
+        "value": "about 90 to 170"
+      }
+    },
+    "idea": "Sales teams struggle to reach the right buyers; lemlist finds contacts and sends personal-feeling messages by email, LinkedIn, calls and more from one place.",
+    "industry": "Sales software",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Grow on customer revenue alone, then widen the product by buying small related startups.",
+    "name": "lemlist",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "65% growth in a year to about 35M euros recurring revenue.",
+        "score": 8,
+        "source": "https://www.maddyness.com/2025/10/20/lemlist-startup-valorisee-plus-de-150-millions-de-dollars-sans-lever-de-fonds-met-la-main-sur-claap/"
+      },
+      "market": {
+        "reason": "Outbound sales is a need for companies of every size, worldwide.",
+        "score": 7,
+        "source": "https://www.lemlist.com"
+      },
+      "tech": {
+        "reason": "Good product with many integrations, but a strong team could copy most of it.",
+        "score": 5,
+        "source": "https://www.lemlist.com"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": "2025-10-20",
+        "title": "lemlist buys Claap",
+        "url": "https://www.maddyness.com/2025/10/20/lemlist-startup-valorisee-plus-de-150-millions-de-dollars-sans-lever-de-fonds-met-la-main-sur-claap/"
+      },
+      {
+        "date": null,
+        "title": "Founded Year - CB Insights",
+        "url": "https://www.cbinsights.com/company/lemlist"
+      },
+      {
+        "date": null,
+        "title": "lemlist - Growth Talent",
+        "url": "https://www.growthtalent.org/entreprises/lemlist"
+      },
+      {
+        "date": null,
+        "title": "lemlist - Team size",
+        "url": "https://map.getclera.com/company/lemlist"
+      },
+      {
+        "date": null,
+        "title": "Lemlist delivre un tour secondaire",
+        "url": "https://www.cfnews.net/L-actualite/Capital-innovation-developpement/Operations/Rachat-de-titres/Lemlist-delivre-un-tour-secondaire-380994"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It grew to about 35M euros in yearly revenue without outside funding, with founders keeping full ownership until a small secondary deal.",
+    "website": "https://www.lemlist.com",
+    "who_pays": "Sales teams pay a subscription; over 20,000 teams use it.",
+    "why_now": "Inboxes are crowded, so sellers need smarter targeting, AI help and tools that keep emails out of spam."
+  },
+  "first_judged_run": "2026-10-12-r6",
   "first_seen": "2026-09-28",
   "id": "lemlist-com",
-  "industry": "MarTech",
-  "last_checked": null,
+  "industry": "Sales software",
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "",
@@ -27,18 +129,99 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-12-r6",
+      "snippet": "MarTech startup from France in VivaTech's Top 100 Rising European Startups 2026.",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://www.lemlist.com"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Oct 2025: lemlist buys French startup Claap; about 35M euros ARR, 65% growth over a year.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "lemlist startup valorisee plus de 150 millions de dollars sans lever de fonds met la main sur claap",
+      "url": "https://www.maddyness.com/2025/10/20/lemlist-startup-valorisee-plus-de-150-millions-de-dollars-sans-lever-de-fonds-met-la-main-sur-claap/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Paris-based sales engagement company; lists about $30M raised.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Founded Year - CB Insights",
+      "url": "https://www.cbinsights.com/company/lemlist"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Interview with founder Guillaume Moubeche about starting lemlist.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "lemlist - Failory interview",
+      "url": "https://www.failory.com/interview/lemlist"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Team size 51-200.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "lemlist - Growth Talent",
+      "url": "https://www.growthtalent.org/entreprises/lemlist"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "First fund joins through a secondary share purchase; founders had kept full ownership.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Lemlist delivre un tour secondaire",
+      "url": "https://www.cfnews.net/L-actualite/Capital-innovation-developpement/Operations/Rachat-de-titres/Lemlist-delivre-un-tour-secondaire-380994"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Team of 90-173.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "lemlist - Team size",
+      "url": "https://map.getclera.com/company/lemlist"
     }
   ],
   "name": "lemlist",
   "name_key": "lemlist",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-lemlist-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-12-r6",
+    "pages": 2,
+    "queries_done": [
+      "\"lemlist\" startup France"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-lemlist-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-10-05T05:06:35+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 8.0,
+      "market": 7.0,
+      "overall": 6.7,
+      "run": "2026-10-12-r6",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:13:31+00:00",
   "website": "https://www.lemlist.com"
 }

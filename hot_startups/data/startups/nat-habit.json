@@ -1,0 +1,181 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "India",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "India",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://inc42.com/company/nat-habit/"
+        ],
+        "value": "Gurugram, India"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://inc42.com/company/nat-habit/"
+        ],
+        "value": "2018"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://inc42.com/buzz/d2c-brand-nat-habit-raises-%e2%82%b9142-cr-to-scale-offline-expansion/"
+        ],
+        "value": "Plans to grow from about 20,000 stores to 2 lakh in three years."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://inc42.com/buzz/d2c-brand-nat-habit-raises-%e2%82%b9142-cr-to-scale-offline-expansion/",
+          "https://yourstory.com/2026/10/nat-habit-raises-rs-142-cr-in-series-c-led-by-trident-growth-partners"
+        ],
+        "value": "Rs142 Cr (about $14.7M) Series C"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Many people want natural, Ayurveda-inspired skin and hair products, so Nat Habit makes and sells them directly to buyers.",
+    "industry": "Personal care",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "An online brand can win trust first, then use stores and smaller pack sizes to reach a wider crowd.",
+    "name": "Nat Habit",
+    "not_startup_reason": null,
+    "overall": 5.0,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last",
+        "reason": "Series C is larger than the earlier $10.2M Series B, but no sales numbers are given.",
+        "score": 6,
+        "source": "https://bouncewatch.com/company/nat-habit"
+      },
+      "market": {
+        "reason": "Personal care is a big market, but this brand is focused on India.",
+        "score": 6,
+        "source": "https://inc42.com/buzz/d2c-brand-nat-habit-raises-%e2%82%b9142-cr-to-scale-offline-expansion/"
+      },
+      "tech": {
+        "reason": "A consumer brand built on formulas and distribution, which others can copy.",
+        "score": 3,
+        "source": "https://inc42.com/buzz/d2c-brand-nat-habit-raises-%e2%82%b9142-cr-to-scale-offline-expansion/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-10",
+        "title": "D2C Brand Nat Habit Raises 142 Cr To Scale Offline Expansion",
+        "url": "https://inc42.com/buzz/d2c-brand-nat-habit-raises-%e2%82%b9142-cr-to-scale-offline-expansion/"
+      },
+      {
+        "date": "2026-10-10",
+        "title": "Nat Habit raises Rs 142 Cr in Series C led by Trident Growth Partners",
+        "url": "https://yourstory.com/2026/10/nat-habit-raises-rs-142-cr-in-series-c-led-by-trident-growth-partners"
+      },
+      {
+        "date": null,
+        "title": "nat habit",
+        "url": "https://inc42.com/company/nat-habit/"
+      },
+      {
+        "date": null,
+        "title": "nat habit",
+        "url": "https://bouncewatch.com/company/nat-habit"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "After starting online, it is moving into small shops, aiming to grow from about 20,000 stores to 200,000.",
+    "website": null,
+    "who_pays": "Shoppers pay for the products, online and in shops.",
+    "why_now": "Indian shoppers are spending more on natural care, and online-first brands now push into physical stores to reach more people."
+  },
+  "first_judged_run": "2026-10-12-r6",
+  "first_seen": "2026-10-12",
+  "id": "nat-habit",
+  "industry": "Personal care",
+  "last_checked": "2026-10-12",
+  "mentions": [
+    {
+      "date": "2026-10-10",
+      "run": "2026-10-12-r6",
+      "snippet": "Raised Rs142 Cr Series C",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://inc42.com/buzz/d2c-brand-nat-habit-raises-%e2%82%b9142-cr-to-scale-offline-expansion/"
+    },
+    {
+      "date": "2026-10-10",
+      "run": "2026-10-12-r6",
+      "snippet": "Raised Rs142 Cr Series C led by Trident Growth",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://yourstory.com/2026/10/nat-habit-raises-rs-142-cr-in-series-c-led-by-trident-growth-partners"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Gurugram-based Ayurveda-inspired beauty and personal care startup, founded 2018.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "nat habit",
+      "url": "https://inc42.com/company/nat-habit/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Company profile: natural skin and haircare, $10.20M Series B in Dec 2023.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "nat habit",
+      "url": "https://bouncewatch.com/company/nat-habit"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Funding listing for Naturohabit Private Limited.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "naturohabit-private-limited",
+      "url": "https://www.ipoplatform.com/startup-business-funding/naturohabit-private-limited/101290"
+    }
+  ],
+  "name": "Nat Habit",
+  "name_key": "nathabit",
+  "region": "asia",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-nat-habit.txt",
+    "article_url": "https://inc42.com/buzz/d2c-brand-nat-habit-raises-%e2%82%b9142-cr-to-scale-offline-expansion/",
+    "judged_run": "2026-10-12-r6",
+    "pages": 1,
+    "queries_done": [
+      "\"Nat Habit\" startup India"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 6.0,
+      "market": 6.0,
+      "overall": 5.0,
+      "run": "2026-10-12-r6",
+      "tech": 3.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:25:37+00:00",
+  "website": null
+}

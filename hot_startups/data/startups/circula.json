@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Germany",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-12",
+  "id": "circula",
+  "industry": "fintech/expenses",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-06",
+      "run": "2026-10-12-r6",
+      "snippet": "Berlin startup acquired by Personio",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.businessinsider.de/gruenderszene/business/personio-uebernimmt-berliner-startup-circula-das-steckt-hinter-dem-deal/"
+    }
+  ],
+  "name": "Circula",
+  "name_key": "circula",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-12T02:08:22+00:00",
+  "website": null
+}

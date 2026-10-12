@@ -158,6 +158,15 @@
       "source_kind": "research",
       "title": "Dust funding rounds",
       "url": "https://www.seedtable.com/funding-rounds/dust-tt-series-a-2024"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-12-r6",
+      "snippet": "AI Productivity & Automation startup from France in VivaTech's Top 100 Rising European Startups 2026.",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://dust.tt"
     }
   ],
   "name": "Dust",
@@ -188,6 +197,6 @@
     }
   ],
   "status": "judged",
-  "updated": "2026-10-05T05:10:54+00:00",
+  "updated": "2026-10-12T02:06:06+00:00",
   "website": "https://dust.tt"
 }

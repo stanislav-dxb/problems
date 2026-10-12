@@ -1,0 +1,180 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Brazil",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "Brazil",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://latamlist.com/stay-raises-2-6m-to-expand-private-pension-offerings-in-brazil"
+        ],
+        "value": "Sao Paulo, Brazil"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://latamlist.com/stay-raises-2-6m-to-expand-private-pension-offerings-in-brazil"
+        ],
+        "value": "2023"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.bloomberglinea.com.br/financas/startup-quer-popularizar-a-previdencia-no-brasil-e-isso-inclui-a-jornada-no-whatsapp/"
+        ],
+        "value": "Client count grew 11 times in 2024."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://latamlist.com/brazilian-fintech-stay-raises-5-7m-to-expand-private-pension-platform/"
+        ],
+        "value": "$5.7M in the latest round (Oct 2026)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Few Brazilians save for retirement because private pensions are hard to buy, so Stay makes them simple to sign up for, even through WhatsApp.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Take a boring, hard-to-use product and put it where people already are.",
+    "name": "Stay",
+    "not_startup_reason": null,
+    "overall": 6.0,
+    "region": "latin_america",
+    "scores": {
+      "growth": {
+        "basis": "number: clients up 11x in 2024",
+        "reason": "Clients grew 11 times in 2024 and it keeps raising bigger rounds.",
+        "score": 7,
+        "source": "https://www.bloomberglinea.com.br/financas/startup-quer-popularizar-a-previdencia-no-brasil-e-isso-inclui-a-jornada-no-whatsapp/"
+      },
+      "market": {
+        "reason": "Pensions matter to nearly every worker in Brazil, a big country.",
+        "score": 7,
+        "source": "https://latamlist.com/brazilian-fintech-stay-raises-5-7m-to-expand-private-pension-platform/"
+      },
+      "tech": {
+        "reason": "Mostly a smart sales and sign-up layer on existing pension products.",
+        "score": 4,
+        "source": "https://www.bloomberglinea.com.br/financas/startup-quer-popularizar-a-previdencia-no-brasil-e-isso-inclui-a-jornada-no-whatsapp/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-01",
+        "title": "Stay raises $5.7M",
+        "url": "https://latamlist.com/brazilian-fintech-stay-raises-5-7m-to-expand-private-pension-platform/"
+      },
+      {
+        "date": null,
+        "title": "Stay raises $2.6M",
+        "url": "https://latamlist.com/stay-raises-2-6m-to-expand-private-pension-offerings-in-brazil"
+      },
+      {
+        "date": null,
+        "title": "Startup quer popularizar a previdencia no Brasil",
+        "url": "https://www.bloomberglinea.com.br/financas/startup-quer-popularizar-a-previdencia-no-brasil-e-isso-inclui-a-jornada-no-whatsapp/"
+      },
+      {
+        "date": null,
+        "title": "Stay raises R$15M in seed round",
+        "url": "https://finder.techleap.nl/news/feed/stay-raises-r-15m-in-seed-round"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It sells pensions through companies and chat apps instead of bank branches.",
+    "website": null,
+    "who_pays": "Employers and savers pay fees for the pension plans.",
+    "why_now": "Brazilians are using WhatsApp for everything, and the state pension is under pressure."
+  },
+  "first_judged_run": "2026-10-12-r6",
+  "first_seen": "2026-10-12",
+  "id": "stay",
+  "industry": "Fintech",
+  "last_checked": "2026-10-12",
+  "mentions": [
+    {
+      "date": "2026-10-01",
+      "run": "2026-10-12-r6",
+      "snippet": "Private pension platform, $5.7M",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://latamlist.com/brazilian-fintech-stay-raises-5-7m-to-expand-private-pension-platform/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Seed round of R$15M for corporate pension startup Stay.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Stay levanta R$15M para expandir em previdencia corporativa",
+      "url": "https://startups.com.br/negocios/rodada-de-investimento/stay-levanta-r-15m-para-expandir-em-previdencia-corporativa/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Sao Paulo pension startup founded 2023.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Stay raises $2.6M to expand private pension offerings in Brazil",
+      "url": "https://latamlist.com/stay-raises-2-6m-to-expand-private-pension-offerings-in-brazil"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Client count grew 11 times in 2024.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Startup quer popularizar a previdencia no Brasil",
+      "url": "https://www.bloomberglinea.com.br/financas/startup-quer-popularizar-a-previdencia-no-brasil-e-isso-inclui-a-jornada-no-whatsapp/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Seed round led by MAYA Capital.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Stay raises R$15M in seed round",
+      "url": "https://finder.techleap.nl/news/feed/stay-raises-r-15m-in-seed-round"
+    }
+  ],
+  "name": "Stay",
+  "name_key": "stay",
+  "region": "latin_america",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-stay.txt",
+    "article_url": "https://latamlist.com/brazilian-fintech-stay-raises-5-7m-to-expand-private-pension-platform/",
+    "judged_run": "2026-10-12-r6",
+    "pages": 1,
+    "queries_done": [
+      "\"Stay\" startup Brazil"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 7.0,
+      "market": 7.0,
+      "overall": 6.0,
+      "run": "2026-10-12-r6",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:18:41+00:00",
+  "website": null
+}

@@ -1,0 +1,1656 @@
+{
+  "counts": {
+    "extractions": 6,
+    "feeds_read": 28,
+    "judged": 60,
+    "pages": 89,
+    "searches": 64,
+    "synthesis": 3
+  },
+  "failures": [
+    {
+      "at": "2026-10-12T02:06:46+00:00",
+      "error": "ReadTimeout: The read operation timed out",
+      "url": "https://arcticstartup.com/feed/",
+      "what": "feed"
+    },
+    {
+      "at": "2026-10-12T02:15:15+00:00",
+      "error": "http 429",
+      "url": "https://helsing.ai/",
+      "what": "company site (direct)"
+    },
+    {
+      "at": "2026-10-12T02:15:16+00:00",
+      "error": "http 403",
+      "url": "https://quantum-systems.com/",
+      "what": "company site (direct)"
+    },
+    {
+      "at": "2026-10-12T02:16:23+00:00",
+      "error": "almost no text",
+      "url": "https://www.techinasia.com/agents-humans-picked-100b-company",
+      "what": "article (direct)"
+    },
+    {
+      "at": "2026-10-12T02:18:53+00:00",
+      "error": "almost no text",
+      "url": "https://www.techinasia.com/from-backend-to-bedtime",
+      "what": "article (direct)"
+    },
+    {
+      "at": "2026-10-12T02:21:22+00:00",
+      "error": "almost no text",
+      "url": "https://www.techinasia.com/cloudflare-expands-developer-push-voidzero-deal",
+      "what": "article (direct)"
+    },
+    {
+      "at": "2026-10-12T02:23:32+00:00",
+      "error": "almost no text",
+      "url": "https://www.techinasia.com/antler-backs-1-8m-round-in-indonesian-travel-startup-spun",
+      "what": "article (direct)"
+    }
+  ],
+  "finished": "2026-10-12T02:31:03+00:00",
+  "first_run": false,
+  "id": "2026-10-12-r6",
+  "judged_ids": [
+    "granola-ai",
+    "shotgun-live",
+    "emma-learn-com",
+    "typesafe-ai",
+    "arena",
+    "gladia-io",
+    "universal-quantum",
+    "isaraerospace-com",
+    "tines-com",
+    "mews-com",
+    "iceye-com",
+    "lemlist-com",
+    "parloa-com",
+    "neura-robotics-com",
+    "oviva-com",
+    "butterfly-effect-manus",
+    "huxe",
+    "taktile-com",
+    "legora-com",
+    "pigment-com",
+    "bfl-ai",
+    "rohlik-group",
+    "stay",
+    "asaas",
+    "swap-commerce-com",
+    "indent-nola",
+    "pennylane-tech",
+    "walletdoc",
+    "helsing-ai",
+    "quantum-systems-com",
+    "takeme2space",
+    "deno",
+    "photon",
+    "kapture",
+    "neogrowth",
+    "sava-technologies",
+    "satleo-labs",
+    "spun-global",
+    "helical-fusion",
+    "confido",
+    "atomic",
+    "petra-power",
+    "framer-com",
+    "biolinker",
+    "nat-habit",
+    "turso",
+    "commissary-club",
+    "rein-security",
+    "odd-systems",
+    "terra-charge",
+    "noah",
+    "quiet-listings",
+    "the-fourth-law",
+    "ollygarden",
+    "egaranti",
+    "sayr",
+    "amtaar-capital",
+    "semtle",
+    "quantum-world-ventures",
+    "m-based"
+  ],
+  "limits": {
+    "pages_per_week": 200,
+    "run_minutes": 90,
+    "searches_per_week": 250,
+    "startups_judged_per_week": 60
+  },
+  "log": [
+    "2026-10-12T02:06:12+00:00 phase -> feeds",
+    "2026-10-12T02:07:05+00:00 feeds: 28 read, 193 entries kept, 222 skipped as not startup news",
+    "2026-10-12T02:08:30+00:00 phase -> discovery",
+    "2026-10-12T02:08:30+00:00 discovery skipped: 405 startups already waiting to be judged (limit 100)",
+    "2026-10-12T02:08:30+00:00 phase -> research",
+    "2026-10-12T02:29:02+00:00 phase -> struggling",
+    "2026-10-12T02:30:04+00:00 phase -> synthesis"
+  ],
+  "minutes": 25.7,
+  "new_ids": [
+    "granola-ai",
+    "shotgun-live",
+    "emma-learn-com",
+    "typesafe-ai",
+    "arena",
+    "universal-quantum",
+    "isaraerospace-com",
+    "tines-com",
+    "mews-com",
+    "iceye-com",
+    "lemlist-com",
+    "parloa-com",
+    "neura-robotics-com",
+    "oviva-com",
+    "butterfly-effect-manus",
+    "taktile-com",
+    "legora-com",
+    "pigment-com",
+    "bfl-ai",
+    "stay",
+    "asaas",
+    "swap-commerce-com",
+    "indent-nola",
+    "pennylane-tech",
+    "helsing-ai",
+    "quantum-systems-com",
+    "takeme2space",
+    "deno",
+    "photon",
+    "kapture",
+    "neogrowth",
+    "sava-technologies",
+    "satleo-labs",
+    "spun-global",
+    "helical-fusion",
+    "confido",
+    "atomic",
+    "petra-power",
+    "framer-com",
+    "biolinker",
+    "nat-habit",
+    "turso",
+    "commissary-club",
+    "rein-security",
+    "odd-systems",
+    "terra-charge",
+    "noah",
+    "quiet-listings",
+    "the-fourth-law",
+    "ollygarden",
+    "egaranti",
+    "sayr",
+    "amtaar-capital",
+    "semtle",
+    "quantum-world-ventures",
+    "m-based"
+  ],
+  "next_ticket": 137,
+  "number": 6,
+  "phase": "done",
+  "phase_state": {
+    "discovery": {
+      "skipped": true
+    },
+    "feeds": {
+      "batches": 5,
+      "fetched": true,
+      "skipped_entries": 222,
+      "total_entries": 193
+    },
+    "lists": {
+      "https://vivatech.com/news/top-100-rising-startups-of-2026": "read"
+    },
+    "research": {
+      "refresh_ids": [],
+      "refresh_selected": true
+    },
+    "struggling": {
+      "issued": 6,
+      "items": [
+        {
+          "country": "United States",
+          "name": "Tribal",
+          "sector": "fintech",
+          "source_url": "https://startups.com.br/noticias/tribal-diz-adeus-fintech-do-vale-do-silicio-encerra-operacoes-no-brasil/",
+          "what": "shut_down",
+          "why": "The Silicon Valley fintech closed its Brazilian operations after a little over a year."
+        },
+        {
+          "country": "Colombia",
+          "name": "Frubana",
+          "sector": "food delivery / B2B commerce",
+          "source_url": "https://gironews.com/varejo-digital/startup-colombiana-frubana-encerra-atividades-no-brasil/",
+          "what": "shut_down",
+          "why": "The Colombian startup ended its Brazil operation on July 30."
+        },
+        {
+          "country": "Indonesia",
+          "name": "Pitik",
+          "sector": "agritech",
+          "source_url": "https://dealstreetasia.com/stories/pitik-ceases-operations-403415",
+          "what": "shut_down",
+          "why": "The poultry startup ceased operations after layoffs."
+        },
+        {
+          "country": "Singapore",
+          "name": "SolarHome",
+          "sector": "solar energy",
+          "source_url": "https://www.dealstreetasia.com/stories/sg-solarhome-ligature-to-liquidate-businesses-335215/",
+          "what": "shut_down",
+          "why": "The solar firm is liquidating its business."
+        },
+        {
+          "country": "Singapore",
+          "name": "Ligature",
+          "sector": "biotech",
+          "source_url": "https://www.dealstreetasia.com/stories/sg-solarhome-ligature-to-liquidate-businesses-335215/",
+          "what": "shut_down",
+          "why": "The biotech startup is liquidating its business."
+        },
+        {
+          "country": "United Arab Emirates",
+          "name": "DoubleCloud",
+          "sector": "data infrastructure",
+          "source_url": "https://me.peoplemattersglobal.com/news/business/dubai-based-doublecloud-shuts-down-operations-43074",
+          "what": "shut_down",
+          "why": "The Dubai-based company shut down its operations."
+        },
+        {
+          "country": "unknown",
+          "name": "Maya Climate",
+          "sector": "climate tech",
+          "source_url": "https://carbon-pulse.com/398221/",
+          "what": "shut_down",
+          "why": "The climate tech startup is winding down."
+        },
+        {
+          "country": "India",
+          "name": "ZestMoney",
+          "sector": "fintech",
+          "source_url": "https://inc42.com/?p=430270",
+          "what": "shut_down",
+          "why": "The fintech, once valued at $450M, is shutting down."
+        },
+        {
+          "country": "United States",
+          "name": "80 Acres Farms",
+          "sector": "indoor agriculture",
+          "source_url": "https://agroempresario.com/publicacion/120802/indoor-ag-heavyweight-80-acres-farms-to-cease-operations/",
+          "what": "shut_down",
+          "why": "It halted all activity on Aug 3, 2026 after a failed fundraise."
+        },
+        {
+          "country": "unknown",
+          "name": "Entropy",
+          "sector": "crypto",
+          "source_url": "https://cryptojobslist.com/crypto-layoffs/entropy-2026-01",
+          "what": "shut_down",
+          "why": "The a16z-backed startup shut down on Jan 25, 2026 and refunded its investors."
+        }
+      ],
+      "results": [
+        {
+          "query": "startup encerra operações outubro de 2026",
+          "snippet": "Fintech from Silicon Valley left Brazil after a bit over a year.",
+          "title": "Tribal diz adeus: fintech encerra operações no Brasil",
+          "url": "https://startups.com.br/noticias/tribal-diz-adeus-fintech-do-vale-do-silicio-encerra-operacoes-no-brasil/"
+        },
+        {
+          "query": "startup encerra operações outubro de 2026",
+          "snippet": "Colombian startup ended Brazil operation on July 30.",
+          "title": "Frubana encerra atividades no Brasil",
+          "url": "https://gironews.com/varejo-digital/startup-colombiana-frubana-encerra-atividades-no-brasil/"
+        },
+        {
+          "query": "startup encerra operações outubro de 2026",
+          "snippet": "Cabify ended Brazilian operation in 2021.",
+          "title": "Cabify encerra operações no Brasil",
+          "url": "https://mercadoeconsumo.com.br/23/04/2021/economia/cabify-encerra-operacoes-no-brasil/amp/"
+        },
+        {
+          "query": "スタートアップ 事業停止 2026年10月",
+          "snippet": "More dissolutions than a year earlier; AI firms 14.4% of closures.",
+          "title": "State of Shutdowns H1 2026",
+          "url": "https://simpleclosure.com/blog/insights/state-of-shutdowns-h1-2026"
+        },
+        {
+          "query": "スタートアップ 事業停止 2026年10月",
+          "snippet": "Indonesian poultry startup ceased operations after layoffs.",
+          "title": "Pitik ceases operations",
+          "url": "https://dealstreetasia.com/stories/pitik-ceases-operations-403415"
+        },
+        {
+          "query": "スタートアップ 事業停止 2026年10月",
+          "snippet": "Singapore solar firm and biotech liquidating.",
+          "title": "SolarHome, Ligature to liquidate businesses",
+          "url": "https://www.dealstreetasia.com/stories/sg-solarhome-ligature-to-liquidate-businesses-335215/"
+        },
+        {
+          "query": "スタートアップ 事業停止 2026年10月",
+          "snippet": "DoubleCloud shut down operations.",
+          "title": "Dubai-based DoubleCloud shuts down",
+          "url": "https://me.peoplemattersglobal.com/news/business/dubai-based-doublecloud-shuts-down-operations-43074"
+        },
+        {
+          "query": "スタートアップ 事業停止 2026年10月",
+          "snippet": "Climate tech startup winding down.",
+          "title": "Maya Climate to wind down",
+          "url": "https://carbon-pulse.com/398221/"
+        },
+        {
+          "query": "初创公司 倒闭 停止运营 2026年10月",
+          "snippet": "60+ crypto projects closed or filed for bankruptcy Jan-Jul 2026.",
+          "title": "AICoin: crypto projects closing in 2026",
+          "url": "https://www.aicoin.com/zh-Hans/article/546444"
+        },
+        {
+          "query": "初创公司 倒闭 停止运营 2026年10月",
+          "snippet": "AI 86% of VC funding but 14.4% of closures.",
+          "title": "State of Shutdowns H1 2026",
+          "url": "https://simpleclosure.com/blog/insights/state-of-shutdowns-h1-2026"
+        },
+        {
+          "query": "初创公司 倒闭 停止运营 2026年10月",
+          "snippet": "US consultancy ended operations Jan 12, 2026.",
+          "title": "Corviable",
+          "url": "https://crunchbase.com/organization/corviable"
+        },
+        {
+          "query": "初创公司 倒闭 停止运营 2026年10月",
+          "snippet": "About 25 Indian startups shut down in 2025.",
+          "title": "25 Startups That Shut Down In 2025",
+          "url": "https://inc42.com/?p=542909"
+        },
+        {
+          "query": "初创公司 倒闭 停止运营 2026年10月",
+          "snippet": "Once valued at $450M, ZestMoney shutting down.",
+          "title": "ZestMoney to shut down",
+          "url": "https://inc42.com/?p=430270"
+        },
+        {
+          "query": "startup ferme ses portes octobre 2026",
+          "snippet": "Indoor ag firm halting all activity Aug 3, 2026 after failed fundraise.",
+          "title": "80 Acres Farms to cease operations",
+          "url": "https://agroempresario.com/publicacion/120802/indoor-ag-heavyweight-80-acres-farms-to-cease-operations/"
+        },
+        {
+          "query": "startup ferme ses portes octobre 2026",
+          "snippet": "Tag page on closures.",
+          "title": "Presse-citron: fermeture",
+          "url": "https://www.presse-citron.net/tag/fermeture/"
+        },
+        {
+          "query": "startup ferme ses portes octobre 2026",
+          "snippet": "Crypto exchanges closing under MiCA.",
+          "title": "MICA - Votre exchange ferme",
+          "url": "https://journalducoin.com/?p=806694"
+        },
+        {
+          "query": "startup ferme ses portes octobre 2026",
+          "snippet": "African tech news.",
+          "title": "TechCabal (fr)",
+          "url": "https://techcabal.com/fr/?p=134998"
+        },
+        {
+          "query": "startup shuts down October 2026",
+          "snippet": "a16z-backed crypto startup shut down Jan 25, 2026 and refunded investors.",
+          "title": "Entropy 2026-01",
+          "url": "https://cryptojobslist.com/crypto-layoffs/entropy-2026-01"
+        },
+        {
+          "query": "startup shuts down October 2026",
+          "snippet": "More dissolutions than prior year, driven by pre-AI software firms.",
+          "title": "State of Shutdowns H1 2026",
+          "url": "https://simpleclosure.com/blog/insights/state-of-shutdowns-h1-2026"
+        },
+        {
+          "query": "startup shuts down October 2026",
+          "snippet": "Major AI startups that shut down.",
+          "title": "AI Graveyard",
+          "url": "https://zamin.uz/en/technology/221439-ai-graveyard-major-startups-and-projects-that-shut-down.html"
+        },
+        {
+          "query": "startup shuts down October 2026",
+          "snippet": "Indian shutdowns in 2025.",
+          "title": "25 Startups That Shut Down In 2025",
+          "url": "https://inc42.com/?p=542909"
+        },
+        {
+          "query": "startup pivots after failing October 2026",
+          "snippet": "Practitioner roundup of pivots.",
+          "title": "Startup Pivot Stories News July 2026",
+          "url": "https://blog.mean.ceo/startup-pivot-stories-news-july-2026/"
+        },
+        {
+          "query": "startup pivots after failing October 2026",
+          "snippet": "Analysis of pivots.",
+          "title": "Failures to be celebrated: major pivots of software startups",
+          "url": "https://deepai.org/publication/failures-to-be-celebrated-an-analysis-of-major-pivots-of-software-startups"
+        },
+        {
+          "query": "startup pivots after failing October 2026",
+          "snippet": "Pivot guidance.",
+          "title": "Startup pivoting",
+          "url": "https://skills.sh/refoundai/lenny-skills/startup-pivoting"
+        },
+        {
+          "query": "startup pivots after failing October 2026",
+          "snippet": "Voly instant grocery.",
+          "title": "Instant grocery startup Voly deliveries",
+          "url": "https://www.smartcompany.com.au/startupsmart/instant-grocery-startup-voly-deliveries/"
+        }
+      ],
+      "ticket": "done"
+    },
+    "synthesis": {
+      "brief": "done",
+      "brief_result": "Ten new startups joined the list this week, which now has 50 companies in total. The strongest newcomer is Helical Fusion from Japan, which is building a fusion power plant to give the world clean power day and night, and it is bringing big industrial suppliers in as partners early. The trend of the week is space and defense hardware, with newcomers like ICEYE, Isar Aerospace and Helsing building satellites, rockets and drones for governments that suddenly need them.",
+      "gaps": "done",
+      "gaps_result": [
+        "Nobody applies the hard-science-plus-AI approach of AQEMIA, Cradle and CuspAI to agriculture or food, such as designing crop proteins or soil microbes for farmers in Africa or India.",
+        "The security startups (Island, Cyera, Upwind, Cymphony) all sell to large enterprises; a security product for small clinics, schools or local governments that cannot afford a security team is missing.",
+        "Frontline-worker software (Sona) and warehouse robots (Maven Robotics, Dexory) skip construction sites, where an AI that tracks progress and safety could combine both ideas.",
+        "Latin America and Africa barely appear outside fintech (Jeeves, Paymob) and BioLinker; a deep-tech startup there, such as local-language voice AI in the spirit of ElevenLabs and Loora, is open.",
+        "Medical AI like Nabla, Epsilon Health and Precision Neuroscience targets doctors and patients, but nobody builds AI aimed at nurses and care-home staff, who do much of the paperwork-heavy work."
+      ],
+      "trends": "done",
+      "trends_result": [
+        {
+          "name": "Space and defense hardware",
+          "sentence": "Startups build satellites, rockets, drones and military software for governments that suddenly need them.",
+          "startup_ids": [
+            "exploration-space",
+            "isaraerospace-com",
+            "iceye-com",
+            "open-cosmos",
+            "kepler",
+            "mbryonics",
+            "hubble-network",
+            "tekever",
+            "helsing-ai",
+            "quantum-systems-com",
+            "comand-ai"
+          ]
+        },
+        {
+          "name": "AI agents that do the work",
+          "sentence": "Companies package AI as autonomous workers that finish whole jobs instead of just answering questions.",
+          "startup_ids": [
+            "lovable-dev",
+            "butterfly-effect-manus",
+            "cognition",
+            "factory",
+            "jackandjill-ai",
+            "ema",
+            "parloa-com",
+            "n8n-io",
+            "legora-com"
+          ]
+        },
+        {
+          "name": "Security for the AI era",
+          "sentence": "New security tools protect data, devices, browsers and cloud systems as AI changes how attacks and access work.",
+          "startup_ids": [
+            "island",
+            "cyera",
+            "upwind",
+            "cymphony",
+            "armadin",
+            "aikido-dev",
+            "exein-io",
+            "filigran-io"
+          ]
+        },
+        {
+          "name": "AI compute infrastructure",
+          "sentence": "Startups supply the chips, light-based links, networks, data centers and batteries that AI's huge appetite for computing needs.",
+          "startup_ids": [
+            "ayar-labs",
+            "picojool",
+            "crusoe",
+            "nscale",
+            "cornelis-networks",
+            "axelera-ai",
+            "nyobolt-com"
+          ]
+        },
+        {
+          "name": "AI for science discovery",
+          "sentence": "AI is aimed at slow lab searches to find new drugs, proteins, materials and designs faster.",
+          "startup_ids": [
+            "aqemia-com",
+            "cusp-ai",
+            "enveda",
+            "cradle-bio",
+            "basecamp-research",
+            "biolinker",
+            "physicsx-ai"
+          ]
+        },
+        {
+          "name": "Fintech plumbing",
+          "sentence": "Startups build the payment and back-office rails that replace costly, confusing old financial processes.",
+          "startup_ids": [
+            "truelayer-com",
+            "hifi",
+            "paymob",
+            "flatpay-com",
+            "numeral",
+            "pennylane-tech",
+            "jeeves"
+          ]
+        }
+      ]
+    }
+  },
+  "started": "2026-10-12T02:05:23+00:00",
+  "tickets": {
+    "t001": {
+      "counted": null,
+      "issued": "2026-10-12T02:05:28+00:00",
+      "key": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+      "status": "done",
+      "submitted": "2026-10-12T02:06:06+00:00",
+      "type": "extract"
+    },
+    "t002": {
+      "counted": "pages",
+      "issued": "2026-10-12T02:07:05+00:00",
+      "key": "feeds-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:08:22+00:00",
+      "type": "extract"
+    },
+    "t003": {
+      "counted": "pages",
+      "issued": "2026-10-12T02:07:05+00:00",
+      "key": "feeds-2",
+      "status": "done",
+      "submitted": "2026-10-12T02:08:22+00:00",
+      "type": "extract"
+    },
+    "t004": {
+      "counted": "pages",
+      "issued": "2026-10-12T02:07:05+00:00",
+      "key": "feeds-3",
+      "status": "done",
+      "submitted": "2026-10-12T02:08:23+00:00",
+      "type": "extract"
+    },
+    "t005": {
+      "counted": "pages",
+      "issued": "2026-10-12T02:07:05+00:00",
+      "key": "feeds-4",
+      "status": "done",
+      "submitted": "2026-10-12T02:08:23+00:00",
+      "type": "extract"
+    },
+    "t006": {
+      "counted": "pages",
+      "issued": "2026-10-12T02:07:05+00:00",
+      "key": "feeds-5",
+      "status": "done",
+      "submitted": "2026-10-12T02:08:23+00:00",
+      "type": "extract"
+    },
+    "t007": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:08:30+00:00",
+      "key": "judge-granola-ai",
+      "status": "done",
+      "submitted": "2026-10-12T02:09:19+00:00",
+      "type": "judge"
+    },
+    "t008": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:08:30+00:00",
+      "key": "judge-shotgun-live",
+      "status": "done",
+      "submitted": "2026-10-12T02:09:19+00:00",
+      "type": "judge"
+    },
+    "t009": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:08:30+00:00",
+      "key": "judge-emma-learn-com",
+      "status": "done",
+      "submitted": "2026-10-12T02:09:20+00:00",
+      "type": "judge"
+    },
+    "t010": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:08:30+00:00",
+      "key": "research-typesafe-ai-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:09:20+00:00",
+      "type": "research_search"
+    },
+    "t011": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:08:30+00:00",
+      "key": "research-gladia-io-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:09:21+00:00",
+      "type": "research_search"
+    },
+    "t012": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:08:30+00:00",
+      "key": "research-swap-commerce-com-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:09:21+00:00",
+      "type": "research_search"
+    },
+    "t013": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:08:30+00:00",
+      "key": "research-arena-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:09:21+00:00",
+      "type": "research_search"
+    },
+    "t014": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:08:30+00:00",
+      "key": "research-omnea-co-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:09:21+00:00",
+      "type": "research_search"
+    },
+    "t015": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:09:39+00:00",
+      "key": "judge-typesafe-ai",
+      "status": "done",
+      "submitted": "2026-10-12T02:10:35+00:00",
+      "type": "judge"
+    },
+    "t016": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:09:39+00:00",
+      "key": "judge-arena",
+      "status": "done",
+      "submitted": "2026-10-12T02:10:35+00:00",
+      "type": "judge"
+    },
+    "t017": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:09:42+00:00",
+      "key": "judge-gladia-io",
+      "status": "done",
+      "submitted": "2026-10-12T02:10:35+00:00",
+      "type": "judge"
+    },
+    "t018": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:09:45+00:00",
+      "key": "research-isaraerospace-com-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:10:36+00:00",
+      "type": "research_search"
+    },
+    "t019": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:09:45+00:00",
+      "key": "research-tines-com-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:10:36+00:00",
+      "type": "research_search"
+    },
+    "t020": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:09:45+00:00",
+      "key": "research-universal-quantum-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:10:36+00:00",
+      "type": "research_search"
+    },
+    "t021": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:09:45+00:00",
+      "key": "research-mews-com-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:10:36+00:00",
+      "type": "research_search"
+    },
+    "t022": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:09:45+00:00",
+      "key": "research-iceye-com-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:10:37+00:00",
+      "type": "research_search"
+    },
+    "t023": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:10:47+00:00",
+      "key": "judge-universal-quantum",
+      "status": "done",
+      "submitted": "2026-10-12T02:11:53+00:00",
+      "type": "judge"
+    },
+    "t024": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:10:50+00:00",
+      "key": "judge-isaraerospace-com",
+      "status": "done",
+      "submitted": "2026-10-12T02:11:53+00:00",
+      "type": "judge"
+    },
+    "t025": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:10:51+00:00",
+      "key": "judge-tines-com",
+      "status": "done",
+      "submitted": "2026-10-12T02:11:54+00:00",
+      "type": "judge"
+    },
+    "t026": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:10:56+00:00",
+      "key": "research-lemlist-com-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:11:54+00:00",
+      "type": "research_search"
+    },
+    "t027": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:10:56+00:00",
+      "key": "research-parloa-com-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:11:54+00:00",
+      "type": "research_search"
+    },
+    "t028": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:10:56+00:00",
+      "key": "research-neura-robotics-com-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:11:54+00:00",
+      "type": "research_search"
+    },
+    "t029": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:10:56+00:00",
+      "key": "research-oviva-com-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:11:55+00:00",
+      "type": "research_search"
+    },
+    "t030": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:10:56+00:00",
+      "key": "research-taktile-com-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:11:55+00:00",
+      "type": "research_search"
+    },
+    "t031": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:12:03+00:00",
+      "key": "judge-mews-com",
+      "status": "done",
+      "submitted": "2026-10-12T02:13:31+00:00",
+      "type": "judge"
+    },
+    "t032": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:12:03+00:00",
+      "key": "judge-iceye-com",
+      "status": "done",
+      "submitted": "2026-10-12T02:13:31+00:00",
+      "type": "judge"
+    },
+    "t033": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:12:04+00:00",
+      "key": "judge-lemlist-com",
+      "status": "done",
+      "submitted": "2026-10-12T02:13:31+00:00",
+      "type": "judge"
+    },
+    "t034": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:12:13+00:00",
+      "key": "research-legora-com-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:13:09+00:00",
+      "type": "research_search"
+    },
+    "t035": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:12:13+00:00",
+      "key": "research-pigment-com-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:13:09+00:00",
+      "type": "research_search"
+    },
+    "t036": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:12:13+00:00",
+      "key": "research-bfl-ai-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:13:09+00:00",
+      "type": "research_search"
+    },
+    "t037": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:12:13+00:00",
+      "key": "research-rohlik-group-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:13:09+00:00",
+      "type": "research_search"
+    },
+    "t038": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:12:13+00:00",
+      "key": "research-pennylane-tech-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:13:10+00:00",
+      "type": "research_search"
+    },
+    "t039": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:13:38+00:00",
+      "key": "judge-parloa-com",
+      "status": "done",
+      "submitted": "2026-10-12T02:14:36+00:00",
+      "type": "judge"
+    },
+    "t040": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:13:38+00:00",
+      "key": "judge-neura-robotics-com",
+      "status": "done",
+      "submitted": "2026-10-12T02:14:36+00:00",
+      "type": "judge"
+    },
+    "t041": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:13:38+00:00",
+      "key": "judge-oviva-com",
+      "status": "done",
+      "submitted": "2026-10-12T02:14:37+00:00",
+      "type": "judge"
+    },
+    "t042": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:13:48+00:00",
+      "key": "research-helsing-ai-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:14:37+00:00",
+      "type": "research_search"
+    },
+    "t043": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:13:48+00:00",
+      "key": "research-quantum-systems-com-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:14:37+00:00",
+      "type": "research_search"
+    },
+    "t044": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:13:48+00:00",
+      "key": "research-huxe-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:14:37+00:00",
+      "type": "research_search"
+    },
+    "t045": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:13:48+00:00",
+      "key": "research-framer-com-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:14:38+00:00",
+      "type": "research_search"
+    },
+    "t046": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:13:48+00:00",
+      "key": "research-butterfly-effect-manus-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:14:38+00:00",
+      "type": "research_search"
+    },
+    "t047": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:14:47+00:00",
+      "key": "judge-butterfly-effect-manus",
+      "status": "done",
+      "submitted": "2026-10-12T02:16:02+00:00",
+      "type": "judge"
+    },
+    "t048": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:14:48+00:00",
+      "key": "judge-huxe",
+      "status": "done",
+      "submitted": "2026-10-12T02:16:02+00:00",
+      "type": "judge"
+    },
+    "t049": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:14:48+00:00",
+      "key": "judge-taktile-com",
+      "status": "done",
+      "submitted": "2026-10-12T02:16:02+00:00",
+      "type": "judge"
+    },
+    "t050": {
+      "counted": null,
+      "issued": "2026-10-12T02:15:15+00:00",
+      "key": "site-helsing-ai",
+      "status": "done",
+      "submitted": "2026-10-12T02:16:03+00:00",
+      "type": "fetch"
+    },
+    "t051": {
+      "counted": null,
+      "issued": "2026-10-12T02:15:16+00:00",
+      "key": "site-quantum-systems-com",
+      "status": "done",
+      "submitted": "2026-10-12T02:16:03+00:00",
+      "type": "fetch"
+    },
+    "t052": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:15:18+00:00",
+      "key": "research-nat-habit-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:16:03+00:00",
+      "type": "research_search"
+    },
+    "t053": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:15:18+00:00",
+      "key": "research-turso-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:16:03+00:00",
+      "type": "research_search"
+    },
+    "t054": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:15:18+00:00",
+      "key": "research-commissary-club-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:16:04+00:00",
+      "type": "research_search"
+    },
+    "t055": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:16:16+00:00",
+      "key": "judge-legora-com",
+      "status": "done",
+      "submitted": "2026-10-12T02:17:11+00:00",
+      "type": "judge"
+    },
+    "t056": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:16:16+00:00",
+      "key": "judge-pigment-com",
+      "status": "done",
+      "submitted": "2026-10-12T02:17:11+00:00",
+      "type": "judge"
+    },
+    "t057": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:16:16+00:00",
+      "key": "judge-bfl-ai",
+      "status": "done",
+      "submitted": "2026-10-12T02:17:12+00:00",
+      "type": "judge"
+    },
+    "t058": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:16:23+00:00",
+      "key": "research-stay-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:17:12+00:00",
+      "type": "research_search"
+    },
+    "t059": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:16:23+00:00",
+      "key": "research-ollygarden-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:17:12+00:00",
+      "type": "research_search"
+    },
+    "t060": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:16:23+00:00",
+      "key": "research-asaas-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:17:12+00:00",
+      "type": "research_search"
+    },
+    "t061": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:16:23+00:00",
+      "key": "research-rein-security-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:17:13+00:00",
+      "type": "research_search"
+    },
+    "t062": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:16:23+00:00",
+      "key": "research-egaranti-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:17:13+00:00",
+      "type": "research_search"
+    },
+    "t063": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:17:25+00:00",
+      "key": "judge-rohlik-group",
+      "status": "done",
+      "submitted": "2026-10-12T02:18:41+00:00",
+      "type": "judge"
+    },
+    "t064": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:17:26+00:00",
+      "key": "judge-stay",
+      "status": "done",
+      "submitted": "2026-10-12T02:18:41+00:00",
+      "type": "judge"
+    },
+    "t065": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:17:26+00:00",
+      "key": "judge-asaas",
+      "status": "done",
+      "submitted": "2026-10-12T02:18:42+00:00",
+      "type": "judge"
+    },
+    "t066": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:17:29+00:00",
+      "key": "research-odd-systems-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:18:42+00:00",
+      "type": "research_search"
+    },
+    "t067": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:17:29+00:00",
+      "key": "research-terra-charge-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:18:42+00:00",
+      "type": "research_search"
+    },
+    "t068": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:17:29+00:00",
+      "key": "research-indent-nola-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:18:42+00:00",
+      "type": "research_search"
+    },
+    "t069": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:17:29+00:00",
+      "key": "research-sayr-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:18:42+00:00",
+      "type": "research_search"
+    },
+    "t070": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:17:29+00:00",
+      "key": "research-noah-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:18:43+00:00",
+      "type": "research_search"
+    },
+    "t071": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:18:49+00:00",
+      "key": "judge-swap-commerce-com",
+      "status": "done",
+      "submitted": "2026-10-12T02:19:43+00:00",
+      "type": "judge"
+    },
+    "t072": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:18:50+00:00",
+      "key": "judge-indent-nola",
+      "status": "done",
+      "submitted": "2026-10-12T02:19:43+00:00",
+      "type": "judge"
+    },
+    "t073": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:18:50+00:00",
+      "key": "judge-pennylane-tech",
+      "status": "done",
+      "submitted": "2026-10-12T02:19:43+00:00",
+      "type": "judge"
+    },
+    "t074": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:18:55+00:00",
+      "key": "research-quiet-listings-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:19:44+00:00",
+      "type": "research_search"
+    },
+    "t075": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:18:55+00:00",
+      "key": "research-xelabyte-studios-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:19:44+00:00",
+      "type": "research_search"
+    },
+    "t076": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:18:55+00:00",
+      "key": "research-wendy-piggery-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:19:44+00:00",
+      "type": "research_search"
+    },
+    "t077": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:18:55+00:00",
+      "key": "research-amtaar-capital-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:19:44+00:00",
+      "type": "research_search"
+    },
+    "t078": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:18:55+00:00",
+      "key": "research-walletdoc-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:19:45+00:00",
+      "type": "research_search"
+    },
+    "t079": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:19:59+00:00",
+      "key": "judge-walletdoc",
+      "status": "done",
+      "submitted": "2026-10-12T02:20:54+00:00",
+      "type": "judge"
+    },
+    "t080": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:19:59+00:00",
+      "key": "judge-helsing-ai",
+      "status": "done",
+      "submitted": "2026-10-12T02:20:54+00:00",
+      "type": "judge"
+    },
+    "t081": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:19:59+00:00",
+      "key": "judge-quantum-systems-com",
+      "status": "done",
+      "submitted": "2026-10-12T02:20:54+00:00",
+      "type": "judge"
+    },
+    "t082": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:20:07+00:00",
+      "key": "research-takeme2space-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:20:54+00:00",
+      "type": "research_search"
+    },
+    "t083": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:20:07+00:00",
+      "key": "research-photon-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:20:55+00:00",
+      "type": "research_search"
+    },
+    "t084": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:20:07+00:00",
+      "key": "research-kapture-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:20:55+00:00",
+      "type": "research_search"
+    },
+    "t085": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:20:07+00:00",
+      "key": "research-deno-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:20:55+00:00",
+      "type": "research_search"
+    },
+    "t086": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:20:07+00:00",
+      "key": "research-semtle-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:20:55+00:00",
+      "type": "research_search"
+    },
+    "t087": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:21:19+00:00",
+      "key": "judge-takeme2space",
+      "status": "done",
+      "submitted": "2026-10-12T02:22:15+00:00",
+      "type": "judge"
+    },
+    "t088": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:21:22+00:00",
+      "key": "judge-deno",
+      "status": "done",
+      "submitted": "2026-10-12T02:22:16+00:00",
+      "type": "judge"
+    },
+    "t089": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:21:22+00:00",
+      "key": "judge-photon",
+      "status": "done",
+      "submitted": "2026-10-12T02:22:16+00:00",
+      "type": "judge"
+    },
+    "t090": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:21:25+00:00",
+      "key": "research-neogrowth-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:21:53+00:00",
+      "type": "research_search"
+    },
+    "t091": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:21:25+00:00",
+      "key": "research-sava-technologies-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:21:54+00:00",
+      "type": "research_search"
+    },
+    "t092": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:21:25+00:00",
+      "key": "research-helical-fusion-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:21:54+00:00",
+      "type": "research_search"
+    },
+    "t093": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:21:25+00:00",
+      "key": "research-atomic-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:21:54+00:00",
+      "type": "research_search"
+    },
+    "t094": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:21:25+00:00",
+      "key": "research-petra-power-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:21:55+00:00",
+      "type": "research_search"
+    },
+    "t095": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:22:23+00:00",
+      "key": "judge-kapture",
+      "status": "done",
+      "submitted": "2026-10-12T02:23:21+00:00",
+      "type": "judge"
+    },
+    "t096": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:22:25+00:00",
+      "key": "judge-neogrowth",
+      "status": "done",
+      "submitted": "2026-10-12T02:23:21+00:00",
+      "type": "judge"
+    },
+    "t097": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:22:25+00:00",
+      "key": "judge-sava-technologies",
+      "status": "done",
+      "submitted": "2026-10-12T02:23:21+00:00",
+      "type": "judge"
+    },
+    "t098": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:22:27+00:00",
+      "key": "research-the-fourth-law-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:23:21+00:00",
+      "type": "research_search"
+    },
+    "t099": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:22:27+00:00",
+      "key": "research-satleo-labs-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:23:22+00:00",
+      "type": "research_search"
+    },
+    "t100": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:22:27+00:00",
+      "key": "research-spun-global-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:23:22+00:00",
+      "type": "research_search"
+    },
+    "t101": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:22:27+00:00",
+      "key": "research-biolinker-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:23:22+00:00",
+      "type": "research_search"
+    },
+    "t102": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:23:31+00:00",
+      "key": "judge-satleo-labs",
+      "status": "done",
+      "submitted": "2026-10-12T02:24:20+00:00",
+      "type": "judge"
+    },
+    "t103": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:23:32+00:00",
+      "key": "judge-spun-global",
+      "status": "done",
+      "submitted": "2026-10-12T02:24:20+00:00",
+      "type": "judge"
+    },
+    "t104": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:23:32+00:00",
+      "key": "judge-helical-fusion",
+      "status": "done",
+      "submitted": "2026-10-12T02:24:21+00:00",
+      "type": "judge"
+    },
+    "t105": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:23:34+00:00",
+      "key": "research-confido-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:24:21+00:00",
+      "type": "research_search"
+    },
+    "t106": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:24:30+00:00",
+      "key": "judge-confido",
+      "status": "done",
+      "submitted": "2026-10-12T02:25:00+00:00",
+      "type": "judge"
+    },
+    "t107": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:24:30+00:00",
+      "key": "judge-atomic",
+      "status": "done",
+      "submitted": "2026-10-12T02:25:00+00:00",
+      "type": "judge"
+    },
+    "t108": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:24:30+00:00",
+      "key": "judge-petra-power",
+      "status": "done",
+      "submitted": "2026-10-12T02:25:00+00:00",
+      "type": "judge"
+    },
+    "t109": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:25:07+00:00",
+      "key": "judge-framer-com",
+      "status": "done",
+      "submitted": "2026-10-12T02:25:37+00:00",
+      "type": "judge"
+    },
+    "t110": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:25:07+00:00",
+      "key": "judge-biolinker",
+      "status": "done",
+      "submitted": "2026-10-12T02:25:37+00:00",
+      "type": "judge"
+    },
+    "t111": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:25:07+00:00",
+      "key": "judge-nat-habit",
+      "status": "done",
+      "submitted": "2026-10-12T02:25:37+00:00",
+      "type": "judge"
+    },
+    "t112": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:25:43+00:00",
+      "key": "judge-turso",
+      "status": "done",
+      "submitted": "2026-10-12T02:26:15+00:00",
+      "type": "judge"
+    },
+    "t113": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:25:43+00:00",
+      "key": "judge-commissary-club",
+      "status": "done",
+      "submitted": "2026-10-12T02:26:15+00:00",
+      "type": "judge"
+    },
+    "t114": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:25:43+00:00",
+      "key": "judge-rein-security",
+      "status": "done",
+      "submitted": "2026-10-12T02:26:15+00:00",
+      "type": "judge"
+    },
+    "t115": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:26:21+00:00",
+      "key": "judge-odd-systems",
+      "status": "done",
+      "submitted": "2026-10-12T02:26:48+00:00",
+      "type": "judge"
+    },
+    "t116": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:26:21+00:00",
+      "key": "judge-terra-charge",
+      "status": "done",
+      "submitted": "2026-10-12T02:26:48+00:00",
+      "type": "judge"
+    },
+    "t117": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:26:21+00:00",
+      "key": "judge-noah",
+      "status": "done",
+      "submitted": "2026-10-12T02:26:49+00:00",
+      "type": "judge"
+    },
+    "t118": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:26:55+00:00",
+      "key": "judge-quiet-listings",
+      "status": "done",
+      "submitted": "2026-10-12T02:27:22+00:00",
+      "type": "judge"
+    },
+    "t119": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:26:55+00:00",
+      "key": "judge-the-fourth-law",
+      "status": "done",
+      "submitted": "2026-10-12T02:27:23+00:00",
+      "type": "judge"
+    },
+    "t120": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:26:55+00:00",
+      "key": "judge-ollygarden",
+      "status": "done",
+      "submitted": "2026-10-12T02:27:23+00:00",
+      "type": "judge"
+    },
+    "t121": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:27:29+00:00",
+      "key": "judge-egaranti",
+      "status": "done",
+      "submitted": "2026-10-12T02:27:57+00:00",
+      "type": "judge"
+    },
+    "t122": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:27:29+00:00",
+      "key": "judge-sayr",
+      "status": "done",
+      "submitted": "2026-10-12T02:27:58+00:00",
+      "type": "judge"
+    },
+    "t123": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:27:29+00:00",
+      "key": "judge-amtaar-capital",
+      "status": "done",
+      "submitted": "2026-10-12T02:27:58+00:00",
+      "type": "judge"
+    },
+    "t124": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:28:04+00:00",
+      "key": "judge-semtle",
+      "status": "done",
+      "submitted": "2026-10-12T02:28:26+00:00",
+      "type": "judge"
+    },
+    "t125": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:28:04+00:00",
+      "key": "judge-quantum-world-ventures",
+      "status": "done",
+      "submitted": "2026-10-12T02:28:26+00:00",
+      "type": "judge"
+    },
+    "t126": {
+      "counted": "judged",
+      "issued": "2026-10-12T02:28:32+00:00",
+      "key": "judge-m-based",
+      "status": "done",
+      "submitted": "2026-10-12T02:28:56+00:00",
+      "type": "judge"
+    },
+    "t127": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:29:02+00:00",
+      "key": "struggling-1",
+      "status": "done",
+      "submitted": "2026-10-12T02:29:33+00:00",
+      "type": "search"
+    },
+    "t128": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:29:02+00:00",
+      "key": "struggling-2",
+      "status": "done",
+      "submitted": "2026-10-12T02:29:33+00:00",
+      "type": "search"
+    },
+    "t129": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:29:02+00:00",
+      "key": "struggling-3",
+      "status": "done",
+      "submitted": "2026-10-12T02:29:33+00:00",
+      "type": "search"
+    },
+    "t130": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:29:02+00:00",
+      "key": "struggling-4",
+      "status": "done",
+      "submitted": "2026-10-12T02:29:34+00:00",
+      "type": "search"
+    },
+    "t131": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:29:02+00:00",
+      "key": "struggling-5",
+      "status": "done",
+      "submitted": "2026-10-12T02:29:34+00:00",
+      "type": "search"
+    },
+    "t132": {
+      "counted": "searches",
+      "issued": "2026-10-12T02:29:02+00:00",
+      "key": "struggling-6",
+      "status": "done",
+      "submitted": "2026-10-12T02:29:34+00:00",
+      "type": "search"
+    },
+    "t133": {
+      "counted": null,
+      "issued": "2026-10-12T02:29:41+00:00",
+      "key": "struggling-summary",
+      "status": "done",
+      "submitted": "2026-10-12T02:29:57+00:00",
+      "type": "struggling"
+    },
+    "t134": {
+      "counted": null,
+      "issued": "2026-10-12T02:30:04+00:00",
+      "key": "synthesis-trends",
+      "status": "done",
+      "submitted": "2026-10-12T02:30:20+00:00",
+      "type": "trends"
+    },
+    "t135": {
+      "counted": null,
+      "issued": "2026-10-12T02:30:26+00:00",
+      "key": "synthesis-gaps",
+      "status": "done",
+      "submitted": "2026-10-12T02:30:39+00:00",
+      "type": "gaps"
+    },
+    "t136": {
+      "counted": null,
+      "issued": "2026-10-12T02:30:46+00:00",
+      "key": "synthesis-brief",
+      "status": "done",
+      "submitted": "2026-10-12T02:30:57+00:00",
+      "type": "brief"
+    }
+  },
+  "time_up": false,
+  "unread_sites": [
+    {
+      "reason": "WebFetch returned HTTP 429 Too Many Requests",
+      "url": "https://helsing.ai/"
+    },
+    {
+      "reason": "WebFetch returned HTTP 403 Forbidden",
+      "url": "https://quantum-systems.com/"
+    }
+  ],
+  "updated": "2026-10-12T02:31:03+00:00",
+  "week_of": "2026-10-12"
+}

@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Saudi Arabia",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-12",
+  "id": "project-suppliers",
+  "industry": "construction tech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-05",
+      "run": "2026-10-12-r6",
+      "snippet": "Procurement tech, $1M pre-seed",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "http://wamda.com/2026/10/saudi-project-suppliers-raises-1-million-pre-seed"
+    }
+  ],
+  "name": "Project Suppliers",
+  "name_key": "projectsuppliers",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-12T02:08:23+00:00",
+  "website": null
+}

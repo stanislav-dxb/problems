@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Belgium",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-12",
+  "id": "spectacell",
+  "industry": "biotech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-09",
+      "run": "2026-10-12-r6",
+      "snippet": "Cell analysis platform for immunotherapy, EUR6M seed, imec spinout",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.eu-startups.com/2026/10/ghent-based-spectacell-launches-with-e6-million-to-advance-its-cell-analysis-platform-for-immunotherapy-development/"
+    }
+  ],
+  "name": "SpectaCell",
+  "name_key": "spectacell",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-12T02:08:22+00:00",
+  "website": null
+}

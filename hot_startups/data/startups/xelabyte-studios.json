@@ -1,0 +1,40 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Nigeria",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-12",
+  "id": "xelabyte-studios",
+  "industry": "gaming",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-07",
+      "run": "2026-10-12-r6",
+      "snippet": "Launched puzzle game MerjUp",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://disruptafrica.com/2026/10/07/nigerian-studio-xelabyte-launches-physics-based-puzzle-game-merjup/"
+    }
+  ],
+  "name": "Xelabyte Studios",
+  "name_key": "xelabytestudios",
+  "region": null,
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-xelabyte-studios.txt",
+    "article_url": "https://disruptafrica.com/2026/10/07/nigerian-studio-xelabyte-launches-physics-based-puzzle-game-merjup/",
+    "pages": 1,
+    "queries_done": [
+      "\"Xelabyte Studios\" startup Nigeria"
+    ],
+    "searches": 1
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-12T02:20:06+00:00",
+  "website": null
+}

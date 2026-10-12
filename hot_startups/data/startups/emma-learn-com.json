@@ -4,11 +4,88 @@
   "country": "France",
   "domain": "emma-learn.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "France",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://vivatech.com/news/top-100-rising-startups-of-2026"
+        ],
+        "value": "Named in VivaTech Top 100 Rising European Startups 2026."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Learning is hard to personalise; Emma is an education technology startup helping people learn.",
+    "industry": "Education",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Pick a sector slow to change and bring modern tools to it.",
+    "name": "Emma",
+    "not_startup_reason": null,
+    "overall": 5.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: named in VivaTech Top 100 Rising European Startups 2026",
+        "reason": "No growth numbers in the dossier.",
+        "score": null,
+        "source": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      "market": {
+        "reason": "Education is large but this niche is unclear.",
+        "score": 6,
+        "source": null
+      },
+      "tech": {
+        "reason": "No detail on what is built; assume ordinary software.",
+        "score": 4,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising European Startups 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Emma",
+        "url": "https://emma-learn.com/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Listed in the education sector of a top rising startups list.",
+    "website": "https://emma-learn.com/",
+    "who_pays": "Likely schools or learners pay (not confirmed in the sources).",
+    "why_now": "Schools and learners are adopting digital tools quickly."
+  },
+  "first_judged_run": "2026-10-12-r6",
   "first_seen": "2026-09-16",
   "id": "emma-learn-com",
-  "industry": "EdTech",
-  "last_checked": null,
+  "industry": "Education",
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -54,25 +131,45 @@
       "source_kind": "research",
       "title": "emma 25 ans mon associee m a laissee tomber j ai pris un job en cdd",
       "url": "https://www.letudiant.fr/jobsstages/emma-25-ans-mon-associee-m-a-laissee-tomber-j-ai-pris-un-job-en-cdd.html"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-12-r6",
+      "snippet": "EdTech startup from France in VivaTech's Top 100 Rising European Startups 2026.",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://emma-learn.com/"
     }
   ],
   "name": "Emma",
   "name_key": "emma",
-  "region": null,
+  "region": "europe",
   "research": {
     "article_read": true,
     "article_text": "/home/user/problems/hot_startups/cache/article-emma-learn-com.txt",
     "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-12-r6",
     "pages": 2,
     "queries_done": [
       "\"Emma\" startup France"
     ],
+    "refresh": false,
     "searches": 1,
     "site_read": true,
     "site_text": "/home/user/problems/hot_startups/cache/site-emma-learn-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-10-05T05:09:47+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": null,
+      "market": 6.0,
+      "overall": 5.0,
+      "run": "2026-10-12-r6",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:09:20+00:00",
   "website": "https://emma-learn.com/"
 }

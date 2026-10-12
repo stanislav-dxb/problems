@@ -1,0 +1,178 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Australia",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "Australia",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.deakin.edu.au/about-deakin/news-and-media-releases/article/from-exhaust-to-fertiliser-deakin-and-kapture-are-set-to-transform-australian-agriculture",
+          "https://www.smartcompany.com.au/energy-resources/kapture-import-costs-surging-as-war-sees-oil-spike/"
+        ],
+        "value": "Melbourne, Australia"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.smartcompany.com.au/energy-resources/kapture-import-costs-surging-as-war-sees-oil-spike/",
+          "https://www.smartcompany.com.au/startupsmart/five-aussie-startups-excited-to-watch-2026/"
+        ],
+        "value": "Preparing a pre-commercial trial and named a startup to watch in 2026."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Diesel generators pump out carbon dioxide, so Kapture builds a unit that captures it from the exhaust.",
+    "industry": "Energy",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Fix pollution where it already happens, at the machines people already use, and sell the waste as a useful product.",
+    "name": "Kapture",
+    "not_startup_reason": null,
+    "overall": 6.5,
+    "region": "other",
+    "scores": {
+      "growth": {
+        "basis": "substitute: named a startup to watch in 2026 and a university partnership",
+        "reason": "No revenue or customer numbers were found.",
+        "score": null,
+        "source": "https://www.smartcompany.com.au/startupsmart/five-aussie-startups-excited-to-watch-2026/"
+      },
+      "market": {
+        "reason": "Diesel generators are used worldwide, so a cheap way to cut their emissions has a large market.",
+        "score": 7,
+        "source": "https://www.deakin.edu.au/about-deakin/news-and-media-releases/article/from-exhaust-to-fertiliser-deakin-and-kapture-are-set-to-transform-australian-agriculture"
+      },
+      "tech": {
+        "reason": "Carbon capture on small generators is hard engineering, but it is still at the pre-commercial trial stage.",
+        "score": 6,
+        "source": "https://www.smartcompany.com.au/energy-resources/kapture-import-costs-surging-as-war-sees-oil-spike/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-08",
+        "title": "Kapture import costs surging as war sees oil spike",
+        "url": "https://www.smartcompany.com.au/energy-resources/kapture-import-costs-surging-as-war-sees-oil-spike/"
+      },
+      {
+        "date": null,
+        "title": "From exhaust to fertiliser - Deakin and Kapture",
+        "url": "https://www.deakin.edu.au/about-deakin/news-and-media-releases/article/from-exhaust-to-fertiliser-deakin-and-kapture-are-set-to-transform-australian-agriculture"
+      },
+      {
+        "date": null,
+        "title": "Climate tech startup Kapture cements carbon capture plans",
+        "url": "https://www.startupdaily.net/topic/climate-tech/climate-tech-startup-kapture-cements-carbon-capture-plans/"
+      },
+      {
+        "date": null,
+        "title": "Five Aussie startups excited to watch 2026",
+        "url": "https://www.smartcompany.com.au/startupsmart/five-aussie-startups-excited-to-watch-2026/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "The captured carbon is turned into fertiliser for farms, so the waste becomes a product.",
+    "website": null,
+    "who_pays": "Owners of diesel generators, such as farms and remote sites, would pay for the capture units.",
+    "why_now": "Oil prices are spiking because of war, and pressure to cut emissions from diesel power is rising."
+  },
+  "first_judged_run": "2026-10-12-r6",
+  "first_seen": "2026-10-12",
+  "id": "kapture",
+  "industry": "Energy",
+  "last_checked": "2026-10-12",
+  "mentions": [
+    {
+      "date": "2026-10-08",
+      "run": "2026-10-12-r6",
+      "snippet": "Victorian startup facing import costs ahead of pre-commercial trial",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.smartcompany.com.au/energy-resources/kapture-import-costs-surging-as-war-sees-oil-spike/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Kapture, Melbourne carbon capture for diesel generators.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "From exhaust to fertiliser - Deakin and Kapture",
+      "url": "https://www.deakin.edu.au/about-deakin/news-and-media-releases/article/from-exhaust-to-fertiliser-deakin-and-kapture-are-set-to-transform-australian-agriculture"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Carbon capture plans.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Climate tech startup Kapture cements carbon capture plans",
+      "url": "https://www.startupdaily.net/topic/climate-tech/climate-tech-startup-kapture-cements-carbon-capture-plans/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Kapture named a startup to watch.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Five Aussie startups excited to watch 2026",
+      "url": "https://www.smartcompany.com.au/startupsmart/five-aussie-startups-excited-to-watch-2026/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Company profile.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Kapture - CB Insights",
+      "url": "https://www.cbinsights.com/company/kapture/alternatives-competitors"
+    }
+  ],
+  "name": "Kapture",
+  "name_key": "kapture",
+  "region": "other",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-kapture.txt",
+    "article_url": "https://www.smartcompany.com.au/energy-resources/kapture-import-costs-surging-as-war-sees-oil-spike/",
+    "judged_run": "2026-10-12-r6",
+    "pages": 1,
+    "queries_done": [
+      "\"Kapture\" startup Australia"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": null,
+      "market": 7.0,
+      "overall": 6.5,
+      "run": "2026-10-12-r6",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:23:21+00:00",
+  "website": null
+}

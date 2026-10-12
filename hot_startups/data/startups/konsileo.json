@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "UK",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-12",
+  "id": "konsileo",
+  "industry": "insurtech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-07",
+      "run": "2026-10-12-r6",
+      "snippet": "Tech-enabled insurance broker raised GBP5M",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://tech.eu/2026/10/07/konsileo-raises-ps5m-to-scale-technology-enabled-insurance-broking/"
+    }
+  ],
+  "name": "Konsileo",
+  "name_key": "konsileo",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-12T02:08:22+00:00",
+  "website": null
+}

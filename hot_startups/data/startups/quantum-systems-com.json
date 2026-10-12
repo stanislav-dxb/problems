@@ -4,11 +4,108 @@
   "country": "Germany",
   "domain": "quantum-systems.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Germany",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://finder.techleap.nl/news/feed/quantum-systems-raises-160m-becomes-unicorn"
+        ],
+        "value": "Gilching, Germany"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://finder.techleap.nl/news/feed/quantum-systems-raises-160m-becomes-unicorn",
+          "https://www.deutschland.de/en/news/germany-reaches-record-number-of-billion-dollar-start-ups"
+        ],
+        "value": "Became a unicorn, valued at about EUR 3 billion."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://scroll.media/en/?p=30848"
+        ],
+        "value": "EUR 180M in one round"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Armies need cheap, quick ways to see from the air; Quantum Systems makes small unmanned aircraft for them.",
+    "industry": "Defense tech",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Sell proven, low-cost hardware to a customer whose needs suddenly grew.",
+    "name": "Quantum Systems",
+    "not_startup_reason": null,
+    "overall": 7.3,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round size and valuation",
+        "reason": "Became a unicorn and raised EUR 180M.",
+        "score": 8,
+        "source": "https://scroll.media/en/?p=30848"
+      },
+      "market": {
+        "reason": "Defence is a large industry worldwide.",
+        "score": 7,
+        "source": "https://www.startuphub.ai/startups/quantum-systems.md"
+      },
+      "tech": {
+        "reason": "Real aircraft with an edge that takes a strong team a year or two to match.",
+        "score": 7,
+        "source": "https://www.startuphub.ai/startups/quantum-systems.md"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Quantum Systems raises $160M, becomes unicorn",
+        "url": "https://finder.techleap.nl/news/feed/quantum-systems-raises-160m-becomes-unicorn"
+      },
+      {
+        "date": null,
+        "title": "Quantum Systems Raises €180M",
+        "url": "https://scroll.media/en/?p=30848"
+      },
+      {
+        "date": null,
+        "title": "Germany reaches record number of billion dollar start-ups",
+        "url": "https://www.deutschland.de/en/news/germany-reaches-record-number-of-billion-dollar-start-ups"
+      },
+      {
+        "date": null,
+        "title": "Quantum Systems",
+        "url": "https://www.startuphub.ai/startups/quantum-systems.md"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its drones take off and land straight up but fly far like a plane.",
+    "website": "https://quantum-systems.com/",
+    "who_pays": "Governments and armed forces, including NATO forces, pay for the aircraft.",
+    "why_now": "Wars in Europe and rising defence budgets create demand for drones."
+  },
+  "first_judged_run": "2026-10-12-r6",
   "first_seen": "2026-09-28",
   "id": "quantum-systems-com",
-  "industry": "Defense Tech",
-  "last_checked": null,
+  "industry": "Defense tech",
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "",
@@ -27,18 +124,89 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-12-r6",
+      "snippet": "Defense Tech startup from Germany in VivaTech's Top 100 Rising European Startups 2026.",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://quantum-systems.com/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Gilching-based drone maker reaches unicorn status.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Quantum Systems raises $160M, becomes unicorn",
+      "url": "https://finder.techleap.nl/news/feed/quantum-systems-raises-160m-becomes-unicorn"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Maker of small unmanned aircraft used by NATO forces.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Quantum Systems",
+      "url": "https://www.startuphub.ai/startups/quantum-systems.md"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Valuation reported at €3 billion.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Quantum Systems Raises €180M",
+      "url": "https://scroll.media/en/?p=30848"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Hurun 2026 lists Quantum Systems among new unicorns.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Germany reaches record number of billion dollar start-ups",
+      "url": "https://www.deutschland.de/en/news/germany-reaches-record-number-of-billion-dollar-start-ups"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Funding profile.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "quantum systems - VCBacked",
+      "url": "https://www.vcbacked.co/company/quantum-systems"
     }
   ],
   "name": "Quantum Systems",
   "name_key": "quantumsystems",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-quantum-systems-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-12-r6",
+    "pages": 2,
+    "queries_done": [
+      "\"Quantum Systems\" startup Germany"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-10-05T05:06:35+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 8.0,
+      "market": 7.0,
+      "overall": 7.3,
+      "run": "2026-10-12-r6",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:20:54+00:00",
   "website": "https://quantum-systems.com/"
 }

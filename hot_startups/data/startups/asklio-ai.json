@@ -167,6 +167,15 @@
       "source_kind": "research",
       "title": "deutsche-startups: askLio",
       "url": "https://www.deutsche-startups.de/tag/asklio/"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-12-r6",
+      "snippet": "AI Productivity & Automation startup from Germany in VivaTech's Top 100 Rising European Startups 2026.",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://asklio.ai"
     }
   ],
   "name": "askLio (now Lio)",
@@ -197,6 +206,6 @@
     }
   ],
   "status": "judged",
-  "updated": "2026-10-05T05:19:30+00:00",
+  "updated": "2026-10-12T02:06:06+00:00",
   "website": "https://asklio.ai"
 }

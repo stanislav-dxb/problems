@@ -4,11 +4,115 @@
   "country": "Sweden",
   "domain": "legora.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Sweden",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://bebeez.eu/2025/10/31/with-150m-in-new-funding-swedish-ai-startup-legora-ushers-legaltech-into-the-unicorn-age/"
+        ],
+        "value": "Stockholm, Sweden"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://bebeez.eu/2025/10/31/with-150m-in-new-funding-swedish-ai-startup-legora-ushers-legaltech-into-the-unicorn-age/"
+        ],
+        "value": 2023
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://bebeez.eu/2025/10/31/with-150m-in-new-funding-swedish-ai-startup-legora-ushers-legaltech-into-the-unicorn-age/"
+        ],
+        "value": "About 400 law firms were customers by late 2025."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://vestbee.com/blog/articles/legora-secures-150-m",
+          "https://news.bgov.com/private-equity/legora-valued-at-1-8-billion-for-ai-tool-doing-legal-grunt-work"
+        ],
+        "value": "$150M Series C (valued at $1.8B)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Lawyers spend long hours on routine paperwork, so Legora gives them AI helpers that read, draft and check legal documents.",
+    "industry": "Legal AI",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Pick a profession that sells hours of skilled reading and writing, and build AI tools that fit how that profession already works.",
+    "name": "Legora",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: customer count and larger funding rounds",
+        "reason": "About 400 law firm customers and a fast run of big rounds, from Series B in May 2025 to $150M Series C in October 2025.",
+        "score": 8,
+        "source": "https://bebeez.eu/2025/10/31/with-150m-in-new-funding-swedish-ai-startup-legora-ushers-legaltech-into-the-unicorn-age/"
+      },
+      "market": {
+        "reason": "Law is a large worldwide profession with high spending on skilled hours.",
+        "score": 7,
+        "source": "https://bebeez.eu/2025/10/31/with-150m-in-new-funding-swedish-ai-startup-legora-ushers-legaltech-into-the-unicorn-age/"
+      },
+      "tech": {
+        "reason": "Solid AI products built on top of available models, with a deep legal workflow around them.",
+        "score": 6,
+        "source": "https://legora.com/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising European Startups 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Legora",
+        "url": "https://legora.com/"
+      },
+      {
+        "date": null,
+        "title": "Legora Valued at $1.8 Billion",
+        "url": "https://news.bgov.com/private-equity/legora-valued-at-1-8-billion-for-ai-tool-doing-legal-grunt-work"
+      },
+      {
+        "date": null,
+        "title": "Legora secures $150M",
+        "url": "https://vestbee.com/blog/articles/legora-secures-150-m"
+      },
+      {
+        "date": "2025-10-31",
+        "title": "Legora ushers legaltech into the unicorn age",
+        "url": "https://bebeez.eu/2025/10/31/with-150m-in-new-funding-swedish-ai-startup-legora-ushers-legaltech-into-the-unicorn-age/"
+      },
+      {
+        "date": "2025-05-21",
+        "title": "Legora attracts EUR 70.6 million",
+        "url": "https://bebeez.eu/2025/05/21/swedish-legaltech-startup-legora-attracts-e70-6-million-for-collaborative-ai-aimed-at-law-firms-and-legal-teams/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It works as a shared workspace where lawyers and AI agents plan and finish whole legal tasks together.",
+    "website": "https://legora.com/",
+    "who_pays": "Law firms and company legal teams pay for software licences.",
+    "why_now": "AI can now read and write long documents well enough for law firms to trust it with real work."
+  },
+  "first_judged_run": "2026-10-12-r6",
   "first_seen": "2026-09-28",
   "id": "legora-com",
-  "industry": "LegalTech",
-  "last_checked": null,
+  "industry": "Legal AI",
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "",
@@ -27,18 +131,90 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-12-r6",
+      "snippet": "LegalTech startup from Sweden in VivaTech's Top 100 Rising European Startups 2026.",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://legora.com/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Legal AI company Legora raised at a $1.8B valuation.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Legora Valued at $1.8 Billion For AI Tool Doing Legal Grunt Work",
+      "url": "https://news.bgov.com/private-equity/legora-valued-at-1-8-billion-for-ai-tool-doing-legal-grunt-work"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Series C of $150M.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Legora secures $150M",
+      "url": "https://vestbee.com/blog/articles/legora-secures-150-m"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Series B led by ICONIQ and General Catalyst, May 2025.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Swedish legaltech startup Legora attracts EUR 70.6 million",
+      "url": "https://bebeez.eu/2025/05/21/swedish-legaltech-startup-legora-attracts-e70-6-million-for-collaborative-ai-aimed-at-law-firms-and-legal-teams/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Founded 2023 in Stockholm; about 400 law firms as customers.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "With $150M in new funding Swedish AI startup Legora ushers legaltech into the unicorn age",
+      "url": "https://bebeez.eu/2025/10/31/with-150m-in-new-funding-swedish-ai-startup-legora-ushers-legaltech-into-the-unicorn-age/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Profile of Legora.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "About Legora",
+      "url": "https://builtworlds.com/companies/legora/"
     }
   ],
   "name": "Legora",
   "name_key": "legora",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-legora-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-12-r6",
+    "pages": 2,
+    "queries_done": [
+      "\"Legora\" startup Sweden"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-legora-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-10-05T05:06:35+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 8.0,
+      "market": 7.0,
+      "overall": 7.0,
+      "run": "2026-10-12-r6",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:17:11+00:00",
   "website": "https://legora.com/"
 }

@@ -4,11 +4,83 @@
   "country": "United States",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/"
+        ],
+        "value": "$4.5M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Many people are tired of downloading apps, so Photon helps developers build AI agents that work inside iMessage, text and email.",
+    "industry": "AI agents",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Meet users in the place they already are instead of asking them to install something new.",
+    "name": "Photon",
+    "not_startup_reason": null,
+    "overall": 5.5,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "unknown",
+        "reason": "No customer or revenue numbers are in the sources.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "Any business that ships a mobile app could use messaging agents instead.",
+        "score": 7,
+        "source": "https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/"
+      },
+      "tech": {
+        "reason": "Connecting agents to messaging channels is useful engineering that a good team could copy in months.",
+        "score": 4,
+        "source": "https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-01",
+        "title": "Photon held a funeral for mobile apps. Now it has $4.5M to help replace them with agents.",
+        "url": "https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It bets that agents in chat apps people already use will replace mobile apps.",
+    "website": null,
+    "who_pays": "Developers and companies pay to build and run their agents on Photon.",
+    "why_now": "AI agents have become good enough that people may talk to them instead of installing apps."
+  },
+  "first_judged_run": "2026-10-12-r6",
   "first_seen": "2026-10-05",
   "id": "photon",
   "industry": "AI agents",
-  "last_checked": null,
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "2026-10-01",
@@ -18,18 +90,70 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Photon, Brooklyn NY, prescription network, about $9M raised.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Photon - VCBacked",
+      "url": "https://www.vcbacked.co/company/photon"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Photon, Oakland CA, shade-analysis tool.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Photon - CB Insights",
+      "url": "https://www.cbinsights.com/company/photon"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Spatial phase imaging, Orlando FL.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Photon-X",
+      "url": "https://app.dealroom.co/companies/photon_x"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Optical design automation, pre-seed, Y Combinator.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Photonium - VCBacked",
+      "url": "https://www.vcbacked.co/company/photonium"
     }
   ],
   "name": "Photon",
   "name_key": "photon",
-  "region": null,
+  "region": "north_america",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-photon.txt",
+    "article_url": "https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/",
+    "judged_run": "2026-10-12-r6",
+    "pages": 1,
+    "queries_done": [
+      "\"Photon\" startup United States"
+    ],
+    "refresh": false,
+    "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-10-05T05:08:21+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": null,
+      "market": 7.0,
+      "overall": 5.5,
+      "run": "2026-10-12-r6",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:22:16+00:00",
   "website": null
 }

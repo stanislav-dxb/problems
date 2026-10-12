@@ -4,11 +4,108 @@
   "country": "Germany",
   "domain": "taktile.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Germany",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://datacommons.dealroom.co/companies/taktile",
+          "https://www.business-punk.com/tech/berliner-startup-taktile-52-millionen-euro-fuer-die-revolution-der-finanzwelt/2/"
+        ],
+        "value": "Berlin, Germany"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://vivatech.com/news/top-100-rising-startups-of-2026"
+        ],
+        "value": "Named in VivaTech's 2026 rising list, which needs at least EUR 5M yearly revenue and 40% growth."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://taktile.com"
+        ],
+        "value": "$110M Series C (latest round)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Banks and insurers make slow, manual choices on loans, sign-ups and claims. Taktile gives them software that makes these choices fast, with AI and rules working together.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Sell trusted, explainable AI to rule-heavy industries instead of selling raw AI.",
+    "name": "Taktile",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last ($110M after $54M)",
+        "reason": "Rounds grew from EUR 20M to $54M to $110M and it made a 2026 growth list.",
+        "score": 8,
+        "source": "https://taktile.com"
+      },
+      "market": {
+        "reason": "Every financial firm in the world makes onboarding, credit and claims decisions.",
+        "score": 7,
+        "source": "https://taktile.com"
+      },
+      "tech": {
+        "reason": "Solid decision platform with many data links, but rivals could match it within a year or so.",
+        "score": 6,
+        "source": "https://taktile.com"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Taktile website",
+        "url": "https://taktile.com"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Taktile raises $54M",
+        "url": "https://finder.techleap.nl/news/feed/taktile-raises-54m-for-ai-risk-management-1"
+      },
+      {
+        "date": null,
+        "title": "Taktile - Dealroom",
+        "url": "https://datacommons.dealroom.co/companies/taktile"
+      },
+      {
+        "date": null,
+        "title": "Berliner Startup Taktile",
+        "url": "https://www.business-punk.com/tech/berliner-startup-taktile-52-millionen-euro-fuer-die-revolution-der-finanzwelt/2/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Every AI decision can be traced step by step, so banks keep control and can explain it.",
+    "website": "https://taktile.com",
+    "who_pays": "Banks, lenders and insurers pay for the platform.",
+    "why_now": "Banks want to use AI but must prove each decision is fair and safe."
+  },
+  "first_judged_run": "2026-10-12-r6",
   "first_seen": "2026-09-28",
   "id": "taktile-com",
-  "industry": "FinTech",
-  "last_checked": null,
+  "industry": "Fintech",
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "",
@@ -27,18 +124,90 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-12-r6",
+      "snippet": "FinTech startup from Germany in VivaTech's Top 100 Rising European Startups 2026.",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://taktile.com"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Series A of EUR 20M.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Taktile receives 20 million euros",
+      "url": "https://www.startbase.com/news/taktile-erhaelt-20-millionen-euro"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "2025 round of $54M.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Taktile raises $54M for AI risk management",
+      "url": "https://finder.techleap.nl/news/feed/taktile-raises-54m-for-ai-risk-management-1"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "EUR 52M Series B.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Berliner Startup Taktile: 52 Millionen Euro",
+      "url": "https://www.business-punk.com/tech/berliner-startup-taktile-52-millionen-euro-fuer-die-revolution-der-finanzwelt/2/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "HQ Berlin.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Taktile - Dealroom",
+      "url": "https://datacommons.dealroom.co/companies/taktile"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Lists EUR 51.5M raise in Feb 2025.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Germany's Top Startups 2025",
+      "url": "https://www.beauhurst.com/blog/germanys-top-startups-2025/"
     }
   ],
   "name": "Taktile",
   "name_key": "taktile",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-taktile-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-12-r6",
+    "pages": 2,
+    "queries_done": [
+      "\"Taktile\" startup Germany"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-taktile-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-10-05T05:06:35+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 8.0,
+      "market": 7.0,
+      "overall": 7.0,
+      "run": "2026-10-12-r6",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:16:02+00:00",
   "website": "https://taktile.com"
 }

@@ -1,0 +1,162 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Australia",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "Australia",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.newsfilecorp.com/release/273623"
+        ],
+        "value": "Brisbane, Australia"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.accessnewswire.com/newsroom/en/real-estate/quiet-listings-expands-beyond-off-market-property-following-rapid-national-growth-1194609"
+        ],
+        "value": "Over half a million property views a month, as the company says."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Many homes are sold quietly before they are advertised, so buyers miss them; Quiet Listings shows these off-market and pre-market homes and hidden prices.",
+    "industry": "Proptech",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Make hidden information easy to see, and give it away free to build a crowd first.",
+    "name": "Quiet Listings",
+    "not_startup_reason": null,
+    "overall": 5.0,
+    "region": "other",
+    "scores": {
+      "growth": {
+        "basis": "500000 monthly property views (company figure)",
+        "reason": "Company says it grew fast to half a million monthly views, but the number comes only from the company.",
+        "score": 5,
+        "source": "https://www.accessnewswire.com/newsroom/en/real-estate/quiet-listings-expands-beyond-off-market-property-following-rapid-national-growth-1194609"
+      },
+      "market": {
+        "reason": "Housing is a huge need, but this product so far covers one country.",
+        "score": 6,
+        "source": "https://www.accessnewswire.com/newsroom/en/real-estate/quiet-listings-expands-beyond-off-market-property-following-rapid-national-growth-1194609"
+      },
+      "tech": {
+        "reason": "It is a listings site; the edge is the access to off-market homes, which others could copy.",
+        "score": 4,
+        "source": "https://www.newsfilecorp.com/release/273623"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-09",
+        "title": "The startup uncovering hidden property prices",
+        "url": "https://www.smartcompany.com.au/property/the-startup-uncovering-hidden-property-prices-quiet-listings/"
+      },
+      {
+        "date": null,
+        "title": "Quiet Listings Launches to Give Buyers Early Access to Off-Market and Pre-Market Properties",
+        "url": "https://www.newsfilecorp.com/release/273623"
+      },
+      {
+        "date": null,
+        "title": "Quiet Listings Expands Beyond Off-Market Property Following Rapid National Growth",
+        "url": "https://www.accessnewswire.com/newsroom/en/real-estate/quiet-listings-expands-beyond-off-market-property-following-rapid-national-growth-1194609"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It is free for buyers, sellers and agents, and it opens up a part of the market that used to be closed.",
+    "website": null,
+    "who_pays": "Nobody pays today, since it is free for buyers, sellers and agents; the sources do not say how it will earn money.",
+    "why_now": "Buyers want early access and price facts, and the platform says it grew fast after its November 2025 launch."
+  },
+  "first_judged_run": "2026-10-12-r6",
+  "first_seen": "2026-10-12",
+  "id": "quiet-listings",
+  "industry": "Proptech",
+  "last_checked": "2026-10-12",
+  "mentions": [
+    {
+      "date": "2026-10-09",
+      "run": "2026-10-12-r6",
+      "snippet": "Reveals hidden listings and property prices",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.smartcompany.com.au/property/the-startup-uncovering-hidden-property-prices-quiet-listings/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Brisbane-based property platform founded by Andrew McLeod, launched November 2025.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Quiet Listings Launches to Give Buyers Early Access to Off-Market and Pre-Market Properties",
+      "url": "https://www.newsfilecorp.com/release/273623"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Over half a million monthly property views; free for buyers, sellers and agents.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Quiet Listings Expands Beyond Off-Market Property Following Rapid National Growth",
+      "url": "https://www.accessnewswire.com/newsroom/en/real-estate/quiet-listings-expands-beyond-off-market-property-following-rapid-national-growth-1194609"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Startup uncovering hidden listings and property prices.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "SmartCompany on Quiet Listings",
+      "url": "https://www.smartcompany.com.au/?p=346354"
+    }
+  ],
+  "name": "Quiet Listings",
+  "name_key": "quietlistings",
+  "region": "other",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-quiet-listings.txt",
+    "article_url": "https://www.smartcompany.com.au/property/the-startup-uncovering-hidden-property-prices-quiet-listings/",
+    "judged_run": "2026-10-12-r6",
+    "pages": 1,
+    "queries_done": [
+      "\"Quiet Listings\" startup Australia"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 5.0,
+      "market": 6.0,
+      "overall": 5.0,
+      "run": "2026-10-12-r6",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:27:22+00:00",
+  "website": null
+}

@@ -18,6 +18,15 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://www.businessinsider.de/gruenderszene/bayern-154-millionen-euro-hier-sollen-jetzt-800-neue-jobs-entstehen/"
+    },
+    {
+      "date": "2026-10-05",
+      "run": "2026-10-12-r6",
+      "snippet": "High-efficiency gas power plants, raised EUR154M",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.businessinsider.de/gruenderszene/reverion-154-millionen-euro-hier-sollen-jetzt-800-neue-jobs-entstehen/"
     }
   ],
   "name": "Reverion",
@@ -30,6 +39,6 @@
   },
   "score_history": [],
   "status": "candidate",
-  "updated": "2026-10-05T05:08:21+00:00",
+  "updated": "2026-10-12T02:08:22+00:00",
   "website": null
 }

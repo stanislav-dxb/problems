@@ -1,0 +1,176 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": "deno.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://deno.com/"
+        ],
+        "value": "Joining Cloudflare; version 2.9 released."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.techinasia.com/cloudflare-expands-developer-push-voidzero-deal"
+        ],
+        "value": "$26M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Programmers found Node.js clumsy to set up, so Deno offers a modern way to run JavaScript with TypeScript and tools built in.",
+    "industry": "Developer tools",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Fix the flaws of a popular tool and stay compatible so people can switch without pain.",
+    "name": "Deno",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: acquisition by Cloudflare announced",
+        "reason": "No usage or revenue numbers are in the sources.",
+        "score": null,
+        "source": "https://www.techinasia.com/cloudflare-expands-developer-push-voidzero-deal"
+      },
+      "market": {
+        "reason": "Millions of JavaScript developers could use a runtime.",
+        "score": 7,
+        "source": "https://deno.com/"
+      },
+      "tech": {
+        "reason": "A full runtime with built-in tools is hard to build, though it competes with free rivals.",
+        "score": 7,
+        "source": "https://deno.com/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-11",
+        "title": "Cloudflare expands developer push with VoidZero deal",
+        "url": "https://www.techinasia.com/cloudflare-expands-developer-push-voidzero-deal"
+      },
+      {
+        "date": null,
+        "title": "Announcing the Deno Company",
+        "url": "https://deno.land/blog/the-deno-company"
+      },
+      {
+        "date": null,
+        "title": "Deno raises $21M to launch a fully managed runtime service",
+        "url": "https://techcrunch.com/2022/06/21/deno-raises-21m-to-launch-a-fully-managed-runtime-service/"
+      },
+      {
+        "date": null,
+        "title": "Deno website",
+        "url": "https://deno.com/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It was made by the creator of Node.js and works with existing Node code and npm packages.",
+    "website": "https://deno.com/",
+    "who_pays": "Companies pay for Deno's hosted service, while the runtime itself is free and open source.",
+    "why_now": "Deno announced it is joining Cloudflare, which is pushing hard into developer tools."
+  },
+  "first_judged_run": "2026-10-12-r6",
+  "first_seen": "2026-10-12",
+  "id": "deno",
+  "industry": "Developer tools",
+  "last_checked": "2026-10-12",
+  "mentions": [
+    {
+      "date": "2026-10-11",
+      "run": "2026-10-12-r6",
+      "snippet": "Co-founded by Node.js creator, raised $26M, acquired by Cloudflare",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.techinasia.com/cloudflare-expands-developer-push-voidzero-deal"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Deno Land Inc. seed funding announcement.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Announcing the Deno Company",
+      "url": "https://deno.land/blog/the-deno-company"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Series A led by Sequoia, June 2022.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Deno raises $21M to launch a fully managed runtime service",
+      "url": "https://techcrunch.com/2022/06/21/deno-raises-21m-to-launch-a-fully-managed-runtime-service/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Founder and CEO of Deno.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Deno - Ryan Dahl, Crunchbase",
+      "url": "https://crunchbase.com/person/ryan-dahl"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Profile of Deno Land Inc.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Deno - yespress",
+      "url": "https://yespress.io/deno.md"
+    }
+  ],
+  "name": "Deno",
+  "name_key": "deno",
+  "region": "north_america",
+  "research": {
+    "article_read": true,
+    "judged_run": "2026-10-12-r6",
+    "pages": 2,
+    "queries_done": [
+      "\"Deno\" startup US"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-deno.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": null,
+      "market": 7.0,
+      "overall": 7.0,
+      "run": "2026-10-12-r6",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:22:16+00:00",
+  "website": "https://deno.com/"
+}

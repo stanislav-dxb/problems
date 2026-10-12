@@ -18,6 +18,15 @@
       "source_kind": "search",
       "title": "",
       "url": "https://me.peoplemattersglobal.com/news/business/dubai-based-doublecloud-shuts-down-operations-43074"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Managed data analytics and infrastructure platform that shut down",
+      "source": "スタートアップ 事業停止 2026年10月",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://me.peoplemattersglobal.com/news/business/dubai-based-doublecloud-shuts-down-operations-43074"
     }
   ],
   "name": "DoubleCloud",
@@ -30,6 +39,6 @@
   },
   "score_history": [],
   "status": "candidate",
-  "updated": "2026-10-05T05:32:10+00:00",
+  "updated": "2026-10-12T02:29:33+00:00",
   "website": null
 }

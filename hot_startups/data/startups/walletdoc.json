@@ -2,13 +2,104 @@
   "alias_keys": [],
   "aliases": [],
   "country": "South Africa",
-  "domain": null,
-  "drop_reason": null,
-  "entry": null,
+  "domain": "walletdoc.com",
+  "drop_reason": "Capitec, a bank listed on the stock market, agreed to buy Walletdoc for about $23.5M (R400m). It is no longer independently private.",
+  "entry": {
+    "country": "South Africa",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://launchbaseafrica.com/2025/12/08/walletdoc-founders-exit-as-capitec-acquires-fintech-for-23-5m",
+          "https://startuplist.africa/startup/walletdoc"
+        ],
+        "value": "Johannesburg, South Africa"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://launchbaseafrica.com/2025/12/08/walletdoc-founders-exit-as-capitec-acquires-fintech-for-23-5m"
+        ],
+        "value": "2015"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://disruptafrica.com/2026/10/01/sas-walletdoc-launches-visa-payment-passkeys-for-safer-frictionless-online-checkout/"
+        ],
+        "value": "Launched Visa Payment Passkeys for South African merchants in October 2026."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Shops find it hard to take card and bank payments in many ways; Walletdoc puts online, in-store, QR and payment-link payments in one place.",
+    "industry": "Fintech",
+    "is_startup": false,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Bundle many payment methods under one roof and be first to add each new one.",
+    "name": "Walletdoc",
+    "not_startup_reason": "Capitec, a bank listed on the stock market, agreed to buy Walletdoc for about $23.5M (R400m). It is no longer independently private.",
+    "overall": 6.3,
+    "region": "mea",
+    "scores": {
+      "growth": {
+        "basis": "substitute: acquisition price R300m upfront plus R100m earn-outs",
+        "reason": "A listed bank agreed to pay about R400m, which shows strong value.",
+        "score": 7,
+        "source": "https://www.itweb.co.za/article/capitec-to-buy-fintech-start-up-walletdoc-for-r400m/KBpdg7pmLj2MLEew"
+      },
+      "market": {
+        "reason": "Payments are needed by every business, but this is mainly one country.",
+        "score": 7,
+        "source": "https://disruptafrica.com/2026/10/01/sas-walletdoc-launches-visa-payment-passkeys-for-safer-frictionless-online-checkout/"
+      },
+      "tech": {
+        "reason": "Solid payment engineering that a good team could copy in months.",
+        "score": 5,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-01",
+        "title": "SA's Walletdoc launches Visa Payment Passkeys",
+        "url": "https://disruptafrica.com/2026/10/01/sas-walletdoc-launches-visa-payment-passkeys-for-safer-frictionless-online-checkout/"
+      },
+      {
+        "date": "2025-12-08",
+        "title": "Walletdoc founders exit as Capitec acquires fintech for $23.5M",
+        "url": "https://launchbaseafrica.com/2025/12/08/walletdoc-founders-exit-as-capitec-acquires-fintech-for-23-5m"
+      },
+      {
+        "date": null,
+        "title": "Capitec to buy fintech start-up Walletdoc for R400m",
+        "url": "https://www.itweb.co.za/article/capitec-to-buy-fintech-start-up-walletdoc-for-r400m/KBpdg7pmLj2MLEew"
+      },
+      {
+        "date": null,
+        "title": "Walletdoc - startuplist.africa",
+        "url": "https://startuplist.africa/startup/walletdoc"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It is often first to market with new payment methods, such as Visa passkeys that let shoppers pay with a phone fingerprint check.",
+    "website": "http://www.walletdoc.com/",
+    "who_pays": "Businesses pay fees to accept payments.",
+    "why_now": "Card fraud and slow one-time-PIN checkouts push shops to passwordless payments."
+  },
   "first_seen": "2026-10-05",
   "id": "walletdoc",
-  "industry": "payments",
-  "last_checked": null,
+  "industry": "Fintech",
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "2026-10-01",
@@ -18,18 +109,70 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://disruptafrica.com/2026/10/01/sas-walletdoc-launches-visa-payment-passkeys-for-safer-frictionless-online-checkout/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Capitec acquired Walletdoc, Johannesburg payment gateway founded 2015.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Walletdoc founders exit as Capitec acquires fintech for $23.5M",
+      "url": "https://launchbaseafrica.com/2025/12/08/walletdoc-founders-exit-as-capitec-acquires-fintech-for-23-5m"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "R300m upfront plus R100m earn-outs.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Capitec to buy fintech start-up Walletdoc for R400m",
+      "url": "https://www.itweb.co.za/article/capitec-to-buy-fintech-start-up-walletdoc-for-r400m/KBpdg7pmLj2MLEew"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Company profile.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Walletdoc - CB Insights",
+      "url": "https://www.cbinsights.com/company/walletdoc"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Johannesburg fintech.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Walletdoc - startuplist.africa",
+      "url": "https://startuplist.africa/startup/walletdoc"
     }
   ],
   "name": "Walletdoc",
   "name_key": "walletdoc",
-  "region": null,
+  "region": "mea",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-walletdoc.txt",
+    "article_url": "https://disruptafrica.com/2026/10/01/sas-walletdoc-launches-visa-payment-passkeys-for-safer-frictionless-online-checkout/",
+    "judged_run": "2026-10-12-r6",
+    "pages": 1,
+    "queries_done": [
+      "\"Walletdoc\" startup South Africa"
+    ],
+    "refresh": false,
+    "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-10-05T05:08:21+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 7.0,
+      "market": 7.0,
+      "overall": 6.3,
+      "run": "2026-10-12-r6",
+      "tech": 5.0
+    }
+  ],
+  "status": "dropped",
+  "updated": "2026-10-12T02:20:54+00:00",
+  "website": "http://www.walletdoc.com/"
 }

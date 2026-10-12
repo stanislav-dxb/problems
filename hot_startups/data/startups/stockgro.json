@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "India",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-12",
+  "id": "stockgro",
+  "industry": "fintech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-10",
+      "run": "2026-10-12-r6",
+      "snippet": "Raised funds this week",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://inc42.com/buzz/from-dailyobjects-to-stockgro-indian-startups-raised-about-123-mn-this-week/"
+    }
+  ],
+  "name": "StockGro",
+  "name_key": "stockgro",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-12T02:08:23+00:00",
+  "website": null
+}

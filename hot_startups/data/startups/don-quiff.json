@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Germany",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-12",
+  "id": "don-quiff",
+  "industry": "consumer/haircare",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-07",
+      "run": "2026-10-12-r6",
+      "snippet": "Hair wax against hair loss, DHDL deal",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.businessinsider.de/gruenderszene/media/judith-williams-will-gruendern-helfen-die-maennlichkeit-zu-retten/"
+    }
+  ],
+  "name": "Don Quiff",
+  "name_key": "donquiff",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-12T02:08:22+00:00",
+  "website": null
+}

@@ -1,0 +1,173 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Brazil",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "Brazil",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://latamlist.com/asaas-raises-55-6m-fidc-to-finance-smb-receivables-in-brazil/",
+          "https://fintech.global/2024/10/09/asaas-secures-r820m-in-series-c-funding-to-fuel-sme-financial-automation-expansion/"
+        ],
+        "value": "Raised a $55.6M receivables fund in Oct 2026, after a R$820M Series C."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://fintech.global/2024/10/09/asaas-secures-r820m-in-series-c-funding-to-fuel-sme-financial-automation-expansion/",
+          "https://www.baguete.com.br/noticias/asaas-levanta-r-820-milhoes"
+        ],
+        "value": "R$820M Series C (Oct 2024)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Small Brazilian firms waste time chasing payments and doing money admin, so Asaas gives them one tool to bill, collect and manage cash.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Start with software that sits in the flow of a customer's money, then add lending.",
+    "name": "Asaas",
+    "not_startup_reason": null,
+    "overall": 6.3,
+    "region": "latin_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding rounds bigger than the last",
+        "reason": "Each round is bigger than earlier ones (R$37M, US$20.9M, then R$820M).",
+        "score": 7,
+        "source": "https://www.baguete.com.br/noticias/asaas-levanta-r-820-milhoes"
+      },
+      "market": {
+        "reason": "Millions of small businesses in Brazil need payments and credit.",
+        "score": 7,
+        "source": "https://fintech.global/2024/10/09/asaas-secures-r820m-in-series-c-funding-to-fuel-sme-financial-automation-expansion/"
+      },
+      "tech": {
+        "reason": "Solid fintech engineering, but similar products exist.",
+        "score": 5,
+        "source": "https://fintech.global/2024/10/09/asaas-secures-r820m-in-series-c-funding-to-fuel-sme-financial-automation-expansion/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-06",
+        "title": "Asaas raises $55.6M FIDC",
+        "url": "https://latamlist.com/asaas-raises-55-6m-fidc-to-finance-smb-receivables-in-brazil/"
+      },
+      {
+        "date": "2024-10-09",
+        "title": "Asaas secures R$820m Series C",
+        "url": "https://fintech.global/2024/10/09/asaas-secures-r820m-in-series-c-funding-to-fuel-sme-financial-automation-expansion/"
+      },
+      {
+        "date": null,
+        "title": "Asaas levanta R$820 milhoes",
+        "url": "https://www.baguete.com.br/noticias/asaas-levanta-r-820-milhoes"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It now also lends against the money its customers are owed, using a dedicated receivables fund.",
+    "website": null,
+    "who_pays": "Small businesses pay fees on payments and for financial services.",
+    "why_now": "Small firms in Brazil are moving to instant payments like Pix and want simple software with credit built in."
+  },
+  "first_judged_run": "2026-10-12-r6",
+  "first_seen": "2026-10-12",
+  "id": "asaas",
+  "industry": "Fintech",
+  "last_checked": "2026-10-12",
+  "mentions": [
+    {
+      "date": "2026-10-06",
+      "run": "2026-10-12-r6",
+      "snippet": "$55.6M FIDC to finance SMB receivables",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://latamlist.com/asaas-raises-55-6m-fidc-to-finance-smb-receivables-in-brazil/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Series C of R$820M.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Asaas levanta R$820 milhoes",
+      "url": "https://www.baguete.com.br/noticias/asaas-levanta-r-820-milhoes"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Led by Bond, Oct 2024; fintech for SMEs.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Asaas secures R$820m in Series C funding",
+      "url": "https://fintech.global/2024/10/09/asaas-secures-r820m-in-series-c-funding-to-fuel-sme-financial-automation-expansion/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Earlier round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Brazilian fintech Asaas raises US$20.9M",
+      "url": "https://latamfintech.co/articles/brazilian-fintech-asaas-raises-us-20-9m-to-transform-the-financial-management-of-companies"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Earlier round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Inovabra Ventures leads R$37M round in Asaas",
+      "url": "https://www.lavca.org/inovabra-ventures-leads-r37m-round-in-brazilian-financial-management-asaas/"
+    }
+  ],
+  "name": "Asaas",
+  "name_key": "asaas",
+  "region": "latin_america",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-asaas.txt",
+    "article_url": "https://latamlist.com/asaas-raises-55-6m-fidc-to-finance-smb-receivables-in-brazil/",
+    "judged_run": "2026-10-12-r6",
+    "pages": 1,
+    "queries_done": [
+      "\"Asaas\" startup Brazil"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 7.0,
+      "market": 7.0,
+      "overall": 6.3,
+      "run": "2026-10-12-r6",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:18:42+00:00",
+  "website": null
+}

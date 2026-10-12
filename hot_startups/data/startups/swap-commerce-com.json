@@ -4,11 +4,110 @@
   "country": "United Kingdom",
   "domain": "swap-commerce.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://eit.dealroom.co/news/feed/swap-raises-36-9m-for-e-commerce-os"
+        ],
+        "value": "London, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://parsers.vc/news/250313-swap-secures-40-million-to-revolutionize-e/"
+        ],
+        "value": 2022
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.swap-commerce.com/",
+          "https://vivatech.com/news/top-100-rising-startups-of-2026"
+        ],
+        "value": "Says it powers 1000+ global businesses; picked for VivaTech's list, which needs over EUR 5M revenue and 40% yearly growth."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.cbinsights.com/company/swap-5"
+        ],
+        "value": "about $149M in total"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Online shops struggle with shipping, taxes, duties and returns when they sell abroad, so Swap bundles all of that into one system they plug into their store.",
+    "industry": "E-commerce",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Bundle many small, painful back-office jobs into one product, and the seller stays with you.",
+    "name": "Swap",
+    "not_startup_reason": null,
+    "overall": 6.3,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round and customer count",
+        "reason": "Raised a $40M Series B and serves 1000+ businesses, and made a list needing 40% growth.",
+        "score": 7,
+        "source": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      "market": {
+        "reason": "Online sellers worldwide need help with cross-border sales, taxes and returns.",
+        "score": 7,
+        "source": "https://www.swap-commerce.com/"
+      },
+      "tech": {
+        "reason": "Solid software that ties together many services, but a good team could copy parts of it.",
+        "score": 5,
+        "source": "https://www.swap-commerce.com/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Swap website",
+        "url": "https://www.swap-commerce.com/"
+      },
+      {
+        "date": null,
+        "title": "Swap raises EUR 36.9M for e-commerce OS",
+        "url": "https://eit.dealroom.co/news/feed/swap-raises-36-9m-for-e-commerce-os"
+      },
+      {
+        "date": "2025-03-13",
+        "title": "Swap Secures $40 Million",
+        "url": "https://parsers.vc/news/250313-swap-secures-40-million-to-revolutionize-e/"
+      },
+      {
+        "date": null,
+        "title": "Swap - CB Insights",
+        "url": "https://www.cbinsights.com/company/swap-5"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It lets shoppers pay duties and return costs at checkout, and adds AI shopping helpers on top.",
+    "website": "https://www.swap-commerce.com/",
+    "who_pays": "Online brands and retailers pay Swap for its tools and per-order services.",
+    "why_now": "Cross-border selling is getting more complex with new tariffs and tax rules, and shoppers now use AI to find products."
+  },
+  "first_judged_run": "2026-10-12-r6",
   "first_seen": "2026-09-16",
   "id": "swap-commerce-com",
-  "industry": "Marketplace & E-commerce",
-  "last_checked": null,
+  "industry": "E-commerce",
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -36,18 +135,72 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-12-r6",
+      "snippet": "Marketplace & E-commerce startup from UK in VivaTech's Top 100 Rising European Startups 2026.",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://www.swap-commerce.com/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Swap Commerce, London, e-commerce operating system; Series B led by ICONIQ.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Swap raises €36.9M for e-commerce OS",
+      "url": "https://eit.dealroom.co/news/feed/swap-raises-36-9m-for-e-commerce-os"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Swap founded 2022 by Sam Atkinson and Zach Bailet.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Swap Secures $40 Million",
+      "url": "https://parsers.vc/news/250313-swap-secures-40-million-to-revolutionize-e/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Swap profile; total funding about $149M.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Founded Year",
+      "url": "https://www.cbinsights.com/company/swap-5"
     }
   ],
   "name": "Swap",
   "name_key": "swap",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-swap-commerce-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-12-r6",
+    "pages": 2,
+    "queries_done": [
+      "\"Swap\" startup United Kingdom"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-swap-commerce-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-10-05T05:06:35+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 7.0,
+      "market": 7.0,
+      "overall": 6.3,
+      "run": "2026-10-12-r6",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:19:43+00:00",
   "website": "https://www.swap-commerce.com/"
 }

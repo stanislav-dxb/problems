@@ -1,0 +1,177 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.nasa.gov/news-release/nasa-awards-start-up-license-to-space-race-challenge-winner-petra-power-llc",
+          "https://www.alabamapower.com/news/strengthening-reliability/techstars-alabama-energytech-startup-spotlight-petra-power.html"
+        ],
+        "value": "Won a NASA startup license and joined the Techstars Alabama EnergyTech program."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.trysignalbase.com/news/funding/petra-power-raises-38m"
+        ],
+        "value": "$3.8M seed"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Data centers and military vehicles need lots of power and fuel, so Petra Power makes fuel cells that turn fuel into electricity more efficiently.",
+    "industry": "Energy",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Take proven lab technology from a public agency and aim it at a new, urgent shortage.",
+    "name": "Petra Power",
+    "not_startup_reason": null,
+    "overall": 7.5,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: $3.8M seed round and NASA license",
+        "reason": "No revenue or customer numbers were found.",
+        "score": null,
+        "source": "https://www.trysignalbase.com/news/funding/petra-power-raises-38m"
+      },
+      "market": {
+        "reason": "Power for data centers and vehicles is a very large, fast-growing need worldwide.",
+        "score": 8,
+        "source": "https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/"
+      },
+      "tech": {
+        "reason": "Efficient fuel-flexible solid oxide cells based on NASA-licensed work are hard to build and copy.",
+        "score": 7,
+        "source": "https://www.nasa.gov/news-release/nasa-awards-start-up-license-to-space-race-challenge-winner-petra-power-llc"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-10",
+        "title": "Petra Power looks to modernize energy (TechCrunch)",
+        "url": "https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/"
+      },
+      {
+        "date": null,
+        "title": "Petra Power raises $3.8M",
+        "url": "https://www.trysignalbase.com/news/funding/petra-power-raises-38m"
+      },
+      {
+        "date": null,
+        "title": "NASA awards Startup NASA license to Petra Power LLC",
+        "url": "https://www.nasa.gov/news-release/nasa-awards-start-up-license-to-space-race-challenge-winner-petra-power-llc"
+      },
+      {
+        "date": null,
+        "title": "Techstars Alabama EnergyTech spotlight: Petra Power",
+        "url": "https://www.alabamapower.com/news/strengthening-reliability/techstars-alabama-energytech-startup-spotlight-petra-power.html"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It uses solid oxide fuel cells that can run on different fuels, with technology licensed from NASA.",
+    "website": null,
+    "who_pays": "Data center operators and defense customers would pay for the power systems.",
+    "why_now": "The tech industry cannot get enough electricity for AI data centers, and fuel costs matter for defense."
+  },
+  "first_judged_run": "2026-10-12-r6",
+  "first_seen": "2026-10-12",
+  "id": "petra-power",
+  "industry": "Energy",
+  "last_checked": "2026-10-12",
+  "mentions": [
+    {
+      "date": "2026-10-10",
+      "run": "2026-10-12-r6",
+      "snippet": "Fuel cells for data centers and defense vehicles",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Profile.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Petra Power",
+      "url": "https://www.vcbacked.co/company/petra-power"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Solid oxide fuel cells license.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "NASA awards Startup NASA license to Petra Power LLC",
+      "url": "https://www.nasa.gov/news-release/nasa-awards-start-up-license-to-space-race-challenge-winner-petra-power-llc"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Fuel-flexible power systems.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Techstars Alabama EnergyTech startup spotlight: Petra Power",
+      "url": "https://www.alabamapower.com/news/strengthening-reliability/techstars-alabama-energytech-startup-spotlight-petra-power.html"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Seed round led by Acequia Capital.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Petra Power raises $3.8M",
+      "url": "https://www.trysignalbase.com/news/funding/petra-power-raises-38m"
+    }
+  ],
+  "name": "Petra Power",
+  "name_key": "petrapower",
+  "region": "north_america",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-petra-power.txt",
+    "article_url": "https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/",
+    "judged_run": "2026-10-12-r6",
+    "pages": 1,
+    "queries_done": [
+      "\"Petra Power\" startup US"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": null,
+      "market": 8.0,
+      "overall": 7.5,
+      "run": "2026-10-12-r6",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:25:00+00:00",
+  "website": null
+}

@@ -1,0 +1,149 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Egypt",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "Egypt",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "http://wamda.com/2026/10/beltone-amtaar-plan-38-million-multi-issuance-real-estate-fund",
+          "https://technesummit2026.sched.com/speaker/tarek_taha.2a3m57gi"
+        ],
+        "value": "Egypt"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "http://wamda.com/2026/10/beltone-amtaar-plan-38-million-multi-issuance-real-estate-fund"
+        ],
+        "value": "Partnering with Beltone on a fund targeting EGP 2 billion ($38 million); first issuance EGP 500M to 700M."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Buying property needs lots of money and ties you to one asset, so Amtaar lets people buy small shares of real estate funds online.",
+    "industry": "Proptech",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Cut a big, costly asset into small pieces and team up with an established firm to handle the rules.",
+    "name": "Amtaar Capital",
+    "not_startup_reason": null,
+    "overall": 5.0,
+    "region": "mea",
+    "scores": {
+      "growth": {
+        "basis": "substitute: partnership with a large fund manager",
+        "reason": "No user or revenue numbers, but a large partner fund is a sign of traction.",
+        "score": null,
+        "source": "http://wamda.com/2026/10/beltone-amtaar-plan-38-million-multi-issuance-real-estate-fund"
+      },
+      "market": {
+        "reason": "Real estate is a huge asset class, but this platform serves one country.",
+        "score": 6,
+        "source": "http://wamda.com/2026/10/beltone-amtaar-plan-38-million-multi-issuance-real-estate-fund"
+      },
+      "tech": {
+        "reason": "A digital investing platform is solid engineering that a good team could copy, and the fund side belongs to Beltone.",
+        "score": 4,
+        "source": "http://wamda.com/2026/10/beltone-amtaar-plan-38-million-multi-issuance-real-estate-fund"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-07",
+        "title": "Beltone, Amtaar plan $38 million multi-issuance real estate fund",
+        "url": "http://wamda.com/2026/10/beltone-amtaar-plan-38-million-multi-issuance-real-estate-fund"
+      },
+      {
+        "date": null,
+        "title": "Tarek Taha speaker profile",
+        "url": "https://technesummit2026.sched.com/speaker/tarek_taha.2a3m57gi"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Investing starts at EGP 1,000, and it partners with a licensed fund manager instead of running the fund itself.",
+    "website": null,
+    "who_pays": "Investors buy fund units through the platform; the sources do not say how Amtaar earns its fee.",
+    "why_now": "A new fund with Beltone targets EGP 2 billion ($38 million), giving the platform its first big product."
+  },
+  "first_judged_run": "2026-10-12-r6",
+  "first_seen": "2026-10-12",
+  "id": "amtaar-capital",
+  "industry": "Proptech",
+  "last_checked": "2026-10-12",
+  "mentions": [
+    {
+      "date": "2026-10-07",
+      "run": "2026-10-12-r6",
+      "snippet": "Fractional real estate investment platform partnering with Beltone",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "http://wamda.com/2026/10/beltone-amtaar-plan-38-million-multi-issuance-real-estate-fund"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Fundz listing for Amtar funding.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Amtaar funding round",
+      "url": "https://app.fundz.net/fundings/amtar-funding-round-3d5459"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Co-Founder and CPTO of Amtaar, Egyptian fractional real estate platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Tarek Taha speaker profile",
+      "url": "https://technesummit2026.sched.com/speaker/tarek_taha.2a3m57gi"
+    }
+  ],
+  "name": "Amtaar Capital",
+  "name_key": "amtaarcapital",
+  "region": "mea",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-amtaar-capital.txt",
+    "article_url": "http://wamda.com/2026/10/beltone-amtaar-plan-38-million-multi-issuance-real-estate-fund",
+    "judged_run": "2026-10-12-r6",
+    "pages": 1,
+    "queries_done": [
+      "\"Amtaar Capital\" startup Egypt"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": null,
+      "market": 6.0,
+      "overall": 5.0,
+      "run": "2026-10-12-r6",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:27:58+00:00",
+  "website": null
+}

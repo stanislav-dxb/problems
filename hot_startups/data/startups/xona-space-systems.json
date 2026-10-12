@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "US",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-12",
+  "id": "xona-space-systems",
+  "industry": "space/navigation",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-09",
+      "run": "2026-10-12-r6",
+      "snippet": "Commercial GPS alternative entering beta after satellite launch",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://techcrunch.com/2026/10/09/xonas-commercial-gps-alternative-is-about-to-go-live/"
+    }
+  ],
+  "name": "Xona Space Systems",
+  "name_key": "xonaspacesystems",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-12T02:08:22+00:00",
+  "website": null
+}

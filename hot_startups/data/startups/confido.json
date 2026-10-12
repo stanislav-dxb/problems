@@ -1,14 +1,112 @@
 {
   "alias_keys": [],
   "aliases": [],
-  "country": null,
-  "domain": null,
+  "country": "United States",
+  "domain": "confidotech.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": true,
+        "sources": [
+          "https://dealroom.co/news/talk-htAl33M5F54-from-pivot-hell-to-a-55m-series-b-confidos-ai-back-office-playbook/",
+          "https://www.ycombinator.com/companies/confido"
+        ],
+        "value": "2021"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://thebridge.jp/2026/09/confido-series-b-cpg-ai-operating-system-insight-partners"
+        ],
+        "value": "Over 250 consumer brands use it, with more than $30B of retail sales planned on it."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://thebridge.jp/2026/09/confido-series-b-cpg-ai-operating-system-insight-partners",
+          "https://inforcapital.com/news/confido-raises-55m-to-scale-its-ai-infrastructure-across-the-cpg-commercial-cycle/"
+        ],
+        "value": "$77M total, including a $55M Series B in September 2026"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Food and drink brands lose time and money because sales, accounts and supply plans live in separate tools and spreadsheets, so Confido puts them in one system that does the busywork.",
+    "industry": "AI tools",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Pick a dull, manual back office in one industry, and replace the pile of separate tools with one AI system built on shared data.",
+    "name": "Confido",
+    "not_startup_reason": null,
+    "overall": 6.3,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "250+ brand customers; $55M Series B",
+        "reason": "A $55M Series B, over 250 brands and big named customers show fast growth, though the numbers come from the company.",
+        "score": 7,
+        "source": "https://thebridge.jp/2026/09/confido-series-b-cpg-ai-operating-system-insight-partners"
+      },
+      "market": {
+        "reason": "Every consumer goods brand that sells through big retailers has this back-office pain, worldwide.",
+        "score": 7,
+        "source": "https://thebridge.jp/2026/09/confido-series-b-cpg-ai-operating-system-insight-partners"
+      },
+      "tech": {
+        "reason": "Useful shared-data software with many integrations, but a good team could copy it in months.",
+        "score": 5,
+        "source": "https://confidotech.com"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-09-28",
+        "title": "Confido raises $55M Series B (The Bridge)",
+        "url": "https://thebridge.jp/2026/09/confido-series-b-cpg-ai-operating-system-insight-partners"
+      },
+      {
+        "date": null,
+        "title": "From pivot hell to a $55M Series B (Dealroom)",
+        "url": "https://dealroom.co/news/talk-htAl33M5F54-from-pivot-hell-to-a-55m-series-b-confidos-ai-back-office-playbook/"
+      },
+      {
+        "date": null,
+        "title": "Confido - Y Combinator",
+        "url": "https://www.ycombinator.com/companies/confido"
+      },
+      {
+        "date": null,
+        "title": "Confido raises $55M (Infor Capital)",
+        "url": "https://inforcapital.com/news/confido-raises-55m-to-scale-its-ai-infrastructure-across-the-cpg-commercial-cycle/"
+      },
+      {
+        "date": null,
+        "title": "Confido website",
+        "url": "https://confidotech.com"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "One shared set of numbers runs everything, so a change in the sales forecast updates the supply plan, and people only handle the odd cases.",
+    "website": "https://confidotech.com",
+    "who_pays": "Consumer goods brands pay for the software, mainly their finance, sales and operations teams.",
+    "why_now": "AI can now do routine accounts work like matching payments and fighting retailer deductions, and brands want to grow without hiring more staff."
+  },
+  "first_judged_run": "2026-10-12-r6",
   "first_seen": "2026-09-28",
   "id": "confido",
-  "industry": "AI operations for CPG brands",
-  "last_checked": null,
+  "industry": "AI tools",
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "2026-09-28",
@@ -18,18 +116,72 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://thebridge.jp/2026/09/confido-series-b-cpg-ai-operating-system-insight-partners"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Confido, a YC Summer 2021 company, started as Outfit and now does AI financial automation for CPG brands.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "From pivot hell to a $55M Series B: Confido's AI back office playbook",
+      "url": "https://dealroom.co/news/talk-htAl33M5F54-from-pivot-hell-to-a-55m-series-b-confidos-ai-back-office-playbook/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "AI-enabled financial automation and intelligence for CPG brands.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Confido - Y Combinator",
+      "url": "https://www.ycombinator.com/companies/confido"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Series B of $55.0M from Insight Partners; customers include Mars and Unilever divisions, Olipop, Dude Wipes.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Confido raises $55M to scale its AI infrastructure across the CPG commercial cycle",
+      "url": "https://inforcapital.com/news/confido-raises-55m-to-scale-its-ai-infrastructure-across-the-cpg-commercial-cycle/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Built In NYC articles about Confido.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Articles about Confido",
+      "url": "https://www.builtinnyc.com/company/confido/articles"
     }
   ],
   "name": "Confido",
   "name_key": "confido",
-  "region": null,
+  "region": "north_america",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-confido.txt",
+    "article_url": "https://thebridge.jp/2026/09/confido-series-b-cpg-ai-operating-system-insight-partners",
+    "judged_run": "2026-10-12-r6",
+    "pages": 2,
+    "queries_done": [
+      "\"Confido\" startup"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-confido.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-09-28T02:09:01+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 7.0,
+      "market": 7.0,
+      "overall": 6.3,
+      "run": "2026-10-12-r6",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:25:00+00:00",
+  "website": "https://confidotech.com"
 }

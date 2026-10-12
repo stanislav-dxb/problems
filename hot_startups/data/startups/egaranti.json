@@ -1,0 +1,157 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Turkey",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "Turkey",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.cbinsights.com/company/egaranti"
+        ],
+        "value": "Istanbul, Turkey"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://webrazzi.com/2026/10/09/garanti-teknolojilerine-odaklanan-egaranti-1-1-milyon-dolar-yatirim-aldi/",
+          "https://www.paradergi.com.tr/girisimcilik/2024/01/05/egaranti-tohum-yatirim-turunda-18-milyon-tl-yatirim-aldi"
+        ],
+        "value": "Raised a $1.1M pre-Series A in October 2026, after a seed round in January 2024."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://webrazzi.com/2026/10/09/garanti-teknolojilerine-odaklanan-egaranti-1-1-milyon-dolar-yatirim-aldi/",
+          "https://www.paradergi.com.tr/girisimcilik/2024/01/05/egaranti-tohum-yatirim-turunda-18-milyon-tl-yatirim-aldi"
+        ],
+        "value": "$1.1M pre-Series A (Oct 2026), after an 18M TL seed (Jan 2024)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "People lose paper warranty papers and then cannot get repairs, so egaranti turns warranty documents into digital ones.",
+    "industry": "Warranty tech",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Pick a small, annoying paper process that everyone has and move it to a phone.",
+    "name": "egaranti",
+    "not_startup_reason": null,
+    "overall": 5.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last",
+        "reason": "A second, larger round suggests steady growth but no user or revenue numbers are public.",
+        "score": 5,
+        "source": "https://webrazzi.com/2026/10/09/garanti-teknolojilerine-odaklanan-egaranti-1-1-milyon-dolar-yatirim-aldi/"
+      },
+      "market": {
+        "reason": "Every buyer of goods has warranties, but the product is mainly proven in one country so far.",
+        "score": 6,
+        "source": "https://webrazzi.com/2026/10/09/garanti-teknolojilerine-odaklanan-egaranti-1-1-milyon-dolar-yatirim-aldi/"
+      },
+      "tech": {
+        "reason": "Digitizing documents is solid engineering that a good team could copy in months.",
+        "score": 4,
+        "source": "https://webrazzi.com/2026/10/09/garanti-teknolojilerine-odaklanan-egaranti-1-1-milyon-dolar-yatirim-aldi/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-09",
+        "title": "Garanti teknolojilerine odaklanan egaranti, 1,1 milyon dolar yatirim aldi",
+        "url": "https://webrazzi.com/2026/10/09/garanti-teknolojilerine-odaklanan-egaranti-1-1-milyon-dolar-yatirim-aldi/"
+      },
+      {
+        "date": "2024-01-05",
+        "title": "Egaranti, tohum yatirim turunda 18 milyon TL yatirim aldi",
+        "url": "https://www.paradergi.com.tr/girisimcilik/2024/01/05/egaranti-tohum-yatirim-turunda-18-milyon-tl-yatirim-aldi"
+      },
+      {
+        "date": null,
+        "title": "egaranti - CB Insights",
+        "url": "https://www.cbinsights.com/company/egaranti"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It focuses only on warranties, a boring but universal paper problem.",
+    "website": null,
+    "who_pays": "Brands and sellers most likely pay to manage warranties for their customers (not confirmed in the sources).",
+    "why_now": "Shops and brands are moving receipts and papers online, and a new $1.1M round shows investors see room to grow."
+  },
+  "first_judged_run": "2026-10-12-r6",
+  "first_seen": "2026-10-12",
+  "id": "egaranti",
+  "industry": "Warranty tech",
+  "last_checked": "2026-10-12",
+  "mentions": [
+    {
+      "date": "2026-10-09",
+      "run": "2026-10-12-r6",
+      "snippet": "Digitizes warranty documents, $1.1M pre-Series A",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://webrazzi.com/2026/10/09/garanti-teknolojilerine-odaklanan-egaranti-1-1-milyon-dolar-yatirim-aldi/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Seed round 18M TL, Jan 2024.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Egaranti, tohum yatirim turunda 18 milyon TL yatirim aldi",
+      "url": "https://www.paradergi.com.tr/girisimcilik/2024/01/05/egaranti-tohum-yatirim-turunda-18-milyon-tl-yatirim-aldi"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Istanbul warranty management startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "egaranti - CB Insights",
+      "url": "https://www.cbinsights.com/company/egaranti"
+    }
+  ],
+  "name": "egaranti",
+  "name_key": "egaranti",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-egaranti.txt",
+    "article_url": "https://webrazzi.com/2026/10/09/garanti-teknolojilerine-odaklanan-egaranti-1-1-milyon-dolar-yatirim-aldi/",
+    "judged_run": "2026-10-12-r6",
+    "pages": 1,
+    "queries_done": [
+      "\"egaranti\" startup Turkey"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 5.0,
+      "market": 6.0,
+      "overall": 5.0,
+      "run": "2026-10-12-r6",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:27:57+00:00",
+  "website": null
+}

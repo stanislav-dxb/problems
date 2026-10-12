@@ -2,13 +2,103 @@
   "alias_keys": [],
   "aliases": [],
   "country": "United States",
-  "domain": null,
+  "domain": "turso.tech",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.turso.tech/about-us"
+        ],
+        "value": "San Francisco, United States"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.techinasia.com/agents-humans-picked-100b-company",
+          "https://www.turso.tech"
+        ],
+        "value": "Turso is joining Supabase, a bigger database company."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Apps and AI agents often need a private place to keep data, but one big shared database is costly and risky, so Turso lets developers create a separate small database for each user or agent.",
+    "industry": "Databases",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "When a new kind of user (here, AI agents) arrives in huge numbers, rebuild a basic tool so it works one-per-user instead of one-for-all.",
+    "name": "Turso",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: acquisition by Supabase",
+        "reason": "No usage or revenue numbers, but a deal to join Supabase shows interest from a bigger player.",
+        "score": null,
+        "source": "https://www.techinasia.com/agents-humans-picked-100b-company"
+      },
+      "market": {
+        "reason": "Any software team building apps or agents could use a database per user, worldwide.",
+        "score": 7,
+        "source": "https://www.turso.tech"
+      },
+      "tech": {
+        "reason": "Making SQLite run as a cloud service with millions of isolated databases is a real edge that takes time to match.",
+        "score": 7,
+        "source": "https://www.turso.tech"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Turso home page",
+        "url": "https://www.turso.tech"
+      },
+      {
+        "date": null,
+        "title": "About us",
+        "url": "https://www.turso.tech/about-us"
+      },
+      {
+        "date": "2026-10-03",
+        "title": "Tech in Asia: Turso acquired by Supabase",
+        "url": "https://www.techinasia.com/agents-humans-picked-100b-company"
+      },
+      {
+        "date": null,
+        "title": "3 best alternatives to Turso in 2026",
+        "url": "https://toolquestor.com/vi/alternative/turso"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It is built on SQLite, a database as light as a file, so making millions of separate databases costs very little.",
+    "website": "https://www.turso.tech",
+    "who_pays": "Software teams pay for the cloud service that hosts their databases.",
+    "why_now": "AI agents are multiplying and each one needs its own safe memory, which one shared database handles badly."
+  },
+  "first_judged_run": "2026-10-12-r6",
   "first_seen": "2026-10-05",
   "id": "turso",
-  "industry": "database",
-  "last_checked": null,
+  "industry": "Databases",
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "2026-10-03",
@@ -18,18 +108,52 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://www.techinasia.com/agents-humans-picked-100b-company"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Technically San Francisco based, a globally distributed remote company on four continents; founders Glauber and Pekka from ScyllaDB.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "about us",
+      "url": "https://www.turso.tech/about-us"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Turso is a database service built on SQLite for large-scale production.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "3 best alternatives to Turso in 2026",
+      "url": "https://toolquestor.com/vi/alternative/turso"
     }
   ],
   "name": "Turso",
   "name_key": "turso",
-  "region": null,
+  "region": "north_america",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "judged_run": "2026-10-12-r6",
+    "pages": 2,
+    "queries_done": [
+      "\"Turso\" startup United States"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-turso.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-10-05T05:08:21+00:00",
-  "website": null
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": null,
+      "market": 7.0,
+      "overall": 7.0,
+      "run": "2026-10-12-r6",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:26:15+00:00",
+  "website": "https://www.turso.tech"
 }

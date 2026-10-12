@@ -1,0 +1,183 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "UK",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "UK",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2026/10/londons-sava-raises-e32-08-million-and-partners-with-ascensia-to-bring-its-glucose-microsensor-to-europe/",
+          "https://bebeez.eu/2025/07/31/glucose-is-only-the-beginning-london-based-sava-technologies-raises-e16-6-million-for-its-wearable-microsensor-technology/"
+        ],
+        "value": "London, UK"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2026/10/londons-sava-raises-e32-08-million-and-partners-with-ascensia-to-bring-its-glucose-microsensor-to-europe/",
+          "https://bebeez.eu/2025/07/31/glucose-is-only-the-beginning-london-based-sava-technologies-raises-e16-6-million-for-its-wearable-microsensor-technology/"
+        ],
+        "value": "Latest round is about double the previous one, plus a distribution deal with Ascensia."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.eu-startups.com/2026/10/londons-sava-raises-e32-08-million-and-partners-with-ascensia-to-bring-its-glucose-microsensor-to-europe/",
+          "https://bebeez.eu/2025/07/31/glucose-is-only-the-beginning-london-based-sava-technologies-raises-e16-6-million-for-its-wearable-microsensor-technology/"
+        ],
+        "value": "€32.08M in the latest round (Series B), after a €16.6M Series A in 2025"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://techfundingnews.com/sava-lands-19m-for-world-first-biosensor-to-disrupt-real-time-health-monitoring/"
+        ],
+        "value": "about 60"
+      }
+    },
+    "idea": "People with diabetes often have to prick their fingers or wear bulky sensors, so Sava makes a tiny wearable sensor that reads glucose through the skin.",
+    "industry": "Health",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Build one sensor platform on a big, painful need like glucose, then widen to other measurements.",
+    "name": "Sava Technologies",
+    "not_startup_reason": null,
+    "overall": 8.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last, partner deal",
+        "reason": "Funding doubled in about a year and a big partner signed on, but no sales numbers are public.",
+        "score": 7,
+        "source": "https://www.eu-startups.com/2026/10/londons-sava-raises-e32-08-million-and-partners-with-ascensia-to-bring-its-glucose-microsensor-to-europe/"
+      },
+      "market": {
+        "reason": "Glucose monitoring serves hundreds of millions of people worldwide.",
+        "score": 9,
+        "source": "https://www.eu-startups.com/2026/10/londons-sava-raises-e32-08-million-and-partners-with-ascensia-to-bring-its-glucose-microsensor-to-europe/"
+      },
+      "tech": {
+        "reason": "A new kind of wearable microsensor is hard hardware that would take a strong team years to match.",
+        "score": 8,
+        "source": "https://techfundingnews.com/sava-lands-19m-for-world-first-biosensor-to-disrupt-real-time-health-monitoring/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-09",
+        "title": "London's Sava raises €32.08 million and partners with Ascensia",
+        "url": "https://www.eu-startups.com/2026/10/londons-sava-raises-e32-08-million-and-partners-with-ascensia-to-bring-its-glucose-microsensor-to-europe/"
+      },
+      {
+        "date": "2025-07-31",
+        "title": "Glucose is only the beginning: Sava Technologies raises €16.6 million",
+        "url": "https://bebeez.eu/2025/07/31/glucose-is-only-the-beginning-london-based-sava-technologies-raises-e16-6-million-for-its-wearable-microsensor-technology/"
+      },
+      {
+        "date": null,
+        "title": "Sava lands $19M for world first biosensor",
+        "url": "https://techfundingnews.com/sava-lands-19m-for-world-first-biosensor-to-disrupt-real-time-health-monitoring/"
+      },
+      {
+        "date": null,
+        "title": "Sava Technologies Secures €16.6M for Wearable Biosensor",
+        "url": "https://www.startuphub.ai/news/sava-technologies-secures-e16-6m-for-wearable-biosensor"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "The sensor is a microsensor built to measure glucose first, with plans to track other body chemicals later.",
+    "website": null,
+    "who_pays": "Patients and health systems would pay for the sensors, and partners like Ascensia pay to sell them.",
+    "why_now": "A partnership with Ascensia brings the sensor to Europe, and wearable health tracking is growing fast."
+  },
+  "first_judged_run": "2026-10-12-r6",
+  "first_seen": "2026-10-12",
+  "id": "sava-technologies",
+  "industry": "Health",
+  "last_checked": "2026-10-12",
+  "mentions": [
+    {
+      "date": "2026-10-09",
+      "run": "2026-10-12-r6",
+      "snippet": "Glucose microsensor wearable, EUR32M Series B",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.eu-startups.com/2026/10/londons-sava-raises-e32-08-million-and-partners-with-ascensia-to-bring-its-glucose-microsensor-to-europe/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Series A led by Balderton Capital and Pentland Ventures.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Glucose is only the beginning: London-based Sava Technologies raises €16.6 million for its wearable microsensor technology",
+      "url": "https://bebeez.eu/2025/07/31/glucose-is-only-the-beginning-london-based-sava-technologies-raises-e16-6-million-for-its-wearable-microsensor-technology/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Wearable biosensor, glucose monitoring.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Sava Technologies Secures €16.6M for Wearable Biosensor",
+      "url": "https://www.startuphub.ai/news/sava-technologies-secures-e16-6m-for-wearable-biosensor"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Team over 60 people.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Sava lands $19M for world first biosensor",
+      "url": "https://techfundingnews.com/sava-lands-19m-for-world-first-biosensor-to-disrupt-real-time-health-monitoring/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Seed funding.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "SAVA: Wearable Biosensor Platform Company Closes $8 Million In Seed Funding",
+      "url": "https://pulse2.com/sava-wearable-biosensor-platform-company-closes-8-million-in-seed-funding/amp/"
+    }
+  ],
+  "name": "Sava Technologies",
+  "name_key": "savatechnologies",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-sava-technologies.txt",
+    "article_url": "https://www.eu-startups.com/2026/10/londons-sava-raises-e32-08-million-and-partners-with-ascensia-to-bring-its-glucose-microsensor-to-europe/",
+    "judged_run": "2026-10-12-r6",
+    "pages": 1,
+    "queries_done": [
+      "\"Sava Technologies\" startup UK"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 7.0,
+      "market": 9.0,
+      "overall": 8.0,
+      "run": "2026-10-12-r6",
+      "tech": 8.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:23:21+00:00",
+  "website": null
+}

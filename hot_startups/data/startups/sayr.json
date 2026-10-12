@@ -1,0 +1,147 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Egypt",
+  "domain": "thesayr.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "Egypt",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://disruptafrica.com/2026/10/08/egyptian-startup-sayr-launches-beginner-friendly-public-transport-app/"
+        ],
+        "value": "Egypt"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://disruptafrica.com/2026/10/08/egyptian-startup-sayr-launches-beginner-friendly-public-transport-app/"
+        ],
+        "value": "More than 2,100 downloads in the first three weeks."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://disruptafrica.com/2026/10/08/egyptian-startup-sayr-launches-beginner-friendly-public-transport-app/"
+        ],
+        "value": "$0 (fully bootstrapped)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://disruptafrica.com/2026/10/08/egyptian-startup-sayr-launches-beginner-friendly-public-transport-app/"
+        ],
+        "value": 1
+      }
+    },
+    "idea": "Most route apps assume you already know how a city's transit works, so SAYR gives step-by-step directions in plain words, like a friend explaining the trip.",
+    "industry": "Transport apps",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Take a crowded product category and serve the beginner that the experts' tools ignore.",
+    "name": "SAYR",
+    "not_startup_reason": null,
+    "overall": 4.3,
+    "region": "mea",
+    "scores": {
+      "growth": {
+        "basis": "2,100 downloads in 3 weeks",
+        "reason": "2,100 downloads is a small number that only the company reports.",
+        "score": 3,
+        "source": "https://disruptafrica.com/2026/10/08/egyptian-startup-sayr-launches-beginner-friendly-public-transport-app/"
+      },
+      "market": {
+        "reason": "Public transport users exist in every big city worldwide, though the field has strong rivals.",
+        "score": 7,
+        "source": "https://disruptafrica.com/2026/10/08/egyptian-startup-sayr-launches-beginner-friendly-public-transport-app/"
+      },
+      "tech": {
+        "reason": "A friendlier layer on top of route data that anyone can buy.",
+        "score": 3,
+        "source": "https://disruptafrica.com/2026/10/08/egyptian-startup-sayr-launches-beginner-friendly-public-transport-app/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-08",
+        "title": "Egyptian startup SAYR launches beginner-friendly public transport app",
+        "url": "https://disruptafrica.com/2026/10/08/egyptian-startup-sayr-launches-beginner-friendly-public-transport-app/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It is made for beginners, with simple steps on where to walk, what to board and where to change.",
+    "website": "https://thesayr.com/",
+    "who_pays": "Advertisers and users who pay for a subscription that unlocks extra features.",
+    "why_now": "Many people travel to unfamiliar cities, and the app already works in more than 90 countries."
+  },
+  "first_judged_run": "2026-10-12-r6",
+  "first_seen": "2026-10-12",
+  "id": "sayr",
+  "industry": "Transport apps",
+  "last_checked": "2026-10-12",
+  "mentions": [
+    {
+      "date": "2026-10-08",
+      "run": "2026-10-12-r6",
+      "snippet": "Beginner-friendly public transport app, 2,100 downloads",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://disruptafrica.com/2026/10/08/egyptian-startup-sayr-launches-beginner-friendly-public-transport-app/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Sary, Saudi B2B marketplace, acquired Egyptian B2B marketplace Mowarrid. Not SAYR.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Saudi Arabia's Sary acquires Egypt's Mowarrid",
+      "url": "https://www.wamda.com/2022/03/saudi-arabia-sary-acquires-egypt-mowarrid"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Sary raised over $112M; serves many businesses in Saudi Arabia.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Sary - Forbes Middle East 50 most funded startups 2022",
+      "url": "https://www.forbesmiddleeast.com/lists/50-most-funded-startups-2022/sary/"
+    }
+  ],
+  "name": "SAYR",
+  "name_key": "sayr",
+  "region": "mea",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-sayr.txt",
+    "article_url": "https://disruptafrica.com/2026/10/08/egyptian-startup-sayr-launches-beginner-friendly-public-transport-app/",
+    "judged_run": "2026-10-12-r6",
+    "pages": 1,
+    "queries_done": [
+      "\"SAYR\" startup Egypt"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 3.0,
+      "market": 7.0,
+      "overall": 4.3,
+      "run": "2026-10-12-r6",
+      "tech": 3.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:27:58+00:00",
+  "website": "https://thesayr.com/"
+}

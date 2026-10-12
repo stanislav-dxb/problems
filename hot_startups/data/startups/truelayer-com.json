@@ -150,6 +150,24 @@
       "source_kind": "research",
       "title": "TrueLayer raises $25m",
       "url": "https://finextra.com/newsarticle/36599/truelayer-raises-25m"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-12-r6",
+      "snippet": "FinTech startup from UK in VivaTech's Top 100 Rising European Startups 2026.",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://truelayer.com/"
+    },
+    {
+      "date": "2026-10-08",
+      "run": "2026-10-12-r6",
+      "snippet": "Payments fintech raised $27M, expanding to Italy",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://tech.eu/2026/10/08/truelayer-captures-27m-investment-as-targets-italy-expansion/"
     }
   ],
   "name": "TrueLayer",
@@ -180,6 +198,6 @@
     }
   ],
   "status": "judged",
-  "updated": "2026-10-05T05:28:00+00:00",
+  "updated": "2026-10-12T02:08:22+00:00",
   "website": "https://truelayer.com/"
 }

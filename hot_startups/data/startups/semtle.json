@@ -1,0 +1,143 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "South Korea",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "South Korea",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://platum.kr/archives/295938"
+        ],
+        "value": "2026"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://platum.kr/archives/295938"
+        ],
+        "value": "Released the language and its IDE on 9 Oct 2026, and launched an iPhone app and an AI work tool last month."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Most programming languages use English words, which is a hurdle for Korean beginners, so Semtle made a language where you write code in plain Korean sentences.",
+    "industry": "Developer tools",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Build a tool for your own language or culture, and prove it by using it to make real products.",
+    "name": "Semtle",
+    "not_startup_reason": null,
+    "overall": 5.0,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "substitute: product launches (language, IDE, iPhone app, AI work tool) in the last month",
+        "reason": "No user or revenue numbers are public.",
+        "score": null,
+        "source": "https://platum.kr/archives/295938"
+      },
+      "market": {
+        "reason": "A real but niche market: Korean-speaking beginners and learners.",
+        "score": 4,
+        "source": "https://platum.kr/archives/295938"
+      },
+      "tech": {
+        "reason": "A full new language with its own compiler and IDE is solid work, though the idea of a native-language language is not new.",
+        "score": 6,
+        "source": "https://platum.kr/archives/295938"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-09",
+        "title": "Platum: Hunminjeongeum, a Korean-sentence programming language, released by Semtle",
+        "url": "https://platum.kr/archives/295938"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "The language, called Hunminjeongeum, builds phone apps and servers, and its own compiler and tools are written in it.",
+    "website": null,
+    "who_pays": "Not clear yet; the language and tools are free to download, and the company also sells apps and an AI work tool.",
+    "why_now": "AI is changing how software gets written, which makes a readable, sentence-style language easier to use and to check."
+  },
+  "first_judged_run": "2026-10-12-r6",
+  "first_seen": "2026-10-12",
+  "id": "semtle",
+  "industry": "Developer tools",
+  "last_checked": "2026-10-12",
+  "mentions": [
+    {
+      "date": "2026-10-08",
+      "run": "2026-10-12-r6",
+      "snippet": "Released Korean-language programming language Hunminjeongeum",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://platum.kr/archives/295938"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "No mention of Semtle.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Best Semiconductors Startups in South Korea",
+      "url": "https://seedtable.com/best-semiconductors-startups-in-south-korea"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Semiconductor equipment maker, different company.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "SEMES Co., Ltd.",
+      "url": "https://discovery.patsnap.com/company/semes/"
+    }
+  ],
+  "name": "Semtle",
+  "name_key": "semtle",
+  "region": "asia",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-semtle.txt",
+    "article_url": "https://platum.kr/archives/295938",
+    "judged_run": "2026-10-12-r6",
+    "pages": 1,
+    "queries_done": [
+      "\"Semtle\" startup South Korea"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": null,
+      "market": 4.0,
+      "overall": 5.0,
+      "run": "2026-10-12-r6",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:28:26+00:00",
+  "website": null
+}

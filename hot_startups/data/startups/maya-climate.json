@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": null,
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-12",
+  "id": "maya-climate",
+  "industry": "climate tech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Climate tech startup winding down operations",
+      "source": "スタートアップ 事業停止 2026年10月",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://carbon-pulse.com/398221/"
+    }
+  ],
+  "name": "Maya Climate",
+  "name_key": "mayaclimate",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-12T02:29:33+00:00",
+  "website": null
+}

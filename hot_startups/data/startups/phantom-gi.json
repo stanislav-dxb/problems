@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Israel",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-12",
+  "id": "phantom-gi",
+  "industry": "medtech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-08",
+      "run": "2026-10-12-r6",
+      "snippet": "Percutaneous stoma procedure instead of surgery",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.geektime.co.il/phantom-gi-percstoma-stoma-funding/"
+    }
+  ],
+  "name": "Phantom GI",
+  "name_key": "phantomgi",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-12T02:08:23+00:00",
+  "website": null
+}

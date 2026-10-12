@@ -4,11 +4,117 @@
   "country": "Germany",
   "domain": "neura-robotics.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Germany",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://en.wikipedia.org/wiki/Neura_Robotics"
+        ],
+        "value": "Metzingen, Germany"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://en.wikipedia.org/wiki/Neura_Robotics"
+        ],
+        "value": "2019"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://neura-robotics.com/"
+        ],
+        "value": "Product reservations open for a humanoid and other robots."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://siliconcanals.com/neura-robotics-secures-e120m/",
+          "https://pulse2.com/neura-robotics-german-based-humanoid-company-raises-e120-million-series-b/amp/"
+        ],
+        "value": "EUR 120M Series B"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://ifa-berlin.com/exhibitors/neura-robotics-gmbh"
+        ],
+        "value": "about 260"
+      }
+    },
+    "idea": "Factories and services struggle to find skilled workers; NEURA builds robots that sense, learn and work next to people.",
+    "industry": "Robotics",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Pair hardware with a shared AI brain and a developer community so every robot improves the others.",
+    "name": "NEURA Robotics",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding rounds and product reservations",
+        "reason": "Large funding rounds and open reservations, but no sales numbers.",
+        "score": 6,
+        "source": "https://siliconcanals.com/neura-robotics-secures-e120m/"
+      },
+      "market": {
+        "reason": "Robots for industry, services and homes could serve a large part of the world's workforce.",
+        "score": 8,
+        "source": "https://neura-robotics.com/"
+      },
+      "tech": {
+        "reason": "Own hardware and AI across several robots is hard to match, though rivals are racing.",
+        "score": 7,
+        "source": "https://neura-robotics.com/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "NEURA Robotics website",
+        "url": "https://neura-robotics.com/"
+      },
+      {
+        "date": null,
+        "title": "Neura Robotics",
+        "url": "https://en.wikipedia.org/wiki/Neura_Robotics"
+      },
+      {
+        "date": null,
+        "title": "neura robotics secures e120m",
+        "url": "https://siliconcanals.com/neura-robotics-secures-e120m/"
+      },
+      {
+        "date": null,
+        "title": "NEURA Robotics raises 120 Million",
+        "url": "https://pulse2.com/neura-robotics-german-based-humanoid-company-raises-e120-million-series-b/amp/"
+      },
+      {
+        "date": null,
+        "title": "NEURA Robotics - IFA Berlin exhibitor",
+        "url": "https://ifa-berlin.com/exhibitors/neura-robotics-gmbh"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It makes a whole range from robot arms to a humanoid, all run by its own AI and an open developer network.",
+    "website": "https://neura-robotics.com/",
+    "who_pays": "Factories and businesses buy the robots, and homes may follow.",
+    "why_now": "Better AI lets robots handle varied tasks, while labour shortages push firms to look for help."
+  },
+  "first_judged_run": "2026-10-12-r6",
   "first_seen": "2026-09-28",
   "id": "neura-robotics-com",
-  "industry": "Physical AI & Robotics",
-  "last_checked": null,
+  "industry": "Robotics",
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "",
@@ -27,18 +133,90 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-12-r6",
+      "snippet": "Physical AI & Robotics startup from Germany in VivaTech's Top 100 Rising European Startups 2026.",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://neura-robotics.com/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "German robotics company in Metzingen, founded 2019; cobots and humanoids.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Neura Robotics",
+      "url": "https://en.wikipedia.org/wiki/Neura_Robotics"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "EUR 120M Series B.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "neura robotics secures e120m",
+      "url": "https://siliconcanals.com/neura-robotics-secures-e120m/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Series B led by Lingotto.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "NEURA Robotics: German-Based Humanoid Company Raises 120 Million (Series B)",
+      "url": "https://pulse2.com/neura-robotics-german-based-humanoid-company-raises-e120-million-series-b/amp/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "More than 260 team members from over 30 countries.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "NEURA Robotics - IFA Berlin exhibitor",
+      "url": "https://ifa-berlin.com/exhibitors/neura-robotics-gmbh"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "EUR 182M funding reported.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "NEURA Robotics secures 182M in funding",
+      "url": "https://www.trysignalbase.com/news/funding/neura-robotics-secures-182m-in-funding-to-revolutionize-robotics-industry"
     }
   ],
   "name": "NEURA Robotics",
   "name_key": "neurarobotics",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-neura-robotics-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-12-r6",
+    "pages": 2,
+    "queries_done": [
+      "\"NEURA Robotics\" startup Germany"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-neura-robotics-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-10-05T05:06:35+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 6.0,
+      "market": 8.0,
+      "overall": 7.0,
+      "run": "2026-10-12-r6",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:14:36+00:00",
   "website": "https://neura-robotics.com/"
 }

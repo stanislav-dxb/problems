@@ -4,11 +4,109 @@
   "country": "Ireland",
   "domain": "tines.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Ireland",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.irishtimes.com/tags/eoin-hinchy"
+        ],
+        "value": "Dublin, Ireland"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.irishtimes.com/tags/eoin-hinchy"
+        ],
+        "value": "2018"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://vivatech.com/news/top-100-rising-startups-of-2026"
+        ],
+        "value": "Named in VivaTech's 2026 Top 100 Rising European Startups, which needs 40%+ yearly growth."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.vcbacked.co/company/tines"
+        ],
+        "value": "$125M Series C (Feb 2025)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Staff now build apps and AI helpers on their own, which leaves IT and security teams blind, so Tines gives everyone one safe place to build.",
+    "industry": "Automation",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "When a new tool lets everyone build, there is a business in giving the safety team control without slowing people down.",
+    "name": "Tines",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: VivaTech Top 100 criteria and a large Series C",
+        "reason": "VivaTech's list requires at least EUR 5M revenue and 40% yearly growth, and Tines made the 2026 list.",
+        "score": 7,
+        "source": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      "market": {
+        "reason": "Every large company needs to govern automation and AI use.",
+        "score": 8,
+        "source": "https://www.tines.com/"
+      },
+      "tech": {
+        "reason": "Solid product, but rivals could copy workflow tools in a year or so.",
+        "score": 6,
+        "source": "https://www.tines.com/"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Tines homepage",
+        "url": "https://www.tines.com/"
+      },
+      {
+        "date": null,
+        "title": "Irish cybersecurity start-up Tines valued at $300m after raising $26m",
+        "url": "https://www.irishtimes.com/tags/eoin-hinchy"
+      },
+      {
+        "date": null,
+        "title": "Tines - VCBacked",
+        "url": "https://www.vcbacked.co/company/tines"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Tines takes top spot in latest LinkedIn ranking of Irish start-ups",
+        "url": "https://siliconrepublic.com/?p=1094854"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It started as no-code workflow tools for security teams, and now adds visibility and control over AI-made work.",
+    "website": "https://www.tines.com/",
+    "who_pays": "Companies pay for it, mainly their IT and security teams.",
+    "why_now": "AI lets every team build software, and companies need to see and govern what gets built."
+  },
+  "first_judged_run": "2026-10-12-r6",
   "first_seen": "2026-09-28",
   "id": "tines-com",
-  "industry": "AI Productivity & Automation",
-  "last_checked": null,
+  "industry": "Automation",
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "",
@@ -27,18 +125,81 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-12-r6",
+      "snippet": "AI Productivity & Automation startup from Ireland in VivaTech's Top 100 Rising European Startups 2026.",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://www.tines.com/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Dublin no-code workflow automation, founded 2018.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Irish cybersecurity start-up Tines valued at $300m after raising $26m",
+      "url": "https://www.irishtimes.com/tags/eoin-hinchy"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Top of LinkedIn 2024 list.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Tines takes top spot in latest LinkedIn ranking of Irish start-ups",
+      "url": "https://siliconrepublic.com/?p=1094854"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Sifted soonicorn.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Irish company Tines named among Europe's leading soonicorns",
+      "url": "https://www.businesspost.ie/tech/irish-company-tines-named-among-europes-leading-soonicorns/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Series C Feb 2025, $125M.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Tines",
+      "url": "https://www.vcbacked.co/company/tines"
     }
   ],
   "name": "Tines",
   "name_key": "tines",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-tines-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-12-r6",
+    "pages": 2,
+    "queries_done": [
+      "\"Tines\" startup Ireland"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-tines-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-10-05T05:06:35+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 7.0,
+      "market": 8.0,
+      "overall": 7.0,
+      "run": "2026-10-12-r6",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:11:54+00:00",
   "website": "https://www.tines.com/"
 }

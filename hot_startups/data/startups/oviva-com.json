@@ -4,11 +4,104 @@
   "country": "Switzerland",
   "domain": "oviva.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Switzerland",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.greaterzuricharea.com/en/node/3208"
+        ],
+        "value": "Zurich, Switzerland"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://oviva.com/"
+        ],
+        "value": "2014"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://oviva.com/"
+        ],
+        "value": "Says 900K+ people treated worldwide."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://siliconcanals.com/news/funding/page/508/"
+        ],
+        "value": "EUR 19M Series B (earlier round)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Changing eating habits is hard alone; Oviva pairs people with dietitians and an app to support lasting change.",
+    "industry": "Health",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Mix human experts with software to deliver care that is personal but still scales.",
+    "name": "Oviva",
+    "not_startup_reason": null,
+    "overall": 6.3,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: people treated and recent funding",
+        "reason": "900K+ people treated and a 2026 round are reported, mostly company figures and unclear totals.",
+        "score": 6,
+        "source": "https://oviva.com/"
+      },
+      "market": {
+        "reason": "Diet-related health problems affect a large share of people worldwide.",
+        "score": 8,
+        "source": "https://oviva.com/"
+      },
+      "tech": {
+        "reason": "Solid app plus a large clinician network, but the approach can be copied.",
+        "score": 5,
+        "source": "https://oviva.com/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Oviva website",
+        "url": "https://oviva.com/"
+      },
+      {
+        "date": null,
+        "title": "Greater Zurich Area - Oviva",
+        "url": "https://www.greaterzuricharea.com/en/node/3208"
+      },
+      {
+        "date": null,
+        "title": "Swiss firm digitising treatment of type 2 diabetes secures 19M",
+        "url": "https://siliconcanals.com/news/funding/page/508/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Real health professionals coach through a digital app, so care scales beyond clinics.",
+    "website": "https://oviva.com/",
+    "who_pays": "Health insurers and health services pay, and some users pay themselves.",
+    "why_now": "Diet-linked illness such as type 2 diabetes is rising, and health systems accept remote care."
+  },
+  "first_judged_run": "2026-10-12-r6",
   "first_seen": "2026-09-28",
   "id": "oviva-com",
-  "industry": "HealthTech",
-  "last_checked": null,
+  "industry": "Health",
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "",
@@ -27,18 +120,99 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-12-r6",
+      "snippet": "HealthTech startup from Switzerland in VivaTech's Top 100 Rising European Startups 2026.",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://oviva.com/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Early funding for app-based dietary support.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Oviva Health brings $12M dietary support platform",
+      "url": "https://www.mobihealthnews.com/content/oviva-health-brings-12m-dietary-support-platform/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Oviva profile.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Greater Zurich Area - Oviva",
+      "url": "https://www.greaterzuricharea.com/en/node/3208"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Oviva selected on Growth50 and VivaTech lists.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Tech Tour and VivaTech nominate Switzerland's growth startups",
+      "url": "https://www.startupticker.ch/en/news/tech-tour-and-viva-tech-nominate-switzerland-s-growth-startups"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Series B EUR 19M.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Swiss firm digitising treatment of type 2 diabetes secures 19M",
+      "url": "https://siliconcanals.com/news/funding/page/508/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "$233.7M total funding; Jan 2026 round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Oviva - VCBacked",
+      "url": "https://www.vcbacked.co/company/oviva"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "$113M over 8 rounds; Jan 2026 secondary $220M.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Oviva financials - CB Insights",
+      "url": "https://www.cbinsights.com/company/oviva/financials"
     }
   ],
   "name": "Oviva",
   "name_key": "oviva",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-oviva-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-12-r6",
+    "pages": 2,
+    "queries_done": [
+      "\"Oviva\" startup Switzerland"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-oviva-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-10-05T05:06:35+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 6.0,
+      "market": 8.0,
+      "overall": 6.3,
+      "run": "2026-10-12-r6",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:14:37+00:00",
   "website": "https://oviva.com/"
 }

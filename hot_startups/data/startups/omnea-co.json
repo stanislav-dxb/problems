@@ -36,18 +36,61 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-12-r6",
+      "snippet": "Procurement & Operations startup from UK in VivaTech's Top 100 Rising European Startups 2026.",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://www.omnea.co/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Omnea, London AI procurement software, revenue fivefold since 2024.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Omnea tops London-dominated 2026 Startups 100 Index",
+      "url": "https://businesscloud.co.uk/news/omnea-tops-london-dominated-2026-startups-100-index/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Founded 2022, private, $74.6M raised, 170 employees.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Omnea Company Profile",
+      "url": "https://tour.pitchbook.com/answers/omnea-company-profile"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Dealroom profile.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Omnea",
+      "url": "https://oman.dealroom.co/companies/omnea"
     }
   ],
   "name": "Omnea",
   "name_key": "omnea",
   "region": null,
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-omnea-co.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "pages": 2,
+    "queries_done": [
+      "\"Omnea\" startup United Kingdom"
+    ],
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-omnea-co.txt"
   },
   "score_history": [],
   "status": "candidate",
-  "updated": "2026-10-05T05:06:35+00:00",
+  "updated": "2026-10-12T02:09:45+00:00",
   "website": "https://www.omnea.co/"
 }

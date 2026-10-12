@@ -4,11 +4,111 @@
   "country": "India",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "India",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://inc42.com/buzz/takeme2space-satleo-eon-space-labs-launch-payloads-aboard-spacex-falcon-9/",
+          "https://analyticsindiamag.com/deep-tech/this-hyderabad-startup-is-building-indias-first-ai-lab-in-orbit"
+        ],
+        "value": "Hyderabad, India"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://india.entrepreneur.com/?p=92304"
+        ],
+        "value": 2024
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://inc42.com/buzz/takeme2space-satleo-eon-space-labs-launch-payloads-aboard-spacex-falcon-9/"
+        ],
+        "value": "Signed 23 customers and plans a six-satellite constellation by 2028."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://finder.techleap.nl/news/feed/takeme2space-raises-5m-to-build-india-s-first-orbital-data-centre",
+          "https://www.cxodigitalpulse.com/takeme2space-raises-5-million-seed-round-to-build-indias-first-orbital-data-centre/"
+        ],
+        "value": "$5M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Sending data to Earth from satellites is slow and costly, so TakeMe2Space puts computers in orbit that process data up there.",
+    "industry": "Spacetech",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Do the work where the data is created, so you send less data home.",
+    "name": "TakeMe2Space",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "23 customers",
+        "reason": "Its first satellite launched on 2 October 2026 and 23 customers have signed up.",
+        "score": 7,
+        "source": "https://inc42.com/buzz/takeme2space-satleo-eon-space-labs-launch-payloads-aboard-spacex-falcon-9/"
+      },
+      "market": {
+        "reason": "Space computing is a real but still small niche.",
+        "score": 6,
+        "source": "https://inc42.com/buzz/takeme2space-satleo-eon-space-labs-launch-payloads-aboard-spacex-falcon-9/"
+      },
+      "tech": {
+        "reason": "Running AI on its own satellite is hard hardware work that few teams can copy quickly.",
+        "score": 8,
+        "source": "https://analyticsindiamag.com/deep-tech/this-hyderabad-startup-is-building-indias-first-ai-lab-in-orbit"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-02",
+        "title": "TakeMe2Space, SatLeo, EON Space Labs Launch Payloads Aboard SpaceX Falcon 9",
+        "url": "https://inc42.com/buzz/takeme2space-satleo-eon-space-labs-launch-payloads-aboard-spacex-falcon-9/"
+      },
+      {
+        "date": null,
+        "title": "TakeMe2Space raises $5M to build India's first orbital data centre",
+        "url": "https://finder.techleap.nl/news/feed/takeme2space-raises-5m-to-build-india-s-first-orbital-data-centre"
+      },
+      {
+        "date": null,
+        "title": "TakeMe2Space Raises $5 Million Seed Round",
+        "url": "https://www.cxodigitalpulse.com/takeme2space-raises-5-million-seed-round-to-build-indias-first-orbital-data-centre/"
+      },
+      {
+        "date": null,
+        "title": "Spacetech Startup TakeMe2Space Raises USD 5 Mn Led by Chiratae Ventures",
+        "url": "https://india.entrepreneur.com/?p=92304"
+      },
+      {
+        "date": null,
+        "title": "This Hyderabad Startup is Building India's First AI Lab in Orbit",
+        "url": "https://analyticsindiamag.com/deep-tech/this-hyderabad-startup-is-building-indias-first-ai-lab-in-orbit"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It is building India's first data centre in space, and lets customers run AI on its satellites.",
+    "website": null,
+    "who_pays": "Companies that want to run AI and process images in orbit pay for computing time.",
+    "why_now": "Cheap rocket rideshares like SpaceX Transporter missions make it affordable for small firms to launch their own satellites."
+  },
+  "first_judged_run": "2026-10-12-r6",
   "first_seen": "2026-10-05",
   "id": "takeme2space",
-  "industry": "spacetech",
-  "last_checked": null,
+  "industry": "Spacetech",
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "2026-10-02",
@@ -18,18 +118,88 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://inc42.com/buzz/takeme2space-satleo-eon-space-labs-launch-payloads-aboard-spacex-falcon-9/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Seed round led by Chiratae Ventures.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "TakeMe2Space raises $5M to build India's first orbital data centre",
+      "url": "https://finder.techleap.nl/news/feed/takeme2space-raises-5m-to-build-india-s-first-orbital-data-centre"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Hyderabad startup building orbital data centres.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Hyderabad startup raises $5.5M to build data centres in orbit",
+      "url": "https://finder.techleap.nl/news/feed/hyderabad-startup-raises-55m-to-build-data-centres-in-orbit"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Seed round for India's first orbital data centre.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "TakeMe2Space Raises $5 Million Seed Round",
+      "url": "https://www.cxodigitalpulse.com/takeme2space-raises-5-million-seed-round-to-build-indias-first-orbital-data-centre/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "MOI-1 satellite as an AI lab in space.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "This Hyderabad Startup is Building India's First AI Lab in Orbit",
+      "url": "https://analyticsindiamag.com/deep-tech/this-hyderabad-startup-is-building-indias-first-ai-lab-in-orbit"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Founded 2024 by Ronak Kumar Samantray.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Spacetech Startup TakeMe2Space Raises USD 5 Mn Led by Chiratae Ventures",
+      "url": "https://india.entrepreneur.com/?p=92304"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "PitchBook profile.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "TakeMe2Space Overview",
+      "url": "https://pitchbook.com/profiles/company/686927-71"
     }
   ],
   "name": "TakeMe2Space",
   "name_key": "takeme2space",
-  "region": null,
+  "region": "asia",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-takeme2space.txt",
+    "article_url": "https://inc42.com/buzz/takeme2space-satleo-eon-space-labs-launch-payloads-aboard-spacex-falcon-9/",
+    "judged_run": "2026-10-12-r6",
+    "pages": 1,
+    "queries_done": [
+      "\"TakeMe2Space\" startup India"
+    ],
+    "refresh": false,
+    "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-10-05T05:08:21+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 7.0,
+      "market": 6.0,
+      "overall": 7.0,
+      "run": "2026-10-12-r6",
+      "tech": 8.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:22:15+00:00",
   "website": null
 }

@@ -4,11 +4,83 @@
   "country": "India",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "India",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://yourstory.com/2026/10/quantum-world-ventures-looks-to-move-the-technology-beyond-the-lab"
+        ],
+        "value": "Bengaluru, India"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Quantum computing mostly stays in labs, so this company is trying to use quantum tools and AI to build medical technology.",
+    "industry": "Quantum, Medtech",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Pair a hard new technology with a concrete field that needs it, rather than selling the technology alone.",
+    "name": "Quantum World Ventures",
+    "not_startup_reason": null,
+    "overall": 5.5,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "unknown",
+        "reason": "No numbers or signals found.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "Medical technology is a big field, but the company's exact product is not yet clear.",
+        "score": 6,
+        "source": "https://yourstory.com/2026/10/quantum-world-ventures-looks-to-move-the-technology-beyond-the-lab"
+      },
+      "tech": {
+        "reason": "Quantum plus AI could be hard to copy, but no details of what is built are available.",
+        "score": 5,
+        "source": "https://yourstory.com/2026/10/quantum-world-ventures-looks-to-move-the-technology-beyond-the-lab"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-03",
+        "title": "YourStory: Quantum World Ventures looks to move the technology beyond the lab",
+        "url": "https://yourstory.com/2026/10/quantum-world-ventures-looks-to-move-the-technology-beyond-the-lab"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It aims to take quantum technology out of the lab and into health care.",
+    "website": null,
+    "who_pays": "Unknown; likely hospitals or medical device buyers, but the sources do not say.",
+    "why_now": "Quantum research is maturing and India is putting public money behind quantum startups."
+  },
+  "first_judged_run": "2026-10-12-r6",
   "first_seen": "2026-10-05",
   "id": "quantum-world-ventures",
-  "industry": "quantum/medtech",
-  "last_checked": null,
+  "industry": "Quantum, Medtech",
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "2026-10-03",
@@ -31,17 +103,28 @@
   ],
   "name": "Quantum World Ventures",
   "name_key": "quantumworldventures",
-  "region": null,
+  "region": "asia",
   "research": {
     "article_read": true,
+    "judged_run": "2026-10-12-r6",
     "pages": 1,
     "queries_done": [
       "\"Quantum World Ventures\" startup India"
     ],
+    "refresh": false,
     "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-10-05T05:18:43+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": null,
+      "market": 6.0,
+      "overall": 5.5,
+      "run": "2026-10-12-r6",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:28:26+00:00",
   "website": null
 }

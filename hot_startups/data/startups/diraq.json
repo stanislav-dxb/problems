@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Australia",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-12",
+  "id": "diraq",
+  "industry": "quantum",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-08",
+      "run": "2026-10-12-r6",
+      "snippet": "Silicon quantum, A$73M from US defence/DARPA",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.startupdaily.net/topic/funding/us-defence-invests-73-million-in-diraq-with-another-357m-on-the-table/"
+    }
+  ],
+  "name": "Diraq",
+  "name_key": "diraq",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-12T02:08:23+00:00",
+  "website": null
+}

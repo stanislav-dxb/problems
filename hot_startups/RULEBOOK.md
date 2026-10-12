@@ -13,7 +13,11 @@ Claude follows this when it writes an entry. Same rules for every startup, every
 - Privately owned. A company listed on a stock market is out.
 - Small: team of about 500 people or fewer. Larger is out.
 - Any age, any country, any industry.
-- If unsure about size, keep it and mark team size unknown. If clearly over the limit, set `is_startup: false` and say why.
+- Look for the team size in the dossier: "employs 300", a LinkedIn headcount, a hiring announcement. If clearly over the
+  limit, set `is_startup: false` and say why.
+- If the team size stays unknown, still fill `size`: your best headcount estimate, the latest valuation and the total
+  raised, in US dollars, `null` where nothing is known. Without a known team size, a company valued at $10 billion or
+  more, or that has raised $1 billion or more in total, counts as large and is out. The program checks these numbers too.
 
 ## Facts
 

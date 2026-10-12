@@ -4,11 +4,94 @@
   "country": "France",
   "domain": "shotgun.live",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "France",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.frenchweb.fr/shotgun-leve-2-millions-deuros-pour-son-app-dediee-aux-evenements-festifs/392925"
+        ],
+        "value": "Paris, France"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.frenchweb.fr/shotgun-leve-2-millions-deuros-pour-son-app-dediee-aux-evenements-festifs/392925"
+        ],
+        "value": "2014"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://vivatech.com/news/top-100-rising-startups-of-2026"
+        ],
+        "value": "Named in VivaTech Top 100 Rising European Startups 2026."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.frenchweb.fr/shotgun-leve-2-millions-deuros-pour-son-app-dediee-aux-evenements-festifs/392925"
+        ],
+        "value": "EUR 2M (earlier round)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Party and club organisers struggle to sell tickets and reach fans; Shotgun is an app and ticket service for events.",
+    "industry": "Entertainment",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Serve one lively niche better than the big general ticket sites.",
+    "name": "Shotgun",
+    "not_startup_reason": null,
+    "overall": 5.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: named in VivaTech Top 100 Rising European Startups 2026",
+        "reason": "No growth numbers in the dossier.",
+        "score": null,
+        "source": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      "market": {
+        "reason": "A real market for events, but mostly nightlife and Europe.",
+        "score": 6,
+        "source": null
+      },
+      "tech": {
+        "reason": "Ticketing apps are solid engineering that can be copied in months.",
+        "score": 4,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising European Startups 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Shotgun leve 2 millions d'euros",
+        "url": "https://www.frenchweb.fr/shotgun-leve-2-millions-deuros-pour-son-app-dediee-aux-evenements-festifs/392925"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It focuses on festive and nightlife events.",
+    "website": "https://shotgun.live/",
+    "who_pays": "Event organisers pay fees on tickets sold; fans buy tickets.",
+    "why_now": "People want live events and phone ticketing is now normal."
+  },
+  "first_judged_run": "2026-10-12-r6",
   "first_seen": "2026-09-16",
   "id": "shotgun-live",
-  "industry": "Entertainment & Media",
-  "last_checked": null,
+  "industry": "Entertainment",
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -54,24 +137,44 @@
       "source_kind": "research",
       "title": "Shotgun - Total raised",
       "url": "https://map.getclera.com/company/shotgun"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-12-r6",
+      "snippet": "Entertainment & Media startup from France in VivaTech's Top 100 Rising European Startups 2026.",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://shotgun.live/"
     }
   ],
   "name": "Shotgun",
   "name_key": "shotgun",
-  "region": null,
+  "region": "europe",
   "research": {
     "article_read": true,
     "article_text": "/home/user/problems/hot_startups/cache/article-shotgun-live.txt",
     "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-12-r6",
     "pages": 2,
     "queries_done": [
       "\"Shotgun\" startup France"
     ],
+    "refresh": false,
     "searches": 1,
     "site_read": true
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-10-05T05:12:26+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": null,
+      "market": 6.0,
+      "overall": 5.0,
+      "run": "2026-10-12-r6",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:09:19+00:00",
   "website": "https://shotgun.live/"
 }

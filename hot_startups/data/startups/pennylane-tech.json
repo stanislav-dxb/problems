@@ -4,11 +4,110 @@
   "country": "France",
   "domain": "pennylane.tech",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "France",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.nbcsandiego.com/news/business/money-report/french-fintech-pennylane-doubles-valuation-to-2-2-billion-as-alphabets-venture-capital-arm-takes-stake/3796569"
+        ],
+        "value": "Valuation doubled to $2.2 billion with CapitalG taking a stake."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.crowdfundinsider.com/?p=238203"
+        ],
+        "value": "EUR 75M round in April 2025"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Small businesses and their accountants work on different copies of the numbers, so Pennylane gives both one shared place for invoices, accounts and banking.",
+    "industry": "Fintech",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Put both sides of a work relationship on one shared tool, and each side brings the other.",
+    "name": "Pennylane",
+    "not_startup_reason": null,
+    "overall": 7.3,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding rounds growing in size",
+        "reason": "Repeated bigger rounds from seed to a $2.2B valuation, and it made a list needing 40% yearly growth.",
+        "score": 8,
+        "source": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      "market": {
+        "reason": "Nearly every business and accountant needs bookkeeping and invoicing, and e-invoicing rules are coming.",
+        "score": 8,
+        "source": "https://www.pennylane.tech"
+      },
+      "tech": {
+        "reason": "Well-built shared platform with automation, but rivals could copy features within months.",
+        "score": 6,
+        "source": "https://www.pennylane.tech"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Pennylane website",
+        "url": "https://www.pennylane.tech"
+      },
+      {
+        "date": "2020-05-18",
+        "title": "Pennylane raises EUR 4 million",
+        "url": "https://tech.eu/2020/05/18/french-fintech-startup-pennylane-raises-e4-million-from-global-founders-capital-partech-and-kima-ventures"
+      },
+      {
+        "date": null,
+        "title": "Pennylane doubles valuation to $2.2 billion",
+        "url": "https://www.nbcsandiego.com/news/business/money-report/french-fintech-pennylane-doubles-valuation-to-2-2-billion-as-alphabets-venture-capital-arm-takes-stake/3796569"
+      },
+      {
+        "date": null,
+        "title": "Pennylane raises $18M from Sequoia",
+        "url": "https://siliconcanals.com/?p=12453"
+      },
+      {
+        "date": "2025-04-01",
+        "title": "Pennylane Reports EUR 75M Funding Round",
+        "url": "https://www.crowdfundinsider.com/?p=238203"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Accountant and client see the same live numbers, with AI that warns about cash gaps and does routine bookkeeping.",
+    "website": "https://www.pennylane.tech",
+    "who_pays": "Businesses and accounting firms pay a subscription.",
+    "why_now": "France is making electronic invoices required from September 2026, and AI can now do much of the bookkeeping."
+  },
+  "first_judged_run": "2026-10-12-r6",
   "first_seen": "2026-09-28",
   "id": "pennylane-tech",
-  "industry": "FinTech",
-  "last_checked": null,
+  "industry": "Fintech",
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "",
@@ -27,18 +126,81 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-12-r6",
+      "snippet": "FinTech startup from France in VivaTech's Top 100 Rising European Startups 2026.",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://www.pennylane.tech"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Seed round, 2020.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "French fintech startup Pennylane raises EUR 4 million",
+      "url": "https://tech.eu/2020/05/18/french-fintech-startup-pennylane-raises-e4-million-from-global-founders-capital-partech-and-kima-ventures"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "CapitalG takes stake.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "French fintech Pennylane doubles valuation to $2.2 billion (CNBC)",
+      "url": "https://www.nbcsandiego.com/news/business/money-report/french-fintech-pennylane-doubles-valuation-to-2-2-billion-as-alphabets-venture-capital-arm-takes-stake/3796569"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Sequoia round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "French fintech Pennylane raises $18M from Sequoia",
+      "url": "https://siliconcanals.com/?p=12453"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "April 2025 round.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "French Fintech Startup Pennylane Reports EUR 75M Funding Round",
+      "url": "https://www.crowdfundinsider.com/?p=238203"
     }
   ],
   "name": "Pennylane",
   "name_key": "pennylane",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-pennylane-tech.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-12-r6",
+    "pages": 2,
+    "queries_done": [
+      "\"Pennylane\" startup France"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-pennylane-tech.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-10-05T05:06:35+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 8.0,
+      "market": 8.0,
+      "overall": 7.3,
+      "run": "2026-10-12-r6",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:19:43+00:00",
   "website": "https://www.pennylane.tech"
 }

@@ -4,11 +4,103 @@
   "country": "India",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "India",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://yourstory.com/2025/08/satleo-labs-thermal-intelligence-satellite?rand=7105"
+        ],
+        "value": "Ahmedabad, India"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://inc42.com/buzz/takeme2space-satleo-eon-space-labs-launch-payloads-aboard-spacex-falcon-9/"
+        ],
+        "value": "Its TAPAS-1 thermal payload flew on a SpaceX Falcon 9 in October 2026."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://india.entrepreneur.com/news-and-trends/spacetech-startup-satleo-secures-usd-22-mn-in-seed-funding/503920",
+          "https://evertiq.com/news/2026-04-14-indian-spacetech-startup-satleo-labs-raises-22-million"
+        ],
+        "value": "$2.2M seed (about $5.5M in total)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Heat maps of the Earth are hard to get, so SatLeo Labs builds small satellites that see heat from space.",
+    "industry": "Spacetech",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "When big players ignore one kind of data, a small team can own it by building the sensor itself.",
+    "name": "SatLeo Labs",
+    "not_startup_reason": null,
+    "overall": 6.7,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round after pre-seed and a launched payload",
+        "reason": "No customer numbers, but a second round followed the first and the payload has now launched.",
+        "score": 6,
+        "source": "https://india.entrepreneur.com/news-and-trends/spacetech-startup-satleo-secures-usd-22-mn-in-seed-funding/503920"
+      },
+      "market": {
+        "reason": "Thermal Earth data is useful to many industries and governments worldwide.",
+        "score": 7,
+        "source": "https://yourstory.com/2025/08/satleo-labs-thermal-intelligence-satellite?rand=7105"
+      },
+      "tech": {
+        "reason": "Building and flying its own thermal payload is hard and takes a year or two to match.",
+        "score": 7,
+        "source": "https://inc42.com/buzz/takeme2space-satleo-eon-space-labs-launch-payloads-aboard-spacex-falcon-9/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-02",
+        "title": "TakeMe2Space, SatLeo, EON Space Labs Launch Payloads Aboard SpaceX Falcon 9",
+        "url": "https://inc42.com/buzz/takeme2space-satleo-eon-space-labs-launch-payloads-aboard-spacex-falcon-9/"
+      },
+      {
+        "date": "2026-04-14",
+        "title": "Indian spacetech startup SatLeo Labs raises $2.2 million",
+        "url": "https://evertiq.com/news/2026-04-14-indian-spacetech-startup-satleo-labs-raises-22-million"
+      },
+      {
+        "date": null,
+        "title": "Spacetech Startup SatLeo Secures USD 2.2 Mn in Seed Funding",
+        "url": "https://india.entrepreneur.com/news-and-trends/spacetech-startup-satleo-secures-usd-22-mn-in-seed-funding/503920"
+      },
+      {
+        "date": "2025-08-01",
+        "title": "SatLeo Labs: India's Thermal Intelligence from Space",
+        "url": "https://yourstory.com/2025/08/satleo-labs-thermal-intelligence-satellite?rand=7105"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It focuses on thermal (heat) imaging from small, low-cost satellites made in India.",
+    "website": null,
+    "who_pays": "Governments and businesses that need to watch land, crops, cities or industry from above.",
+    "why_now": "Cheap rideshare launches let small teams put their own sensors in orbit."
+  },
+  "first_judged_run": "2026-10-12-r6",
   "first_seen": "2026-10-05",
   "id": "satleo-labs",
-  "industry": "spacetech",
-  "last_checked": null,
+  "industry": "Spacetech",
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "2026-10-02",
@@ -18,18 +110,79 @@
       "source_kind": "feed",
       "title": "",
       "url": "https://inc42.com/buzz/takeme2space-satleo-eon-space-labs-launch-payloads-aboard-spacex-falcon-9/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "SatLeo Labs seed round of $2.2M.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Indian spacetech startup SatLeo Labs raises $2.2 million",
+      "url": "https://evertiq.com/news/2026-04-14-indian-spacetech-startup-satleo-labs-raises-22-million"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Seed round led by Unicorn India Ventures; total funding $5.5M.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Spacetech Startup SatLeo Secures USD 2.2 Mn in Seed Funding",
+      "url": "https://india.entrepreneur.com/news-and-trends/spacetech-startup-satleo-secures-usd-22-mn-in-seed-funding/503920"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Ahmedabad spacetech startup building thermal imaging satellites.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "SatLeo Labs: India's Thermal Intelligence from Space",
+      "url": "https://yourstory.com/2025/08/satleo-labs-thermal-intelligence-satellite?rand=7105"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Pre-seed round of $3.3M led by Merak Ventures.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "SatLeo Labs Raises USD 3.3 Mn Round Led by Merak Ventures",
+      "url": "https://india.entrepreneur.com/news-and-trends/satleo-labs-raises-usd-33-mn-round-led-by-merak-ventures/490831"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Pre-seed funding to transform India's space economy.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Space tech startup SatLeo Labs raises 3.3 million USD in pre-seed funding",
+      "url": "https://aviation-defence-universe.com/space-tech-startup-satleo-labs-raises-3-3-million-usd-in-pre-seed-funding-to-transform-indias-space-economy"
     }
   ],
   "name": "SatLeo Labs",
   "name_key": "satleolabs",
-  "region": null,
+  "region": "asia",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-satleo-labs.txt",
+    "article_url": "https://inc42.com/buzz/takeme2space-satleo-eon-space-labs-launch-payloads-aboard-spacex-falcon-9/",
+    "judged_run": "2026-10-12-r6",
+    "pages": 1,
+    "queries_done": [
+      "\"SatLeo Labs\" startup India"
+    ],
+    "refresh": false,
+    "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-10-05T05:08:21+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 6.0,
+      "market": 7.0,
+      "overall": 6.7,
+      "run": "2026-10-12-r6",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:24:20+00:00",
   "website": null
 }

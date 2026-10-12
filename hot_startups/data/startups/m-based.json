@@ -4,11 +4,93 @@
   "country": "Turkey",
   "domain": null,
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Turkey",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://webrazzi.com/2024/07/25/yerli-biyoteknoloji-girisimi-m-based-hatcher-sente-ventures-ve-fark-labsten-yatirim-aldi/"
+        ],
+        "value": "Ankara, Turkey"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://webrazzi.com/2026/10/01/mantar-tabanli-alternatif-malzemeler-gelistiren-m-based-yaklasik-700-bin-dolar-yatirim-aldi/",
+          "https://webrazzi.com/2024/07/25/yerli-biyoteknoloji-girisimi-m-based-hatcher-sente-ventures-ve-fark-labsten-yatirim-aldi/"
+        ],
+        "value": "Raised about $700K in October 2026, after an earlier round from Hatcher+, Sente Ventures and Fark Labs in July 2024."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://webrazzi.com/2026/10/01/mantar-tabanli-alternatif-malzemeler-gelistiren-m-based-yaklasik-700-bin-dolar-yatirim-aldi/"
+        ],
+        "value": "about $700K (seed, October 2026)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Leather and plastic often harm the planet, so M-Based grows mushroom-based materials, such as its vegan leather FOMES, to replace them.",
+    "industry": "Materials",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Swap a polluting material for one that can be grown, and sell it to makers who already buy the old one.",
+    "name": "M-Based",
+    "not_startup_reason": null,
+    "overall": 6.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: a new funding round of about $700K after an earlier round in 2024",
+        "reason": "A second round shows progress, but no sales or customer numbers are given.",
+        "score": 5,
+        "source": "https://webrazzi.com/2026/10/01/mantar-tabanli-alternatif-malzemeler-gelistiren-m-based-yaklasik-700-bin-dolar-yatirim-aldi/"
+      },
+      "market": {
+        "reason": "Leather and plastic substitutes could serve fashion and goods makers worldwide.",
+        "score": 7,
+        "source": "https://webrazzi.com/2024/07/25/yerli-biyoteknoloji-girisimi-m-based-hatcher-sente-ventures-ve-fark-labsten-yatirim-aldi/"
+      },
+      "tech": {
+        "reason": "Growing materials from mushrooms is real biotech, though other firms work on similar ideas.",
+        "score": 6,
+        "source": "https://webrazzi.com/2024/07/25/yerli-biyoteknoloji-girisimi-m-based-hatcher-sente-ventures-ve-fark-labsten-yatirim-aldi/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-01",
+        "title": "Webrazzi: M-Based raises about $700K for mushroom-based materials",
+        "url": "https://webrazzi.com/2026/10/01/mantar-tabanli-alternatif-malzemeler-gelistiren-m-based-yaklasik-700-bin-dolar-yatirim-aldi/"
+      },
+      {
+        "date": "2024-07-25",
+        "title": "M-Based gets investment from Hatcher+, Sente Ventures, Fark Labs",
+        "url": "https://webrazzi.com/2024/07/25/yerli-biyoteknoloji-girisimi-m-based-hatcher-sente-ventures-ve-fark-labsten-yatirim-aldi/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Its materials are grown from mushrooms instead of made from animal hides or oil.",
+    "website": null,
+    "who_pays": "Fashion and product makers who want a vegan, lower-impact alternative to leather and similar materials.",
+    "why_now": "Brands and shoppers want less animal leather and less plastic, and investors are backing new materials."
+  },
+  "first_judged_run": "2026-10-12-r6",
   "first_seen": "2026-10-05",
   "id": "m-based",
-  "industry": "materials",
-  "last_checked": null,
+  "industry": "Materials",
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "2026-10-01",
@@ -31,19 +113,30 @@
   ],
   "name": "M-Based",
   "name_key": "mbased",
-  "region": null,
+  "region": "europe",
   "research": {
     "article_read": true,
     "article_text": "/home/user/problems/hot_startups/cache/article-m-based.txt",
     "article_url": "https://webrazzi.com/2026/10/01/mantar-tabanli-alternatif-malzemeler-gelistiren-m-based-yaklasik-700-bin-dolar-yatirim-aldi/",
+    "judged_run": "2026-10-12-r6",
     "pages": 1,
     "queries_done": [
       "\"M-Based\" startup Turkey"
     ],
+    "refresh": false,
     "searches": 1
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-10-05T05:19:50+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 5.0,
+      "market": 7.0,
+      "overall": 6.0,
+      "run": "2026-10-12-r6",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:28:56+00:00",
   "website": null
 }

@@ -3,12 +3,105 @@
   "aliases": [],
   "country": "Czech Republic",
   "domain": "rohlik.group",
-  "drop_reason": null,
-  "entry": null,
+  "drop_reason": "Rohlik Group is a large grocery business with its own warehouses, vans and operations in six countries. Its team is far above the 500 limit, and it has raised hundreds of millions.",
+  "entry": {
+    "country": "Czech Republic",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.rohlik.group/"
+        ],
+        "value": "Prague, Czech Republic"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://digitalfoodlab.com/en/foodtech-database/rohlik"
+        ],
+        "value": "2014"
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.romania-insider.com/business/rohlik-expansion-ro-march-2021",
+          "https://www.rohlik.group/"
+        ],
+        "value": "About 750,000 customers in 2021 and expansion to several countries."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.romania-insider.com/business/rohlik-expansion-ro-march-2021"
+        ],
+        "value": "EUR 190M round (2021)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "People hate carrying heavy shopping, so Rohlik delivers groceries to the door within 60 minutes or in a 15-minute slot.",
+    "industry": "E-grocery",
+    "is_startup": false,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Own the whole chain, from software to delivery, to give a service rivals cannot match.",
+    "name": "Rohlik",
+    "not_startup_reason": "Rohlik Group is a large grocery business with its own warehouses, vans and operations in six countries. Its team is far above the 500 limit, and it has raised hundreds of millions.",
+    "overall": 7.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number: about 750,000 customers in 2021",
+        "reason": "Expanded to five countries and raised large rounds.",
+        "score": 7,
+        "source": "https://www.romania-insider.com/business/rohlik-expansion-ro-march-2021"
+      },
+      "market": {
+        "reason": "Groceries are a huge market in every country.",
+        "score": 8,
+        "source": "https://www.rohlik.group/"
+      },
+      "tech": {
+        "reason": "Solid in-house software and logistics, but others can copy the model.",
+        "score": 6,
+        "source": "https://www.rohlik.group/"
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Rohlik Group",
+        "url": "https://www.rohlik.group/"
+      },
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising Startups 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": "2021-03-01",
+        "title": "Rohlik.cz eyes expansion to RO",
+        "url": "https://www.romania-insider.com/business/rohlik-expansion-ro-march-2021"
+      },
+      {
+        "date": null,
+        "title": "Rohlik - Digital Food Lab",
+        "url": "https://digitalfoodlab.com/en/foodtech-database/rohlik"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It runs its own warehouses, fleet and software, so it can offer 17,000 items at shop prices.",
+    "website": "https://www.rohlik.group/",
+    "who_pays": "Households pay for their groceries and a delivery fee.",
+    "why_now": "More people are happy to buy food online, and delivery software has become good enough to make it pay."
+  },
   "first_seen": "2026-09-28",
   "id": "rohlik-group",
-  "industry": "Marketplace & E-commerce",
-  "last_checked": null,
+  "industry": "E-grocery",
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "",
@@ -27,18 +120,90 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-12-r6",
+      "snippet": "Marketplace & E-commerce startup from Czech Republic in VivaTech's Top 100 Rising European Startups 2026.",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://www.rohlik.group/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "EUR 190M round led by Partech; about 750,000 customers.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Czech grocery start-up Rohlik.cz eyes expansion to RO after financing round",
+      "url": "https://www.romania-insider.com/business/rohlik-expansion-ro-march-2021"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "EBRD-led raise.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Rohlik raises $170M (TechCrunch)",
+      "url": "https://techcrunch.com/?p=2802838"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Founded 2014 by Marek Sacha and Tomas Cupr.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Rohlik - Digital Food Lab",
+      "url": "https://digitalfoodlab.com/en/foodtech-database/rohlik"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Portfolio jobs.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Rohlik - Partech portfolio",
+      "url": "https://portfoliojobs.partechpartners.com/companies/rohlik-2-845e4eb8-676a-4347-ae91-b6a92f76eaa9"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Aggregator profile.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Rohlik - VC Backed",
+      "url": "https://www.vcbacked.co/company/rohlik"
     }
   ],
   "name": "Rohlik",
   "name_key": "rohlik",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-rohlik-group.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-12-r6",
+    "pages": 2,
+    "queries_done": [
+      "\"Rohlik\" startup Czech Republic"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-rohlik-group.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-10-05T05:06:35+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 7.0,
+      "market": 8.0,
+      "overall": 7.0,
+      "run": "2026-10-12-r6",
+      "tech": 6.0
+    }
+  ],
+  "status": "dropped",
+  "updated": "2026-10-12T02:18:41+00:00",
   "website": "https://www.rohlik.group/"
 }

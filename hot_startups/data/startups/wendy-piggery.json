@@ -24,12 +24,17 @@
   "name_key": "wendypiggery",
   "region": null,
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-wendy-piggery.txt",
+    "article_url": "https://disruptafrica.com/2026/10/03/why-botswana-based-wendy-piggery-is-not-your-regular-pig-farming-business/",
+    "pages": 1,
+    "queries_done": [
+      "\"Wendy Piggery\" startup Botswana"
+    ],
+    "searches": 1
   },
   "score_history": [],
   "status": "candidate",
-  "updated": "2026-10-05T05:08:21+00:00",
+  "updated": "2026-10-12T02:20:07+00:00",
   "website": null
 }

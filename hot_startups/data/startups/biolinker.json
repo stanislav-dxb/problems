@@ -1,0 +1,176 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Brazil",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "Brazil",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://latamlist.com/biolinker-raises-1-7m-to-build-automated-biotech-lab-in-the-amazon/"
+        ],
+        "value": "Brazil"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://startups.com.br/negocios/rodada-de-investimento/biolinker-capta-r-84m-para-sintetizar-dna-e-treinar-ia-na-amazonia/"
+        ],
+        "value": "Plans to grow the team from 12 to 24 people."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://latamlist.com/biolinker-raises-1-7m-to-build-automated-biotech-lab-in-the-amazon/",
+          "https://dealroom.co/news/160229-biolinker-raises-1-68m-to-synthesise-dna-and-train-ai-in-the-amazon/"
+        ],
+        "value": "$1.7M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://startups.com.br/negocios/rodada-de-investimento/biolinker-capta-r-84m-para-sintetizar-dna-e-treinar-ia-na-amazonia/"
+        ],
+        "value": "12"
+      }
+    },
+    "idea": "The Amazon holds a huge amount of unstudied life, so BioLinker builds an automated lab there that makes DNA and uses it to train AI.",
+    "industry": "Biotech",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Build the lab where the rare raw material is, and let automation and AI turn it into data.",
+    "name": "BioLinker",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "region": "latin_america",
+    "scores": {
+      "growth": {
+        "basis": "substitute: plan to double the team from 12 to 24",
+        "reason": "No revenue or user numbers, only a small round and a hiring plan.",
+        "score": null,
+        "source": "https://startups.com.br/negocios/rodada-de-investimento/biolinker-capta-r-84m-para-sintetizar-dna-e-treinar-ia-na-amazonia/"
+      },
+      "market": {
+        "reason": "Biotech and drug discovery companies worldwide could use new DNA and data.",
+        "score": 7,
+        "source": "https://dealroom.co/news/160229-biolinker-raises-1-68m-to-synthesise-dna-and-train-ai-in-the-amazon/"
+      },
+      "tech": {
+        "reason": "An automated DNA lab plus AI trained on Amazon samples is hard to copy quickly.",
+        "score": 7,
+        "source": "https://dealroom.co/news/160229-biolinker-raises-1-68m-to-synthesise-dna-and-train-ai-in-the-amazon/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-06",
+        "title": "BioLinker raises $1.7M to build automated biotech lab in the Amazon",
+        "url": "https://latamlist.com/biolinker-raises-1-7m-to-build-automated-biotech-lab-in-the-amazon/"
+      },
+      {
+        "date": null,
+        "title": "BioLinker raises $1.68M to synthesise DNA and train AI in the Amazon",
+        "url": "https://dealroom.co/news/160229-biolinker-raises-1-68m-to-synthesise-dna-and-train-ai-in-the-amazon/"
+      },
+      {
+        "date": null,
+        "title": "BioLinker capta R$ 8,4M para sintetizar DNA e treinar IA na Amazônia",
+        "url": "https://startups.com.br/negocios/rodada-de-investimento/biolinker-capta-r-84m-para-sintetizar-dna-e-treinar-ia-na-amazonia/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "The lab sits in the Amazon itself, next to the biodiversity it wants to study.",
+    "website": null,
+    "who_pays": "Likely partners that want new biological products; the sources do not say who the customers are.",
+    "why_now": "Automated labs and AI can now turn natural DNA into useful discoveries at a much lower cost."
+  },
+  "first_judged_run": "2026-10-12-r6",
+  "first_seen": "2026-10-12",
+  "id": "biolinker",
+  "industry": "Biotech",
+  "last_checked": "2026-10-12",
+  "mentions": [
+    {
+      "date": "2026-10-06",
+      "run": "2026-10-12-r6",
+      "snippet": "Automated biotech lab in the Amazon, $1.7M",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://latamlist.com/biolinker-raises-1-7m-to-build-automated-biotech-lab-in-the-amazon/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Round led by Axcell with FAPESP.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "BioLinker raises $1.68M to synthesise DNA and train AI in the Amazon",
+      "url": "https://dealroom.co/news/160229-biolinker-raises-1-68m-to-synthesise-dna-and-train-ai-in-the-amazon/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "R$ 8.4 million round; plans to grow team from 12 to 24.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "BioLinker capta R$ 8,4M para sintetizar DNA e treinar IA na Amazônia",
+      "url": "https://startups.com.br/negocios/rodada-de-investimento/biolinker-capta-r-84m-para-sintetizar-dna-e-treinar-ia-na-amazonia/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Interview with the CEO.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "5 minutos com Mona Oliveira, CEO da BioLinker",
+      "url": "https://startups.com.br/5-minutos-com/5-minutos-com-mona-oliveira-ceo-da-biolinker/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Company profile.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "BioLinker - Dealroom",
+      "url": "https://cednc.dealroom.co/companies/biolinker"
+    }
+  ],
+  "name": "BioLinker",
+  "name_key": "biolinker",
+  "region": "latin_america",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-biolinker.txt",
+    "article_url": "https://latamlist.com/biolinker-raises-1-7m-to-build-automated-biotech-lab-in-the-amazon/",
+    "judged_run": "2026-10-12-r6",
+    "pages": 1,
+    "queries_done": [
+      "\"BioLinker\" startup Brazil"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": null,
+      "market": 7.0,
+      "overall": 7.0,
+      "run": "2026-10-12-r6",
+      "tech": 7.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:25:37+00:00",
+  "website": null
+}

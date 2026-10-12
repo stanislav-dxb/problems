@@ -163,3 +163,33 @@ def test_brief_counts_only_newcomers_on_the_page(ctx):
     # four newcomers were judged, but only the best two are on the page
     assert brief["numbers"]["on_the_list"] == 2 and brief["numbers"]["new_this_week"] == 2
     assert [e["name"] for e in brief["newcomers"]] == ["S0", "S1"]
+
+
+def test_large_companies_are_kept_off_the_page(ctx):
+    cfg, src, store = ctx
+    big = lambda team=None, **size: tasks._too_big(cfg, {"facts": {"team_size": {"value": team}}, "size": size})
+    assert big("about 900") and big("1,200+") and not big("400+") and not big("about 60")
+    # a known team size decides, whatever the money says
+    assert not big("300", valuation_usd_bn=26)
+    # unknown team size: the estimate, the valuation or the total raised can show a large company
+    assert big(None, team_estimate=700) and big(None, valuation_usd_bn=30.9) and big(None, raised_total_usd_m=1000)
+    assert not big(None) and not big(None, valuation_usd_bn=6.4, raised_total_usd_m=400)
+    for i, team in enumerate(["about 900", "about 60"]):
+        r = store.new_startup(f"S{i}", f"https://s{i}.io")
+        r["status"] = "judged"; r["entry"] = {"is_startup": True, "overall": 9 - i, "facts": {"team_size": {"value": team}}}
+        store.save_startup(r)
+    assert [r["name"] for r in tasks._ranked(cfg, store)] == ["S1"]
+
+
+def test_entries_without_a_size_check_are_rechecked_first(ctx):
+    cfg, src, store = ctx
+    run = tasks.start_run(cfg, store)
+    for i, size in enumerate([None, {}]):
+        r = store.new_startup(f"S{i}", f"https://s{i}.io")
+        r["status"] = "judged"; r["last_checked"] = tasks.today()
+        r["entry"] = {"is_startup": True, "overall": 8, "facts": {}}
+        if size is not None:
+            r["entry"]["size"] = size
+        store.save_startup(r)
+    queue = tasks._research_queue(cfg, src, store, run)
+    assert [r["name"] for r in queue] == ["S0"]  # judged today, but never size-checked

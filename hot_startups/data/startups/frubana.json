@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Colombia",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-12",
+  "id": "frubana",
+  "industry": "food supply e-commerce",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Colombian B2B food supply platform for restaurants that closed its Brazil operation",
+      "source": "startup encerra operações outubro de 2026",
+      "source_kind": "search",
+      "title": "",
+      "url": "https://gironews.com/varejo-digital/startup-colombiana-frubana-encerra-atividades-no-brasil/"
+    }
+  ],
+  "name": "Frubana",
+  "name_key": "frubana",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-12T02:29:33+00:00",
+  "website": null
+}

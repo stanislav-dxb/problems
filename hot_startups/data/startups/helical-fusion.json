@@ -1,0 +1,177 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Japan",
+  "domain": "helicalfusion.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "Japan",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://cyprus-mail.com/2026/09/29/japans-fusion-energy-startup-to-begin-power-on-tests-at-pilot-reactor-in-2027",
+          "https://thebridge.jp/2026/10/helical-fusion-raises-3-23-billion-yen-in-series-b-second-close"
+        ],
+        "value": "Pilot reactor power-on tests expected in 2027, and new industrial shareholders joined."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://thebridge.jp/2026/10/helical-fusion-raises-3-23-billion-yen-in-series-b-second-close"
+        ],
+        "value": "3.23 billion yen in a Series B second close (5.93 billion yen Series B total; 13.05 billion yen with grants and loans)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "The world needs clean power that runs day and night, so Helical Fusion is building a fusion power plant.",
+    "industry": "Energy",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "For a very hard science problem, pull in big industrial suppliers as shareholders and partners early.",
+    "name": "Helical Fusion",
+    "not_startup_reason": null,
+    "overall": 8.7,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding rounds getting bigger",
+        "reason": "Series A of $15M in 2025 was followed by a larger Series B in 2026.",
+        "score": 7,
+        "source": "https://thebridge.jp/2026/10/helical-fusion-raises-3-23-billion-yen-in-series-b-second-close"
+      },
+      "market": {
+        "reason": "Everyone needs electricity, and clean steady power is wanted worldwide.",
+        "score": 10,
+        "source": "https://www.ans.org/news/2025-07-14/article-7189/japans-helical-fusion-raises-15m-in-series-a-funding/"
+      },
+      "tech": {
+        "reason": "New fusion hardware, including high-temperature superconducting coils, that others cannot copy for years.",
+        "score": 9,
+        "source": "https://www.marketscreener.com/news/japan-fusion-energy-start-up-achieves-a-key-milestone-toward-commercial-reactor-ce7d5ddede8bff2c"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-09",
+        "title": "Helical Fusion raises 3.23 billion yen in Series B second close",
+        "url": "https://thebridge.jp/2026/10/helical-fusion-raises-3-23-billion-yen-in-series-b-second-close"
+      },
+      {
+        "date": "2025-07-14",
+        "title": "Japan's Helical Fusion raises $15M in Series A funding",
+        "url": "https://www.ans.org/news/2025-07-14/article-7189/japans-helical-fusion-raises-15m-in-series-a-funding/"
+      },
+      {
+        "date": "2026-09-29",
+        "title": "Japan's fusion energy startup to begin power-on tests at pilot reactor in 2027",
+        "url": "https://cyprus-mail.com/2026/09/29/japans-fusion-energy-startup-to-begin-power-on-tests-at-pilot-reactor-in-2027"
+      },
+      {
+        "date": null,
+        "title": "Japan fusion energy start-up achieves a key milestone toward commercial reactor",
+        "url": "https://www.marketscreener.com/news/japan-fusion-energy-start-up-achieves-a-key-milestone-toward-commercial-reactor-ce7d5ddede8bff2c"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It uses the helical (twisted-magnet) design, built on about 70 years of Japanese research.",
+    "website": "https://www.helicalfusion.com",
+    "who_pays": "Investors and industrial partners today; power buyers once a plant runs.",
+    "why_now": "Big industrial firms are now investing, and a pilot reactor is due for power-on tests in 2027."
+  },
+  "first_judged_run": "2026-10-12-r6",
+  "first_seen": "2026-10-12",
+  "id": "helical-fusion",
+  "industry": "Energy",
+  "last_checked": "2026-10-12",
+  "mentions": [
+    {
+      "date": "2026-10-09",
+      "run": "2026-10-12-r6",
+      "snippet": "Helical fusion plant, 3.23B yen Series B second close",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://thebridge.jp/2026/10/helical-fusion-raises-3-23-billion-yen-in-series-b-second-close"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Stellarator fusion startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Japan's Helical Fusion raises $15M in Series A funding",
+      "url": "https://www.ans.org/news/2025-07-14/article-7189/japans-helical-fusion-raises-15m-in-series-a-funding/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Power-on tests expected 2027.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Japan's fusion energy startup to begin power-on tests at pilot reactor in 2027",
+      "url": "https://cyprus-mail.com/2026/09/29/japans-fusion-energy-startup-to-begin-power-on-tests-at-pilot-reactor-in-2027"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "HTS coil test.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Japan fusion energy start-up achieves a key milestone toward commercial reactor",
+      "url": "https://www.marketscreener.com/news/japan-fusion-energy-start-up-achieves-a-key-milestone-toward-commercial-reactor-ce7d5ddede8bff2c"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Company profile.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Helical Fusion",
+      "url": "https://www.vcbacked.co/company/helical-fusion"
+    }
+  ],
+  "name": "Helical Fusion",
+  "name_key": "helicalfusion",
+  "region": "asia",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-helical-fusion.txt",
+    "article_url": "https://thebridge.jp/2026/10/helical-fusion-raises-3-23-billion-yen-in-series-b-second-close",
+    "judged_run": "2026-10-12-r6",
+    "pages": 1,
+    "queries_done": [
+      "\"Helical Fusion\" startup Japan"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 7.0,
+      "market": 10.0,
+      "overall": 8.7,
+      "run": "2026-10-12-r6",
+      "tech": 9.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:24:21+00:00",
+  "website": "https://www.helicalfusion.com"
+}

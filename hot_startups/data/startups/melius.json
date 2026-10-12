@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "US",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-12",
+  "id": "melius",
+  "industry": "creative AI",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-07",
+      "run": "2026-10-12-r6",
+      "snippet": "AI creative production OS, $25M seed and Series A",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://thebridge.jp/2026/10/melius-seed-series-a-crv-general-catalyst-ai-agents-creative"
+    }
+  ],
+  "name": "Melius",
+  "name_key": "melius",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-12T02:08:23+00:00",
+  "website": null
+}

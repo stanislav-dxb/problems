@@ -1,0 +1,205 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Singapore",
+  "domain": "manus.im",
+  "drop_reason": null,
+  "entry": {
+    "country": "Singapore",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://amp.kr-asia.com/has-china-become-too-risky-a-home-for-ai-startups-manus-thinks-so",
+          "https://en.wikipedia.org/wiki/Manus_(AI_agent)"
+        ],
+        "value": "Singapore"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://platum.kr/archives/295980"
+        ],
+        "value": "Said it passed $100M yearly recurring revenue in December 2025."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://platum.kr/archives/295980",
+          "https://webrazzi.com/2026/10/09/manus-un-cati-sirketi-butterfly-effect-500-milyon-dolardan-fazla-yatirim-aldi/"
+        ],
+        "value": "over $500M (round announced Oct 2026)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Most people lack time for long computer chores like research and slides. Manus is an AI helper that plans and does these jobs for you.",
+    "industry": "AI agents",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Turn a chat tool into a worker that finishes whole jobs, not just answers questions.",
+    "name": "Manus (Butterfly Effect)",
+    "not_startup_reason": null,
+    "overall": 7.7,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "100000000",
+        "reason": "Revenue reached $100M a year within months of launch and a $500M round followed.",
+        "score": 9,
+        "source": "https://platum.kr/archives/295980"
+      },
+      "market": {
+        "reason": "Almost any office worker could use an AI that does computer tasks.",
+        "score": 8,
+        "source": "https://manus.im"
+      },
+      "tech": {
+        "reason": "Own agent framework and apps, but rivals build similar tools quickly.",
+        "score": 6,
+        "source": "https://platum.kr/archives/295980"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-09",
+        "title": "Manus, after failed Meta deal, raises first funding",
+        "url": "https://platum.kr/archives/295980"
+      },
+      {
+        "date": "2026-10-09",
+        "title": "Butterfly Effect raised over $500M",
+        "url": "https://webrazzi.com/2026/10/09/manus-un-cati-sirketi-butterfly-effect-500-milyon-dolardan-fazla-yatirim-aldi/"
+      },
+      {
+        "date": null,
+        "title": "Has China become too risky a home for AI startups? Manus thinks so",
+        "url": "https://amp.kr-asia.com/has-china-become-too-risky-a-home-for-ai-startups-manus-thinks-so"
+      },
+      {
+        "date": null,
+        "title": "Manus (AI agent)",
+        "url": "https://en.wikipedia.org/wiki/Manus_(AI_agent)"
+      },
+      {
+        "date": null,
+        "title": "Manus website",
+        "url": "https://manus.im"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "You give it a goal and it works out the steps itself, then builds documents, websites and videos in one shared project.",
+    "website": "https://manus.im",
+    "who_pays": "Users pay for subscriptions, and teams pay for business plans.",
+    "why_now": "AI can now plan and carry out multi-step work, and people are ready to hand it real tasks."
+  },
+  "first_judged_run": "2026-10-12-r6",
+  "first_seen": "2026-10-12",
+  "id": "butterfly-effect-manus",
+  "industry": "AI agents",
+  "last_checked": "2026-10-12",
+  "mentions": [
+    {
+      "date": "2026-10-09",
+      "run": "2026-10-12-r6",
+      "snippet": "Manus parent raised over $500M after Meta deal collapsed",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://platum.kr/archives/295980"
+    },
+    {
+      "date": "2026-10-09",
+      "run": "2026-10-12-r6",
+      "snippet": "Raised over $500M",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://webrazzi.com/2026/10/09/manus-un-cati-sirketi-butterfly-effect-500-milyon-dolardan-fazla-yatirim-aldi/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "AI agent made by Butterfly Effect, now based in Singapore.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Manus (AI agent)",
+      "url": "https://en.wikipedia.org/wiki/Manus_(AI_agent)"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Round of more than $500M co-led by Boyu and IDG.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "China forced Meta hand back Manus, now raised 500 million",
+      "url": "https://letsdatascience.com/blog/china-forced-meta-hand-back-manus-now-raised-500-million"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Manus moved headquarters to Singapore.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Has China become too risky a home for AI startups? Manus thinks so",
+      "url": "https://amp.kr-asia.com/has-china-become-too-risky-a-home-for-ai-startups-manus-thinks-so"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Meta acquisition of Singapore-based Chinese-founded agent startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "What is Manus AI",
+      "url": "https://www.businessinsider.jp/article/2601what-is-manus-ai-meta-acquisition-chinese-startup-singapore-agent/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Caixin on Manus and overseas expansion.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Chinese AI startups look overseas",
+      "url": "https://www.caixinglobal.com/2025-07-23/chinese-ai-startups-look-overseas-to-cash-in-on-more-mature-markets-102344408.html"
+    }
+  ],
+  "name": "Manus (Butterfly Effect)",
+  "name_key": "butterflyeffectmanus",
+  "region": "asia",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-butterfly-effect-manus.txt",
+    "article_url": "https://platum.kr/archives/295980",
+    "judged_run": "2026-10-12-r6",
+    "pages": 2,
+    "queries_done": [
+      "\"Butterfly Effect (Manus)\" startup Singapore"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-butterfly-effect-manus.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 9.0,
+      "market": 8.0,
+      "overall": 7.7,
+      "run": "2026-10-12-r6",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:16:02+00:00",
+  "website": "https://manus.im"
+}

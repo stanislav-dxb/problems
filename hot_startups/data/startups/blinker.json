@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Spain",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-12",
+  "id": "blinker",
+  "industry": "mobility",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-08",
+      "run": "2026-10-12-r6",
+      "snippet": "Majority stake acquired by Blaumar Capital and Inveready",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://elreferente.es/startups/blaumar-capital-e-inveready-adquieren-una-participacion-mayoritaria-en-blinker-para-impulsar-su-proxima-fase-de-crecimiento/"
+    }
+  ],
+  "name": "Blinker",
+  "name_key": "blinker",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-12T02:08:22+00:00",
+  "website": null
+}

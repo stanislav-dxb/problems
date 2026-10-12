@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "South Africa",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-12",
+  "id": "vambo-ai",
+  "industry": "AI language models",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-07",
+      "run": "2026-10-12-r6",
+      "snippet": "Released MORENA model for 12 African languages",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://disruptafrica.com/2026/10/07/sas-vambo-ai-releases-language-model-trained-for-12-african-languages/"
+    }
+  ],
+  "name": "Vambo AI",
+  "name_key": "vamboai",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-12T02:08:23+00:00",
+  "website": null
+}

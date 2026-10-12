@@ -3,12 +3,108 @@
   "aliases": [],
   "country": "France",
   "domain": "gladia.io",
-  "drop_reason": null,
-  "entry": null,
+  "drop_reason": "Gladia has been bought by OVH Groupe, a company listed on the stock market, so it is no longer an independent private startup.",
+  "entry": {
+    "country": "France",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-06-11-ovh-groupe-entre-en-negociations-exclusives-pour-lacquisition-de-gladia.html"
+        ],
+        "value": "Paris, France"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://bourse.fortuneo.fr/actualites-amp/ovh-finalise-l-acquisition-de-gladia-2040252",
+          "https://vivatech.com/news/top-100-rising-startups-of-2026"
+        ],
+        "value": "Acquired by OVH Groupe; named in VivaTech Top 100 Rising European Startups 2026."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://www.lemondedudroit.fr/deals/95360-chammas-marcheteau-conseille-xange-investisseur-lead-dans-la-levee-de-fonds-de-16-millions-de-dollars-de-gladia.html"
+        ],
+        "value": "$16M Series A led by XAnge"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Voice products need accurate speech-to-text; Gladia offers one service that records, transcribes and adds extra detail to audio.",
+    "industry": "AI voice",
+    "is_startup": false,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Sell the boring base layer that many products depend on, and make it work in every language.",
+    "name": "Gladia",
+    "not_startup_reason": "Gladia has been bought by OVH Groupe, a company listed on the stock market, so it is no longer an independent private startup.",
+    "overall": 6.7,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: VivaTech Top 100 listing and acquisition",
+        "reason": "Made a list that required 40% yearly growth and 5M euros revenue, then was acquired.",
+        "score": 7,
+        "source": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      "market": {
+        "reason": "Every voice product needs speech-to-text.",
+        "score": 7,
+        "source": "https://www.gladia.io"
+      },
+      "tech": {
+        "reason": "Strong accuracy claims, but speech-to-text can be matched by good teams.",
+        "score": 6,
+        "source": "https://www.gladia.io"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Gladia",
+        "url": "https://www.gladia.io"
+      },
+      {
+        "date": "2026-06-11",
+        "title": "OVH in talks to acquire Gladia",
+        "url": "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-06-11-ovh-groupe-entre-en-negociations-exclusives-pour-lacquisition-de-gladia.html"
+      },
+      {
+        "date": null,
+        "title": "OVH finalise l'acquisition de Gladia",
+        "url": "https://bourse.fortuneo.fr/actualites-amp/ovh-finalise-l-acquisition-de-gladia-2040252"
+      },
+      {
+        "date": null,
+        "title": "Gladia $16M Series A",
+        "url": "https://www.lemondedudroit.fr/deals/95360-chammas-marcheteau-conseille-xange-investisseur-lead-dans-la-levee-de-fonds-de-16-millions-de-dollars-de-gladia.html"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It handles 100+ languages and keeps all data in the EU.",
+    "website": "https://www.gladia.io",
+    "who_pays": "Developers and companies pay to use the audio service.",
+    "why_now": "Voice assistants and meeting tools are spreading fast and need a reliable text layer."
+  },
   "first_seen": "2026-09-16",
   "id": "gladia-io",
-  "industry": "AI Voice & Conversational",
-  "last_checked": null,
+  "industry": "AI voice",
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "2026-03-17",
@@ -36,18 +132,72 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-12-r6",
+      "snippet": "AI Voice & Conversational startup from France in VivaTech's Top 100 Rising European Startups 2026.",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://www.gladia.io"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "OVH in exclusive talks to acquire Gladia, Paris speech AI startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "OVH Groupe entre en negociations exclusives pour l'acquisition de Gladia",
+      "url": "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-06-11-ovh-groupe-entre-en-negociations-exclusives-pour-lacquisition-de-gladia.html"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "OVH completes acquisition via share contribution.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "OVH finalise l'acquisition de Gladia",
+      "url": "https://bourse.fortuneo.fr/actualites-amp/ovh-finalise-l-acquisition-de-gladia-2040252"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Series A of $16M.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Gladia $16M Series A led by XAnge",
+      "url": "https://www.lemondedudroit.fr/deals/95360-chammas-marcheteau-conseille-xange-investisseur-lead-dans-la-levee-de-fonds-de-16-millions-de-dollars-de-gladia.html"
     }
   ],
   "name": "Gladia",
   "name_key": "gladia",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-gladia-io.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-12-r6",
+    "pages": 2,
+    "queries_done": [
+      "\"Gladia\" startup France"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-gladia-io.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-10-05T05:06:35+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 7.0,
+      "market": 7.0,
+      "overall": 6.7,
+      "run": "2026-10-12-r6",
+      "tech": 6.0
+    }
+  ],
+  "status": "dropped",
+  "updated": "2026-10-12T02:10:35+00:00",
   "website": "https://www.gladia.io"
 }

@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Estonia",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-12",
+  "id": "golbriak-space",
+  "industry": "space",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-08",
+      "run": "2026-10-12-r6",
+      "snippet": "Laser communications for satellites, EUR4M",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://tech.eu/2026/10/08/golbriak-space-raises-eur4m-to-scale-laser-communications-for-satellite-constellations/"
+    }
+  ],
+  "name": "Golbriak Space",
+  "name_key": "golbriakspace",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-12T02:08:22+00:00",
+  "website": null
+}

@@ -4,11 +4,109 @@
   "country": "France",
   "domain": "pigment.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "France",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://siecledigital.fr/2024/04/04/une-nouvelle-licorne-francaise-pigment-boucle-un-tour-de-table-record-de-145-millions-de-dollars/"
+        ],
+        "value": "Paris, France"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://siecledigital.fr/2024/04/04/une-nouvelle-licorne-francaise-pigment-boucle-un-tour-de-table-record-de-145-millions-de-dollars/",
+          "https://pigment.com"
+        ],
+        "value": "Became a unicorn in April 2024; customers include Unilever, Siemens, Danone and Uber."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://siecledigital.fr/2024/04/04/une-nouvelle-licorne-francaise-pigment-boucle-un-tour-de-table-record-de-145-millions-de-dollars/",
+          "https://www.frenchweb.fr/serie-b-pigment-leve-65-millions-deuros-pour-developper-sa-plateforme-de-planification-financiere/435647"
+        ],
+        "value": "$145M round in April 2024, after a Series A of $25M+ and a Series B of EUR 65M"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Companies plan budgets and forecasts in messy spreadsheets, so Pigment gives finance teams one shared tool to build and update plans.",
+    "industry": "Business software",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Replace the spreadsheet everyone hates with a shared tool, then add AI on top of the data you already hold.",
+    "name": "Pigment",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding rounds and customer logos",
+        "reason": "No revenue numbers, but big rounds and well-known customers show strong progress.",
+        "score": null,
+        "source": "https://siecledigital.fr/2024/04/04/une-nouvelle-licorne-francaise-pigment-boucle-un-tour-de-table-record-de-145-millions-de-dollars/"
+      },
+      "market": {
+        "reason": "Every large company plans budgets, so the market is huge worldwide.",
+        "score": 8,
+        "source": "https://pigment.com"
+      },
+      "tech": {
+        "reason": "Strong product with AI agents, but rivals offer similar planning tools.",
+        "score": 6,
+        "source": "https://pigment.com"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "VivaTech Top 100 Rising European Startups 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Pigment",
+        "url": "https://pigment.com"
+      },
+      {
+        "date": "2024-04-04",
+        "title": "Pigment, la nouvelle licorne francaise",
+        "url": "https://siecledigital.fr/2024/04/04/une-nouvelle-licorne-francaise-pigment-boucle-un-tour-de-table-record-de-145-millions-de-dollars/"
+      },
+      {
+        "date": null,
+        "title": "Pigment leve 65 millions d'euros",
+        "url": "https://www.frenchweb.fr/serie-b-pigment-leve-65-millions-deuros-pour-developper-sa-plateforme-de-planification-financiere/435647"
+      },
+      {
+        "date": null,
+        "title": "Pigment pulls in $25+ million",
+        "url": "https://tech.eu/brief/pigment-series-a/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "AI agents build the planning models and let managers explore the plan live.",
+    "website": "https://pigment.com",
+    "who_pays": "Large companies pay yearly subscriptions for their finance and planning teams.",
+    "why_now": "Fast-changing events like tariffs force firms to rerun forecasts often, and AI now cuts the work from days to minutes."
+  },
+  "first_judged_run": "2026-10-12-r6",
   "first_seen": "2026-09-28",
   "id": "pigment-com",
-  "industry": "AI Productivity & Automation",
-  "last_checked": null,
+  "industry": "Business software",
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "",
@@ -27,18 +125,81 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-12-r6",
+      "snippet": "AI Productivity & Automation startup from France in VivaTech's Top 100 Rising European Startups 2026.",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://pigment.com"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Series A led by Blossom Capital.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Parisian startup Pigment pulls in $25+ million",
+      "url": "https://tech.eu/brief/pigment-series-a/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "$145M round led by Iconiq, unicorn April 2024.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Pigment, la nouvelle licorne francaise",
+      "url": "https://siecledigital.fr/2024/04/04/une-nouvelle-licorne-francaise-pigment-boucle-un-tour-de-table-record-de-145-millions-de-dollars/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Series B for financial planning platform.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Pigment lève 65 millions d'euros",
+      "url": "https://www.frenchweb.fr/serie-b-pigment-leve-65-millions-deuros-pour-developper-sa-plateforme-de-planification-financiere/435647"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Founder profile, 2025.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Eleonore Crespo, founder of Pigment",
+      "url": "https://alumni.ens-paris-saclay.fr/en/article/eleonore-crespo-founder-of-pigment-the-art-of-giving-meaning-to-data/01/08/2025/110"
     }
   ],
   "name": "Pigment",
   "name_key": "pigment",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-pigment-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-12-r6",
+    "pages": 2,
+    "queries_done": [
+      "\"Pigment\" startup France"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-pigment-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-10-05T05:06:35+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": null,
+      "market": 8.0,
+      "overall": 7.0,
+      "run": "2026-10-12-r6",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:17:11+00:00",
   "website": "https://pigment.com"
 }

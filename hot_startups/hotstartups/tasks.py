@@ -144,7 +144,8 @@ EXPECT = {
               "what the company does, its product, customers, team, funding and any numbers. Save: {\"text\": \"...\"}. If unreadable: {\"text\": \"\", \"unreadable\": \"reason\"}."),
     "judge": ("Write the entry for this startup from the dossier, following the rulebook. Save exactly the schema in \"schema\". "
               "Plain English, no jargon, short sentences. Every fact needs the URL it came from; a fact with two independent URLs counts as confirmed. "
-              "Do not invent numbers: when unknown, say null. If it is not a startup (public company, or team over the limit), set is_startup false and say why."),
+              "Do not invent numbers: when unknown, say null. If it is not a startup (public company, or team over the limit), set is_startup false and say why. "
+              "Fill \"size\" with your best numbers even when team_size is unknown: the program uses them to keep large companies off the page."),
     "struggling": ("From these search results, list startups that shut down, pivoted or stalled. Save: {\"items\": [{\"name\", \"country\", \"sector\", "
                    "\"what\": \"shut_down|pivoted|stalled\", \"why\": \"one plain sentence\", \"source_url\"}]}. Only real, named startups; skip big companies. Empty list is fine."),
     "trends": ("Group the entries into trends: ideas that several startups chase. Save: {\"trends\": [{\"name\": \"short name\", \"sentence\": \"one plain sentence on the pattern\", "
@@ -179,6 +180,11 @@ JUDGE_SCHEMA = {
         "market": {"score": "0-10", "reason": "one sentence", "source": "url or null"},
         "tech": {"score": "0-10", "reason": "one sentence", "source": "url or null"},
         "growth": {"score": "0-10 or null when unknown", "reason": "one sentence", "basis": "number | substitute: <what> | unknown", "source": "url or null"},
+    },
+    "size": {
+        "team_estimate": "number or null: best estimate of headcount from the dossier",
+        "valuation_usd_bn": "number or null: latest valuation in billions of US dollars",
+        "raised_total_usd_m": "number or null: total raised so far in millions of US dollars",
     },
     "status_signal": "active | shut_down | pivoted | stalled",
     "sources": [{"url": "string", "title": "string", "date": "YYYY-MM-DD or null"}],
@@ -423,14 +429,17 @@ def _research_queue(cfg: dict, sources: dict, store: Store, run: dict) -> list[d
     cap = int(round(float(cfg["research"]["refresh_share"]) * int(run["limits"]["startups_judged_per_week"])))
     if "refresh_ids" not in st or not st.get("refresh_selected"):
         due = []
+        # entries judged before the size check existed, with no team size, are re-checked first, best ranked first
+        unsized = [r["id"] for r in _ranked(cfg, store)[: int(cfg["page"]["top_n"]) + 30]
+                   if "size" not in r["entry"] and _number(((r["entry"].get("facts") or {}).get("team_size") or {}).get("value")) is None]
         for rec in store.startups().values():
             if rec["status"] != "judged":
                 continue
             from .util import days_between
             age = days_between(rec.get("last_checked"), today())
-            if age is not None and age >= days:
+            if rec["id"] in unsized or (age is not None and age >= days):
                 due.append(rec)
-        due.sort(key=lambda r: r.get("last_checked") or "")
+        due.sort(key=lambda r: (unsized.index(r["id"]) if r["id"] in unsized else len(unsized), r.get("last_checked") or ""))
         st["refresh_ids"] = [r["id"] for r in due[:cap]]
         st["refresh_selected"] = True
         for r in due[:cap]:
@@ -643,13 +652,11 @@ def _plan_struggling(cfg: dict, sources: dict, store: Store, run: dict, batch: i
 # ---- synthesis -------------------------------------------------------------
 def _entries_summary(cfg: dict, store: Store) -> list[dict]:
     out = []
-    for rec in store.startups().values():
-        e = rec.get("entry")
-        if rec["status"] == "judged" and e and e.get("is_startup"):
-            out.append({"id": rec["id"], "name": rec["name"], "country": e.get("country"), "region": e.get("region"), "industry": e.get("industry"),
-                        "idea": e.get("idea"), "lesson": e.get("lesson"), "overall": e.get("overall")})
-    out.sort(key=lambda x: x.get("overall") or 0, reverse=True)
-    return out[: int(cfg["page"]["top_n"]) + 30]
+    for rec in _ranked(cfg, store)[: int(cfg["page"]["top_n"]) + 30]:
+        e = rec["entry"]
+        out.append({"id": rec["id"], "name": rec["name"], "country": e.get("country"), "region": e.get("region"), "industry": e.get("industry"),
+                    "idea": e.get("idea"), "lesson": e.get("lesson"), "overall": e.get("overall")})
+    return out
 
 
 def _plan_synthesis(cfg: dict, store: Store, run: dict) -> list[dict]:
@@ -671,7 +678,7 @@ def _plan_synthesis(cfg: dict, store: Store, run: dict) -> list[dict]:
             payload["trends"] = st.get("trends_result", [])
         if step == "brief":
             # count only what the page will show: newcomers ranked below top_n are not on it
-            on_page = {r["id"] for r in _ranked(store)[: int(cfg["page"]["top_n"])]}
+            on_page = {r["id"] for r in _ranked(cfg, store)[: int(cfg["page"]["top_n"])]}
             newcomers = [e for e in entries if e["id"] in on_page and e["id"] in set(run["new_ids"])]
             payload["numbers"] = {"on_the_list": len(on_page), "new_this_week": len(newcomers), "trends": len(st.get("trends_result", []))}
             payload["newcomers"] = newcomers[:10]
@@ -812,6 +819,7 @@ def _take_judge(cfg, sources, store, run, task, result) -> str:
     known = [x for x in (m, t, g) if x is not None]
     overall = round(sum(known) / len(known), 1) if known else None
     entry = dict(result)
+    entry["size"] = result.get("size") if isinstance(result.get("size"), dict) else {}
     entry["overall"] = overall
     entry["judged_run"] = run["id"]
     entry["judged_on"] = today()
@@ -835,9 +843,13 @@ def _take_judge(cfg, sources, store, run, task, result) -> str:
     rec["research"]["judged_run"] = run["id"]
     rec["research"]["refresh"] = False
     first_time = not rec.get("first_judged_run")
-    if not result.get("is_startup"):
+    big = _too_big(cfg, entry) if result.get("is_startup") else None
+    if big:
+        entry["is_startup"] = False
+        entry["not_startup_reason"] = big
+    if not entry.get("is_startup"):
         rec["status"] = "dropped"
-        rec["drop_reason"] = clip(result.get("not_startup_reason") or "not a startup", 300)
+        rec["drop_reason"] = clip(entry.get("not_startup_reason") or "not a startup", 300)
     elif result.get("status_signal") in ("shut_down", "pivoted", "stalled"):
         rec["status"] = "struggling"
         rec["struggling"] = {"what": result["status_signal"], "why": clip((scores.get("growth") or {}).get("reason") or entry.get("why_now") or "", 300), "run": run["id"]}
@@ -905,19 +917,51 @@ def _take_brief(cfg, sources, store, run, task, result) -> str:
 # ---------------------------------------------------------------------------
 # finishing: the week file the page is built from
 # ---------------------------------------------------------------------------
-def _ranked(store: Store) -> list[dict]:
+def _number(v) -> float | None:
+    """First number in a value like 900, "about 900", "1,200+" or "2k"; None when there is none."""
+    if isinstance(v, bool):
+        return None
+    if isinstance(v, (int, float)):
+        return float(v)
+    m = re.search(r"(\d[\d,]*(?:\.\d+)?)\s*(k\b)?", str(v or ""), re.I)
+    if not m:
+        return None
+    n = float(m.group(1).replace(",", ""))
+    return n * 1000 if m.group(2) else n
+
+
+def _too_big(cfg: dict, entry: dict) -> str | None:
+    """Why this entry is a large company rather than a startup, or None. A known team size decides;
+    without one, the judge's estimate, the valuation or the total raised can show it is large."""
+    rule = cfg["startup_rule"]
+    limit = float(rule["max_team_size"])
+    team = _number(((entry.get("facts") or {}).get("team_size") or {}).get("value"))
+    if team is not None:
+        return f"team of about {int(team)}, over the {int(limit)} limit" if team > limit else None
+    size = entry.get("size") or {}
+    est, val, raised = (_number(size.get(k)) for k in ("team_estimate", "valuation_usd_bn", "raised_total_usd_m"))
+    if est is not None and est > limit:
+        return f"team estimated at about {int(est)}, over the {int(limit)} limit"
+    if val is not None and val >= float(rule["max_valuation_usd_bn"]):
+        return f"valued at about ${val:g}B: a large company"
+    if raised is not None and raised >= float(rule["max_raised_total_usd_m"]):
+        return f"raised about ${raised:g}M in total: a large company"
+    return None
+
+
+def _ranked(cfg: dict, store: Store) -> list[dict]:
     """Every judged startup with a score, best first: the page shows the first top_n."""
     entries = []
     for rec in store.startups().values():
         e = rec.get("entry")
-        if rec["status"] == "judged" and e and e.get("is_startup") and e.get("overall") is not None:
+        if rec["status"] == "judged" and e and e.get("is_startup") and e.get("overall") is not None and not _too_big(cfg, e):
             entries.append(rec)
     entries.sort(key=lambda r: (r["entry"]["overall"], r.get("first_judged_run") or ""), reverse=True)
     return entries
 
 
 def finish_run(cfg: dict, store: Store, run: dict) -> dict:
-    entries = _ranked(store)
+    entries = _ranked(cfg, store)
     top = entries[: int(cfg["page"]["top_n"])]
     mix: dict[str, int] = {}
     for r in top:

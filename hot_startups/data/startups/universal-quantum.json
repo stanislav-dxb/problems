@@ -1,0 +1,196 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United Kingdom",
+  "domain": "universalquantum.com",
+  "drop_reason": null,
+  "entry": {
+    "country": "United Kingdom",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://thequantuminsider.com/2026/05/26/uk-quantum-startup-draws-interest-from-u-s-spacs-the-telegraph-reports/"
+        ],
+        "value": "Brighton, United Kingdom"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://tech.eu/2026/10/08/university-of-sussex-quantum-spinout-raises-record-ps100m-series-a/",
+          "https://universalquantum.com"
+        ],
+        "value": "Raised a record Series A of over $100M and is opening an R&D centre in Singapore."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://tech.eu/2026/10/08/university-of-sussex-quantum-spinout-raises-record-ps100m-series-a/",
+          "https://thebridge.jp/2026/10/universal-quantum-series-a-100m-dcvc-firgun-ventures"
+        ],
+        "value": "$100M+ (Series A, Oct 2026)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Today's quantum computers are small and hard to grow, so Universal Quantum is building bigger ones from standard, repeatable parts.",
+    "industry": "Quantum computing",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "In a hard hardware race, a design made to scale from day one can beat a design that is only clever.",
+    "name": "Universal Quantum",
+    "not_startup_reason": null,
+    "overall": 8.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the earlier $3.6M seed (now over $100M Series A)",
+        "reason": "No customer or revenue numbers are given, so a bigger funding round is the stand-in.",
+        "score": null,
+        "source": "https://tech.eu/2026/10/08/university-of-sussex-quantum-spinout-raises-record-ps100m-series-a/"
+      },
+      "market": {
+        "reason": "If quantum computers work at scale, many industries and governments worldwide would use them.",
+        "score": 8,
+        "source": "https://universalquantum.com"
+      },
+      "tech": {
+        "reason": "A modular trapped-ion and microwave design is a real edge that would take a strong team years to match.",
+        "score": 8,
+        "source": "https://tech.eu/2025/07/31/uk-quantum-computing-is-going-universal-through-scaling"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-08",
+        "title": "University of Sussex spinout Universal Quantum raises record $100M Series A",
+        "url": "https://tech.eu/2026/10/08/university-of-sussex-quantum-spinout-raises-record-ps100m-series-a/"
+      },
+      {
+        "date": "2026-10-09",
+        "title": "Universal Quantum Series A",
+        "url": "https://thebridge.jp/2026/10/universal-quantum-series-a-100m-dcvc-firgun-ventures"
+      },
+      {
+        "date": "2026-05-26",
+        "title": "UK Quantum Startup Draws Interest From U.S. SPACs",
+        "url": "https://thequantuminsider.com/2026/05/26/uk-quantum-startup-draws-interest-from-u-s-spacs-the-telegraph-reports/"
+      },
+      {
+        "date": "2025-07-31",
+        "title": "UK Quantum computing is going universal through scaling",
+        "url": "https://tech.eu/2025/07/31/uk-quantum-computing-is-going-universal-through-scaling"
+      },
+      {
+        "date": null,
+        "title": "Universal Quantum homepage",
+        "url": "https://universalquantum.com"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It uses trapped ions (tiny charged atoms held in place) controlled with microwaves, a design meant to scale up in modules.",
+    "website": "https://universalquantum.com",
+    "who_pays": "Governments, research labs and big companies that want access to powerful quantum computers, plus the investors funding the build.",
+    "why_now": "Investors are pouring money into quantum machines, and the company just closed a record round of over $100M."
+  },
+  "first_judged_run": "2026-10-12-r6",
+  "first_seen": "2026-10-12",
+  "id": "universal-quantum",
+  "industry": "Quantum computing",
+  "last_checked": "2026-10-12",
+  "mentions": [
+    {
+      "date": "2026-10-08",
+      "run": "2026-10-12-r6",
+      "snippet": "Sussex spinout raised $100M Series A",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://tech.eu/2026/10/08/university-of-sussex-quantum-spinout-raises-record-ps100m-series-a/"
+    },
+    {
+      "date": "2026-10-08",
+      "run": "2026-10-12-r6",
+      "snippet": "Raised $100M Series A",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://tech.eu/2026/10/08/university-of-sussex-quantum-spinout-raises-record-ps100m-series-a/"
+    },
+    {
+      "date": "2026-10-09",
+      "run": "2026-10-12-r6",
+      "snippet": "Raised over $100M Series A",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://thebridge.jp/2026/10/universal-quantum-series-a-100m-dcvc-firgun-ventures"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "SPACs approached the Brighton-based startup.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "UK Quantum Startup Draws Interest From U.S. SPACs",
+      "url": "https://thequantuminsider.com/2026/05/26/uk-quantum-startup-draws-interest-from-u-s-spacs-the-telegraph-reports/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Seed round of 3.6m pounds.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Universal Quantum raises 3.6m",
+      "url": "https://siliconrepublic.com/?p=880386"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Trapped-ion, microwave approach.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "UK Quantum computing is going universal through scaling",
+      "url": "https://tech.eu/2025/07/31/uk-quantum-computing-is-going-universal-through-scaling"
+    }
+  ],
+  "name": "Universal Quantum",
+  "name_key": "universalquantum",
+  "region": "europe",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-universal-quantum.txt",
+    "article_url": "https://tech.eu/2026/10/08/university-of-sussex-quantum-spinout-raises-record-ps100m-series-a/",
+    "judged_run": "2026-10-12-r6",
+    "pages": 2,
+    "queries_done": [
+      "\"Universal Quantum\" startup UK"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-universal-quantum.txt"
+  },
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": null,
+      "market": 8.0,
+      "overall": 8.0,
+      "run": "2026-10-12-r6",
+      "tech": 8.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:11:53+00:00",
+  "website": "https://universalquantum.com"
+}

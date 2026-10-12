@@ -1,0 +1,191 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Indonesia",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "Indonesia",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://e27.co/spun-raises-us1-8m-to-fix-seas-broken-visa-infrastructure-20260119/"
+        ],
+        "value": "Jakarta, Indonesia"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://industri.kontan.co.id/news/spun-raih-pendanaan-tahap-awal-us-18-juta-untuk-ekspansi-di-asia-tenggara"
+        ],
+        "value": "Raised a $1.8M seed round to expand across Southeast Asia."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://e27.co/spun-raises-us1-8m-to-fix-seas-broken-visa-infrastructure-20260119/",
+          "https://industri.kontan.co.id/news/spun-raih-pendanaan-tahap-awal-us-18-juta-untuk-ekspansi-di-asia-tenggara"
+        ],
+        "value": "$1.8M seed"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Getting a visa in Southeast Asia is slow and confusing, so SPUN uses AI to handle the paperwork.",
+    "industry": "Travel tech",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Find a slow, paper-heavy process that many people hate, and let software do the steps.",
+    "name": "SPUN Global",
+    "not_startup_reason": null,
+    "overall": 5.0,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "substitute: seed round from Antler-linked and other investors",
+        "reason": "No customer or revenue numbers were found.",
+        "score": null,
+        "source": "https://kr-asia.com/deals-in-brief-indonesias-spun-raises-seed-funding-gobi-partners-makes-first-bangladesh-investment-11-china-investments-and-more"
+      },
+      "market": {
+        "reason": "Visas are needed across a whole region, but this is still a niche in travel.",
+        "score": 6,
+        "source": "https://e27.co/spun-raises-us1-8m-to-fix-seas-broken-visa-infrastructure-20260119/"
+      },
+      "tech": {
+        "reason": "AI workflow software on top of available tools; a good team could copy it in months.",
+        "score": 4,
+        "source": "https://e27.co/how-spun-uses-agentic-ai-to-untangle-southeast-asias-visa-mess-20260126/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-10",
+        "title": "Antler backs $1.8M round in Indonesian travel startup SPUN",
+        "url": "https://www.techinasia.com/antler-backs-1-8m-round-in-indonesian-travel-startup-spun"
+      },
+      {
+        "date": "2026-01-19",
+        "title": "SPUN raises US$1.8M to fix SEA's broken visa infrastructure",
+        "url": "https://e27.co/spun-raises-us1-8m-to-fix-seas-broken-visa-infrastructure-20260119/"
+      },
+      {
+        "date": "2026-01-26",
+        "title": "How SPUN uses agentic AI to untangle Southeast Asia's visa mess",
+        "url": "https://e27.co/how-spun-uses-agentic-ai-to-untangle-southeast-asias-visa-mess-20260126/"
+      },
+      {
+        "date": null,
+        "title": "Indonesia's SPUN raises seed funding",
+        "url": "https://kr-asia.com/deals-in-brief-indonesias-spun-raises-seed-funding-gobi-partners-makes-first-bangladesh-investment-11-china-investments-and-more"
+      },
+      {
+        "date": null,
+        "title": "SPUN raih pendanaan tahap awal US$1,8 juta",
+        "url": "https://industri.kontan.co.id/news/spun-raih-pendanaan-tahap-awal-us-18-juta-untuk-ekspansi-di-asia-tenggara"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It uses AI agents to work through each country's visa rules instead of relying on manual agents.",
+    "website": null,
+    "who_pays": "Travellers and travel companies that pay to get visas processed faster.",
+    "why_now": "Travel across Southeast Asia is growing, and AI agents can now handle messy forms and rules."
+  },
+  "first_judged_run": "2026-10-12-r6",
+  "first_seen": "2026-10-12",
+  "id": "spun-global",
+  "industry": "Travel tech",
+  "last_checked": "2026-10-12",
+  "mentions": [
+    {
+      "date": "2026-10-10",
+      "run": "2026-10-12-r6",
+      "snippet": "Visa venture spinoff, $1.8M seed",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.techinasia.com/antler-backs-1-8m-round-in-indonesian-travel-startup-spun"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Jakarta-based startup building AI-enabled visa infrastructure raised $1.8M seed led by Genesia Ventures.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "SPUN raises US$1.8M to fix SEA's broken visa infrastructure",
+      "url": "https://e27.co/spun-raises-us1-8m-to-fix-seas-broken-visa-infrastructure-20260119/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Co-founders Dilla Anindita and Christa Sabathaly.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "How SPUN uses agentic AI to untangle Southeast Asia's visa mess",
+      "url": "https://e27.co/how-spun-uses-agentic-ai-to-untangle-southeast-asias-visa-mess-20260126/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Deals in brief: SPUN seed funding.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Indonesia's SPUN raises seed funding",
+      "url": "https://kr-asia.com/deals-in-brief-indonesias-spun-raises-seed-funding-gobi-partners-makes-first-bangladesh-investment-11-china-investments-and-more"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Seed funding of US$1.8M for Southeast Asia expansion.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "SPUN raih pendanaan tahap awal US$1,8 juta untuk ekspansi di Asia Tenggara",
+      "url": "https://industri.kontan.co.id/news/spun-raih-pendanaan-tahap-awal-us-18-juta-untuk-ekspansi-di-asia-tenggara"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Antler pre-seed backing in Indonesia.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Antler backs six startups with $750,000 Pre-Seed funding in Indonesia",
+      "url": "https://antler.co/blog/antler-backs-6-startups-with-750-000-pre-seed-funding-in-indonesia"
+    }
+  ],
+  "name": "SPUN Global",
+  "name_key": "spunglobal",
+  "region": "asia",
+  "research": {
+    "article_read": true,
+    "judged_run": "2026-10-12-r6",
+    "pages": 1,
+    "queries_done": [
+      "\"SPUN Global\" startup Indonesia"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": null,
+      "market": 6.0,
+      "overall": 5.0,
+      "run": "2026-10-12-r6",
+      "tech": 4.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:24:20+00:00",
+  "website": null
+}

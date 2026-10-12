@@ -1,0 +1,172 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Israel",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "Israel",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://securityweek.com/rein-security-raises-25-million-to-guard-ai-agents-at-runtime"
+        ],
+        "value": "Israel"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.geektime.co.il/rein-security-nabs-series-a/",
+          "https://securityweek.com/rein-security-raises-25-million-to-guard-ai-agents-at-runtime"
+        ],
+        "value": "Raised a $25M Series A less than a year after an $8M seed."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://securityweek.com/rein-security-raises-25-million-to-guard-ai-agents-at-runtime",
+          "https://glilotcapital.com/cyberhubs/8200-alumni-raise-8-million-seed-round-for-rein-security-as-appsec-faces-the-ai-era/",
+          "https://www.kucoin.com/news/flash/rein-security-completes-25m-series-a-funding-to-secure-enterprise-ai-agents"
+        ],
+        "value": "$33M ($8M seed plus $25M Series A)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Companies now let AI agents act inside their software, and that opens new holes, so Rein Security watches and guards those agents while they run.",
+    "industry": "Cybersecurity",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "When a new technology wave creates new risks, sell the guard rail for it early.",
+    "name": "Rein Security",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "substitute: funding round bigger than the last",
+        "reason": "No customer or revenue numbers, but the new round is about three times the seed.",
+        "score": null,
+        "source": "https://www.geektime.co.il/rein-security-nabs-series-a/"
+      },
+      "market": {
+        "reason": "Every business using AI agents will need to secure them, worldwide.",
+        "score": 8,
+        "source": "https://securityweek.com/rein-security-raises-25-million-to-guard-ai-agents-at-runtime"
+      },
+      "tech": {
+        "reason": "Runtime protection for agents is solid engineering by a team from Unit 8200, but rivals can catch up in months.",
+        "score": 6,
+        "source": "https://glilotcapital.com/cyberhubs/8200-alumni-raise-8-million-seed-round-for-rein-security-as-appsec-faces-the-ai-era/"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-08",
+        "title": "Geektime: Rein Security Series A",
+        "url": "https://www.geektime.co.il/rein-security-nabs-series-a/"
+      },
+      {
+        "date": null,
+        "title": "Rein Security Completes $25M Series A Funding to Secure Enterprise AI Agents",
+        "url": "https://www.kucoin.com/news/flash/rein-security-completes-25m-series-a-funding-to-secure-enterprise-ai-agents"
+      },
+      {
+        "date": null,
+        "title": "Rein Security raises $25 million to guard AI agents at runtime",
+        "url": "https://securityweek.com/rein-security-raises-25-million-to-guard-ai-agents-at-runtime"
+      },
+      {
+        "date": null,
+        "title": "8200 alumni raise $8 million Seed round for Rein Security",
+        "url": "https://glilotcapital.com/cyberhubs/8200-alumni-raise-8-million-seed-round-for-rein-security-as-appsec-faces-the-ai-era/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It protects software at runtime, as it works, instead of only checking code before release.",
+    "website": null,
+    "who_pays": "Large companies pay for the security product.",
+    "why_now": "AI coding tools and agents are spreading fast and create a new kind of security risk."
+  },
+  "first_judged_run": "2026-10-12-r6",
+  "first_seen": "2026-10-12",
+  "id": "rein-security",
+  "industry": "Cybersecurity",
+  "last_checked": "2026-10-12",
+  "mentions": [
+    {
+      "date": "2026-10-08",
+      "run": "2026-10-12-r6",
+      "snippet": "Series A, raising again within a year",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.geektime.co.il/rein-security-nabs-series-a/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Series A of $25M.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Rein Security Completes $25M Series A Funding to Secure Enterprise AI Agents",
+      "url": "https://www.kucoin.com/news/flash/rein-security-completes-25m-series-a-funding-to-secure-enterprise-ai-agents"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Israeli startup securing AI agents.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Rein Security raises $25 million to guard AI agents at runtime",
+      "url": "https://securityweek.com/rein-security-raises-25-million-to-guard-ai-agents-at-runtime"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Seed round led by Glilot Capital.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "8200 alumni raise $8 million Seed round for Rein Security",
+      "url": "https://glilotcapital.com/cyberhubs/8200-alumni-raise-8-million-seed-round-for-rein-security-as-appsec-faces-the-ai-era/"
+    }
+  ],
+  "name": "Rein Security",
+  "name_key": "reinsecurity",
+  "region": "asia",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-rein-security.txt",
+    "article_url": "https://www.geektime.co.il/rein-security-nabs-series-a/",
+    "judged_run": "2026-10-12-r6",
+    "pages": 1,
+    "queries_done": [
+      "\"Rein Security\" startup Israel"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": null,
+      "market": 8.0,
+      "overall": 7.0,
+      "run": "2026-10-12-r6",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:26:15+00:00",
+  "website": null
+}

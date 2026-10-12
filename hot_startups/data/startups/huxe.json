@@ -1,0 +1,195 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "United States",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "United States",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.ithinkdiff.com/apple-huxe-hiring-licensing-deal/",
+          "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/"
+        ],
+        "value": "Audio service ended May 28; Apple signed a deal to hire the team and license the tech."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://ecosistemastartup.com/huxe-cierra-tras-11-meses-lecciones-para-founders-de-ia/"
+        ],
+        "value": "$4.6M seed"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Podcasts are the same for everyone. Huxe made personal audio shows that fit what each listener cares about.",
+    "industry": "AI audio",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "A team with rare skills can be worth more to a big company than the product they ship.",
+    "name": "Huxe",
+    "not_startup_reason": null,
+    "overall": 6.0,
+    "region": "north_america",
+    "scores": {
+      "growth": {
+        "basis": "unknown",
+        "reason": "No user or revenue numbers were found.",
+        "score": null,
+        "source": null
+      },
+      "market": {
+        "reason": "Many people listen to podcasts, but personal AI audio is still a niche.",
+        "score": 6,
+        "source": "https://macrumors.com/2026/10/09/apple-signs-hiring-deal-ai-podcast-startup-huxe"
+      },
+      "tech": {
+        "reason": "Good audio AI from an experienced team, but the idea can be copied in months.",
+        "score": 6,
+        "source": "https://www.analyticsinsight.net/news/apple-signs-deal-with-huxe-after-ai-audio-startup-shuts-down"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-10-10",
+        "title": "Apple discloses deal to hire team and license tech from Huxe",
+        "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/"
+      },
+      {
+        "date": null,
+        "title": "Huxe closes after 11 months",
+        "url": "https://ecosistemastartup.com/huxe-cierra-tras-11-meses-lecciones-para-founders-de-ia/"
+      },
+      {
+        "date": "2026-10-09",
+        "title": "Apple Signs Hiring and Licensing Deal With Huxe",
+        "url": "https://macrumors.com/2026/10/09/apple-signs-hiring-deal-ai-podcast-startup-huxe"
+      },
+      {
+        "date": null,
+        "title": "Apple signs deal with Huxe after shutdown",
+        "url": "https://www.analyticsinsight.net/news/apple-signs-deal-with-huxe-after-ai-audio-startup-shuts-down"
+      },
+      {
+        "date": null,
+        "title": "Apple Strikes Hiring and Licensing Deal with Huxe",
+        "url": "https://www.ithinkdiff.com/apple-huxe-hiring-licensing-deal/"
+      }
+    ],
+    "status_signal": "shut_down",
+    "twist": "It was started by people from the NotebookLM team, which turns documents into talk-show style audio.",
+    "website": null,
+    "who_pays": "Listeners were the target customers; the company's only reported money came from investors.",
+    "why_now": "AI voices got good enough to make natural-sounding shows on demand."
+  },
+  "first_seen": "2026-10-12",
+  "id": "huxe",
+  "industry": "AI audio",
+  "last_checked": "2026-10-12",
+  "mentions": [
+    {
+      "date": "2026-10-10",
+      "run": "2026-10-12-r6",
+      "snippet": "Personalized AI podcast startup; Apple hiring team and licensing tech",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/"
+    },
+    {
+      "date": "2026-10-09",
+      "run": "2026-10-12-r6",
+      "snippet": "AI audio startup; Apple hiring team and licensing tech",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://webrazzi.com/2026/10/09/apple-yapay-zeka-girisimi-huxeun-ekibini-ve-teknolojisini-bunyesine-katiyor/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Huxe shut down after 11 months; reported $4.6M seed.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Huxe cierra tras 11 meses: lecciones para founders de IA",
+      "url": "https://ecosistemastartup.com/huxe-cierra-tras-11-meses-lecciones-para-founders-de-ia/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Apple may hire Huxe staff and license its IP.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Apple Signs Hiring and Licensing Deal With AI Podcast Startup Huxe",
+      "url": "https://macrumors.com/2026/10/09/apple-signs-hiring-deal-ai-podcast-startup-huxe"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Huxe founded by former NotebookLM team members.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Apple signs deal with Huxe after AI audio startup shuts down",
+      "url": "https://www.analyticsinsight.net/news/apple-signs-deal-with-huxe-after-ai-audio-startup-shuts-down"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Audio service ended May 28.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Apple Strikes Hiring and Licensing Deal with AI Podcast Startup Huxe",
+      "url": "https://www.ithinkdiff.com/apple-huxe-hiring-licensing-deal/"
+    }
+  ],
+  "name": "Huxe",
+  "name_key": "huxe",
+  "region": "north_america",
+  "research": {
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-huxe.txt",
+    "article_url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+    "judged_run": "2026-10-12-r6",
+    "pages": 1,
+    "queries_done": [
+      "\"Huxe\" startup US"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": null,
+      "market": 6.0,
+      "overall": 6.0,
+      "run": "2026-10-12-r6",
+      "tech": 6.0
+    }
+  ],
+  "status": "struggling",
+  "struggling": {
+    "run": "2026-10-12-r6",
+    "what": "shut_down",
+    "why": "No user or revenue numbers were found."
+  },
+  "updated": "2026-10-12T02:16:02+00:00",
+  "website": null
+}

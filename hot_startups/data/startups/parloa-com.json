@@ -4,11 +4,111 @@
   "country": "Germany",
   "domain": "parloa.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Germany",
+    "facts": {
+      "based_in": {
+        "confirmed": true,
+        "sources": [
+          "https://www.vestbee.com/insights/articles/parloa-raises-350-m",
+          "https://www.invest-in.berlin/n/berlins-parloa-raises-350m-now-worth-3-billion/"
+        ],
+        "value": "Berlin, Germany"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [
+          "https://www.invest-in.berlin/n/berlins-parloa-raises-350m-now-worth-3-billion/"
+        ],
+        "value": "2017"
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://www.invest-in.berlin/n/berlins-parloa-raises-350m-now-worth-3-billion/"
+        ],
+        "value": "Valuation tripled to $3B in eight months."
+      },
+      "raised": {
+        "confirmed": true,
+        "sources": [
+          "https://www.vestbee.com/insights/articles/parloa-raises-350-m",
+          "https://informat.ro/en/international/the-german-start-up-parloa-raises-350-million-dollars-for-ai-expansion-102922"
+        ],
+        "value": "$350M Series D"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Companies get huge numbers of customer calls and chats; Parloa makes AI agents that answer them by voice and text.",
+    "industry": "AI tools",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Give non-experts a simple tool to build and tune AI workers, and sell it to big firms with costly routine work.",
+    "name": "Parloa",
+    "not_startup_reason": null,
+    "overall": 7.3,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "3x valuation in 8 months",
+        "reason": "Valuation tripled in eight months and a $350M round followed a $66M Series B.",
+        "score": 8,
+        "source": "https://www.invest-in.berlin/n/berlins-parloa-raises-350m-now-worth-3-billion/"
+      },
+      "market": {
+        "reason": "Every large company with customer service could use it, worldwide.",
+        "score": 8,
+        "source": "https://www.parloa.com"
+      },
+      "tech": {
+        "reason": "Solid platform engineering with enterprise certifications, but rivals can build similar tools.",
+        "score": 6,
+        "source": "https://www.parloa.com"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Parloa website",
+        "url": "https://www.parloa.com"
+      },
+      {
+        "date": null,
+        "title": "Parloa raises $350M",
+        "url": "https://www.vestbee.com/insights/articles/parloa-raises-350-m"
+      },
+      {
+        "date": null,
+        "title": "Parloa raises 350 million dollars",
+        "url": "https://informat.ro/en/international/the-german-start-up-parloa-raises-350-million-dollars-for-ai-expansion-102922"
+      },
+      {
+        "date": null,
+        "title": "Berlin's Parloa raises $350M, now worth $3 billion",
+        "url": "https://www.invest-in.berlin/n/berlins-parloa-raises-350m-now-worth-3-billion/"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "Staff who are not engineers can build and improve the AI agents with a low-code tool, and the agents learn from each conversation.",
+    "website": "https://www.parloa.com",
+    "who_pays": "Large companies such as insurers and retailers pay for the platform.",
+    "why_now": "AI can now hold natural phone conversations, so firms can cut call-centre costs and be open around the clock."
+  },
+  "first_judged_run": "2026-10-12-r6",
   "first_seen": "2026-09-28",
   "id": "parloa-com",
-  "industry": "AI Voice & Conversational",
-  "last_checked": null,
+  "industry": "AI tools",
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "",
@@ -27,18 +127,99 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-12-r6",
+      "snippet": "AI Voice & Conversational startup from Germany in VivaTech's Top 100 Rising European Startups 2026.",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://www.parloa.com"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Berlin AI customer service agents company raises $350M Series D.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Parloa raises $350M",
+      "url": "https://www.vestbee.com/insights/articles/parloa-raises-350-m"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Series B of $66M.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Parloa secures 66 million dollars in financing",
+      "url": "https://www.startbase.com/news/parloa-sichert-sich-66-millionen-dollar-finanzierung"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Series D $350M for international expansion.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "The German start-up Parloa raises 350 million dollars for AI expansion",
+      "url": "https://informat.ro/en/international/the-german-start-up-parloa-raises-350-million-dollars-for-ai-expansion-102922"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Valuation tripled to $3B in eight months; founded 2017 by Malte Kosub and Stefan Ostwald.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Berlin's Parloa raises $350M, now worth $3 billion",
+      "url": "https://www.invest-in.berlin/n/berlins-parloa-raises-350m-now-worth-3-billion/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Interview with Malte Kosub.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Parloa unicorn interview",
+      "url": "https://www.deutschland.de/de/topic/wirtschaft/parloa-startup-einhorn-malte-kosub-interview"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Organization profile.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Parloa - Startbase",
+      "url": "https://www.startbase.de/organization/parloa/"
     }
   ],
   "name": "Parloa",
   "name_key": "parloa",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-parloa-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-12-r6",
+    "pages": 2,
+    "queries_done": [
+      "\"Parloa\" startup Germany"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-parloa-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-10-05T05:06:35+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 8.0,
+      "market": 8.0,
+      "overall": 7.3,
+      "run": "2026-10-12-r6",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:14:36+00:00",
   "website": "https://www.parloa.com"
 }

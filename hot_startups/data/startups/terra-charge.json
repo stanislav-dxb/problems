@@ -1,0 +1,157 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Japan",
+  "domain": null,
+  "drop_reason": null,
+  "entry": {
+    "country": "Japan",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://herp.careers/v1/terra/requisition-groups/4355c33d-de0c-4fce-9fcf-f399c8f4be01"
+        ],
+        "value": "Japan"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": false,
+        "sources": [
+          "https://herp.careers/v1/terra/requisition-groups/4355c33d-de0c-4fce-9fcf-f399c8f4be01"
+        ],
+        "value": "Expanded to India, Indonesia and Thailand."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [
+          "https://herp.careers/v1/terra/requisition-groups/4355c33d-de0c-4fce-9fcf-f399c8f4be01"
+        ],
+        "value": "217 (as of Aug 2024)"
+      }
+    },
+    "idea": "Electric car owners struggle to find places to charge, so Terra Charge builds and runs charging points.",
+    "industry": "EV charging",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Prove a utility network in one dense market, then copy it into neighbouring countries.",
+    "name": "Terra Charge",
+    "not_startup_reason": null,
+    "overall": 6.3,
+    "region": "asia",
+    "scores": {
+      "growth": {
+        "basis": "substitute: 217 employees and expansion to three countries",
+        "reason": "Three new countries and 217 staff, but no revenue numbers.",
+        "score": 6,
+        "source": "https://herp.careers/v1/terra/requisition-groups/4355c33d-de0c-4fce-9fcf-f399c8f4be01"
+      },
+      "market": {
+        "reason": "EV charging is needed in every country that adopts electric cars.",
+        "score": 8,
+        "source": "https://herp.careers/v1/terra/requisition-groups/4355c33d-de0c-4fce-9fcf-f399c8f4be01"
+      },
+      "tech": {
+        "reason": "Charging networks are solid engineering that others can copy.",
+        "score": 5,
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "date": null,
+        "title": "Terra Charge jobs",
+        "url": "https://herp.careers/v1/terra/requisition-groups/4355c33d-de0c-4fce-9fcf-f399c8f4be01"
+      },
+      {
+        "date": "2026-10-10",
+        "title": "From backend to bedtime (Tech in Asia, raised funds this week)",
+        "url": "https://www.techinasia.com/from-backend-to-bedtime"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It is growing from Japan into India, Indonesia and Thailand.",
+    "website": null,
+    "who_pays": "Drivers pay to charge, and likely property owners pay for chargers on site.",
+    "why_now": "More people are buying electric cars in Asia, and they need chargers."
+  },
+  "first_judged_run": "2026-10-12-r6",
+  "first_seen": "2026-10-12",
+  "id": "terra-charge",
+  "industry": "EV charging",
+  "last_checked": "2026-10-12",
+  "mentions": [
+    {
+      "date": "2026-10-10",
+      "run": "2026-10-12-r6",
+      "snippet": "Raised funds this week",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://www.techinasia.com/from-backend-to-bedtime"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "EV charging company in Japan, 217 employees as of Aug 2024; expanded to India, Indonesia, Thailand.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Terra Charge 株式会社 jobs",
+      "url": "https://herp.careers/v1/terra/requisition-groups/4355c33d-de0c-4fce-9fcf-f399c8f4be01"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Different company: Terra, Korean blockchain payments, Southeast Asia hub in Singapore.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Terra expands to Singapore",
+      "url": "https://e27.co/blockchain-payment-network-terra-expands-to-singapore-with-former-uber-exec-in-leadership-20191219/"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Singapore EV charging story (Charge+), a separate company.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Charging ahead of the pack",
+      "url": "https://www.dbs.com.sg/sme/businessclass/sme-stories/charging-ahead-of-the-pack"
+    }
+  ],
+  "name": "Terra Charge",
+  "name_key": "terracharge",
+  "region": "asia",
+  "research": {
+    "article_read": true,
+    "judged_run": "2026-10-12-r6",
+    "pages": 1,
+    "queries_done": [
+      "\"Terra Charge\" startup Singapore"
+    ],
+    "refresh": false,
+    "searches": 1
+  },
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 6.0,
+      "market": 8.0,
+      "overall": 6.3,
+      "run": "2026-10-12-r6",
+      "tech": 5.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:26:48+00:00",
+  "website": null
+}

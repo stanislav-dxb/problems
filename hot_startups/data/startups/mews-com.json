@@ -4,11 +4,108 @@
   "country": "Czech Republic",
   "domain": "mews.com",
   "drop_reason": null,
-  "entry": null,
+  "entry": {
+    "country": "Czech Republic",
+    "facts": {
+      "based_in": {
+        "confirmed": false,
+        "sources": [
+          "https://www.czechtradeoffices.com/en/us/news/revolutionizing-hospitality-the-rise-of-mews,-czech-republic-s-third-unicorn"
+        ],
+        "value": "Prague, Czech Republic"
+      },
+      "founded": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      },
+      "growth_signal": {
+        "confirmed": true,
+        "sources": [
+          "https://www.mews.com",
+          "https://expats.cz/czech-news/article/tech-startup-becomes-third-czech-firm-in-history-to-reach-unicorn-status-1"
+        ],
+        "value": "Used by over 15,000 properties and valued above $1.2B."
+      },
+      "raised": {
+        "confirmed": false,
+        "sources": [
+          "https://finder.techleap.nl/news/feed/mews-secures-75m-in-major-funding-round"
+        ],
+        "value": "$75M growth round (August 2025)"
+      },
+      "team_size": {
+        "confirmed": false,
+        "sources": [],
+        "value": null
+      }
+    },
+    "idea": "Hotels often run on old, clumsy software; Mews gives them one cloud system for bookings, payments, rooms and pricing.",
+    "industry": "Hotel software",
+    "is_startup": true,
+    "judged_on": "2026-10-12",
+    "judged_run": "2026-10-12-r6",
+    "lesson": "Replace a patchwork of old tools in one industry with a single system, then earn on payments too.",
+    "name": "Mews",
+    "not_startup_reason": null,
+    "overall": 7.0,
+    "region": "europe",
+    "scores": {
+      "growth": {
+        "basis": "number",
+        "reason": "Over 15,000 properties, a new $75M round and a VivaTech list that requires 40% yearly growth.",
+        "score": 8,
+        "source": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      "market": {
+        "reason": "Hotels worldwide need this software, but it is one industry.",
+        "score": 7,
+        "source": "https://www.mews.com"
+      },
+      "tech": {
+        "reason": "Solid cloud system with many integrations, but rivals could copy parts of it.",
+        "score": 6,
+        "source": "https://www.mews.com"
+      }
+    },
+    "sources": [
+      {
+        "date": "2026-03-17",
+        "title": "Top 100 Rising Startups of 2026",
+        "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+      },
+      {
+        "date": null,
+        "title": "Mews website",
+        "url": "https://www.mews.com"
+      },
+      {
+        "date": null,
+        "title": "Tech startup becomes third Czech firm in history to reach unicorn status",
+        "url": "https://expats.cz/czech-news/article/tech-startup-becomes-third-czech-firm-in-history-to-reach-unicorn-status-1"
+      },
+      {
+        "date": null,
+        "title": "Revolutionizing hospitality: the rise of Mews",
+        "url": "https://www.czechtradeoffices.com/en/us/news/revolutionizing-hospitality-the-rise-of-mews,-czech-republic-s-third-unicorn"
+      },
+      {
+        "date": "2025-08-01",
+        "title": "Mews secures 75M in major funding round",
+        "url": "https://finder.techleap.nl/news/feed/mews-secures-75m-in-major-funding-round"
+      }
+    ],
+    "status_signal": "active",
+    "twist": "It is one connected system for the whole hotel, with over 1,000 apps that plug into it.",
+    "website": "https://www.mews.com",
+    "who_pays": "Hotels, hostels and hotel groups pay a software subscription and fees on payments.",
+    "why_now": "Hotels want to cut manual work and move from old on-site systems to the cloud."
+  },
+  "first_judged_run": "2026-10-12-r6",
   "first_seen": "2026-09-28",
   "id": "mews-com",
-  "industry": "Travel Tech",
-  "last_checked": null,
+  "industry": "Hotel software",
+  "last_checked": "2026-10-12",
   "mentions": [
     {
       "date": "",
@@ -27,18 +124,81 @@
       "source_kind": "list",
       "title": "",
       "url": "https://vivatech.com/news/top-100-rising-startups-of-2026"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-12-r6",
+      "snippet": "Travel Tech startup from Czech Republic in VivaTech's Top 100 Rising European Startups 2026.",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://www.mews.com"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Mews hotel software, over $1.2B valuation.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Tech startup becomes third Czech firm in history to reach unicorn status",
+      "url": "https://expats.cz/czech-news/article/tech-startup-becomes-third-czech-firm-in-history-to-reach-unicorn-status-1"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Prague-founded hospitality software.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Revolutionizing hospitality: the rise of Mews",
+      "url": "https://www.czechtradeoffices.com/en/us/news/revolutionizing-hospitality-the-rise-of-mews,-czech-republic-s-third-unicorn"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Growth round August 2025.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Mews secures 75M in major funding round",
+      "url": "https://finder.techleap.nl/news/feed/mews-secures-75m-in-major-funding-round"
+    },
+    {
+      "date": "",
+      "run": "2026-10-12-r6",
+      "snippet": "Investment news.",
+      "source": "web search",
+      "source_kind": "research",
+      "title": "Czech-founded startup Mews secures major investment from US firm",
+      "url": "https://www.expats.cz/czech-news/article/czech-founded-startup-mews-secures-major-investment-from-us-firm"
     }
   ],
   "name": "Mews",
   "name_key": "mews",
-  "region": null,
+  "region": "europe",
   "research": {
-    "pages": 0,
-    "queries_done": [],
-    "searches": 0
+    "article_read": true,
+    "article_text": "/home/user/problems/hot_startups/cache/article-mews-com.txt",
+    "article_url": "https://vivatech.com/news/top-100-rising-startups-of-2026",
+    "judged_run": "2026-10-12-r6",
+    "pages": 2,
+    "queries_done": [
+      "\"Mews\" startup Czech Republic"
+    ],
+    "refresh": false,
+    "searches": 1,
+    "site_read": true,
+    "site_text": "/home/user/problems/hot_startups/cache/site-mews-com.txt"
   },
-  "score_history": [],
-  "status": "candidate",
-  "updated": "2026-10-05T05:06:35+00:00",
+  "score_history": [
+    {
+      "date": "2026-10-12",
+      "growth": 8.0,
+      "market": 7.0,
+      "overall": 7.0,
+      "run": "2026-10-12-r6",
+      "tech": 6.0
+    }
+  ],
+  "status": "judged",
+  "updated": "2026-10-12T02:13:31+00:00",
   "website": "https://www.mews.com"
 }

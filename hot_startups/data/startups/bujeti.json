@@ -213,6 +213,15 @@
       "source_kind": "research",
       "title": "Bujeti Startup Profile - Skyweb",
       "url": "https://skyweb.com.ng/startup-bujeti-nigerian-startup-profile/"
+    },
+    {
+      "date": "2026-10-08",
+      "run": "2026-10-12-r6",
+      "snippet": "YC-backed, launched Brain agentic AI for finance teams",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "https://disruptafrica.com/2026/10/08/yc-backed-bujeti-launches-ai-teammates-to-take-manual-work-off-african-finance-teams/"
     }
   ],
   "name": "Bujeti",
@@ -241,6 +250,6 @@
     }
   ],
   "status": "judged",
-  "updated": "2026-09-28T03:26:36+00:00",
+  "updated": "2026-10-12T02:08:23+00:00",
   "website": null
 }

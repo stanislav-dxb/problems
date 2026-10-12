@@ -1,0 +1,35 @@
+{
+  "alias_keys": [],
+  "aliases": [],
+  "country": "Saudi Arabia",
+  "domain": null,
+  "drop_reason": null,
+  "entry": null,
+  "first_seen": "2026-10-12",
+  "id": "autobia",
+  "industry": "autotech",
+  "last_checked": null,
+  "mentions": [
+    {
+      "date": "2026-10-11",
+      "run": "2026-10-12-r6",
+      "snippet": "B2B autotech, $12M Series A led by Artal",
+      "source": "news feeds",
+      "source_kind": "feed",
+      "title": "",
+      "url": "http://wamda.com/2026/10/saudi-autotech-autobia-raises-12-million-series-a-led-artal-capital"
+    }
+  ],
+  "name": "Autobia",
+  "name_key": "autobia",
+  "region": null,
+  "research": {
+    "pages": 0,
+    "queries_done": [],
+    "searches": 0
+  },
+  "score_history": [],
+  "status": "candidate",
+  "updated": "2026-10-12T02:08:23+00:00",
+  "website": null
+}

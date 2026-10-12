@@ -1,0 +1,270 @@
+{
+  "brief": "Ten new startups joined the list this week, which now has 50 companies in total. The strongest newcomer is Helical Fusion from Japan, which is building a fusion power plant to give the world clean power day and night, and it is bringing big industrial suppliers in as partners early. The trend of the week is space and defense hardware, with newcomers like ICEYE, Isar Aerospace and Helsing building satellites, rockets and drones for governments that suddenly need them.",
+  "counts": {
+    "extractions": 6,
+    "feeds_read": 28,
+    "judged": 60,
+    "pages": 89,
+    "searches": 64,
+    "synthesis": 3
+  },
+  "failures": 7,
+  "feeds_read": 28,
+  "gaps": [
+    "Nobody applies the hard-science-plus-AI approach of AQEMIA, Cradle and CuspAI to agriculture or food, such as designing crop proteins or soil microbes for farmers in Africa or India.",
+    "The security startups (Island, Cyera, Upwind, Cymphony) all sell to large enterprises; a security product for small clinics, schools or local governments that cannot afford a security team is missing.",
+    "Frontline-worker software (Sona) and warehouse robots (Maven Robotics, Dexory) skip construction sites, where an AI that tracks progress and safety could combine both ideas.",
+    "Latin America and Africa barely appear outside fintech (Jeeves, Paymob) and BioLinker; a deep-tech startup there, such as local-language voice AI in the spirit of ElevenLabs and Loora, is open.",
+    "Medical AI like Nabla, Epsilon Health and Precision Neuroscience targets doctors and patients, but nobody builds AI aimed at nurses and care-home staff, who do much of the paperwork-heavy work."
+  ],
+  "generated": "2026-10-12T02:31:03+00:00",
+  "last_success": "2026-10-12",
+  "limits": {
+    "pages_per_week": 200,
+    "run_minutes": 90,
+    "searches_per_week": 250,
+    "startups_judged_per_week": 60
+  },
+  "minutes": 25.7,
+  "mix": {
+    "asia": 5,
+    "europe": 27,
+    "mea": 5,
+    "north_america": 13
+  },
+  "new_ids": [
+    "helical-fusion",
+    "bfl-ai",
+    "iceye-com",
+    "isaraerospace-com",
+    "sava-technologies",
+    "universal-quantum",
+    "butterfly-effect-manus",
+    "helsing-ai",
+    "typesafe-ai",
+    "petra-power"
+  ],
+  "number": 6,
+  "run_id": "2026-10-12-r6",
+  "run_line": "64 searches of 250, 89 pages of 200, 60 startups judged of 60, 26 minutes",
+  "struggling": [
+    {
+      "country": "United States",
+      "name": "Huxe",
+      "sector": "AI audio",
+      "source_url": null,
+      "what": "shut_down",
+      "why": "No user or revenue numbers were found."
+    },
+    {
+      "country": "United States",
+      "name": "Tribal",
+      "sector": "fintech",
+      "source_url": "https://startups.com.br/noticias/tribal-diz-adeus-fintech-do-vale-do-silicio-encerra-operacoes-no-brasil/",
+      "what": "shut_down",
+      "why": "The Silicon Valley fintech closed its Brazilian operations after a little over a year."
+    },
+    {
+      "country": "Colombia",
+      "name": "Frubana",
+      "sector": "food delivery / B2B commerce",
+      "source_url": "https://gironews.com/varejo-digital/startup-colombiana-frubana-encerra-atividades-no-brasil/",
+      "what": "shut_down",
+      "why": "The Colombian startup ended its Brazil operation on July 30."
+    },
+    {
+      "country": "Indonesia",
+      "name": "Pitik",
+      "sector": "agritech",
+      "source_url": "https://dealstreetasia.com/stories/pitik-ceases-operations-403415",
+      "what": "shut_down",
+      "why": "The poultry startup ceased operations after layoffs."
+    },
+    {
+      "country": "Singapore",
+      "name": "SolarHome",
+      "sector": "solar energy",
+      "source_url": "https://www.dealstreetasia.com/stories/sg-solarhome-ligature-to-liquidate-businesses-335215/",
+      "what": "shut_down",
+      "why": "The solar firm is liquidating its business."
+    },
+    {
+      "country": "Singapore",
+      "name": "Ligature",
+      "sector": "biotech",
+      "source_url": "https://www.dealstreetasia.com/stories/sg-solarhome-ligature-to-liquidate-businesses-335215/",
+      "what": "shut_down",
+      "why": "The biotech startup is liquidating its business."
+    },
+    {
+      "country": "United Arab Emirates",
+      "name": "DoubleCloud",
+      "sector": "data infrastructure",
+      "source_url": "https://me.peoplemattersglobal.com/news/business/dubai-based-doublecloud-shuts-down-operations-43074",
+      "what": "shut_down",
+      "why": "The Dubai-based company shut down its operations."
+    },
+    {
+      "country": "unknown",
+      "name": "Maya Climate",
+      "sector": "climate tech",
+      "source_url": "https://carbon-pulse.com/398221/",
+      "what": "shut_down",
+      "why": "The climate tech startup is winding down."
+    }
+  ],
+  "time_up": false,
+  "title": "Hot Startups",
+  "top_ids": [
+    "aqemia-com",
+    "helical-fusion",
+    "ayar-labs",
+    "exploration-space",
+    "precision",
+    "maven-robotics",
+    "tekever",
+    "lovable-dev",
+    "exein-io",
+    "bfl-ai",
+    "iceye-com",
+    "isaraerospace-com",
+    "sava-technologies",
+    "universal-quantum",
+    "crusoe",
+    "enveda",
+    "turing",
+    "hubble-network",
+    "island",
+    "nscale",
+    "axelera-ai",
+    "cusp-ai",
+    "butterfly-effect-manus",
+    "helsing-ai",
+    "typesafe-ai",
+    "armadin",
+    "flatpay-com",
+    "paymob",
+    "truelayer-com",
+    "basecamp-research",
+    "cognition",
+    "cyera",
+    "upwind",
+    "cornelis-networks",
+    "elevenlabs-io",
+    "us-caddi-com",
+    "cradle-bio",
+    "liner",
+    "loora",
+    "mbryonics",
+    "physicsx-ai",
+    "aikido-dev",
+    "jackandjill-ai",
+    "petra-power",
+    "picojool",
+    "standardx",
+    "fluxnium",
+    "nyobolt-com",
+    "open-cosmos",
+    "everycarbon"
+  ],
+  "total_judged": 238,
+  "total_known": 595,
+  "trends": [
+    {
+      "name": "Space and defense hardware",
+      "sentence": "Startups build satellites, rockets, drones and military software for governments that suddenly need them.",
+      "startup_ids": [
+        "exploration-space",
+        "isaraerospace-com",
+        "iceye-com",
+        "open-cosmos",
+        "kepler",
+        "mbryonics",
+        "hubble-network",
+        "tekever",
+        "helsing-ai",
+        "quantum-systems-com",
+        "comand-ai"
+      ]
+    },
+    {
+      "name": "AI agents that do the work",
+      "sentence": "Companies package AI as autonomous workers that finish whole jobs instead of just answering questions.",
+      "startup_ids": [
+        "lovable-dev",
+        "butterfly-effect-manus",
+        "cognition",
+        "factory",
+        "jackandjill-ai",
+        "ema",
+        "parloa-com",
+        "n8n-io",
+        "legora-com"
+      ]
+    },
+    {
+      "name": "Security for the AI era",
+      "sentence": "New security tools protect data, devices, browsers and cloud systems as AI changes how attacks and access work.",
+      "startup_ids": [
+        "island",
+        "cyera",
+        "upwind",
+        "cymphony",
+        "armadin",
+        "aikido-dev",
+        "exein-io",
+        "filigran-io"
+      ]
+    },
+    {
+      "name": "AI compute infrastructure",
+      "sentence": "Startups supply the chips, light-based links, networks, data centers and batteries that AI's huge appetite for computing needs.",
+      "startup_ids": [
+        "ayar-labs",
+        "picojool",
+        "crusoe",
+        "nscale",
+        "cornelis-networks",
+        "axelera-ai",
+        "nyobolt-com"
+      ]
+    },
+    {
+      "name": "AI for science discovery",
+      "sentence": "AI is aimed at slow lab searches to find new drugs, proteins, materials and designs faster.",
+      "startup_ids": [
+        "aqemia-com",
+        "cusp-ai",
+        "enveda",
+        "cradle-bio",
+        "basecamp-research",
+        "biolinker",
+        "physicsx-ai"
+      ]
+    },
+    {
+      "name": "Fintech plumbing",
+      "sentence": "Startups build the payment and back-office rails that replace costly, confusing old financial processes.",
+      "startup_ids": [
+        "truelayer-com",
+        "hifi",
+        "paymob",
+        "flatpay-com",
+        "numeral",
+        "pennylane-tech",
+        "jeeves"
+      ]
+    }
+  ],
+  "unread_sites": [
+    {
+      "reason": "WebFetch returned HTTP 429 Too Many Requests",
+      "url": "https://helsing.ai/"
+    },
+    {
+      "reason": "WebFetch returned HTTP 403 Forbidden",
+      "url": "https://quantum-systems.com/"
+    }
+  ],
+  "week_of": "2026-10-12"
+}

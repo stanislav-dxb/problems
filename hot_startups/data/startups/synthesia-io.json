@@ -149,6 +149,15 @@
       "source_kind": "research",
       "title": "Synthesia becomes the UK's largest AI product",
       "url": "https://www.mindtheproduct.com/synthesia-becomes-the-uks-largest-ai-product-lessons-for-product-teams/"
+    },
+    {
+      "date": "2026-03-17",
+      "run": "2026-10-12-r6",
+      "snippet": "AI Infrastructure & Models startup from UK in VivaTech's Top 100 Rising European Startups 2026.",
+      "source": "VivaTech Top 100 Rising European Startups, 2026 edition. Full table: name, country, sector, link. Next year's edition will have a new address.",
+      "source_kind": "list",
+      "title": "",
+      "url": "https://www.synthesia.io/"
     }
   ],
   "name": "Synthesia",
@@ -179,6 +188,6 @@
     }
   ],
   "status": "judged",
-  "updated": "2026-10-05T05:26:57+00:00",
+  "updated": "2026-10-12T02:06:06+00:00",
   "website": "https://www.synthesia.io/"
 }

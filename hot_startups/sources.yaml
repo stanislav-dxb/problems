@@ -143,7 +143,7 @@ struggling_queries:
 research_queries:
   en:
     - "\"{name}\" startup {country}"
-    - "\"{name}\" founders funding customers"
+    - "\"{name}\" employees team size valuation"
   pt:
     - "\"{name}\" startup rodada investimento"
   es:

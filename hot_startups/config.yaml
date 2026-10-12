@@ -24,16 +24,18 @@ page:
 
 startup_rule:
   max_team_size: 500              # bigger than this is not a startup for our purposes
+  max_valuation_usd_bn: 10        # when the team size is unknown: valued at this many billion dollars or more counts as large
+  max_raised_total_usd_m: 1000    # when the team size is unknown: raised this many million dollars or more in total counts as large
 
 discovery:
   share_of_searches: 0.4          # part of the search budget spent on finding new names (the rest researches them)
   skip_when_backlog_over: 100     # no hunting for new names while this many found startups still wait to be judged
 
 research:
-  searches_per_startup: 1
+  searches_per_startup: 2         # the second search looks for team size, so large companies are caught
   pages_per_startup: 2
   refresh_after_days: 30          # known startups are re-checked after this many days
-  refresh_share: 0.2              # at most this part of the judged budget goes to re-checks
+  refresh_share: 0.35             # at most this part of the judged budget goes to re-checks
 
 struggling:
   searches: 6                     # searches per week for shutdowns, pivots and stalls

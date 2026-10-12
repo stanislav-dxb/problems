@@ -18,6 +18,7 @@ are only a rough sorting tool.
 
 - Privately owned, not on the stock market.
 - Small: under about 500 people.
+- When the team size can't be found: valued at $10 billion or more, or $1 billion or more raised in total, counts as large.
 - Any age, any country, any industry.
 
 Big, well-known companies are dropped. This page is about startups, not large companies.

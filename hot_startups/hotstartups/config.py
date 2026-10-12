@@ -21,7 +21,7 @@ DEFAULTS = {
     "first_run": {"searches_per_week": 60, "pages_per_week": 40, "startups_judged_per_week": 20, "run_minutes": 90},
     "paused": False,
     "page": {"top_n": 50, "artifact_url": "", "title": "Hot Startups"},
-    "startup_rule": {"max_team_size": 500},
+    "startup_rule": {"max_team_size": 500, "max_valuation_usd_bn": 10, "max_raised_total_usd_m": 1000},
     "discovery": {"share_of_searches": 0.4},
     "research": {"searches_per_startup": 2, "pages_per_startup": 2, "refresh_after_days": 30, "refresh_share": 0.2},
     "struggling": {"searches": 6},
